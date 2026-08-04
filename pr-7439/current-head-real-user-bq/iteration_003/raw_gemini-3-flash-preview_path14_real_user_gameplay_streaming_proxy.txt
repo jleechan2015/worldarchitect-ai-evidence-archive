@@ -1,0 +1,106 @@
+{
+  "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Mirtul 15, 06:00:30\nLocation: Misty Mountain Pass\nStatus: Kira (Lvl 1) | HP: 12/12 | XP: 0/300 | Gold: 140gp\nConditions: Normal | Exhaustion: 0 | Inspiration: No",
+  "resources": "HD: 1/1, Spells: L1 0/0 (Lvl 2+), Potions: 0/0",
+  "narrative": "Dawn (06:00:30) in the Misty Mountain Pass—you stand perfectly still, the damp grey veil of the peaks clinging to your leather armor like a cold shroud. The wind whistles through the jagged crags, a lonely, mournful sound that almost masks the world around you. \n\nYou close your eyes, filtering out the visual distraction of the shifting fog to focus on the sounds of the mountain. Beneath the wind's low howl, your ears catch a sharp, metallic scrape—iron dragging against stone—followed by a wet, guttural mutter coming from just behind a jagged outcrop thirty feet ahead. Something, or someone, is lurking in the grey, unaware that a scout's senses have already pierced their cover.",
+  "planning_block": {
+    "thinking": "Kira (Lvl 1) has successfully detected a presence ahead. The sound of iron suggests a weapon or armor, and the guttural voice points toward something less than human—perhaps a goblin or a lone bandit. The mist provides excellent cover for a stealthy approach, but the terrain is treacherous.",
+    "context": "Kira has detected a hidden creature behind an outcrop in the mist.",
+    "choices": [
+      {
+        "id": "sneak_closer",
+        "text": "Sneak Toward the Outcrop",
+        "description": "Utilize the heavy mist and your training in Stealth to get a better look at the source of the noise.",
+        "risk_level": "medium",
+        "pros": [
+          "Gain surprise",
+          "Identify the threat clearly"
+        ],
+        "cons": [
+          "Risk of being spotted if you stumble on loose shale",
+          "Closing the distance puts you in melee range"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "prepare_longbow",
+        "text": "Nock an Arrow and Observe",
+        "description": "Stay at a distance and ready your longbow, waiting for the figure to emerge from the mist.",
+        "risk_level": "low",
+        "pros": [
+          "Maintain safe distance",
+          "Ready for an immediate ranged attack"
+        ],
+        "cons": [
+          "Mist provides the target with half-cover",
+          "The target might slip away into the fog"
+        ],
+        "confidence": "high"
+      },
+      {
+        "id": "call_out",
+        "text": "Call Out a Warning",
+        "description": "Demand the figure show themselves, revealing your presence but potentially avoiding a fight.",
+        "risk_level": "high",
+        "pros": [
+          "Avoid unnecessary bloodshed",
+          "Information gathering through parley"
+        ],
+        "cons": [
+          "Forfeit the element of surprise",
+          "Hostile entities may attack immediately"
+        ],
+        "confidence": "medium"
+      }
+    ]
+  },
+  "action_resolution": {
+    "player_input": "I peer through the mist and listen.",
+    "interpreted_as": "perception_check",
+    "reinterpreted": false,
+    "mechanics": {
+      "type": "skill_check",
+      "rolls": [
+        {
+          "notation": "1d20+4",
+          "rolls": [
+            13
+          ],
+          "modifier": 4,
+          "result": 13,
+          "total": 17,
+          "dc": 15,
+          "dc_reasoning": "Standard DC for noticing creatures in heavy mist and howling wind",
+          "success": true,
+          "purpose": "Perception check"
+        }
+      ]
+    },
+    "audit_flags": [],
+    "narrative_outcome": "Kira successfully identifies the sound of iron and a guttural voice behind a nearby outcrop."
+  },
+  "state_updates": {
+    "world_data": {
+      "world_time": {
+        "year": 1492,
+        "month": "Mirtul",
+        "day": 15,
+        "hour": 6,
+        "minute": 0,
+        "second": 30,
+        "microsecond": 0,
+        "time_of_day": "dawn"
+      }
+    },
+    "custom_campaign_state": {
+      "core_memories": {
+        "append": "Kira detected a guttural mutter and the sound of iron on stone near a jagged outcrop in the misty mountain pass."
+      }
+    }
+  },
+  "entities_mentioned": [
+    "Kira",
+    "Goblin"
+  ],
+  "location_confirmed": "Misty Mountain Pass",
+  "god_mode_response": ""
+}

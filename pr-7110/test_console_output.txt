@@ -1,0 +1,107 @@
+======================================================================
+EVENT CASCADE REAL E2E
+======================================================================
+Work name: event_cascade_real_e2e
+Model: gemini-3-flash-preview
+======================================================================
+📁 Evidence directory: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e
+   Evidence will be saved to: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_XXX/
+📁 Base evidence directory (forced branch-scoped /tmp): /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e
+Created iteration directory for evidence: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054
+
+🚀 Starting fresh local MCP server on port 8045...
+✅ Server ready at http://127.0.0.1:8045
+Tmux video recording started for evidence bundle.
+  ✅ Captured campaign snapshot for CwXl5hyC
+  ✅ Captured campaign snapshot for ZeLNjyjK
+Tmux video artifact finalized (.cast).
+
+================================================================================
+📦 EVIDENCE BUNDLE CREATED
+================================================================================
+📁 Evidence Directory:
+   /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054
+
+📋 Bundle Metadata:
+   Run ID:        event_cascade_real_e2e-054-20260528T011852
+   Iteration:     54
+   Bundle Version: 1.2.0
+   📁 Evidence directory: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054
+   📁 Latest iteration: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054
+
+📥 Downloading 2 test campaigns (workers=2)...
+Downloading to: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054/campaigns
+Format: txt
+============================================================
+Downloading: ZeLNjyjKFCVdusWmNHzQ...
+  Saved story: Event Cascade Test - GodMode_ZeLNjyjK.txt
+  Saved game state: Event Cascade Test - GodMode_ZeLNjyjK_game_state.json
+  Entries: 8, Story size: 7.1 KB, Game state size: 4.9 KB
+============================================================
+Downloaded 1/1 campaigns
+  stderr: 2026-05-27 18:18:52,720 - root - INFO - Unified logging configured: /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/investigate-reaper-stale-living-world/app.log
+  stderr: 2026-05-27 18:18:52,720 - root - INFO - Applied clock skew patch: adjusting time by -720 seconds
+  stderr: 2026-05-27 18:18:53,948 - root - INFO - Firebase not initialized - attempting to initialize now
+  stderr: 2026-05-27 18:18:53,948 - root - INFO - Loading service account from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-27 18:18:53,949 - root - INFO - ✅ Successfully loaded credentials from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-27 18:18:53,949 - root - INFO - Successfully loaded service account credentials
+  stderr: 2026-05-27 18:18:54,476 - root - INFO - 📖 FETCHED STORY ENTRIES: user=test-event_cascade_real_e2e-1779930892, campaign=ZeLNjyjKFCVdusWmNHzQ, total_entries=8
+  stderr: 2026-05-27 18:18:54,477 - root - INFO - 📊 STORY BREAKDOWN: user_entries=4, ai_entries=4, other_entries=0
+  stderr: 2026-05-27 18:18:54,477 - root - INFO - 🔍 RECENT ENTRIES (last 5):
+  stderr: 2026-05-27 18:18:54,477 - root - INFO -   1. [gemini] character | Morning mist clings to the grey stone battlements ... | 2026-05-28 01:16:07.690882+00:00
+  stderr: 2026-05-27 18:18:54,477 - root - INFO -   2. [user] god | GOD MODE: Seed state for cascade test. Apply exact... | 2026-05-28 01:16:21.787560+00:00
+  stderr: 2026-05-27 18:18:54,477 - root - INFO -   3. [gemini] god | God Mode is active; the narrative is frozen while ... | 2026-05-28 01:16:22.239977+00:00
+  stderr: 2026-05-27 18:18:54,477 - root - INFO -   4. [user] god | GOD MODE: The Foreign Enforcer has been subverted ... | 2026-05-28 01:16:40.977570+00:00
+  stderr: 2026-05-27 18:18:54,477 - root - INFO -   5. [gemini] god | The background event 'test_foreign_auditor_arrival... | 2026-05-28 01:16:41.340912+00:00
+  ✅ Downloaded campaign ZeLNjyjK... (8 entries)
+  ✅ Downloaded campaign ZeLNjyjK... (8 entries, user_id=test-event_cascade_real_e2e-1779930892)
+Downloading to: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054/campaigns
+Format: txt
+============================================================
+Downloading: CwXl5hyCkc2sQSa4Mu8c...
+  Saved story: Event Cascade Test - RegularTurn_CwXl5hyC.txt
+  Saved game state: Event Cascade Test - RegularTurn_CwXl5hyC_game_state.json
+  Entries: 8, Story size: 9.0 KB, Game state size: 8.9 KB
+============================================================
+Downloaded 1/1 campaigns
+  stderr: 2026-05-27 18:18:52,719 - root - INFO - Unified logging configured: /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/investigate-reaper-stale-living-world/app.log
+  stderr: 2026-05-27 18:18:52,720 - root - INFO - Applied clock skew patch: adjusting time by -720 seconds
+  stderr: 2026-05-27 18:18:53,948 - root - INFO - Firebase not initialized - attempting to initialize now
+  stderr: 2026-05-27 18:18:53,948 - root - INFO - Loading service account from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-27 18:18:53,949 - root - INFO - ✅ Successfully loaded credentials from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-27 18:18:53,949 - root - INFO - Successfully loaded service account credentials
+  stderr: 2026-05-27 18:18:54,502 - root - INFO - 📖 FETCHED STORY ENTRIES: user=test-event_cascade_real_e2e-1779930892, campaign=CwXl5hyCkc2sQSa4Mu8c, total_entries=8
+  stderr: 2026-05-27 18:18:54,504 - root - INFO - 📊 STORY BREAKDOWN: user_entries=4, ai_entries=4, other_entries=0
+  stderr: 2026-05-27 18:18:54,504 - root - INFO - 🔍 RECENT ENTRIES (last 5):
+  stderr: 2026-05-27 18:18:54,504 - root - INFO -   1. [gemini] character | Recommended package: Fixed HP (+56 HP, total 68), ... | 2026-05-28 01:17:44.931897+00:00
+  stderr: 2026-05-27 18:18:54,504 - root - INFO -   2. [user] god | GOD MODE: Seed state for cascade test. Apply exact... | 2026-05-28 01:18:17.097140+00:00
+  stderr: 2026-05-27 18:18:54,504 - root - INFO -   3. [gemini] god | Administrative changes applied for cascade test se... | 2026-05-28 01:18:17.498017+00:00
+  stderr: 2026-05-27 18:18:54,504 - root - INFO -   4. [user] character | I welcome the Foreign Enforcer Vane to the garriso... | 2026-05-28 01:18:49.027098+00:00
+  stderr: 2026-05-27 18:18:54,504 - root - INFO -   5. [gemini] character | The heavy oak doors of the Command Hall groan open... | 2026-05-28 01:18:49.403762+00:00
+  ✅ Downloaded campaign CwXl5hyC... (8 entries)
+  ✅ Downloaded campaign CwXl5hyC... (8 entries, user_id=test-event_cascade_real_e2e-1779930892)
+📦 Downloaded 2/2 campaigns to:
+   /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054/campaigns
+ℹ️  Reconciled campaign_capture_status with exported campaign artifacts.
+
+================================================================================
+✅ TEST EVIDENCE SUMMARY
+================================================================================
+📁 Evidence Location:  /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054
+📥 Campaigns Location: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054/campaigns
+🔗 Latest Symlink:     /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/latest
+================================================================================
+
+📎 Iteration artifact captured: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054/scenario_results_checkpoint.json
+📁 Final evidence iteration directory: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e/iteration_054
+
+======================================================================
+SUMMARY
+======================================================================
+Total scenarios: 3
+Passed: 3
+Failed: 0
+Pass rate: 3/3 (100%)
+
+📦 Evidence bundle created: /tmp/worldarchitect.ai/investigate-reaper-stale-living-world/event_cascade_real_e2e
+   Files: 23 with checksums

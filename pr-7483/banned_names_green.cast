@@ -1,0 +1,12 @@
+{"version": 2, "width": 80, "height": 24, "timestamp": 1781258080, "env": {"SHELL": "/bin/bash", "TERM": "tmux-256color"}}
+[0.51058, "o", "\u001b[1m============================= test session starts ==============================\u001b[0m\r\nplatform darwin -- Python 3.13.7, pytest-9.0.3, pluggy-1.6.0\r\n"]
+[0.514113, "o", "rootdir: /Users/jleechan/.worktrees/worldarchitect/wa-2301/mvp_site\r\nconfigfile: pytest.ini\r\nplugins: cov-7.1.0, xdist-3.8.0, timeout-2.4.0, asyncio-1.4.0, hypothesis-6.152.5, testmon-2.2.0, anyio-4.13.0\r\nasyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function\r\n"]
+[0.514169, "o", "\u001b[1mcollecting ... \u001b[0m"]
+[0.569853, "o", "\u001b[1m\rcollected 3 items                                                              \u001b[0m\r\n"]
+[0.570113, "o", "\r\nmvp_site/tests/test_banned_names_always_on_when_no_default_world.py "]
+[0.570941, "o", "\u001b[32m.\u001b[0m"]
+[0.571327, "o", "\u001b[32m.\u001b[0m"]
+[0.572048, "o", "\u001b[32m.\u001b[0m"]
+[0.572166, "o", "\u001b[32m  [100%]\u001b[0m"]
+[0.572541, "o", "\r\n"]
+[0.664418, "o", "\r\n\u001b[32m============================== \u001b[32m\u001b[1m3 passed\u001b[0m\u001b[32m in 0.15s\u001b[0m\u001b[32m ===============================\u001b[0m\r\n"]

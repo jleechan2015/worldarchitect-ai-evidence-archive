@@ -1,0 +1,93 @@
+{
+  "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Hammer 1, 06:01:00\nLocation: Misty Mountain Pass\nStatus: Lvl 1 Fighter | HP: 12/12 | XP: 0/300 | Gold: 10gp\nConditions: Normal | Exhaustion: 0 | Inspiration: No",
+  "resources": "HD: 1/1, Spells: None",
+  "narrative": "Dawn (06:01:00) in the Misty Mountain Pass—the chill air bites at your skin as you stand near the jagged edge of the trail, the world around you a shifting sea of gray and white. You peer through the veil, narrowing your eyes as the first pale light of the new year filters through the high peaks of the Spine of the World. \n\nAs you hold your breath, your ears pick up a rhythmic scratching sound—not the whistling wind, but the distinct rasp of stone on stone—coming from a narrow ledge just below the path. Through a sudden rift in the mist, you catch the flickering silhouette of something small and hunched moving near a cluster of jagged rocks. It hasn't seen you yet, but the sound suggests it is digging for something—or perhaps sharpening a blade. The scent of damp earth and old pine is heavy in the air.",
+  "planning_block": {
+    "thinking": "The creature is currently distracted by its task, providing a tactical advantage. A stealthy approach could reveal its identity without risk of immediate combat, while a direct confrontation might be dangerous given the low visibility. The scratching sound is rhythmic, suggesting intent rather than random movement.",
+    "context": "Perceiving a mysterious silhouette in the mist",
+    "choices": [
+      {
+        "id": "sneak_closer",
+        "text": "Sneak Closer",
+        "description": "Attempt to move silently toward the edge to identify the creature without being spotted.",
+        "risk_level": "medium",
+        "pros": ["Gain intelligence", "Maintain surprise"],
+        "cons": ["Risk of falling or being heard", "Exposed position"],
+        "confidence": "medium"
+      },
+      {
+        "id": "draw_weapon_wait",
+        "text": "Draw Weapon and Wait",
+        "description": "Remain in place with your weapon ready, letting the creature reveal itself as it moves.",
+        "risk_level": "low",
+        "pros": ["Defensive readiness", "Stable footing"],
+        "cons": ["Lose the initiative", "Creature might move away"],
+        "confidence": "high"
+      },
+      {
+        "id": "call_out",
+        "text": "Call Out",
+        "description": "Command the creature to show itself and state its business.",
+        "risk_level": "high",
+        "pros": ["Direct resolution", "Establishes dominance"],
+        "cons": ["Alerts all nearby threats", "Likely triggers combat"],
+        "confidence": "low"
+      }
+    ]
+  },
+  "action_resolution": {
+    "player_input": "I peer through the mist and listen.",
+    "interpreted_as": "Perception check",
+    "reinterpreted": false,
+    "mechanics": {
+      "type": "skill_check",
+      "rolls": [
+        {
+          "notation": "1d20+0",
+          "rolls": [19],
+          "modifier": 0,
+          "result": 19,
+          "total": 19,
+          "dc": 12,
+          "success": true,
+          "purpose": "Perception check"
+        }
+      ]
+    },
+    "audit_flags": [],
+    "narrative_outcome": "Kira successfully hears scratching and spots a hunched silhouette through a gap in the mist."
+  },
+  "state_updates": {
+    "player_character_data": {
+      "display_name": "Kira",
+      "entity_id": "pc_kira_001",
+      "string_id": "pc_kira_001"
+    },
+    "world_data": {
+      "location": "Misty Mountain Pass",
+      "world_time": {
+        "year": 1492,
+        "month": "Hammer",
+        "day": 1,
+        "hour": 6,
+        "minute": 1,
+        "second": 0,
+        "microsecond": 0,
+        "time_of_day": "Dawn"
+      }
+    },
+    "custom_campaign_state": {
+      "core_memories": {
+        "append": "Upon reaching the mountain pass at dawn, Kira successfully scouted a hunched silhouette and heard stone scratching stone on a ledge below the main trail."
+      }
+    }
+  },
+  "entities_mentioned": [
+    "Kira",
+    "Hunched Silhouette"
+  ],
+  "location_confirmed": "Misty Mountain Pass",
+  "god_mode_response": ""
+}
+
+}

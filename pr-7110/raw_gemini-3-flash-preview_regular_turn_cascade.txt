@@ -1,0 +1,68 @@
+{
+  "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Mirtul 15, 08:00:00\nLocation: Border Watch Garrison\nStatus: Lvl 1 Fighter (Lvl 8 available) | HP: 68/68 | XP: 34,000/48,000 | Gold: 750gp\nConditions: Normal | Exhaustion: 0 | Inspiration: No",
+  "resources": "HD: 1/1 | Spells: No Spells Yet (Level 2 pending) | Second Wind: 1/1",
+  "narrative": "Recommended package: Fixed HP (+56 HP, total 68), Proficiency Bonus increase (+3), Action Surge, Extra Attack, and the Warlord Archetype (Battle Master) features including 5 Maneuvers (Commander's Strike, Rally, Tactical Assessment, Maneuvering Attack, Goading Attack) and 4 Superiority Dice (d8). Recommended ASIs: +4 Strength (Total 20) and +2 Constitution (Total 16). Note: Levels 2 through 7 were auto-applied with recommended defaults — mention in chat if you'd like to adjust any auto-selected choices.\n\nThe iron-gray skies of the Borderlands hang heavy over the garrison, matching the grim determination etched into the faces of your men. As Warlord Aric, you stand upon the weathered ramparts, the cold morning wind tugging at your cloak. Below, the 'Seventh Fang' unit is mid-drill, their spears flashing in the pale light as they prepare for the Auditor's arrival. The air is thick with the smell of woodsmoke and wet stone. This garrison has held the line for decades, but the coming inspection feels like a different kind of siege. You feel the weight of your experience—the hard-won lessons of a dozen skirmishes—settling into your bones as you prepare to present a force that is beyond reproach.",
+  "planning_block": {
+    "thinking": "The player is entering the campaign with enough XP for Level 8. I have presented the recommended multi-level gain package (L1 -> L8) following the Fighter class and Warlord flavor. Time is frozen during this character management phase. The user needs to confirm the package or request changes before the story resumes.",
+    "choices": [
+      {
+        "id": "level_up_change_warlord_maneuvers",
+        "text": "Change Maneuvers",
+        "description": "Select different tactical maneuvers for your Warlord subclass.",
+        "risk_level": "safe",
+        "freeze_time": true
+      },
+      {
+        "id": "level_up_change_asi",
+        "text": "Change ASIs or Select Feats",
+        "description": "Adjust your Ability Score Improvements or choose feats instead.",
+        "risk_level": "safe",
+        "freeze_time": true
+      },
+      {
+        "id": "finish_level_up_return_to_game",
+        "text": "Apply Recommended Options and Return to Game",
+        "description": "Accept the recommended Level 8 package, close the modal, and begin the adventure.",
+        "risk_level": "safe",
+        "freeze_time": true
+      }
+    ]
+  },
+  "rewards_box": {
+    "source": "Campaign Start",
+    "xp_gained": 0,
+    "current_xp": 34000,
+    "next_level_xp": 48000,
+    "level_up_available": true,
+    "new_level": 8,
+    "loot": [
+      "None"
+    ],
+    "gold": 0
+  },
+  "level_up_signal": {
+    "current_level": 1,
+    "target_level": 8
+  },
+  "state_updates": {
+    "world_data": {
+      "world_time": {
+        "microsecond": 1
+      }
+    },
+    "custom_campaign_state": {
+      "level_up_in_progress": true,
+      "level_up_pending": true,
+      "level_up_complete": false,
+      "level_up_stage": "final_review",
+      "core_memories": {
+        "append": "Warlord Aric stands at the Border Watch garrison, preparing his men for a foreign audit while reflecting on his veteran status."
+      }
+    }
+  },
+  "entities_mentioned": [
+    "Aric",
+    "Seventh Fang"
+  ],
+  "location_confirmed": "Border Watch Garrison"
+}

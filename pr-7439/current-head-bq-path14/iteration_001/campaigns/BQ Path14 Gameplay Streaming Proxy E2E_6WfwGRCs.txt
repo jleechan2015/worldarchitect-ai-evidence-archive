@@ -1,0 +1,42 @@
+God Mode:
+Character: A wandering scout named Kira | Setting: A misty mountain pass at dawn | Description: Real-LLM real-user E2E for PR #7439 path 14 (gameplay_streaming_proxy). Drives a real call through the Flask /api/campaigns/<id>/interaction/stream endpoint and verifies the BQ row has populated request_json + response_text. No mocks. Real Gemini. Real BQ.
+
+============================================================
+SCENE 1
+============================================================
+[Timestamp: 1492 DR, Hammer 1, 06:00:00
+Location: Character Creation
+Status: Lvl 1 Scout | HP: --/-- | XP: 0/300 | Gold: --gp]
+Resources: None
+
+Game Master:
+Dawn (06:00:00). [CHARACTER CREATION - Initial Choice]
+
+Welcome to WorldArchitect.AI. I have received your character concept for Kira, a wandering scout in the misty mountain passes. [Character Prompt: Kira, wandering scout, misty mountain pass at dawn]. Before we begin the story, we must finalize your character's mechanical attributes to ensure a consistent gameplay experience.
+
+### CAMPAIGN SUMMARY
+**Title:** The Misty Pass
+**Character:** Kira (Wandering Scout)
+**Setting:** A misty mountain pass at dawn
+**Description:** Real-LLM real-user E2E test for gameplay streaming proxy.
+**AI Personalities:** StoryModeAgent, PlanningAgent, CharacterCreationAgent, NarrativeAgent
+**Options:** D&D 5E SRD, Milestone Leveling, Social HP, Faction Minigame (Ready)
+
+How would you like to proceed with creating Kira?
+
+Player (freeform):
+I peer through the mist and listen. (REAL_LLM_BQ_PATH14_1781200900)
+
+============================================================
+SCENE 2
+============================================================
+[Timestamp: 1492 DR, Hammer 1, 06:01:00
+Location: Misty Mountain Pass
+Status: Lvl 1 Fighter | HP: 12/12 | XP: 0/300 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: None
+
+Game Master:
+Dawn (06:01:00) in the Misty Mountain Pass—the chill air bites at your skin as you stand near the jagged edge of the trail, the world around you a shifting sea of gray and white. You peer through the veil, narrowing your eyes as the first pale light of the new year filters through the high peaks of the Spine of the World. 
+
+As you hold your breath, your ears pick up a rhythmic scratching sound—not the whistling wind, but the distinct rasp of stone on stone—coming from a narrow ledge just below the path. Through a sudden rift in the mist, you catch the flickering silhouette of something small and hunched moving near a cluster of jagged rocks. It hasn't seen you yet, but the sound suggests it is digging for something—or perhaps sharpening a blade. The scent of damp earth and old pine is heavy in the air.

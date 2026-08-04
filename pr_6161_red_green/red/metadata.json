@@ -1,0 +1,112 @@
+{
+  "test_name": "rewards_box_planning_block_e2e",
+  "run_id": "rewards_box_planning_block_e2e-001-20260409T213008",
+  "iteration": 1,
+  "bundle_version": "1.2.0",
+  "timestamp": "2026-04-09T21:30:08.927668+00:00",
+  "bundle_timestamp": "2026-04-09T21:30:08.927668+00:00",
+  "evidence_mode": "lightweight_prompt_tracking",
+  "evidence_mode_notes": "System instruction captured as filenames + char_count (not full text). Raw LLM request/response payloads captured in request_responses.jsonl. Server logs in artifacts/.",
+  "git_provenance": {
+    "git_head": "3c7a91bdcd2bdabe641259f4c9d0501024426654",
+    "git_branch": "",
+    "merge_base": "3c7a91bdcd2bdabe641259f4c9d0501024426654",
+    "commits_ahead_of_main": 0,
+    "diff_stat_vs_main": "",
+    "working_tree_dirty": true,
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 3,
+    "working_tree_changed_files": [
+      "testing_mcp/lib/base_test.py",
+      "testing_mcp/lib/server_utils.py",
+      "testing_mcp/test_rewards_box_planning_block_e2e.py",
+      "unknown/"
+    ],
+    "working_tree_diff_sha256": "40edaea215d7efab409ba5613183c07204dc751743c9686fe108c738943d0196",
+    "dirty_tree_explanation": "The RED run was captured while test infrastructure files (base_test.py, server_utils.py, test_rewards_box_planning_block_e2e.py) were unstaged. All three changed files are in testing_mcp/ (test harness only, not production code). The production atomicity bug being demonstrated (rewards_box and planning_block persisted independently) was present in the committed production code at this revision. No production source files (mvp_site/, mvp_site/rewards/) were modified."
+  },
+  "server": {
+    "base_url": "http://127.0.0.1:8051",
+    "hostname": "127.0.0.1",
+    "mode": "local",
+    "port": "8051",
+    "pid": 1102462,
+    "process_cmdline": "<redacted-tmp-path> -m gunicorn mvp_site.main:app --bind 0.0.0.0:8051 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 0 --access-logfile - --error-logfile - --log-level info",
+    "env_vars": {
+      "WORLDAI_DEV_MODE": "true",
+      "TESTING": null,
+      "MOCK_SERVICES_MODE": "false",
+      "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "FIRESTORE_EMULATOR_HOST": null,
+      "PORT": "8051",
+      "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+      "GEMINI_API_KEY": "[SET - 39 chars]",
+      "LLM_REQUEST_RESPONSE_CAPTURE_PATH": "<redacted-tmp-path>",
+      "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "<redacted-tmp-path>",
+      "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "<redacted-tmp-path>"
+    },
+    "lsof_output": "COMMAND     PID     USER   FD   TYPE    DEVICE SIZE/OFF NODE NAME\npython  1102462 <redacted-user>    5u  IPv4 617648849      0t0  TCP *:8051 (LISTEN)\npython  1102488 <redacted-user>    5u  IPv4 617648849      0t0  TCP *:8051 (LISTEN)",
+    "ps_output": "PID USER         ELAPSED COMMAND\n1102462 <redacted-user>       12:52 <redacted-tmp-path> -m gunicorn mvp_site.main:app --bind 0.0.0.0:8051 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 0 --access-logfile - --error-logfile - --log-level info"
+  },
+  "provenance": {
+    "git_fetch_origin_main": {
+      "returncode": 0,
+      "stdout": null,
+      "stderr": "From https://github.com/<redacted-user>org/worldarchitect.ai\n * branch                main       -> FETCH_HEAD"
+    },
+    "git_head": "3c7a91bdcd2bdabe641259f4c9d0501024426654",
+    "git_branch": "",
+    "merge_base": "3c7a91bdcd2bdabe641259f4c9d0501024426654",
+    "commits_ahead_of_main": 0,
+    "diff_stat_vs_main": "",
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 3,
+    "working_tree_untracked_files": 1,
+    "working_tree_changed_files": [
+      "testing_mcp/lib/base_test.py",
+      "testing_mcp/lib/server_utils.py",
+      "testing_mcp/test_rewards_box_planning_block_e2e.py",
+      "unknown/"
+    ],
+    "working_tree_diff_sha256": "40edaea215d7efab409ba5613183c07204dc751743c9686fe108c738943d0196",
+    "working_tree_dirty": true,
+    "server": {
+      "base_url": "http://127.0.0.1:8051",
+      "hostname": "127.0.0.1",
+      "mode": "local",
+      "port": "8051",
+      "pid": 1102462,
+      "process_cmdline": "<redacted-tmp-path> -m gunicorn mvp_site.main:app --bind 0.0.0.0:8051 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 0 --access-logfile - --error-logfile - --log-level info",
+      "env_vars": {
+        "WORLDAI_DEV_MODE": "true",
+        "TESTING": null,
+        "MOCK_SERVICES_MODE": "false",
+        "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "FIRESTORE_EMULATOR_HOST": null,
+        "PORT": "8051",
+        "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+        "GEMINI_API_KEY": "[SET - 39 chars]",
+        "LLM_REQUEST_RESPONSE_CAPTURE_PATH": "<redacted-tmp-path>",
+        "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "<redacted-tmp-path>",
+        "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "<redacted-tmp-path>"
+      },
+      "lsof_output": "COMMAND     PID     USER   FD   TYPE    DEVICE SIZE/OFF NODE NAME\npython  1102462 <redacted-user>    5u  IPv4 617648849      0t0  TCP *:8051 (LISTEN)\npython  1102488 <redacted-user>    5u  IPv4 617648849      0t0  TCP *:8051 (LISTEN)",
+      "ps_output": "PID USER         ELAPSED COMMAND\n1102462 <redacted-user>       12:52 <redacted-tmp-path> -m gunicorn mvp_site.main:app --bind 0.0.0.0:8051 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 0 --access-logfile - --error-logfile - --log-level info"
+    },
+    "timestamp": "2026-04-09T21:30:08.233147+00:00",
+    "test_file": "<redacted-tmp-path>"
+  },
+  "summary": {
+    "total_scenarios": 3,
+    "passed": 1,
+    "failed": 2,
+    "campaign_capture_total": 3,
+    "campaign_capture_passed": 3,
+    "campaign_capture_failed": 0,
+    "raw_passed": 3,
+    "raw_total": 3,
+    "raw_pass_rate": "100.0%"
+  }
+}

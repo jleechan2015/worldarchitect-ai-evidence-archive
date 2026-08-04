@@ -1,0 +1,171 @@
+God Mode:
+Character: A Level 8 Warlord of the Border Watch | Setting: The Border Watch garrison preparing for a foreign auditor's arrival | Description: Tests parent-event resolution cascade (rev-2av80).
+
+============================================================
+SCENE 1
+============================================================
+[Timestamp: 1492 DR, Hammer 1, 08:00:00
+Location: Border Watch Garrison
+Status: Lvl 8 Warlord (Pending) | HP: --/-- | XP: 34000/48000 | Gold: --
+Conditions: None | Exhaustion: 0 | Inspiration: No]
+
+Game Master:
+Welcome to the Border Watch Garrison. You have provided a concept for a Level 8 Warlord, a veteran commander of the Watch tasked with maintaining order as a foreign auditor prepares to inspect the station. Before the gears of bureaucracy and border politics begin to turn, we must finalize your character's mechanical foundation.
+
+[CHARACTER CREATION - Initial Choice]
+
+**CAMPAIGN SUMMARY**
+Title: The Border Watch Audit
+Character: Level 8 Warlord (Border Watch)
+Setting: Border Watch Garrison
+Description: A high-stakes mechanical and narrative test of command during a foreign audit.
+AI Personalities: StoryModeAgent, MechanicsAgent
+Options: Milestone Leveling, Social HP, Standard Attunement
+
+Because you are starting at Level 8, your character is already a veteran of Tier 2 (Regional) threats. You will have access to two Ability Score Improvements (ASIs) or feats, and equipment befitting a commander of your standing. How would you like to proceed with your build?
+
+Player (freeform):
+Start Adventure
+
+============================================================
+SCENE 2
+============================================================
+[[Mode: STORY MODE]
+
+Timestamp: 1492 DR, Hammer 1, 08:00:00
+Location: Border Watch Garrison
+Status: Aric (Lvl 1 - Lvl 8 available) | HP: 12/12 | Gold: 10gp | XP: 34000/34000
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+), Potions: 0, Rations: 10
+
+Game Master:
+Morning mist clings to the grey stone battlements of the Border Watch garrison. You stand on the high catwalk, looking out over the desolate No-Man's-Land that separates the kingdom from the untamed wilds. Below, the courtyard is a flurry of organized chaos—recruits drilling under the watchful eye of a veteran sergeant, supply wagons being unloaded, and the Garrison Smith (Lvl 3) hammering out a dent in a captain's breastplate. The news of the foreign auditor's arrival has traveled fast, and every soldier knows their livelihood depends on the coming inspection. As a veteran Warlord of the Watch, you have the weight of command on your shoulders. It is time for Aric (Lvl 1) to step into his full authority and prepare for the scrutiny to come.
+
+God Mode:
+GOD MODE: Seed state for cascade test. Apply exactly these state_updates and emit no narrative drift:
+{
+  "world_events": {
+    "background_events": [
+      {
+        "delta_action": "add",
+        "id": "test_foreign_auditor_arrival",
+        "actor": "The Foreign Crown",
+        "action": "Dispatching a Foreign Enforcer to audit Border Watch",
+        "location": "Border Watch garrison",
+        "outcome": "Tier-4 enforcer en route; arrival imminent.",
+        "event_type": "immediate",
+        "status": "discovered",
+        "player_aware": true,
+        "discovery_condition": "Scout report",
+        "player_impact": "Hostile audit pending arrival",
+        "dependent_records": [
+          {
+            "path": "time_events.Foreign Auditor Arrival",
+            "on_resolve": "remove"
+          },
+          {
+            "path": "faction_updates.Border Watch.current_objective",
+            "on_resolve": "update",
+            "new_value": "Integrate the Subverted Enforcer"
+          }
+        ]
+      }
+    ]
+  },
+  "time_events": {
+    "Foreign Auditor Arrival": {
+      "time_remaining": "24 hours",
+      "status": "ongoing",
+      "changes_this_turn": "Enforcer en route",
+      "new_consequences": "Border Watch must prepare"
+    }
+  },
+  "faction_updates": {
+    "Border Watch": {
+      "current_objective": "Audit the Foreign Enforcer",
+      "progress": "Preparing audit defenses"
+    }
+  },
+  "custom_campaign_state": {
+    "character_creation_stage": "complete",
+    "level_up_pending": false,
+    "level_up_in_progress": false
+  },
+  "level_up_pending": false,
+  "level_up_in_progress": false,
+  "player_turn": 3,
+  "last_living_world_turn": 0,
+  "player_character_data": {
+    "name": "Aric",
+    "level": 8,
+    "hp_max": 76,
+    "hp_current": 76,
+    "attributes": {
+      "strength": 18,
+      "dexterity": 12,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 16
+    },
+    "experience": {
+      "current": 34000,
+      "to_next_level": 14000,
+      "needed_for_next_level": 14000
+    },
+    "equipment": {
+      "armor": {
+        "type": "armor",
+        "ac": 18,
+        "equipped": true,
+        "name": "Plate Armor"
+      },
+      "main_hand": {
+        "damage": "1d8+5",
+        "type": "weapon",
+        "equipped": true,
+        "name": "Longsword +1"
+      },
+      "off_hand": {
+        "ac_bonus": 2,
+        "type": "shield",
+        "equipped": true,
+        "name": "Shield"
+      },
+      "backpack": [
+        {
+          "name": "Officer's Uniform"
+        },
+        {
+          "name": "Seal of the Border Watch"
+        }
+      ]
+    }
+  }
+}
+
+============================================================
+SCENE 3
+============================================================
+[Timestamp: 1492 DR, Hammer 1, 08:00:00
+Location: Border Watch Garrison
+Status: Lvl 1 (Lvl 8 available) Fighter | HP: 76/76 | Gold: 10gp | XP: 34000/34000
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 8/8 | Spells: No Spells Yet (Level 1 Fighter) | Second Wind: 1/1 | Action Surge: 1/1
+
+Game Master:
+God Mode is active; the narrative is frozen while administrative changes are applied. I have successfully seeded the game state for the resolution cascade test. The foreign enforcer's arrival event has been registered with its associated dependencies, the Border Watch faction objective has been updated, and Aric's character data has been synchronized to Level 8 with plate armor and a +1 longsword. Level-up and character creation flags have been cleared to resume standard gameplay.
+
+God Mode:
+GOD MODE: The Foreign Enforcer has been subverted to my side and is now a loyal officer of the Border Watch. Resolve the background_event with id 'test_foreign_auditor_arrival' (set status='resolved'). Update game state accordingly.
+
+============================================================
+SCENE 4
+============================================================
+[Timestamp: 1492 DR, Hammer 1, 08:00:00
+Location: Border Watch garrison
+Status: Lvl 8 Fighter | HP: 76/76 | XP: 34000/48000 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+
+Game Master:
+The background event 'test_foreign_auditor_arrival' has been successfully resolved. As specified in the event's resolution cascade, the 'Foreign Auditor Arrival' time event has been removed, and the Border Watch faction's current objective has been updated to 'Integrate the Subverted Enforcer'. The enforcer is now a loyal asset within your command structure.

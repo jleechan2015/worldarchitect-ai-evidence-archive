@@ -1,0 +1,2945 @@
+{
+  "settings": {},
+  "current_state": {
+    "entity_tracking": {
+      "active_entities": [
+        "Saita"
+      ],
+      "present_entities": []
+    },
+    "planning_block": {
+      "choices": [
+        {
+          "text": "Interrogate the Captured Specimen",
+          "description": "Descend to the soundproofed holding cells beneath the Annex to evaluate and secure the bound Zhentarim quartermaster before prepping him for the black-market galleons.",
+          "cons": [
+            "Does not recover your expended spell slots or HP",
+            "Grog-Mar may slip away if the morning tide approaches"
+          ],
+          "id": "interrogate_specimen",
+          "pros": [
+            "Establish his compliance early through psychological and physical pressure",
+            "Identify further Black Network safehouses or active smuggling routes"
+          ],
+          "risk_level": "medium",
+          "confidence": "high"
+        },
+        {
+          "text": "The Flophouse Abduction (Grog-Mar)",
+          "description": "Slip out into the foggy harbor streets with Kaelen to the 'Salty Flounder' flophouse to subdue and secure Grog-Mar using the Harvester's Censer.",
+          "cons": [
+            "Saita has only one Level 2 spell slot remaining",
+            "High physical risk if Grog-Mar's veteran reflexes resist the censer's gas"
+          ],
+          "id": "secure_grog_mar_harvest",
+          "pros": [
+            "Secure the prime genetic specimen before he departs Baldur's Gate with the morning tide",
+            "Use the newly requisitioned Zhentarim scows to smuggle his bound form directly to the Annex"
+          ],
+          "risk_level": "high",
+          "confidence": "medium"
+        },
+        {
+          "text": "Secure the Citadel (Long Rest)",
+          "description": "Establish a defensive watch, lock down the Annex gates, and take a long rest to fully recover your HP, spell slots, and decay your Biological Integration Penalty.",
+          "cons": [
+            "Grog-Mar will escape with the morning tide, setting your Harvest progress back",
+            "Allows the Zhentarim to react to the Warehouse 7 raid while you sleep"
+          ],
+          "id": "long_rest_annex",
+          "pros": [
+            "Fully recover to 29 HP and restore all level 1 and level 2 spell slots",
+            "Decay the Biological Integration Penalty by 25%, restoring your progression efficiency"
+          ],
+          "risk_level": "safe",
+          "confidence": "high"
+        }
+      ],
+      "context": "Silvershield Annex Grand Hall, Treaty Signed",
+      "thinking": "The Joint Defense Pact is signed, establishing our legal and political shield in the Upper City and securing our grain quota. However, our resources are depleted: Saita is low on Level 2 spell slots, and Grog-Mar is still asleep at the Salty Flounder under Sylas's surveillance. We must decide whether to interrogate our newly captured Zhentarim specimen, execute a swift strike on the flophouse, or rest to decay our Biological Integration Penalty."
+    },
+    "location_id": "warehouse_7_gray_harbor_docks",
+    "last_state_update_timestamp": "2026-05-23 07:15:50.913000+00:00",
+    "last_living_world_time": {
+      "year": 1492,
+      "time_of_day": "night",
+      "microsecond": 0,
+      "hour": 23,
+      "second": 0,
+      "minute": 0,
+      "month": "Eleasias",
+      "day": 24
+    },
+    "player_character_data": {
+      "inventory": [
+        {
+          "damage": "1d8",
+          "type": "weapon",
+          "properties": [
+            "finesse",
+            "special: +1 to attack/damage vs Aethelgardians"
+          ],
+          "damage_type": "slashing",
+          "name": "Sun-Bleached Falcata"
+        },
+        {
+          "type": "item",
+          "name": "Quartermaster's Ring (Sliver of Jade)"
+        },
+        {
+          "type": "item",
+          "name": "Zhentarim Ledger of Contacts"
+        },
+        {
+          "type": "item",
+          "name": "6x Iron-bound Daggers"
+        },
+        {
+          "description": "A wet, leather-bound ledger detailing smuggling contacts in the Lower City.",
+          "type": "item",
+          "name": "Zhentarim Ledger of Contacts"
+        },
+        {
+          "description": "A tarnished silver pocket-watch salvaged from the Warehouse 7 raid.",
+          "type": "item",
+          "name": "Smuggler's Pocket-Watch"
+        },
+        {
+          "description": "Six masterwork iron daggers salvaged from the Zhentarim smugglers.",
+          "type": "item",
+          "name": "6x Iron-bound Daggers"
+        },
+        {
+          "description": "A tarnished silver pocket-watch salvaged from the Warehouse 7 raid.",
+          "type": "item",
+          "name": "Smuggler's Pocket-Watch"
+        },
+        {
+          "description": "A wet, leather-bound ledger detailing smuggling contacts in the Lower City.",
+          "type": "item",
+          "name": "Zhentarim Ledger of Contacts"
+        },
+        {
+          "description": "Six masterwork iron daggers salvaged from the Zhentarim smugglers.",
+          "type": "item",
+          "name": "6x Iron-bound Daggers"
+        }
+      ],
+      "proficiency_bonus": 2,
+      "core_memories": [
+        "Saita is the 5th in line to the Aethelgard throne, posing as a Herald to Baldur's Gate.",
+        "The Aethelgard Empire is secretly bankrupt and decimated by civil war.",
+        "Imperial Facade is the primary currency; appearance is more vital than reality."
+      ],
+      "equipment": {
+        "cloak": {
+          "description": "Advantage on Deception for military bluffs",
+          "name": "Mantle of the Zenith"
+        },
+        "main_hand": {
+          "damage": "1d8+3",
+          "type": "weapon",
+          "properties": [
+            "finesse",
+            "versatile",
+            "gravity-iron"
+          ],
+          "name": "The Kross Needle"
+        },
+        "ranged": {
+          "description": "Vocal frequency rupture",
+          "type": "spell",
+          "name": "Vicious Mockery"
+        },
+        "off_hand": {
+          "description": "Incense burner producing a colorless Sleep gas for subduing specimens.",
+          "type": "obj",
+          "name": "The Harvester's Censer"
+        },
+        "armor": {
+          "armor_class": 12,
+          "description": "Tailored midnight-blue velvet reinforced with hidden silver-mesh plates.",
+          "type": "armor",
+          "equipped": true,
+          "armor_type": "light",
+          "name": "Imperial Velvet (Studded Leather)"
+        },
+        "backpack": [
+          {
+            "equipped": false,
+            "stats": null,
+            "name": "Backpack"
+          },
+          {
+            "equipped": false,
+            "stats": null,
+            "name": "Bedroll"
+          },
+          {
+            "stats": null,
+            "equipped": false,
+            "name": "Mess kit"
+          },
+          {
+            "equipped": false,
+            "stats": null,
+            "name": "Tinderbox"
+          },
+          {
+            "equipped": false,
+            "stats": "10",
+            "name": "Torch"
+          },
+          {
+            "equipped": false,
+            "stats": "10 days",
+            "name": "Rations"
+          },
+          {
+            "equipped": false,
+            "stats": null,
+            "name": "Waterskin"
+          },
+          {
+            "stats": "50 feet",
+            "equipped": false,
+            "name": "Rope"
+          },
+          {
+            "stats": "10gp",
+            "equipped": false,
+            "name": "Coin pouch"
+          },
+          {
+            "description": "Fictional accounts of 50,000 soldiers",
+            "name": "Imperial Ledger"
+          },
+          {
+            "name": "Diplomat's Pack"
+          }
+        ]
+      },
+      "race": "Aethelgardian",
+      "skills": {
+        "Insight": 4,
+        "Acrobatics": 4,
+        "Medicine": 1,
+        "Arcana": 3,
+        "History": 3,
+        "Persuasion": 9,
+        "Intimidation": 9,
+        "Stealth": 4,
+        "Animal Handling": 1,
+        "Investigation": 3,
+        "Perception": 1,
+        "Religion": 3,
+        "Nature": 3,
+        "Sleight of Hand": 4,
+        "Deception": 9,
+        "Survival": 1,
+        "Athletics": 0,
+        "Performance": 7
+      },
+      "spells_known": [
+        {
+          "level": 1,
+          "name": "Charm Person"
+        },
+        {
+          "level": 1,
+          "name": "Dissonant Whispers"
+        },
+        {
+          "level": 1,
+          "name": "Thunderwave"
+        },
+        {
+          "level": 1,
+          "name": "Healing Word"
+        },
+        {
+          "level": 1,
+          "name": "Command"
+        },
+        {
+          "level": 2,
+          "name": "Invisibility"
+        },
+        {
+          "level": 2,
+          "name": "Hold Person"
+        }
+      ],
+      "health": {
+        "hp_max": 29,
+        "hp": 29,
+        "temp_hp": 0
+      },
+      "name": "Saita",
+      "cantrips": [
+        {
+          "name": "Vicious Mockery"
+        },
+        {
+          "name": "Friends"
+        },
+        {
+          "name": "Minor Illusion"
+        }
+      ],
+      "attributes": {
+        "constitution": 12,
+        "strength": 8,
+        "wisdom": 10,
+        "charisma": 20,
+        "intelligence": 14,
+        "dexterity": 16
+      },
+      "hit_dice_max": 4,
+      "class_name": "Ascendant Herald (Bard)",
+      "display_name": "Saita Aethelgard",
+      "level": 4,
+      "aliases": [
+        "Herald Saita Kross"
+      ],
+      "base_attributes": {
+        "constitution": 12,
+        "strength": 8,
+        "charisma": 20,
+        "wisdom": 10,
+        "intelligence": 14,
+        "dexterity": 16
+      },
+      "hp_current": 29,
+      "skill_proficiencies": {
+        "proficiencies": [
+          "Persuasion",
+          "Deception",
+          "Performance"
+        ],
+        "expertise": [
+          "Persuasion",
+          "Deception",
+          "Intimidation",
+          "Insight"
+        ]
+      },
+      "features": [
+        "Auctoritas: Use CHA for AC and Weapon attacks",
+        "Imperial Bluff: Temp HP on social victory, Exhaustion on exposure",
+        "Bardic Inspiration (3/day)",
+        "Jack of All Trades",
+        "Song of Rest",
+        "Sovereign's Strike (Blade Flourishes)",
+        "Fighting Style: Dueling",
+        "College of Swords"
+      ],
+      "hit_dice_current": 2,
+      "ac": 18,
+      "hp_max": 29,
+      "entity_id": "pc_saita_001",
+      "alignment": "Lawful Evil",
+      "mbti": "INTJ",
+      "resources": {
+        "gold": 383,
+        "spell_slots": {
+          "level_2": {
+            "used": 2,
+            "max": 3
+          },
+          "level_1": {
+            "used": 1,
+            "max": 4
+          }
+        },
+        "class_features": {
+          "bardic_inspiration": {
+            "used": 0,
+            "max": 3
+          }
+        }
+      },
+      "experience": {
+        "to_next_level": 2778,
+        "current": 3722,
+        "needed_for_next_level": 2778
+      },
+      "armor_class": 18,
+      "recent_decisions": [
+        "Calibrated observational mask to measure bone density and genetic viability of all NPCs."
+      ]
+    },
+    "npc_data": {
+      "npc_varek_001": {
+        "name": "npc_varek_001"
+      },
+      "Viper": {
+        "tier": "merchant",
+        "relationships": {
+          "player": {
+            "disposition": "neutral",
+            "debts": [
+              "Sovereign Debt (Life and loyalty)"
+            ],
+            "trust_level": -2,
+            "history": [
+              "Intimidated into service at the South Span"
+            ]
+          }
+        },
+        "display_name": "Viper",
+        "entity_id": "npc_viper_001",
+        "role": "Zhentarim Plant / Provisional Asset"
+      },
+      "Sylas the Rat": {
+        "level": 4,
+        "knowledge": [
+          "Coordinates black-market ships for 'Harvested' cargo."
+        ],
+        "status": "hidden",
+        "health": {
+          "hp": 31,
+          "hp_max": 31
+        },
+        "current_location": "Rivington/Gray Harbor",
+        "role": "Smuggler/Fixer"
+      },
+      "Ulder Ravengard": {
+        "entity_type": "npc",
+        "tier": "king",
+        "entity_id": "npc_ravengard_001",
+        "relationships": {
+          "player": {
+            "disposition": "neutral",
+            "trust_level": -2,
+            "history": [
+              "Summoned to the Annex by a 'wounded' Herald",
+              "Witnessed his men being forced into manual labor"
+            ]
+          }
+        },
+        "display_name": "Duke Ulder Ravengard",
+        "level": 16,
+        "visibility": "visible",
+        "status": "conscious",
+        "role": "Grand Duke of Baldur's Gate"
+      },
+      "Kaelen": {
+        "tier": "knight",
+        "entity_id": "npc_kaelen_001",
+        "class_name": "Fighter",
+        "role": "The Sworn Shield",
+        "display_name": "Kaelen",
+        "level": 4,
+        "attitude_to_party": "devoted",
+        "status": "conscious",
+        "health": {
+          "hp_max": 65,
+          "hp": 65
+        },
+        "relationships": {
+          "player": {
+            "history": [
+              "Identified Cadet Branch watcher",
+              "Stabilized by Saita's imperial resonance"
+            ]
+          }
+        }
+      },
+      "Sylas": {
+        "tier": "merchant",
+        "entity_id": "npc_sylas_001",
+        "class_name": "Rogue",
+        "role": "The Fixer",
+        "display_name": "Sylas the Rat",
+        "level": 2,
+        "attitude_to_party": "neutral"
+      },
+      "Captain Thorne": {
+        "display_name": "Captain Thorne",
+        "level": 4,
+        "tier": "guard",
+        "entity_id": "npc_thorne_001",
+        "relationships": {
+          "player": {
+            "disposition": "neutral",
+            "trust_level": -1,
+            "history": [
+              "Attempted to extort Saita at Wyrm's Crossing",
+              "Intimidated by Saita's imperial authority"
+            ]
+          }
+        }
+      },
+      "Lara Vance": {
+        "features": [
+          "Specialized in using Identify/Detect Magic to assess bloodline purity."
+        ],
+        "tier": "guard",
+        "attitude_to_party": "friendly",
+        "class_name": "Wizard",
+        "role": "Imperial Archivist / Genetic Augur",
+        "display_name": "Lara Vance",
+        "level": 4,
+        "entity_id": "npc_lara_001",
+        "current_location": "Gray Harbor Docks",
+        "health": {
+          "hp": 22,
+          "hp_max": 22
+        },
+        "status": "vulnerable"
+      }
+    },
+    "combat_state": {
+      "in_combat": false,
+      "combat_phase": "ended",
+      "combat_session_id": "combat_14920824_gray_harbor",
+      "combat_summary": {
+        "loot_distributed": true,
+        "xp_awarded": 1050,
+        "rounds_fought": 3,
+        "enemies_defeated": [
+          "npc_varek_001"
+        ]
+      },
+      "rewards_processed": true,
+      "combatants": {
+        "npc_varek_001": {
+          "type": "enemy",
+          "status": [
+            "commanded: grovel"
+          ],
+          "hp_max": 75,
+          "hp_current": 64,
+          "role": "Cadet Branch Assassin"
+        },
+        "npc_hallow_001": {
+          "type": "ally",
+          "status": [],
+          "hp_max": 32,
+          "hp_current": 32,
+          "role": "Flaming Fist Sergeant"
+        },
+        "npc_kaelen_001": {
+          "type": "ally",
+          "status": [],
+          "hp_max": 45,
+          "hp_current": 45,
+          "role": "Sworn Shield"
+        },
+        "pc_saita_001": {
+          "type": "pc",
+          "status": [],
+          "hp_max": 25,
+          "hp_current": 15
+        }
+      },
+      "current_round": 3,
+      "initiative_order": [
+        {
+          "type": "unknown",
+          "initiative": 0,
+          "name": "npc_varek_001"
+        },
+        {
+          "type": "unknown",
+          "initiative": 0,
+          "name": "pc_saita_001"
+        },
+        {
+          "type": "unknown",
+          "initiative": 0,
+          "name": "npc_kaelen_001"
+        },
+        {
+          "type": "unknown",
+          "initiative": 0,
+          "name": "npc_hallow_001"
+        }
+      ]
+    },
+    "location_name": "Warehouse 7",
+    "time_events": {},
+    "time_sensitive_events": {},
+    "social_hp_challenge": {
+      "npc_name": "Duke Ulder Ravengard",
+      "successes": 1,
+      "cooldown_remaining": 1,
+      "status": "WAVERING",
+      "social_hp_damage": 2,
+      "successes_needed": 5,
+      "roll_result": 17,
+      "social_hp": 7,
+      "npc_tier": "lord_general",
+      "resistance_shown": "Ravengard watches the breach with a commander's eye, still weighing the risks of a formal alliance.",
+      "request_severity": "favor",
+      "roll_dc": 14,
+      "objective": "Secure Joint Defense Pact & Grain Trade",
+      "skill_used": "Insight",
+      "social_hp_max": 10
+    },
+    "updated_at": "2026-05-23 07:14:55.584000+00:00",
+    "schema_migrated_at": "2026-05-13T05:49:46.458209+00:00",
+    "last_living_world_turn": 40,
+    "turn_number": 41,
+    "rewards_box": {
+      "current_level": 4,
+      "gold": 51.0,
+      "xp_gained": 133,
+      "loot": [
+        "Smuggler's Pocket-Watch",
+        "Zhentarim Ledger of Contacts",
+        "6x Iron-bound Daggers",
+        "1 Unit of Contraband Iron",
+        "1 Unit of Contraband Grain",
+        "Zhentarim Smuggling Vessel (Black-Tarred Scow)"
+      ],
+      "next_level_xp": 6500,
+      "current_xp": 3722,
+      "source": "encounter",
+      "progress_percent": 27,
+      "xp_to_next_level": 2778,
+      "xp_total": 3722,
+      "level_up_available": false
+    },
+    "story_index": 72,
+    "player_turn": 41,
+    "time_pressure_warnings": {},
+    "world_resources": {},
+    "item_registry": {},
+    "world_events": {
+      "turn_generated": 141,
+      "background_events": [
+        {
+          "delta_action": "add",
+          "event_type": "long_term",
+          "id": "house_corvus_tracking",
+          "outcome": "Saita's arrival and behavior are being logged for the Emperor's eyes.",
+          "player_impact": "Future blackmail or Imperial critique.",
+          "discovery_condition": "Saita succeeds on a high DC Perception or Insight check during travel.",
+          "player_aware": false,
+          "status": "pending",
+          "actor": "House Corvus",
+          "location": "Wyrm's Crossing",
+          "action": "Dispatched a shadow-scout to Wyrm's Crossing"
+        },
+        {
+          "delta_action": "add",
+          "event_type": "immediate",
+          "id": "zhentarim_toll_test",
+          "outcome": "Interception in progress",
+          "player_impact": "Requires social or physical resolution.",
+          "discovery_condition": "Direct confrontation",
+          "player_aware": true,
+          "status": "discovered",
+          "actor": "The Zhentarim",
+          "location": "South Span, Rivington",
+          "action": "Staged a 'refugee' blockade to test the Herald's response"
+        },
+        {
+          "action": "Tracking Saita via the Rivington rooftops",
+          "event_type": "immediate",
+          "id": "cadet_branch_infiltration",
+          "outcome": "Confirmed Saita's identity as the 'Herald'",
+          "player_impact": "Direct threat to Saita's life and facade.",
+          "discovery_condition": "Kaelen spots the weeping-sun pommel",
+          "player_aware": true,
+          "status": "discovered",
+          "location": "Rivington",
+          "actor": "Cadet Branch Survivor",
+          "delta_action": "add"
+        },
+        {
+          "event_type": "immediate",
+          "id": "cadet_watcher_reposition",
+          "outcome": "Maintained surveillance while avoiding Kaelen's immediate line of sight.",
+          "player_impact": "Ongoing lethal threat.",
+          "discovery_condition": "Kaelen notices the movement after being stabilized.",
+          "player_aware": true,
+          "status": "discovered",
+          "actor": "Cadet Branch Survivor",
+          "location": "Rivington",
+          "action": "Repositioned to the water-tower rooftops"
+        },
+        {
+          "event_type": "long_term",
+          "id": "zhentarim_reporting",
+          "outcome": "The Black Network is now aware that the 'Herald' is cataloging local names in an 'Imperial Ledger'.",
+          "player_impact": "Escalated interest from Zhentarim leadership.",
+          "discovery_condition": "Investigating Zhentarim activity or Sylas gathering intel.",
+          "status": "pending",
+          "player_aware": false,
+          "location": "Gray Harbor",
+          "actor": "The Viper",
+          "action": "Sent a runner to the Gray Harbor warehouses"
+        },
+        {
+          "event_type": "immediate",
+          "id": "fist_patrol_increase",
+          "outcome": "Presence of more guards, creating a tense but somewhat more 'ordered' environment.",
+          "player_impact": "Both a potential escort and a source of scrutiny.",
+          "discovery_condition": "Visible guards at intersections.",
+          "status": "discovered",
+          "player_aware": true,
+          "location": "Rivington thoroughfares",
+          "actor": "Flaming Fist Garrison",
+          "action": "Increased street patrols in Rivington"
+        },
+        {
+          "delta_action": "add",
+          "event_type": "immediate",
+          "id": "lara_cornered_docks",
+          "outcome": "Lara is currently attempting to bluff her way out of an 'informal inspection'.",
+          "player_impact": "Loss of Imperial Ledger or Archivist's life.",
+          "discovery_condition": "Saita reaches the docks or Sylas intervenes.",
+          "status": "pending",
+          "player_aware": false,
+          "actor": "Zhentarim Thugs",
+          "location": "Gray Harbor Docks",
+          "action": "Surrounded Lara Vance near Warehouse 13"
+        },
+        {
+          "delta_action": "add",
+          "event_type": "immediate",
+          "id": "cadet_watcher_docks_move",
+          "outcome": "The Watcher has abandoned the Annex to hunt the weaker link in Saita's chain.",
+          "player_impact": "Direct lethal ambush on the retinue or Lara.",
+          "discovery_condition": "Kaelen spots the Watcher at the docks.",
+          "status": "pending",
+          "player_aware": false,
+          "actor": "Cadet Branch Survivor",
+          "location": "Upper City to Lower City Transition",
+          "action": "Heading toward the Gray Harbor"
+        },
+        {
+          "status": "resolved",
+          "id": "lara_cornered_docks",
+          "outcome": "Lara rescued; Imperial Ledger preserved.",
+          "resolved_turn": 16,
+          "delta_action": "resolve"
+        },
+        {
+          "action": "Preparing a kinetic strike from above",
+          "id": "cadet_watcher_ambush_staged",
+          "discovery_condition": "Kaelen spots the Watcher in the rigging.",
+          "player_aware": true,
+          "status": "discovered",
+          "actor": "Cadet Branch Survivor",
+          "location": "Gray Harbor Rigging",
+          "delta_action": "update"
+        },
+        {
+          "event_type": "long_term",
+          "outcome": "Caius is now aware of Saita's aggressive expansion and is considering an earlier Inquisitorial review.",
+          "player_impact": "Tightened deadline for grain shipments.",
+          "discovery_condition": "Encrypted message from Octavia.",
+          "player_aware": false,
+          "status": "pending",
+          "actor": "House Umbra",
+          "location": "Aethelgard Capital",
+          "action": "Intercepted a courier report regarding the 'Grand Arrival' in Baldur's Gate."
+        },
+        {
+          "event_type": "long_term",
+          "outcome": "Zhentarim are re-evaluating their 'protection' strategy toward Saita.",
+          "player_impact": "Escalated underworld scrutiny.",
+          "discovery_condition": "Sylas gathers intel from dockside runners.",
+          "player_aware": false,
+          "status": "pending",
+          "location": "Gray Harbor Black-Market Hub",
+          "actor": "The Viper",
+          "action": "Reporting the 'Herald's' lethality and the death of Varek Solari to Zhentarim leadership."
+        },
+        {
+          "event_type": "immediate",
+          "outcome": "A formal inquiry is being drafted; investigators may visit the Annex.",
+          "player_impact": "Threat to the Imperial Facade.",
+          "discovery_condition": "Sergeant Hallow is summoned for questioning.",
+          "status": "pending",
+          "player_aware": false,
+          "location": "Wyrm's Rock Barracks",
+          "actor": "Flaming Fist Investigators",
+          "action": "Inquiring about the 'Imperial Horns' heard at Warehouse 13."
+        },
+        {
+          "delta_action": "add",
+          "event_type": "long_term",
+          "id": "zhentarim_viper_power_test",
+          "outcome": "Establishing a minor Zhentarim-Imperial monopoly in the Herald's name.",
+          "player_impact": "Inflated Imperial Facade vs. increased notoriety.",
+          "discovery_condition": "Sylas brings news of 'imperial' thugs collecting extra taxes.",
+          "status": "pending",
+          "player_aware": false,
+          "location": "Gray Harbor North Pier",
+          "actor": "The Viper",
+          "action": "Harassing rival dockside smugglers"
+        },
+        {
+          "event_type": "long_term",
+          "outcome": "Confirmed Saita's survival and aggressive expansion; monitoring her 'Harvest' methods.",
+          "player_impact": "Escalated risk of sibling sabotage.",
+          "discovery_condition": "Encrypted message from Octavia or Inquisitorial arrival.",
+          "player_aware": false,
+          "status": "pending",
+          "actor": "Lucius Aethelgard",
+          "location": "Aethelgard Capital",
+          "action": "Received the shadow-report from House Corvus"
+        },
+        {
+          "event_type": "long_term",
+          "outcome": "Establishing a monopoly on grain and iron, while secretly skimming gold for himself.",
+          "player_impact": "Financial loss but increased Imperial Facade.",
+          "discovery_condition": "Lara audits the ledger against physical stock.",
+          "player_aware": false,
+          "status": "pending",
+          "actor": "The Viper",
+          "location": "Gray Harbor Docks",
+          "action": "Consolidating the Gray Harbor Zhentarim under the 'Herald's' name"
+        },
+        {
+          "event_type": "atmosphere",
+          "outcome": "The nobility is divided between curiosity and fear regarding the Aethelgardian arrival.",
+          "player_impact": "Increased difficulty for future clandestine abductions.",
+          "discovery_condition": "Directly overheard or reported by Sylas.",
+          "status": "discovered",
+          "player_aware": true,
+          "location": "Upper City Districts",
+          "actor": "Baldurian Citizens",
+          "action": "Spreading rumors of the 'Wounded Goddess'"
+        },
+        {
+          "event_type": "immediate",
+          "outcome": "Confirmed the presence of Duke Ravengard and his elite guard at the Herald's seat.",
+          "player_impact": "Zhentarim may attempt to disrupt the negotiation to prevent an Imperial-Fist alliance.",
+          "discovery_condition": "Kaelen or Sylas performs a successful Perception check outside.",
+          "status": "pending",
+          "player_aware": false,
+          "actor": "The Zhentarim",
+          "location": "Upper City Streets",
+          "action": "Monitoring the Annex perimeter"
+        },
+        {
+          "event_type": "immediate",
+          "id": "viper_observing_raid",
+          "outcome": "Confirmed the Herald's direct involvement with Duke Ravengard.",
+          "player_impact": "The Zhentarim now view Saita as a direct political threat to their city-state influence.",
+          "discovery_condition": "Sylas performs a successful Perception check or catches the Viper's trail later.",
+          "status": "pending",
+          "player_aware": false,
+          "actor": "The Viper",
+          "location": "Gray Harbor Alleyways",
+          "action": "Monitoring the raid on Warehouse 7 from the shadows"
+        }
+      ]
+    },
+    "last_location": "Warehouse 7, Gray Harbor Docks",
+    "world_time": "1492 DR, Eleasias 24, 22:30:00",
+    "faction_updates": {
+      "House Corvus": {
+        "progress": "Report prepared regarding the recruitment of the Viper",
+        "resource_change": "none",
+        "player_standing_change": "Neutral (Intrigued)",
+        "next_action": "Evaluate the 'Sovereign Debt' claim against actual imperial treasury logs",
+        "current_objective": "Log Saita's handling of local assets"
+      },
+      "Flaming Fist Investigators": {
+        "progress": "Interrogating witnesses near the toll-booth",
+        "next_action": "Requesting a meeting with 'Herald Kross' at the Annex",
+        "player_standing_change": "Neutral (Suspicious)",
+        "resource_change": "none",
+        "current_objective": "Identify the source of the 'Imperial Horns'"
+      },
+      "The Zhentarim": {
+        "progress": "Infiltration of harbor rumors in progress.",
+        "resource_change": "Loss of face in Gray Harbor; increased recruitment in Heapside.",
+        "player_standing_change": "Antagonistic curiosity.",
+        "next_action": "Sponsoring a 'theft' at the Annex to test security.",
+        "current_objective": "Determine the true strength of Saita's 'Vanguard'."
+      }
+    },
+    "rumors": [
+      {
+        "content": "A massive Aethelgard armada has been spotted off the coast of Chult, heading north.",
+        "source_type": "traveler",
+        "accuracy": "false",
+        "related_event": "Imperial Facade"
+      },
+      {
+        "content": "The Flaming Fist are taking bribes to let Zhentarim smugglers into the Upper City.",
+        "source_type": "commoner",
+        "accuracy": "partial",
+        "related_event": "Captain Thorne's corruption"
+      },
+      {
+        "source_type": "refugee",
+        "content": "The 'Herald' from Aethelgard is carrying a ledger that lists every traitor in Baldur's Gate.",
+        "accuracy": "false",
+        "related_event": "Imperial Ledger"
+      },
+      {
+        "source_type": "merchant",
+        "content": "A high-ranking rebel from across the sea was seen buying poisons in the Undercity.",
+        "accuracy": "partial",
+        "related_event": "Cadet Branch Infiltration"
+      },
+      {
+        "content": "The Herald of Aethelgard is recruiting from the Rivington gangs into a 'provisional auxiliary'.",
+        "source_type": "refugee",
+        "accuracy": "true",
+        "related_event": "Viper recruitment"
+      },
+      {
+        "source_type": "commoner",
+        "content": "The Flaming Fist have orders to yield to anyone carrying a blue and silver seal.",
+        "accuracy": "partial",
+        "related_event": "Captain Thorne's surrender"
+      },
+      {
+        "source_type": "traveler",
+        "content": "A high-born girl was seen arguing with dockworkers about 'Imperial Customs' near the Gray Harbor.",
+        "accuracy": "true",
+        "related_event": "Lara at the docks"
+      },
+      {
+        "source_type": "noble",
+        "content": "The Flaming Fist in the Upper City are taking orders from a foreign woman in blue velvet.",
+        "accuracy": "partial",
+        "related_event": "Honor Guard subversion"
+      },
+      {
+        "content": "The Herald's horns can be heard across the Chionthar; the Empire has arrived.",
+        "source_type": "traveler",
+        "accuracy": "partial"
+      },
+      {
+        "content": "The Aethelgard 'Armada' is actually just a single ghost-ship carrying nothing but gold and plague.",
+        "source_type": "merchant",
+        "accuracy": "false",
+        "related_event": "Grand Arrival"
+      },
+      {
+        "content": "A high-ranking Imperial Herald has requisitioned the Silvershield Annex and has 50,000 troops marching from Rivington.",
+        "source_type": "guard",
+        "accuracy": "partial",
+        "related_event": "Grand Arrival"
+      },
+      {
+        "content": "The Aethelgard Herald carries a ledger that turns men's blood to ice with a single entry.",
+        "source_type": "commoner",
+        "accuracy": "partial",
+        "related_event": "zhentarim_reporting"
+      },
+      {
+        "content": "A high-ranking rebel from across the sea was found dead in the mud, executed by the Zenith's hand.",
+        "source_type": "guard",
+        "accuracy": "true"
+      },
+      {
+        "content": "The Herald's 'Archivist' carries a book that smells of blood and spells; to touch it is to be owned by the Zenith.",
+        "source_type": "commoner",
+        "accuracy": "partial",
+        "related_event": "Imperial Ledger"
+      },
+      {
+        "content": "The Flaming Fist in the harbor have been replaced by Aethelgard skin-shifters who obey the Herald's silent commands.",
+        "source_type": "traveler",
+        "accuracy": "false",
+        "related_event": "Hallow's subversion"
+      },
+      {
+        "content": "The Aethelgard Herald was struck by a ghost at the docks; they say her blood glows with silver light.",
+        "source_type": "commoner",
+        "accuracy": "partial",
+        "related_event": "Varek Ambush"
+      },
+      {
+        "content": "Grand Duke Ravengard has been summoned to a ruin by a foreign sorceress; the Fist is in a panic.",
+        "source_type": "guard",
+        "accuracy": "partial"
+      },
+      {
+        "content": "The 'Herald' was wounded by a Zhentarim assassin, proving that even the Aethelgardians bleed.",
+        "source_type": "guard",
+        "accuracy": "partial",
+        "related_event": "Gray Harbor Ambush"
+      },
+      {
+        "source_type": "noble",
+        "content": "The Herald of Aethelgard has summoned the Duke to a ruin; they say a dark pact is being signed in blood.",
+        "accuracy": "partial"
+      },
+      {
+        "content": "Warehouse 7 was hit by a squad of ghosts; not a single horn was blown before the doors shattered.",
+        "source_type": "guard",
+        "accuracy": "true"
+      }
+    ],
+    "location": "Warehouse 7, Gray Harbor Docks",
+    "session_id": "legacy-migrated-0f8f3b6d806b83ff",
+    "debug_mode": true,
+    "pending_instruction_hints": [],
+    "game_state_version": 1,
+    "npc_agendas": {},
+    "schema_migration_version": 1,
+    "current_location": "Warehouse 7, Gray Harbor Docks",
+    "custom_campaign_state": {
+      "imperial_favor": 1,
+      "player_character_data_extras": {
+        "harvest_quota": {
+          "grain_units_secured": 3,
+          "iron_units_secured": 2
+        }
+      },
+      "harvest_quota": {
+        "iron_units_required": 5,
+        "specimens_identified": [
+          "Grog-Mar"
+        ],
+        "iron_units_secured": 4,
+        "deadline_days": 20,
+        "grain_units_required": 5,
+        "specimens_secured": 1,
+        "grain_units_secured": 5,
+        "specimens_required": 2
+      },
+      "_agent_selection_tracker": {
+        "rewards_skip_count": 0,
+        "count": 4,
+        "agent": "DialogAgent"
+      },
+      "core_memories": [
+        "Princess Saita's physical parameters have been calibrated to an elite Aethelgardian baseline: CHA 18, DEX 16, INT 14.",
+        "Princess Saita has mastered the 'Emperor's Voice,' gaining Expertise in Persuasion and Deception to bolster her imperial bluff.",
+        "Saita has arrived at Wyrm's Crossing and faces her first obstacle: a corrupt Flaming Fist Captain demanding a 500gp bribe she cannot pay without shattering her imperial facade.",
+        "Saita successfully countered Captain Thorne's bribe demand with a high-stakes diplomatic bluff, positioning him as a potential asset or victim of Imperial politics.",
+        "Saita successfully bypassed the Flaming Fist blockade at Wyrm's Crossing by terrifying Captain Thorne with a high-stakes diplomatic bluff, establishing her first foothold of authority in Baldur's Gate.",
+        "Captain Thorne provided intelligence on Zhentarim and Guild activity in the Lower City but remained at his post due to fear of Flaming Fist reprisal.",
+        "Kaelen identified a potential shadow-scout in the Rivington crowd, noting their lack of reaction to the drawbridge's impact as a sign of professional training.",
+        "Saita's Aethelgardian biology has matured, increasing her physical threshold by 6 HP as she awakens toward Level 2.",
+        "Saita has integrated the imperial spell 'Command' into her biological repertoire, preparing to finalize her transition to Level 2.",
+        "Princess Saita has successfully awakened to Level 2, her biological potential expanding to include the 'Command' frequency and the 'Jack of All Trades' versatility.",
+        "Kaelen has identified the 'Watcher' as a Cadet Branch agent using a rebel-pattern falcata, escalating the personal stakes for the retinue.",
+        "Saita successfully manipulated a Zhentarim intercept in Rivington using a 'Carrot and Stick' approach, establishing the 'Viper' as a potential Imperial asset rather than an enemy.",
+        "Saita successfully formalized the Zhentarim 'Viper' as a provisional imperial asset in Rivington, binding him through the psychological threat of the Imperial Ledger.",
+        "Saita successfully stabilized Kaelen's trauma-response, re-anchoring him to his duty and preventing a premature confrontation with the Cadet Branch watcher.",
+        "Saita successfully subverted a Flaming Fist patrol into an 'Imperial Honor Guard,' confusing the Cadet Watcher and elevating her Imperial Facade to absolute levels.",
+        "The Sovereign Requisition resulted in a coordination breakdown, leaving the retinue scattered and Lara Vance vulnerable at the docks while Saita focuses on the Silvershield Annex.",
+        "The Sovereign Requisition has failed to maintain coordination, leaving Lara Vance vulnerable at the Gray Harbor while the Flaming Fist Sergeant questions Saita's authority.",
+        "Saita successfully cowed Sergeant Hallow through raw biological intimidation, forcing a Flaming Fist patrol to march on the Gray Harbor against their standing orders.",
+        "Saita successfully cowed Sergeant Hallow by providing him with a forged 'Imperial Requisition' warrant and a false promise of shadow protection, forcing the patrol to march on the Gray Harbor.",
+        "Saita successfully secured Lara Vance at the Gray Harbor by orchestrating a 'Grand Arrival' that used Flaming Fist horns to simulate an approaching imperial vanguard, scattering Zhentarim thugs through psychological warfare.",
+        "Saita has triggered her Level 3 ascension, beginning the biological integration of College of Swords kinetic flourishes and Second-Level imperial frequencies.",
+        "Saita's biological threshold has expanded by 8 HP as she ascends to Level 3, further reinforcing her imperial density.",
+        "Saita has finalized her Level 3 biological awakening, integrating the Dueling fighting style, the Invisibility frequency, and expertise in Intimidation and Insight.",
+        "The biological awakening to Level 3 is complete, finalizing Saita's transition into the College of Swords (Ascendant Herald) and sharpening her kinetic combat potential.",
+        "The Gray Harbor Ambush: Varek Solari, a Cadet Branch survivor, launched a lethal strike against Saita at the docks, wounding her and challenging her imperial mask.",
+        "Varek Solari, a survivor of the Sun-Bleached Cadet Branch, has ambushed Saita at the Gray Harbor, proving that the Empire's internal enemies have followed her to Baldur's Gate.",
+        "The Cadet Branch survivor Varek Solari has been subdued by Saita's 'Command' frequency, revealing that Aethelgardian biological superiority can be weaponized against its own kind.",
+        "Princess Saita executed Varek Solari, a survivor of the Sun-Bleached Cadet Branch, at the Gray Harbor docks, reinforcing her ruthless imperial authority and silencing a witness to the Empire's internal decay.",
+        "Correction: Saita's mission is the 'Apex Harvest'\u2014securing Faer\u00fbn's elite genetic stock to reverse Aethelgard's demographic collapse (only 50 nobles remain).",
+        "Saita delegated the tailing of Grog-Mar to Sylas while finalizing the grain audit, though coordination with the Flaming Fist began to fray under the pressure of the docks.",
+        "Saita has initiated her Level 4 biological awakening at the Gray Harbor docks, preparing to integrate an Ability Score Improvement and new imperial frequencies to sustain the Apex Harvest.",
+        "Princess Saita's biological density has expanded (+4 HP) as she matures toward Level 4.",
+        "Princess Saita has reached the biological limit of her Auctoritas, increasing her Charisma to 20 (+5) to solidify her imperial presence and mastery over lesser minds.",
+        "Princess Saita has completed the selections for her Level 4 maturation, integrating 20 Charisma (+5), Minor Illusion, and Hold Person into her biological architecture.",
+        "Princess Saita has completed her fourth biological maturation, reaching the Aethelgardian peak of 20 Charisma and integrating Hold Person into her sovereign repertoire.",
+        "Princess Saita has reached Level 4, anchoring her Auctoritas at the imperial peak (CHA 20) and integrating Hold Person into her biological repertoire.",
+        "Correction: Varek Solari was 'The Watcher' tracking the retinue; his execution at the docks neutralized the immediate Cadet threat and left 19 rebels remaining globally.",
+        "The Gray Harbor grain and iron audit was successfully completed under the forced escort of Sergeant Hallow, marking the first logistical success of the Expansion Directive.",
+        "Correction: Saita's retinue has been biologically synchronized to Level 4; future XP rewards are halved to stabilize narrative pacing after the initial rapid maturation.",
+        "Saita has weaponized her wound from Varek to provoke a personal meeting with Grand Duke Ulder Ravengard, using Sergeant Hallow as a terrified messenger.",
+        "Saita has subverted a Flaming Fist detail to perform manual labor at the Silvershield Annex, reinforcing her facade of supreme authority while awaiting a personal audience with Duke Ravengard.",
+        "Princess Saita completed a short rest at the Silvershield Annex, fully recovering her physical threshold and preparing for the high-stakes confrontation with Duke Ulder Ravengard.",
+        "Duke Ulder Ravengard rejected Saita's initial proposal for a Joint Defense Pact, labeling her 'Wounded Sovereign' act as mere theater and demanding hard evidence of a shared threat.",
+        "Princess Saita successfully pivoted her diplomatic strategy with Duke Ravengard, using the 'Shield of the Helpless' framing and an admission of limited resources to frame Aethelgard's presence as a stabilizing partnership rather than a conquest.",
+        "Saita successfully traded 'Vanguard' intelligence with Duke Ravengard, dealing 2 Social HP damage and securing his interest in a Joint Defense Pact.",
+        "Princess Saita successfully led Duke Ravengard on a surgical raid of Warehouse 7, providing hard evidence of Zhentarim activity and demonstrating Aethelgard's tactical value.",
+        "Saita successfully paralyzed the Zhentarim leader at Warehouse 7 using a sub-vocal Hold Person frequency, demonstrating Aethelgardian biological dominance to Duke Ulder Ravengard.",
+        "Princess Saita successfully escorted Duke Ravengard back to the Silvershield Annex and signed the Joint Defense Pact, securing both the grain trade and strategic political support.",
+        "Princess Saita successfully signed a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at Warehouse 7."
+      ],
+      "divine_potential": 0,
+      "arc_milestones": {},
+      "social_hp_challenge": {
+        "cooldown_remaining": 1,
+        "successes": 5,
+        "npc_name": "Duke Ulder Ravengard",
+        "status": "WAVERING",
+        "social_hp_damage": 2,
+        "successes_needed": 5,
+        "social_hp": 5,
+        "roll_result": 22,
+        "request_severity": "submission",
+        "npc_id": "npc_ravengard_001",
+        "resistance_shown": "Ravengard acknowledges the tactical value of the raid but requires the final draft signed under the scrutiny of the High Hall.",
+        "roll_dc": 17,
+        "npc_tier": "general",
+        "skill_used": "Persuasion",
+        "objective": "Secure Joint Defense Pact & Grain Trade",
+        "social_hp_max": 10
+      },
+      "campaign_tier": "mortal",
+      "sanctuary_mode": null,
+      "completed_missions": [],
+      "active_constraints": [],
+      "major_event_pressure_budget": {
+        "new_major_event": false,
+        "major_events_this_window": 2,
+        "window": "24h",
+        "rationale": "Ravengard's presence anchors the scene; local underworld reactions are the only active developments.",
+        "special_circumstances": true
+      },
+      "last_maturation_timestamp": {
+        "year": 1492,
+        "hour": 19,
+        "day": 24,
+        "minute": 40,
+        "month": "Eleasias"
+      },
+      "logistics_ledger": {
+        "grain": 0,
+        "magic": 0,
+        "iron": 0
+      },
+      "active_missions": [
+        {
+          "title": "Locate the Loyal Remnant",
+          "status": "in_progress",
+          "objective": "Recruit Aethelgard veterans from the Rivington slums",
+          "mission_id": "locate_loyal_remnant"
+        },
+        {
+          "title": "Establish Grain Trade",
+          "status": "accepted",
+          "objective": "Secure a monthly shipment of at least 5 units of grain for the Empire.",
+          "mission_id": "secure_grain_supply"
+        }
+      ],
+      "level_up_complete": true,
+      "level_up_pending": false,
+      "level_up_stage": null,
+      "companion_arcs": {
+        "Kaelen": {
+          "callbacks": [
+            {
+              "trigger_condition": "Party encounters Aethelgard deserters or Cadet Branch agents",
+              "effect": "Kaelen experiences physical trauma/flashbacks related to his lost eye."
+            }
+          ],
+          "progress": 35,
+          "phase": "development",
+          "history": [
+            {
+              "event": "Kaelen identified the Watcher as a Cadet Branch agent, triggering a severe traumatic response.",
+              "turn": 7
+            }
+          ],
+          "arc_type": "rival_nemesis"
+        }
+      },
+      "character_creation_in_progress": false,
+      "next_companion_arc_turn": 5,
+      "decimation_cohort": {
+        "known_rivals": {
+          "Princess Drusilla": {
+            "style": "Siren",
+            "location": "Amn"
+          },
+          "Prince Valerius": {
+            "style": "Brute",
+            "location": "Waterdeep"
+          }
+        },
+        "leaderboard_rank": 10,
+        "rivals_remaining": 9
+      },
+      "imperial_facade_tracker": 10,
+      "character_creation_completed": true,
+      "universe_control": 0,
+      "level_up_in_progress": false,
+      "attribute_system": "D&D",
+      "rebel_nobles_remaining": 19,
+      "character_creation_stage": "complete",
+      "multiverse_upgrade_available": false,
+      "divine_upgrade_available": false,
+      "recent_decisions": [
+        "Selected Minor Illusion (Cantrip) and Hold Person (Spell) for Level 4 maturation."
+      ],
+      "success_streak": 3,
+      "god_mode": {
+        "description": "**CAMPAIGN BIBLE: THE HOLLOW ZENITH**\n### **Section 1: Campaign Intro**\n * **Title:** The Hollow Zenith: A Herald\u2019s Bluff in the City of Blood.\n * **The Concept:** The Aethelgard Empire is a civilization of apex predators, a eugenics-driven society where the royal bloodline possesses world-shattering physical and magical superiority. In Aethelgard, might is the only law, and weakness is a capital offense. To the Aethelgards, the citizens of Faer\u00fbn are fragile, fleeting mayflies. The Emperor, Tiberius Aethelgard, is a Level 20 titan capable of leveling cities barehanded, and standard nobles reach Level 12 before their fortieth year. However, a brutal, apocalyptic civil war against a treacherous Cadet Branch has left the Empire bleeding out behind a curtain of gold. Their legions are decimated, their treasuries empty, and their infrastructure in ruins. To survive, Aethelgard is expanding into the Sword Coast, specifically targeting a recovering Baldur's Gate in the aftermath of the Absolute's fall. You are Princess Saita Aethelgard, the youngest of the royal line. Because you are only Level 1\u2014an infant by their standards\u2014you have been sent under the guise of \"Herald Saita Kross\" to secure resources, alliances, and vassal states. You must project the illusion of an unbroken, invincible Empire, weaponizing diplomacy and fear, because if the Sword Coast realizes Aethelgard is currently too weak to conquer them, you will be slaughtered.\n * **The Hook:** This campaign is a high-wire act of geopolitical gaslighting and supreme arrogance. You are not saving Baldur\u2019s Gate; you are systematically buying it, manipulating it, and breaking it to feed your starving Empire. The power fantasy stems from playing a character with the ego of a god and the biological potential of a world-breaker, constrained by the temporary fragility of Level 1. You must conquer through hyper-competent social manipulation, leveraging a reputation you cannot physically back up yet. It is a game of terrifying bluffs, where rolling high on Deception feels like holding a knife to a king's throat.\n### **Section 2: Character Personality**\n * **Name & Archetype:** Princess Saita Aethelgard / Herald Saita Kross. Archetype: \"The Patient Apex\" (INTJ/ENTJ Hinge). You possess the chilling, calculating superiority of an apex predator forced to negotiate with its food. You are Lawful Evil\u2014your morality is dictated entirely by the survival and supremacy of your bloodline.\n * **Visual Signature & Habits:** You wear impeccably tailored, travel-worn midnight-blue velvet stitched with hidden threads of imperial silver. Your posture is a weapon; you never slouch, lean, or fidget, moving with a hyper-efficient kinetic economy that unnerves normal mortals. Your tell-tale sign is the casual, perfect balancing of a razor-sharp dagger on the tip of your index finger when bored. You smell faintly of ozone, crushed pine, and cold iron\u2014the biological signature of Aethelgard blood.\n * **The Masks:**\n   * **The Public Face (Herald Kross):** A weary, pragmatic, but charming diplomat representing a distant, impossibly powerful superpower. You use polite smiles and reasonable tones to make your demands sound like generous favors. You act as though you are merely doing paperwork for a god.\n   * **The True Nature (Princess Saita):** A supremacist godling who views every non-Aethelgardian as a sub-sentient tool. Beneath the charm is a boiling reservoir of humiliation that you, a Princess of the Blood, must lower yourself to bargain with these fragile, short-lived creatures.\n * **The Core Compulsion:** \"The Burden of Supremacy.\" You are utterly obsessed with proving your worth to your family and ensuring the Empire does not fall.\n   * **Mechanic: The Imperial Bluff.** Whenever you successfully use Charisma (Intimidation or Deception) to force an enemy to back down from a physical confrontation, you gain Temporary HP equal to your Charisma modifier + your Level, as your ego is fed. If your true identity or the Empire's weakness is successfully called out or exposed in a scene, you suffer a point of Exhaustion from the sheer, crushing psychological dissonance.\n * **Interaction Shorthand:**\n   * *To Rivals/Patriars:* \"Your city is beautiful, Duke Ravengard. It would be a profound tragedy if my father's legions had to come here to teach your masons how to build walls that actually hold. Shall we discuss the grain tariffs again?\"\n   * *To Subordinates:* \"Kaelen, wipe that blood off your armor. We are projecting invincibility today, not butchery. Move.\"\n * **Inner Monologue:**\n   1. *\"This Patriar boasts of his 'ancient' fifty-year-old bloodline. My father has boots older than his entire family tree. I must smile so I do not rip his jaw from his face.\"*\n   2. *\"The Flaming Fist believe their steel makes them strong. They move so slowly. Even now, with my powers dormant, I could sever three arteries before they drew their swords. But no... we need their iron.\"*\n   3. *\"Caius sits on a throne of ash in the capital while I play in the mud of the Sword Coast. When I return with this continent on a leash, he will bow to me.\"*\n### **Section 3: Character Class**\n * **Class Name & Flavor:** The Ascendant Herald (Mechanically: College of Swords Bard). Your \"magic\" is not derived from the Weave, but from Aethelgard biology. Your *Vicious Mockery* is a vocal frequency so dominant and commanding it causes mortal blood vessels to rupture. Your *Blade Flourishes* are not dances, but bursts of Viltrumite-esque kinetic speed that the mortal eye simply cannot track. Your spells are manifestations of physical perfection and imperial oratory.\n * **Unique Mechanic:** *Auctoritas (The Sovereign's Weight).* You may use your Charisma modifier instead of Dexterity for your Armor Class calculations and Weapon Attack/Damage rolls. Your sheer force of will, entitlement, and terrifying presence cause enemies to flinch, miss, and succumb to your strikes.\n * **Progression (Levels 1-30):**\n   * **Levels 1-5 (The Dormant Seed):** You unlock *Sovereign's Strike* (Blade Flourishes redefined as kinetic shockwaves). You gain *The Emperor's Voice* (Expertise in Persuasion/Deception). At Level 5, your Font of Inspiration becomes *Aethelgard Command*, restoring on a short rest as you physically push your allies beyond mortal limits through fear.\n   * **Levels 6-10 (The Awakening Predator):** Extra Attack is renamed *Biomechanical Blur*. You unlock *Kinetic Nullification* (Counterspell), which you flavor as casually slapping away incoming magical energy with your bare hand.\n   * **Levels 11-16 (The Continental Threat):** You achieve the standard Aethelgard noble baseline. You unlock *Flight* (magical secrets: Fly, but innate). Your weapon attacks ignore non-magical resistances, flavored as your raw physical density shattering armor.\n   * **Levels 17-20 (The Imperial Titan):** You reach the threshold of your parents. *Peerless Skill* becomes *Absolute Reality*, allowing you to succeed on almost any check. You gain *Worldbreaker's Resonance* (access to 9th level spells like Power Word Kill, spoken as a simple imperial decree).\n   * **Levels 21-30 (Epic Boons - The God-Empress):**\n     * *Level 22: Boon of the Apex:* You no longer age, and you are immune to all diseases and poisons.\n     * *Level 25: Boon of the Shattered Sky:* Once per day, you can shatter the sound barrier with a physical strike, dealing 10d10 thunder damage in a 300-foot radius.\n     * *Level 28: Boon of the Invincible:* You gain resistance to all bludgeoning, piercing, and slashing damage, magical or otherwise.\n     * *Level 30: The Zenith Absolute:* Your Charisma and Strength scores increase to 30. You are a walking extinction event.\n### **Section 4: Assets & Retinue**\n * **Status:** Imperial Diplomatic Herald (Cover) / 5th in Line to the Aethelgard Throne (Secret).\n * **Resources:** A modest, meticulously counted purse of 150 gold pieces. You possess the *Imperial Ledger*, a terrifying prop filled with real Aethelgard wax seals, detailing the fictional movements of 50,000 non-existent legionnaires.\n   * *Safehouse:* The \"Silvershield Annex,\" a seized, semi-ruined upper-city estate in Baldur's Gate that you claimed through aggressive legal loopholes upon your arrival.\n * **The Panoply:**\n   * *The Kross Needle (Masterwork Rapier):* Forged from gravity-well iron. It has no magical pluses yet, but it weighs 40 pounds; you wield it as if it were a feather. (Mechanic: Deals slashing or piercing, cannot be disarmed).\n   * *The Mantle of the Zenith:* A midnight-blue cloak woven with starlight. (Mechanic: Grants Advantage on Deception checks when pretending to have large military backing).\n   * *The Sovereign's Signet:* A heavy obsidian ring. (Mechanic: Once per day, pressing this ring into wax casts *Illusory Script* that appears as a binding, magically terrifying contract to anyone who reads it).\n * **The Retinue:**\n   * **Kaelen \"The Broken Wall\" (Level 2 Fighter):** Role: The Sworn Shield. Loyalty: Fanatical. He is an Aethelgard loyalist who lost his eye to a Cadet Branch godling during the civil war. He knows you are the Princess. Personality: Grim, silent, and hyper-paranoid. He acts as the terrifying physical deterrent to any who would insult the \"Herald.\"\n   * **Sylas the Rat (Level 2 Rogue):** Role: The Fixer/Scout. Loyalty: Coin and Fear. A local Baldurian who switched sides when you paid his guild debts. He is unaware of your royal blood. Personality: Cynical, opportunistic, and constantly amazed by your arrogance. He navigates the Lower City mud so you don't have to.\n   * **Elara Vance (Level 1 Wizard):** Role: The Imperial Archivist. Loyalty: Bureaucratic conditioning. She believes you are truly just Herald Kross. Personality: Frantic, sleep-deprived, and constantly terrified of violating Imperial Protocol. She manages the forged ledgers and provides academic analysis of Faer\u00fbnian politics.\n### **Section 5: Family (The Viper's Nest)**\n * **The Parents:**\n   * *Emperor Tiberius Aethelgard (Level 20+ Conquest Paladin/Barbarian):* The Iron Titan. He ended the civil war by physically ripping the rebel leader's spine out. He is distant, ruthless, and views his children purely as assets. He sent you to Baldur's Gate because if you fail, you were too weak to live anyway.\n   * *Empress Seraphina (Level 20+ Bladesinger):* The Architect. A terrifyingly cold intellect who planned the extermination of the Cadet Branch. She occasionally sends you encrypted messages critiquing your diplomatic posture.\n * **The Siblings (The Four Shadows):**\n   * **Caius (Eldest Brother, Level 16 - The Regent):** Mask: The Perfect Heir. Dynamic: *The Obstacle.* He is running the ruined capital in your father's stead. He secretly hopes you die on the Sword Coast so he has one less rival for the throne. He actively underfunds your mission.\n   * **Aurelia (Eldest Sister, Level 14 - The General):** Mask: The Warmonger. Dynamic: *The Blunt Instrument.* She commands the loyalist remnants. She despises your diplomatic mission, believing the Sword Coast should simply be burned, even if it costs them the war.\n   * **Lucius (Second Brother, Level 12 - The Inquisitor):** Mask: The Loyal Shadow. Dynamic: *The Spy.* He handles internal security. He has embedded sleeper agents in your retinue to monitor your progress and will blackmail you if he discovers you slipping.\n   * **Octavia (Second Sister, Level 10 - The Schemer):** Mask: The Socialite. Dynamic: *The Dangerous Ally.* She understands the Empire is broke and respects your mission. She occasionally funnels you black-market gold, but only to put you in her debt for the inevitable succession crisis.\n### **Section 6: Factions**\n * **Noble Houses (The Pieces on the Board):**\n   1. **House Silvershield (Baldur's Gate):** Leader: Duke Entar (or his successor). *Specialty:* Politics and military defense. *Vibe:* Arrogant traditionalists. *Hook:* Desperate for stability post-Absolute; can be terrified into submission by the threat of Aethelgard legions.\n   2. **House Jannath (Baldur's Gate):** Leader: Lady Jannath. *Specialty:* Wealth and arcane arts. *Vibe:* Eccentric opulence. *Hook:* Easily manipulated by offering \"exotic\" Aethelgard arcane knowledge in exchange for funding.\n   3. **House Portyr (Baldur's Gate):** Leader: Duke Dillard Portyr. *Specialty:* Trade and the Flaming Fist. *Vibe:* Bureaucratic and weary. *Hook:* Paralyzed by indecision; you can strong-arm their trade routes.\n   4. **House Vane (Aethelgard):** Leader: Lord Vane. *Specialty:* Imperial Banking. *Vibe:* Gilded corruption. *Hook:* They hold your family's debt; you must send them Sword Coast gold to keep them loyal.\n   5. **House Draconis (Aethelgard):** Leader: Lady Draconis. *Specialty:* Beastmasters/Cavalry. *Vibe:* Savage elitists. *Hook:* They demand exotic Faer\u00fbnian beasts as tribute to replace their war losses.\n   6. **House Corvus (Aethelgard):** Leader: Master Corvus. *Specialty:* Intelligence. *Vibe:* Paranoid watchers. *Hook:* They control the flow of information back to your father; you must bribe them to hide your failures.\n   7. **House Solis (Aethelgard):** Leader: High Priest Solis. *Specialty:* State Religion. *Vibe:* Pious supremacists. *Hook:* They view Faer\u00fbnians as heretics; you must pretend you are converting Baldur's Gate.\n   8. **House Umbra (Aethelgard):** Leader: The Shadow. *Specialty:* Assassination. *Vibe:* Cold efficiency. *Hook:* Secretly aligned with your brother Caius; they are a constant threat.\n   9. **House Ferris (Aethelgard):** Leader: Lord Ferris. *Specialty:* Mining and Industry. *Vibe:* Brutal industrialists. *Hook:* They desperately need Sword Coast iron; delivering it ensures their loyalty to you over your siblings.\n   10. **House Marris (Aethelgard):** Leader: Lady Marris. *Specialty:* Agriculture. *Vibe:* Feudal lords. *Hook:* The Empire is starving; securing grain shipments from Faer\u00fbn makes them your vassals.\n * **Friendly Factions (Tools & Pawns):**\n   1. **The Loyal Remnant:** Kaelen\u2019s network of Aethelgard veterans stranded on the coast.\n   2. **Refugees of the Absolute:** Desperate masses in the Outer City you can recruit as cheap labor or thugs.\n   3. **Cult of the Dragon Defectors:** Treasure hoarders who respect your imperial aura and can be bullied into funding you.\n   4. **The Gondian Artificers:** Rebuilding after Gortash, they are susceptible to Aethelgard \"protection.\"\n   5. **Disillusioned Fist Mercenaries:** Corrupt guards easily bought by your fabricated promises of imperial titles.\n   6. **Waterdhavian Opportunists:** Merchants willing to bypass Baldur's Gate tariffs if you offer them \"Imperial Trade Warrants.\"\n   7. **Smugglers of the Chionthar:** River-rats like Sylas who move your illicit goods.\n   8. **Aethelgard Sleeper Agents:** Deep-cover spies placed decades ago, awaiting the Herald's activation codes.\n   9. **Baldur's Mouth Propagandists:** Journalists you bribe to print exaggerated stories of Aethelgard's massive approaching armada.\n   10. **The Society of Brilliance:** Academic fools you manipulate into translating ancient texts for your own power gain.\n * **Antagonistic Factions (The Threats to the Bluff):**\n   1. **The Cadet Branch Assassins:** Remnants of the rebel Aethelgard bloodline who survived the war and want you dead.\n   2. **Ravengard Loyalists:** Honest politicians in Baldur's Gate who see through your diplomatic lies.\n   3. **The Zhentarim:** The Black Network views you as a rival for control of the city's underworld.\n   4. **Mind Flayer Survivors:** Illithids hiding in the Undercity who recognize your aberrant biological density and want to study you.\n   5. **Banite Remnants:** Followers of Gortash who want to reclaim the city's infrastructure from your grasp.\n   6. **Bhaalist Cultists:** Murderers who view your \"Ascendant Blood\" as the ultimate sacrifice for their god.\n   7. **The Shadow Thieves of Amn:** Rivals interfering with your trade negotiations in the south.\n   8. **Aethelgard Inquisitors:** Agents sent by your brother Lucius to find proof of your weakness and execute you for treason.\n   9. **Red Wizards of Thay:** An opposing empire attempting to vassalize the Sword Coast before you do.\n   10. **The Nine-Fingers Guild:** The criminal overworld that refuses to pay your \"Imperial Taxes.\"\n### **Section 7: World Lore**\n * **The Timeline:** Three years ago, the Absolute fell in Baldur's Gate, leaving the Sword Coast fractured, traumatized, and desperate for order. Simultaneously, thousands of miles away across the Trackless Sea, the Aethelgard Empire tore itself apart. The Cadet Branch, believing Emperor Tiberius had grown soft, launched a coup. The resulting war shattered mountains and boiled lakes. The Loyalists won, but the cost was absolute ruin. Three months ago, the Emperor decreed the \"Faer\u00fbn Expansion Directive.\" You were dispatched immediately.\n * **The Mythos:** The gods of Faer\u00fbn (Mystra, Tempus, etc.) are real, but the Aethelgard Empire views them as parasitic entities. The Aethelgard believe in the \"Ascendant Blood\"\u2014the concept that through eugenics, physical perfection, and willpower, mortals can usurp the divine. Magic is viewed as a tool, but physical reality is king.\n * **Current Situation:** Baldur's Gate is a powder keg of rebuilding efforts, refugee crises, and political vacuums. You are currently in the Upper City, operating out of the Silvershield Annex, desperately trying to secure a 100-ton shipment of iron and grain to send back to Aethelgard before the winter sets in and your people starve.\n * **Story Arcs:**\n   * *Early Arc (The House of Cards):* Levels 1-4. Establishing your foothold in Baldur's Gate. Forging alliances, bullying minor nobles, and hiding your physical weakness while surviving assassination attempts by the Zhentarim and Guild.\n   * *Mid Arc (The Cadet's Revenge):* Levels 5-10. A surviving godling of the Cadet Branch arrives in the city to expose your bluff and slaughter you. You must use the factions you've manipulated to trap and kill a superior foe without revealing your true identity.\n   * *Late Arc (The Imperial Vanguard):* Levels 11+. Your brother Caius arrives with the first wave of the rebuilt Aethelgard fleet, intending to take the city you prepared and execute you for your success. You must turn the Sword Coast against your own Empire to claim the throne for yourself.\n### **Section 8: Gazetteer & Mechanics**\n * **Locations:**\n   1. **The Silvershield Annex (Your Safehouse):** *The Vibe:* Faded opulence and paranoid security. Dusty chandeliers and barricaded doors. *Key Sub-locations:* The Forgery Room (where Elara works), The Vault (empty). *Hazard:* Social Hazard - Keeping up appearances when local nobles visit; hiding the fact that you eat peasant rations.\n   2. **Wyrm's Rock Fortress:** *The Vibe:* Militaristic, tense, and smelling of sea salt and iron. *Key Sub-locations:* The Audience Chamber, The Dungeons. *Hazard:* Physical Hazard - Navigating heavily armed Flaming Fist patrols who do not respect your diplomatic immunity.\n   3. **The Undercity Ruins (Post-Absolute):** *The Vibe:* Rotting magic, dark dampness, and paranoia. *Key Sub-locations:* Bhaalist altars, Smuggler coves. *Hazard:* Physical Hazard - Environmental toxins and ambushes from desperate aberrations.\n   4. **The High Hall (Upper City):** *The Vibe:* Cutthroat politics, perfume, and whispered treason. *Key Sub-locations:* The Parliament Chamber, the Patriar Gardens. *Hazard:* Social Hazard - Navigating the venomous political traps of the Baldurian elite without breaking your Imperial Mask.\n * **Custom Mechanics:**\n   1. **The Imperial Facade Tracker:** A scale from 1 to 10. (1 = The city knows you are a fraud; 10 = The city believes a million Aethelgard soldiers are at the gates). High Facade grants advantage on all Charisma checks and lowers merchant prices. Low Facade triggers random assassination attempts and faction hostility. You increase Facade by staging grand displays, forging documents, and eliminating witnesses.\n   2. **Logistics Ledger:** A resource management system. You must secure 'Units' of Iron, Grain, and Magic to send back to the Empire monthly. Failing to meet the quota results in your siblings sending Inquisitors to punish you.\n * **Loot Table (Imperial Relics & Sword Coast Spoils):**\n   1. *The Cadet's Eye:* A grotesque amulet taken from a dead rebel. Grants *Truesight* for 1 minute per day.\n   2. *Patriar's Blackmail Ledger:* A physical book containing the darkest secrets of the Upper City. Grants +5 to Extortion checks.\n   3. *Gondian Kinetic Gauntlet:* A stolen prototype. Allows your rapier to deal bludgeoning damage and pushes targets 10 feet.\n   4. *Vial of Ascendant Blood:* A rare dose of refined Aethelgard eugenics serum. Heals all HP and cures all conditions, but imposes 1 level of Exhaustion after 1 hour.\n   5. *Zhentarim Shadow-Cloak:* Grants the ability to cast *Pass Without Trace* once per long rest.\n   6. *The Diplomat's Coin:* A cursed coin that, when given to a target, allows you to hear their conversations for 24 hours.\n   7. *Tiberius's Writ:* A perfectly forged document bearing your father's seal. Can be used once to instantly bypass any legal authority in Faer\u00fbn.\n   8. *Shard of the Absolute:* A dormant piece of the Elder Brain. Allows you to cast *Detect Thoughts* at will, but slowly corrupts your alignment.\n### **Section 9: Starting Scene**\n * **Setting:** A cold, driving rain lashes against the heavy stone of Wyrm's Crossing. The drawbridge is raised, a massive iron barrier separating the bustling, desperate refugees of Rivington from the fortress that guards Baldur's Gate. The air smells of wet dog, cheap ale, and the sharp, metallic tang of the Flaming Fist mercenaries who patrol the barricades. You sit perfectly upright on a black gelding, your midnight-blue velvet cloak untouched by the mud splashing around your horse's hooves. Beside you, Kaelen looks like a walking armory, his single eye glaring through the rain, while Elara clutches her leather ledger to her chest to keep the imperial wax dry.\n * **The Hook:** You need to enter the Upper City to establish your safehouse and begin negotiations. However, the Flaming Fist have blockaded the bridge due to a recent Zhentarim smuggling ring. A heavily scarred Fist Captain, flanked by six crossbowmen, steps out into the rain, blocking your path. He demands a 500 gold piece \"special tariff\" to lower the bridge for a \"foreign dignitary.\" You have exactly 150 gold pieces to your name, and to pay a bribe would instantly shatter the illusion of your supreme imperial authority.\n * **The Action:** The Captain sneers, tapping a heavy iron cudgel against his palm. \"No coin, no crossing, 'Herald.' I don't care if you're from Aethelgard or Waterdeep. The bridge stays up.\" You must resolve this without revealing your poverty or your physical vulnerability.\n   * *Choice A (The Threat of the Leviathan):* Use *The Emperor's Voice* (Persuasion/Intimidation). Speak down to him with absolute, terrifying calm. Explain that if he delays the Herald of Tiberius Aethelgard for one more minute, the Imperial Armada will make his execution the very first term of their treaty with the city.\n   * *Choice B (The Kinetic Flourish):* Use your Aethelgard biology. Dismount slowly, approach the Captain, and use a *Blade Flourish* (Sleight of Hand/Intimidation) to draw your rapier, sever his heavy iron cudgel in half, and sheathe the blade before his eyes can even process the movement, leaving him staring at a broken stick.\n   * *Choice C (The Diplomatic Web):* Signal Sylas, who is hidden in the crowd of refugees. Have him create a calculated distraction (a minor explosion or riot at the toll booth), allowing you to bypass the Captain in the chaos while loudly lamenting the \"pathetic lack of order in these provincial cities.\"\n**Word Count:** 2,904 words.\n**Estimated Token Count:** 3,850 tokens.",
+        "character": {
+          "level": 20,
+          "class_name": "Titan Capable Of Leveling Cities Barehanded",
+          "name": "Saita"
+        },
+        "setting": "** A cold, driving rain lashes against the heavy stone of Wyrm's Crossing. The drawbridge is raised, a massive iron barrier separating the bustling, desperate refugees of Rivington from the fortress that guards Baldur's Gate. The air smells of wet dog, cheap ale, and the sharp, metallic tang of the Flaming Fist mercenaries who patrol the barricades. You sit perfectly upright on a black gelding, your midnight-blue velvet cloak untouched by the mud splashing around your horse's hooves. Beside you, Kaelen looks like a walking armory, his single eye glaring through the rain, while Elara clutches her leather ledger to her chest to keep the imperial wax dry.\n * **The Hook:** You need to enter the Upper City to establish your safehouse and begin negotiations. However, the Flaming Fist have blockaded the bridge due to a recent Zhentarim smuggling ring. A heavily scarred Fist Captain, flanked by six crossbowmen, steps out into the rain, blocking your path. He demands a 500 gold piece \"special tariff\" to lower the bridge for a \"foreign dignitary.\" You have exactly 150 gold pieces to your name, and to pay a bribe would instantly shatter the illusion of your supreme imperial authority.\n * **The Action:** The Captain sneers, tapping a heavy iron cudgel against his palm. \"No coin, no crossing, 'Herald.' I don't care if you're from Aethelgard or Waterdeep. The bridge stays up.\" You must resolve this without revealing your poverty or your physical vulnerability.\n   * *Choice A (The Threat of the Leviathan):* Use *The Emperor's Voice* (Persuasion/Intimidation). Speak down to him with absolute, terrifying calm. Explain that if he delays the Herald of Tiberius Aethelgard for one more minute, the Imperial Armada will make his execution the very first term of their treaty with the city.\n   * *Choice B (The Kinetic Flourish):* Use your Aethelgard biology. Dismount slowly, approach the Captain, and use a *Blade Flourish* (Sleight of Hand/Intimidation) to draw your rapier, sever his heavy iron cudgel in half, and sheathe the blade before his eyes can even process the movement, leaving him staring at a broken stick.\n   * *Choice C (The Diplomatic Web):* Signal Sylas, who is hidden in the crowd of refugees. Have him create a calculated distraction (a minor explosion or riot at the toll booth), allowing you to bypass the Captain in the chaos while loudly lamenting the \"pathetic lack of order in these provincial cities.\"\n**Word Count:** 2,904 words.\n**Estimated Token Count:** 3,850 tokens."
+      },
+      "faction_minigame": {
+        "enabled": false,
+        "tutorial_completed": false,
+        "suggestion_given": false,
+        "tutorial_progress": {},
+        "strong_suggestion_given": false
+      },
+      "xp_integration_penalty": 0.625,
+      "xp_pacing_modifier": 0.375
+    },
+    "user_id": "vnLp2G3m21PJL6kxcuAqmWSOtm73",
+    "world_data": {
+      "current_location": "Wyrm's Crossing",
+      "location": "The Silvershield Annex",
+      "world_time": {
+        "year": 1492,
+        "time_of_day": "night",
+        "microsecond": 0,
+        "hour": 23,
+        "second": 0,
+        "minute": 30,
+        "month": "Eleasias",
+        "day": 24
+      }
+    },
+    "location_context": "Gray Harbor Docks"
+  },
+  "latest_story_desc": [
+    {
+      "planning_block": {
+        "choices": [
+          {
+            "text": "Interrogate the Captured Specimen",
+            "description": "Descend to the soundproofed holding cells beneath the Annex to evaluate and secure the bound Zhentarim quartermaster before prepping him for the black-market galleons.",
+            "cons": [
+              "Does not recover your expended spell slots or HP",
+              "Grog-Mar may slip away if the morning tide approaches"
+            ],
+            "id": "interrogate_specimen",
+            "pros": [
+              "Establish his compliance early through psychological and physical pressure",
+              "Identify further Black Network safehouses or active smuggling routes"
+            ],
+            "risk_level": "medium",
+            "confidence": "high"
+          },
+          {
+            "text": "The Flophouse Abduction (Grog-Mar)",
+            "description": "Slip out into the foggy harbor streets with Kaelen to the 'Salty Flounder' flophouse to subdue and secure Grog-Mar using the Harvester's Censer.",
+            "cons": [
+              "Saita has only one Level 2 spell slot remaining",
+              "High physical risk if Grog-Mar's veteran reflexes resist the censer's gas"
+            ],
+            "id": "secure_grog_mar_harvest",
+            "pros": [
+              "Secure the prime genetic specimen before he departs Baldur's Gate with the morning tide",
+              "Use the newly requisitioned Zhentarim scows to smuggle his bound form directly to the Annex"
+            ],
+            "risk_level": "high",
+            "confidence": "medium"
+          },
+          {
+            "text": "Secure the Citadel (Long Rest)",
+            "description": "Establish a defensive watch, lock down the Annex gates, and take a long rest to fully recover your HP, spell slots, and decay your Biological Integration Penalty.",
+            "cons": [
+              "Grog-Mar will escape with the morning tide, setting your Harvest progress back",
+              "Allows the Zhentarim to react to the Warehouse 7 raid while you sleep"
+            ],
+            "id": "long_rest_annex",
+            "pros": [
+              "Fully recover to 29 HP and restore all level 1 and level 2 spell slots",
+              "Decay the Biological Integration Penalty by 25%, restoring your progression efficiency"
+            ],
+            "risk_level": "safe",
+            "confidence": "high"
+          }
+        ],
+        "context": "Silvershield Annex Grand Hall, Treaty Signed",
+        "thinking": "The Joint Defense Pact is signed, establishing our legal and political shield in the Upper City and securing our grain quota. However, our resources are depleted: Saita is low on Level 2 spell slots, and Grog-Mar is still asleep at the Salty Flounder under Sylas's surveillance. We must decide whether to interrogate our newly captured Zhentarim specimen, execute a swift strike on the flophouse, or rest to decay our Biological Integration Penalty."
+      },
+      "state_updates": {
+        "player_character_data": {
+          "resources": {
+            "gold": 383,
+            "spell_slots": {
+              "level_2": {
+                "used": 2,
+                "max": 3
+              },
+              "level_1": {
+                "used": 1,
+                "max": 4
+              }
+            }
+          },
+          "experience": {
+            "to_next_level": 2778,
+            "current": 3722
+          },
+          "inventory": {
+            "append": [
+              {
+                "description": "A tarnished silver pocket-watch salvaged from the Warehouse 7 raid.",
+                "type": "item",
+                "name": "Smuggler's Pocket-Watch"
+              },
+              {
+                "description": "A wet, leather-bound ledger detailing smuggling contacts in the Lower City.",
+                "type": "item",
+                "name": "Zhentarim Ledger of Contacts"
+              },
+              {
+                "description": "Six masterwork iron daggers salvaged from the Zhentarim smugglers.",
+                "type": "item",
+                "name": "6x Iron-bound Daggers"
+              }
+            ]
+          }
+        },
+        "world_data": {
+          "location": "The Silvershield Annex",
+          "world_time": {
+            "year": 1492,
+            "time_of_day": "night",
+            "microsecond": 0,
+            "day": 24,
+            "second": 0,
+            "minute": 30,
+            "month": "Eleasias",
+            "hour": 23
+          }
+        },
+        "custom_campaign_state": {
+          "core_memories": {
+            "append": "Princess Saita successfully signed a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at Warehouse 7."
+          },
+          "imperial_favor": 1,
+          "harvest_quota": {
+            "iron_units_secured": 4,
+            "specimens_secured": 1,
+            "grain_units_secured": 5
+          }
+        }
+      },
+      "directives": {
+        "drop": [],
+        "add": []
+      },
+      "action_resolution": {
+        "interpreted_as": "persuasion_and_insight_check",
+        "audit_flags": [],
+        "narrative_outcome": "The Joint Defense Pact is signed, and the first high-value genetic specimen has been secured for transport.",
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "dc_reasoning": "Duke is impressed by the raid but signing a formal military pact requires a solid diplomatic push (Base 17, -2 for raid success)",
+              "notation": "1d20+9",
+              "purpose": "Persuasion (Draft Treaty)",
+              "modifier": 9,
+              "die_type": "d20",
+              "result": 13,
+              "dc": 15,
+              "dc_category": "hard",
+              "total": 22
+            },
+            {
+              "success": true,
+              "die_type": "d20",
+              "total": 21,
+              "dc_category": "medium",
+              "modifier": 4,
+              "notation": "1d20+4",
+              "dc": 14,
+              "purpose": "Insight (Assess Breeders)",
+              "result": 17,
+              "dc_reasoning": "Checking waxy skin and biological signatures of lower-tier Zhentarim thugs under dark, rain-soaked conditions"
+            }
+          ],
+          "audit_events": [
+            "Saita successfully drafted and finalized the Joint Defense Pact with Duke Ravengard.",
+            "Lara Vance confirmed the Zhentarim quartermaster as a genetically viable specimen for the eugenics program."
+          ],
+          "type": "skill_check"
+        },
+        "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband"
+      },
+      "resources": "HD: 2/4, Spells: L1 3/4, L2 1/3, Ki: N/A, Rage: N/A, Potions: 0/0, Exhaustion: 0",
+      "mode": "character",
+      "dice_rolls": [],
+      "social_hp_challenge": {
+        "npc_name": "Duke Ulder Ravengard",
+        "successes": 5,
+        "cooldown_remaining": 1,
+        "status": "SURRENDERED",
+        "social_hp_damage": 5,
+        "successes_needed": 5,
+        "roll_result": 22,
+        "social_hp": 0,
+        "request_severity": "submission",
+        "npc_id": "npc_ravengard_001",
+        "npc_tier": "lord_general",
+        "roll_dc": 15,
+        "resistance_shown": "None. The Joint Defense Pact has been successfully signed under the imperial wax seal.",
+        "skill_used": "Persuasion",
+        "objective": "Secure Joint Defense Pact & Grain Trade",
+        "social_hp_max": 10
+      },
+      "narrative": "The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \n\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\n\n\"Kaelen,\" you whisper, your voice dropping to a cool, lethal frequency. \"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\"\n\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \n\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\n\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\n\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\n\n\"The terms are absolute, Duke,\" you murmur, your voice a smooth, irresistible current. \"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\"\n\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 0/10\nStatus: SURRENDERED\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.",
+      "outcome_resolution": {
+        "interpreted_as": "persuasion_and_insight_check",
+        "audit_flags": [],
+        "narrative_outcome": "The Joint Defense Pact is signed, and the first high-value genetic specimen has been secured for transport.",
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "dc_reasoning": "Duke is impressed by the raid but signing a formal military pact requires a solid diplomatic push (Base 17, -2 for raid success)",
+              "total": 22,
+              "purpose": "Persuasion (Draft Treaty)",
+              "modifier": 9,
+              "die_type": "d20",
+              "result": 13,
+              "dc_category": "hard",
+              "dc": 15,
+              "notation": "1d20+9"
+            },
+            {
+              "success": true,
+              "dc_reasoning": "Checking waxy skin and biological signatures of lower-tier Zhentarim thugs under dark, rain-soaked conditions",
+              "notation": "1d20+4",
+              "purpose": "Insight (Assess Breeders)",
+              "modifier": 4,
+              "die_type": "d20",
+              "result": 17,
+              "dc": 14,
+              "dc_category": "medium",
+              "total": 21
+            }
+          ],
+          "audit_events": [
+            "Saita successfully drafted and finalized the Joint Defense Pact with Duke Ravengard.",
+            "Lara Vance confirmed the Zhentarim quartermaster as a genetically viable specimen for the eugenics program."
+          ],
+          "type": "skill_check"
+        },
+        "reinterpreted": false,
+        "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband"
+      },
+      "entities_mentioned": [
+        "Duke Ulder Ravengard",
+        "Kaelen",
+        "Lara Vance",
+        "Sylas the Rat"
+      ],
+      "faction_header": "",
+      "rewards_box": {
+        "current_level": 4,
+        "xp_gained": 133,
+        "gold": 51,
+        "source": "encounter",
+        "next_level_xp": 6500,
+        "current_xp": 3722,
+        "loot": [
+          "Smuggler's Pocket-Watch",
+          "Zhentarim Ledger of Contacts",
+          "6x Iron-bound Daggers",
+          "1 Unit of Contraband Iron",
+          "1 Unit of Contraband Grain",
+          "Zhentarim Smuggling Vessel (Black-Tarred Scow)"
+        ],
+        "progress_percent": 27.0,
+        "xp_to_next_level": 2778,
+        "level_up_available": false,
+        "xp_total": 3722
+      },
+      "dice_audit_events": [],
+      "user_scene_number": 73,
+      "location_confirmed": "The Silvershield Annex",
+      "sequence_id": 147,
+      "part": 1,
+      "text": "The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \n\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\n\n\"Kaelen,\" you whisper, your voice dropping to a cool, lethal frequency. \"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\"\n\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \n\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\n\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\n\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\n\n\"The terms are absolute, Duke,\" you murmur, your voice a smooth, irresistible current. \"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\"\n\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 0/10\nStatus: SURRENDERED\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.",
+      "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 23:30:00\nLocation: The Silvershield Annex\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3722/6500 | Gold: 383gp\nConditions: Wounded (Scarred) | Exhaustion: 0 | Inspiration: Yes",
+      "debug_info": {
+        "system_instruction_files": [
+          "prompts/master_directive.md",
+          "prompts/game_state_instruction.md",
+          "prompts/planning_protocol.md",
+          "prompts/dice_system_instruction_code_execution.md",
+          "prompts/dialog_system_instruction.md",
+          "prompts/narrative_lite_system_instruction.md",
+          "prompts/character_template.md",
+          "prompts/relationship_instruction.md"
+        ],
+        "llm_provider": "gemini",
+        "llm_model": "gemini-3.5-flash",
+        "agent_name": "DialogAgent",
+        "intent_classifier": {
+          "classifier_source": "semantic_intent",
+          "routing_priority": "7_semantic_dialog",
+          "confidence": 0.6866406798362732,
+          "intent": "dialog"
+        },
+        "_state_update_schema_gate_errors": [
+          "Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)",
+          "Kept state_updates.custom_campaign_state.imperial_favor: unknown key in strict overlay policy (no close match)"
+        ],
+        "system_instruction_char_count": 286853,
+        "_server_system_warnings": [
+          "State update schema gate: Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)",
+          "State update schema gate: Kept state_updates.custom_campaign_state.imperial_favor: unknown key in strict overlay policy (no close match)"
+        ],
+        "execution_path": "streaming"
+      },
+      "timestamp": "2026-05-23 07:15:51.257138+00:00",
+      "system_warnings": [
+        "State update schema gate: Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)",
+        "State update schema gate: Kept state_updates.custom_campaign_state.imperial_favor: unknown key in strict overlay policy (no close match)"
+      ],
+      "actor": "gemini",
+      "_id": "iMIHO17SCaRIUNf6NYLq"
+    },
+    {
+      "text": "have someone keep tailing grog mar, assess prisoners to see if any breeders, then do this Return to the Silvershield Annex: Escort Duke Ravengard back to your safehouse to finalize and sign the Joint Defense Pact in absolute security.",
+      "part": 1,
+      "mode": "character",
+      "actor": "user",
+      "timestamp": "2026-05-23 07:15:50.985067+00:00",
+      "_id": "qb3oqOjTpcmHwLedmZY1"
+    },
+    {
+      "planning_block": {
+        "choices": [
+          {
+            "text": "Execute the Harvest of Grog-Mar",
+            "description": "Slip away into the salt-fog to the 'Salty Flounder' flophouse to subdue and secure the prime specimen while the Duke's attention is occupied.",
+            "cons": [
+              "Risk of alerting the Flaming Fist investigators to a sudden high-profile disappearance",
+              "Leaves the Annex unguarded during the night"
+            ],
+            "id": "secure_grog_mar_harvest",
+            "pros": [
+              "Secure the prime genetic specimen before he leaves Baldur's Gate with the morning tide",
+              "Your newly integrated Hold Person frequency is fully primed for abduction"
+            ],
+            "risk_level": "high",
+            "confidence": "medium"
+          },
+          {
+            "text": "Interrogate the Quartermaster",
+            "description": "Personally interrogate the bound Zhentarim quartermaster in front of the Duke to extract more names and coordinates.",
+            "cons": [
+              "Delays the final signing of the Joint Defense Pact",
+              "Gives Grog-Mar more time to escape"
+            ],
+            "id": "interrogate_quartermaster",
+            "pros": [
+              "Demonstrate your clinical dominance to the Duke",
+              "Acquire further actionable targets for the Shadow Ledger"
+            ],
+            "risk_level": "medium",
+            "confidence": "high"
+          },
+          {
+            "text": "Return to the Silvershield Annex",
+            "description": "Escort Duke Ravengard back to your safehouse to finalize and sign the Joint Defense Pact in absolute security.",
+            "cons": [
+              "Grog-Mar may escape with the morning tide"
+            ],
+            "id": "escort_duke_annex",
+            "pros": [
+              "Guaranteed safety under the Duke's elite escort",
+              "Opportunity to cement the grain trade treaty tonight"
+            ],
+            "risk_level": "safe",
+            "confidence": "high"
+          }
+        ],
+        "context": "Warehouse 7 aftermath, Gray Harbor",
+        "thinking": "We have successfully secured the contraband, requisitioned the Zhentarim vessels, and significantly eroded Duke Ravengard's skepticism. However, Grog-Mar is still tracked at the Salty Flounder flophouse. We must decide whether to secure our prize specimen now or return to the Annex with the Duke to finalize the treaty."
+      },
+      "state_updates": {
+        "player_character_data": {
+          "resources": {
+            "gold": 332
+          },
+          "experience": {
+            "current": 3489
+          },
+          "inventory": [
+            {
+              "description": "A wet, leather-bound ledger detailing smuggling contacts in the Lower City.",
+              "type": "item",
+              "name": "Zhentarim Ledger of Contacts"
+            },
+            {
+              "description": "A tarnished silver pocket-watch salvaged from the Warehouse 7 raid.",
+              "type": "item",
+              "name": "Smuggler's Pocket-Watch"
+            },
+            {
+              "description": "Six masterwork iron daggers salvaged from the Zhentarim smugglers.",
+              "type": "item",
+              "name": "6x Iron-bound Daggers"
+            }
+          ]
+        },
+        "world_data": {
+          "world_time": {
+            "hour": 22,
+            "second": 0,
+            "minute": 30
+          }
+        },
+        "custom_campaign_state": {
+          "harvest_quota": {
+            "iron_units_secured": 2,
+            "grain_units_secured": 3
+          },
+          "social_hp_challenge": {
+            "cooldown_remaining": 1,
+            "successes": 7,
+            "social_hp_damage": 2,
+            "roll_result": 22,
+            "social_hp": 3
+          }
+        }
+      },
+      "directives": {
+        "drop": [],
+        "add": []
+      },
+      "action_resolution": {
+        "interpreted_as": "requisition_vessels",
+        "audit_flags": [],
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "result": 13,
+              "total": 22,
+              "dc": 16,
+              "modifier": 9,
+              "purpose": "Deception (Requisition Smuggling Vessels)",
+              "dc_reasoning": "Requisitioning city-adjacent vessels in front of Grand Duke Ravengard requires extreme gall and diplomatic framing.",
+              "notation": "2d20kh1+9"
+            }
+          ],
+          "type": "skill_check"
+        },
+        "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband"
+      },
+      "resources": "HD: 2/4, Spells: L1 3/4, L2 2/3, Inspiration: 3/3, Exhaustion: 0",
+      "mode": "character",
+      "dice_rolls": [],
+      "social_hp_challenge": {
+        "cooldown_remaining": 1,
+        "successes": 7,
+        "npc_name": "Duke Ulder Ravengard",
+        "status": "WAVERING",
+        "social_hp_damage": 2,
+        "successes_needed": 5,
+        "social_hp": 3,
+        "roll_result": 22,
+        "request_severity": "submission",
+        "npc_id": "npc_ravengard_001",
+        "resistance_shown": "Ravengard acknowledges the tactical value of the raid but requires the final draft signed under the scrutiny of the High Hall.",
+        "roll_dc": 16,
+        "npc_tier": "lord_general",
+        "objective": "Secure Joint Defense Pact & Grain Trade",
+        "skill_used": "Deception",
+        "social_hp_max": 10
+      },
+      "narrative": "Late night (22:30:00) at Warehouse 7 of the Gray Harbor Docks finds the freezing rain continuing to beat against the rotting wooden piers as the steam of sweat and wet iron rises from the newly secured contraband. You stand perfectly upright amidst the damp grain sacks, your gaze sweeping across the bound smugglers and the gathered spoils with cold, clinical satisfaction. Beside you, Duke Ulder Ravengard (Lvl 16) watches Kaelen (Lvl 4) tighten the silk cords around the level 3 Zhentarim quartermaster, his soldierly countenance still adjusting to the effortless, biological command of your *Sovereign Stasis*.\n\n\"Sergeant Hallow,\" you decree, your voice carrying the absolute, resonant clarity of your newly matured Auctoritas. \"Those two black-tarred scows moored at the pier outside\u2014they are no longer the tools of thieves. Under the authority of the Sovereign Requisition, you and your remaining men will seize them immediately. We require secure, deniable transport to relocate this contraband to the Annex before the Guild's runners can alert their masters.\"\n\nSergeant Hallow (Lvl 3) hesitates, his eyes flickering toward Duke Ravengard (Lvl 16) for some sign of objection. But you turn your gaze to the Duke, letting a small, flawless smile touch your lips as you adjust your midnight-blue mantle over your silver-threaded scar.\n\n\"A joint pact requires joint logistics, Duke,\" you murmur, your voice a smooth, velvet blade. \"We do not leave our assets in the mud for the Zhentarim to reclaim. We secure the river tonight, ensuring our trade remains silent and absolute.\"\n\nRavengard (Lvl 16) studies the draft of the treaty on the grain crate, then looks out at the dark, fog-shrouded waters of the Chionthar where the scows bob lazily against the pilings. He gives a slow, heavy nod of assent. \"The Herald speaks with practical sense, Sergeant,\" the Duke rumbles, his voice carrying the weight of granite. \"Seize the vessels. They are requisitioned under the city's authority for imperial transport. Move.\"\n\nWith a frantic scramble, the level 3 guardsman Simms and his companions rush to secure the moorings, casting the imperial seal across the hulls as Lara Vance (Lvl 4) marks the newly acquired fleet in the black ledger. Your ego, fed by the effortless subversion of the harbor's shipping, pulses through your veins, cementing your dominance over the docks.",
+      "outcome_resolution": {
+        "interpreted_as": "requisition_vessels",
+        "audit_flags": [],
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "result": 13,
+              "total": 22,
+              "purpose": "Deception (Requisition Smuggling Vessels)",
+              "modifier": 9,
+              "notation": "2d20kh1+9",
+              "dc": 16,
+              "dc_reasoning": "Requisitioning city-adjacent vessels in front of Grand Duke Ravengard requires extreme gall and diplomatic framing."
+            }
+          ],
+          "type": "skill_check"
+        },
+        "reinterpreted": false,
+        "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband"
+      },
+      "text": "Late night (22:30:00) at Warehouse 7 of the Gray Harbor Docks finds the freezing rain continuing to beat against the rotting wooden piers as the steam of sweat and wet iron rises from the newly secured contraband. You stand perfectly upright amidst the damp grain sacks, your gaze sweeping across the bound smugglers and the gathered spoils with cold, clinical satisfaction. Beside you, Duke Ulder Ravengard (Lvl 16) watches Kaelen (Lvl 4) tighten the silk cords around the level 3 Zhentarim quartermaster, his soldierly countenance still adjusting to the effortless, biological command of your *Sovereign Stasis*.\n\n\"Sergeant Hallow,\" you decree, your voice carrying the absolute, resonant clarity of your newly matured Auctoritas. \"Those two black-tarred scows moored at the pier outside\u2014they are no longer the tools of thieves. Under the authority of the Sovereign Requisition, you and your remaining men will seize them immediately. We require secure, deniable transport to relocate this contraband to the Annex before the Guild's runners can alert their masters.\"\n\nSergeant Hallow (Lvl 3) hesitates, his eyes flickering toward Duke Ravengard (Lvl 16) for some sign of objection. But you turn your gaze to the Duke, letting a small, flawless smile touch your lips as you adjust your midnight-blue mantle over your silver-threaded scar.\n\n\"A joint pact requires joint logistics, Duke,\" you murmur, your voice a smooth, velvet blade. \"We do not leave our assets in the mud for the Zhentarim to reclaim. We secure the river tonight, ensuring our trade remains silent and absolute.\"\n\nRavengard (Lvl 16) studies the draft of the treaty on the grain crate, then looks out at the dark, fog-shrouded waters of the Chionthar where the scows bob lazily against the pilings. He gives a slow, heavy nod of assent. \"The Herald speaks with practical sense, Sergeant,\" the Duke rumbles, his voice carrying the weight of granite. \"Seize the vessels. They are requisitioned under the city's authority for imperial transport. Move.\"\n\nWith a frantic scramble, the level 3 guardsman Simms and his companions rush to secure the moorings, casting the imperial seal across the hulls as Lara Vance (Lvl 4) marks the newly acquired fleet in the black ledger. Your ego, fed by the effortless subversion of the harbor's shipping, pulses through your veins, cementing your dominance over the docks.",
+      "faction_header": "",
+      "dice_audit_events": [],
+      "rewards_box": {
+        "current_level": 4,
+        "xp_gained": 25,
+        "gold": 51,
+        "loot": [
+          "Smuggler's Pocket-Watch",
+          "Zhentarim Ledger of Contacts",
+          "6x Iron-bound Daggers"
+        ],
+        "source": "encounter",
+        "current_xp": 3489,
+        "progress_percent": 21.0,
+        "xp_to_next_level": 3011,
+        "xp_total": 3489,
+        "level_up_available": false
+      },
+      "user_scene_number": 72,
+      "location_confirmed": "Gray Harbor Docks",
+      "sequence_id": 145,
+      "part": 1,
+      "entities_mentioned": [
+        "Duke Ulder Ravengard",
+        "Kaelen",
+        "Lara Vance",
+        "Sergeant Hallow",
+        "Simms"
+      ],
+      "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 22:30:00\nLocation: Warehouse 7, Gray Harbor Docks\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3489/6500 | Gold: 332gp\nConditions: None | Exhaustion: 0 | Inspiration: 3/3",
+      "debug_info": {
+        "agent_name": "DialogAgent",
+        "llm_provider": "gemini",
+        "llm_model": "gemini-3.5-flash",
+        "_state_update_schema_gate_errors": [
+          "Kept state_updates.custom_campaign_state.social_hp_challenge: unknown key in strict overlay policy (no close match)",
+          "Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)"
+        ],
+        "intent_classifier": {
+          "classifier_source": "semantic_intent",
+          "routing_priority": "7_semantic_dialog",
+          "confidence": 0.7159713506698608,
+          "intent": "dialog"
+        },
+        "system_instruction_files": [
+          "prompts/master_directive.md",
+          "prompts/game_state_instruction.md",
+          "prompts/planning_protocol.md",
+          "prompts/dice_system_instruction_code_execution.md",
+          "prompts/dialog_system_instruction.md",
+          "prompts/narrative_lite_system_instruction.md",
+          "prompts/character_template.md",
+          "prompts/relationship_instruction.md"
+        ],
+        "system_instruction_char_count": 286853,
+        "_server_system_warnings": [
+          "State update schema gate: Kept state_updates.custom_campaign_state.social_hp_challenge: unknown key in strict overlay policy (no close match)",
+          "State update schema gate: Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)"
+        ],
+        "execution_path": "streaming"
+      },
+      "timestamp": "2026-05-22 08:54:30.134485+00:00",
+      "system_warnings": [
+        "State update schema gate: Kept state_updates.custom_campaign_state.social_hp_challenge: unknown key in strict overlay policy (no close match)",
+        "State update schema gate: Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)"
+      ],
+      "actor": "gemini",
+      "_id": "zU6zYfQgua3rlGu9ZAW5"
+    },
+    {
+      "text": "Requisition Zhentarim Smuggling Vessels - Command Sergeant Hallow's remaining men to seize the Zhentarim scows moored at the pier to expand your clandestine transport fleet.",
+      "part": 1,
+      "mode": "character",
+      "actor": "user",
+      "timestamp": "2026-05-22 08:54:29.913775+00:00",
+      "_id": "2lUQtTJsLUwGyPLTlTvQ"
+    },
+    {
+      "planning_block": {
+        "choices": [
+          {
+            "text": "Return to the Silvershield Annex",
+            "description": "Escort Duke Ravengard back to your safehouse to finalize and sign the Joint Defense Pact in absolute security.",
+            "cons": [
+              "Grog-Mar may escape with the morning tide"
+            ],
+            "id": "return_to_annex",
+            "pros": [
+              "Guaranteed safety under the Duke's elite escort",
+              "Opportunity to cement the grain trade treaty tonight"
+            ],
+            "risk_level": "safe",
+            "confidence": "high"
+          },
+          {
+            "text": "Execute the Harvest of Grog-Mar",
+            "description": "Slip away into the salt-fog to the 'Salty Flounder' flophouse to subdue and secure the prime specimen while the Duke's attention is occupied.",
+            "cons": [
+              "High risk of alerting the Flaming Fist investigators to a sudden disappearance",
+              "Leaves the Annex unguarded during the night"
+            ],
+            "id": "harvest_grog_mar",
+            "pros": [
+              "Secure the prime genetic specimen before he leaves Baldur's Gate",
+              "Sovereign Stasis (Hold Person) is fully primed for abduction"
+            ],
+            "risk_level": "high",
+            "confidence": "medium"
+          },
+          {
+            "text": "Requisition Zhentarim Smuggling Vessels",
+            "description": "Command Sergeant Hallow's remaining men to seize the Zhentarim scows moored at the pier to expand your clandestine transport fleet.",
+            "cons": [
+              "May provoke an immediate, violent retaliation from the Nine-Fingers Guild or Zhentarim"
+            ],
+            "id": "requisition_port_assets",
+            "pros": [
+              "Acquire immediate, off-the-books transport for your harvested breeders",
+              "Further damages the underworld's hold on the harbor"
+            ],
+            "risk_level": "medium",
+            "confidence": "high"
+          }
+        ],
+        "context": "Warehouse 7 aftermath, Gray Harbor",
+        "thinking": "The raid was a flawless victory. The Zhentarim node is broken, the contraband is secured, and Duke Ravengard's skepticism has been cracked. However, the 'Apex Harvest' requires us to secure Grog-Mar before he leaves port, and the Viper's shadow-eyes are still watching. We must decide whether to return to the safehouse to finalize the treaty or strike at the flophouse tonight."
+      },
+      "state_updates": {
+        "player_character_data": {
+          "resources": {
+            "gold": 281
+          },
+          "inventory": {
+            "append": [
+              {
+                "type": "item",
+                "name": "Quartermaster's Ring (Sliver of Jade)"
+              },
+              {
+                "type": "item",
+                "name": "Zhentarim Ledger of Contacts"
+              },
+              {
+                "type": "item",
+                "name": "6x Iron-bound Daggers"
+              }
+            ]
+          },
+          "harvest_quota": {
+            "iron_units_secured": 2,
+            "grain_units_secured": 3
+          }
+        },
+        "world_events": {
+          "turn_generated": 141,
+          "background_events": []
+        },
+        "world_data": {
+          "world_time": {
+            "time_of_day": "night",
+            "year": 1492,
+            "microsecond": 0,
+            "hour": 22,
+            "day": 24,
+            "minute": 15,
+            "month": "Eleasias",
+            "second": 0
+          }
+        },
+        "custom_campaign_state": {
+          "sanctuary_mode": null,
+          "success_streak": 3,
+          "social_hp_challenge": {
+            "cooldown_remaining": 1,
+            "successes": 5,
+            "npc_name": "Duke Ulder Ravengard",
+            "status": "WAVERING",
+            "social_hp_damage": 2,
+            "successes_needed": 5,
+            "roll_result": 28,
+            "social_hp": 5,
+            "request_severity": "submission",
+            "npc_id": "npc_ravengard_001",
+            "npc_tier": "general",
+            "roll_dc": 17,
+            "resistance_shown": "Ravengard acknowledges the tactical value of the raid but requires the final draft signed under the scrutiny of the High Hall.",
+            "objective": "Secure Joint Defense Pact & Grain Trade",
+            "skill_used": "Persuasion",
+            "social_hp_max": 10
+          }
+        }
+      },
+      "directives": {
+        "drop": [],
+        "add": []
+      },
+      "action_resolution": {
+        "interpreted_as": "persuasion_attempt",
+        "audit_flags": [],
+        "narrative_outcome": "Saita successfully paralyzes the Zhentarim leader, loots the warehouse, and uses her peerless charisma to damage Duke Ravengard's social resistance, bringing him closer to signing the treaty.",
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "die_type": "d20",
+              "total": 28,
+              "dc": 17,
+              "modifier": 9,
+              "result": 16,
+              "purpose": "persuasion",
+              "notation": "1d20+9+1d8",
+              "dc_reasoning": "Grand Duke Ravengard is deeply pragmatic and wary of foreign treaties; Saita leverages the successful raid on Warehouse 7, her peerless charisma, and Bardic Inspiration (DC 20 base, -2 for tactical proof, -1 for brilliant plan = DC 17)"
+            }
+          ],
+          "audit_events": [
+            "Saita used Bardic Inspiration (1d8) to bolster her Persuasion check.",
+            "Saita successfully dealt 2 Social HP damage to Duke Ravengard, bringing his Social HP to 5/10."
+          ],
+          "type": "skill_check"
+        },
+        "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband"
+      },
+      "resources": "HD: 2/4, Spells: L1 3/4, L2 1/3, Inspiration: 3/3",
+      "mode": "character",
+      "narrative": "The wet, heavy fog of the Gray Harbor rolls through the shattered doorway of Warehouse 7, cloaking the interior in a cold, salt-rimed shroud. At your quiet gesture, the silence of the warehouse is broken by the sharp, metallic clinking of iron shackles and the tight rustle of imperial silk cord. Kaelen moves with the silent efficiency of a veteran executioner, his single eye cold as he binds the paralyzed Zhentarim quartermaster to a thick wooden pillar. Beside him, the elite Flaming Fist veterans pin the remaining five thugs, forcing them onto their knees in the loose barley.\n\n\"Strip them,\" you command, your voice carrying the cool, absolute weight of your newly matured Auctoritas. \"Aethelgard does not leave steel or wealth in the hands of thieves.\"\n\nKaelen and the guardsmen systematically hollow the smugglers' pockets, piling their armaments and purses onto a nearby iron-bound crate. A pocket-watch, several iron-bound daggers, a waxy ledger detailing their contacts, and a modest purse containing fifty-one gold pieces are laid out like offerings at your feet. Further back in the gloom, Simms cracks open a heavy, oilcloth-wrapped crate, revealing neatly stacked ingots of gravity-iron and tightly packed bags of winter grain. \"We've secured the contraband, Herald,\" he reports, his voice hushed with a new, deep-seated reverence. \"It's a full unit of iron and another of grain, unmarked by the local customs.\"\n\n\"Register them under the sovereign seal, Lara,\" you instruct smoothly. You do not wait for the ink to dry. Turning back to Duke Ulder Ravengard, you let your midnight-blue velvet mantle slide slightly off your shoulder, exposing the clean, silver-threaded scar of your wound. Your features, illuminated by the flickering orange glow of a nearby torch, possess the unblinking, flawless grace of a carved goddess. You are the picture of a wounded sovereign who remains entirely, terrifyingly in control.\n\nWith a single, fluid kinetic flourish, you produce a fresh sheet of vellum, smoothing it flat against the top of a grain crate. You look into Ravengard\u2019s iron-grey eyes, letting the biological resonance of your voice sink into his marrow, reinforced by the subtle, magnetic pull of your *Friends* frequency.\n\n\"We have proven the value of our eyes, Duke,\" you murmur, your words a silk-wrapped knife. \"My shadow ledger delivered this node to your steel without a single drop of Baldurian blood spilled. Let us formalize this transparency. Here is the draft: a Joint Defense Pact. Your city retains its absolute military autonomy\u2014Aethelgard has no interest in governing your mud\u2014but our steel and intelligence are integrated. We secure your grain routes, and you ensure our holds are filled for the winter. It is the only logical path for a city that wishes to stand.\"\n\nRavengard stands in the quiet of the warehouse, his gaze moving from the paralyzed, terrified quartermaster to the neat, elegant script on the vellum. His heavy plate armor clinks as he slowly exhales, the deep, defensive lines of his posture finally softening into a cold, respectful focus. \n\n\"You speak with the weight of an empire, Herald Kross,\" the Duke rumbles, his voice carrying the weary respect of a commander who knows when he has been outmaneuvered. \"And you have given me the blood I demanded. Very well. We shall take this draft to the High Hall. Let us see if your pen is as sharp as your voice.\"\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 5/10 | Status: WAVERING\nResistance Shown: \"The Zhentarim will not easily forgive this breach. But neither will I. Let us see if your 'Shadow Ledger' can hold their throat as easily as your voice holds this thief.\"",
+      "social_hp_challenge": {
+        "cooldown_remaining": 1,
+        "successes": 5,
+        "npc_name": "Duke Ulder Ravengard",
+        "status": "WAVERING",
+        "social_hp_damage": 2,
+        "successes_needed": 5,
+        "social_hp": 5,
+        "roll_result": 28,
+        "request_severity": "submission",
+        "npc_id": "npc_ravengard_001",
+        "resistance_shown": "Ravengard acknowledges the tactical value of the raid but requires the final draft signed under the scrutiny of the High Hall.",
+        "roll_dc": 17,
+        "npc_tier": "general",
+        "skill_used": "Persuasion",
+        "objective": "Secure Joint Defense Pact & Grain Trade",
+        "social_hp_max": 10
+      },
+      "entities_mentioned": [
+        "Duke Ulder Ravengard",
+        "Kaelen",
+        "Lara Vance",
+        "Sergeant Hallow",
+        "Varek Solari",
+        "Grog-Mar",
+        "Sylas the Rat"
+      ],
+      "text": "The wet, heavy fog of the Gray Harbor rolls through the shattered doorway of Warehouse 7, cloaking the interior in a cold, salt-rimed shroud. At your quiet gesture, the silence of the warehouse is broken by the sharp, metallic clinking of iron shackles and the tight rustle of imperial silk cord. Kaelen moves with the silent efficiency of a veteran executioner, his single eye cold as he binds the paralyzed Zhentarim quartermaster to a thick wooden pillar. Beside him, the elite Flaming Fist veterans pin the remaining five thugs, forcing them onto their knees in the loose barley.\n\n\"Strip them,\" you command, your voice carrying the cool, absolute weight of your newly matured Auctoritas. \"Aethelgard does not leave steel or wealth in the hands of thieves.\"\n\nKaelen and the guardsmen systematically hollow the smugglers' pockets, piling their armaments and purses onto a nearby iron-bound crate. A pocket-watch, several iron-bound daggers, a waxy ledger detailing their contacts, and a modest purse containing fifty-one gold pieces are laid out like offerings at your feet. Further back in the gloom, Simms cracks open a heavy, oilcloth-wrapped crate, revealing neatly stacked ingots of gravity-iron and tightly packed bags of winter grain. \"We've secured the contraband, Herald,\" he reports, his voice hushed with a new, deep-seated reverence. \"It's a full unit of iron and another of grain, unmarked by the local customs.\"\n\n\"Register them under the sovereign seal, Lara,\" you instruct smoothly. You do not wait for the ink to dry. Turning back to Duke Ulder Ravengard, you let your midnight-blue velvet mantle slide slightly off your shoulder, exposing the clean, silver-threaded scar of your wound. Your features, illuminated by the flickering orange glow of a nearby torch, possess the unblinking, flawless grace of a carved goddess. You are the picture of a wounded sovereign who remains entirely, terrifyingly in control.\n\nWith a single, fluid kinetic flourish, you produce a fresh sheet of vellum, smoothing it flat against the top of a grain crate. You look into Ravengard\u2019s iron-grey eyes, letting the biological resonance of your voice sink into his marrow, reinforced by the subtle, magnetic pull of your *Friends* frequency.\n\n\"We have proven the value of our eyes, Duke,\" you murmur, your words a silk-wrapped knife. \"My shadow ledger delivered this node to your steel without a single drop of Baldurian blood spilled. Let us formalize this transparency. Here is the draft: a Joint Defense Pact. Your city retains its absolute military autonomy\u2014Aethelgard has no interest in governing your mud\u2014but our steel and intelligence are integrated. We secure your grain routes, and you ensure our holds are filled for the winter. It is the only logical path for a city that wishes to stand.\"\n\nRavengard stands in the quiet of the warehouse, his gaze moving from the paralyzed, terrified quartermaster to the neat, elegant script on the vellum. His heavy plate armor clinks as he slowly exhales, the deep, defensive lines of his posture finally softening into a cold, respectful focus. \n\n\"You speak with the weight of an empire, Herald Kross,\" the Duke rumbles, his voice carrying the weary respect of a commander who knows when he has been outmaneuvered. \"And you have given me the blood I demanded. Very well. We shall take this draft to the High Hall. Let us see if your pen is as sharp as your voice.\"\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 5/10 | Status: WAVERING\nResistance Shown: \"The Zhentarim will not easily forgive this breach. But neither will I. Let us see if your 'Shadow Ledger' can hold their throat as easily as your voice holds this thief.\"",
+      "outcome_resolution": {
+        "interpreted_as": "persuasion_attempt",
+        "audit_flags": [],
+        "narrative_outcome": "Saita successfully paralyzes the Zhentarim leader, loots the warehouse, and uses her peerless charisma to damage Duke Ravengard's social resistance, bringing him closer to signing the treaty.",
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "result": 16,
+              "total": 28,
+              "dc": 17,
+              "modifier": 9,
+              "notation": "1d20+9+1d8",
+              "purpose": "persuasion",
+              "die_type": "d20",
+              "dc_reasoning": "Grand Duke Ravengard is deeply pragmatic and wary of foreign treaties; Saita leverages the successful raid on Warehouse 7, her peerless charisma, and Bardic Inspiration (DC 20 base, -2 for tactical proof, -1 for brilliant plan = DC 17)"
+            }
+          ],
+          "audit_events": [
+            "Saita used Bardic Inspiration (1d8) to bolster her Persuasion check.",
+            "Saita successfully dealt 2 Social HP damage to Duke Ravengard, bringing his Social HP to 5/10."
+          ],
+          "type": "skill_check"
+        },
+        "reinterpreted": false,
+        "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband"
+      },
+      "faction_header": "",
+      "dice_audit_events": [],
+      "debug_info": {
+        "agent_name": "HeavyDialogAgent",
+        "llm_provider": "gemini",
+        "llm_model": "gemini-3.5-flash",
+        "_state_update_schema_gate_errors": [
+          "Kept state_updates.custom_campaign_state.social_hp_challenge: unknown key in strict overlay policy (no close match)"
+        ],
+        "intent_classifier": {
+          "classifier_source": "semantic_intent",
+          "routing_priority": "7_semantic_dialog_heavy",
+          "confidence": 0.716183066368103,
+          "intent": "dialog_heavy"
+        },
+        "system_instruction_files": [
+          "prompts/master_directive.md",
+          "prompts/game_state_instruction.md",
+          "prompts/planning_protocol.md",
+          "prompts/dice_system_instruction_code_execution.md",
+          "prompts/dialog_system_instruction.md",
+          "prompts/narrative_system_instruction.md",
+          "prompts/mechanics_system_instruction.md",
+          "prompts/character_template.md",
+          "prompts/relationship_instruction.md",
+          "prompts/reputation_instruction.md",
+          "prompts/living_world_instruction.md"
+        ],
+        "system_instruction_char_count": 402568,
+        "_server_system_warnings": [
+          "State update schema gate: Kept state_updates.custom_campaign_state.social_hp_challenge: unknown key in strict overlay policy (no close match)"
+        ],
+        "execution_path": "streaming"
+      },
+      "user_scene_number": 71,
+      "location_confirmed": "Warehouse 7, Gray Harbor Docks",
+      "sequence_id": 143,
+      "part": 1,
+      "world_events": {
+        "turn_generated": 141,
+        "background_events": []
+      },
+      "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 22:15:00\nLocation: Warehouse 7, Gray Harbor Docks\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | Gold: 281gp | XP: 3464/3036\nConditions: None | Exhaustion: 0 | Inspiration: Yes",
+      "dice_rolls": [],
+      "actor": "gemini",
+      "system_warnings": [
+        "State update schema gate: Kept state_updates.custom_campaign_state.social_hp_challenge: unknown key in strict overlay policy (no close match)"
+      ],
+      "timestamp": "2026-05-22 08:52:25.873899+00:00",
+      "_id": "H5qvKdGCnFQCDFNjdx7F"
+    },
+    {
+      "text": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband",
+      "part": 1,
+      "mode": "character",
+      "actor": "user",
+      "timestamp": "2026-05-22 08:52:25.683903+00:00",
+      "_id": "Et6WmXtA8CGBElty48hD"
+    },
+    {
+      "text": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband",
+      "part": 1,
+      "mode": "character",
+      "actor": "user",
+      "timestamp": "2026-05-22 08:50:15.193089+00:00",
+      "_id": "dJ9401KVRQWSwidAoeMS"
+    },
+    {
+      "planning_block": {
+        "choices": [
+          {
+            "text": "Draft the Treaty Now",
+            "description": "Have Lara Vance produce the formal Joint Defense Pact and grain requisitions while Ravengard is still off-balance.",
+            "cons": [
+              "Ravengard may demand further minor revisions to keep some dignity"
+            ],
+            "id": "draft_treaty_immediate",
+            "pros": [
+              "Secures the agreement immediately",
+              "Leverages the active shock of the demonstration"
+            ],
+            "risk_level": "low",
+            "confidence": "high"
+          },
+          {
+            "text": "Parade the Prisoners to Wyrm's Rock",
+            "description": "March the captured Zhentarim smugglers through the streets under joint escort, publicly displaying the alliance.",
+            "cons": [
+              "High risk of Zhentarim ambush or sniper fire from the Heapside alleys"
+            ],
+            "id": "parade_the_prisoners",
+            "pros": [
+              "Massively inflates the Imperial Facade",
+              "Forces a public commitment from the Fist"
+            ],
+            "risk_level": "high",
+            "confidence": "medium"
+          },
+          {
+            "text": "Requisition the Warehouse Contraband",
+            "description": "Command Hallow's remaining men to seize the black-market weapons inside Warehouse 7 as 'Imperial Compensation' for your wound.",
+            "cons": [
+              "May trigger minor friction with Ravengard's strict sense of military law"
+            ],
+            "id": "secure_warehouse_assets",
+            "pros": [
+              "Secures immediate physical assets and weapons for the safehouse",
+              "Affirms Aethelgard's absolute entitlement"
+            ],
+            "risk_level": "medium",
+            "confidence": "high"
+          }
+        ],
+        "context": "Post-breach negotiation at Warehouse 7",
+        "thinking": "The Zhentarim leader is completely subdued, and Ravengard has witnessed the effortless biological superiority of the Zenith. His Social HP has collapsed to 5/10. Now, I must press the advantage while the local guards are in awe, securing the formal signatures for the grain silos and the military pact before the harbor-master or Zhentarim reinforcements arrive."
+      },
+      "state_updates": {
+        "player_character_data": {
+          "resources": {
+            "spell_slots": {
+              "level_2": {
+                "used": 2,
+                "max": 3
+              }
+            }
+          },
+          "experience": {
+            "current": 3464
+          }
+        },
+        "custom_campaign_state": {
+          "core_memories": {
+            "append": "Saita successfully paralyzed the Zhentarim leader at Warehouse 7 using a sub-vocal Hold Person frequency, demonstrating Aethelgardian biological dominance to Duke Ulder Ravengard."
+          }
+        }
+      },
+      "directives": {
+        "drop": [],
+        "add": []
+      },
+      "action_resolution": {
+        "interpreted_as": "spell_cast",
+        "audit_flags": [],
+        "narrative_outcome": "The Zhentarim leader fails his Wisdom saving throw and is completely paralyzed by Saita's Hold Person spell, demonstrating effortless biological dominance before Duke Ravengard.",
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": false,
+              "result": 6,
+              "total": 7,
+              "purpose": "Zhentarim Leader Wisdom Save",
+              "modifier": 1,
+              "dc_category": "medium",
+              "notation": "1d20+1",
+              "dc_reasoning": "Saita's Spell Save DC (8 + 2 Prof + 5 CHA) vs Zhentarim Leader's Wisdom modifier",
+              "dc": 15
+            }
+          ],
+          "type": "saving_throw"
+        },
+        "player_input": "Sovereign Stasis (Hold Person) - Use your biological frequency to paralyze the Zhentarim leader before Ravengard, demonstrating effortless control."
+      },
+      "resources": "HD: 2/4, Spells: L1 3/4, L2 1/3, Inspiration: 3/3, Potions: 0/0, Exhaustion: 0",
+      "mode": "character",
+      "narrative": "The salt-heavy fog drifts through the shattered doorway of Warehouse 7, mingling with the bitter stench of damp grain and stagnant bilge. Inside, the Zhentarim quartermaster scrambles backward, his boots sliding through loose barley as he reaches for a pair of black-tarred daggers at his belt. He is desperate, his eyes darting toward the dark waters of the harbor visible through the floorboards.\n\nBefore his fingers can brush the hilts, you step forward, your midnight-blue mantle swirling around your boots with a chilling, predatory grace. You do not draw the Kross Needle. Instead, you merely draw a breath, your chest expanding as you unleash a low, oscillating, sub-vocal frequency\u2014the *Sovereign Stasis*. \n\nIt is not magic that the provincial guardsmen can comprehend; it is a physical, biological command that vibrates directly in the quartermaster's nervous system. The man freezes instantly. His hand remains hooked over his dagger, his waxy face contorting in sheer, silent panic as his muscles lock into rigid stone. He cannot blink; he cannot scream. He stands there like an unfinished statue of terror.\n\n\"Move,\" you whisper, your voice a cool, velvet scalpel in the damp quiet, \"and your bones will simply fail to carry your weight. Stand down.\"\n\nDuke Ulder Ravengard steps into the flickering orange circle of torchlight, his heavy plate armor clinking as he approaches the paralyzed smuggler. He raises a massive, gauntleted hand, hovering it inches from the quartermaster's unblinking eye. The man's pupil is dilated with primal fear, but his body remains utterly motionless.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 5/10 | Status: WAVERING\nResistance Shown: \"You paralyze a mortal with a breath, Herald... but my city requires more than parlor tricks to survive.\"\n\nRavengard turns back to you, his grim, soldierly countenance shifting. For the first time since his arrival, the hard, defensive lines of his posture soften into a cold, respectful focus. \"I have seen the high mages of the High Hall weave spells of binding,\" the Duke rumbles, his voice low and unyielding. \"But they require gestures, incantations, components. You did that with a word. Your 'Vanguard' indeed has eyes... and teeth.\"\n\nHe looks down at the black ledger Lara clutches, then back at the frozen quartermaster. \"The Zhentarim will not easily forgive this breach. But neither will I. It seems we have a common enemy, Herald Saita Kross. Let us see if your 'Shadow Ledger' can hold their throat as easily as your voice holds this thief.\"",
+      "social_hp_challenge": {
+        "npc_name": "Duke Ulder Ravengard",
+        "successes": 5,
+        "cooldown_remaining": 1,
+        "status": "WAVERING",
+        "social_hp_damage": 2,
+        "successes_needed": 5,
+        "roll_result": 15,
+        "social_hp": 5,
+        "npc_tier": "lord_general",
+        "resistance_shown": "Ravengard watches the paralysis with narrowed eyes, his hand tightening on his warhammer.",
+        "npc_id": "npc_ravengard_001",
+        "roll_dc": 15,
+        "request_severity": "favor",
+        "objective": "Secure Joint Defense Pact & Grain Trade",
+        "skill_used": "Intimidation",
+        "social_hp_max": 10
+      },
+      "entities_mentioned": [
+        "Duke Ulder Ravengard",
+        "Sergeant Hallow",
+        "Lara Vance",
+        "Kaelen",
+        "Varek Solari"
+      ],
+      "outcome_resolution": {
+        "interpreted_as": "spell_cast",
+        "audit_flags": [],
+        "narrative_outcome": "The Zhentarim leader fails his Wisdom saving throw and is completely paralyzed by Saita's Hold Person spell, demonstrating effortless biological dominance before Duke Ravengard.",
+        "mechanics": {
+          "rolls": [
+            {
+              "success": false,
+              "dc_reasoning": "Saita's Spell Save DC (8 + 2 Prof + 5 CHA) vs Zhentarim Leader's Wisdom modifier",
+              "total": 7,
+              "dc_category": "medium",
+              "modifier": 1,
+              "dc": 15,
+              "notation": "1d20+1",
+              "result": 6,
+              "purpose": "Zhentarim Leader Wisdom Save"
+            }
+          ],
+          "type": "saving_throw"
+        },
+        "reinterpreted": false,
+        "player_input": "Sovereign Stasis (Hold Person) - Use your biological frequency to paralyze the Zhentarim leader before Ravengard, demonstrating effortless control."
+      },
+      "text": "The salt-heavy fog drifts through the shattered doorway of Warehouse 7, mingling with the bitter stench of damp grain and stagnant bilge. Inside, the Zhentarim quartermaster scrambles backward, his boots sliding through loose barley as he reaches for a pair of black-tarred daggers at his belt. He is desperate, his eyes darting toward the dark waters of the harbor visible through the floorboards.\n\nBefore his fingers can brush the hilts, you step forward, your midnight-blue mantle swirling around your boots with a chilling, predatory grace. You do not draw the Kross Needle. Instead, you merely draw a breath, your chest expanding as you unleash a low, oscillating, sub-vocal frequency\u2014the *Sovereign Stasis*. \n\nIt is not magic that the provincial guardsmen can comprehend; it is a physical, biological command that vibrates directly in the quartermaster's nervous system. The man freezes instantly. His hand remains hooked over his dagger, his waxy face contorting in sheer, silent panic as his muscles lock into rigid stone. He cannot blink; he cannot scream. He stands there like an unfinished statue of terror.\n\n\"Move,\" you whisper, your voice a cool, velvet scalpel in the damp quiet, \"and your bones will simply fail to carry your weight. Stand down.\"\n\nDuke Ulder Ravengard steps into the flickering orange circle of torchlight, his heavy plate armor clinking as he approaches the paralyzed smuggler. He raises a massive, gauntleted hand, hovering it inches from the quartermaster's unblinking eye. The man's pupil is dilated with primal fear, but his body remains utterly motionless.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 5/10 | Status: WAVERING\nResistance Shown: \"You paralyze a mortal with a breath, Herald... but my city requires more than parlor tricks to survive.\"\n\nRavengard turns back to you, his grim, soldierly countenance shifting. For the first time since his arrival, the hard, defensive lines of his posture soften into a cold, respectful focus. \"I have seen the high mages of the High Hall weave spells of binding,\" the Duke rumbles, his voice low and unyielding. \"But they require gestures, incantations, components. You did that with a word. Your 'Vanguard' indeed has eyes... and teeth.\"\n\nHe looks down at the black ledger Lara clutches, then back at the frozen quartermaster. \"The Zhentarim will not easily forgive this breach. But neither will I. It seems we have a common enemy, Herald Saita Kross. Let us see if your 'Shadow Ledger' can hold their throat as easily as your voice holds this thief.\"",
+      "faction_header": "",
+      "rewards_box": {
+        "current_level": 4,
+        "xp_gained": 50,
+        "gold": 40,
+        "source": "encounter",
+        "next_level_xp": 6500,
+        "current_xp": 3464,
+        "loot": [
+          "Sun-Bleached Falcata (Varek's Weapon)",
+          "40 gold pieces (Varek's Purse)"
+        ],
+        "progress_percent": 20.0,
+        "xp_to_next_level": 3036,
+        "xp_total": 3464,
+        "level_up_available": false
+      },
+      "debug_info": {
+        "system_instruction_files": [
+          "prompts/master_directive.md",
+          "prompts/game_state_instruction.md",
+          "prompts/planning_protocol.md",
+          "prompts/dice_system_instruction_code_execution.md",
+          "prompts/dialog_system_instruction.md",
+          "prompts/narrative_lite_system_instruction.md",
+          "prompts/character_template.md",
+          "prompts/relationship_instruction.md"
+        ],
+        "llm_provider": "gemini",
+        "llm_model": "gemini-3.5-flash",
+        "agent_name": "DialogAgent",
+        "intent_classifier": {
+          "classifier_source": "semantic_intent",
+          "routing_priority": "7_semantic_dialog",
+          "confidence": 0.7103273272514343,
+          "intent": "dialog"
+        },
+        "system_instruction_char_count": 286853,
+        "execution_path": "streaming"
+      },
+      "user_scene_number": 70,
+      "location_confirmed": "Gray Harbor, Warehouse 7",
+      "sequence_id": 140,
+      "part": 1,
+      "dice_rolls": [],
+      "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 22:15:00\nLocation: Gray Harbor, Warehouse 7\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3464/6500 | Gold: 230gp\nConditions: None | Exhaustion: 0 | Inspiration: 3/3",
+      "dice_audit_events": [],
+      "actor": "gemini",
+      "timestamp": "2026-05-22 08:47:40.519597+00:00",
+      "_id": "BWsyAJNzyjtpWfte6Ytl"
+    },
+    {
+      "text": "Sovereign Stasis (Hold Person) - Use your biological frequency to paralyze the Zhentarim leader before Ravengard, demonstrating effortless control.",
+      "part": 1,
+      "mode": "character",
+      "actor": "user",
+      "timestamp": "2026-05-22 08:47:40.244481+00:00",
+      "_id": "dknWOvg6OIvURQsNOVUB"
+    },
+    {
+      "planning_block": {
+        "choices": [
+          {
+            "text": "Sovereign Stasis (Hold Person)",
+            "description": "Use your biological frequency to paralyze the Zhentarim leader before Ravengard, demonstrating effortless control.",
+            "cons": [
+              "Consumes a 2nd-level spell slot",
+              "Requires maintaining concentration amidst chaos"
+            ],
+            "id": "subdue_leader_hold_person",
+            "pros": [
+              "Visceral display of 'Vanguard' power",
+              "Prevents leader from destroying evidence"
+            ],
+            "risk_level": "medium",
+            "confidence": "high"
+          },
+          {
+            "text": "Kinetic Flourish",
+            "description": "Engage the leader with the Kross Needle, using a blur of speed to disarm and pin him in a single motion.",
+            "cons": [
+              "Risk of physical injury",
+              "Less 'mystical' than a decree"
+            ],
+            "id": "subdue_leader_kinetic",
+            "pros": [
+              "Demonstrates Aethelgardian physical superiority",
+              "Saves magical reserves"
+            ],
+            "risk_level": "high",
+            "confidence": "medium"
+          },
+          {
+            "text": "Immediate Interrogation",
+            "description": "Use the 'Harvester's Censer' to quiet the remaining thugs while you demand the location of the Sun-Bleached rebels from the leader.",
+            "cons": [
+              "May feel less 'dominant' to Ravengard",
+              "Censer gas could affect the Fist guards if not careful"
+            ],
+            "id": "interrogate_immediate",
+            "pros": [
+              "Secures intelligence while it's fresh",
+              "Minimizes collateral damage"
+            ],
+            "risk_level": "low",
+            "confidence": "high"
+          }
+        ],
+        "context": "Securing the Zhentarim node in Warehouse 7",
+        "thinking": "The breach was flawless. Ravengard has the proof of my intelligence, but he still needs to see the Vanguard's physical dominance. Securing the Zhentarim leader personally with a display of kinetic authority will likely shatter his remaining resistance."
+      },
+      "state_updates": {
+        "social_hp_challenge": {
+          "cooldown_remaining": 1,
+          "successes": 1,
+          "npc_name": "Duke Ulder Ravengard",
+          "status": "WAVERING",
+          "social_hp_damage": 2,
+          "successes_needed": 5,
+          "social_hp": 7,
+          "roll_result": 17,
+          "request_severity": "favor",
+          "resistance_shown": "Ravengard watches the breach with a commander's eye, still weighing the risks of a formal alliance.",
+          "npc_tier": "lord_general",
+          "roll_dc": 14,
+          "objective": "Secure Joint Defense Pact & Grain Trade",
+          "skill_used": "Insight",
+          "social_hp_max": 10
+        },
+        "custom_campaign_state": {
+          "core_memories": {
+            "append": "Princess Saita successfully led Duke Ravengard on a surgical raid of Warehouse 7, providing hard evidence of Zhentarim activity and demonstrating Aethelgard's tactical value."
+          },
+          "success_streak": 2,
+          "major_event_pressure_budget": {
+            "new_major_event": false,
+            "major_events_this_window": 2,
+            "window": "24h",
+            "rationale": "Ravengard's presence anchors the scene; local underworld reactions are the only active developments.",
+            "special_circumstances": true
+          }
+        },
+        "player_character_data": {
+          "experience": {
+            "current": 3414
+          }
+        },
+        "world_events": {
+          "turn_generated": 33,
+          "background_events": [
+            {
+              "scene_generated": 69,
+              "event_type": "immediate",
+              "id": "viper_observing_raid",
+              "outcome": "Confirmed the Herald's direct involvement with Duke Ravengard.",
+              "player_impact": "The Zhentarim now view Saita as a direct political threat to their city-state influence.",
+              "turn_generated": 34,
+              "discovery_condition": "Sylas performs a successful Perception check or catches the Viper's trail later.",
+              "status": "pending",
+              "player_aware": false,
+              "actor": "The Viper",
+              "location": "Gray Harbor Alleyways",
+              "action": "Monitoring the raid on Warehouse 7 from the shadows"
+            }
+          ]
+        },
+        "world_data": {
+          "world_time": {
+            "time_of_day": "night",
+            "year": 1492,
+            "microsecond": 0,
+            "hour": 22,
+            "second": 0,
+            "minute": 0,
+            "month": "Eleasias",
+            "day": 24
+          }
+        },
+        "rumors": [
+          {
+            "source_type": "noble",
+            "content": "The Herald of Aethelgard has summoned the Duke to a ruin; they say a dark pact is being signed in blood.",
+            "accuracy": "partial"
+          },
+          {
+            "content": "Warehouse 7 was hit by a squad of ghosts; not a single horn was blown before the doors shattered.",
+            "source_type": "guard",
+            "accuracy": "true"
+          }
+        ],
+        "scene_event": {
+          "description": "Kaelen hands you a blood-stained ledger recovered from the sentry, his single eye briefly meeting yours with a flicker of grim approval.",
+          "type": "companion_support",
+          "narrative_integration": "Woven into the post-breach atmosphere.",
+          "player_response_required": false,
+          "actor": "Kaelen",
+          "urgency": "low"
+        }
+      },
+      "directives": {
+        "drop": [],
+        "add": []
+      },
+      "action_resolution": {
+        "interpreted_as": "tactical_oversight",
+        "audit_flags": [],
+        "narrative_outcome": "The breach of Warehouse 7 is executed with clinical precision, securing evidence and surprising the Zhentarim sentries.",
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "dc_reasoning": "Base DC 14 (Zhentarim alertness); Planning success (-1) = DC 13",
+              "total": 17,
+              "purpose": "Group Stealth (Escort)",
+              "dc": 13,
+              "result": 15,
+              "notation": "1d20 +2"
+            },
+            {
+              "success": true,
+              "dc_reasoning": "Base DC 15 (Complex warehouse layout); Planning success (-1) = DC 14",
+              "total": 17,
+              "purpose": "Tactical Insight (Saita)",
+              "dc": 14,
+              "notation": "1d20 +4",
+              "result": 13
+            }
+          ],
+          "type": "skill_check"
+        },
+        "player_input": "Direct Tactical Oversight - Accompany the raid personally to ensure the 'biological superiority' of Aethelgard is visible to Ravengard's men."
+      },
+      "resources": "HD: 2/4, Spells: L1 3/4, L2 2/3, Inspiration: 3/3",
+      "mode": "character",
+      "dice_rolls": [],
+      "social_hp_challenge": {},
+      "entities_mentioned": [
+        "Duke Ulder Ravengard",
+        "Kaelen",
+        "Warehouse 7",
+        "Zhentarim sentry",
+        "Lara Vance"
+      ],
+      "outcome_resolution": {
+        "interpreted_as": "tactical_oversight",
+        "audit_flags": [],
+        "narrative_outcome": "The breach of Warehouse 7 is executed with clinical precision, securing evidence and surprising the Zhentarim sentries.",
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "result": 15,
+              "notation": "1d20 +2",
+              "dc": 13,
+              "dc_reasoning": "Base DC 14 (Zhentarim alertness); Planning success (-1) = DC 13",
+              "total": 17,
+              "purpose": "Group Stealth (Escort)"
+            },
+            {
+              "success": true,
+              "dc_reasoning": "Base DC 15 (Complex warehouse layout); Planning success (-1) = DC 14",
+              "total": 17,
+              "purpose": "Tactical Insight (Saita)",
+              "dc": 14,
+              "notation": "1d20 +4",
+              "result": 13
+            }
+          ],
+          "type": "skill_check"
+        },
+        "player_input": "Direct Tactical Oversight - Accompany the raid personally to ensure the 'biological superiority' of Aethelgard is visible to Ravengard's men."
+      },
+      "text": "Night (22:00:00) has turned the Gray Harbor into a labyrinth of shifting salt-mist and iron shadows. You ride at the center of the Flaming Fist contingent, your midnight-blue mantle absorbing the meager torchlight as you descend toward Warehouse 7. The rhythmic, heavy tramp of armored boots on the slick cobblestones is the only sound in the damp gloom, a staccato countdown to the coming violence. Beside you, Duke Ravengard rides in silence, his hand resting on the pommel of his warhammer, his commander's eyes scanning the darkness for the phantoms you've promised him.\n\n\"The side entrance,\" you murmur, your voice a low, resonant frequency that bypasses the roar of the surf. You signal Kaelen, who detaches from your stirrup with the silent, coiled lethality of an Aethelgardian predator. Following your tactical directive, he leads the Fist veterans through a narrow alley choked with rusted chains and broken crates. \n\nYou don't just watch the breach; you orchestrate it. Your Aethelgardian biology, now reaching its fourth maturation, allows you to perceive the precise rhythmic stutter in the Zhentarim sentry's patrol. You raise a gloved hand, holding the moment until the sentry turns to shield a lantern from the wind. \n\n\"Now,\" you decree.\n\nKaelen hits the side door with a kinetic shockwave that shatters the lock without an echoing boom. The Flaming Fist veterans swarm into the warehouse, shields up, their movements synchronized by the 'Shadow Ledger' coordinates you provided. Inside, the jaundiced light of tallow candles reveals a frantic hive of Black Network activity\u2014six thugs scrambling to hide crates of illicit contraband. They are too slow. Your eyes, cold and unblinking, immediately lock onto the leader\u2014a man with the sharp, measuring gaze of a quartermaster.\n\n\"Secure the leader, Kaelen,\" you command, your presence a gravitational well at the threshold. \"The rest are merely livestock.\"\n\nRavengard dismounts, stepping over the threshold as his men pin the thugs with clinical efficiency. He watches the coordination, his jaw setting as he sees the 'Shadow Ledger's' predictions manifesting in the crates of stolen weaponry and black-market reagents. The soldier in him is silent, but the respect in his eyes is growing. You have given him the blood he demanded, and the weight of his skepticism is finally beginning to crack.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 7/10 | Status: WAVERING\nResistance Shown: Ravengard watches the breach with a commander's eye, still weighing the risks of a formal alliance.\n\nYou gain **38 XP** for the tactical success.",
+      "faction_header": "",
+      "debug_info": {
+        "agent_name": "DialogAgent",
+        "_state_update_schema_gate_errors": [
+          "Kept state_updates.custom_campaign_state.major_event_pressure_budget: unknown key in strict overlay policy (no close match)"
+        ],
+        "llm_model": "gemini-3-flash-preview",
+        "llm_provider": "gemini",
+        "intent_classifier": {
+          "classifier_source": "semantic_intent",
+          "routing_priority": "7_semantic_dialog",
+          "confidence": 0.6848026514053345,
+          "intent": "dialog"
+        },
+        "system_instruction_files": [
+          "prompts/master_directive.md",
+          "prompts/game_state_instruction.md",
+          "prompts/planning_protocol.md",
+          "prompts/dice_system_instruction_code_execution.md",
+          "prompts/dialog_system_instruction.md",
+          "prompts/narrative_lite_system_instruction.md",
+          "prompts/character_template.md",
+          "prompts/relationship_instruction.md",
+          "prompts/living_world_instruction.md"
+        ],
+        "system_instruction_char_count": 335296,
+        "_server_system_warnings": [
+          "State update schema gate: Kept state_updates.custom_campaign_state.major_event_pressure_budget: unknown key in strict overlay policy (no close match)"
+        ],
+        "execution_path": "streaming"
+      },
+      "dice_audit_events": [],
+      "user_scene_number": 69,
+      "location_confirmed": "Gray Harbor, Warehouse 7",
+      "sequence_id": 138,
+      "part": 1,
+      "world_events": {
+        "turn_generated": 33,
+        "background_events": [
+          {
+            "scene_generated": 69,
+            "event_type": "immediate",
+            "id": "viper_observing_raid",
+            "outcome": "Confirmed the Herald's direct involvement with Duke Ravengard.",
+            "player_impact": "The Zhentarim now view Saita as a direct political threat to their city-state influence.",
+            "turn_generated": 34,
+            "discovery_condition": "Sylas performs a successful Perception check or catches the Viper's trail later.",
+            "status": "pending",
+            "player_aware": false,
+            "actor": "The Viper",
+            "location": "Gray Harbor Alleyways",
+            "action": "Monitoring the raid on Warehouse 7 from the shadows"
+          }
+        ]
+      },
+      "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 22:00:00\nLocation: Gray Harbor, Warehouse 7\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3414/6500 | Gold: 230gp\nConditions: Normal | Exhaustion: 0 | Inspiration: 3/3",
+      "narrative": "Night (22:00:00) has turned the Gray Harbor into a labyrinth of shifting salt-mist and iron shadows. You ride at the center of the Flaming Fist contingent, your midnight-blue mantle absorbing the meager torchlight as you descend toward Warehouse 7. The rhythmic, heavy tramp of armored boots on the slick cobblestones is the only sound in the damp gloom, a staccato countdown to the coming violence. Beside you, Duke Ravengard rides in silence, his hand resting on the pommel of his warhammer, his commander's eyes scanning the darkness for the phantoms you've promised him.\n\n\"The side entrance,\" you murmur, your voice a low, resonant frequency that bypasses the roar of the surf. You signal Kaelen, who detaches from your stirrup with the silent, coiled lethality of an Aethelgardian predator. Following your tactical directive, he leads the Fist veterans through a narrow alley choked with rusted chains and broken crates. \n\nYou don't just watch the breach; you orchestrate it. Your Aethelgardian biology, now reaching its fourth maturation, allows you to perceive the precise rhythmic stutter in the Zhentarim sentry's patrol. You raise a gloved hand, holding the moment until the sentry turns to shield a lantern from the wind. \n\n\"Now,\" you decree.\n\nKaelen hits the side door with a kinetic shockwave that shatters the lock without an echoing boom. The Flaming Fist veterans swarm into the warehouse, shields up, their movements synchronized by the 'Shadow Ledger' coordinates you provided. Inside, the jaundiced light of tallow candles reveals a frantic hive of Black Network activity\u2014six thugs scrambling to hide crates of illicit contraband. They are too slow. Your eyes, cold and unblinking, immediately lock onto the leader\u2014a man with the sharp, measuring gaze of a quartermaster.\n\n\"Secure the leader, Kaelen,\" you command, your presence a gravitational well at the threshold. \"The rest are merely livestock.\"\n\nRavengard dismounts, stepping over the threshold as his men pin the thugs with clinical efficiency. He watches the coordination, his jaw setting as he sees the 'Shadow Ledger's' predictions manifesting in the crates of stolen weaponry and black-market reagents. The soldier in him is silent, but the respect in his eyes is growing. You have given him the blood he demanded, and the weight of his skepticism is finally beginning to crack.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 7/10 | Status: WAVERING\nResistance Shown: Ravengard watches the breach with a commander's eye, still weighing the risks of a formal alliance.\n\nYou gain **38 XP** for the tactical success.",
+      "actor": "gemini",
+      "system_warnings": [
+        "State update schema gate: Kept state_updates.custom_campaign_state.major_event_pressure_budget: unknown key in strict overlay policy (no close match)"
+      ],
+      "timestamp": "2026-05-15 13:59:11.242383+00:00",
+      "_id": "XnMB2m38wr3NPb5zQvUf"
+    },
+    {
+      "part": 1,
+      "text": "Direct Tactical Oversight - Accompany the raid personally to ensure the 'biological superiority' of Aethelgard is visible to Ravengard's men.",
+      "mode": "character",
+      "actor": "user",
+      "timestamp": "2026-05-15 13:59:10.989125+00:00",
+      "_id": "h6LCG218JyN37ehoiH4d"
+    },
+    {
+      "planning_block": {
+        "choices": [
+          {
+            "text": "Direct Tactical Oversight",
+            "description": "Accompany the raid personally to ensure the 'biological superiority' of Aethelgard is visible to Ravengard's men.",
+            "cons": [
+              "Physical risk in the docks",
+              "Requires maintaining the 'Herald' mask under fire"
+            ],
+            "id": "execute_raid_tactical",
+            "pros": [
+              "Maximizes diplomatic impact",
+              "Allows use of Hold Person to secure leaders"
+            ],
+            "risk_level": "medium",
+            "confidence": "high"
+          },
+          {
+            "text": "Delegated Command",
+            "description": "Stay at the Annex with Ravengard to discuss the specifics of the Grain Trade while Kaelen leads the raid.",
+            "cons": [
+              "Less visceral impact on Ravengard",
+              "Relies entirely on Kaelen's success"
+            ],
+            "id": "execute_raid_delegated",
+            "pros": [
+              "Demonstrates the competence of your 'subordinates'",
+              "Secures high-level social positioning"
+            ],
+            "risk_level": "safe",
+            "confidence": "medium"
+          },
+          {
+            "text": "The Shadow Strike",
+            "description": "Have Sylas infiltrate the warehouse first to set a distraction, then have the Fist guards charge in.",
+            "cons": [
+              "Coordination failure risk",
+              "Sylas is a 'mayfly' and could be captured"
+            ],
+            "id": "execute_raid_shadow",
+            "pros": [
+              "Minimizes casualties to Ravengard's men",
+              "Demonstrates multi-layered imperial strategy"
+            ],
+            "risk_level": "high",
+            "confidence": "medium"
+          }
+        ],
+        "context": "Executing the Intelligence Raid on Warehouse 7",
+        "plan_quality": {
+          "success": true,
+          "margin": 0,
+          "dc_reasoning": "",
+          "roll_result": 0,
+          "dc_category": "",
+          "modifier": "",
+          "quality_tier": "Competent",
+          "dc": 0,
+          "stat_used": "",
+          "stat_value": 0,
+          "effect": "Intelligence success ensures the raid path is clear; DC for the raid execution is reduced by 1."
+        },
+        "thinking": "The Duke has accepted the test. Leading his elites to a confirmed Zhentarim node allows us to prove the 'Vanguard's' superiority without exposing the Empire's lack of a physical army. I must ensure the raid is a decisive victory to shatter his remaining social defenses."
+      },
+      "state_updates": {
+        "world_data": {
+          "world_time": {
+            "year": 1492,
+            "time_of_day": "night",
+            "microsecond": 0,
+            "second": 0,
+            "day": 24,
+            "minute": 45,
+            "month": "Eleasias",
+            "hour": 21
+          }
+        },
+        "custom_campaign_state": {
+          "core_memories": {
+            "append": "Saita successfully traded 'Vanguard' intelligence with Duke Ravengard, dealing 2 Social HP damage and securing his interest in a Joint Defense Pact."
+          }
+        }
+      },
+      "directives": {
+        "drop": [],
+        "add": []
+      },
+      "action_resolution": {
+        "interpreted_as": "persuasion_attempt",
+        "audit_flags": [],
+        "narrative_outcome": "Ravengard commits his elite guard to the raid under Kaelen's advisory.",
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "result": 19,
+              "total": 28,
+              "dc": 19,
+              "outcome": "Ravengard is impressed by the actionable intelligence and agrees to the trial.",
+              "dc_reasoning": "Base DC 20 (Lvl 16 Lord); Masterful planning (-1) = DC 19",
+              "purpose": "Persuade Ravengard to accept the raid test",
+              "notation": "1d20 + 9"
+            }
+          ],
+          "audit_events": [
+            "Persuasion check: 19 + 9 = 28 vs DC 19. Success."
+          ],
+          "type": "skill_check"
+        },
+        "player_input": "The Intelligence Raid (Easiest) - Offer to lead Ravengard's own elite guard to a secondary Zhentarim node identified in the Shadow Ledger immediately. Use Kaelen as the 'tactical advisor.'"
+      },
+      "resources": "HD: 2/4 | Spells: L1 3/4, L2 2/3 | Inspiration: 3/3",
+      "mode": "character",
+      "entities_mentioned": [
+        "Duke Ulder Ravengard",
+        "Kaelen",
+        "Lara Vance",
+        "Sergeant Hallow"
+      ],
+      "social_hp_challenge": {
+        "npc_name": "Duke Ulder Ravengard",
+        "successes": 3,
+        "cooldown_remaining": 1,
+        "status": "WAVERING",
+        "social_hp_damage": 2,
+        "successes_needed": 5,
+        "roll_result": 28,
+        "social_hp": 7,
+        "npc_tier": "lord_general",
+        "npc_id": "",
+        "resistance_shown": "Ravengard acknowledges the superior intelligence but demands a practical demonstration.",
+        "roll_dc": 19,
+        "request_severity": "favor",
+        "objective": "Secure Joint Defense Pact & Grain Trade",
+        "skill_used": "Persuasion",
+        "social_hp_max": 10
+      },
+      "narrative": "Night (21:45:00) in the scrubbed hall of the Silvershield Annex finds the atmosphere thick with the musk of rain-soaked iron and the sharp, sterile scent of lye. Duke Ulder Ravengard (Lvl 16) looms like a statue of judgement, his eyes fixed on the black vellum of the Shadow Ledger. \n\n\"You want steel, Duke? I will give you the blood of your enemies instead,\" you say, your voice a cool, resonant frequency of command. \"My advisor, Kaelen, will lead your elite guard to Warehouse 7 in the Gray Harbor. Our intelligence places a Zhentarim distribution node there, active tonight for the midnight tide. We shall cleanse it together. If my eyes and his blade prove true, we sign the pact before dawn.\"\n\nRavengard's jaw sets, a low rumble of military consideration vibrating in his chest. \"Warehouse 7. My investigators suspected it, but lacked the proof to breach. If you provide the opening, Herald, I will provide the executioners.\" He signals his veterans, who snap to attention with a synchronized clatter of shields. \n\nKaelen (Lvl 4) steps forward, his single eye burning with a cold, professional focus. \"Follow my lead, mayflies,\" he rasps, his hand resting on the pommel of his blade. \"Try not to trip over your own cloaks.\"\n\nThe negotiation yields to the mechanical precision of a strike team. You feel the weight of Ravengard's skepticism shift slightly, the 'Shadow Ledger' having provided the necessary friction to slow his resistance. The pincer is set: your intelligence, his steel, and the future of the Sword Coast on the line.",
+      "text": "Night (21:45:00) in the scrubbed hall of the Silvershield Annex finds the atmosphere thick with the musk of rain-soaked iron and the sharp, sterile scent of lye. Duke Ulder Ravengard (Lvl 16) looms like a statue of judgement, his eyes fixed on the black vellum of the Shadow Ledger. \n\n\"You want steel, Duke? I will give you the blood of your enemies instead,\" you say, your voice a cool, resonant frequency of command. \"My advisor, Kaelen, will lead your elite guard to Warehouse 7 in the Gray Harbor. Our intelligence places a Zhentarim distribution node there, active tonight for the midnight tide. We shall cleanse it together. If my eyes and his blade prove true, we sign the pact before dawn.\"\n\nRavengard's jaw sets, a low rumble of military consideration vibrating in his chest. \"Warehouse 7. My investigators suspected it, but lacked the proof to breach. If you provide the opening, Herald, I will provide the executioners.\" He signals his veterans, who snap to attention with a synchronized clatter of shields. \n\nKaelen (Lvl 4) steps forward, his single eye burning with a cold, professional focus. \"Follow my lead, mayflies,\" he rasps, his hand resting on the pommel of his blade. \"Try not to trip over your own cloaks.\"\n\nThe negotiation yields to the mechanical precision of a strike team. You feel the weight of Ravengard's skepticism shift slightly, the 'Shadow Ledger' having provided the necessary friction to slow his resistance. The pincer is set: your intelligence, his steel, and the future of the Sword Coast on the line.",
+      "dice_rolls": [],
+      "faction_header": "",
+      "dice_audit_events": [],
+      "debug_info": {
+        "system_instruction_files": [
+          "prompts/master_directive.md",
+          "prompts/game_state_instruction.md",
+          "prompts/planning_protocol.md",
+          "prompts/dice_system_instruction_code_execution.md",
+          "prompts/faction_management_instruction.md",
+          "prompts/narrative_system_instruction.md",
+          "prompts/dnd_srd_instruction.md",
+          "prompts/mechanics_system_instruction.md",
+          "prompts/faction_minigame_instruction.md"
+        ],
+        "llm_provider": "gemini",
+        "llm_model": "gemini-3-flash-preview",
+        "agent_name": "FactionManagementAgent",
+        "intent_classifier": {
+          "classifier_source": "semantic_intent",
+          "routing_priority": "7_semantic_faction",
+          "confidence": 0.6696121692657471,
+          "intent": "faction"
+        },
+        "system_instruction_char_count": 402572,
+        "execution_path": "streaming"
+      },
+      "user_scene_number": 68,
+      "location_confirmed": "Silvershield Annex",
+      "sequence_id": 136,
+      "part": 1,
+      "rewards_box": {
+        "current_level": 4,
+        "xp_gained": 38,
+        "gold": 0,
+        "source": "social_victory",
+        "next_level_xp": 6500,
+        "current_xp": 3376,
+        "loot": [],
+        "progress_percent": 18.0,
+        "xp_to_next_level": 3124,
+        "xp_total": 3376,
+        "level_up_available": false
+      },
+      "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 21:45:00\nLocation: Silvershield Annex\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3376/6500 | Gold: 230gp\nConditions: None | Exhaustion: 0 | Inspiration: No",
+      "outcome_resolution": {
+        "interpreted_as": "persuasion_attempt",
+        "audit_flags": [],
+        "narrative_outcome": "Ravengard commits his elite guard to the raid under Kaelen's advisory.",
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "result": 19,
+              "total": 28,
+              "dc": 19,
+              "outcome": "Ravengard is impressed by the actionable intelligence and agrees to the trial.",
+              "dc_reasoning": "Base DC 20 (Lvl 16 Lord); Masterful planning (-1) = DC 19",
+              "purpose": "Persuade Ravengard to accept the raid test",
+              "notation": "1d20 + 9"
+            }
+          ],
+          "audit_events": [
+            "Persuasion check: 19 + 9 = 28 vs DC 19. Success."
+          ],
+          "type": "skill_check"
+        },
+        "player_input": "The Intelligence Raid (Easiest) - Offer to lead Ravengard's own elite guard to a secondary Zhentarim node identified in the Shadow Ledger immediately. Use Kaelen as the 'tactical advisor.'"
+      },
+      "actor": "gemini",
+      "timestamp": "2026-05-15 13:55:15.031961+00:00",
+      "_id": "0OkBMntvED8Zm4AHyKAq"
+    },
+    {
+      "part": 1,
+      "text": "The Intelligence Raid (Easiest) - Offer to lead Ravengard's own elite guard to a secondary Zhentarim node identified in the Shadow Ledger immediately. Use Kaelen as the 'tactical advisor.'",
+      "mode": "character",
+      "actor": "user",
+      "timestamp": "2026-05-15 13:55:14.739702+00:00",
+      "_id": "0x8XXALEbUlYwKFiQdKj"
+    },
+    {
+      "planning_block": {
+        "choices": [
+          {
+            "text": "The Intelligence Raid (Easiest)",
+            "description": "Offer to lead Ravengard's own elite guard to a secondary Zhentarim node identified in the Shadow Ledger immediately. Use Kaelen as the 'tactical advisor.'",
+            "cons": [
+              "Relies on the accuracy of the Zhentarim intel",
+              "Does not directly show Aethelgard's 'god-like' physical power"
+            ],
+            "id": "the_intelligence_raid",
+            "pros": [
+              "No risk to Saita's person",
+              "Uses Ravengard's own resources to prove your intelligence",
+              "Low mechanical risk; success is based on the quality of data already provided"
+            ],
+            "risk_level": "low",
+            "confidence": "high"
+          },
+          {
+            "text": "The Controlled Spar",
+            "description": "Propose a fight between Kaelen and the Duke's champion. Use Saita's 'Command' or 'Hold Person' subtly to ensure Kaelen's dominance.",
+            "cons": [
+              "High risk of detection if spells are noticed",
+              "Risk to Kaelen's health and the secret of his Level 4 status"
+            ],
+            "id": "the_controlled_spar",
+            "pros": [
+              "Directly addresses Ravengard's request",
+              "Visually impressive and military-focused"
+            ],
+            "risk_level": "medium",
+            "confidence": "medium"
+          },
+          {
+            "text": "The Illusory Parade",
+            "description": "Use Minor Illusion and Performance to simulate the sounds and shadows of a Vanguard unit arriving at the Annex gates during the meeting.",
+            "cons": [
+              "Ravengard is a high-level veteran; he may sense the illusion",
+              "A 'hollow' show might deepen his skepticism"
+            ],
+            "id": "the_illusory_parade",
+            "pros": [
+              "Pure theater; reinforces the 'armada' myth",
+              "Safe from physical harm"
+            ],
+            "risk_level": "high",
+            "confidence": "low"
+          },
+          {
+            "text": "The Vanguard Strike (Synergistic)",
+            "description": "While Kaelen advises the Duke's men on a raid, Sylas 'abducts' a secondary specimen from the target warehouse to show Aethelgard's clinical efficiency.",
+            "cons": [
+              "High coordination DC",
+              "Split focus between the Duke and the Harvest"
+            ],
+            "id": "parallel_the_vanguard_strike",
+            "analysis": {
+              "dc_modifier": 0,
+              "combination_type": "synergistic",
+              "synergy_bonus": "The raid provides the perfect cover for the Harvest; Ravengard attributes the 'disappearance' to the chaos of combat.",
+              "coordination_dc": 18
+            },
+            "pros": [
+              "Maximum impact: intelligence, martial coordination, and the Harvest all advance",
+              "Covers Sylas's movements with the 'noise' of the Fist raid"
+            ],
+            "risk_level": "high",
+            "confidence": "medium"
+          }
+        ],
+        "context": "",
+        "plan_quality": {
+          "success": true,
+          "margin": 3,
+          "dc_reasoning": "",
+          "quality_tier": "Competent",
+          "dc": 15,
+          "modifier": "+2",
+          "dc_category": "Complicated Planning",
+          "roll_result": 18,
+          "stat_used": "Intelligence",
+          "stat_value": 14,
+          "effect": "Identifies the underlying pragmatism of Ravengard's request and spots the most efficient leverage points."
+        },
+        "thinking": "Ravengard is a man of iron and grit; he has spent a lifetime being lied to by Patriars and threatened by gods. My 'Shadow Ledger' has piqued his interest, but he suspects the hand holding it is weak. The 'easiest' path is not necessarily the one with the lowest DC, but the one that requires the least further fabrication of the Aethelgard mythos.\n\nMoney? A 100gp grant is a merchant's move. It makes me look like a desperate foreign noble trying to buy a seat at the table. It is 'safe' but undermines the facade of a titan that doesn't need to bribe its subordinates.\n\nThe spar? Kaelen is a Level 4 Fighter. Ravengard\u2019s guard are Level 6 veterans. If Kaelen loses, the bluff is shattered. If he wins too easily, Ravengard might suspect supernatural foul play. It is a high-risk, high-reward move that requires me to expend my own kinetic buffs to ensure Kaelen's success.\n\nThe 'easiest' thing to do is to leverage the Zhentarim intelligence I just gave him. Instead of a theoretical demonstration, I can offer an immediate, low-effort tactical strike. I have the location of Warehouse 13's suppliers. I can have Sylas or Kaelen lead a small Fist squad to a secondary Zhentarim node *tonight*. It proves the intelligence is real, shows our coordination, and keeps my own hands clean of physical exertion while I 'recover' from my wound.\n\nRavengard wants to see the 'Vanguard.' I can provide a 'Shadow Vanguard' through Sylas that makes his own scouts look like blind children."
+      },
+      "state_updates": {
+        "world_data": {
+          "world_time": {
+            "microsecond": 1
+          }
+        }
+      },
+      "directives": {
+        "drop": [],
+        "add": []
+      },
+      "action_resolution": {
+        "audit_flags": [],
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "margin": 5,
+              "dc_reasoning": "Analyzing the psychological pressure points of a Level 16 Grand Duke during a high-stakes negotiation.",
+              "notation": "1d20+2",
+              "dc_category": "Complicated Planning",
+              "outcome": "Sharp - Thorough analysis identifies non-obvious options and accurate risk assessment.",
+              "dc": 15,
+              "purpose": "Intelligence Check (Planning)",
+              "total": 20,
+              "result": 18
+            }
+          ],
+          "type": "planning_check"
+        }
+      },
+      "resources": "",
+      "mode": "think",
+      "entities_mentioned": [
+        "Duke Ulder Ravengard",
+        "Kaelen",
+        "Sylas",
+        "Lara Vance",
+        "Sergeant Hallow"
+      ],
+      "social_hp_challenge": {
+        "cooldown_remaining": 0,
+        "successes": 3,
+        "npc_name": "Duke Ulder Ravengard",
+        "status": "WAVERING",
+        "social_hp_damage": 2,
+        "successes_needed": 5,
+        "social_hp": 7,
+        "roll_result": 18,
+        "npc_tier": "lord_general",
+        "resistance_shown": "Ravengard acknowledges the superior intelligence but demands a practical demonstration of Aethelgard's physical strength.",
+        "npc_id": "",
+        "roll_dc": 16,
+        "request_severity": "favor",
+        "skill_used": "Persuasion",
+        "objective": "Secure Joint Defense Pact & Grain Trade",
+        "social_hp_max": 10
+      },
+      "dice_rolls": [],
+      "outcome_resolution": {
+        "audit_flags": [],
+        "reinterpreted": false,
+        "mechanics": {
+          "rolls": [
+            {
+              "success": true,
+              "margin": 5,
+              "dc_reasoning": "Analyzing the psychological pressure points of a Level 16 Grand Duke during a high-stakes negotiation.",
+              "notation": "1d20+2",
+              "dc_category": "Complicated Planning",
+              "outcome": "Sharp - Thorough analysis identifies non-obvious options and accurate risk assessment.",
+              "dc": 15,
+              "purpose": "Intelligence Check (Planning)",
+              "total": 20,
+              "result": 18
+            }
+          ],
+          "type": "planning_check"
+        }
+      },
+      "text": "Intelligence Check: 20 vs DC 15 \u2014 Success. Your methodical mind (INT 14) slices through the political theater to identify the path of least resistance. You realize that Ravengard\u2019s soldier-soul values tangible results over grand promises, and the 'easiest' way to satisfy him isn't a complex lie, but a controlled display of the assets you already possess.",
+      "faction_header": "",
+      "dice_audit_events": [],
+      "debug_info": {
+        "system_instruction_files": [
+          "prompts/master_directive.md",
+          "prompts/think_mode_instruction.md",
+          "prompts/game_state_instruction.md",
+          "prompts/planning_protocol.md",
+          "prompts/dice_system_instruction_code_execution.md",
+          "prompts/dnd_srd_instruction.md"
+        ],
+        "llm_provider": "gemini",
+        "llm_model": "gemini-3-flash-preview",
+        "agent_name": "PlanningAgent",
+        "intent_classifier": {
+          "classifier_source": "explicit_override",
+          "routing_priority": "6_think_override",
+          "confidence": 1.0,
+          "intent": "think"
+        },
+        "system_instruction_char_count": 280105,
+        "execution_path": "streaming"
+      },
+      "user_scene_number": 67,
+      "location_confirmed": "Silvershield Annex",
+      "sequence_id": 134,
+      "part": 1,
+      "narrative": "Intelligence Check: 20 vs DC 15 \u2014 Success. Your methodical mind (INT 14) slices through the political theater to identify the path of least resistance. You realize that Ravengard\u2019s soldier-soul values tangible results over grand promises, and the 'easiest' way to satisfy him isn't a complex lie, but a controlled display of the assets you already possess.",
+      "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 21:40:00\nLocation: Silvershield Annex (Main Hall)\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3376/6500 | Gold: 230gp\nConditions: Biological Integration Penalty (-75% XP) | Exhaustion: 0 | Inspiration: Yes",
+      "timestamp": "2026-05-15 06:48:44.708863+00:00",
+      "actor": "gemini",
+      "_id": "vErwYUSHo0W74WvFjXnV"
+    }
+  ]
+}

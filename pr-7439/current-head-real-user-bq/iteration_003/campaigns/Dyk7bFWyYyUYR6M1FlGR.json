@@ -1,0 +1,385 @@
+{
+  "campaign": {
+    "created_at": "2026-06-11T22:19:02.048239+00:00",
+    "initial_prompt": "Character: A wandering scout named Kira | Setting: A misty mountain pass at dawn | Description: Real-LLM real-user BQ E2E for PR #7439 path 14 (gameplay_streaming_proxy) with a fixed 28-char Firebase-UID-shaped user_id that bypasses is_test_user. Drives a real call through the Flask /api/campaigns/<id>/interaction/stream endpoint and verifies the BQ row has is_test=false plus populated request_json + response_text. No mocks. Real Gemini. Real BQ.",
+    "last_played": "2026-06-11T22:19:27.279897+00:00",
+    "living_world_state": {
+      "last_time": null,
+      "last_turn": 0
+    },
+    "selected_prompts": [],
+    "title": "BQ Path14 Real User E2E",
+    "use_default_world": false
+  },
+  "entries_cleaned": 0,
+  "game_state": {
+    "combat_state": {
+      "in_combat": false
+    },
+    "custom_campaign_state": {
+      "_agent_selection_tracker": {
+        "agent": "SpicyModeAgent",
+        "count": 1,
+        "rewards_skip_count": 0
+      },
+      "active_constraints": [],
+      "arc_milestones": {},
+      "attribute_system": "D&D",
+      "campaign_tier": "mortal",
+      "character_creation_completed": true,
+      "character_creation_in_progress": false,
+      "character_creation_stage": "complete",
+      "companion_arcs": {},
+      "core_memories": [
+        "Kira is a wandering scout currently traversing a misty mountain pass at dawn.",
+        "Kira detected a guttural mutter and the sound of iron on stone near a jagged outcrop in the misty mountain pass."
+      ],
+      "divine_potential": 0,
+      "divine_upgrade_available": false,
+      "faction_minigame": {
+        "strong_suggestion_given": false,
+        "suggestion_given": false
+      },
+      "god_mode": {
+        "character": {
+          "name": "A wandering scout named Kira"
+        },
+        "description": "Real-LLM real-user BQ E2E for PR #7439 path 14 (gameplay_streaming_proxy) with a fixed 28-char Firebase-UID-shaped user_id that bypasses is_test_user. Drives a real call through the Flask /api/campaigns/<id>/interaction/stream endpoint and verifies the BQ row has is_test=false plus populated request_json + response_text. No mocks. Real Gemini. Real BQ.",
+        "setting": "A misty mountain pass at dawn"
+      },
+      "last_location": "Misty Mountain Pass",
+      "multiverse_upgrade_available": false,
+      "next_companion_arc_turn": 3,
+      "universe_control": 0
+    },
+    "debug_mode": true,
+    "entity_tracking": {
+      "active_entities": [
+        "A wandering scout named Kira"
+      ],
+      "present_entities": []
+    },
+    "game_state_version": 1,
+    "item_registry": {},
+    "last_living_world_time": {
+      "day": 15,
+      "hour": 6,
+      "microsecond": 0,
+      "minute": 0,
+      "month": "Mirtul",
+      "second": 0,
+      "time_of_day": "dawn",
+      "year": 1492
+    },
+    "last_living_world_turn": 0,
+    "last_state_update_timestamp": "2026-06-11T22:19:26.764000+00:00",
+    "npc_agendas": {},
+    "npc_data": {
+      "npc_goblin_001": {
+        "armor_class": 13,
+        "hp_current": 7,
+        "hp_max": 7,
+        "name": "Goblin",
+        "present": true,
+        "status": "healthy",
+        "string_id": "npc_goblin_001"
+      }
+    },
+    "pending_instruction_hints": [],
+    "planning_block": {
+      "choices": [
+        {
+          "confidence": "high",
+          "cons": [
+            "Risk of being spotted if you stumble on loose shale",
+            "Closing the distance puts you in melee range"
+          ],
+          "description": "Utilize the heavy mist and your training in Stealth to get a better look at the source of the noise.",
+          "id": "sneak_closer",
+          "pros": [
+            "Gain surprise",
+            "Identify the threat clearly"
+          ],
+          "risk_level": "medium",
+          "text": "Sneak Toward the Outcrop"
+        },
+        {
+          "confidence": "high",
+          "cons": [
+            "Mist provides the target with half-cover",
+            "The target might slip away into the fog"
+          ],
+          "description": "Stay at a distance and ready your longbow, waiting for the figure to emerge from the mist.",
+          "id": "prepare_longbow",
+          "pros": [
+            "Maintain safe distance",
+            "Ready for an immediate ranged attack"
+          ],
+          "risk_level": "low",
+          "text": "Nock an Arrow and Observe"
+        },
+        {
+          "confidence": "medium",
+          "cons": [
+            "Forfeit the element of surprise",
+            "Hostile entities may attack immediately"
+          ],
+          "description": "Demand the figure show themselves, revealing your presence but potentially avoiding a fight.",
+          "id": "call_out",
+          "pros": [
+            "Avoid unnecessary bloodshed",
+            "Information gathering through parley"
+          ],
+          "risk_level": "high",
+          "text": "Call Out a Warning"
+        }
+      ],
+      "context": "Kira has detected a hidden creature behind an outcrop in the mist.",
+      "thinking": "Kira (Lvl 1) has successfully detected a presence ahead. The sound of iron suggests a weapon or armor, and the guttural voice points toward something less than human\u2014perhaps a goblin or a lone bandit. The mist provides excellent cover for a stealthy approach, but the terrain is treacherous."
+    },
+    "player_character_data": {
+      "attributes": {
+        "charisma": 9,
+        "constitution": 14,
+        "dexterity": 16,
+        "intelligence": 11,
+        "strength": 13,
+        "wisdom": 15
+      },
+      "base_attributes": {
+        "charisma": 8,
+        "constitution": 13,
+        "dexterity": 15,
+        "intelligence": 10,
+        "strength": 12,
+        "wisdom": 14
+      },
+      "class_name": "Ranger",
+      "death_saves": {
+        "failures": 0,
+        "successes": 0
+      },
+      "display_name": "Kira",
+      "entity_id": "pc_kira_001",
+      "equipment": {
+        "armor": {
+          "armor_class": 11,
+          "armor_type": "light",
+          "equipped": true,
+          "name": "Leather Armor",
+          "type": "armor"
+        },
+        "backpack": [
+          {
+            "equipped": false,
+            "name": "Backpack",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Bedroll",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Mess kit",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Tinderbox",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Torch",
+            "stats": "10"
+          },
+          {
+            "equipped": false,
+            "name": "Rations",
+            "stats": "10 days"
+          },
+          {
+            "equipped": false,
+            "name": "Waterskin",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Rope",
+            "stats": "50 feet"
+          },
+          {
+            "equipped": false,
+            "name": "Coin pouch",
+            "stats": "10gp"
+          },
+          {
+            "name": "Explorer's Pack"
+          },
+          {
+            "name": "Quiver of 20 Arrows"
+          }
+        ],
+        "main_hand": {
+          "damage": "1d6+3",
+          "damage_type": "piercing",
+          "equipped": true,
+          "name": "Shortsword",
+          "properties": [
+            "finesse",
+            "light"
+          ],
+          "type": "weapon"
+        },
+        "off_hand": {
+          "damage": "1d6+3",
+          "damage_type": "piercing",
+          "equipped": true,
+          "name": "Shortsword",
+          "properties": [
+            "finesse",
+            "light"
+          ],
+          "type": "weapon"
+        },
+        "ranged": {
+          "damage": "1d8+3",
+          "damage_type": "piercing",
+          "equipped": true,
+          "name": "Longbow",
+          "properties": [
+            "ammunition",
+            "heavy",
+            "range (150/600)",
+            "two-handed"
+          ],
+          "type": "weapon"
+        }
+      },
+      "experience": {
+        "current": 0,
+        "needed_for_next_level": 300,
+        "to_next_level": 300
+      },
+      "health": {
+        "conditions": [],
+        "death_saves": {
+          "failures": 0,
+          "successes": 0
+        },
+        "hp": 12,
+        "hp_max": 12,
+        "temp_hp": 0
+      },
+      "hp_current": 12,
+      "hp_max": 12,
+      "level": 1,
+      "name": "A wandering scout named Kira",
+      "race": "Human",
+      "resources": {
+        "gold": 140,
+        "hit_dice": {
+          "max": 1,
+          "used": 0
+        }
+      },
+      "spells_known": [
+        {
+          "description": "You choose a creature you can see within range and mark it as your quarry. You deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on Perception or Survival checks to find it.",
+          "name": "Hunter's Mark"
+        },
+        {
+          "description": "You touch a creature and increase its walking speed by 10 feet for 1 hour, allowing for faster travel and easier maneuvering through difficult terrain.",
+          "name": "Longstrider"
+        },
+        {
+          "description": "You create a 20-foot-radius sphere of fog centered on a point within range. The sphere heavily obscures the area, allowing a scout to vanish from sight or create a distraction for an escape.",
+          "name": "Fog Cloud"
+        }
+      ],
+      "status_conditions": []
+    },
+    "player_turn": 1,
+    "schema_migrated_at": "2026-06-11T22:19:02.048199+00:00",
+    "schema_migration_version": 1,
+    "session_id": "legacy-migrated-b49aee757b7d1885",
+    "social_hp_challenge": null,
+    "time_pressure_warnings": {},
+    "time_sensitive_events": {},
+    "turn_number": 1,
+    "user_id": "realprodpath14bqeviduser12345",
+    "world_data": {
+      "current_location_name": "Misty Mountain Pass",
+      "world_time": {
+        "day": 15,
+        "hour": 6,
+        "microsecond": 0,
+        "minute": 0,
+        "month": "Mirtul",
+        "second": 30,
+        "time_of_day": "dawn",
+        "year": 1492
+      }
+    },
+    "world_resources": {}
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "confidence": "high",
+        "cons": [
+          "Risk of being spotted if you stumble on loose shale",
+          "Closing the distance puts you in melee range"
+        ],
+        "description": "Utilize the heavy mist and your training in Stealth to get a better look at the source of the noise.",
+        "id": "sneak_closer",
+        "pros": [
+          "Gain surprise",
+          "Identify the threat clearly"
+        ],
+        "risk_level": "medium",
+        "text": "Sneak Toward the Outcrop"
+      },
+      {
+        "confidence": "high",
+        "cons": [
+          "Mist provides the target with half-cover",
+          "The target might slip away into the fog"
+        ],
+        "description": "Stay at a distance and ready your longbow, waiting for the figure to emerge from the mist.",
+        "id": "prepare_longbow",
+        "pros": [
+          "Maintain safe distance",
+          "Ready for an immediate ranged attack"
+        ],
+        "risk_level": "low",
+        "text": "Nock an Arrow and Observe"
+      },
+      {
+        "confidence": "medium",
+        "cons": [
+          "Forfeit the element of surprise",
+          "Hostile entities may attack immediately"
+        ],
+        "description": "Demand the figure show themselves, revealing your presence but potentially avoiding a fight.",
+        "id": "call_out",
+        "pros": [
+          "Avoid unnecessary bloodshed",
+          "Information gathering through parley"
+        ],
+        "risk_level": "high",
+        "text": "Call Out a Warning"
+      }
+    ],
+    "context": "Kira has detected a hidden creature behind an outcrop in the mist.",
+    "thinking": "Kira (Lvl 1) has successfully detected a presence ahead. The sound of iron suggests a weapon or armor, and the guttural voice points toward something less than human\u2014perhaps a goblin or a lone bandit. The mist provides excellent cover for a stealthy approach, but the terrain is treacherous."
+  },
+  "state_cleaned": false,
+  "success": true,
+  "user_settings": {
+    "gemini_model": "gemini-2.5-flash",
+    "llm_provider": "gemini"
+  }
+}

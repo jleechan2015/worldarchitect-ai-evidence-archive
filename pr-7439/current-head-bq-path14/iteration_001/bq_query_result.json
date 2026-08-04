@@ -1,0 +1,24 @@
+[
+  {
+    "agent": null,
+    "event_type": "gameplay_streaming",
+    "execution_path": null,
+    "finish_reason": "FinishReason.STOP",
+    "has_contents": "true",
+    "has_marker": "true",
+    "ingested_at": "2026-06-11 18:01:57",
+    "is_test": "true",
+    "model": "gemini-3-flash-preview",
+    "output_tokens": "1405",
+    "path": "gemini_provider.stream",
+    "prompt_tokens": "100463",
+    "req_max_output_tokens": null,
+    "req_model": "gemini-3-flash-preview",
+    "req_temperature": null,
+    "request_json_len": "406911",
+    "request_preview": "{\"model\": \"gemini-3-flash-preview\", \"contents\": [\"parts=[Part(\\n  text=\\\"\\\"\\\"# PROVABLY_FAIR_SEED_OVERRIDE\\nIf the current user_action requires any dice roll, you MUST use Gemini code_execution before",
+    "response_preview": "{\n  \"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1492 DR, Hammer 1, 06:01:00\\",
+    "response_text_len": "4133",
+    "user_id": "test-bq_path14_gameplay_streaming_proxy_e2e-1781200848"
+  }
+]

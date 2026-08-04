@@ -1,0 +1,82 @@
+======================================================================
+CLEANUP-DEFEATED-ENEMIES
+======================================================================
+Work name: cleanup-defeated-enemies
+Model: gemini-3-flash-preview
+======================================================================
+📁 Evidence directory: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies
+   Evidence will be saved to: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_XXX/
+📁 Base evidence directory (forced branch-scoped /tmp): /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies
+Created iteration directory for evidence: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002
+
+🚀 Starting fresh local MCP server on port 8045...
+✅ Server ready at http://127.0.0.1:8045
+Tmux video recording started for evidence bundle.
+  ✅ Captured campaign snapshot for EHyHBufY
+Tmux video artifact finalized (.cast).
+
+================================================================================
+📦 EVIDENCE BUNDLE CREATED
+================================================================================
+📁 Evidence Directory:
+   /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002
+
+📋 Bundle Metadata:
+   Run ID:        cleanup-defeated-enemies-002-20260531T195215
+   Iteration:     2
+   Bundle Version: 1.2.0
+   📁 Evidence directory: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002
+   📁 Latest iteration: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002
+
+📥 Downloading 1 test campaigns (workers=1)...
+Downloading to: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002/campaigns
+Format: txt
+============================================================
+Downloading: EHyHBufYbmQ5pebwsgHO...
+  Saved story: PR 6922 Cleanup Defeated Enemies Evidence_EHyHBufY.txt
+  Saved game state: PR 6922 Cleanup Defeated Enemies Evidence_EHyHBufY_game_state.json
+  Entries: 4, Story size: 2.0 KB, Game state size: 5.2 KB
+============================================================
+Downloaded 1/1 campaigns
+  stderr: 2026-05-31 12:52:15,581 - root - INFO - Unified logging configured: /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix_dead-npc-hallucination-v2/app.log
+  stderr: 2026-05-31 12:52:15,581 - root - INFO - Applied clock skew patch: adjusting time by -720 seconds
+  stderr: 2026-05-31 12:52:16,369 - root - INFO - Firebase not initialized - attempting to initialize now
+  stderr: 2026-05-31 12:52:16,369 - root - INFO - Loading service account from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-31 12:52:16,369 - root - INFO - ✅ Successfully loaded credentials from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-31 12:52:16,369 - root - INFO - Successfully loaded service account credentials
+  stderr: 2026-05-31 12:52:16,939 - root - INFO - 📖 FETCHED STORY ENTRIES: user=test-cleanup-defeated-enemies-1780257090, campaign=EHyHBufYbmQ5pebwsgHO, total_entries=4
+  stderr: 2026-05-31 12:52:16,939 - root - INFO - 📊 STORY BREAKDOWN: user_entries=2, ai_entries=2, other_entries=0
+  stderr: 2026-05-31 12:52:16,939 - root - INFO - 🔍 RECENT ENTRIES (last 4):
+  stderr: 2026-05-31 12:52:16,940 - root - INFO -   1. [user] god | Character: Aric the Fighter (STR 16) | Setting: A ... | 2026-05-31 19:51:55.907991+00:00
+  stderr: 2026-05-31 12:52:16,940 - root - INFO -   2. [gemini] N/A | [CHARACTER CREATION - Initial Choice]
+  stderr: Welcome to ... | 2026-05-31 19:51:56.379866+00:00
+  stderr: 2026-05-31 12:52:16,940 - root - INFO -   3. [user] god | GOD MODE: The combat is over. Narrate the quiet af... | 2026-05-31 19:52:12.457169+00:00
+  stderr: 2026-05-31 12:52:16,940 - root - INFO -   4. [gemini] god | Administrative Status: Combat is confirmed over; a... | 2026-05-31 19:52:13.064850+00:00
+  stderr: 2026-05-31 12:52:17,122 - root - WARNING - ⚠️ ⚠️ MISSING_COMBAT_SUMMARY: Combat ended (in_combat=false, combat_phase=ended) but no combat_summary provided. XP and loot may not be awarded.
+  ✅ Downloaded campaign EHyHBufY... (4 entries)
+  ✅ Downloaded campaign EHyHBufY... (4 entries, user_id=test-cleanup-defeated-enemies-1780257090)
+📦 Downloaded 1/1 campaigns to:
+   /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002/campaigns
+ℹ️  Reconciled campaign_capture_status with exported campaign artifacts.
+
+================================================================================
+✅ TEST EVIDENCE SUMMARY
+================================================================================
+📁 Evidence Location:  /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002
+📥 Campaigns Location: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002/campaigns
+🔗 Latest Symlink:     /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/latest
+================================================================================
+
+📎 Iteration artifact captured: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002/scenario_results_checkpoint.json
+📁 Final evidence iteration directory: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002
+
+======================================================================
+SUMMARY
+======================================================================
+Total scenarios: 2
+Passed: 2
+Failed: 0
+Pass rate: 2/2 (100%)
+
+📦 Evidence bundle created: /tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies
+   Files: 21 with checksums

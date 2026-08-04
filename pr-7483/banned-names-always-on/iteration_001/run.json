@@ -1,0 +1,31 @@
+{
+  "scenarios": [
+    {
+      "name": "banned_names_injection_check",
+      "campaign_id": "KtdzQjJ8EqDYum6sTODt",
+      "passed": true,
+      "errors": [],
+      "system_instruction_files": [
+        "prompts/master_directive.md",
+        "prompts/game_state_instruction.md",
+        "prompts/planning_protocol.md",
+        "prompts/dice_system_instruction_code_execution.md",
+        "prompts/character_creation_instruction.md",
+        "prompts/dnd_srd_instruction.md",
+        "prompts/mechanics_system_instruction.md",
+        "mvp_site/prompts/shared/banned_names_instruction.md"
+      ],
+      "system_instruction_char_count": 319885,
+      "has_full_text": true,
+      "details": "Verified banned names injection when use_default_world=False"
+    }
+  ],
+  "summary": {
+    "total_scenarios": 1,
+    "total_requests": 1,
+    "raw_total": 1,
+    "raw_passed": 0,
+    "raw_pass_rate": "0.0%",
+    "raw_data_complete": true
+  }
+}

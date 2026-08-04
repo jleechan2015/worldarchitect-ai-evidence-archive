@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:01:55.190 --> 00:01:58.190
+Screenshot: 01_filters_initially_collapsed (1. Filters panel initially collapsed by default)
+
+2
+00:01:56.697 --> 00:01:59.697
+Screenshot: 02_filters_expanded (2. Filters panel expanded)
+
+3
+00:01:58.385 --> 00:02:01.385
+Screenshot: 03_filters_persist_expanded (3. Expanded persistence verified after page reload)
+
+4
+00:02:01.255 --> 00:02:04.255
+Screenshot: 04_filters_persist_collapsed (4. Collapsed persistence verified after page reload)
+
+5
+00:02:04.357 --> 00:02:07.357
+Screenshot: 05_filters_active_scifi (5. Sci-Fi filter active with badge count)
+
+6
+00:02:06.011 --> 00:02:09.011
+Screenshot: 06_filters_active_completed (6. Completed status filter active)
+
+7
+00:02:07.205 --> 00:02:10.205
+Screenshot: 07_desktop_view_expanded (7. Desktop view: filters always expanded, toggle button hidden)
+
+8
+00:02:08.811 --> 00:02:11.811
+Screenshot: 08_desktop_view_persist (8. Desktop view: expanded state persists after page reload)

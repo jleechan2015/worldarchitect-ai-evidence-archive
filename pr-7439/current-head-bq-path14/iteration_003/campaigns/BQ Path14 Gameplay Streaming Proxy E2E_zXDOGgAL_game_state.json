@@ -1,0 +1,196 @@
+{
+  "game_state_version": 1,
+  "player_character_data": {
+    "attributes": {
+      "strength": 16,
+      "constitution": 14,
+      "wisdom": 10,
+      "charisma": 12,
+      "intelligence": 10,
+      "dexterity": 12
+    },
+    "hp_max": 12,
+    "proficiency_bonus": 2,
+    "class_name": "Fighter",
+    "string_id": "pc_aric_001",
+    "display_name": "Kira",
+    "level": 1,
+    "equipment": {
+      "backpack": [
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Backpack"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Bedroll"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Mess kit"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Tinderbox"
+        },
+        {
+          "stats": "10",
+          "equipped": false,
+          "name": "Torch"
+        },
+        {
+          "stats": "10 days",
+          "equipped": false,
+          "name": "Rations"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Waterskin"
+        },
+        {
+          "stats": "50 feet",
+          "equipped": false,
+          "name": "Rope"
+        },
+        {
+          "stats": "10gp",
+          "equipped": false,
+          "name": "Coin pouch"
+        }
+      ]
+    },
+    "experience": {
+      "to_next_level": 300,
+      "current": 0,
+      "needed_for_next_level": 300
+    },
+    "hp_current": 12,
+    "name": "Aric"
+  },
+  "world_data": {
+    "current_location_name": "Misty Mountain Pass",
+    "world_time": {
+      "year": 1492,
+      "time_of_day": "dawn",
+      "microsecond": 0,
+      "second": 0,
+      "hour": 6,
+      "minute": 5,
+      "month": "Mirtul",
+      "day": 15
+    }
+  },
+  "npc_data": {
+    "npc_goblin_001": {
+      "armor_class": 13,
+      "present": true,
+      "hp_max": 7,
+      "string_id": "npc_goblin_001",
+      "status": "healthy",
+      "hp_current": 7,
+      "name": "Goblin"
+    }
+  },
+  "item_registry": {},
+  "custom_campaign_state": {
+    "divine_potential": 0,
+    "character_creation_completed": true,
+    "core_memories": [
+      "Kira is a wandering scout currently navigating a misty mountain pass at the break of dawn.",
+      "Kira's initial attempt to scout the pass was thwarted by a natural 1, leaving her disoriented in the thick dawn mist."
+    ],
+    "attribute_system": "D&D",
+    "arc_milestones": {},
+    "universe_control": 0,
+    "character_creation_stage": "complete",
+    "_agent_selection_tracker": {
+      "rewards_skip_count": 0,
+      "count": 1,
+      "agent": "SpicyModeAgent"
+    },
+    "multiverse_upgrade_available": false,
+    "campaign_tier": "mortal",
+    "divine_upgrade_available": false,
+    "active_constraints": [],
+    "companion_arcs": {},
+    "god_mode": {
+      "description": "Real-LLM real-user E2E for PR #7439 path 14 (gameplay_streaming_proxy). Drives a real call through the Flask /api/campaigns/<id>/interaction/stream endpoint and verifies the BQ row has populated request_json + response_text. No mocks. Real Gemini. Real BQ.",
+      "character": {
+        "name": "A wandering scout named Kira"
+      },
+      "setting": "A misty mountain pass at dawn"
+    },
+    "last_location": "Misty Mountain Pass",
+    "character_creation_in_progress": false,
+    "next_companion_arc_turn": 3
+  },
+  "social_hp_challenge": null,
+  "combat_state": {
+    "in_combat": false
+  },
+  "last_state_update_timestamp": "2026-06-11T20:21:18.539000+00:00",
+  "turn_number": 1,
+  "player_turn": 1,
+  "last_living_world_turn": 0,
+  "last_living_world_time": {
+    "time_of_day": "dawn",
+    "year": 1492,
+    "microsecond": 0,
+    "second": 0,
+    "day": 15,
+    "minute": 0,
+    "month": "Mirtul",
+    "hour": 6
+  },
+  "time_sensitive_events": {},
+  "npc_agendas": {},
+  "world_resources": {},
+  "time_pressure_warnings": {},
+  "debug_mode": true,
+  "pending_instruction_hints": [],
+  "entity_tracking": {
+    "active_entities": [
+      "A wandering scout named Kira"
+    ],
+    "present_entities": []
+  },
+  "session_id": "legacy-migrated-ae0e8c65dea4f931",
+  "planning_block": {
+    "choices": [
+      {
+        "text": "Move Forward Cautiously",
+        "description": "Keep one hand on the rock face and slowly advance, feeling the ground with your boots.",
+        "risk_level": "medium",
+        "id": "move_forward_cautiously"
+      },
+      {
+        "text": "Find Cover and Wait",
+        "description": "Hunker down against a sheltered rock formation and wait for the sun to burn off the thickest part of the mist.",
+        "risk_level": "low",
+        "id": "wait_for_clearance"
+      },
+      {
+        "text": "Search the Ground for Tracks",
+        "description": "Instead of looking through the air, look down at the muddy path for physical signs of passage.",
+        "risk_level": "low",
+        "id": "check_ground_tracks"
+      },
+      {
+        "text": "Seek Higher Ground",
+        "description": "Attempt to climb a nearby crag to see if you can get above the mist layer.",
+        "risk_level": "high",
+        "id": "climb_for_vantage"
+      }
+    ],
+    "context": "",
+    "thinking": "Kira's senses have failed her in this dense fog. Moving forward blindly is dangerous, but staying still in an exposed pass isn't much better. A scout's first priority is orientation and safety."
+  },
+  "schema_migrated_at": "2026-06-11T20:20:56.279794+00:00",
+  "schema_migration_version": 1,
+  "user_id": "test-bq_path14_gameplay_streaming_proxy_e2e-1781209203"
+}

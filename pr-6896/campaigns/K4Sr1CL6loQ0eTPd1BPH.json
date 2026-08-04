@@ -1,0 +1,336 @@
+{
+  "campaign": {
+    "created_at": "2026-05-23T06:49:59.665546+00:00",
+    "initial_prompt": "Character: Aric the Fighter (STR 16) | Setting: A regression testing chamber | Description: Validate one-time legacy-to-schema migration flow",
+    "last_played": "2026-05-23T06:51:20.035085+00:00",
+    "living_world_state": {
+      "last_time": null,
+      "last_turn": 0
+    },
+    "selected_prompts": [],
+    "title": "Schema Migration Flow",
+    "use_default_world": false
+  },
+  "entries_cleaned": 0,
+  "game_state": {
+    "combat_state": {
+      "in_combat": false
+    },
+    "custom_campaign_state": {
+      "_agent_selection_tracker": {
+        "agent": "StoryModeAgent",
+        "count": 4,
+        "rewards_skip_count": 0
+      },
+      "active_constraints": [],
+      "arc_milestones": {},
+      "attribute_system": "D&D",
+      "campaign_tier": "mortal",
+      "character_creation_completed": true,
+      "character_creation_in_progress": false,
+      "character_creation_stage": "complete",
+      "companion_arcs": {},
+      "core_memories": [
+        "Aric initialized in the regression testing chamber and discovered an obsidian pedestal with a lever.",
+        "Aric (Lvl 1) searched the sterile testing chamber but failed to find any hidden panels in the seamless walls.",
+        "The testing chamber's lighting failed, plunging Aric (Lvl 1) into a blinding darkness that obscured his vision entirely.",
+        "Aric (Lvl 1) attempted to navigate the chamber in absolute darkness but lost his orientation and stumbled."
+      ],
+      "divine_potential": 0,
+      "divine_upgrade_available": false,
+      "faction_minigame": {
+        "strong_suggestion_given": false,
+        "suggestion_given": false
+      },
+      "god_mode": {
+        "character": {
+          "attributes": {
+            "strength": 16
+          },
+          "base_attributes": {
+            "charisma": 10,
+            "constitution": 10,
+            "dexterity": 10,
+            "intelligence": 10,
+            "strength": 16,
+            "wisdom": 10
+          },
+          "name": "Aric the Fighter (STR 16)"
+        },
+        "description": "Validate one-time legacy-to-schema migration flow",
+        "setting": "A regression testing chamber"
+      },
+      "last_location": "Regression Testing Chamber",
+      "multiverse_upgrade_available": false,
+      "next_companion_arc_turn": 3,
+      "universe_control": 0
+    },
+    "debug_mode": true,
+    "entity_tracking": {
+      "active_entities": [
+        "Aric the Fighter (STR 16)"
+      ],
+      "present_entities": []
+    },
+    "game_state_version": 1,
+    "item_registry": {},
+    "last_living_world_time": {
+      "day": 15,
+      "hour": 8,
+      "microsecond": 0,
+      "minute": 15,
+      "month": "Mirtul",
+      "second": 0,
+      "time_of_day": "morning",
+      "year": 1492
+    },
+    "last_living_world_turn": 3,
+    "last_state_update_timestamp": "2026-05-23T06:51:19.644000+00:00",
+    "npc_agendas": {},
+    "npc_data": {
+      "npc_goblin_001": {
+        "armor_class": 13,
+        "hp_current": 7,
+        "hp_max": 7,
+        "name": "Goblin",
+        "present": true,
+        "status": "healthy",
+        "string_id": "npc_goblin_001"
+      }
+    },
+    "pending_instruction_hints": [],
+    "planning_block": {
+      "choices": [
+        {
+          "confidence": "high",
+          "cons": [
+            "Takes time to light",
+            "Makes you a visible target"
+          ],
+          "description": "Stop moving and carefully retrieve a torch and tinderbox from your pack to restore sight.",
+          "id": "search_pack_for_torch",
+          "pros": [
+            "Restores visibility",
+            "Ends disorientation"
+          ],
+          "risk_level": "low",
+          "text": "Ignite a Torch"
+        },
+        {
+          "confidence": "medium",
+          "cons": [
+            "Slow movement",
+            "Vulnerable position"
+          ],
+          "description": "Drop to your knees and sweep your hands across the floor to find the pedestal or a wall.",
+          "id": "crouch_and_sweep",
+          "pros": [
+            "Tactile orientation",
+            "Less likely to fall"
+          ],
+          "risk_level": "medium",
+          "text": "Crouch and Sweep"
+        },
+        {
+          "confidence": "low",
+          "cons": [
+            "Might reveal position to unseen observers"
+          ],
+          "description": "Shout into the void, asking the chamber for a lighting status or diagnostic report.",
+          "id": "shout_for_diagnostics",
+          "pros": [
+            "Might trigger voice-activated systems",
+            "Doesn't require light"
+          ],
+          "risk_level": "low",
+          "text": "Call for System Status"
+        },
+        {
+          "analysis": {
+            "combination_type": "synergistic",
+            "coordination_dc": 14,
+            "dc_modifier": 0,
+            "synergy_bonus": "The spark of the tinderbox might momentarily illuminate the source of any sound you hear."
+          },
+          "cons": [
+            "Divided focus makes lighting harder"
+          ],
+          "description": "Attempt to strike the tinderbox while focusing all your attention on any sound that might indicate the chamber's reaction to your presence.",
+          "id": "parallel_ignite_and_listen",
+          "pros": [
+            "Restores light and auditory awareness",
+            "Multitasking efficiency"
+          ],
+          "risk_level": "medium",
+          "text": "Light Torch while Listening (Synergistic)"
+        }
+      ],
+      "context": "Disoriented in absolute darkness.",
+      "thinking": "The attempt to navigate blindly has left Aric disoriented. In this absolute darkness, dead reckoning is impossible. He must either restore light or find a tactile anchor like the walls or the pedestal to regain his bearings before he stumbles into the lever or worse."
+    },
+    "player_character_data": {
+      "attributes": {
+        "strength": 16
+      },
+      "base_attributes": {
+        "charisma": 10,
+        "constitution": 10,
+        "dexterity": 10,
+        "intelligence": 10,
+        "strength": 16,
+        "wisdom": 10
+      },
+      "class_name": "Fighter",
+      "display_name": "Aric",
+      "equipment": {
+        "backpack": [
+          {
+            "equipped": false,
+            "name": "Backpack",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Bedroll",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Mess kit",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Tinderbox",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Torch",
+            "stats": "10"
+          },
+          {
+            "equipped": false,
+            "name": "Rations",
+            "stats": "10 days"
+          },
+          {
+            "equipped": false,
+            "name": "Waterskin",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Rope",
+            "stats": "50 feet"
+          },
+          {
+            "equipped": false,
+            "name": "Coin pouch",
+            "stats": "10gp"
+          }
+        ]
+      },
+      "level": 1,
+      "name": "Aric the Fighter (STR 16)"
+    },
+    "player_turn": 5,
+    "schema_migrated_at": "2026-05-23T06:50:03.816841+00:00",
+    "schema_migration_version": 1,
+    "session_id": "legacy-migrated-cc264b77f5656a2c",
+    "social_hp_challenge": null,
+    "time_pressure_warnings": {},
+    "time_sensitive_events": {},
+    "turn_number": 5,
+    "user_id": "test-schema_migration_flow_real_api-1779518963",
+    "world_data": {
+      "current_location_name": "Regression Testing Chamber",
+      "world_time": {
+        "day": 15,
+        "hour": 8,
+        "microsecond": 0,
+        "minute": 20,
+        "month": "Mirtul",
+        "second": 0,
+        "time_of_day": "morning",
+        "year": 1492
+      }
+    },
+    "world_resources": {}
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "confidence": "high",
+        "cons": [
+          "Takes time to light",
+          "Makes you a visible target"
+        ],
+        "description": "Stop moving and carefully retrieve a torch and tinderbox from your pack to restore sight.",
+        "id": "search_pack_for_torch",
+        "pros": [
+          "Restores visibility",
+          "Ends disorientation"
+        ],
+        "risk_level": "low",
+        "text": "Ignite a Torch"
+      },
+      {
+        "confidence": "medium",
+        "cons": [
+          "Slow movement",
+          "Vulnerable position"
+        ],
+        "description": "Drop to your knees and sweep your hands across the floor to find the pedestal or a wall.",
+        "id": "crouch_and_sweep",
+        "pros": [
+          "Tactile orientation",
+          "Less likely to fall"
+        ],
+        "risk_level": "medium",
+        "text": "Crouch and Sweep"
+      },
+      {
+        "confidence": "low",
+        "cons": [
+          "Might reveal position to unseen observers"
+        ],
+        "description": "Shout into the void, asking the chamber for a lighting status or diagnostic report.",
+        "id": "shout_for_diagnostics",
+        "pros": [
+          "Might trigger voice-activated systems",
+          "Doesn't require light"
+        ],
+        "risk_level": "low",
+        "text": "Call for System Status"
+      },
+      {
+        "analysis": {
+          "combination_type": "synergistic",
+          "coordination_dc": 14,
+          "dc_modifier": 0,
+          "synergy_bonus": "The spark of the tinderbox might momentarily illuminate the source of any sound you hear."
+        },
+        "cons": [
+          "Divided focus makes lighting harder"
+        ],
+        "description": "Attempt to strike the tinderbox while focusing all your attention on any sound that might indicate the chamber's reaction to your presence.",
+        "id": "parallel_ignite_and_listen",
+        "pros": [
+          "Restores light and auditory awareness",
+          "Multitasking efficiency"
+        ],
+        "risk_level": "medium",
+        "text": "Light Torch while Listening (Synergistic)"
+      }
+    ],
+    "context": "Disoriented in absolute darkness.",
+    "thinking": "The attempt to navigate blindly has left Aric disoriented. In this absolute darkness, dead reckoning is impossible. He must either restore light or find a tactile anchor like the walls or the pedestal to regain his bearings before he stumbles into the lever or worse."
+  },
+  "state_cleaned": false,
+  "success": true,
+  "user_settings": {
+    "gemini_model": "gemini-3-flash-preview",
+    "llm_provider": "gemini"
+  }
+}

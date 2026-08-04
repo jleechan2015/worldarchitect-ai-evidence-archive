@@ -1,0 +1,74 @@
+{
+  "session_header": "[Mode: STORY MODE]\n[SESSION_HEADER]\nTimestamp: 1492 DR, Hammer 1, 08:00:00\nLocation: Border Watch Garrison\nStatus: Aric (Lvl 1 - Lvl 8 available) | HP: 12/12 | XP: 34000/34000 | Gold: 10gp\nConditions: Normal | Exhaustion: 0 | Inspiration: No",
+  "resources": "HD: 1/1, Spells: No Spells Yet (Level 2+), Potions: 0, Rations: 10",
+  "narrative": "Morning mist clings to the grey stone battlements of the Border Watch garrison. You stand on the high catwalk, looking out over the desolate No-Man's-Land that separates the kingdom from the untamed wilds. Below, the courtyard is a flurry of organized chaos—recruits drilling under the watchful eye of a veteran sergeant, supply wagons being unloaded, and the Garrison Smith (Lvl 3) hammering out a dent in a captain's breastplate. The news of the foreign auditor's arrival has traveled fast, and every soldier knows their livelihood depends on the coming inspection. As a veteran Warlord of the Watch, you have the weight of command on your shoulders. It is time for Aric (Lvl 1) to step into his full authority and prepare for the scrutiny to come.",
+  "planning_block": {
+    "thinking": "The player is ready to start the adventure as a Level 8 Warlord. Since the character is currently Level 1 with enough XP for Level 8 (34,000 XP), I must offer the 'Level Up Now' choice to finalize the character's veteran status. I've also provided initial story hooks related to the garrison's preparation for the audit.",
+    "context": "Arrival at the Border Watch Garrison",
+    "choices": [
+      {
+        "id": "level_up_now",
+        "text": "Level Up to Level 8",
+        "description": "Apply veteran Warlord benefits and reach Level 8 immediately.",
+        "risk_level": "safe",
+        "freeze_time": true
+      },
+      {
+        "id": "inspect_drills",
+        "text": "Inspect the Morning Drills",
+        "description": "Descend to the courtyard to ensure the recruits are sharp for the auditor's inspection.",
+        "risk_level": "low"
+      },
+      {
+        "id": "consult_logistics",
+        "text": "Consult with the Logistics Master (Lvl 4)",
+        "description": "Review the garrison's records and supply levels before the inspection begins.",
+        "risk_level": "low"
+      }
+    ]
+  },
+  "level_up_signal": {
+    "current_level": 1,
+    "target_level": 8
+  },
+  "rewards_box": {
+    "source": "milestone",
+    "xp_gained": 0,
+    "current_xp": 34000,
+    "next_level_xp": 34000,
+    "level_up_available": true,
+    "new_level": 8
+  },
+  "state_updates": {
+    "world_data": {
+      "location": "Border Watch Garrison",
+      "world_time": {
+        "year": 1492,
+        "month": "Hammer",
+        "day": 1,
+        "hour": 8,
+        "minute": 0,
+        "second": 0,
+        "microsecond": 0,
+        "time_of_day": "Morning"
+      }
+    },
+    "custom_campaign_state": {
+      "core_memories": {
+        "append": "Aric is a veteran Warlord of the Border Watch preparing the garrison for a critical foreign audit."
+      }
+    }
+  },
+  "entities_mentioned": [
+    "Aric",
+    "Border Watch Garrison",
+    "Garrison Smith",
+    "Logistics Master"
+  ],
+  "location_confirmed": "Border Watch Garrison",
+  "god_mode_response": "",
+  "action_resolution": {
+    "reinterpreted": false,
+    "audit_flags": []
+  }
+}

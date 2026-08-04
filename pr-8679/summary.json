@@ -1,0 +1,14 @@
+{
+  "issue": 8679,
+  "test": "mvp_site/frontend_v1/tests/campaign_wizard_step2_no_duplicate_enter.test.js",
+  "before_launch_campaign_button_count": 2,
+  "after_launch_campaign_button_count": 1,
+  "before_step2_html_size": 7233,
+  "after_step2_html_size": 5995,
+  "before_step2_has_second_launch_actions": true,
+  "after_step2_has_second_launch_actions": false,
+  "wizard_navigation_row_preserved": true,
+  "after_step2_has_remaining_launch_button": true,
+  "test_status_red_on_origin_main": "3/5 fail (expected exactly 1 #launch-campaign, found 2)",
+  "test_status_green_after_fix": "5/5 pass"
+}

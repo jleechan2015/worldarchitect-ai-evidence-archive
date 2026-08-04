@@ -1,0 +1,65 @@
+{
+  "scenarios": [
+    {
+      "name": "Combat Rewards Level-Up Test",
+      "campaign_id": "431zSTZtjP900pO6oP1v",
+      "passed": true,
+      "errors": [],
+      "checks": {
+        "passed": true,
+        "combat_ended": true,
+        "initial_state": {
+          "level": 1,
+          "xp": 250
+        },
+        "final_state": {
+          "level": 1,
+          "xp": 300
+        },
+        "combat_summary": {
+          "xp_earned": 50,
+          "present": true
+        },
+        "level_up_detection": {
+          "rewards_pending_available": true,
+          "in_narrative": true,
+          "level_increased": false
+        },
+        "xp_detection": {
+          "in_combat_summary": true,
+          "in_narrative": true,
+          "xp_increased": true
+        },
+        "narrative_sample": "Morning (10:00:00) on the Forest Path\u2014you catch the goblin guard (Lvl 1) unawares as you spring from the brush, steel gleaming in the dappled sunlight. The creature barely has time to shriek a warning before your blade is upon him.\n\nYour longsword bites deep into the goblin's shoulder! Goblin: 7 \u2192 0 HP. With a gurgling choke, the guard collapses into the ferns, his watch ended before it truly began. The woods fall silent once more, save for the rustle of leaves in the breeze.\n\nYou gain **50 XP**"
+      }
+    }
+  ],
+  "test_result": {
+    "passed": true,
+    "combat_ended": true,
+    "initial_state": {
+      "level": 1,
+      "xp": 250
+    },
+    "final_state": {
+      "level": 1,
+      "xp": 300
+    },
+    "combat_summary": {
+      "xp_earned": 50,
+      "present": true
+    },
+    "level_up_detection": {
+      "rewards_pending_available": true,
+      "in_narrative": true,
+      "level_increased": false
+    },
+    "xp_detection": {
+      "in_combat_summary": true,
+      "in_narrative": true,
+      "xp_increased": true
+    },
+    "narrative_sample": "Morning (10:00:00) on the Forest Path\u2014you catch the goblin guard (Lvl 1) unawares as you spring from the brush, steel gleaming in the dappled sunlight. The creature barely has time to shriek a warning before your blade is upon him.\n\nYour longsword bites deep into the goblin's shoulder! Goblin: 7 \u2192 0 HP. With a gurgling choke, the guard collapses into the ferns, his watch ended before it truly began. The woods fall silent once more, save for the rustle of leaves in the breeze.\n\nYou gain **50 XP**"
+  },
+  "campaign_id": "431zSTZtjP900pO6oP1v"
+}

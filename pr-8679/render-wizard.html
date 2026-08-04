@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wizard render — issue #8679 (step 2 active)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body { background:#1a1133; color:#fff; font-family: system-ui, sans-serif; margin:0; padding:16px; }
+    .wizard-container { max-width: 480px; margin: 0 auto; }
+    .campaign-wizard { background:#1a1133; }
+    .wizard-step:not(.active) { display: none; }
+    .wizard-step h3.step-title { color:#ffd166; }
+    .wizard-step .step-description { color:#b8a8d8; }
+    .campaign-preview.card { background:#241845; border:none; color:#fff; }
+    .campaign-preview .preview-item { color:#b8a8d8; }
+    .campaign-preview .preview-item strong { color:#fff; }
+    .launch-actions .btn-success { background:#8a7cff; border-color:#8a7cff; color:#fff; }
+    .wizard-navigation .btn-primary { background:#a48cff; border-color:#a48cff; }
+    .wizard-navigation { margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="wizard-container" id="wizard-host">
+    <div id="wizard-mount"></div>
+  </div>
+  <script src="../../mvp_site/frontend_v1/js/campaign-wizard.js"></script>
+  <script>
+    (function() {
+      const Wizard = CampaignWizard;
+      const wiz = new Wizard({});
+      const html = wiz.generateWizardHTML();
+      document.getElementById('wizard-mount').innerHTML = html;
+      document.querySelectorAll('.wizard-step').forEach(el => el.classList.remove('active'));
+      const step2 = document.querySelector('.wizard-step[data-step="2"]');
+      if (step2) step2.classList.add('active');
+      const csn = document.getElementById('current-step-num');
+      const tsn = document.getElementById('total-steps-num');
+      if (csn) csn.textContent = '2';
+      if (tsn) tsn.textContent = '2';
+      const wn = document.getElementById('wizard-next');
+      const lb = document.getElementById('launch-campaign');
+      if (wn && lb) wn.textContent = lb.textContent;
+      const wp = document.getElementById('wizard-prev');
+      if (wp) wp.disabled = false;
+    })();
+  </script>
+</body>
+</html>

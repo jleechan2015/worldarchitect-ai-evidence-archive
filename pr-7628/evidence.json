@@ -1,0 +1,24 @@
+{
+  "issue": 7628,
+  "source_campaign": {
+    "user": "user@example.com",
+    "uid": "user123",
+    "campaign_id": "source-campaign-id",
+    "url": "https://example.com/game/source-campaign-id"
+  },
+  "dest_campaign": {
+    "user": "user@example.com",
+    "uid": "user456",
+    "campaign_id": "dest-campaign-id",
+    "suffix": "(7628-repro)"
+  },
+  "phenotype": "label_obscured_in_parenthetical",
+  "root_cause_classification": "prompt issue (primary); server enforcement requires human approval per repo policy",
+  "evidence_quote": "Meditate on Your Growth (Level Up) - Take a moment to fully integrate your new power before the Host arrives.",
+  "expected_label_template": "Level Up to Level <N>",
+  "prompt_spec_location": "mvp_site/prompts/rewards_system_instruction.md:374",
+  "server_constructed_text_location": "mvp_site/rewards_engine.py:2068-2075",
+  "screenshot": "evidence/pr-7628/screenshot.png",
+  "dev_sha": "a6ff4bb144",
+  "branch": "fix/level-up-planning-block-obvious"
+}

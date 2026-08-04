@@ -1,0 +1,214 @@
+{
+  "game_state_version": 1,
+  "player_character_data": {
+    "attributes": {
+      "strength": 16
+    },
+    "class_name": "Fighter",
+    "equipment": {
+      "backpack": [
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Backpack"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Bedroll"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Mess kit"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Tinderbox"
+        },
+        {
+          "equipped": false,
+          "stats": "10",
+          "name": "Torch"
+        },
+        {
+          "stats": "10 days",
+          "equipped": false,
+          "name": "Rations"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Waterskin"
+        },
+        {
+          "stats": "50 feet",
+          "equipped": false,
+          "name": "Rope"
+        },
+        {
+          "equipped": false,
+          "stats": "10gp",
+          "name": "Coin pouch"
+        }
+      ]
+    },
+    "level": 1,
+    "display_name": "Aric",
+    "base_attributes": {
+      "strength": 16
+    },
+    "name": "Aric the Fighter (STR 16)"
+  },
+  "world_data": {
+    "current_location_name": "Roadside Outside Phandalin",
+    "world_time": {
+      "year": 1492,
+      "time_of_day": "morning",
+      "microsecond": 0,
+      "hour": 8,
+      "second": 0,
+      "minute": 0,
+      "month": "Mirtul",
+      "day": 15
+    }
+  },
+  "npc_data": {
+    "Surrendered Bandit": {
+      "type": "enemy",
+      "status": [
+        "surrendered"
+      ],
+      "hp_current": 5,
+      "name": "Surrendered Bandit"
+    },
+    "npc_goblin_001": {
+      "armor_class": 13,
+      "present": true,
+      "hp_max": 7,
+      "string_id": "npc_goblin_001",
+      "status": "healthy",
+      "hp_current": 7,
+      "name": "Goblin"
+    },
+    "Goblin Chief": {
+      "type": "enemy",
+      "status": [
+        "hostile",
+        "dead"
+      ],
+      "hp_current": 0,
+      "is_important": true,
+      "name": "Goblin Chief"
+    }
+  },
+  "item_registry": {},
+  "custom_campaign_state": {
+    "divine_potential": 0,
+    "_agent_selection_tracker": {
+      "rewards_skip_count": 0,
+      "count": 1,
+      "agent": "GodModeAgent"
+    },
+    "core_memories": [
+      "Aric is a Fighter (STR 16) starting in a roadside ambush outside Phandalin."
+    ],
+    "attribute_system": "standard",
+    "arc_milestones": {},
+    "character_creation_completed": true,
+    "character_creation_stage": "complete",
+    "universe_control": 0,
+    "multiverse_upgrade_available": false,
+    "campaign_tier": "mortal",
+    "divine_upgrade_available": false,
+    "active_constraints": [],
+    "last_location": "Roadside Outside Phandalin",
+    "god_mode": {
+      "description": "Test campaign for MCP validation",
+      "character": {
+        "attributes": {
+          "strength": 16
+        },
+        "base_attributes": {
+          "strength": 16
+        },
+        "name": "Aric the Fighter (STR 16)"
+      },
+      "setting": "A roadside ambush outside Phandalin"
+    },
+    "faction_minigame": {
+      "suggestion_given": false,
+      "strong_suggestion_given": false
+    },
+    "companion_arcs": {},
+    "character_creation_in_progress": false,
+    "next_companion_arc_turn": 3
+  },
+  "social_hp_challenge": null,
+  "combat_state": {
+    "in_combat": false,
+    "combat_phase": "ended",
+    "combat_session_id": null,
+    "combat_history": [
+      {
+        "session_id": null,
+        "xp_awarded": 125,
+        "outcome": "victory",
+        "archived_at": "2026-05-31T19:52:00.907578+00:00",
+        "enemies_defeated": [
+          "Goblin Chief",
+          "Goblin Minion"
+        ]
+      }
+    ],
+    "combat_summary": null,
+    "rewards_processed": true,
+    "combatants": {},
+    "current_round": null,
+    "initiative_order": []
+  },
+  "last_state_update_timestamp": "2026-05-31T19:52:12.432000+00:00",
+  "turn_number": 0,
+  "player_turn": 0,
+  "last_living_world_turn": 0,
+  "last_living_world_time": {
+    "year": 1492,
+    "time_of_day": "morning",
+    "microsecond": 0,
+    "second": 0,
+    "hour": 8,
+    "minute": 0,
+    "month": "Mirtul",
+    "day": 15
+  },
+  "time_sensitive_events": {},
+  "npc_agendas": {},
+  "world_resources": {},
+  "time_pressure_warnings": {},
+  "debug_mode": true,
+  "pending_instruction_hints": [],
+  "entity_tracking": {
+    "active_entities": [
+      "Aric the Fighter (STR 16)"
+    ],
+    "present_entities": []
+  },
+  "session_id": "legacy-migrated-ff2151bece9984c5",
+  "planning_block": {
+    "choices": [
+      {
+        "text": "Return to Story",
+        "switch_to_story_mode": true,
+        "description": "Resume the narrative in the quiet aftermath of the roadside ambush.",
+        "risk_level": "safe",
+        "id": "god:return_story"
+      }
+    ],
+    "context": "",
+    "thinking": "The user is performing a state cleanup and requested a brief status check of the aftermath without advancing time or NPC actions. I am setting the rewards_processed flag to true to clear the pending reward state from the previous victory found in the history."
+  },
+  "schema_migrated_at": "2026-05-31T19:51:55.593541+00:00",
+  "schema_migration_version": 1,
+  "user_id": "test-cleanup-defeated-enemies-1780257090"
+}

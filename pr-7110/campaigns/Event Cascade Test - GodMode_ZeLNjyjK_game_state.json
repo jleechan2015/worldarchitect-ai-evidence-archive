@@ -1,0 +1,198 @@
+{
+  "game_state_version": 1,
+  "player_character_data": {
+    "attributes": {
+      "constitution": 14,
+      "strength": 16,
+      "charisma": 12,
+      "wisdom": 10,
+      "intelligence": 10,
+      "dexterity": 12
+    },
+    "hp_max": 76,
+    "proficiency_bonus": 2,
+    "class_name": "Fighter",
+    "string_id": "pc_aric_001",
+    "equipment": {
+      "backpack": [
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Backpack"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Bedroll"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Mess kit"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Tinderbox"
+        },
+        {
+          "equipped": false,
+          "stats": "10",
+          "name": "Torch"
+        },
+        {
+          "stats": "10 days",
+          "equipped": false,
+          "name": "Rations"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Waterskin"
+        },
+        {
+          "stats": "50 feet",
+          "equipped": false,
+          "name": "Rope"
+        },
+        {
+          "stats": "10gp",
+          "equipped": false,
+          "name": "Coin pouch"
+        }
+      ]
+    },
+    "level": 8,
+    "experience": {
+      "to_next_level": 14000,
+      "current": 34000,
+      "needed_for_next_level": 14000
+    },
+    "hp_current": 76,
+    "name": "Aric"
+  },
+  "world_data": {
+    "current_location_name": "Border Watch garrison",
+    "world_time": {
+      "year": 1492,
+      "time_of_day": "morning",
+      "microsecond": 2,
+      "day": 1,
+      "hour": 8,
+      "minute": 0,
+      "month": "Hammer",
+      "second": 0
+    }
+  },
+  "npc_data": {
+    "npc_goblin_001": {
+      "armor_class": 13,
+      "present": true,
+      "hp_max": 7,
+      "string_id": "npc_goblin_001",
+      "status": "healthy",
+      "hp_current": 7,
+      "name": "Goblin"
+    }
+  },
+  "item_registry": {},
+  "custom_campaign_state": {
+    "divine_potential": 0,
+    "character_creation_completed": true,
+    "core_memories": [
+      "The Foreign Enforcer dispatched by the Crown was subverted and is now a loyal officer of the Border Watch."
+    ],
+    "universe_control": 0,
+    "level_up_in_progress": false,
+    "attribute_system": "D&D",
+    "character_creation_stage": "complete",
+    "_agent_selection_tracker": {
+      "rewards_skip_count": 0,
+      "count": 2,
+      "agent": "GodModeAgent"
+    },
+    "arc_milestones": {},
+    "multiverse_upgrade_available": false,
+    "campaign_tier": "mortal",
+    "divine_upgrade_available": false,
+    "level_up_completed_level": 8,
+    "active_constraints": [],
+    "level_up_complete": true,
+    "god_mode": {
+      "description": "Tests parent-event resolution cascade (rev-2av80).",
+      "character": {
+        "level": 8,
+        "class_name": "Warlord Of The Border Watch",
+        "name": "A Level 8 Warlord of the Border Watch"
+      },
+      "setting": "The Border Watch garrison preparing for a foreign auditor's arrival"
+    },
+    "level_up_pending": false,
+    "last_location": "Border Watch garrison",
+    "companion_arcs": {},
+    "character_creation_in_progress": false,
+    "next_companion_arc_turn": 3
+  },
+  "social_hp_challenge": null,
+  "combat_state": {
+    "in_combat": false
+  },
+  "last_state_update_timestamp": "2026-05-28T01:16:40.937000+00:00",
+  "turn_number": 3,
+  "player_turn": 3,
+  "last_living_world_turn": 0,
+  "last_living_world_time": {
+    "time_of_day": "morning",
+    "year": 1492,
+    "microsecond": 0,
+    "hour": 8,
+    "day": 1,
+    "minute": 0,
+    "month": "Hammer",
+    "second": 0
+  },
+  "time_sensitive_events": {},
+  "npc_agendas": {},
+  "world_resources": {},
+  "time_pressure_warnings": {},
+  "debug_mode": true,
+  "pending_instruction_hints": [],
+  "entity_tracking": {
+    "active_entities": [
+      "A Level 8 Warlord of the Border Watch"
+    ],
+    "present_entities": []
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "text": "Return to Story",
+        "description": "Exit God Mode and resume the narrative with the new state applied.",
+        "id": "god:return_story",
+        "risk_level": "safe"
+      }
+    ],
+    "context": "",
+    "thinking": "The foreign enforcer event has been resolved and the cascade of dependent state updates has been applied. The Border Watch now has a new objective to integrate this asset. Administrative changes are complete."
+  },
+  "schema_migrated_at": "2026-05-28T01:15:28.749417+00:00",
+  "time_events": {},
+  "level_up_pending": false,
+  "world_events": {
+    "background_events": [
+      {
+        "status": "resolved",
+        "id": "test_foreign_auditor_arrival"
+      }
+    ]
+  },
+  "faction_updates": {
+    "Border Watch": {
+      "current_objective": "Integrate the Subverted Enforcer"
+    }
+  },
+  "session_id": "legacy-migrated-b5cff67a51e9c937",
+  "level_up_in_progress": false,
+  "schema_migration_version": 1,
+  "user_id": "test-event_cascade_real_e2e-1779930892"
+}

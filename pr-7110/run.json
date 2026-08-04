@@ -1,0 +1,92 @@
+{
+  "scenarios": [
+    {
+      "name": "god_mode_cascade",
+      "passed": true,
+      "campaign_id": "ZeLNjyjKFCVdusWmNHzQ",
+      "user_id": "test-event_cascade_real_e2e-1779930892",
+      "errors": [],
+      "details": {
+        "parent_event_resolved": true,
+        "time_event_cleared": true,
+        "faction_objective_updated": true,
+        "state_updates_keys": [
+          "world_events",
+          "time_events",
+          "faction_updates",
+          "custom_campaign_state",
+          "world_data"
+        ],
+        "chunk_count": 41,
+        "done_chunk_count": 1,
+        "request_ts": "2026-05-28T01:15:33.054796+00:00",
+        "response_ts": "2026-05-28T01:16:08.199079+00:00",
+        "execution_path": "streaming"
+      },
+      "user_email": "jleechantest@gmail.com",
+      "raw_response_text": "{\n  \"session_header\": \"[Mode: STORY MODE]\\n[SESSION_HEADER]\\nTimestamp: 1492 DR, Hammer 1, 08:00:00\\nLocation: Border Watch Garrison\\nStatus: Aric (Lvl 1 - Lvl 8 available) | HP: 12/12 | XP: 34000/34000 | Gold: 10gp\\nConditions: Normal | Exhaustion: 0 | Inspiration: No\",\n  \"resources\": \"HD: 1/1, Spells: No Spells Yet (Level 2+), Potions: 0, Rations: 10\",\n  \"narrative\": \"Morning mist clings to the grey stone battlements of the Border Watch garrison. You stand on the high catwalk, looking out over the desolate No-Man's-Land that separates the kingdom from the untamed wilds. Below, the courtyard is a flurry of organized chaos\u2014recruits drilling under the watchful eye of a veteran sergeant, supply wagons being unloaded, and the Garrison Smith (Lvl 3) hammering out a dent in a captain's breastplate. The news of the foreign auditor's arrival has traveled fast, and every soldier knows their livelihood depends on the coming inspection. As a veteran Warlord of the Watch, you have the weight of command on your shoulders. It is time for Aric (Lvl 1) to step into his full authority and prepare for the scrutiny to come.\",\n  \"planning_block\": {\n    \"thinking\": \"The player is ready to start the adventure as a Level 8 Warlord. Since the character is currently Level 1 with enough XP for Level 8 (34,000 XP), I must offer the 'Level Up Now' choice to finalize the character's veteran status. I've also provided initial story hooks related to the garrison's preparation for the audit.\",\n    \"context\": \"Arrival at the Border Watch Garrison\",\n    \"choices\": [\n      {\n        \"id\": \"level_up_now\",\n        \"text\": \"Level Up to Level 8\",\n        \"description\": \"Apply veteran Warlord benefits and reach Level 8 immediately.\",\n        \"risk_level\": \"safe\",\n        \"freeze_time\": true\n      },\n      {\n        \"id\": \"inspect_drills\",\n        \"text\": \"Inspect the Morning Drills\",\n        \"description\": \"Descend to the courtyard to ensure the recruits are sharp for the auditor's inspection.\",\n        \"risk_level\": \"low\"\n      },\n      {\n        \"id\": \"consult_logistics\",\n        \"text\": \"Consult with the Logistics Master (Lvl 4)\",\n        \"description\": \"Review the garrison's records and supply levels before the inspection begins.\",\n        \"risk_level\": \"low\"\n      }\n    ]\n  },\n  \"level_up_signal\": {\n    \"current_level\": 1,\n    \"target_level\": 8\n  },\n  \"rewards_box\": {\n    \"source\": \"milestone\",\n    \"xp_gained\": 0,\n    \"current_xp\": 34000,\n    \"next_level_xp\": 34000,\n    \"level_up_available\": true,\n    \"new_level\": 8\n  },\n  \"state_updates\": {\n    \"world_data\": {\n      \"location\": \"Border Watch Garrison\",\n      \"world_time\": {\n        \"year\": 1492,\n        \"month\": \"Hammer\",\n        \"day\": 1,\n        \"hour\": 8,\n        \"minute\": 0,\n        \"second\": 0,\n        \"microsecond\": 0,\n        \"time_of_day\": \"Morning\"\n      }\n    },\n    \"custom_campaign_state\": {\n      \"core_memories\": {\n        \"append\": \"Aric is a veteran Warlord of the Border Watch preparing the garrison for a critical foreign audit.\"\n      }\n    }\n  },\n  \"entities_mentioned\": [\n    \"Aric\",\n    \"Border Watch Garrison\",\n    \"Garrison Smith\",\n    \"Logistics Master\"\n  ],\n  \"location_confirmed\": \"Border Watch Garrison\",\n  \"god_mode_response\": \"\",\n  \"action_resolution\": {\n    \"reinterpreted\": false,\n    \"audit_flags\": []\n  }\n}",
+      "model": "gemini-3-flash-preview"
+    },
+    {
+      "name": "regular_turn_cascade",
+      "passed": true,
+      "campaign_id": "CwXl5hyCkc2sQSa4Mu8c",
+      "user_id": "test-event_cascade_real_e2e-1779930892",
+      "errors": [],
+      "details": {
+        "parent_event_resolved": true,
+        "time_event_cleared": true,
+        "faction_objective_updated": true,
+        "state_updates_keys": [
+          "player_character_data",
+          "world_data",
+          "world_events",
+          "time_events",
+          "faction_updates",
+          "npc_data",
+          "custom_campaign_state"
+        ],
+        "chunk_count": 42,
+        "done_chunk_count": 1,
+        "request_ts": "2026-05-28T01:17:20.386090+00:00",
+        "response_ts": "2026-05-28T01:17:45.368597+00:00",
+        "execution_path": "streaming"
+      },
+      "user_email": "jleechantest@gmail.com",
+      "raw_response_text": "{\n  \"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1492 DR, Mirtul 15, 08:00:00\\nLocation: Border Watch Garrison\\nStatus: Lvl 1 Fighter (Lvl 8 available) | HP: 68/68 | XP: 34,000/48,000 | Gold: 750gp\\nConditions: Normal | Exhaustion: 0 | Inspiration: No\",\n  \"resources\": \"HD: 1/1 | Spells: No Spells Yet (Level 2 pending) | Second Wind: 1/1\",\n  \"narrative\": \"Recommended package: Fixed HP (+56 HP, total 68), Proficiency Bonus increase (+3), Action Surge, Extra Attack, and the Warlord Archetype (Battle Master) features including 5 Maneuvers (Commander's Strike, Rally, Tactical Assessment, Maneuvering Attack, Goading Attack) and 4 Superiority Dice (d8). Recommended ASIs: +4 Strength (Total 20) and +2 Constitution (Total 16). Note: Levels 2 through 7 were auto-applied with recommended defaults \u2014 mention in chat if you'd like to adjust any auto-selected choices.\\n\\nThe iron-gray skies of the Borderlands hang heavy over the garrison, matching the grim determination etched into the faces of your men. As Warlord Aric, you stand upon the weathered ramparts, the cold morning wind tugging at your cloak. Below, the 'Seventh Fang' unit is mid-drill, their spears flashing in the pale light as they prepare for the Auditor's arrival. The air is thick with the smell of woodsmoke and wet stone. This garrison has held the line for decades, but the coming inspection feels like a different kind of siege. You feel the weight of your experience\u2014the hard-won lessons of a dozen skirmishes\u2014settling into your bones as you prepare to present a force that is beyond reproach.\",\n  \"planning_block\": {\n    \"thinking\": \"The player is entering the campaign with enough XP for Level 8. I have presented the recommended multi-level gain package (L1 -> L8) following the Fighter class and Warlord flavor. Time is frozen during this character management phase. The user needs to confirm the package or request changes before the story resumes.\",\n    \"choices\": [\n      {\n        \"id\": \"level_up_change_warlord_maneuvers\",\n        \"text\": \"Change Maneuvers\",\n        \"description\": \"Select different tactical maneuvers for your Warlord subclass.\",\n        \"risk_level\": \"safe\",\n        \"freeze_time\": true\n      },\n      {\n        \"id\": \"level_up_change_asi\",\n        \"text\": \"Change ASIs or Select Feats\",\n        \"description\": \"Adjust your Ability Score Improvements or choose feats instead.\",\n        \"risk_level\": \"safe\",\n        \"freeze_time\": true\n      },\n      {\n        \"id\": \"finish_level_up_return_to_game\",\n        \"text\": \"Apply Recommended Options and Return to Game\",\n        \"description\": \"Accept the recommended Level 8 package, close the modal, and begin the adventure.\",\n        \"risk_level\": \"safe\",\n        \"freeze_time\": true\n      }\n    ]\n  },\n  \"rewards_box\": {\n    \"source\": \"Campaign Start\",\n    \"xp_gained\": 0,\n    \"current_xp\": 34000,\n    \"next_level_xp\": 48000,\n    \"level_up_available\": true,\n    \"new_level\": 8,\n    \"loot\": [\n      \"None\"\n    ],\n    \"gold\": 0\n  },\n  \"level_up_signal\": {\n    \"current_level\": 1,\n    \"target_level\": 8\n  },\n  \"state_updates\": {\n    \"world_data\": {\n      \"world_time\": {\n        \"microsecond\": 1\n      }\n    },\n    \"custom_campaign_state\": {\n      \"level_up_in_progress\": true,\n      \"level_up_pending\": true,\n      \"level_up_complete\": false,\n      \"level_up_stage\": \"final_review\",\n      \"core_memories\": {\n        \"append\": \"Warlord Aric stands at the Border Watch garrison, preparing his men for a foreign audit while reflecting on his veteran status.\"\n      }\n    }\n  },\n  \"entities_mentioned\": [\n    \"Aric\",\n    \"Seventh Fang\"\n  ],\n  \"location_confirmed\": \"Border Watch Garrison\"\n}",
+      "model": "gemini-3-flash-preview"
+    },
+    {
+      "name": "EVIDENCE_SIGNATURE_GUARD",
+      "passed": true,
+      "signed_count": 8,
+      "user_id": "test-event_cascade_real_e2e-1779930892"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "passed": 3,
+    "failed": 0,
+    "pass_rate": "3/3 (100%)",
+    "raw_total": 2,
+    "raw_passed": 2,
+    "raw_pass_rate": "100.0%",
+    "raw_data_complete": true
+  },
+  "campaign_capture_status": {
+    "CwXl5hyCkc2sQSa4Mu8c": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    },
+    "ZeLNjyjKFCVdusWmNHzQ": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    }
+  }
+}

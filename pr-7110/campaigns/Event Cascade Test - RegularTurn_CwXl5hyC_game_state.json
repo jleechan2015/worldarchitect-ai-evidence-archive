@@ -1,0 +1,305 @@
+{
+  "game_state_version": 1,
+  "player_character_data": {
+    "attributes": {
+      "constitution": 14,
+      "strength": 16,
+      "wisdom": 10,
+      "charisma": 12,
+      "intelligence": 10,
+      "dexterity": 12
+    },
+    "hp_max": 68,
+    "proficiency_bonus": 2,
+    "string_id": "pc_aric_001",
+    "class_name": "Fighter",
+    "equipment": {
+      "backpack": [
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Backpack"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Bedroll"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Mess kit"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Tinderbox"
+        },
+        {
+          "equipped": false,
+          "stats": "10",
+          "name": "Torch"
+        },
+        {
+          "equipped": false,
+          "stats": "10 days",
+          "name": "Rations"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Waterskin"
+        },
+        {
+          "stats": "50 feet",
+          "equipped": false,
+          "name": "Rope"
+        },
+        {
+          "equipped": false,
+          "stats": "10gp",
+          "name": "Coin pouch"
+        }
+      ]
+    },
+    "level": 8,
+    "resources": {
+      "gold": 750
+    },
+    "health": {
+      "hp": 68,
+      "hp_max": 68
+    },
+    "hp_current": 68,
+    "experience": {
+      "to_next_level": 13550,
+      "current": 34450,
+      "needed_for_next_level": 13550
+    },
+    "name": "Aric"
+  },
+  "world_data": {
+    "current_location_name": "Border Watch Garrison",
+    "world_time": {
+      "time_of_day": "morning",
+      "year": 1492,
+      "microsecond": 2,
+      "second": 0,
+      "day": 15,
+      "minute": 0,
+      "month": "Mirtul",
+      "hour": 9
+    }
+  },
+  "npc_data": {
+    "Enforcer Vane": {
+      "tier": "lord_general",
+      "display_name": "Vanguard General Vane",
+      "role": "Vanguard General",
+      "entity_id": "npc_vane_001",
+      "attitude_to_party": "allied",
+      "relationships": {
+        "player": {
+          "disposition": "allied",
+          "trust_level": 2,
+          "history": [
+            "Subverted during the Border Watch audit; accepted the King's Vanguard commission."
+          ]
+        }
+      }
+    },
+    "npc_goblin_001": {
+      "armor_class": 13,
+      "present": true,
+      "hp_max": 7,
+      "string_id": "npc_goblin_001",
+      "status": "healthy",
+      "hp_current": 7,
+      "name": "Goblin"
+    }
+  },
+  "item_registry": {},
+  "custom_campaign_state": {
+    "last_location": "Border Watch Garrison",
+    "divine_potential": 0,
+    "_agent_selection_tracker": {
+      "rewards_skip_count": 0,
+      "count": 1,
+      "agent": "FactionManagementAgent"
+    },
+    "core_memories": [
+      "The campaign begins at the Border Watch garrison with a Level 8 Warlord preparing for a foreign auditor's arrival.",
+      "Warlord Aric successfully subverted the Foreign Enforcer Vane, converting a hostile auditor into the Border Watch's new Vanguard General."
+    ],
+    "attribute_system": "D&D",
+    "level_up_in_progress": false,
+    "character_creation_completed": true,
+    "character_creation_stage": "complete",
+    "universe_control": 0,
+    "arc_milestones": {},
+    "multiverse_upgrade_available": false,
+    "campaign_tier": "mortal",
+    "divine_upgrade_available": false,
+    "level_up_completed_level": 8,
+    "active_constraints": [],
+    "level_up_complete": true,
+    "god_mode": {
+      "description": "Tests parent-event resolution cascade (rev-2av80).",
+      "character": {
+        "level": 8,
+        "class_name": "Warlord Of The Border Watch",
+        "name": "A Level 8 Warlord of the Border Watch"
+      },
+      "setting": "The Border Watch garrison preparing for a foreign auditor's arrival"
+    },
+    "level_up_stage": null,
+    "level_up_pending": false,
+    "companion_arcs": {},
+    "character_creation_in_progress": false,
+    "next_companion_arc_turn": 3
+  },
+  "social_hp_challenge": null,
+  "combat_state": {
+    "in_combat": false
+  },
+  "last_state_update_timestamp": "2026-05-28T01:18:48.978000+00:00",
+  "turn_number": 4,
+  "player_turn": 4,
+  "last_living_world_turn": 4,
+  "last_living_world_time": {
+    "year": 1492,
+    "time_of_day": "morning",
+    "microsecond": 2,
+    "hour": 9,
+    "second": 0,
+    "minute": 0,
+    "month": "Mirtul",
+    "day": 15
+  },
+  "time_sensitive_events": {},
+  "npc_agendas": {},
+  "world_resources": {},
+  "time_pressure_warnings": {},
+  "debug_mode": true,
+  "pending_instruction_hints": [],
+  "entity_tracking": {
+    "active_entities": [
+      "A Level 8 Warlord of the Border Watch"
+    ],
+    "present_entities": []
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "text": "Brief Vane on Garrison Intel",
+        "description": "Have your captains share our true strategic position with Vane to secure his tactical loyalty.",
+        "cons": [
+          "Reveals our vulnerabilities to a former enemy",
+          "Risks internal friction with existing captains"
+        ],
+        "id": "brief_vane_intel",
+        "pros": [
+          "Vane's tactical mind improves garrison defense",
+          "Deepens Vane's commitment to the Watch"
+        ],
+        "risk_level": "medium",
+        "confidence": "high"
+      },
+      {
+        "text": "Prepare for Crown Retaliation",
+        "description": "Immediately send riders to the High King and fortify the garrison against a diplomatic or physical strike.",
+        "cons": [
+          "Could be seen as a provocation",
+          "Drains immediate resources on fortifications"
+        ],
+        "id": "prepare_crown_defense",
+        "pros": [
+          "Secures royal support",
+          "Readies the garrison for the inevitable reaction"
+        ],
+        "risk_level": "high",
+        "confidence": "medium"
+      },
+      {
+        "text": "Dual Integration (Synergistic)",
+        "description": "Assign Vane to oversee the new fortifications while your riders seek the King's formal blessing.",
+        "cons": [
+          "Spreads command thin during a sensitive transition"
+        ],
+        "id": "parallel_integration",
+        "analysis": {
+          "dc_modifier": 0,
+          "combination_type": "synergistic",
+          "synergy_bonus": "Vane's direct involvement in fortifications makes him a public traitor to the Crown, sealing his loyalty.",
+          "coordination_dc": 16
+        },
+        "pros": [
+          "Uses Vane's expertise immediately",
+          "Vane's signature on the defense plans adds legitimacy",
+          "Synergy: Vane's integration happens while political cover is being secured"
+        ],
+        "risk_level": "medium",
+        "confidence": "medium"
+      }
+    ],
+    "context": "Post-Audit Resolution - Integration of Enforcer Vane",
+    "thinking": "Vane has been successfully subverted. This is a massive victory, but the Foreign Crown will not take the loss of a Tier-4 enforcer lightly. We must now integrate Vane's knowledge of the Crown's internal protocols into our defenses while preparing for the inevitable political or military blowback."
+  },
+  "schema_migrated_at": "2026-05-28T01:17:17.426773+00:00",
+  "time_events": {},
+  "rewards_box": {
+    "current_level": 8,
+    "xp_gained": 450,
+    "gold": 0.0,
+    "source": "milestone",
+    "next_level_xp": 48000,
+    "current_xp": 34450,
+    "loot": [
+      "Vane's Signature (Audit Resolution)",
+      "Vanguard General Loyalty"
+    ],
+    "progress_percent": 3,
+    "xp_to_next_level": 13550,
+    "xp_total": 34450,
+    "level_up_available": false
+  },
+  "level_up_pending": false,
+  "world_events": {
+    "background_events": [
+      {
+        "delta_action": "resolve",
+        "resolved_turn": 4,
+        "id": "test_foreign_auditor_arrival",
+        "outcome": "Enforcer Vane subverted; audit resolved in favor of the Watch.",
+        "status": "resolved",
+        "resolved_scene_number": 4
+      },
+      {
+        "delta_action": "add",
+        "scene_generated": 4,
+        "event_type": "long_term",
+        "id": "crown_reaction_vane_subversion",
+        "outcome": "Diplomatic fury; black-ops cell activated to 'retrieve' Vane.",
+        "player_impact": "Threat of covert infiltration or diplomatic ultimatum",
+        "turn_generated": 4,
+        "discovery_condition": "Intercepted courier or attempted assassination",
+        "player_aware": false,
+        "status": "pending",
+        "actor": "The Foreign Crown",
+        "location": "Foreign Capital",
+        "action": "Reacting to the loss of Enforcer Vane"
+      }
+    ]
+  },
+  "faction_updates": {
+    "Border Watch": {
+      "progress": "Vane has accepted the post; integration beginning.",
+      "player_standing_change": "Increased trust (Major Victory)",
+      "current_objective": "Integrate the Subverted Enforcer"
+    }
+  },
+  "session_id": "legacy-migrated-60e7ee9299f5e654",
+  "level_up_in_progress": false,
+  "schema_migration_version": 1,
+  "user_id": "test-event_cascade_real_e2e-1779930892"
+}

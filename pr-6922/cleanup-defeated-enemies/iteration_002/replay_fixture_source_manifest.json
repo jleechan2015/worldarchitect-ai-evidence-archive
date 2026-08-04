@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-05-31T19:52:19.261714+00:00",
+  "source_kind": "testing_mcp",
+  "test_name": "cleanup-defeated-enemies",
+  "evidence_dir": "/tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002",
+  "git_provenance": {
+    "git_head": "612960be3f63bb2b8dcc7bd33dac774a96e894da",
+    "git_branch": "fix/dead-npc-hallucination-v2",
+    "merge_base": "7394f3b51563641dab261dcbca916b971ddac625",
+    "commits_ahead_of_main": 22,
+    "diff_stat_vs_main": ".beads/issues.jsonl                                |  12 +-\n mvp_site/backend_adjustment_registry.py            |   2 +\n mvp_site/backend_adjustment_specs.py               |  87 +++++\n mvp_site/constants.py                              |  41 +++\n .../evidence/dead_npc_hallucination/proof.json     |  30 ++\n .../evidence/dead_npc_hallucination/proof.sha256   |   1 +\n mvp_site/firestore_service.py                      |   2 -\n mvp_site/game_state.py                             |  29 +-\n mvp_site/game_state_mixins.py                      | 361 +++++++++++++------\n mvp_site/prompts/game_state_instruction.md         |  14 +\n mvp_site/prompts/god_mode_instruction.md           |  12 +\n mvp_site/schemas/prompt_tool_contracts.json        |   4 +-\n mvp_site/tests/test_game_state.py                  | 368 +++++++++++++-------\n mvp_site/tests/test_npc_death_state_persistence.py | 387 ++++++++++++++++++++-\n mvp_site/world_logic.py                            |  29 +-\n 15 files changed, 1093 insertions(+), 286 deletions(-)",
+    "working_tree_dirty": false,
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 0,
+    "working_tree_changed_files": [],
+    "working_tree_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "contract_versions": {
+    "master_directive_prompt": "1.0.2",
+    "game_state_instruction_prompt": "1.1.18",
+    "planning_protocol_prompt": "1.1.8",
+    "narrative_response_schema": "1.2.24",
+    "mcp_api_tool_contract": "1.0.5",
+    "character_template_prompt": "1.0.0",
+    "leveling_pace_contract_prompt": "1.0.7"
+  },
+  "capture_files": {
+    "llm_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002/llm_request_responses.jsonl",
+      "relative_path": "llm_request_responses.jsonl",
+      "exists": true,
+      "entries": 4,
+      "sha256": "239b95ced7bd171074dbb691f42f389d0e90a9e3f8b7c4a1d9ac65d879f53e0d"
+    },
+    "http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002/http_request_responses.jsonl",
+      "relative_path": "http_request_responses.jsonl",
+      "exists": true,
+      "entries": 43,
+      "sha256": "bc3eb57395ea2a1d5a41c1bf563eb3c1e4c5f462a26e1d66c8f21ac57042a94e"
+    },
+    "gemini_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002/gemini_http_request_responses.jsonl",
+      "relative_path": "gemini_http_request_responses.jsonl",
+      "exists": true,
+      "entries": 4,
+      "sha256": "dff60bfbcaf658c4d19c6b7e55a8250ea125e3debfabe280273d2a7777e994a2"
+    },
+    "provider_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002/provider_http_request_responses.jsonl",
+      "relative_path": "provider_http_request_responses.jsonl",
+      "exists": false,
+      "entries": 0,
+      "sha256": null
+    },
+    "mcp_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix_dead-npc-hallucination-v2/cleanup-defeated-enemies/iteration_002/request_responses.jsonl",
+      "relative_path": "request_responses.jsonl",
+      "exists": true,
+      "entries": 8,
+      "sha256": "7e3d4471dd78937515386f58d9553863463784770b2be102d994b29a0ede3cee"
+    }
+  },
+  "extractor_hint": "Use a scenario-specific extractor to select replay stages from these raw traces."
+}

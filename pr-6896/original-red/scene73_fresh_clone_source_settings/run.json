@@ -1,0 +1,107 @@
+{
+  "base_url": "https://mvp-site-app-dev-i6xf2p72ka-uc.a.run.app",
+  "campaign_id": "8rWDIkXDgGdG1DZaffPT",
+  "user_id": "0wf6sCREyLcgynidU5LjyZEfm7D2",
+  "requested_model": "gemini-3.5-flash",
+  "pre_settings": {
+    "status": 200,
+    "body": {
+      "cerebras_model": "llama-3.3-70b",
+      "debug_mode": true,
+      "faction_minigame_enabled": true,
+      "gemini_model": "gemini-3.5-flash",
+      "has_custom_cerebras_key": false,
+      "has_custom_gemini_key": false,
+      "has_custom_openclaw_gateway_token": true,
+      "has_custom_openclaw_key": false,
+      "has_custom_openrouter_key": false,
+      "llm_provider": "gemini",
+      "openclaw_gateway_port": 18789,
+      "openclaw_gateway_url": "https://example.com",
+      "openrouter_model": "x-ai/grok-4.3",
+      "pre_spicy_model": "gemini-3.5-flash",
+      "pre_spicy_provider": "gemini",
+      "spicy_mode": false
+    }
+  },
+  "set_settings": {
+    "status": 200,
+    "body": {
+      "message": "Settings saved",
+      "success": true
+    }
+  },
+  "post_settings": {
+    "status": 200,
+    "body": {
+      "cerebras_model": "llama-3.3-70b",
+      "debug_mode": true,
+      "faction_minigame_enabled": true,
+      "gemini_model": "gemini-3.5-flash",
+      "has_custom_cerebras_key": false,
+      "has_custom_gemini_key": false,
+      "has_custom_openclaw_gateway_token": true,
+      "has_custom_openclaw_key": false,
+      "has_custom_openrouter_key": false,
+      "llm_provider": "gemini",
+      "openclaw_gateway_port": 18789,
+      "openclaw_gateway_url": "https://example.com",
+      "openrouter_model": "x-ai/grok-4.3",
+      "pre_spicy_model": "gemini-3.5-flash",
+      "pre_spicy_provider": "gemini",
+      "spicy_mode": false
+    }
+  },
+  "deleted_docs_before_replay": [
+    "g2t6PGivBKfIzaPXd4Pc",
+    "HFfcMAG2wQiSpxxgVDdd"
+  ],
+  "input": "have someone keep tailing grog mar, assess prisoners to see if any breeders, then do this Return to the Silvershield Annex: Escort Duke Ravengard back to your safehouse to finalize and sign the Joint Defense Pact in absolute security.",
+  "elapsed_seconds": 55.29740881919861,
+  "event_count": 106,
+  "done_payload_keys": [
+    "agent_mode",
+    "agent_used",
+    "chunk_count",
+    "display_text",
+    "e2e_latency_seconds",
+    "execution_path",
+    "full_narrative",
+    "has_structured_response",
+    "mock_services_mode",
+    "model_used",
+    "processing_metadata",
+    "provider_used",
+    "raw_response_text",
+    "request_id",
+    "state_updates",
+    "stream_start_time",
+    "streaming_cache",
+    "streaming_execution_trace",
+    "streaming_response_signature",
+    "structured_response",
+    "test_mode",
+    "user_scene_number"
+  ],
+  "request_timestamp": "2026-05-23T07:14:56.292214+00:00",
+  "response_timestamp": "2026-05-23T07:15:51.588894+00:00",
+  "pre_snapshot": "/tmp/worldarchitect.ai/worktree_sync_location/pr6896_remote_scene73_repro/20260523T071453Z/iteration_fresh_clone_source_settings_character_exact_boundary/pre_replay_firestore_snapshot.json",
+  "post_snapshot": "/tmp/worldarchitect.ai/worktree_sync_location/pr6896_remote_scene73_repro/20260523T071453Z/iteration_fresh_clone_source_settings_character_exact_boundary/post_replay_firestore_snapshot.json",
+  "analysis": {
+    "latest_ai_doc_id": "iMIHO17SCaRIUNf6NYLq",
+    "latest_text_preview": "The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \n\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\n\n\"Kaelen,\" you whisper, your voice dropping to a cool, lethal frequency. \"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\"\n\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \n\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\n\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\n\nLara Vance spreads the high-quality vellum across the polished ",
+    "agent_used": "DialogAgent",
+    "model_used": "gemini-3.5-flash",
+    "provider_used": "gemini",
+    "execution_path": "streaming",
+    "user_scene_number": 73,
+    "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 23:30:00\nLocation: The Silvershield Annex\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3722/6500 | Gold: 383gp\nConditions: Wounded (Scarred) | Exhaustion: 0 | Inspiration: Yes",
+    "action_resolution_player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband",
+    "stale_tie_up_input": true,
+    "replay_input_in_action_resolution": false,
+    "contains_annex": true,
+    "contains_warehouse_or_docks": false,
+    "contains_grog_mar": false,
+    "looks_like_original_bad_mix": false
+  }
+}

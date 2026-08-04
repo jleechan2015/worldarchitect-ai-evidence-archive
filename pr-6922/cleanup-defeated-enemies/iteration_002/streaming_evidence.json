@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-31T19:52:15.435467+00:00",
+  "summary": {
+    "scenarios_with_streaming_evidence": 1,
+    "total_chunk_events_observed": 13,
+    "stream_http_calls_captured": 4,
+    "process_action_calls_captured": 4,
+    "mcp_process_action_calls_captured": 0,
+    "route_stream_process_action_calls_captured": 4,
+    "process_action_calls_with_raw_response_text": 2
+  },
+  "scenarios": [
+    {
+      "name": "combat_end_cleanup_runtime_evidence",
+      "campaign_id": "EHyHBufYbmQ5pebwsgHO",
+      "passed": true,
+      "chunk_count_observed": 13,
+      "done_chunk_count": 13,
+      "chunk_count_matches_done": null,
+      "strictly_increasing_sequence": null,
+      "streaming_request_timestamp": "2026-05-31T19:51:59.364744+00:00",
+      "streaming_response_timestamp": "2026-05-31T19:52:13.501221+00:00",
+      "timeline_sample_size": 0
+    }
+  ]
+}

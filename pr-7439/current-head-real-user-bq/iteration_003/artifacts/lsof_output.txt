@@ -1,0 +1,3 @@
+COMMAND   PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+Python  58903 jleechan    5u  IPv4 0xf28243662100f819      0t0  TCP *:8049 (LISTEN)
+Python  58904 jleechan    5u  IPv4 0xf28243662100f819      0t0  TCP *:8049 (LISTEN)

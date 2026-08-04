@@ -1,0 +1,90 @@
+wizard-step" data-step="2">
+            <h3 class="step-title">🚀 Ready to Launch!</h3>
+            <div class="launch-actions mt-2 mb-4 text-center">
+              <button type="button" class="btn btn-success btn-lg" id="launch-campaign">
+                <i class="fas fa-rocket me-2"></i>Enter the World
+              </button>
+            </div>
+            <p class="step-description">Add an optional avatar and start your adventure. <span class="text-muted">(Click any field to edit, click outside to save, press Escape to cancel)</span></p>
+
+            <!-- Avatar Upload -->
+            <div class="mb-4">
+              <h5 class="mb-3">📷 Character Avatar (Optional)</h5>
+              <div class="avatar-upload-step">
+                <div class="avatar-upload-zone" id="avatar-upload-zone">
+                  <div class="avatar-upload-icon">📷</div>
+                  <div class="avatar-upload-text">Drop image here<br>or click to upload</div>
+                  <img class="avatar-upload-preview" id="avatar-upload-preview" alt="Avatar preview" />
+                  <button type="button" class="avatar-remove-btn" id="avatar-remove-btn" title="Remove avatar">&times;</button>
+                </div>
+                <input type="file" class="avatar-file-input" id="avatar-file-input"
+                       accept="image/jpeg,image/png,image/gif,image/webp" />
+                <div class="avatar-constraints">JPEG, PNG, GIF, or WebP • Max 5MB</div>
+                <div class="avatar-size-hint">📐 Recommended: 512×512px or larger square image</div>
+                <div class="avatar-skip-hint">You can always add or change your avatar later.</div>
+              </div>
+            </div>
+
+            <!-- Campaign Preview -->
+            <div class="campaign-preview card">
+              <div class="card-body">
+                <h5 class="card-title">Campaign Summary</h5>
+                <div class="preview-content">
+                  <div class="preview-item editable-preview" data-field="title">
+                    <strong>Title:</strong>
+                    <span id="preview-title" class="preview-value">Dragon Knight</span>
+                    <input type="text" id="edit-title" class="form-control form-control-sm edit-input d-none" />
+                    <button type="button" class="btn btn-sm btn-link edit-btn" title="Edit title"><i class="fas fa-pencil-alt"></i></button>
+                  </div>
+                  <div class="preview-item editable-preview" data-field="character" id="preview-character-container">
+                    <strong>Character:</strong>
+                    <span id="preview-character" class="preview-value">Auto-generated</span>
+                    <input type="text" id="edit-character" class="form-control form-control-sm edit-input d-none" />
+                    <button type="button" class="btn btn-sm btn-link edit-btn" title="Edit character"><i class="fas fa-pencil-alt"></i></button>
+                  </div>
+                  <div class="preview-item editable-preview" data-field="description" id="preview-description-container">
+                    <strong>Description:</strong>
+                    <span id="preview-description" class="preview-value">A brave knight...</span>
+                    <textarea id="edit-description" class="form-control form-control-sm edit-input d-none" rows="3"></textarea>
+                    <button type="button" class="btn btn-sm btn-link edit-btn" title="Edit description"><i class="fas fa-pencil-alt"></i></button>
+                  </div>
+                  <div class="preview-item editable-preview" data-field="personalities">
+                    <strong>AI Personalities:</strong>
+                    <span id="preview-personalities" class="preview-value">Narrative, Mechanical, Calibration</span>
+                    <div id="edit-personalities" class="edit-checkboxes d-none">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="edit-narrative" checked disabled>
+                        <label class="form-check-label" for="edit-narrative">Narrative</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="edit-mechanics">
+                        <label class="form-check-label" for="edit-mechanics">Mechanics</label>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-link edit-btn" title="Edit AI personalities"><i class="fas fa-pencil-alt"></i></button>
+                  </div>
+                  <div class="preview-item editable-preview" data-field="options">
+                    <strong>Options:</strong>
+                    <span id="preview-options" class="preview-value">Companions, Default World</span>
+                    <div id="edit-options" class="edit-checkboxes d-none">
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="edit-companions">
+                        <label class="form-check-label" for="edit-companions">Companions</label>
+                      </div>
+                      <div class="form-check form-check-inline" id="edit-default-world-container">
+                        <input class="form-check-input" type="checkbox" id="edit-default-world">
+                        <label class="form-check-label" for="edit-default-world">Default World</label>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-link edit-btn" title="Edit options"><i class="fas fa-pencil-alt"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <!-- NOTE: no Bootstrap .mt-4 utility here — it overrides the local
+             .

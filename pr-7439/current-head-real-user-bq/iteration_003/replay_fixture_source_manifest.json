@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-06-11T22:19:49.551104+00:00",
+  "source_kind": "testing_mcp",
+  "test_name": "bq_path14_real_user_e2e",
+  "evidence_dir": "/tmp/worldarchitect.ai/worktree_bq_loggin/bq_path14_real_user_e2e/iteration_003",
+  "git_provenance": {
+    "git_head": "e8180f690f07d6ed71893925a3a12bed9381f45a",
+    "git_branch": "worktree_bq_loggin",
+    "merge_base": "a556c41022782bfba88464eaef6339f517cba6d4",
+    "commits_ahead_of_main": 57,
+    "diff_stat_vs_main": ".github/workflows/mcp-smoke-tests.yml              |   1 -\n .github/workflows/test.yml                         |   2 -\n .../current-head-bq-path14/iteration_001/README.md |  88 ++\n .../iteration_001/README.md.sha256                 |   1 +\n .../iteration_001/bq_evidence_summary.md           |  35 +\n .../iteration_001/bq_query_result.json             |  24 +\n .../campaigns/6WfwGRCs7GuO2vYK7KXo.json            | 289 ++++++\n .../campaigns/6WfwGRCs7GuO2vYK7KXo.json.sha256     |   1 +\n ...ath14 Gameplay Streaming Proxy E2E_6WfwGRCs.txt |  42 +\n ...ay Streaming Proxy E2E_6WfwGRCs_game_state.json | 213 +++++\n .../iteration_001/evidence.md                      |  65 ++\n .../iteration_001/evidence.md.sha256               |   1 +\n .../gemini_http_request_responses.jsonl            |   4 +\n .../gemini_http_request_responses.jsonl.sha256     |   1 +\n ...mini_http_request_responses_1781200848363.jsonl |   4 +\n .../iteration_001/http_request_responses.jsonl     |  66 ++\n .../http_request_responses.jsonl.sha256            |   1 +\n .../http_request_responses_1781200848363.jsonl     |  66 ++\n .../iteration_001/llm_request_responses.jsonl      |   2 +\n .../llm_request_responses.jsonl.sha256             |   1 +\n .../llm_request_responses_1781200848363.jsonl      |   2 +\n .../iteration_001/metadata.json                    | 116 +++\n .../iteration_001/metadata.json.sha256             |   1 +\n .../iteration_001/methodology.md                   |  38 +\n .../iteration_001/methodology.md.sha256            |   1 +\n .../current-head-bq-path14/iteration_001/notes.md  |  31 +\n .../iteration_001/notes.md.sha256                  |   1 +\n .../pr7439-current-head-bq-path14.cast             |   2 +\n ...ash-preview_path14_gameplay_streaming_proxy.txt |  93 ++\n ...view_path14_gameplay_streaming_proxy.txt.sha256 |   1 +\n .../raw_unknown_model_evidence_signature_guard.txt |   1 +\n ...known_model_evidence_signature_guard.txt.sha256 |   1 +\n .../replay_fixture_source_manifest.json            |  66 ++\n .../iteration_001/request_responses.jsonl          |   2 +\n .../iteration_001/request_responses.jsonl.sha256   |   1 +\n .../current-head-bq-path14/iteration_001/run.json  |  49 ++\n .../iteration_001/run.json.sha256                  |   1 +\n .../iteration_001/scenario_results_checkpoint.json |   1 +\n .../scenario_results_checkpoint.json.sha256        |   1 +\n .../iteration_001/streaming_evidence.json          |  27 +\n .../iteration_001/streaming_evidence.json.sha256   |   1 +\n .../iteration_001/test_console_output.txt          |  86 ++\n .../iteration_001/test_console_output.txt.sha256   |   1 +\n .../current-head-bq-path14/iteration_003/README.md | 162 ++++\n .../iteration_003/README.md.sha256                 |   1 +\n .../iteration_003/bq_evidence_summary.md           |  35 +\n .../bq_path14_gameplay_streaming_proxy_e2e.cast    |   2 +\n .../iteration_003/bq_query_result.json             |  24 +\n ...ath14 Gameplay Streaming Proxy E2E_zXDOGgAL.txt |  45 +\n ...ay Streaming Proxy E2E_zXDOGgAL_game_state.json | 196 +++++\n .../campaigns/zXDOGgALmEJOUaGl96m8.json            | 251 ++++++\n .../campaigns/zXDOGgALmEJOUaGl96m8.json.sha256     |   1 +\n .../iteration_003/evidence.md                      |  65 ++\n .../iteration_003/evidence.md.sha256               |   1 +\n .../gemini_http_request_responses.jsonl            |   4 +\n .../gemini_http_request_responses.jsonl.sha256     |   1 +\n ...mini_http_request_responses_1781209204025.jsonl |   4 +\n .../iteration_003/http_request_responses.jsonl     |  62 ++\n .../http_request_responses.jsonl.sha256            |   1 +\n .../http_request_responses_1781209204025.jsonl     |  62 ++\n .../iteration_003/llm_request_responses.jsonl      |   2 +\n .../llm_request_responses.jsonl.sha256             |   1 +\n .../llm_request_responses_1781209204025.jsonl      |   2 +\n .../iteration_003/metadata.json                    | 103 +++\n .../iteration_003/metadata.json.sha256             |   1 +\n .../iteration_003/methodology.md                   |  38 +\n .../iteration_003/methodology.md.sha256            |   1 +\n .../current-head-bq-path14/iteration_003/notes.md  |  31 +\n .../iteration_003/notes.md.sha256                  |   1 +\n ...ash-preview_path14_gameplay_streaming_proxy.txt |  84 ++\n ...view_path14_gameplay_streaming_proxy.txt.sha256 |   1 +\n .../raw_unknown_model_evidence_signature_guard.txt |   1 +\n ...known_model_evidence_signature_guard.txt.sha256 |   1 +\n .../replay_fixture_source_manifest.json            |  66 ++\n .../iteration_003/request_responses.jsonl          |   2 +\n .../iteration_003/request_responses.jsonl.sha256   |   1 +\n .../current-head-bq-path14/iteration_003/run.json  |  49 ++\n .../iteration_003/run.json.sha256                  |   1 +\n .../iteration_003/scenario_results_checkpoint.json |   1 +\n .../scenario_results_checkpoint.json.sha256        |   1 +\n .../iteration_003/streaming_evidence.json          |  27 +\n .../iteration_003/streaming_evidence.json.sha256   |   1 +\n .../iteration_003/test_console_output.txt          |  87 ++\n .../iteration_003/test_console_output.txt.sha256   |   1 +\n .../pr-7439/supplemental_iteration_002/README.md   |  40 +\n .../supplemental_iteration_002/README.md.sha256    |   1 +\n .../supplemental_iteration_002/checksums.sha256    |  26 +\n .../result_intermediate.json                       |  24 +\n .../result_intermediate.json.sha256                |   1 +\n .../result_intermediate.json                       |  24 +\n .../result_intermediate.json.sha256                |   1 +\n .../supplemental_iteration_002/provenance.env      |   7 +\n .../provenance.env.sha256                          |   1 +\n .../queries/red_prior_gap_query.sql                |  14 +\n .../queries/red_prior_gap_query.sql.sha256         |   1 +\n .../queries/red_prior_gap_query_result.json        |   1 +\n .../queries/red_prior_gap_query_result.json.sha256 |   1 +\n .../openai_compatible_providers_bq_pytest.txt      |   4 +\n ...penai_compatible_providers_bq_pytest.txt.sha256 |   1 +\n .../test_outputs/openai_proxy_path8_pytest.txt     |  12 +\n .../openai_proxy_path8_pytest.txt.sha256           |   1 +\n .../test_outputs/openclaw_streaming_bq_pytest.txt  |   4 +\n .../openclaw_streaming_bq_pytest.txt.sha256        |   1 +\n .../openrouter_path10_real_bq_adc_attempt.exitcode |   1 +\n ...uter_path10_real_bq_adc_attempt.exitcode.sha256 |   1 +\n .../openrouter_path10_real_bq_adc_attempt.txt      |  17 +\n ...penrouter_path10_real_bq_adc_attempt.txt.sha256 |   1 +\n ...path10_real_bq_service_account_attempt.exitcode |   1 +\n ...real_bq_service_account_attempt.exitcode.sha256 |   1 +\n ...uter_path10_real_bq_service_account_attempt.txt |  46 +\n ...th10_real_bq_service_account_attempt.txt.sha256 |   1 +\n mvp_site/bq_logging.py                             |  88 +-\n mvp_site/llm_parser.py                             | 117 ++-\n mvp_site/llm_providers/cerebras_provider.py        | 125 ++-\n mvp_site/llm_providers/gemini_provider.py          | 541 +++++++++---\n .../openai_compatible_provider_core.py             |  69 +-\n mvp_site/llm_providers/openclaw_provider.py        | 104 ++-\n mvp_site/llm_providers/openrouter_provider.py      | 191 +++-\n mvp_site/llm_service.py                            | 418 +++++++--\n mvp_site/main.py                                   | 158 +++-\n mvp_site/tests/fake_services.py                    |  24 +-\n mvp_site/tests/test_always_json_mode.py            |  76 +-\n mvp_site/tests/test_bq_logging.py                  |  45 +\n .../tests/test_cerebras_native_tools_bq_path19.py  | 202 +++++\n .../test_cerebras_provider_bq_codepath_coverage.py |  97 +++\n .../tests/test_cerebras_tool_requests_bq_path16.py | 164 ++++\n mvp_site/tests/test_client_diagnostic_log.py       |  13 +-\n mvp_site/tests/test_debug_info_trimming.py         |  46 +-\n mvp_site/tests/test_fake_services_cleanup.py       |  45 +\n mvp_site/tests/test_game_state.py                  |  47 +-\n mvp_site/tests/test_gemini_provider_bq_logging.py  | 440 ++++++++++\n .../test_gemini_provider_code_execution_bq.py      | 160 ++++\n ...est_gemini_provider_code_execution_bq_reallm.py | 136 +++\n .../tests/test_initial_story_cache_hit_bq_guard.py | 247 ++++++\n .../tests/test_level_up_session_architecture.py    |   2 -\n mvp_site/tests/test_llm_service_error_handling.py  |  34 +-\n ..._llm_service_log_raw_llm_data_nonstream_path.py | 228 +++++\n ...est_llm_service_log_raw_llm_data_stream_path.py | 228 +++++\n .../test_openai_compatible_providers_bq_logging.py | 331 +++++++\n mvp_site/tests/test_openai_inference_proxy.py      | 124 +++\n .../tests/test_openai_proxy_nonstream_bq_path8.py  | 103 +++\n .../tests/test_openclaw_provider_streaming_bq.py   | 280 ++++++\n .../tests/test_openclaw_tool_requests_bq_path17.py | 227 +++++\n .../test_openrouter_native_tools_bq_path18.py      | 389 +++++++++\n mvp_site/tests/test_provider_tool_requests.py      | 140 +++\n mvp_site/tests/test_streaming_orchestrator.py      | 286 ++++++\n mvp_site/tests/test_world_logic.py                 | 235 ++++-\n mvp_site/world_logic.py                            | 155 +++-\n run_local_server.sh                                |  20 +-\n scripts/CLAUDE.md                                  |  16 +\n scripts/archive/verify_bq_logging.sh               | 279 ++++++\n .../evidence_openrouter_nonstreaming_bq_path10.py  | 190 ++++\n scripts/test_determine_smoke_mode.sh               |   0\n .../test_bq_logging_real_llm_real_user_e2e.py      | 969 +++++++++++++++++++++\n .../test_bq_path14_gameplay_streaming_proxy_e2e.py | 421 +++++++++\n .../streaming/test_bq_path14_real_user_e2e.py      | 504 +++++++++++\n 156 files changed, 11411 insertions(+), 389 deletions(-)",
+    "working_tree_dirty": false,
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 0,
+    "working_tree_changed_files": [],
+    "working_tree_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "contract_versions": {
+    "master_directive_prompt": "1.0.4",
+    "game_state_instruction_prompt": "1.1.32",
+    "planning_protocol_prompt": "1.1.8",
+    "narrative_response_schema": "1.2.36",
+    "mcp_api_tool_contract": "1.0.6",
+    "character_template_prompt": "1.0.0",
+    "leveling_pace_contract_prompt": "1.0.7"
+  },
+  "capture_files": {
+    "llm_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/bq_path14_real_user_e2e/iteration_003/llm_request_responses.jsonl",
+      "relative_path": "llm_request_responses.jsonl",
+      "exists": true,
+      "entries": 2,
+      "sha256": "fc242ad92d7dbee75c0ae374cef2057770178c8f45f0b4ccd1be87a815926cc4"
+    },
+    "http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/bq_path14_real_user_e2e/iteration_003/http_request_responses.jsonl",
+      "relative_path": "http_request_responses.jsonl",
+      "exists": true,
+      "entries": 68,
+      "sha256": "798eb6a2f370960ebe42df7c4686097ceba8cc2866278ed62bf055f57823948c"
+    },
+    "gemini_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/bq_path14_real_user_e2e/iteration_003/gemini_http_request_responses.jsonl",
+      "relative_path": "gemini_http_request_responses.jsonl",
+      "exists": true,
+      "entries": 6,
+      "sha256": "ef9aaf10dd1a3db4a7147166c7ad80247b9e8a93b16a30fadaff45e1e79bffa7"
+    },
+    "provider_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/bq_path14_real_user_e2e/iteration_003/provider_http_request_responses.jsonl",
+      "relative_path": "provider_http_request_responses.jsonl",
+      "exists": false,
+      "entries": 0,
+      "sha256": null
+    },
+    "mcp_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/bq_path14_real_user_e2e/iteration_003/request_responses.jsonl",
+      "relative_path": "request_responses.jsonl",
+      "exists": true,
+      "entries": 2,
+      "sha256": "853fe2fa4f44a1e029308090f52d9e6570c98e1850b4470010b75b8db3e25dd8"
+    }
+  },
+  "extractor_hint": "Use a scenario-specific extractor to select replay stages from these raw traces."
+}

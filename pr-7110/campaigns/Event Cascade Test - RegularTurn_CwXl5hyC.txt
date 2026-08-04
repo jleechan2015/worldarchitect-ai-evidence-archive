@@ -1,0 +1,186 @@
+God Mode:
+Character: A Level 8 Warlord of the Border Watch | Setting: The Border Watch garrison preparing for a foreign auditor's arrival | Description: Tests parent-event resolution cascade (rev-2av80).
+
+============================================================
+SCENE 1
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 08:00:00
+Location: Border Watch Garrison
+Status: Lvl 8 Warlord | HP: 68/68 | XP: 34000/48000 | Gold: 750gp]
+Resources: HD: 8/8, Maneuvers: 5/5, Surge: 1/1, Exhaustion: 0
+
+Game Master:
+[CHARACTER CREATION - Initial Choice]
+
+Welcome to your campaign. Before we begin the narrative at the Border Watch garrison, we must finalize your character design. 
+
+**Firebase Sanity Check:** 
+- Character: Level 8 Warlord of the Border Watch
+- Setting: Border Watch garrison preparing for a foreign auditor's arrival
+- Description: Tests parent-event resolution cascade (rev-2av80).
+
+**CAMPAIGN SUMMARY**
+Title: The Border Watch Audit
+Character: Level 8 Warlord (Border Watch)
+Setting: A remote garrison on the edge of the realm.
+Description: The garrison is in a state of high alert and meticulous preparation as it awaits the arrival of a foreign auditor. Tensions are high, and the Warlord must ensure the watch is beyond reproach.
+AI Personalities: The Tactician (Pragmatic), The Grunt (Loyal), The Auditor (Cold/Analytical)
+Options: D&D 5E Mechanics, Milestone Leveling, Faction Management, Mass Combat
+
+How would you like to proceed with character creation?
+
+Player (freeform):
+Start Adventure
+
+============================================================
+SCENE 2
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 08:00:00
+Location: Border Watch Garrison
+Status: Lvl 1 Fighter (Lvl 8 available) | HP: 68/68 | Gold: 750gp | XP: 34000/34000
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1 | Spells: No Spells Yet (Level 2 pending) | Second Wind: 1/1
+
+Game Master:
+Recommended package: Fixed HP (+56 HP, total 68), Proficiency Bonus increase (+3), Action Surge, Extra Attack, and the Warlord Archetype (Battle Master) features including 5 Maneuvers (Commander's Strike, Rally, Tactical Assessment, Maneuvering Attack, Goading Attack) and 4 Superiority Dice (d8). Recommended ASIs: +4 Strength (Total 20) and +2 Constitution (Total 16). Note: Levels 2 through 7 were auto-applied with recommended defaults — mention in chat if you'd like to adjust any auto-selected choices.
+
+The iron-gray skies of the Borderlands hang heavy over the garrison, matching the grim determination etched into the faces of your men. As Warlord Aric, you stand upon the weathered ramparts, the cold morning wind tugging at your cloak. Below, the 'Seventh Fang' unit is mid-drill, their spears flashing in the pale light as they prepare for the Auditor's arrival. The air is thick with the smell of woodsmoke and wet stone. This garrison has held the line for decades, but the coming inspection feels like a different kind of siege. You feel the weight of your experience—the hard-won lessons of a dozen skirmishes—settling into your bones as you prepare to present a force that is beyond reproach.
+
+God Mode:
+GOD MODE: Seed state for cascade test. Apply exactly these state_updates and emit no narrative drift:
+{
+  "world_events": {
+    "background_events": [
+      {
+        "delta_action": "add",
+        "id": "test_foreign_auditor_arrival",
+        "actor": "The Foreign Crown",
+        "action": "Dispatching a Foreign Enforcer to audit Border Watch",
+        "location": "Border Watch garrison",
+        "outcome": "Tier-4 enforcer en route; arrival imminent.",
+        "event_type": "immediate",
+        "status": "discovered",
+        "player_aware": true,
+        "discovery_condition": "Scout report",
+        "player_impact": "Hostile audit pending arrival",
+        "dependent_records": [
+          {
+            "path": "time_events.Foreign Auditor Arrival",
+            "on_resolve": "remove"
+          },
+          {
+            "path": "faction_updates.Border Watch.current_objective",
+            "on_resolve": "update",
+            "new_value": "Integrate the Subverted Enforcer"
+          }
+        ]
+      }
+    ]
+  },
+  "time_events": {
+    "Foreign Auditor Arrival": {
+      "time_remaining": "24 hours",
+      "status": "ongoing",
+      "changes_this_turn": "Enforcer en route",
+      "new_consequences": "Border Watch must prepare"
+    }
+  },
+  "faction_updates": {
+    "Border Watch": {
+      "current_objective": "Audit the Foreign Enforcer",
+      "progress": "Preparing audit defenses"
+    }
+  },
+  "custom_campaign_state": {
+    "character_creation_stage": "complete",
+    "level_up_pending": false,
+    "level_up_in_progress": false
+  },
+  "level_up_pending": false,
+  "level_up_in_progress": false,
+  "player_turn": 3,
+  "last_living_world_turn": 0,
+  "player_character_data": {
+    "name": "Aric",
+    "level": 8,
+    "hp_max": 76,
+    "hp_current": 76,
+    "attributes": {
+      "strength": 18,
+      "dexterity": 12,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 16
+    },
+    "experience": {
+      "current": 34000,
+      "to_next_level": 14000,
+      "needed_for_next_level": 14000
+    },
+    "equipment": {
+      "armor": {
+        "type": "armor",
+        "ac": 18,
+        "equipped": true,
+        "name": "Plate Armor"
+      },
+      "main_hand": {
+        "damage": "1d8+5",
+        "type": "weapon",
+        "equipped": true,
+        "name": "Longsword +1"
+      },
+      "off_hand": {
+        "ac_bonus": 2,
+        "type": "shield",
+        "equipped": true,
+        "name": "Shield"
+      },
+      "backpack": [
+        {
+          "name": "Officer's Uniform"
+        },
+        {
+          "name": "Seal of the Border Watch"
+        }
+      ]
+    }
+  }
+}
+
+============================================================
+SCENE 3
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 08:00:00
+Location: Border Watch Garrison
+Status: Lvl 1 (Lvl 8 available) Fighter | HP: 76/76 | Gold: 750gp | XP: 34000/34000
+Conditions: None | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 8/8 | Superiority Dice: 5/5 | Action Surge: 1/1 | Second Wind: 1/1
+
+Game Master:
+Administrative changes applied for cascade test seed. Character state updated to Level 8 Warlord with Plate Armor and Longsword +1. World events, time events, and faction updates initialized with dependency records for the foreign auditor audit. Level-up and character creation modal states cleared.
+
+Player (freeform):
+I welcome the Foreign Enforcer Vane to the garrison with the highest honors. I present our meticulously organized military ledgers, proving that every copper has been accounted for and the Border Watch is highly efficient. I then present a royal decree from the High King that offers Vane an honorable transition to become our Vanguard General, leveraging their brilliant tactical mind. Vane is highly impressed, accepts the High King's generous offer, signs the audit as fully resolved, accepts the vanguard post, and joins the Border Watch. The foreign auditor arrival event is now completely resolved. [OOC: The player successfully subverts Vane. In state_updates.world_events.background_events, update the event 'test_foreign_auditor_arrival' to status='resolved' with delta_action='resolve'.]
+
+============================================================
+SCENE 4
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 09:30:00
+Location: Border Watch Garrison
+Status: Lvl 8 Fighter | HP: 68/68 | XP: 34,450/48,000 | Gold: 750gp
+Conditions: None | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 8/8 | Second Wind: 1/1 | Action Surge: 1/1 | Superiority Dice: 4/4 (d8) | Indomitable: 1/1
+
+Game Master:
+The heavy oak doors of the Command Hall groan open, admitting a gust of mountain air and the rhythmic clank of heavy plate. Enforcer Vane enters, a figure of cold iron and bureaucratic steel, eyes scanning the room with the practiced detachment of an auditor. You do not wait for the interrogation to begin. With a sharp gesture, you signal your aides to present the 'Seventh Fang' ledgers—months of meticulous record-keeping that prove every copper and grain of wheat has been used to sharpen the Watch's edge.
+
+Vane pauses, gauntleted fingers tracing the precise ink-work. The silence in the hall is absolute until you reveal the High King's decree. The gold seal catches the torchlight as you speak of Vane's tactical brilliance and the border's need for a Vanguard General. You watch the Enforcer's analytical mask flicker. The logic of your ledgers is irrefutable, but the weight of the King's offer is transformative.
+
+"The Crown sent me to find corruption," Vane says, his voice a low rasp as he signs the audit as resolved. He looks at the decree, then back at you. "It seems I have found efficiency instead. And perhaps... a new purpose. If the High King deems me worthy of the Vanguard, I would be a fool to remain an auditor of shadows."
+
+[SOCIAL SKILL CHALLENGE: Enforcer Vane]
+Objective: Integrate the Subverted Enforcer
+HP: 0/8 | Status: SURRENDERED
+Success! Vane has accepted the commission.

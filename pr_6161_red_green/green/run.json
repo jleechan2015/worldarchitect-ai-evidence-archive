@@ -1,0 +1,247 @@
+{
+  "scenarios": [
+    {
+      "name": "atomicity_e2e",
+      "passed": true,
+      "errors": [],
+      "campaign_id": "3GDFTAaejZ7khpU9pTIg",
+      "level_up_triggered": true,
+      "immediate_response": {
+        "had_rewards_box": true,
+        "had_planning_block": true
+      },
+      "polled_response": {
+        "had_rewards_box": true,
+        "had_planning_block": true,
+        "rewards_box_level_up": true,
+        "planning_block_has_level_up_choices": true
+      },
+      "user_id": "test-rewards_box_planning_block_e2e-1775767545",
+      "user_email": "<redacted-email>"
+    },
+    {
+      "name": "projected_level_up_button_text",
+      "passed": true,
+      "errors": [],
+      "campaign_id": "Itzj9icU4hytVBqcrPse",
+      "pending_choice_ids": [
+        "level_up_now",
+        "continue_adventuring"
+      ],
+      "modal_choice_ids": [
+        "level_up_now",
+        "begin_combat_simulation",
+        "explore_sector_b12",
+        "visit_the_vaults",
+        "continue_adventuring",
+        "finish_level_up_return_to_game"
+      ],
+      "finished_choice_ids": [
+        "begin_combat_simulation",
+        "explore_sector_b12",
+        "visit_the_vaults",
+        "finish_level_up_return_to_game"
+      ],
+      "finished_level": 2,
+      "pending_signal_present": true,
+      "user_id": "test-rewards_box_planning_block_e2e-1775767545",
+      "user_email": "<redacted-email>"
+    },
+    {
+      "name": "multi_level_organic_progression",
+      "passed": true,
+      "errors": [],
+      "campaign_id": "nZ3MPpvor03dOy6C5iZd",
+      "progression": [
+        {
+          "target_level": 2,
+          "start_level": 1,
+          "seeded_xp": 275,
+          "end_level": 2,
+          "triggered": true,
+          "completed": true,
+          "immediate_choice_ids": [
+            "level_up_now",
+            "continue_adventuring"
+          ],
+          "polled_choice_ids": [
+            "level_up_now",
+            "continue_adventuring",
+            "finish_level_up_return_to_game"
+          ],
+          "completion_transcript": [
+            {
+              "step": "enter_level_up",
+              "action": "CHOICE:level_up_now",
+              "choice_ids": [
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_1",
+              "action": "CHOICE:finish_level_up_return_to_game",
+              "choice_ids": [
+                "action_surge_strike",
+                "disciplined_strike",
+                "tactical_parry"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "post_finish_state_poll",
+              "action": "get_campaign_state",
+              "level": 2,
+              "level_up_in_progress": false,
+              "rewards_pending_level_up": null
+            }
+          ]
+        },
+        {
+          "target_level": 3,
+          "start_level": 2,
+          "seeded_xp": 875,
+          "end_level": 3,
+          "triggered": true,
+          "completed": true,
+          "immediate_choice_ids": [
+            "level_up_now",
+            "continue_adventuring"
+          ],
+          "polled_choice_ids": [
+            "level_up_now",
+            "continue_adventuring",
+            "finish_level_up_return_to_game"
+          ],
+          "completion_transcript": [
+            {
+              "step": "enter_level_up",
+              "action": "CHOICE:level_up_now",
+              "choice_ids": [
+                "level_up_now",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_1",
+              "action": "CHOICE:finish_level_up_return_to_game",
+              "choice_ids": [
+                "aggressive_opening",
+                "defensive_posture",
+                "tactical_maneuver",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "post_finish_state_poll",
+              "action": "get_campaign_state",
+              "level": 3,
+              "level_up_in_progress": false,
+              "rewards_pending_level_up": null
+            }
+          ]
+        },
+        {
+          "target_level": 4,
+          "start_level": 3,
+          "seeded_xp": 2675,
+          "end_level": 4,
+          "triggered": true,
+          "completed": true,
+          "immediate_choice_ids": [
+            "level_up_now",
+            "continue_adventuring"
+          ],
+          "polled_choice_ids": [
+            "level_up_now",
+            "continue_adventuring",
+            "finish_level_up_return_to_game"
+          ],
+          "completion_transcript": [
+            {
+              "step": "enter_level_up",
+              "action": "CHOICE:level_up_now",
+              "choice_ids": [
+                "level_up_now",
+                "asi_strength",
+                "asi_dexterity",
+                "asi_constitution",
+                "feat_great_weapon_master",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_1",
+              "action": "CHOICE:asi_strength",
+              "choice_ids": [
+                "level_up_now",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_2",
+              "action": "CHOICE:finish_level_up_return_to_game",
+              "choice_ids": [
+                "overpowering_strike",
+                "tactical_action_surge",
+                "disciplined_defense",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "post_finish_state_poll",
+              "action": "get_campaign_state",
+              "level": 4,
+              "level_up_in_progress": false,
+              "rewards_pending_level_up": null
+            }
+          ]
+        }
+      ],
+      "final_level": 4,
+      "user_id": "test-rewards_box_planning_block_e2e-1775767545",
+      "user_email": "<redacted-email>"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "passed": 3,
+    "failed": 0,
+    "pass_rate": "3/3 (100%)",
+    "raw_total": 3,
+    "raw_passed": 3,
+    "raw_pass_rate": "100.0%",
+    "raw_data_complete": true
+  },
+  "campaign_capture_status": {
+    "3GDFTAaejZ7khpU9pTIg": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    },
+    "Itzj9icU4hytVBqcrPse": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    },
+    "nZ3MPpvor03dOy6C5iZd": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    }
+  }
+}

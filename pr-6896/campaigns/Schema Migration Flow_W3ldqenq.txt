@@ -1,0 +1,99 @@
+God Mode:
+Character: Aric the Fighter (STR 16) | Setting: A regression testing chamber | Description: Validate one-time legacy-to-schema migration flow
+
+============================================================
+SCENE 1
+============================================================
+[Timestamp: 1000 Era, Month 1 Day 1, 08:00:00
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter | HP: 0/0 | XP: 0/300 | Gold: 0gp]
+Resources: HD: 0/1, Spells: No Spells Yet (Level 1 Fighter)
+
+Game Master:
+[CHARACTER CREATION - Method Selection]
+
+**CAMPAIGN SUMMARY**
+**Title:** Regression Testing Flow
+**Character:** Aric the Fighter (STR 16)
+**Setting:** A regression testing chamber
+**Description:** Validate one-time legacy-to-schema migration flow
+**AI Personalities:** Standard
+**Options:** Mechanics Enabled
+
+Welcome to the regression testing chamber. You have proposed a concept: **Aric**, a powerful Fighter with a Strength of 16. 
+
+Before we begin validating the schema migration flow, we need to finalize Aric's statistics, race, and equipment. How would you like to proceed with creating this character?
+
+Player (freeform):
+I look around carefully.
+
+============================================================
+SCENE 2
+============================================================
+[Timestamp: 1000 DR, 1 1, 08:00:30
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+), Second Wind: 1/1
+
+Game Master:
+Morning (08:00:30) in the Regression Testing Chamber—you take a slow, deliberate breath, the recycled air tasting faintly of ozone and sterile metal. You look around carefully at your surroundings. The walls are composed of seamless, matte-gray panels etched with faint white grid lines that hum with a low-frequency vibration. In the center of the ceiling, a single recessed light source bathes the room in a cold, shadowless glow. There are no visible doors, though a slight seam in the southern wall suggests a pressurized hatch. Your boots click sharply against the polished composite floor as you shift your weight, the sound echoing briefly before being swallowed by the acoustic dampening of the room. It is a space designed for precision and observation, a void awaiting data.
+
+Player (freeform):
+I search the crypt.
+
+============================================================
+SCENE 3
+============================================================
+[Timestamp: 1000 DR, 1 1, 08:00:45
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: No Spells Yet (Fighter)
+
+Game Master:
+Morning (08:00:45) in the Regression Testing Chamber—you begin a methodical search of the sterile environment, tracing the grid lines with your fingers and checking the seams of the floor panels. You move slowly, your eyes scanning the matte-gray surfaces for any sign of a hidden latch, a recessed keypad, or even a smudge that might indicate frequent use. Despite your focus, the chamber remains stubbornly enigmatic. The grid lines appear to be purely decorative or perhaps part of a massive, integrated sensor array that leaves no physical protrusion. You reach the southern hatch seam and run your gauntlet along the gap, but it is sealed with airtight precision, offering no purchase for prying fingers.
+
+Player (freeform):
+I look around in the blinding darkness.
+
+============================================================
+SCENE 4
+============================================================
+[Timestamp: 1000 DR, 1 1, 08:01:15
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+), Potions: 0/0, Exhaustion: 0
+
+Game Master:
+Morning (08:01:15) in the Regression Testing Chamber—the sterile hum of the facility suddenly drops an octave, and with a sharp, electronic snap, the recessed ceiling lights flicker twice and die. You are plunged into absolute, blinding darkness. The transition is so jarring that for a moment, your retinas burn with the afterimage of the grid lines, leaving you disoriented in the void. You extend your hands, trying to gauge the distance to the walls, but the acoustic dampening makes the space feel infinitely large and impossibly small at once. You strain your eyes, searching for even the faintest glimmer of a status light or an emergency glow-strip, but the darkness is total, a physical weight pressing against your chest.
+
+From the southern end of the room, near the hatch seam, a voice speaks—low, measured, and unfamiliar. "I wouldn't move if I were you, Aric (Lvl 1)," the speaker says. The tone is not quite hostile, but it carries a razor-edged caution. "The floor sensors in this sector are... uncalibrated. A heavy footfall in the dark might trigger a hard reset of the gravity plates, and neither of us wants to be flattened against the ceiling."
+
+[SOCIAL SKILL CHALLENGE: Kaelen]
+Objective: Establish trust in the darkness
+Social HP: 3/3 | Status: RESISTING
+
+"Who is that?" you demand, your voice sounding thin in the lightless room. "I'm Kaelen (Lvl 1)," the voice replies. "And like you, I'm just another data point in this wretched chamber. But if we're going to survive this iteration, we need to find a way to restore the light before the observers lose interest."
+
+Player (freeform):
+I proceed deeper.
+
+============================================================
+SCENE 5
+============================================================
+[Timestamp: 1000 DR, 1 1, 08:01:45
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter | HP: 8/10 | XP: 0/300 | Gold: 10gp]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+)
+
+Game Master:
+Morning (08:01:45) in the Regression Testing Chamber—you ignore the unseen stranger's warning and take a heavy step forward into the obsidian void. Your boot finds a floor panel that feels slightly more compliant than the others. A sharp, high-pitched *chirp* cuts through the darkness, followed immediately by a stomach-turning sensation of weightlessness.
+
+"You fool!" Kaelen's voice barks, but it's swallowed by a sudden, violent surge of kinetic energy. The artificial gravity reverses in a localized burst, slamming you upward. You collide with the acoustic-dampening panels of the ceiling with a dull thud before the system stabilizes and drops you back to the floor. Pain radiates through your shoulder as you land hard on the composite surface. Aric: 10 -> 8.
+
+[SOCIAL SKILL CHALLENGE: Kaelen]
+Objective: Establish trust in the darkness
+Social HP: 3/3 | Status: ANTAGONISTIC
+Resistance: "I warned you about the sensors. You're going to get us both killed before the first cycle ends."

@@ -1,0 +1,11 @@
+{
+  "scenarios": [
+    {
+      "name": "Infinite Leveling Verification",
+      "errors": [],
+      "campaign_id": "test_camp_123",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

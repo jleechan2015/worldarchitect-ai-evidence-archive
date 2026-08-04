@@ -1,0 +1,248 @@
+{
+  "campaign": {
+    "created_at": "2026-05-31T19:51:55.593561+00:00",
+    "initial_prompt": "Character: Aric the Fighter (STR 16) | Setting: A roadside ambush outside Phandalin | Description: Test campaign for MCP validation",
+    "last_played": "2026-05-31T19:52:13.064850+00:00",
+    "living_world_state": {
+      "last_time": null,
+      "last_turn": 0
+    },
+    "selected_prompts": [],
+    "title": "PR 6922 Cleanup Defeated Enemies Evidence",
+    "use_default_world": false
+  },
+  "entries_cleaned": 0,
+  "game_state": {
+    "combat_state": {
+      "combat_history": [
+        {
+          "archived_at": "2026-05-31T19:52:00.907578+00:00",
+          "enemies_defeated": [
+            "Goblin Chief",
+            "Goblin Minion"
+          ],
+          "outcome": "victory",
+          "session_id": null,
+          "xp_awarded": 125
+        }
+      ],
+      "combat_phase": "ended",
+      "combat_session_id": null,
+      "combat_summary": null,
+      "combatants": {},
+      "current_round": null,
+      "in_combat": false,
+      "initiative_order": [],
+      "rewards_processed": true
+    },
+    "custom_campaign_state": {
+      "_agent_selection_tracker": {
+        "agent": "GodModeAgent",
+        "count": 1,
+        "rewards_skip_count": 0
+      },
+      "active_constraints": [],
+      "arc_milestones": {},
+      "attribute_system": "standard",
+      "campaign_tier": "mortal",
+      "character_creation_completed": true,
+      "character_creation_in_progress": false,
+      "character_creation_stage": "complete",
+      "companion_arcs": {},
+      "core_memories": [
+        "Aric is a Fighter (STR 16) starting in a roadside ambush outside Phandalin."
+      ],
+      "divine_potential": 0,
+      "divine_upgrade_available": false,
+      "faction_minigame": {
+        "strong_suggestion_given": false,
+        "suggestion_given": false
+      },
+      "god_mode": {
+        "character": {
+          "attributes": {
+            "strength": 16
+          },
+          "base_attributes": {
+            "strength": 16
+          },
+          "name": "Aric the Fighter (STR 16)"
+        },
+        "description": "Test campaign for MCP validation",
+        "setting": "A roadside ambush outside Phandalin"
+      },
+      "last_location": "Roadside Outside Phandalin",
+      "multiverse_upgrade_available": false,
+      "next_companion_arc_turn": 3,
+      "universe_control": 0
+    },
+    "debug_mode": true,
+    "entity_tracking": {
+      "active_entities": [
+        "Aric the Fighter (STR 16)"
+      ],
+      "present_entities": []
+    },
+    "game_state_version": 1,
+    "item_registry": {},
+    "last_living_world_time": {
+      "day": 15,
+      "hour": 8,
+      "microsecond": 0,
+      "minute": 0,
+      "month": "Mirtul",
+      "second": 0,
+      "time_of_day": "morning",
+      "year": 1492
+    },
+    "last_living_world_turn": 0,
+    "last_state_update_timestamp": "2026-05-31T19:52:12.432000+00:00",
+    "npc_agendas": {},
+    "npc_data": {
+      "Goblin Chief": {
+        "hp_current": 0,
+        "is_important": true,
+        "name": "Goblin Chief",
+        "status": [
+          "hostile",
+          "dead"
+        ],
+        "type": "enemy"
+      },
+      "Surrendered Bandit": {
+        "hp_current": 5,
+        "name": "Surrendered Bandit",
+        "status": [
+          "surrendered"
+        ],
+        "type": "enemy"
+      },
+      "npc_goblin_001": {
+        "armor_class": 13,
+        "hp_current": 7,
+        "hp_max": 7,
+        "name": "Goblin",
+        "present": true,
+        "status": "healthy",
+        "string_id": "npc_goblin_001"
+      }
+    },
+    "pending_instruction_hints": [],
+    "planning_block": {
+      "choices": [
+        {
+          "description": "Resume the narrative in the quiet aftermath of the roadside ambush.",
+          "id": "god:return_story",
+          "risk_level": "safe",
+          "switch_to_story_mode": true,
+          "text": "Return to Story"
+        }
+      ],
+      "context": "",
+      "thinking": "The user is performing a state cleanup and requested a brief status check of the aftermath without advancing time or NPC actions. I am setting the rewards_processed flag to true to clear the pending reward state from the previous victory found in the history."
+    },
+    "player_character_data": {
+      "attributes": {
+        "strength": 16
+      },
+      "base_attributes": {
+        "strength": 16
+      },
+      "class_name": "Fighter",
+      "display_name": "Aric",
+      "equipment": {
+        "backpack": [
+          {
+            "equipped": false,
+            "name": "Backpack",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Bedroll",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Mess kit",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Tinderbox",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Torch",
+            "stats": "10"
+          },
+          {
+            "equipped": false,
+            "name": "Rations",
+            "stats": "10 days"
+          },
+          {
+            "equipped": false,
+            "name": "Waterskin",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Rope",
+            "stats": "50 feet"
+          },
+          {
+            "equipped": false,
+            "name": "Coin pouch",
+            "stats": "10gp"
+          }
+        ]
+      },
+      "level": 1,
+      "name": "Aric the Fighter (STR 16)"
+    },
+    "player_turn": 0,
+    "schema_migrated_at": "2026-05-31T19:51:55.593541+00:00",
+    "schema_migration_version": 1,
+    "session_id": "legacy-migrated-ff2151bece9984c5",
+    "social_hp_challenge": null,
+    "time_pressure_warnings": {},
+    "time_sensitive_events": {},
+    "turn_number": 0,
+    "user_id": "test-cleanup-defeated-enemies-1780257090",
+    "world_data": {
+      "current_location_name": "Roadside Outside Phandalin",
+      "world_time": {
+        "day": 15,
+        "hour": 8,
+        "microsecond": 0,
+        "minute": 0,
+        "month": "Mirtul",
+        "second": 0,
+        "time_of_day": "morning",
+        "year": 1492
+      }
+    },
+    "world_resources": {}
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "description": "Resume the narrative in the quiet aftermath of the roadside ambush.",
+        "id": "god:return_story",
+        "risk_level": "safe",
+        "switch_to_story_mode": true,
+        "text": "Return to Story"
+      }
+    ],
+    "context": "",
+    "thinking": "The user is performing a state cleanup and requested a brief status check of the aftermath without advancing time or NPC actions. I am setting the rewards_processed flag to true to clear the pending reward state from the previous victory found in the history."
+  },
+  "state_cleaned": false,
+  "success": true,
+  "user_settings": {
+    "gemini_model": "gemini-3-flash-preview",
+    "llm_provider": "gemini"
+  }
+}

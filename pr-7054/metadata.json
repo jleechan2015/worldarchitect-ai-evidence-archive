@@ -1,0 +1,110 @@
+{
+  "test_name": "combat_rewards_level_up",
+  "run_id": "combat_rewards_level_up-001-20260524T095319",
+  "iteration": 1,
+  "bundle_version": "1.2.0",
+  "timestamp": "2026-05-24T09:53:19.528492+00:00",
+  "bundle_timestamp": "2026-05-24T09:53:19.528492+00:00",
+  "evidence_mode": "lightweight_prompt_tracking",
+  "evidence_mode_notes": "System instruction captured as filenames + char_count (not full text). Raw LLM request/response payloads captured in request_responses.jsonl. Server logs in artifacts/. Bundle file inventory in artifacts/collection_log.txt.",
+  "git_provenance": {
+    "git_head": "80690b8b2736d07735cc07dd38bed862a0a1792c",
+    "git_branch": "claude/vigilant-ritchie-GbMPa",
+    "merge_base": "25cee34d6ff9f966eb9ba190e40efbd6eec3a5b9",
+    "commits_ahead_of_main": 8,
+    "diff_stat_vs_main": "mvp_site/prompts/combat_system_instruction.md      | 52 +++++++++-----\n mvp_site/prompts/deferred_rewards_instruction.md   | 34 +++++++--\n mvp_site/prompts/faction_minigame_instruction.md   | 30 ++++----\n mvp_site/prompts/god_mode_instruction.md           |  8 +++\n .../prompts/narrative_lite_system_instruction.md   |  6 ++\n mvp_site/prompts/narrative_system_instruction.md   | 38 ++++++----\n mvp_site/prompts/rewards_system_instruction.md     | 84 +++++++++++++++++++++-\n scripts/validate_beads_issues_jsonl.py             |  2 +-\n 8 files changed, 202 insertions(+), 52 deletions(-)",
+    "working_tree_dirty": true,
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 3,
+    "working_tree_changed_files": [
+      "mvp_site/prompts/deferred_rewards_instruction.md",
+      "mvp_site/prompts/faction_minigame_instruction.md",
+      "testing_mcp/test_combat_rewards_level_up.py"
+    ],
+    "working_tree_diff_sha256": "e5aaf0169a6c5208fd3d8ccde949a84ae915ebb3993f0348b4577a5431a7cca7"
+  },
+  "server": {
+    "base_url": "http://127.0.0.1:55724",
+    "hostname": "127.0.0.1",
+    "mode": "local",
+    "port": "55724",
+    "pid": 45659,
+    "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:55724 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 1000 --access-logfile - --error-logfile - --log-level info",
+    "env_vars": {
+      "WORLDAI_DEV_MODE": "true",
+      "TESTING": "false",
+      "MOCK_SERVICES_MODE": "false",
+      "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "FIRESTORE_EMULATOR_HOST": null,
+      "PORT": null,
+      "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+      "GEMINI_API_KEY": "[SET - 39 chars]",
+      "LLM_REQUEST_RESPONSE_CAPTURE_PATH": null,
+      "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+      "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+      "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": null
+    },
+    "lsof_output": "COMMAND   PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nPython  45659 jleechan    5u  IPv4 0x871d953b21ae12b1      0t0  TCP *:55724 (LISTEN)\nPython  45667 jleechan    5u  IPv4 0x871d953b21ae12b1      0t0  TCP *:55724 (LISTEN)",
+    "ps_output": "PID USER     ELAPSED ARGS\n45659 jleechan   00:06 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:55724 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 1000 --access-logfile - --error-logfile - --log-level info"
+  },
+  "provenance": {
+    "git_fetch_origin_main": {
+      "returncode": 0,
+      "stdout": null,
+      "stderr": "From https://github.com/jleechanorg/worldarchitect.ai\n * branch                main       -> FETCH_HEAD\nAuto packing the repository in background for optimum performance.\nSee \"git help gc\" for manual housekeeping.\nwarning: The last gc run reported the following. Please correct the root cause\nand remove /Users/jleechan/projects/worldarchitect.ai/.git/worktrees/fix-pr-7054-green/gc.log\nAutomatic cleanup will not be performed until the file is removed.\n\nwarning: There are too many unreachable loose objects; run 'git prune' to remove them."
+    },
+    "git_head": "80690b8b2736d07735cc07dd38bed862a0a1792c",
+    "git_branch": "claude/vigilant-ritchie-GbMPa",
+    "merge_base": "25cee34d6ff9f966eb9ba190e40efbd6eec3a5b9",
+    "commits_ahead_of_main": 8,
+    "diff_stat_vs_main": "mvp_site/prompts/combat_system_instruction.md      | 52 +++++++++-----\n mvp_site/prompts/deferred_rewards_instruction.md   | 34 +++++++--\n mvp_site/prompts/faction_minigame_instruction.md   | 30 ++++----\n mvp_site/prompts/god_mode_instruction.md           |  8 +++\n .../prompts/narrative_lite_system_instruction.md   |  6 ++\n mvp_site/prompts/narrative_system_instruction.md   | 38 ++++++----\n mvp_site/prompts/rewards_system_instruction.md     | 84 +++++++++++++++++++++-\n scripts/validate_beads_issues_jsonl.py             |  2 +-\n 8 files changed, 202 insertions(+), 52 deletions(-)",
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 3,
+    "working_tree_untracked_files": 0,
+    "working_tree_changed_files": [
+      "mvp_site/prompts/deferred_rewards_instruction.md",
+      "mvp_site/prompts/faction_minigame_instruction.md",
+      "testing_mcp/test_combat_rewards_level_up.py"
+    ],
+    "working_tree_diff_sha256": "e5aaf0169a6c5208fd3d8ccde949a84ae915ebb3993f0348b4577a5431a7cca7",
+    "working_tree_dirty": true,
+    "server": {
+      "base_url": "http://127.0.0.1:55724",
+      "hostname": "127.0.0.1",
+      "mode": "local",
+      "port": "55724",
+      "pid": 45659,
+      "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:55724 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 1000 --access-logfile - --error-logfile - --log-level info",
+      "env_vars": {
+        "WORLDAI_DEV_MODE": "true",
+        "TESTING": "false",
+        "MOCK_SERVICES_MODE": "false",
+        "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "FIRESTORE_EMULATOR_HOST": null,
+        "PORT": null,
+        "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+        "GEMINI_API_KEY": "[SET - 39 chars]",
+        "LLM_REQUEST_RESPONSE_CAPTURE_PATH": null,
+        "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+        "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+        "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": null
+      },
+      "lsof_output": "COMMAND   PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nPython  45659 jleechan    5u  IPv4 0x871d953b21ae12b1      0t0  TCP *:55724 (LISTEN)\nPython  45667 jleechan    5u  IPv4 0x871d953b21ae12b1      0t0  TCP *:55724 (LISTEN)",
+      "ps_output": "PID USER     ELAPSED ARGS\n45659 jleechan   00:06 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:55724 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 1000 --access-logfile - --error-logfile - --log-level info"
+    },
+    "timestamp": "2026-05-24T09:52:46.510727+00:00"
+  },
+  "summary": {
+    "total_scenarios": 1,
+    "passed": 1,
+    "failed": 0,
+    "campaign_capture_total": 0,
+    "campaign_capture_passed": 0,
+    "campaign_capture_failed": 0,
+    "raw_passed": 0,
+    "raw_total": 1,
+    "raw_pass_rate": "0.0%"
+  }
+}
