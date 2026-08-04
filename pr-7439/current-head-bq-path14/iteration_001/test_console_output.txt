@@ -1,0 +1,86 @@
+======================================================================
+BQ PATH14 GAMEPLAY STREAMING PROXY E2E
+======================================================================
+Work name: pr7439-current-head-bq-path14
+Model: gemini-2.5-flash
+======================================================================
+📁 Evidence directory: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14
+   Evidence will be saved to: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_XXX/
+📁 Base evidence directory (forced branch-scoped /tmp): /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14
+Created iteration directory for evidence: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001
+
+🚀 Starting fresh local MCP server on port 8049...
+✅ Server ready at http://127.0.0.1:8049
+Tmux video recording started for evidence bundle.
+
+[EVIDENCE_BUNDLE] /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001
+[BQ_MARKER] REAL_LLM_BQ_PATH14_1781200900
+[BQ_ROWS] 1
+  event_type='gameplay_streaming' path='gemini_provider.stream' exec=None req_len='406911' resp_len='4133' req_model='gemini-3-flash-preview' req_temp=None req_max=None has_contents='true' has_marker='true'
+  ✅ Captured campaign snapshot for 6WfwGRCs
+Tmux video artifact finalized (.cast).
+
+================================================================================
+📦 EVIDENCE BUNDLE CREATED
+================================================================================
+📁 Evidence Directory:
+   /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001
+
+📋 Bundle Metadata:
+   Run ID:        pr7439-current-head-bq-path14-001-20260611T180215
+   Iteration:     1
+   Bundle Version: 1.2.0
+   📁 Evidence directory: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001
+   📁 Latest iteration: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001
+
+📥 Downloading 1 test campaigns (workers=1)...
+Downloading to: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001/campaigns
+Format: txt
+============================================================
+Downloading: 6WfwGRCs7GuO2vYK7KXo...
+  Saved story: BQ Path14 Gameplay Streaming Proxy E2E_6WfwGRCs.txt
+  Saved game state: BQ Path14 Gameplay Streaming Proxy E2E_6WfwGRCs_game_state.json
+  Entries: 4, Story size: 2.7 KB, Game state size: 5.9 KB
+============================================================
+Downloaded 1/1 campaigns
+  stderr: 2026-06-11 11:02:15,617 - root - INFO - Unified logging configured: /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/worktree_bq_loggin/app.log
+  stderr: 2026-06-11 11:02:15,617 - root - INFO - Applied clock skew patch: adjusting time by -720 seconds
+  stderr: 2026-06-11 11:02:16,279 - mvp_site.adjusters.base - INFO - Registered adjuster: ADJ-WA-JSON-STRIP-PREFIX | Scope: format_normalization | Priority: 10
+  stderr: 2026-06-11 11:02:16,284 - root - INFO - Firebase not initialized - attempting to initialize now
+  stderr: 2026-06-11 11:02:16,285 - root - INFO - Loading service account from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-06-11 11:02:16,285 - root - INFO - ✅ Successfully loaded credentials from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-06-11 11:02:16,285 - root - INFO - Successfully loaded service account credentials
+  stderr: 2026-06-11 11:02:16,755 - root - INFO - 📖 FETCHED STORY ENTRIES: user=test-bq_path14_gameplay_streaming_proxy_e2e-1781200848, campaign=6WfwGRCs7GuO2vYK7KXo, total_entries=4
+  stderr: 2026-06-11 11:02:16,755 - root - INFO - 📊 STORY BREAKDOWN: user_entries=2, ai_entries=2, other_entries=0
+  stderr: 2026-06-11 11:02:16,755 - root - INFO - 🔍 RECENT ENTRIES (last 4):
+  stderr: 2026-06-11 11:02:16,755 - root - INFO -   1. [user] god | Character: A wandering scout named Kira | Setting:... | 2026-06-11 18:01:37.490964+00:00
+  stderr: 2026-06-11 11:02:16,755 - root - INFO -   2. [gemini] N/A | Dawn (06:00:00). [CHARACTER CREATION - Initial Cho... | 2026-06-11 18:01:37.958727+00:00
+  stderr: 2026-06-11 11:02:16,755 - root - INFO -   3. [user] character | I peer through the mist and listen. (REAL_LLM_BQ_P... | 2026-06-11 18:01:57.753833+00:00
+  stderr: 2026-06-11 11:02:16,755 - root - INFO -   4. [gemini] character | Dawn (06:01:00) in the Misty Mountain Pass—the chi... | 2026-06-11 18:01:58.243210+00:00
+  ✅ Downloaded campaign 6WfwGRCs... (4 entries)
+  ✅ Downloaded campaign 6WfwGRCs... (4 entries, user_id=test-bq_path14_gameplay_streaming_proxy_e2e-1781200848)
+📦 Downloaded 1/1 campaigns to:
+   /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001/campaigns
+ℹ️  Reconciled campaign_capture_status with exported campaign artifacts.
+
+================================================================================
+✅ TEST EVIDENCE SUMMARY
+================================================================================
+📁 Evidence Location:  /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001
+📥 Campaigns Location: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001/campaigns
+🔗 Latest Symlink:     /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/latest
+================================================================================
+
+📎 Iteration artifact captured: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001/scenario_results_checkpoint.json
+📁 Final evidence iteration directory: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001
+
+======================================================================
+SUMMARY
+======================================================================
+Total scenarios: 2
+Passed: 2
+Failed: 0
+Pass rate: 2/2 (100%)
+
+📦 Evidence bundle created: /tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14
+   Files: 21 with checksums

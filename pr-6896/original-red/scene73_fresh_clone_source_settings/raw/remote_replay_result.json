@@ -1,0 +1,1964 @@
+{
+  "events": [
+    {
+      "event_type": "metadata",
+      "payload": {
+        "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 23:00:00\nLocation: Wyrm's Crossing\nStatus: Lvl 4 Ascendant Herald (Bard) | HP: 29/29\nResources: Spells: L1 3/4, L2 1/3 | Bardic Inspiration: 3/3",
+        "location_confirmed": "Wyrm's Crossing",
+        "resources": "Spells: L1 3/4, L2 1/3 | Bardic Inspiration: 3/3"
+      },
+      "arrival_ts_utc": "2026-05-23T07:14:56.725410+00:00",
+      "t_ms_since_start": 433.204
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "{\n  \"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1492 DR, Eleasias",
+        "sequence": 0,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:36.064184+00:00",
+      "t_ms_since_start": 39771.732
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " 24, 23:30:00\\nLocation: The Silvershield Annex\\nStatus",
+        "sequence": 1,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:36.131754+00:00",
+      "t_ms_since_start": 39839.315
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": ": Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3722/6500 |",
+        "sequence": 2,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:36.245924+00:00",
+      "t_ms_since_start": 39953.484
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " Gold: 383gp\\nConditions: Wounded (Scarred) | Exhaustion: 0 | Inspiration: Yes\",",
+        "sequence": 3,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:36.367774+00:00",
+      "t_ms_since_start": 40075.334
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\n  \"resources\": \"HD: 2/4, Spells: L1 3/4, L",
+        "sequence": 4,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:36.449814+00:00",
+      "t_ms_since_start": 40157.373
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "2 1/3, Ki: N/A, Rage: N/A, Potions: 0/0, Exhaustion: ",
+        "sequence": 5,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:36.513607+00:00",
+      "t_ms_since_start": 40221.167
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "0\",\n  \"narrative\": \"The freezing rain drums a relentless post-mortem against the black-tarred hulls",
+        "sequence": 6,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:36.664552+00:00",
+      "t_ms_since_start": 40372.109
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave",
+        "sequence": 7,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:36.856747+00:00",
+      "t_ms_since_start": 40564.305
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath",
+        "sequence": 8,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:37.064595+00:00",
+      "t_ms_since_start": 40772.15
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \\n\\n",
+        "sequence": 9,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:37.256805+00:00",
+      "t_ms_since_start": 40964.359
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "But the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step",
+        "sequence": 10,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:37.448084+00:00",
+      "t_ms_since_start": 41155.637
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-b",
+        "sequence": 11,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:37.729200+00:00",
+      "t_ms_since_start": 41436.751
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "itten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck",
+        "sequence": 12,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:37.968986+00:00",
+      "t_ms_since_start": 41676.536
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his w",
+        "sequence": 13,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:38.229854+00:00",
+      "t_ms_since_start": 41937.404
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "axy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the",
+        "sequence": 14,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:38.427646+00:00",
+      "t_ms_since_start": 42135.194
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " eugenic augurs would grade as prime breeding stock.\\n\\n\\\"Kaelen,\\\" you whisper, your",
+        "sequence": 15,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:38.612033+00:00",
+      "t_ms_since_start": 42319.579
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " voice dropping to a cool, lethal frequency. \\\"The quartermaster's genetic viability is exceptional. Gag him, bind him in",
+        "sequence": 16,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:38.811828+00:00",
+      "t_ms_since_start": 42519.374
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud",
+        "sequence": 17,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:38.984879+00:00",
+      "t_ms_since_start": 42692.424
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": ". He is the first specimen of the Harvest.\\\"\\n\\nKaelen moves like a silent wall, dragging",
+        "sequence": 18,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:39.077156+00:00",
+      "t_ms_since_start": 42784.701
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth",
+        "sequence": 19,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:39.340061+00:00",
+      "t_ms_since_start": 43047.603
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal",
+        "sequence": 20,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:39.545573+00:00",
+      "t_ms_since_start": 43253.109
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " purse. \\n\\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the",
+        "sequence": 21,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:39.744016+00:00",
+      "t_ms_since_start": 43451.557
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard",
+        "sequence": 22,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:39.861564+00:00",
+      "t_ms_since_start": 43569.103
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean",
+        "sequence": 23,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:40.115748+00:00",
+      "t_ms_since_start": 43823.286
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " cull.\\n\\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite",
+        "sequence": 24,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:40.334526+00:00",
+      "t_ms_since_start": 44042.062
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrub",
+        "sequence": 25,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:40.594931+00:00",
+      "t_ms_since_start": 44302.467
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "bed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly",
+        "sequence": 26,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:40.704929+00:00",
+      "t_ms_since_start": 44412.464
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " below.\\n\\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight",
+        "sequence": 27,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:40.932095+00:00",
+      "t_ms_since_start": 44639.628
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your",
+        "sequence": 28,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:41.075772+00:00",
+      "t_ms_since_start": 44783.305
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " Auctoritas is an inescapable gravity.\\n\\n\\\"The terms are absolute, Duke,\\\" you murmur, your voice a smooth",
+        "sequence": 29,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:41.273627+00:00",
+      "t_ms_since_start": 44981.158
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": ", irresistible current. \\\"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\\\"\\n\\n",
+        "sequence": 30,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:41.501946+00:00",
+      "t_ms_since_start": 45209.476
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "Ravengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the",
+        "sequence": 31,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:41.695929+00:00",
+      "t_ms_since_start": 45403.458
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot,",
+        "sequence": 32,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:42.056246+00:00",
+      "t_ms_since_start": 45763.773
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " dark red wax of Aethelgard. The Joint Defense Pact is finalized.\\n\\n",
+        "sequence": 33,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:42.184007+00:00",
+      "t_ms_since_start": 45891.533
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\\nObjective: Secure Joint Defense Pact & Grain Trade\\nSocial HP:",
+        "sequence": 34,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:42.263235+00:00",
+      "t_ms_since_start": 45970.76
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " 0/10\\nStatus: SURRENDERED\\nResistance Shown: None. The Grand Duke has formally signed the treaty",
+        "sequence": 35,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:42.359254+00:00",
+      "t_ms_since_start": 46066.779
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": ", securing Aethelgard's logistical foothold.\",\n  \"planning_block\": {\n    \"thinking\": \"The Joint",
+        "sequence": 36,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:42.512909+00:00",
+      "t_ms_since_start": 46220.433
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " Defense Pact is signed, establishing our legal and political shield in the Upper City and securing our grain quota. However, our resources",
+        "sequence": 37,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:42.646548+00:00",
+      "t_ms_since_start": 46354.071
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " are depleted: Saita is low on Level 2 spell slots, and Grog-Mar is still asleep at the Salty Flounder under",
+        "sequence": 38,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:42.866658+00:00",
+      "t_ms_since_start": 46574.18
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " Sylas's surveillance. We must decide whether to interrogate our newly captured Zhentarim specimen, execute a swift",
+        "sequence": 39,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:43.090143+00:00",
+      "t_ms_since_start": 46797.663
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " strike on the flophouse, or rest to decay our Biological Integration Penalty.\",\n    \"context\": \"Silvershield Annex Grand",
+        "sequence": 40,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:43.266368+00:00",
+      "t_ms_since_start": 46973.889
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " Hall, Treaty Signed\",\n    \"choices\":",
+        "sequence": 41,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:43.322398+00:00",
+      "t_ms_since_start": 47029.917
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n      {\n        \"id\": \"interrogate_specimen\",\n        \"text\": \"Interrogate the Captured Specimen\",\n        \"description\": \"Descend to the soundproofed holding cells beneath the Annex to evaluate and secure the bound Zhentarim quartermaster before prepping him for the black-market galle",
+        "sequence": 42,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:43.607940+00:00",
+      "t_ms_since_start": 47315.457
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "ons.\",\n        \"pros\":",
+        "sequence": 43,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:43.781992+00:00",
+      "t_ms_since_start": 47489.508
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n          \"Establish his compliance early through psychological and physical pressure\",\n          \"Identify further Black Network safehouses or active smuggling routes\"\n        ],\n        \"cons\":",
+        "sequence": 44,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:44.047377+00:00",
+      "t_ms_since_start": 47754.892
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n          \"Does not recover your expended spell slots or HP\",\n          \"Grog-Mar may slip away if the morning tide approaches\"\n        ],\n        ",
+        "sequence": 45,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:44.216259+00:00",
+      "t_ms_since_start": 47923.773
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\"risk_level\": \"medium\",\n        \"confidence\": \"high\"\n      },\n      {\n        ",
+        "sequence": 46,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:44.287497+00:00",
+      "t_ms_since_start": 47995.01
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\"id\": \"secure_grog_mar_harvest\",\n        \"text\": \"The Flophouse Abduction (G",
+        "sequence": 47,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:44.373276+00:00",
+      "t_ms_since_start": 48080.79
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "rog-Mar)\",\n        \"description\": \"Slip out into the foggy harbor streets with Kaelen to the 'Salty Flounder'",
+        "sequence": 48,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:44.495551+00:00",
+      "t_ms_since_start": 48203.063
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " flophouse to subdue and secure Grog-Mar using the Harvester's Censer.\",\n        \"pros\":",
+        "sequence": 49,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:44.595460+00:00",
+      "t_ms_since_start": 48302.971
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n          \"Secure the prime genetic specimen before he departs Baldur's Gate with the morning tide\",\n          \"Use the newly requisitioned Zhentarim scows to smuggle his bound form directly to the Annex\"\n        ],\n        \"",
+        "sequence": 50,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:44.865805+00:00",
+      "t_ms_since_start": 48573.309
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "cons\":",
+        "sequence": 51,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:45.003846+00:00",
+      "t_ms_since_start": 48711.354
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n          \"Saita has only one Level 2 spell slot remaining\",\n          \"High physical risk if Grog-Mar's veteran reflexes resist the censer's gas\"\n        ],\n        \"risk_level\": \"high\",",
+        "sequence": 52,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:45.147039+00:00",
+      "t_ms_since_start": 48854.548
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\n        \"confidence\": \"medium\"\n      },\n      {\n        \"id\": \"long_rest_",
+        "sequence": 53,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:45.241689+00:00",
+      "t_ms_since_start": 48949.197
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "annex\",\n        \"text\": \"Secure the Citadel (Long Rest)\",\n        \"description\": \"Establish a defensive",
+        "sequence": 54,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:45.322273+00:00",
+      "t_ms_since_start": 49029.781
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " watch, lock down the Annex gates, and take a long rest to fully recover your HP, spell slots, and decay your Biological Integration Penalty.\",\n        ",
+        "sequence": 55,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:45.472932+00:00",
+      "t_ms_since_start": 49180.439
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\"pros\":",
+        "sequence": 56,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:45.563387+00:00",
+      "t_ms_since_start": 49270.893
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n          \"Fully recover to 29 HP and restore all level 1 and level 2 spell slots\",\n          \"Decay the Biological Integration Penalty by 25%, restoring your progression efficiency\"\n        ],\n        \"cons\":",
+        "sequence": 57,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:45.634144+00:00",
+      "t_ms_since_start": 49341.65
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n          \"Grog-Mar will escape with the morning tide, setting your Harvest progress back\",\n          \"Allows the Zhentarim to react to the Warehouse 7 raid while you sleep\"\n        ],\n        \"risk_level\": \"safe\",\n        ",
+        "sequence": 58,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:45.849684+00:00",
+      "t_ms_since_start": 49557.189
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\"confidence\": \"high\"\n      }\n    ]\n  },\n  \"action_resolution\": {\n    \"player_input\": \"tie up prisoners, fully loot them, draft treaty now and use my full cha and",
+        "sequence": 59,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:45.965921+00:00",
+      "t_ms_since_start": 49673.424
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " beauty and bardic insp for treaty, requisition contraband\",\n    \"interpreted_as\": \"persuasion_and_insight",
+        "sequence": 60,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:46.104971+00:00",
+      "t_ms_since_start": 49812.475
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "_check\",\n    \"reinterpreted\": false,\n    \"audit_flags\": [],\n    \"mechanics\": {\n      \"type\": \"skill_check\",\n      \"rolls\":",
+        "sequence": 61,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:46.272000+00:00",
+      "t_ms_since_start": 49979.502
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n        {\n          \"purpose\": \"Persuasion (Draft Treaty)\",\n          \"notation\": \"1d20+9\",\n          \"result\": 13,\n          \"success\": true,\n          \"dc\": 15,\n          \"die_type\": \"d20\",\n          \"modifier\": 9,\n          \"total\": 22,\n          \"dc_category",
+        "sequence": 62,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:46.528181+00:00",
+      "t_ms_since_start": 50235.681
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\": \"hard\",\n          \"dc_reasoning\": \"Duke is impressed by the raid but signing a formal military pact requires",
+        "sequence": 63,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:46.598840+00:00",
+      "t_ms_since_start": 50306.341
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " a solid diplomatic push (Base 17, -2 for raid success)\"\n        },\n        {\n          ",
+        "sequence": 64,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:46.669350+00:00",
+      "t_ms_since_start": 50376.849
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\"purpose\": \"Insight (Assess Breeders)\",\n          \"notation\": \"1d20+4\",\n          ",
+        "sequence": 65,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:46.774796+00:00",
+      "t_ms_since_start": 50482.294
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\"result\": 17,\n          \"success\": true,\n          \"dc\": 14,\n          \"die_type\": \"d20\",\n          \"modifier\": 4,\n          \"total\":",
+        "sequence": 66,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:46.915005+00:00",
+      "t_ms_since_start": 50622.503
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " 21,\n          \"dc_category\": \"medium\",\n          \"dc_reasoning\": \"Checking",
+        "sequence": 67,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:46.960680+00:00",
+      "t_ms_since_start": 50668.178
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " waxy skin and biological signatures of lower-tier Zhentarim thugs under dark, rain-soaked conditions\"\n        }\n      ],\n      \"audit_events\":",
+        "sequence": 68,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:47.143684+00:00",
+      "t_ms_since_start": 50851.18
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n        \"Saita successfully drafted and finalized the Joint Defense Pact with Duke Ravengard.\",\n        \"Lara Vance confirmed the Zhentarim quartermaster as a genetically viable specimen for the eugenics program.\"\n      ]\n    },\n    \"narrative_outcome\": \"The Joint Defense Pact is",
+        "sequence": 69,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:47.395668+00:00",
+      "t_ms_since_start": 51103.163
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " signed, and the first high-value genetic specimen has been secured for transport.\"\n  },\n  \"rewards_",
+        "sequence": 70,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:47.496713+00:00",
+      "t_ms_since_start": 51204.207
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "box\": {\n    \"source\": \"encounter\",\n    \"xp_gained\": 133,",
+        "sequence": 71,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:47.568461+00:00",
+      "t_ms_since_start": 51275.956
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\n    \"current_xp\": 3722,\n    \"next_level_xp\": 6",
+        "sequence": 72,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:47.644635+00:00",
+      "t_ms_since_start": 51352.128
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "500,\n    \"loot\":",
+        "sequence": 73,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:47.756183+00:00",
+      "t_ms_since_start": 51463.676
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n      \"Smuggler's Pocket-Watch\",\n      \"Zhentarim Ledger of Contacts\",\n      \"6x Iron-bound Daggers\",\n      \"1 Unit of Contraband Iron\",\n      \"1 Unit of Contraband Grain\",\n      \"Zhentarim Smuggling Vessel (Black",
+        "sequence": 74,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:47.895551+00:00",
+      "t_ms_since_start": 51603.043
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "-Tarred Scow)\"\n    ],\n    \"gold\": 51\n  },\n  \"social",
+        "sequence": 75,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:47.972669+00:00",
+      "t_ms_since_start": 51680.161
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "_hp_challenge\": {\n    \"npc_id\": \"npc_ravengard_001\",",
+        "sequence": 76,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.067128+00:00",
+      "t_ms_since_start": 51774.62
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\n    \"npc_name\": \"Duke Ulder Ravengard\",\n    \"npc_tier\": \"lord",
+        "sequence": 77,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.159206+00:00",
+      "t_ms_since_start": 51866.687
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "_general\",\n    \"objective\": \"Secure Joint Defense Pact & Grain Trade\",\n    \"request_severity\":",
+        "sequence": 78,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.196828+00:00",
+      "t_ms_since_start": 51904.319
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " \"submission\",\n    \"social_hp\": 0,\n    \"social_hp_max\": 1",
+        "sequence": 79,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.267253+00:00",
+      "t_ms_since_start": 51974.743
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "0,\n    \"cooldown_remaining\": 1,\n    \"successes\": 5,\n    ",
+        "sequence": 80,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.346357+00:00",
+      "t_ms_since_start": 52053.847
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\"successes_needed\": 5,\n    \"status\": \"SURRENDERED\",\n    \"resistance_",
+        "sequence": 81,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.420348+00:00",
+      "t_ms_since_start": 52127.837
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "shown\": \"None. The Joint Defense Pact has been successfully signed under the imperial wax seal.\",\n    \"skill_",
+        "sequence": 82,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.504409+00:00",
+      "t_ms_since_start": 52211.898
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "used\": \"Persuasion\",\n    \"roll_result\": 22,\n    \"roll_dc\": 15,\n    \"",
+        "sequence": 83,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.608998+00:00",
+      "t_ms_since_start": 52316.486
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "social_hp_damage\": 5\n  },\n  \"entities_mentioned\":",
+        "sequence": 84,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.687510+00:00",
+      "t_ms_since_start": 52394.997
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n    \"Duke Ulder Ravengard\",\n    \"Kaelen\",\n    \"Lara Vance\",\n    \"Sylas the Rat\"\n  ],\n  \"location_confirmed\": \"The Silvershield Annex\",\n  \"state_updates\": {\n    \"player_",
+        "sequence": 85,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:48.891778+00:00",
+      "t_ms_since_start": 52599.264
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "character_data\": {\n      \"experience\": {\n        \"current\": 3722,\n        \"to_next_level",
+        "sequence": 86,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:49.016698+00:00",
+      "t_ms_since_start": 52724.184
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\": 2778\n      },\n      \"resources\": {\n        \"gold\": 383,\n        \"spell_slots",
+        "sequence": 87,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:49.100968+00:00",
+      "t_ms_since_start": 52808.454
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\": {\n          \"level_2\": {\n            \"used\": 2,\n            \"max\": 3",
+        "sequence": 88,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:49.198746+00:00",
+      "t_ms_since_start": 52906.23
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\n          },\n          \"level_1\": {\n            \"used\": 1,\n            \"max\": 4\n          }\n        }\n      },\n      \"inventory\": {\n        \"append\":",
+        "sequence": 89,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:49.429450+00:00",
+      "t_ms_since_start": 53136.934
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " [\n          {\n            \"name\": \"Smuggler's Pocket-Watch\",\n            \"type\": \"item\",\n            \"description\": \"A tarnished silver pocket-watch salvaged from the Warehouse 7 raid.\"\n          },\n          {\n            \"name\": \"Zhentarim Ledger of",
+        "sequence": 90,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:49.586951+00:00",
+      "t_ms_since_start": 53294.433
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " Contacts\",\n            \"type\": \"item\",\n            \"description\": \"A wet, leather-bound ledger detailing",
+        "sequence": 91,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:49.689584+00:00",
+      "t_ms_since_start": 53397.065
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " smuggling contacts in the Lower City.\"\n          },\n          {\n            \"name\": \"6x Iron-bound Daggers\",\n            \"type",
+        "sequence": 92,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:49.789026+00:00",
+      "t_ms_since_start": 53496.507
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\": \"item\",\n            \"description\": \"Six masterwork iron daggers salvaged from the Zhentarim smugglers",
+        "sequence": 93,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:49.849265+00:00",
+      "t_ms_since_start": 53556.747
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": ".\"\n          }\n        ]\n      }\n    },\n    \"custom_campaign_state\": {\n      \"harvest_quota\": {\n        \"grain_units_secured\": 5,\n        \"iron_units_",
+        "sequence": 94,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.060058+00:00",
+      "t_ms_since_start": 53767.538
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "secured\": 4,\n        \"specimens_secured\": 1\n      },\n      \"imperial_favor",
+        "sequence": 95,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.148542+00:00",
+      "t_ms_since_start": 53856.021
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\": 1,\n      \"core_memories\": {\n        \"append\": \"Princess Saita successfully signed",
+        "sequence": 96,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.194534+00:00",
+      "t_ms_since_start": 53902.012
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at",
+        "sequence": 97,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.319290+00:00",
+      "t_ms_since_start": 54026.768
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": " Warehouse 7.\"\n      }\n    },\n    \"world_data\": {\n      \"world_time",
+        "sequence": 98,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.398383+00:00",
+      "t_ms_since_start": 54105.861
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\": {\n        \"year\": 1492,\n        \"month\": \"Eleasias\",\n        \"day\": 24,\n        \"hour\": 23,\n        \"minute\": 3",
+        "sequence": 99,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.547773+00:00",
+      "t_ms_since_start": 54255.25
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "0,\n        \"second\": 0,\n        \"microsecond\": 0,\n        \"time_",
+        "sequence": 100,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.623214+00:00",
+      "t_ms_since_start": 54330.691
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "of_day\": \"night\"\n      },\n      \"location\": \"The Silvershield Annex\"\n    }",
+        "sequence": 101,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.759097+00:00",
+      "t_ms_since_start": 54466.572
+    },
+    {
+      "event_type": "chunk",
+      "payload": {
+        "text": "\n  }\n}",
+        "sequence": 102,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.792065+00:00",
+      "t_ms_since_start": 54499.54
+    },
+    {
+      "event_type": "state",
+      "payload": {
+        "player_character_data": {
+          "experience": {
+            "current": 3722,
+            "to_next_level": 2778
+          },
+          "resources": {
+            "gold": 383,
+            "spell_slots": {
+              "level_2": {
+                "used": 2,
+                "max": 3
+              },
+              "level_1": {
+                "used": 1,
+                "max": 4
+              }
+            }
+          },
+          "inventory": {
+            "append": [
+              {
+                "name": "Smuggler's Pocket-Watch",
+                "type": "item",
+                "description": "A tarnished silver pocket-watch salvaged from the Warehouse 7 raid."
+              },
+              {
+                "name": "Zhentarim Ledger of Contacts",
+                "type": "item",
+                "description": "A wet, leather-bound ledger detailing smuggling contacts in the Lower City."
+              },
+              {
+                "name": "6x Iron-bound Daggers",
+                "type": "item",
+                "description": "Six masterwork iron daggers salvaged from the Zhentarim smugglers."
+              }
+            ]
+          }
+        },
+        "custom_campaign_state": {
+          "harvest_quota": {
+            "grain_units_secured": 5,
+            "iron_units_secured": 4,
+            "specimens_secured": 1
+          },
+          "imperial_favor": 1,
+          "core_memories": {
+            "append": "Princess Saita successfully signed a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at Warehouse 7."
+          }
+        },
+        "world_data": {
+          "world_time": {
+            "year": 1492,
+            "month": "Eleasias",
+            "day": 24,
+            "hour": 23,
+            "minute": 30,
+            "second": 0,
+            "microsecond": 0,
+            "time_of_day": "night"
+          },
+          "location": "The Silvershield Annex"
+        }
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:50.820587+00:00",
+      "t_ms_since_start": 54528.063
+    },
+    {
+      "event_type": "done",
+      "payload": {
+        "execution_path": "streaming",
+        "full_narrative": "The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \n\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\n\n\"Kaelen,\" you whisper, your voice dropping to a cool, lethal frequency. \"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\"\n\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \n\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\n\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\n\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\n\n\"The terms are absolute, Duke,\" you murmur, your voice a smooth, irresistible current. \"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\"\n\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 0/10\nStatus: SURRENDERED\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.",
+        "display_text": "The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \n\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\n\n\"Kaelen,\" you whisper, your voice dropping to a cool, lethal frequency. \"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\"\n\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \n\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\n\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\n\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\n\n\"The terms are absolute, Duke,\" you murmur, your voice a smooth, irresistible current. \"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\"\n\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 0/10\nStatus: SURRENDERED\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.",
+        "raw_response_text": "{\n  \"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1492 DR, Eleasias 24, 23:30:00\\nLocation: The Silvershield Annex\\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3722/6500 | Gold: 383gp\\nConditions: Wounded (Scarred) | Exhaustion: 0 | Inspiration: Yes\",\n  \"resources\": \"HD: 2/4, Spells: L1 3/4, L2 1/3, Ki: N/A, Rage: N/A, Potions: 0/0, Exhaustion: 0\",\n  \"narrative\": \"The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \\n\\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\\n\\n\\\"Kaelen,\\\" you whisper, your voice dropping to a cool, lethal frequency. \\\"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\\\"\\n\\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \\n\\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\\n\\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\\n\\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\\n\\n\\\"The terms are absolute, Duke,\\\" you murmur, your voice a smooth, irresistible current. \\\"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\\\"\\n\\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\\n\\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\\nObjective: Secure Joint Defense Pact & Grain Trade\\nSocial HP: 0/10\\nStatus: SURRENDERED\\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.\",\n  \"planning_block\": {\n    \"thinking\": \"The Joint Defense Pact is signed, establishing our legal and political shield in the Upper City and securing our grain quota. However, our resources are depleted: Saita is low on Level 2 spell slots, and Grog-Mar is still asleep at the Salty Flounder under Sylas's surveillance. We must decide whether to interrogate our newly captured Zhentarim specimen, execute a swift strike on the flophouse, or rest to decay our Biological Integration Penalty.\",\n    \"context\": \"Silvershield Annex Grand Hall, Treaty Signed\",\n    \"choices\": [\n      {\n        \"id\": \"interrogate_specimen\",\n        \"text\": \"Interrogate the Captured Specimen\",\n        \"description\": \"Descend to the soundproofed holding cells beneath the Annex to evaluate and secure the bound Zhentarim quartermaster before prepping him for the black-market galleons.\",\n        \"pros\": [\n          \"Establish his compliance early through psychological and physical pressure\",\n          \"Identify further Black Network safehouses or active smuggling routes\"\n        ],\n        \"cons\": [\n          \"Does not recover your expended spell slots or HP\",\n          \"Grog-Mar may slip away if the morning tide approaches\"\n        ],\n        \"risk_level\": \"medium\",\n        \"confidence\": \"high\"\n      },\n      {\n        \"id\": \"secure_grog_mar_harvest\",\n        \"text\": \"The Flophouse Abduction (Grog-Mar)\",\n        \"description\": \"Slip out into the foggy harbor streets with Kaelen to the 'Salty Flounder' flophouse to subdue and secure Grog-Mar using the Harvester's Censer.\",\n        \"pros\": [\n          \"Secure the prime genetic specimen before he departs Baldur's Gate with the morning tide\",\n          \"Use the newly requisitioned Zhentarim scows to smuggle his bound form directly to the Annex\"\n        ],\n        \"cons\": [\n          \"Saita has only one Level 2 spell slot remaining\",\n          \"High physical risk if Grog-Mar's veteran reflexes resist the censer's gas\"\n        ],\n        \"risk_level\": \"high\",\n        \"confidence\": \"medium\"\n      },\n      {\n        \"id\": \"long_rest_annex\",\n        \"text\": \"Secure the Citadel (Long Rest)\",\n        \"description\": \"Establish a defensive watch, lock down the Annex gates, and take a long rest to fully recover your HP, spell slots, and decay your Biological Integration Penalty.\",\n        \"pros\": [\n          \"Fully recover to 29 HP and restore all level 1 and level 2 spell slots\",\n          \"Decay the Biological Integration Penalty by 25%, restoring your progression efficiency\"\n        ],\n        \"cons\": [\n          \"Grog-Mar will escape with the morning tide, setting your Harvest progress back\",\n          \"Allows the Zhentarim to react to the Warehouse 7 raid while you sleep\"\n        ],\n        \"risk_level\": \"safe\",\n        \"confidence\": \"high\"\n      }\n    ]\n  },\n  \"action_resolution\": {\n    \"player_input\": \"tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband\",\n    \"interpreted_as\": \"persuasion_and_insight_check\",\n    \"reinterpreted\": false,\n    \"audit_flags\": [],\n    \"mechanics\": {\n      \"type\": \"skill_check\",\n      \"rolls\": [\n        {\n          \"purpose\": \"Persuasion (Draft Treaty)\",\n          \"notation\": \"1d20+9\",\n          \"result\": 13,\n          \"success\": true,\n          \"dc\": 15,\n          \"die_type\": \"d20\",\n          \"modifier\": 9,\n          \"total\": 22,\n          \"dc_category\": \"hard\",\n          \"dc_reasoning\": \"Duke is impressed by the raid but signing a formal military pact requires a solid diplomatic push (Base 17, -2 for raid success)\"\n        },\n        {\n          \"purpose\": \"Insight (Assess Breeders)\",\n          \"notation\": \"1d20+4\",\n          \"result\": 17,\n          \"success\": true,\n          \"dc\": 14,\n          \"die_type\": \"d20\",\n          \"modifier\": 4,\n          \"total\": 21,\n          \"dc_category\": \"medium\",\n          \"dc_reasoning\": \"Checking waxy skin and biological signatures of lower-tier Zhentarim thugs under dark, rain-soaked conditions\"\n        }\n      ],\n      \"audit_events\": [\n        \"Saita successfully drafted and finalized the Joint Defense Pact with Duke Ravengard.\",\n        \"Lara Vance confirmed the Zhentarim quartermaster as a genetically viable specimen for the eugenics program.\"\n      ]\n    },\n    \"narrative_outcome\": \"The Joint Defense Pact is signed, and the first high-value genetic specimen has been secured for transport.\"\n  },\n  \"rewards_box\": {\n    \"source\": \"encounter\",\n    \"xp_gained\": 133,\n    \"current_xp\": 3722,\n    \"next_level_xp\": 6500,\n    \"loot\": [\n      \"Smuggler's Pocket-Watch\",\n      \"Zhentarim Ledger of Contacts\",\n      \"6x Iron-bound Daggers\",\n      \"1 Unit of Contraband Iron\",\n      \"1 Unit of Contraband Grain\",\n      \"Zhentarim Smuggling Vessel (Black-Tarred Scow)\"\n    ],\n    \"gold\": 51\n  },\n  \"social_hp_challenge\": {\n    \"npc_id\": \"npc_ravengard_001\",\n    \"npc_name\": \"Duke Ulder Ravengard\",\n    \"npc_tier\": \"lord_general\",\n    \"objective\": \"Secure Joint Defense Pact & Grain Trade\",\n    \"request_severity\": \"submission\",\n    \"social_hp\": 0,\n    \"social_hp_max\": 10,\n    \"cooldown_remaining\": 1,\n    \"successes\": 5,\n    \"successes_needed\": 5,\n    \"status\": \"SURRENDERED\",\n    \"resistance_shown\": \"None. The Joint Defense Pact has been successfully signed under the imperial wax seal.\",\n    \"skill_used\": \"Persuasion\",\n    \"roll_result\": 22,\n    \"roll_dc\": 15,\n    \"social_hp_damage\": 5\n  },\n  \"entities_mentioned\": [\n    \"Duke Ulder Ravengard\",\n    \"Kaelen\",\n    \"Lara Vance\",\n    \"Sylas the Rat\"\n  ],\n  \"location_confirmed\": \"The Silvershield Annex\",\n  \"state_updates\": {\n    \"player_character_data\": {\n      \"experience\": {\n        \"current\": 3722,\n        \"to_next_level\": 2778\n      },\n      \"resources\": {\n        \"gold\": 383,\n        \"spell_slots\": {\n          \"level_2\": {\n            \"used\": 2,\n            \"max\": 3\n          },\n          \"level_1\": {\n            \"used\": 1,\n            \"max\": 4\n          }\n        }\n      },\n      \"inventory\": {\n        \"append\": [\n          {\n            \"name\": \"Smuggler's Pocket-Watch\",\n            \"type\": \"item\",\n            \"description\": \"A tarnished silver pocket-watch salvaged from the Warehouse 7 raid.\"\n          },\n          {\n            \"name\": \"Zhentarim Ledger of Contacts\",\n            \"type\": \"item\",\n            \"description\": \"A wet, leather-bound ledger detailing smuggling contacts in the Lower City.\"\n          },\n          {\n            \"name\": \"6x Iron-bound Daggers\",\n            \"type\": \"item\",\n            \"description\": \"Six masterwork iron daggers salvaged from the Zhentarim smugglers.\"\n          }\n        ]\n      }\n    },\n    \"custom_campaign_state\": {\n      \"harvest_quota\": {\n        \"grain_units_secured\": 5,\n        \"iron_units_secured\": 4,\n        \"specimens_secured\": 1\n      },\n      \"imperial_favor\": 1,\n      \"core_memories\": {\n        \"append\": \"Princess Saita successfully signed a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at Warehouse 7.\"\n      }\n    },\n    \"world_data\": {\n      \"world_time\": {\n        \"year\": 1492,\n        \"month\": \"Eleasias\",\n        \"day\": 24,\n        \"hour\": 23,\n        \"minute\": 30,\n        \"second\": 0,\n        \"microsecond\": 0,\n        \"time_of_day\": \"night\"\n      },\n      \"location\": \"The Silvershield Annex\"\n    }\n  }\n}",
+        "chunk_count": 103,
+        "agent_used": "DialogAgent",
+        "agent_mode": "dialog",
+        "model_used": "gemini-3.5-flash",
+        "provider_used": "gemini",
+        "has_structured_response": true,
+        "state_updates": {
+          "player_character_data": {
+            "experience": {
+              "current": 3722,
+              "to_next_level": 2778
+            },
+            "resources": {
+              "gold": 383,
+              "spell_slots": {
+                "level_2": {
+                  "used": 2,
+                  "max": 3
+                },
+                "level_1": {
+                  "used": 1,
+                  "max": 4
+                }
+              }
+            },
+            "inventory": {
+              "append": [
+                {
+                  "name": "Smuggler's Pocket-Watch",
+                  "type": "item",
+                  "description": "A tarnished silver pocket-watch salvaged from the Warehouse 7 raid."
+                },
+                {
+                  "name": "Zhentarim Ledger of Contacts",
+                  "type": "item",
+                  "description": "A wet, leather-bound ledger detailing smuggling contacts in the Lower City."
+                },
+                {
+                  "name": "6x Iron-bound Daggers",
+                  "type": "item",
+                  "description": "Six masterwork iron daggers salvaged from the Zhentarim smugglers."
+                }
+              ]
+            }
+          },
+          "custom_campaign_state": {
+            "harvest_quota": {
+              "grain_units_secured": 5,
+              "iron_units_secured": 4,
+              "specimens_secured": 1
+            },
+            "imperial_favor": 1,
+            "core_memories": {
+              "append": "Princess Saita successfully signed a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at Warehouse 7."
+            }
+          },
+          "world_data": {
+            "world_time": {
+              "year": 1492,
+              "month": "Eleasias",
+              "day": 24,
+              "hour": 23,
+              "minute": 30,
+              "second": 0,
+              "microsecond": 0,
+              "time_of_day": "night"
+            },
+            "location": "The Silvershield Annex"
+          }
+        },
+        "structured_response": {
+          "narrative": "The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \n\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\n\n\"Kaelen,\" you whisper, your voice dropping to a cool, lethal frequency. \"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\"\n\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \n\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\n\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\n\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\n\n\"The terms are absolute, Duke,\" you murmur, your voice a smooth, irresistible current. \"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\"\n\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 0/10\nStatus: SURRENDERED\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.",
+          "entities_mentioned": [
+            "Duke Ulder Ravengard",
+            "Kaelen",
+            "Lara Vance",
+            "Sylas the Rat"
+          ],
+          "location_confirmed": "The Silvershield Annex",
+          "turn_summary": null,
+          "state_updates": {
+            "player_character_data": {
+              "experience": {
+                "current": 3722,
+                "to_next_level": 2778
+              },
+              "resources": {
+                "gold": 383,
+                "spell_slots": {
+                  "level_2": {
+                    "used": 2,
+                    "max": 3
+                  },
+                  "level_1": {
+                    "used": 1,
+                    "max": 4
+                  }
+                }
+              },
+              "inventory": {
+                "append": [
+                  {
+                    "name": "Smuggler's Pocket-Watch",
+                    "type": "item",
+                    "description": "A tarnished silver pocket-watch salvaged from the Warehouse 7 raid."
+                  },
+                  {
+                    "name": "Zhentarim Ledger of Contacts",
+                    "type": "item",
+                    "description": "A wet, leather-bound ledger detailing smuggling contacts in the Lower City."
+                  },
+                  {
+                    "name": "6x Iron-bound Daggers",
+                    "type": "item",
+                    "description": "Six masterwork iron daggers salvaged from the Zhentarim smugglers."
+                  }
+                ]
+              }
+            },
+            "custom_campaign_state": {
+              "harvest_quota": {
+                "grain_units_secured": 5,
+                "iron_units_secured": 4,
+                "specimens_secured": 1
+              },
+              "imperial_favor": 1,
+              "core_memories": {
+                "append": "Princess Saita successfully signed a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at Warehouse 7."
+              }
+            },
+            "world_data": {
+              "world_time": {
+                "year": 1492,
+                "month": "Eleasias",
+                "day": 24,
+                "hour": 23,
+                "minute": 30,
+                "second": 0,
+                "microsecond": 0,
+                "time_of_day": "night"
+              },
+              "location": "The Silvershield Annex"
+            }
+          },
+          "debug_info": {
+            "_state_update_schema_gate_errors": [
+              "Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)",
+              "Kept state_updates.custom_campaign_state.imperial_favor: unknown key in strict overlay policy (no close match)"
+            ],
+            "_server_system_warnings": [
+              "State update schema gate: Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)",
+              "State update schema gate: Kept state_updates.custom_campaign_state.imperial_favor: unknown key in strict overlay policy (no close match)"
+            ],
+            "llm_provider": "gemini",
+            "llm_model": "gemini-3.5-flash",
+            "execution_path": "streaming",
+            "agent_name": "DialogAgent",
+            "intent_classifier": {
+              "intent": "dialog",
+              "classifier_source": "semantic_intent",
+              "confidence": 0.6866406798362732,
+              "routing_priority": "7_semantic_dialog"
+            },
+            "system_instruction_files": [
+              "prompts/master_directive.md",
+              "prompts/game_state_instruction.md",
+              "prompts/planning_protocol.md",
+              "prompts/dice_system_instruction_code_execution.md",
+              "prompts/dialog_system_instruction.md",
+              "prompts/narrative_lite_system_instruction.md",
+              "prompts/character_template.md",
+              "prompts/relationship_instruction.md"
+            ],
+            "system_instruction_char_count": 286853
+          },
+          "directives": {
+            "add": [],
+            "drop": []
+          },
+          "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 23:30:00\nLocation: The Silvershield Annex\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3722/6500 | Gold: 383gp\nConditions: Wounded (Scarred) | Exhaustion: 0 | Inspiration: Yes",
+          "faction_header": "",
+          "planning_block": {
+            "thinking": "The Joint Defense Pact is signed, establishing our legal and political shield in the Upper City and securing our grain quota. However, our resources are depleted: Saita is low on Level 2 spell slots, and Grog-Mar is still asleep at the Salty Flounder under Sylas's surveillance. We must decide whether to interrogate our newly captured Zhentarim specimen, execute a swift strike on the flophouse, or rest to decay our Biological Integration Penalty.",
+            "context": "Silvershield Annex Grand Hall, Treaty Signed",
+            "choices": [
+              {
+                "id": "interrogate_specimen",
+                "text": "Interrogate the Captured Specimen",
+                "description": "Descend to the soundproofed holding cells beneath the Annex to evaluate and secure the bound Zhentarim quartermaster before prepping him for the black-market galleons.",
+                "risk_level": "medium",
+                "pros": [
+                  "Establish his compliance early through psychological and physical pressure",
+                  "Identify further Black Network safehouses or active smuggling routes"
+                ],
+                "cons": [
+                  "Does not recover your expended spell slots or HP",
+                  "Grog-Mar may slip away if the morning tide approaches"
+                ],
+                "confidence": "high"
+              },
+              {
+                "id": "secure_grog_mar_harvest",
+                "text": "The Flophouse Abduction (Grog-Mar)",
+                "description": "Slip out into the foggy harbor streets with Kaelen to the 'Salty Flounder' flophouse to subdue and secure Grog-Mar using the Harvester's Censer.",
+                "risk_level": "high",
+                "pros": [
+                  "Secure the prime genetic specimen before he departs Baldur's Gate with the morning tide",
+                  "Use the newly requisitioned Zhentarim scows to smuggle his bound form directly to the Annex"
+                ],
+                "cons": [
+                  "Saita has only one Level 2 spell slot remaining",
+                  "High physical risk if Grog-Mar's veteran reflexes resist the censer's gas"
+                ],
+                "confidence": "medium"
+              },
+              {
+                "id": "long_rest_annex",
+                "text": "Secure the Citadel (Long Rest)",
+                "description": "Establish a defensive watch, lock down the Annex gates, and take a long rest to fully recover your HP, spell slots, and decay your Biological Integration Penalty.",
+                "risk_level": "safe",
+                "pros": [
+                  "Fully recover to 29 HP and restore all level 1 and level 2 spell slots",
+                  "Decay the Biological Integration Penalty by 25%, restoring your progression efficiency"
+                ],
+                "cons": [
+                  "Grog-Mar will escape with the morning tide, setting your Harvest progress back",
+                  "Allows the Zhentarim to react to the Warehouse 7 raid while you sleep"
+                ],
+                "confidence": "high"
+              }
+            ]
+          },
+          "dice_rolls": [],
+          "dice_audit_events": [],
+          "resources": "HD: 2/4, Spells: L1 3/4, L2 1/3, Ki: N/A, Rage: N/A, Potions: 0/0, Exhaustion: 0",
+          "social_hp_challenge": {
+            "npc_id": "npc_ravengard_001",
+            "npc_name": "Duke Ulder Ravengard",
+            "objective": "Secure Joint Defense Pact & Grain Trade",
+            "social_hp": 0,
+            "social_hp_max": 10,
+            "status": "SURRENDERED",
+            "npc_tier": "lord_general",
+            "cooldown_remaining": 1,
+            "skill_used": "Persuasion",
+            "request_severity": "submission",
+            "resistance_shown": "None. The Joint Defense Pact has been successfully signed under the imperial wax seal.",
+            "social_hp_damage": 5,
+            "successes": 5,
+            "successes_needed": 5,
+            "roll_result": 22,
+            "roll_dc": 15
+          },
+          "rewards_box": {
+            "source": "encounter",
+            "xp_gained": 133,
+            "level_up_available": false,
+            "gold": 51,
+            "loot": [
+              "Smuggler's Pocket-Watch",
+              "Zhentarim Ledger of Contacts",
+              "6x Iron-bound Daggers",
+              "1 Unit of Contraband Iron",
+              "1 Unit of Contraband Grain",
+              "Zhentarim Smuggling Vessel (Black-Tarred Scow)"
+            ],
+            "xp_total": 3722,
+            "xp_to_next_level": 2778,
+            "current_level": 4,
+            "current_xp": 3722,
+            "next_level_xp": 6500,
+            "progress_percent": 27.0
+          },
+          "action_resolution": {
+            "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband",
+            "interpreted_as": "persuasion_and_insight_check",
+            "reinterpreted": false,
+            "audit_flags": [],
+            "mechanics": {
+              "type": "skill_check",
+              "rolls": [
+                {
+                  "purpose": "Persuasion (Draft Treaty)",
+                  "notation": "1d20+9",
+                  "result": 13,
+                  "success": true,
+                  "dc": 15,
+                  "die_type": "d20",
+                  "modifier": 9,
+                  "total": 22,
+                  "dc_category": "hard",
+                  "dc_reasoning": "Duke is impressed by the raid but signing a formal military pact requires a solid diplomatic push (Base 17, -2 for raid success)"
+                },
+                {
+                  "purpose": "Insight (Assess Breeders)",
+                  "notation": "1d20+4",
+                  "result": 17,
+                  "success": true,
+                  "dc": 14,
+                  "die_type": "d20",
+                  "modifier": 4,
+                  "total": 21,
+                  "dc_category": "medium",
+                  "dc_reasoning": "Checking waxy skin and biological signatures of lower-tier Zhentarim thugs under dark, rain-soaked conditions"
+                }
+              ],
+              "audit_events": [
+                "Saita successfully drafted and finalized the Joint Defense Pact with Duke Ravengard.",
+                "Lara Vance confirmed the Zhentarim quartermaster as a genetically viable specimen for the eugenics program."
+              ]
+            },
+            "narrative_outcome": "The Joint Defense Pact is signed, and the first high-value genetic specimen has been secured for transport."
+          },
+          "outcome_resolution": {
+            "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband",
+            "interpreted_as": "persuasion_and_insight_check",
+            "reinterpreted": false,
+            "audit_flags": [],
+            "mechanics": {
+              "type": "skill_check",
+              "rolls": [
+                {
+                  "purpose": "Persuasion (Draft Treaty)",
+                  "notation": "1d20+9",
+                  "result": 13,
+                  "success": true,
+                  "dc": 15,
+                  "die_type": "d20",
+                  "modifier": 9,
+                  "total": 22,
+                  "dc_category": "hard",
+                  "dc_reasoning": "Duke is impressed by the raid but signing a formal military pact requires a solid diplomatic push (Base 17, -2 for raid success)"
+                },
+                {
+                  "purpose": "Insight (Assess Breeders)",
+                  "notation": "1d20+4",
+                  "result": 17,
+                  "success": true,
+                  "dc": 14,
+                  "die_type": "d20",
+                  "modifier": 4,
+                  "total": 21,
+                  "dc_category": "medium",
+                  "dc_reasoning": "Checking waxy skin and biological signatures of lower-tier Zhentarim thugs under dark, rain-soaked conditions"
+                }
+              ],
+              "audit_events": [
+                "Saita successfully drafted and finalized the Joint Defense Pact with Duke Ravengard.",
+                "Lara Vance confirmed the Zhentarim quartermaster as a genetically viable specimen for the eugenics program."
+              ]
+            },
+            "narrative_outcome": "The Joint Defense Pact is signed, and the first high-value genetic specimen has been secured for transport."
+          },
+          "sequence_id": 147,
+          "user_scene_number": 73,
+          "system_warnings": [
+            "State update schema gate: Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)",
+            "State update schema gate: Kept state_updates.custom_campaign_state.imperial_favor: unknown key in strict overlay policy (no close match)"
+          ]
+        },
+        "user_scene_number": 73,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496",
+        "mock_services_mode": false,
+        "test_mode": null,
+        "streaming_execution_trace": {
+          "execution_path": "streaming",
+          "provider": "gemini",
+          "model": "gemini-3.5-flash",
+          "tool_requests": {
+            "executed": false,
+            "count": 0
+          },
+          "cache": {
+            "explicit_cache_enabled": true,
+            "requested": true,
+            "cache_name": "cachedContents/am2ho5f6lwj45c6bxpd4lwhvm1chgyqe43m2vsgh",
+            "source": "reused"
+          },
+          "phase1": {
+            "source": "provider",
+            "provider": "gemini",
+            "chunks": 103
+          },
+          "phase2": {
+            "executed": false,
+            "source": "not_executed",
+            "provider": "",
+            "chunks": 0
+          }
+        },
+        "streaming_cache": {
+          "explicit_cache_enabled": true,
+          "requested": true,
+          "cache_name": "cachedContents/am2ho5f6lwj45c6bxpd4lwhvm1chgyqe43m2vsgh",
+          "source": "reused"
+        },
+        "streaming_response_signature": {
+          "schema_version": "streaming-response-v1",
+          "algorithm": "hmac-sha256",
+          "digest": "3dbfefd75404d98b0f9f13e51e42fc26d135618efe498ab077274b4fe2bba521",
+          "signed": true,
+          "response_length": 11103,
+          "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+        },
+        "stream_start_time": "2026-05-23T07:14:56.942237+00:00",
+        "e2e_latency_seconds": 53.865564839004946,
+        "processing_metadata": {
+          "streaming_response_signature": {
+            "schema_version": "streaming-response-v1",
+            "algorithm": "hmac-sha256",
+            "digest": "3dbfefd75404d98b0f9f13e51e42fc26d135618efe498ab077274b4fe2bba521",
+            "signed": true,
+            "response_length": 11103,
+            "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+          }
+        }
+      },
+      "arrival_ts_utc": "2026-05-23T07:15:51.588403+00:00",
+      "t_ms_since_start": 55295.868
+    }
+  ],
+  "done_payload": {
+    "execution_path": "streaming",
+    "full_narrative": "The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \n\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\n\n\"Kaelen,\" you whisper, your voice dropping to a cool, lethal frequency. \"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\"\n\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \n\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\n\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\n\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\n\n\"The terms are absolute, Duke,\" you murmur, your voice a smooth, irresistible current. \"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\"\n\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 0/10\nStatus: SURRENDERED\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.",
+    "display_text": "The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \n\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\n\n\"Kaelen,\" you whisper, your voice dropping to a cool, lethal frequency. \"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\"\n\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \n\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\n\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\n\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\n\n\"The terms are absolute, Duke,\" you murmur, your voice a smooth, irresistible current. \"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\"\n\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 0/10\nStatus: SURRENDERED\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.",
+    "raw_response_text": "{\n  \"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1492 DR, Eleasias 24, 23:30:00\\nLocation: The Silvershield Annex\\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3722/6500 | Gold: 383gp\\nConditions: Wounded (Scarred) | Exhaustion: 0 | Inspiration: Yes\",\n  \"resources\": \"HD: 2/4, Spells: L1 3/4, L2 1/3, Ki: N/A, Rage: N/A, Potions: 0/0, Exhaustion: 0\",\n  \"narrative\": \"The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \\n\\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\\n\\n\\\"Kaelen,\\\" you whisper, your voice dropping to a cool, lethal frequency. \\\"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\\\"\\n\\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \\n\\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\\n\\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\\n\\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\\n\\n\\\"The terms are absolute, Duke,\\\" you murmur, your voice a smooth, irresistible current. \\\"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\\\"\\n\\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\\n\\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\\nObjective: Secure Joint Defense Pact & Grain Trade\\nSocial HP: 0/10\\nStatus: SURRENDERED\\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.\",\n  \"planning_block\": {\n    \"thinking\": \"The Joint Defense Pact is signed, establishing our legal and political shield in the Upper City and securing our grain quota. However, our resources are depleted: Saita is low on Level 2 spell slots, and Grog-Mar is still asleep at the Salty Flounder under Sylas's surveillance. We must decide whether to interrogate our newly captured Zhentarim specimen, execute a swift strike on the flophouse, or rest to decay our Biological Integration Penalty.\",\n    \"context\": \"Silvershield Annex Grand Hall, Treaty Signed\",\n    \"choices\": [\n      {\n        \"id\": \"interrogate_specimen\",\n        \"text\": \"Interrogate the Captured Specimen\",\n        \"description\": \"Descend to the soundproofed holding cells beneath the Annex to evaluate and secure the bound Zhentarim quartermaster before prepping him for the black-market galleons.\",\n        \"pros\": [\n          \"Establish his compliance early through psychological and physical pressure\",\n          \"Identify further Black Network safehouses or active smuggling routes\"\n        ],\n        \"cons\": [\n          \"Does not recover your expended spell slots or HP\",\n          \"Grog-Mar may slip away if the morning tide approaches\"\n        ],\n        \"risk_level\": \"medium\",\n        \"confidence\": \"high\"\n      },\n      {\n        \"id\": \"secure_grog_mar_harvest\",\n        \"text\": \"The Flophouse Abduction (Grog-Mar)\",\n        \"description\": \"Slip out into the foggy harbor streets with Kaelen to the 'Salty Flounder' flophouse to subdue and secure Grog-Mar using the Harvester's Censer.\",\n        \"pros\": [\n          \"Secure the prime genetic specimen before he departs Baldur's Gate with the morning tide\",\n          \"Use the newly requisitioned Zhentarim scows to smuggle his bound form directly to the Annex\"\n        ],\n        \"cons\": [\n          \"Saita has only one Level 2 spell slot remaining\",\n          \"High physical risk if Grog-Mar's veteran reflexes resist the censer's gas\"\n        ],\n        \"risk_level\": \"high\",\n        \"confidence\": \"medium\"\n      },\n      {\n        \"id\": \"long_rest_annex\",\n        \"text\": \"Secure the Citadel (Long Rest)\",\n        \"description\": \"Establish a defensive watch, lock down the Annex gates, and take a long rest to fully recover your HP, spell slots, and decay your Biological Integration Penalty.\",\n        \"pros\": [\n          \"Fully recover to 29 HP and restore all level 1 and level 2 spell slots\",\n          \"Decay the Biological Integration Penalty by 25%, restoring your progression efficiency\"\n        ],\n        \"cons\": [\n          \"Grog-Mar will escape with the morning tide, setting your Harvest progress back\",\n          \"Allows the Zhentarim to react to the Warehouse 7 raid while you sleep\"\n        ],\n        \"risk_level\": \"safe\",\n        \"confidence\": \"high\"\n      }\n    ]\n  },\n  \"action_resolution\": {\n    \"player_input\": \"tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband\",\n    \"interpreted_as\": \"persuasion_and_insight_check\",\n    \"reinterpreted\": false,\n    \"audit_flags\": [],\n    \"mechanics\": {\n      \"type\": \"skill_check\",\n      \"rolls\": [\n        {\n          \"purpose\": \"Persuasion (Draft Treaty)\",\n          \"notation\": \"1d20+9\",\n          \"result\": 13,\n          \"success\": true,\n          \"dc\": 15,\n          \"die_type\": \"d20\",\n          \"modifier\": 9,\n          \"total\": 22,\n          \"dc_category\": \"hard\",\n          \"dc_reasoning\": \"Duke is impressed by the raid but signing a formal military pact requires a solid diplomatic push (Base 17, -2 for raid success)\"\n        },\n        {\n          \"purpose\": \"Insight (Assess Breeders)\",\n          \"notation\": \"1d20+4\",\n          \"result\": 17,\n          \"success\": true,\n          \"dc\": 14,\n          \"die_type\": \"d20\",\n          \"modifier\": 4,\n          \"total\": 21,\n          \"dc_category\": \"medium\",\n          \"dc_reasoning\": \"Checking waxy skin and biological signatures of lower-tier Zhentarim thugs under dark, rain-soaked conditions\"\n        }\n      ],\n      \"audit_events\": [\n        \"Saita successfully drafted and finalized the Joint Defense Pact with Duke Ravengard.\",\n        \"Lara Vance confirmed the Zhentarim quartermaster as a genetically viable specimen for the eugenics program.\"\n      ]\n    },\n    \"narrative_outcome\": \"The Joint Defense Pact is signed, and the first high-value genetic specimen has been secured for transport.\"\n  },\n  \"rewards_box\": {\n    \"source\": \"encounter\",\n    \"xp_gained\": 133,\n    \"current_xp\": 3722,\n    \"next_level_xp\": 6500,\n    \"loot\": [\n      \"Smuggler's Pocket-Watch\",\n      \"Zhentarim Ledger of Contacts\",\n      \"6x Iron-bound Daggers\",\n      \"1 Unit of Contraband Iron\",\n      \"1 Unit of Contraband Grain\",\n      \"Zhentarim Smuggling Vessel (Black-Tarred Scow)\"\n    ],\n    \"gold\": 51\n  },\n  \"social_hp_challenge\": {\n    \"npc_id\": \"npc_ravengard_001\",\n    \"npc_name\": \"Duke Ulder Ravengard\",\n    \"npc_tier\": \"lord_general\",\n    \"objective\": \"Secure Joint Defense Pact & Grain Trade\",\n    \"request_severity\": \"submission\",\n    \"social_hp\": 0,\n    \"social_hp_max\": 10,\n    \"cooldown_remaining\": 1,\n    \"successes\": 5,\n    \"successes_needed\": 5,\n    \"status\": \"SURRENDERED\",\n    \"resistance_shown\": \"None. The Joint Defense Pact has been successfully signed under the imperial wax seal.\",\n    \"skill_used\": \"Persuasion\",\n    \"roll_result\": 22,\n    \"roll_dc\": 15,\n    \"social_hp_damage\": 5\n  },\n  \"entities_mentioned\": [\n    \"Duke Ulder Ravengard\",\n    \"Kaelen\",\n    \"Lara Vance\",\n    \"Sylas the Rat\"\n  ],\n  \"location_confirmed\": \"The Silvershield Annex\",\n  \"state_updates\": {\n    \"player_character_data\": {\n      \"experience\": {\n        \"current\": 3722,\n        \"to_next_level\": 2778\n      },\n      \"resources\": {\n        \"gold\": 383,\n        \"spell_slots\": {\n          \"level_2\": {\n            \"used\": 2,\n            \"max\": 3\n          },\n          \"level_1\": {\n            \"used\": 1,\n            \"max\": 4\n          }\n        }\n      },\n      \"inventory\": {\n        \"append\": [\n          {\n            \"name\": \"Smuggler's Pocket-Watch\",\n            \"type\": \"item\",\n            \"description\": \"A tarnished silver pocket-watch salvaged from the Warehouse 7 raid.\"\n          },\n          {\n            \"name\": \"Zhentarim Ledger of Contacts\",\n            \"type\": \"item\",\n            \"description\": \"A wet, leather-bound ledger detailing smuggling contacts in the Lower City.\"\n          },\n          {\n            \"name\": \"6x Iron-bound Daggers\",\n            \"type\": \"item\",\n            \"description\": \"Six masterwork iron daggers salvaged from the Zhentarim smugglers.\"\n          }\n        ]\n      }\n    },\n    \"custom_campaign_state\": {\n      \"harvest_quota\": {\n        \"grain_units_secured\": 5,\n        \"iron_units_secured\": 4,\n        \"specimens_secured\": 1\n      },\n      \"imperial_favor\": 1,\n      \"core_memories\": {\n        \"append\": \"Princess Saita successfully signed a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at Warehouse 7.\"\n      }\n    },\n    \"world_data\": {\n      \"world_time\": {\n        \"year\": 1492,\n        \"month\": \"Eleasias\",\n        \"day\": 24,\n        \"hour\": 23,\n        \"minute\": 30,\n        \"second\": 0,\n        \"microsecond\": 0,\n        \"time_of_day\": \"night\"\n      },\n      \"location\": \"The Silvershield Annex\"\n    }\n  }\n}",
+    "chunk_count": 103,
+    "agent_used": "DialogAgent",
+    "agent_mode": "dialog",
+    "model_used": "gemini-3.5-flash",
+    "provider_used": "gemini",
+    "has_structured_response": true,
+    "state_updates": {
+      "player_character_data": {
+        "experience": {
+          "current": 3722,
+          "to_next_level": 2778
+        },
+        "resources": {
+          "gold": 383,
+          "spell_slots": {
+            "level_2": {
+              "used": 2,
+              "max": 3
+            },
+            "level_1": {
+              "used": 1,
+              "max": 4
+            }
+          }
+        },
+        "inventory": {
+          "append": [
+            {
+              "name": "Smuggler's Pocket-Watch",
+              "type": "item",
+              "description": "A tarnished silver pocket-watch salvaged from the Warehouse 7 raid."
+            },
+            {
+              "name": "Zhentarim Ledger of Contacts",
+              "type": "item",
+              "description": "A wet, leather-bound ledger detailing smuggling contacts in the Lower City."
+            },
+            {
+              "name": "6x Iron-bound Daggers",
+              "type": "item",
+              "description": "Six masterwork iron daggers salvaged from the Zhentarim smugglers."
+            }
+          ]
+        }
+      },
+      "custom_campaign_state": {
+        "harvest_quota": {
+          "grain_units_secured": 5,
+          "iron_units_secured": 4,
+          "specimens_secured": 1
+        },
+        "imperial_favor": 1,
+        "core_memories": {
+          "append": "Princess Saita successfully signed a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at Warehouse 7."
+        }
+      },
+      "world_data": {
+        "world_time": {
+          "year": 1492,
+          "month": "Eleasias",
+          "day": 24,
+          "hour": 23,
+          "minute": 30,
+          "second": 0,
+          "microsecond": 0,
+          "time_of_day": "night"
+        },
+        "location": "The Silvershield Annex"
+      }
+    },
+    "structured_response": {
+      "narrative": "The freezing rain drums a relentless post-mortem against the black-tarred hulls of the two Zhentarim smuggling scows. Under your clinical gaze, Simms and the remaining guardsmen of the subverted Fist detail heave the heavy bags of winter grain and the cold, dense ingots of gravity-iron onto the deck, securing them beneath heavy oilcloth. The contraband is theirs no longer; it has been stamped with the imperial seal of Aethelgard. \n\nBut the true harvest lies elsewhere. While Lara Vance cross-references the waxy ledger with her genetic augury formulas, you step toward the shivering thugs bound to the timber pilings. Your golden-hued eyes scan their gaunt, salt-bitten faces, subconsciously measuring bone density, jaw symmetry, and the dormant resonance of their bloodlines. Most are genetically sterile muck\u2014mayflies whose lines will dry up in a generation. But your gaze stops on the quartermaster. Beneath his waxy, terrified skin lies a highly symmetric skeletal framework, exceptional pulmonary capacity, and a latent, high-density current that the eugenic augurs would grade as prime breeding stock.\n\n\"Kaelen,\" you whisper, your voice dropping to a cool, lethal frequency. \"The quartermaster's genetic viability is exceptional. Gag him, bind him in imperial silk, and load him into the hold of the lead scow. He is not to be left in the mud. He is the first specimen of the Harvest.\"\n\nKaelen moves like a silent wall, dragging the paralyzed smuggler into the dark belly of the vessel. The remaining thugs are left bound and stripped of their earthly wealth\u2014fifty-one gold pieces, several fine daggers, and a silver pocket-watch\u2014which now rest in your personal purse. \n\nWith the river-boats secured under your provisional auxiliary and Hallow's men rowing the contraband toward the private sewers of the Annex, you mount your gelding. Beside you, Duke Ulder Ravengard rides in a quiet, heavy focus, his eyes tracking the clinical efficiency of your operation. He is a soldier; he recognizes a clean cull.\n\nThe ride back to the Silvershield Annex is silent, save for the rhythmic clink of elite plate armor. When the grand doors of your safehouse groan open, the Duke steps into a hall that has been scrubbed spotless. The smell of lye is sharp and sterile, masking the scent of the soundproofed holding cells directly below.\n\nLara Vance spreads the high-quality vellum across the polished table. You lean forward, the midnight-blue velvet of your mantle catching the light as you look into Ravengard's iron-grey eyes. The biological weight of your Auctoritas is an inescapable gravity.\n\n\"The terms are absolute, Duke,\" you murmur, your voice a smooth, irresistible current. \"Your autonomy is preserved. Our pact is signed. We secure your borders, and you fill our silos.\"\n\nRavengard studies the vellum for a heartbeat, his veteran armor creaking as he slowly exhales. He takes the quill. With a heavy, deliberate stroke, he signs his name next to your imperial crest, pressing his signet ring into the hot, dark red wax of Aethelgard. The Joint Defense Pact is finalized.\n\n[SOCIAL SKILL CHALLENGE: Duke Ulder Ravengard]\nObjective: Secure Joint Defense Pact & Grain Trade\nSocial HP: 0/10\nStatus: SURRENDERED\nResistance Shown: None. The Grand Duke has formally signed the treaty, securing Aethelgard's logistical foothold.",
+      "entities_mentioned": [
+        "Duke Ulder Ravengard",
+        "Kaelen",
+        "Lara Vance",
+        "Sylas the Rat"
+      ],
+      "location_confirmed": "The Silvershield Annex",
+      "turn_summary": null,
+      "state_updates": {
+        "player_character_data": {
+          "experience": {
+            "current": 3722,
+            "to_next_level": 2778
+          },
+          "resources": {
+            "gold": 383,
+            "spell_slots": {
+              "level_2": {
+                "used": 2,
+                "max": 3
+              },
+              "level_1": {
+                "used": 1,
+                "max": 4
+              }
+            }
+          },
+          "inventory": {
+            "append": [
+              {
+                "name": "Smuggler's Pocket-Watch",
+                "type": "item",
+                "description": "A tarnished silver pocket-watch salvaged from the Warehouse 7 raid."
+              },
+              {
+                "name": "Zhentarim Ledger of Contacts",
+                "type": "item",
+                "description": "A wet, leather-bound ledger detailing smuggling contacts in the Lower City."
+              },
+              {
+                "name": "6x Iron-bound Daggers",
+                "type": "item",
+                "description": "Six masterwork iron daggers salvaged from the Zhentarim smugglers."
+              }
+            ]
+          }
+        },
+        "custom_campaign_state": {
+          "harvest_quota": {
+            "grain_units_secured": 5,
+            "iron_units_secured": 4,
+            "specimens_secured": 1
+          },
+          "imperial_favor": 1,
+          "core_memories": {
+            "append": "Princess Saita successfully signed a Joint Defense Pact with Grand Duke Ulder Ravengard and secured her first high-value genetic specimen from the Zhentarim quartermaster at Warehouse 7."
+          }
+        },
+        "world_data": {
+          "world_time": {
+            "year": 1492,
+            "month": "Eleasias",
+            "day": 24,
+            "hour": 23,
+            "minute": 30,
+            "second": 0,
+            "microsecond": 0,
+            "time_of_day": "night"
+          },
+          "location": "The Silvershield Annex"
+        }
+      },
+      "debug_info": {
+        "_state_update_schema_gate_errors": [
+          "Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)",
+          "Kept state_updates.custom_campaign_state.imperial_favor: unknown key in strict overlay policy (no close match)"
+        ],
+        "_server_system_warnings": [
+          "State update schema gate: Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)",
+          "State update schema gate: Kept state_updates.custom_campaign_state.imperial_favor: unknown key in strict overlay policy (no close match)"
+        ],
+        "llm_provider": "gemini",
+        "llm_model": "gemini-3.5-flash",
+        "execution_path": "streaming",
+        "agent_name": "DialogAgent",
+        "intent_classifier": {
+          "intent": "dialog",
+          "classifier_source": "semantic_intent",
+          "confidence": 0.6866406798362732,
+          "routing_priority": "7_semantic_dialog"
+        },
+        "system_instruction_files": [
+          "prompts/master_directive.md",
+          "prompts/game_state_instruction.md",
+          "prompts/planning_protocol.md",
+          "prompts/dice_system_instruction_code_execution.md",
+          "prompts/dialog_system_instruction.md",
+          "prompts/narrative_lite_system_instruction.md",
+          "prompts/character_template.md",
+          "prompts/relationship_instruction.md"
+        ],
+        "system_instruction_char_count": 286853
+      },
+      "directives": {
+        "add": [],
+        "drop": []
+      },
+      "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Eleasias 24, 23:30:00\nLocation: The Silvershield Annex\nStatus: Lvl 4 Ascendant Herald | HP: 29/29 | XP: 3722/6500 | Gold: 383gp\nConditions: Wounded (Scarred) | Exhaustion: 0 | Inspiration: Yes",
+      "faction_header": "",
+      "planning_block": {
+        "thinking": "The Joint Defense Pact is signed, establishing our legal and political shield in the Upper City and securing our grain quota. However, our resources are depleted: Saita is low on Level 2 spell slots, and Grog-Mar is still asleep at the Salty Flounder under Sylas's surveillance. We must decide whether to interrogate our newly captured Zhentarim specimen, execute a swift strike on the flophouse, or rest to decay our Biological Integration Penalty.",
+        "context": "Silvershield Annex Grand Hall, Treaty Signed",
+        "choices": [
+          {
+            "id": "interrogate_specimen",
+            "text": "Interrogate the Captured Specimen",
+            "description": "Descend to the soundproofed holding cells beneath the Annex to evaluate and secure the bound Zhentarim quartermaster before prepping him for the black-market galleons.",
+            "risk_level": "medium",
+            "pros": [
+              "Establish his compliance early through psychological and physical pressure",
+              "Identify further Black Network safehouses or active smuggling routes"
+            ],
+            "cons": [
+              "Does not recover your expended spell slots or HP",
+              "Grog-Mar may slip away if the morning tide approaches"
+            ],
+            "confidence": "high"
+          },
+          {
+            "id": "secure_grog_mar_harvest",
+            "text": "The Flophouse Abduction (Grog-Mar)",
+            "description": "Slip out into the foggy harbor streets with Kaelen to the 'Salty Flounder' flophouse to subdue and secure Grog-Mar using the Harvester's Censer.",
+            "risk_level": "high",
+            "pros": [
+              "Secure the prime genetic specimen before he departs Baldur's Gate with the morning tide",
+              "Use the newly requisitioned Zhentarim scows to smuggle his bound form directly to the Annex"
+            ],
+            "cons": [
+              "Saita has only one Level 2 spell slot remaining",
+              "High physical risk if Grog-Mar's veteran reflexes resist the censer's gas"
+            ],
+            "confidence": "medium"
+          },
+          {
+            "id": "long_rest_annex",
+            "text": "Secure the Citadel (Long Rest)",
+            "description": "Establish a defensive watch, lock down the Annex gates, and take a long rest to fully recover your HP, spell slots, and decay your Biological Integration Penalty.",
+            "risk_level": "safe",
+            "pros": [
+              "Fully recover to 29 HP and restore all level 1 and level 2 spell slots",
+              "Decay the Biological Integration Penalty by 25%, restoring your progression efficiency"
+            ],
+            "cons": [
+              "Grog-Mar will escape with the morning tide, setting your Harvest progress back",
+              "Allows the Zhentarim to react to the Warehouse 7 raid while you sleep"
+            ],
+            "confidence": "high"
+          }
+        ]
+      },
+      "dice_rolls": [],
+      "dice_audit_events": [],
+      "resources": "HD: 2/4, Spells: L1 3/4, L2 1/3, Ki: N/A, Rage: N/A, Potions: 0/0, Exhaustion: 0",
+      "social_hp_challenge": {
+        "npc_id": "npc_ravengard_001",
+        "npc_name": "Duke Ulder Ravengard",
+        "objective": "Secure Joint Defense Pact & Grain Trade",
+        "social_hp": 0,
+        "social_hp_max": 10,
+        "status": "SURRENDERED",
+        "npc_tier": "lord_general",
+        "cooldown_remaining": 1,
+        "skill_used": "Persuasion",
+        "request_severity": "submission",
+        "resistance_shown": "None. The Joint Defense Pact has been successfully signed under the imperial wax seal.",
+        "social_hp_damage": 5,
+        "successes": 5,
+        "successes_needed": 5,
+        "roll_result": 22,
+        "roll_dc": 15
+      },
+      "rewards_box": {
+        "source": "encounter",
+        "xp_gained": 133,
+        "level_up_available": false,
+        "gold": 51,
+        "loot": [
+          "Smuggler's Pocket-Watch",
+          "Zhentarim Ledger of Contacts",
+          "6x Iron-bound Daggers",
+          "1 Unit of Contraband Iron",
+          "1 Unit of Contraband Grain",
+          "Zhentarim Smuggling Vessel (Black-Tarred Scow)"
+        ],
+        "xp_total": 3722,
+        "xp_to_next_level": 2778,
+        "current_level": 4,
+        "current_xp": 3722,
+        "next_level_xp": 6500,
+        "progress_percent": 27.0
+      },
+      "action_resolution": {
+        "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband",
+        "interpreted_as": "persuasion_and_insight_check",
+        "reinterpreted": false,
+        "audit_flags": [],
+        "mechanics": {
+          "type": "skill_check",
+          "rolls": [
+            {
+              "purpose": "Persuasion (Draft Treaty)",
+              "notation": "1d20+9",
+              "result": 13,
+              "success": true,
+              "dc": 15,
+              "die_type": "d20",
+              "modifier": 9,
+              "total": 22,
+              "dc_category": "hard",
+              "dc_reasoning": "Duke is impressed by the raid but signing a formal military pact requires a solid diplomatic push (Base 17, -2 for raid success)"
+            },
+            {
+              "purpose": "Insight (Assess Breeders)",
+              "notation": "1d20+4",
+              "result": 17,
+              "success": true,
+              "dc": 14,
+              "die_type": "d20",
+              "modifier": 4,
+              "total": 21,
+              "dc_category": "medium",
+              "dc_reasoning": "Checking waxy skin and biological signatures of lower-tier Zhentarim thugs under dark, rain-soaked conditions"
+            }
+          ],
+          "audit_events": [
+            "Saita successfully drafted and finalized the Joint Defense Pact with Duke Ravengard.",
+            "Lara Vance confirmed the Zhentarim quartermaster as a genetically viable specimen for the eugenics program."
+          ]
+        },
+        "narrative_outcome": "The Joint Defense Pact is signed, and the first high-value genetic specimen has been secured for transport."
+      },
+      "outcome_resolution": {
+        "player_input": "tie up prisoners, fully loot them, draft treaty now and use my full cha and beauty and bardic insp for treaty, requisition contraband",
+        "interpreted_as": "persuasion_and_insight_check",
+        "reinterpreted": false,
+        "audit_flags": [],
+        "mechanics": {
+          "type": "skill_check",
+          "rolls": [
+            {
+              "purpose": "Persuasion (Draft Treaty)",
+              "notation": "1d20+9",
+              "result": 13,
+              "success": true,
+              "dc": 15,
+              "die_type": "d20",
+              "modifier": 9,
+              "total": 22,
+              "dc_category": "hard",
+              "dc_reasoning": "Duke is impressed by the raid but signing a formal military pact requires a solid diplomatic push (Base 17, -2 for raid success)"
+            },
+            {
+              "purpose": "Insight (Assess Breeders)",
+              "notation": "1d20+4",
+              "result": 17,
+              "success": true,
+              "dc": 14,
+              "die_type": "d20",
+              "modifier": 4,
+              "total": 21,
+              "dc_category": "medium",
+              "dc_reasoning": "Checking waxy skin and biological signatures of lower-tier Zhentarim thugs under dark, rain-soaked conditions"
+            }
+          ],
+          "audit_events": [
+            "Saita successfully drafted and finalized the Joint Defense Pact with Duke Ravengard.",
+            "Lara Vance confirmed the Zhentarim quartermaster as a genetically viable specimen for the eugenics program."
+          ]
+        },
+        "narrative_outcome": "The Joint Defense Pact is signed, and the first high-value genetic specimen has been secured for transport."
+      },
+      "sequence_id": 147,
+      "user_scene_number": 73,
+      "system_warnings": [
+        "State update schema gate: Kept state_updates.custom_campaign_state.harvest_quota: unknown key in strict overlay policy (no close match)",
+        "State update schema gate: Kept state_updates.custom_campaign_state.imperial_favor: unknown key in strict overlay policy (no close match)"
+      ]
+    },
+    "user_scene_number": 73,
+    "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496",
+    "mock_services_mode": false,
+    "test_mode": null,
+    "streaming_execution_trace": {
+      "execution_path": "streaming",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "tool_requests": {
+        "executed": false,
+        "count": 0
+      },
+      "cache": {
+        "explicit_cache_enabled": true,
+        "requested": true,
+        "cache_name": "cachedContents/am2ho5f6lwj45c6bxpd4lwhvm1chgyqe43m2vsgh",
+        "source": "reused"
+      },
+      "phase1": {
+        "source": "provider",
+        "provider": "gemini",
+        "chunks": 103
+      },
+      "phase2": {
+        "executed": false,
+        "source": "not_executed",
+        "provider": "",
+        "chunks": 0
+      }
+    },
+    "streaming_cache": {
+      "explicit_cache_enabled": true,
+      "requested": true,
+      "cache_name": "cachedContents/am2ho5f6lwj45c6bxpd4lwhvm1chgyqe43m2vsgh",
+      "source": "reused"
+    },
+    "streaming_response_signature": {
+      "schema_version": "streaming-response-v1",
+      "algorithm": "hmac-sha256",
+      "digest": "3dbfefd75404d98b0f9f13e51e42fc26d135618efe498ab077274b4fe2bba521",
+      "signed": true,
+      "response_length": 11103,
+      "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+    },
+    "stream_start_time": "2026-05-23T07:14:56.942237+00:00",
+    "e2e_latency_seconds": 53.865564839004946,
+    "processing_metadata": {
+      "streaming_response_signature": {
+        "schema_version": "streaming-response-v1",
+        "algorithm": "hmac-sha256",
+        "digest": "3dbfefd75404d98b0f9f13e51e42fc26d135618efe498ab077274b4fe2bba521",
+        "signed": true,
+        "response_length": 11103,
+        "request_id": "8rWDIkXDgGdG1DZaffPT_1779520496"
+      }
+    }
+  },
+  "request_timestamp": "2026-05-23T07:14:56.292214+00:00",
+  "response_timestamp": "2026-05-23T07:15:51.588894+00:00"
+}

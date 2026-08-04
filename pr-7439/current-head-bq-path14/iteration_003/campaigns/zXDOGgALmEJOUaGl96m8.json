@@ -1,0 +1,251 @@
+{
+  "campaign": {
+    "created_at": "2026-06-11T20:20:56.279853+00:00",
+    "initial_prompt": "Character: A wandering scout named Kira | Setting: A misty mountain pass at dawn | Description: Real-LLM real-user E2E for PR #7439 path 14 (gameplay_streaming_proxy). Drives a real call through the Flask /api/campaigns/<id>/interaction/stream endpoint and verifies the BQ row has populated request_json + response_text. No mocks. Real Gemini. Real BQ.",
+    "last_played": "2026-06-11T20:21:19.113118+00:00",
+    "living_world_state": {
+      "last_time": null,
+      "last_turn": 0
+    },
+    "selected_prompts": [],
+    "title": "BQ Path14 Gameplay Streaming Proxy E2E",
+    "use_default_world": false
+  },
+  "entries_cleaned": 0,
+  "game_state": {
+    "combat_state": {
+      "in_combat": false
+    },
+    "custom_campaign_state": {
+      "_agent_selection_tracker": {
+        "agent": "SpicyModeAgent",
+        "count": 1,
+        "rewards_skip_count": 0
+      },
+      "active_constraints": [],
+      "arc_milestones": {},
+      "attribute_system": "D&D",
+      "campaign_tier": "mortal",
+      "character_creation_completed": true,
+      "character_creation_in_progress": false,
+      "character_creation_stage": "complete",
+      "companion_arcs": {},
+      "core_memories": [
+        "Kira is a wandering scout currently navigating a misty mountain pass at the break of dawn.",
+        "Kira's initial attempt to scout the pass was thwarted by a natural 1, leaving her disoriented in the thick dawn mist."
+      ],
+      "divine_potential": 0,
+      "divine_upgrade_available": false,
+      "faction_minigame": {
+        "strong_suggestion_given": false,
+        "suggestion_given": false
+      },
+      "god_mode": {
+        "character": {
+          "name": "A wandering scout named Kira"
+        },
+        "description": "Real-LLM real-user E2E for PR #7439 path 14 (gameplay_streaming_proxy). Drives a real call through the Flask /api/campaigns/<id>/interaction/stream endpoint and verifies the BQ row has populated request_json + response_text. No mocks. Real Gemini. Real BQ.",
+        "setting": "A misty mountain pass at dawn"
+      },
+      "last_location": "Misty Mountain Pass",
+      "multiverse_upgrade_available": false,
+      "next_companion_arc_turn": 3,
+      "universe_control": 0
+    },
+    "debug_mode": true,
+    "entity_tracking": {
+      "active_entities": [
+        "A wandering scout named Kira"
+      ],
+      "present_entities": []
+    },
+    "game_state_version": 1,
+    "item_registry": {},
+    "last_living_world_time": {
+      "day": 15,
+      "hour": 6,
+      "microsecond": 0,
+      "minute": 0,
+      "month": "Mirtul",
+      "second": 0,
+      "time_of_day": "dawn",
+      "year": 1492
+    },
+    "last_living_world_turn": 0,
+    "last_state_update_timestamp": "2026-06-11T20:21:18.539000+00:00",
+    "npc_agendas": {},
+    "npc_data": {
+      "npc_goblin_001": {
+        "armor_class": 13,
+        "hp_current": 7,
+        "hp_max": 7,
+        "name": "Goblin",
+        "present": true,
+        "status": "healthy",
+        "string_id": "npc_goblin_001"
+      }
+    },
+    "pending_instruction_hints": [],
+    "planning_block": {
+      "choices": [
+        {
+          "description": "Keep one hand on the rock face and slowly advance, feeling the ground with your boots.",
+          "id": "move_forward_cautiously",
+          "risk_level": "medium",
+          "text": "Move Forward Cautiously"
+        },
+        {
+          "description": "Hunker down against a sheltered rock formation and wait for the sun to burn off the thickest part of the mist.",
+          "id": "wait_for_clearance",
+          "risk_level": "low",
+          "text": "Find Cover and Wait"
+        },
+        {
+          "description": "Instead of looking through the air, look down at the muddy path for physical signs of passage.",
+          "id": "check_ground_tracks",
+          "risk_level": "low",
+          "text": "Search the Ground for Tracks"
+        },
+        {
+          "description": "Attempt to climb a nearby crag to see if you can get above the mist layer.",
+          "id": "climb_for_vantage",
+          "risk_level": "high",
+          "text": "Seek Higher Ground"
+        }
+      ],
+      "context": "",
+      "thinking": "Kira's senses have failed her in this dense fog. Moving forward blindly is dangerous, but staying still in an exposed pass isn't much better. A scout's first priority is orientation and safety."
+    },
+    "player_character_data": {
+      "attributes": {
+        "charisma": 12,
+        "constitution": 14,
+        "dexterity": 12,
+        "intelligence": 10,
+        "strength": 16,
+        "wisdom": 10
+      },
+      "class_name": "Fighter",
+      "display_name": "Kira",
+      "equipment": {
+        "backpack": [
+          {
+            "equipped": false,
+            "name": "Backpack",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Bedroll",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Mess kit",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Tinderbox",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Torch",
+            "stats": "10"
+          },
+          {
+            "equipped": false,
+            "name": "Rations",
+            "stats": "10 days"
+          },
+          {
+            "equipped": false,
+            "name": "Waterskin",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Rope",
+            "stats": "50 feet"
+          },
+          {
+            "equipped": false,
+            "name": "Coin pouch",
+            "stats": "10gp"
+          }
+        ]
+      },
+      "experience": {
+        "current": 0,
+        "needed_for_next_level": 300,
+        "to_next_level": 300
+      },
+      "hp_current": 12,
+      "hp_max": 12,
+      "level": 1,
+      "name": "Aric",
+      "proficiency_bonus": 2,
+      "string_id": "pc_aric_001"
+    },
+    "player_turn": 1,
+    "schema_migrated_at": "2026-06-11T20:20:56.279794+00:00",
+    "schema_migration_version": 1,
+    "session_id": "legacy-migrated-ae0e8c65dea4f931",
+    "social_hp_challenge": null,
+    "time_pressure_warnings": {},
+    "time_sensitive_events": {},
+    "turn_number": 1,
+    "user_id": "test-bq_path14_gameplay_streaming_proxy_e2e-1781209203",
+    "world_data": {
+      "current_location_name": "Misty Mountain Pass",
+      "world_time": {
+        "day": 15,
+        "hour": 6,
+        "microsecond": 0,
+        "minute": 5,
+        "month": "Mirtul",
+        "second": 0,
+        "time_of_day": "dawn",
+        "year": 1492
+      }
+    },
+    "world_resources": {}
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "description": "Keep one hand on the rock face and slowly advance, feeling the ground with your boots.",
+        "id": "move_forward_cautiously",
+        "risk_level": "medium",
+        "text": "Move Forward Cautiously"
+      },
+      {
+        "description": "Hunker down against a sheltered rock formation and wait for the sun to burn off the thickest part of the mist.",
+        "id": "wait_for_clearance",
+        "risk_level": "low",
+        "text": "Find Cover and Wait"
+      },
+      {
+        "description": "Instead of looking through the air, look down at the muddy path for physical signs of passage.",
+        "id": "check_ground_tracks",
+        "risk_level": "low",
+        "text": "Search the Ground for Tracks"
+      },
+      {
+        "description": "Attempt to climb a nearby crag to see if you can get above the mist layer.",
+        "id": "climb_for_vantage",
+        "risk_level": "high",
+        "text": "Seek Higher Ground"
+      }
+    ],
+    "context": "",
+    "thinking": "Kira's senses have failed her in this dense fog. Moving forward blindly is dangerous, but staying still in an exposed pass isn't much better. A scout's first priority is orientation and safety."
+  },
+  "state_cleaned": false,
+  "success": true,
+  "user_settings": {
+    "gemini_model": "gemini-2.5-flash",
+    "llm_provider": "gemini"
+  }
+}

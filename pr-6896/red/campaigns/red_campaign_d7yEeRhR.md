@@ -1,0 +1,105 @@
+# RED campaign — Schema Migration Flow (d7yEeRhR)
+
+**Campaign ID:** `d7yEeRhRsTouGUX8Avo6` | **Result:** FAIL | **Pre-fix location concat bug**
+
+**Error:** `current_location_name` = `Regression Testing Chamber (Legacy Crypt of Shadows)`
+
+God Mode:
+Character: Aric the Fighter (STR 16) | Setting: A regression testing chamber | Description: Validate one-time legacy-to-schema migration flow
+
+============================================================
+SCENE 1
+============================================================
+[Timestamp: 1000 DR, Hammer 01, 08:00:00
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter (Ready) | HP: 0/0 | XP: 0/300 | Gold: 0gp]
+Resources: HD: 0/0 | Spells: No Spells Yet (Level 1 Fighter)
+
+Game Master:
+[CHARACTER CREATION - Initial Choice]
+
+Welcome to the regression testing chamber. We are initializing the environment to validate the legacy-to-schema migration flow for your journey. Before we begin the narrative, we must finalize your character's mechanical foundation.
+
+**CAMPAIGN SUMMARY**
+Title: Schema Migration Validation
+Character: Aric the Fighter
+Setting: A regression testing chamber
+Description: Validate one-time legacy-to-schema migration flow...
+AI Personalities: StoryModeAgent, PlanningAgent, CharacterCreationAgent
+Options: [AIGenerated], [StandardDND], [CustomClass]
+
+How would you like to build Aric?
+
+Player (freeform):
+I look around carefully.
+
+============================================================
+SCENE 2
+============================================================
+[Timestamp: 1000 DR, Hammer 1, 08:05:00
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1 | AC: 10 | STR: 16 | GP: 10
+
+Game Master:
+Morning (08:05:00) in the Regression Testing Chamber—the air is crisp, carrying a faint scent of ozone and sterilized metal. You stand in the center of a perfectly cubic room, its walls constructed of a seamless, matte-white material that seems to absorb sound. Overhead, recessed lighting panels pulse with a steady, clinical rhythm.
+
+You narrow your eyes, scanning the perimeter for any hint of a seam, a hidden camera, or a structural flaw. The geometry is maddeningly precise; the corners meet at perfect ninety-degree angles, and the floor is so level it feels unnatural beneath your boots. Despite your scrutiny, the chamber reveals nothing but its own artificial perfection. There are no shadows here, only the hum of unseen machinery beneath the floorboards, waiting for the next phase of the validation sequence.
+
+Player (freeform):
+I search the crypt.
+
+============================================================
+SCENE 3
+============================================================
+[Timestamp: 1000 DR, Hammer 1, 08:15:00
+Location: Regression Testing Chamber (Legacy Crypt of Shadows)
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 10gp]
+Resources: HD: 1/1, Second Wind: 1/1
+
+Game Master:
+Morning (08:15:00) in the Regression Testing Chamber—the silence of the 'Crypt of Shadows' simulation is absolute. You begin a systematic search of the cubic room, your fingers tracing the invisible seams where the floor meets the matte-white walls. You're looking for anything—a hidden catch, a pressure plate, or the damp stone texture you'd expect from a crypt.
+
+However, the clinical perfection of the room is maddening. The recessed lighting leaves no shadows to hide secrets, and the material remains stubbornly smooth beneath your calloused hands. As you circle the perimeter, the lack of visual landmarks begins to disorient you; every wall looks identical to the last. Your search yields nothing but the frustrating hum of the unseen machinery pulsing beneath your boots, mocking your efforts to find a way out of this sterile geometry.
+
+Player (freeform):
+I look around in the blinding darkness.
+
+============================================================
+SCENE 4
+============================================================
+[Timestamp: 1000 DR, Hammer 1, 08:20:00
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+)
+
+Game Master:
+Morning (08:20:00) in the Regression Testing Chamber—you squint against the environment, but there is no darkness here. Instead, the 'blinding' sensation comes from the absolute, unrelenting whiteness of the room. The matte-white walls and floor reflect the recessed lighting with such intensity that your pupils struggle to adjust, creating a paradoxical 'white-out' effect that feels as disorienting as a void.
+
+You turn in a slow circle, hand shielding your eyes, but the visual sensory deprivation persists. There are no shadows to guide your gaze, no textures to break the monotony. The hum beneath the floorboards shifts in frequency, a low-pitched thrum that vibrates through your boots. Just as the disorientation reaches a peak, a clinical, disembodied voice crackles through invisible speakers in the ceiling.
+
+"Validation Sequence 001: Perception Check Failed. Anomaly in user sensory processing detected. Adjusting illumination to 15% to facilitate 'StoryMode' immersion."
+
+Slowly, the blinding glare softens into a cool, manageable gray. As your vision clears, a subtle change manifests in the room: a single, black obsidian pedestal has risen from the center of the floor, holding a small, glowing data-shard. A door, previously invisible, now stands ajar in the far wall, leading into a dark corridor.
+
+[SYSTEM UPDATE: 100 XP awarded for surviving the initial calibration sequence!]
+[REWARDS: 100 XP]
+
+Player (freeform):
+I proceed deeper.
+
+============================================================
+SCENE 5
+============================================================
+[Timestamp: 1000 DR, Hammer 1, 08:25:00
+Location: Corridor of Shadows
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 100/200 | Gold: 10gp
+Conditions: None | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+), Second Wind: 1/1
+
+Game Master:
+Morning (08:25:00) in the Corridor of Shadows—you leave the gray sanctuary of the testing chamber behind, stepping through the threshold into a narrow, lightless passage. The transition is jarring; the silence here feels heavier, more artificial, and the walls have shifted from matte-white to a rough, obsidian-like stone that seems to swallow the dim light bleeding in from the room behind you.
+
+You press forward, your boots clicking rhythmically against the floor, but your eyes—still strained from the previous 'white-out'—fail to pick up the subtle shift in the environment. You don't notice the thin, metallic filament stretched across the corridor just inches above the ground. Your lead foot catches it with a faint *ping*, and for a heart-stopping second, the machinery beneath the floorboards goes silent. A soft, rhythmic clicking begins in the walls ahead, echoing like the ticking of a countdown in the oppressive gloom.

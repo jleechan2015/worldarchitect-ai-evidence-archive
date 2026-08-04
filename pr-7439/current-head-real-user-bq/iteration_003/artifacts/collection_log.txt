@@ -1,0 +1,35 @@
+evidence_dir=/tmp/worldarchitect.ai/worktree_bq_loggin/bq_path14_real_user_e2e/iteration_003
+generated_at=2026-06-11T22:19:49.546974+00:00
+
+core_files:
+  metadata.json: present
+  run.json: present
+  streaming_evidence.json: present
+  scenario_results_checkpoint.json: missing
+  evidence.md: present
+  methodology.md: present
+  notes.md: present
+  README.md: present
+
+top_level_jsonl:
+  gemini_http_request_responses.jsonl
+  gemini_http_request_responses_1781216293840.jsonl
+  http_request_responses.jsonl
+  http_request_responses_1781216293840.jsonl
+  llm_request_responses.jsonl
+  llm_request_responses_1781216293840.jsonl
+  request_responses.jsonl
+
+campaigns_dir:
+  BQ Path14 Real User E2E_Dyk7bFWy.txt
+  BQ Path14 Real User E2E_Dyk7bFWy_game_state.json
+  Dyk7bFWyYyUYR6M1FlGR.json
+  Dyk7bFWyYyUYR6M1FlGR.json.sha256
+
+artifacts_dir (excluding collection_log.txt):
+  lsof_output.txt
+  lsof_output.txt.sha256
+  ps_output.txt
+  ps_output.txt.sha256
+  server.log
+  server.log.sha256

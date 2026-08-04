@@ -1,0 +1,213 @@
+{
+  "game_state_version": 1,
+  "player_character_data": {
+    "attributes": {
+      "strength": 16,
+      "constitution": 14,
+      "wisdom": 10,
+      "charisma": 12,
+      "intelligence": 10,
+      "dexterity": 12
+    },
+    "hp_max": 12,
+    "entity_id": "pc_kira_001",
+    "class_name": "Fighter",
+    "string_id": "pc_kira_001",
+    "display_name": "Kira",
+    "level": 1,
+    "equipment": {
+      "backpack": [
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Backpack"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Bedroll"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Mess kit"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Tinderbox"
+        },
+        {
+          "stats": "10",
+          "equipped": false,
+          "name": "Torch"
+        },
+        {
+          "stats": "10 days",
+          "equipped": false,
+          "name": "Rations"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Waterskin"
+        },
+        {
+          "stats": "50 feet",
+          "equipped": false,
+          "name": "Rope"
+        },
+        {
+          "stats": "10gp",
+          "equipped": false,
+          "name": "Coin pouch"
+        }
+      ]
+    },
+    "proficiency_bonus": 2,
+    "hp_current": 12,
+    "name": "Aric"
+  },
+  "world_data": {
+    "current_location_name": "Misty Mountain Pass",
+    "world_time": {
+      "year": 1492,
+      "time_of_day": "dawn",
+      "microsecond": 0,
+      "second": 0,
+      "hour": 6,
+      "minute": 1,
+      "month": "Hammer",
+      "day": 1
+    }
+  },
+  "npc_data": {
+    "npc_goblin_001": {
+      "armor_class": 13,
+      "present": true,
+      "hp_max": 7,
+      "string_id": "npc_goblin_001",
+      "status": "healthy",
+      "hp_current": 7,
+      "name": "Goblin"
+    }
+  },
+  "item_registry": {},
+  "custom_campaign_state": {
+    "divine_potential": 0,
+    "character_creation_completed": true,
+    "core_memories": [
+      "Character creation for Kira, a wandering scout, has initiated in a misty mountain pass setting at dawn.",
+      "Upon reaching the mountain pass at dawn, Kira successfully scouted a hunched silhouette and heard stone scratching stone on a ledge below the main trail."
+    ],
+    "attribute_system": "D&D",
+    "arc_milestones": {},
+    "universe_control": 0,
+    "character_creation_stage": "complete",
+    "_agent_selection_tracker": {
+      "rewards_skip_count": 0,
+      "count": 1,
+      "agent": "SpicyModeAgent"
+    },
+    "multiverse_upgrade_available": false,
+    "campaign_tier": "mortal",
+    "divine_upgrade_available": false,
+    "active_constraints": [],
+    "companion_arcs": {},
+    "god_mode": {
+      "description": "Real-LLM real-user E2E for PR #7439 path 14 (gameplay_streaming_proxy). Drives a real call through the Flask /api/campaigns/<id>/interaction/stream endpoint and verifies the BQ row has populated request_json + response_text. No mocks. Real Gemini. Real BQ.",
+      "character": {
+        "name": "A wandering scout named Kira"
+      },
+      "setting": "A misty mountain pass at dawn"
+    },
+    "last_location": "Misty Mountain Pass",
+    "character_creation_in_progress": false,
+    "next_companion_arc_turn": 3
+  },
+  "social_hp_challenge": null,
+  "combat_state": {
+    "in_combat": false
+  },
+  "last_state_update_timestamp": "2026-06-11T18:01:57.725000+00:00",
+  "turn_number": 1,
+  "player_turn": 1,
+  "last_living_world_turn": 0,
+  "last_living_world_time": {
+    "time_of_day": "dawn",
+    "year": 1492,
+    "microsecond": 0,
+    "second": 0,
+    "day": 1,
+    "minute": 0,
+    "month": "Hammer",
+    "hour": 6
+  },
+  "time_sensitive_events": {},
+  "npc_agendas": {},
+  "world_resources": {},
+  "time_pressure_warnings": {},
+  "debug_mode": true,
+  "pending_instruction_hints": [],
+  "entity_tracking": {
+    "active_entities": [
+      "A wandering scout named Kira"
+    ],
+    "present_entities": []
+  },
+  "session_id": "legacy-migrated-9cba9b0e672d1a4f",
+  "planning_block": {
+    "choices": [
+      {
+        "text": "Sneak Closer",
+        "description": "Attempt to move silently toward the edge to identify the creature without being spotted.",
+        "cons": [
+          "Risk of falling or being heard",
+          "Exposed position"
+        ],
+        "id": "sneak_closer",
+        "pros": [
+          "Gain intelligence",
+          "Maintain surprise"
+        ],
+        "risk_level": "medium",
+        "confidence": "medium"
+      },
+      {
+        "text": "Draw Weapon and Wait",
+        "description": "Remain in place with your weapon ready, letting the creature reveal itself as it moves.",
+        "cons": [
+          "Lose the initiative",
+          "Creature might move away"
+        ],
+        "id": "draw_weapon_wait",
+        "pros": [
+          "Defensive readiness",
+          "Stable footing"
+        ],
+        "risk_level": "low",
+        "confidence": "high"
+      },
+      {
+        "text": "Call Out",
+        "description": "Command the creature to show itself and state its business.",
+        "cons": [
+          "Alerts all nearby threats",
+          "Likely triggers combat"
+        ],
+        "id": "call_out",
+        "pros": [
+          "Direct resolution",
+          "Establishes dominance"
+        ],
+        "risk_level": "high",
+        "confidence": "low"
+      }
+    ],
+    "context": "Perceiving a mysterious silhouette in the mist",
+    "thinking": "The creature is currently distracted by its task, providing a tactical advantage. A stealthy approach could reveal its identity without risk of immediate combat, while a direct confrontation might be dangerous given the low visibility. The scratching sound is rhythmic, suggesting intent rather than random movement."
+  },
+  "schema_migrated_at": "2026-06-11T18:01:37.178776+00:00",
+  "schema_migration_version": 1,
+  "user_id": "test-bq_path14_gameplay_streaming_proxy_e2e-1781200848"
+}

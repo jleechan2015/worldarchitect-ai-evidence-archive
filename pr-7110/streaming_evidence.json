@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-28T01:18:52.525432+00:00",
+  "summary": {
+    "scenarios_with_streaming_evidence": 2,
+    "total_chunk_events_observed": 83,
+    "stream_http_calls_captured": 11,
+    "process_action_calls_captured": 11,
+    "mcp_process_action_calls_captured": 0,
+    "route_stream_process_action_calls_captured": 11,
+    "process_action_calls_with_raw_response_text": 8
+  },
+  "scenarios": [
+    {
+      "name": "god_mode_cascade",
+      "campaign_id": "ZeLNjyjKFCVdusWmNHzQ",
+      "passed": true,
+      "chunk_count_observed": 41,
+      "done_chunk_count": 1,
+      "chunk_count_matches_done": null,
+      "strictly_increasing_sequence": null,
+      "streaming_request_timestamp": "2026-05-28T01:15:33.054796+00:00",
+      "streaming_response_timestamp": "2026-05-28T01:16:08.199079+00:00",
+      "timeline_sample_size": 0
+    },
+    {
+      "name": "regular_turn_cascade",
+      "campaign_id": "CwXl5hyCkc2sQSa4Mu8c",
+      "passed": true,
+      "chunk_count_observed": 42,
+      "done_chunk_count": 1,
+      "chunk_count_matches_done": null,
+      "strictly_increasing_sequence": null,
+      "streaming_request_timestamp": "2026-05-28T01:17:20.386090+00:00",
+      "streaming_response_timestamp": "2026-05-28T01:17:45.368597+00:00",
+      "timeline_sample_size": 0
+    }
+  ]
+}

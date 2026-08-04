@@ -1,0 +1,52 @@
+2026-07-05 17:28:53,474 - root - INFO - Unified logging configured: /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix_dockerfile-chainguard-entrypoint-v2/app.log
+2026-07-05 17:28:53,664 - mvp_site.adjusters.base - INFO - Registered adjuster: ADJ-WA-JSON-STRIP-PREFIX | Scope: format_normalization | Priority: 10
+2026-07-05 17:28:53,815 - root - INFO - Cache MISS for rag_output_contract.md: loaded and cached 269 characters (~67 tokens)
+2026-07-05 17:28:54,599 - root - INFO - Applied clock skew patch: adjusting time by -720 seconds
+2026-07-05 17:28:54,796 - root - INFO - Loading service account from file: /Users/jleechan/serviceAccountKey.json
+2026-07-05 17:28:54,796 - root - INFO - ✅ Successfully loaded credentials from file: /Users/jleechan/serviceAccountKey.json
+2026-07-05 17:28:54,797 - root - INFO - Successfully loaded service account credentials
+2026-07-05 17:28:54,846 - root - INFO - Firebase initialized successfully in world_logic.py
+2026-07-05 17:28:54,848 - root - INFO - Logging already configured for 'app'; ignoring 'flask-server'
+2026-07-05 17:28:54,848 - root - INFO - 🧠 CLASSIFIER: Background warmup starting...
+2026-07-05 17:28:54,848 - root - INFO - 🧪 TESTING_MODE: Skipping classifier initialization for non-classifier tests
+2026-07-05 17:28:54,848 - root - INFO - Schema doc cache initialized: 11 types, 0.12ms total
+2026-07-05 17:28:54,851 - root - INFO - Lazy warmup ready: main.firestore_service.get_campaigns_for_user
+2026-07-05 17:28:54,851 - root - INFO - Lazy warmup ready: main.openclaw_provider.test_openclaw_gateway_connection
+2026-07-05 17:28:54,851 - root - INFO - Lazy warmup ready: main.world_logic.get_campaigns_list_unified
+2026-07-05 17:28:54,851 - root - INFO - Lazy warmup started: main.firestore_runtime_warmup (background thread)
+2026-07-05 17:28:55,202 - root - INFO - Lazy warmup ready: main.firestore_runtime_warmup
+2026-07-05 17:28:59,896 - root - WARNING - ⚠️ Classifier warmup timeout after 5.00s; first request may finish warmup.
+2026-07-05 17:28:59,899 - root - WARNING - ⚠️ Lazy warmup incomplete; first-request latency may increase for: main.intent_classifier_ready
+2026-07-05 17:28:59,957 - root - INFO - Logging already configured for 'app'; ignoring 'flask-server'
+2026-07-05 17:28:59,957 - root - INFO - 🧠 CLASSIFIER: Background warmup starting...
+2026-07-05 17:28:59,957 - root - INFO - 🧪 TESTING_MODE: Skipping classifier initialization for non-classifier tests
+2026-07-05 17:28:59,957 - root - INFO - Schema doc cache initialized: 11 types, 0.13ms total
+2026-07-05 17:28:59,958 - root - INFO - Lazy warmup ready: main.firestore_service.get_campaigns_for_user
+2026-07-05 17:28:59,959 - root - INFO - Lazy warmup ready: main.openclaw_provider.test_openclaw_gateway_connection
+2026-07-05 17:28:59,959 - root - INFO - Lazy warmup ready: main.world_logic.get_campaigns_list_unified
+2026-07-05 17:28:59,959 - root - INFO - Lazy warmup started: main.firestore_runtime_warmup (background thread)
+2026-07-05 17:29:00,076 - root - INFO - Lazy warmup ready: main.firestore_runtime_warmup
+2026-07-05 17:29:00,422 - root - INFO - 🔎 RAG store: loaded 291 embeddings (asset_version=7e8a7cdbd12c6777, 414.3 KB compressed)
+2026-07-05 17:29:00,423 - root - INFO - Lazy warmup ready: embed_store (291 entries inserted, asset_version=7e8a7cdbd12c6777)
+2026-07-05 17:29:05,009 - root - WARNING - ⚠️ Classifier warmup timeout after 5.00s; first request may finish warmup.
+2026-07-05 17:29:05,009 - root - WARNING - ⚠️ Lazy warmup incomplete; first-request latency may increase for: main.intent_classifier_ready
+[2026-07-05 17:29:05 -0700] [23199] [INFO] Starting gunicorn 23.0.0
+[2026-07-05 17:29:05 -0700] [23199] [INFO] Gunicorn master starting with configuration:
+[2026-07-05 17:29:05 -0700] [23199] [INFO]   Workers: 1
+[2026-07-05 17:29:05 -0700] [23199] [INFO]   Worker class: gthread
+[2026-07-05 17:29:05 -0700] [23199] [INFO]   Threads per worker: 4
+[2026-07-05 17:29:05 -0700] [23199] [INFO]   Total concurrent requests: 4
+[2026-07-05 17:29:05 -0700] [23199] [INFO]   Timeout: 600s
+[2026-07-05 17:29:05 -0700] [23199] [INFO] fastembed: cache directory present at /Users/jleechan/.cache/fastembed
+[2026-07-05 17:29:05 -0700] [23199] [INFO] fastembed: runtime startup uses offline guardrails; no monkey patches applied
+[2026-07-05 17:29:05 -0700] [23199] [INFO] Listening at: http://127.0.0.1:8094 (23199)
+[2026-07-05 17:29:05 -0700] [23199] [INFO] Using worker: gthread
+I0705 17:29:05.064310 89540946 ev_poll_posix.cc:593] FD from fork parent still in poll list: fd(11, generation: 1)
+[2026-07-05 17:29:05 -0700] [25423] [INFO] Booting worker with pid: 25423
+127.0.0.1 - - [05/Jul/2026:17:29:05 -0700] "GET / HTTP/1.1" 200 23804 "-" "Python-urllib/3.14" 6942
+127.0.0.1 - - [05/Jul/2026:17:29:05 -0700] "GET /health HTTP/1.1" 200 133 "-" "Python-urllib/3.14" 867
+[2026-07-05 17:29:05 -0700] [23199] [INFO] Handling signal: term
+2026-07-05 17:29:05,366 - root - INFO - 🔎 RAG store: loaded 291 embeddings (asset_version=7e8a7cdbd12c6777, 414.3 KB compressed)
+2026-07-05 17:29:05,367 - root - INFO - Lazy warmup ready: embed_store (0 entries inserted, asset_version=7e8a7cdbd12c6777)
+[2026-07-05 17:29:06 -0700] [25423] [INFO] Worker exiting (pid: 25423)
+[2026-07-05 17:29:08 -0700] [23199] [INFO] Shutting down: Master

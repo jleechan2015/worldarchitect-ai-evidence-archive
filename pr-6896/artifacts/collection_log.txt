@@ -1,0 +1,35 @@
+evidence_dir=/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003
+generated_at=2026-05-23T07:30:49.253075+00:00
+
+core_files:
+  metadata.json: present
+  run.json: present
+  streaming_evidence.json: present
+  scenario_results_checkpoint.json: missing
+  evidence.md: present
+  methodology.md: present
+  notes.md: present
+  README.md: present
+
+top_level_jsonl:
+  gemini_http_request_responses.jsonl
+  gemini_http_request_responses_1779521297519.jsonl
+  http_request_responses.jsonl
+  http_request_responses_1779521297519.jsonl
+  llm_request_responses.jsonl
+  llm_request_responses_1779521297519.jsonl
+  request_responses.jsonl
+
+campaigns_dir:
+  Schema Migration Flow_W3ldqenq.txt
+  Schema Migration Flow_W3ldqenq_game_state.json
+  W3ldqenqKTQd1jnqgSjK.json
+  W3ldqenqKTQd1jnqgSjK.json.sha256
+
+artifacts_dir (excluding collection_log.txt):
+  lsof_output.txt
+  lsof_output.txt.sha256
+  ps_output.txt
+  ps_output.txt.sha256
+  server.log
+  server.log.sha256

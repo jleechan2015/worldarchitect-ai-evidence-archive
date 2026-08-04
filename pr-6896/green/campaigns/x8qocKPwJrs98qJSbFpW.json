@@ -1,0 +1,361 @@
+{
+  "campaign": {
+    "created_at": "2026-05-22T09:18:07.699618+00:00",
+    "initial_prompt": "Character: Aric the Fighter (STR 16) | Setting: A regression testing chamber | Description: Validate one-time legacy-to-schema migration flow",
+    "last_played": "2026-05-22T09:20:12.227583+00:00",
+    "living_world_state": {
+      "last_time": null,
+      "last_turn": 0
+    },
+    "selected_prompts": [],
+    "title": "Schema Migration Flow",
+    "use_default_world": false
+  },
+  "entries_cleaned": 0,
+  "game_state": {
+    "combat_state": {
+      "in_combat": false
+    },
+    "custom_campaign_state": {
+      "_agent_selection_tracker": {
+        "agent": "HeavyDialogAgent",
+        "count": 1,
+        "rewards_skip_count": 0
+      },
+      "active_constraints": [],
+      "arc_milestones": {},
+      "attribute_system": "D&D",
+      "campaign_tier": "mortal",
+      "character_creation_completed": true,
+      "character_creation_in_progress": false,
+      "character_creation_stage": "complete",
+      "companion_arcs": {
+        "Unit 734": {
+          "arc_type": "mentor_legacy",
+          "history": [
+            {
+              "event": "Unit 734 manifested during a simulation glitch, identifying Aric as a carrier of 'Legacy' remnants.",
+              "turn": 3
+            }
+          ],
+          "phase": "discovery",
+          "progress": 5
+        }
+      },
+      "core_memories": [
+        "The campaign is a regression test environment designed to validate character migration for Aric the Fighter (STR 16).",
+        "Aric the Fighter (Lvl 1) initiated a diagnostic observation in the Regression Testing Chamber, identifying a blue runic console and a sealed northern blast door.",
+        "Aric successfully searched the Regression Testing Chamber (formerly the Legacy Crypt of Shadows) and discovered a hidden Master Override Keycard and a set of rusted shackles.",
+        "A sudden artificial blackout in the testing chamber coincided with the appearance of Diagnostic Unit 734, who seeks Aric's assistance in recovering corrupted legacy data shards.",
+        "Aric the Fighter (Lvl 1) attempted to force the northern blast door after Diagnostic Unit 734 offered a retrieval protocol to open it, but the door's hydraulic seals held firm."
+      ],
+      "divine_potential": 0,
+      "divine_upgrade_available": false,
+      "faction_minigame": {
+        "strong_suggestion_given": false,
+        "suggestion_given": false
+      },
+      "god_mode": {
+        "character": {
+          "attributes": {
+            "strength": 16
+          },
+          "base_attributes": {
+            "strength": 16
+          },
+          "name": "Aric the Fighter (STR 16)"
+        },
+        "description": "Validate one-time legacy-to-schema migration flow",
+        "setting": "A regression testing chamber"
+      },
+      "last_location": "Regression Testing Chamber",
+      "major_event_pressure_budget": {
+        "major_events_this_window": 1,
+        "new_major_event": true,
+        "rationale": "Turn 3 Living World advancement triggered the manifestation of Unit 734 and the local simulation instability.",
+        "special_circumstances": true,
+        "window": "24h"
+      },
+      "multiverse_upgrade_available": false,
+      "next_companion_arc_turn": 5,
+      "success_streak": 0,
+      "universe_control": 0
+    },
+    "debug_mode": true,
+    "entity_tracking": {
+      "active_entities": [
+        "Aric the Fighter (STR 16)"
+      ],
+      "present_entities": []
+    },
+    "faction_updates": {
+      "The Architects": {
+        "current_objective": "Monitor user adaptation to legacy/modern hybrid environments",
+        "next_action": "Evaluate Aric's response to the Unit 734 quest offer",
+        "player_standing_change": "Neutral",
+        "progress": "Insignificant",
+        "resource_change": "Increased diagnostic power allocation"
+      }
+    },
+    "game_state_version": 1,
+    "item_registry": {},
+    "last_living_world_time": {
+      "day": 1,
+      "hour": 8,
+      "microsecond": 0,
+      "minute": 10,
+      "month": "Hammer",
+      "second": 0,
+      "time_of_day": "morning",
+      "year": 1492
+    },
+    "last_living_world_turn": 4,
+    "last_state_update_timestamp": "2026-05-22T09:20:11.812000+00:00",
+    "npc_agendas": {},
+    "npc_data": {
+      "npc_goblin_001": {
+        "armor_class": 13,
+        "hp_current": 7,
+        "hp_max": 7,
+        "name": "Goblin",
+        "present": true,
+        "status": "healthy",
+        "string_id": "npc_goblin_001"
+      }
+    },
+    "pending_instruction_hints": [],
+    "planning_block": {
+      "choices": [
+        {
+          "confidence": "high",
+          "cons": [
+            "Unknown threats in the unoptimized sub-layers"
+          ],
+          "description": "Open the maintenance hatch and follow Unit 734 into the facility's lower levels to find the corrupted data shards.",
+          "id": "descend_to_sublayers",
+          "pros": [
+            "Direct progress on the drone's quest",
+            "Likely to find more legacy items and data shards"
+          ],
+          "risk_level": "medium",
+          "text": "Descend into Sub-Layers"
+        },
+        {
+          "confidence": "medium",
+          "cons": [
+            "Could trigger a security lockout or alarm if the keycard is invalid for this door"
+          ],
+          "description": "Try to use the Master Override Keycard on the door's diagnostic interface to force an override.",
+          "id": "use_keycard_on_blast_door",
+          "pros": [
+            "Might bypass the need for the drone's retrieval quest"
+          ],
+          "risk_level": "low",
+          "text": "Use Keycard on Blast Door"
+        },
+        {
+          "confidence": "low",
+          "cons": [
+            "Time-consuming and may still fail against the hydraulic locks"
+          ],
+          "description": "Look for a heavy pipe or tool to use as a pry bar to force the door manually.",
+          "id": "search_for_leverage",
+          "pros": [
+            "Second attempt at a physical solution"
+          ],
+          "risk_level": "medium",
+          "text": "Search for Leverage"
+        }
+      ],
+      "context": "Failed attempt to force the blast door; drone suggests sub-layer exploration.",
+      "thinking": "The blast door is beyond simple physical force, likely due to the simulation's updated security protocols. The drone's offer to retrieve data shards from the 'Legacy' layers seems to be the intended path forward. Alternatively, the Master Override Keycard found earlier might be used on the door's terminal, though its specific function remains untested against the current lockout."
+    },
+    "player_character_data": {
+      "attributes": {
+        "charisma": 10,
+        "constitution": 10,
+        "dexterity": 10,
+        "intelligence": 10,
+        "strength": 16,
+        "wisdom": 10
+      },
+      "base_attributes": {
+        "charisma": 10,
+        "constitution": 10,
+        "dexterity": 10,
+        "intelligence": 10,
+        "strength": 16,
+        "wisdom": 10
+      },
+      "equipment": {
+        "backpack": [
+          {
+            "equipped": false,
+            "name": "Backpack",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Bedroll",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Mess kit",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Tinderbox",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Torch",
+            "stats": "10"
+          },
+          {
+            "equipped": false,
+            "name": "Rations",
+            "stats": "10 days"
+          },
+          {
+            "equipped": false,
+            "name": "Waterskin",
+            "stats": null
+          },
+          {
+            "equipped": false,
+            "name": "Rope",
+            "stats": "50 feet"
+          },
+          {
+            "equipped": false,
+            "name": "Coin pouch",
+            "stats": "10gp"
+          },
+          {
+            "equipped": false,
+            "name": "Master Override Keycard",
+            "stats": "Pulsing blue light, opens diagnostic overrides",
+            "type": "item"
+          },
+          {
+            "equipped": false,
+            "name": "Rusted Shackles",
+            "stats": "Legacy remnant, iron",
+            "type": "item"
+          }
+        ]
+      },
+      "health": {
+        "hp": 10,
+        "hp_max": 10
+      },
+      "hp_current": 10,
+      "hp_max": 10,
+      "level": 1,
+      "name": "Aric the Fighter (STR 16)"
+    },
+    "player_turn": 5,
+    "rumors": [
+      {
+        "accuracy": "partial",
+        "content": "The 'Legacy Crypt' wasn't deleted; it was simply compressed and buried under the new tiled layers.",
+        "related_event": "lw_instability_001",
+        "source_type": "Unit 734"
+      }
+    ],
+    "schema_migrated_at": "2026-05-22T09:18:11.960359+00:00",
+    "schema_migration_version": 1,
+    "session_id": "legacy-migrated-b1e0c06392b770ad",
+    "social_hp_challenge": null,
+    "time_pressure_warnings": {},
+    "time_sensitive_events": {},
+    "turn_number": 5,
+    "user_id": "test-schema_migration_flow_real_api-1779441451",
+    "world_data": {
+      "current_location_name": "Regression Testing Chamber",
+      "world_time": {
+        "day": 1,
+        "hour": 8,
+        "microsecond": 0,
+        "minute": 15,
+        "month": "Hammer",
+        "second": 0,
+        "time_of_day": "morning",
+        "year": 1492
+      }
+    },
+    "world_events": {
+      "background_events": [
+        {
+          "action": "Triggered a localized darkness protocol and diagnostic spawn",
+          "actor": "The System",
+          "delta_action": "add",
+          "discovery_condition": "Automatic upon darkness trigger",
+          "event_type": "immediate",
+          "id": "lw_instability_001",
+          "location": "Sector 4 / Regression Testing Chamber",
+          "outcome": "Aric met Unit 734; sub-layer stability is decreasing",
+          "player_aware": true,
+          "player_impact": "Forces interaction with the new companion entity",
+          "status": "discovered"
+        }
+      ]
+    },
+    "world_resources": {}
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "confidence": "high",
+        "cons": [
+          "Unknown threats in the unoptimized sub-layers"
+        ],
+        "description": "Open the maintenance hatch and follow Unit 734 into the facility's lower levels to find the corrupted data shards.",
+        "id": "descend_to_sublayers",
+        "pros": [
+          "Direct progress on the drone's quest",
+          "Likely to find more legacy items and data shards"
+        ],
+        "risk_level": "medium",
+        "text": "Descend into Sub-Layers"
+      },
+      {
+        "confidence": "medium",
+        "cons": [
+          "Could trigger a security lockout or alarm if the keycard is invalid for this door"
+        ],
+        "description": "Try to use the Master Override Keycard on the door's diagnostic interface to force an override.",
+        "id": "use_keycard_on_blast_door",
+        "pros": [
+          "Might bypass the need for the drone's retrieval quest"
+        ],
+        "risk_level": "low",
+        "text": "Use Keycard on Blast Door"
+      },
+      {
+        "confidence": "low",
+        "cons": [
+          "Time-consuming and may still fail against the hydraulic locks"
+        ],
+        "description": "Look for a heavy pipe or tool to use as a pry bar to force the door manually.",
+        "id": "search_for_leverage",
+        "pros": [
+          "Second attempt at a physical solution"
+        ],
+        "risk_level": "medium",
+        "text": "Search for Leverage"
+      }
+    ],
+    "context": "Failed attempt to force the blast door; drone suggests sub-layer exploration.",
+    "thinking": "The blast door is beyond simple physical force, likely due to the simulation's updated security protocols. The drone's offer to retrieve data shards from the 'Legacy' layers seems to be the intended path forward. Alternatively, the Master Override Keycard found earlier might be used on the door's terminal, though its specific function remains untested against the current lockout."
+  },
+  "state_cleaned": false,
+  "success": true,
+  "user_settings": {
+    "gemini_model": "gemini-3-flash-preview",
+    "llm_provider": "gemini"
+  }
+}

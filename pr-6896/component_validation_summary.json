@@ -1,0 +1,12 @@
+{
+  "raw_metrics": {
+    "total_raw_validations": 0,
+    "passed_raw_validations": 0,
+    "failed_raw_validations": 0,
+    "unknown_raw_validations": 0,
+    "raw_pass_rate": "0.0%",
+    "raw_data_complete": true,
+    "raw_vs_processed_comparison": "Raw LLM validation tracks schema compliance before post-processing"
+  },
+  "generated_at": "2026-05-23T07:30:49.261386+00:00"
+}

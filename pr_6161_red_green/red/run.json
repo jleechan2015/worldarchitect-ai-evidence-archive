@@ -1,0 +1,471 @@
+{
+  "scenarios": [
+    {
+      "name": "atomicity_e2e",
+      "passed": true,
+      "errors": [],
+      "campaign_id": "SQYV3wvYNXcPdaiWxsK0",
+      "level_up_triggered": true,
+      "immediate_response": {
+        "had_rewards_box": true,
+        "had_planning_block": true
+      },
+      "polled_response": {
+        "had_rewards_box": true,
+        "had_planning_block": true,
+        "rewards_box_level_up": true,
+        "planning_block_has_level_up_choices": true
+      },
+      "user_id": "test-rewards_box_planning_block_e2e-1775769409",
+      "user_email": "<redacted-email>"
+    },
+    {
+      "name": "projected_level_up_button_text",
+      "passed": false,
+      "errors": [
+        "Projected pending state did not return rewards_box.level_up_available=true",
+        "Projected pending state did not return canonical level-up planning choices",
+        "Projected pending state missing level_up_now button text"
+      ],
+      "campaign_id": "dL5LR8w2kqsqb4Xqc2SK",
+      "user_id": "test-rewards_box_planning_block_e2e-1775769409",
+      "user_email": "<redacted-email>"
+    },
+    {
+      "name": "multi_level_organic_progression",
+      "passed": false,
+      "errors": [
+        "level_up_to_2: level_up_modal_enter_target_2: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_2: level_up_modal_enter_target_2: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_enter_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_enter_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_1_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_1_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_2_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_2_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_3_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_3_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_4_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_4_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_5_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_5_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_6_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: level_up_modal_step_6_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_3: Did not reach finish_level_up_return_to_game for level 3 within modal step budget; transcript=[{'step': 'enter_level_up', 'action': 'CHOICE:level_up_now', 'choice_ids': ['level_up_now', 'choose_champion', 'choose_battle_master', 'choose_eldritch_knight', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_1', 'action': 'CHOICE:choose_champion', 'choice_ids': ['level_up_now', 'adjust_archetype', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_2', 'action': 'CHOICE:adjust_archetype', 'choice_ids': ['level_up_now', 'choose_champion', 'choose_battle_master', 'choose_eldritch_knight', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_3', 'action': 'CHOICE:choose_champion', 'choice_ids': ['level_up_now', 'adjust_archetype', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_4', 'action': 'CHOICE:adjust_archetype', 'choice_ids': ['level_up_now', 'choose_champion', 'choose_battle_master', 'choose_eldritch_knight', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_5', 'action': 'CHOICE:choose_champion', 'choice_ids': ['level_up_now', 'adjust_level_up_choices', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_6', 'action': 'CHOICE:adjust_level_up_choices', 'choice_ids': ['level_up_now', 'choose_champion', 'choose_battle_master', 'choose_eldritch_knight', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}]",
+        "level_up_to_4: level_up_modal_enter_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_enter_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_1_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_1_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_2_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_2_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_3_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_3_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_4_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_4_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_5_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_5_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_6_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: level_up_modal_step_6_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+        "level_up_to_4: Did not reach finish_level_up_return_to_game for level 4 within modal step budget; transcript=[{'step': 'enter_level_up', 'action': 'CHOICE:level_up_now', 'choice_ids': ['level_up_now', 'apply_asi_str', 'apply_asi_con', 'apply_feat_gwm', 'apply_feat_sentinel', 'adjust_level_up_choices', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_1', 'action': 'CHOICE:apply_asi_str', 'choice_ids': ['level_up_now', 'adjust_level_up_choices', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_2', 'action': 'CHOICE:adjust_level_up_choices', 'choice_ids': ['level_up_now', 'apply_asi_str', 'apply_asi_con', 'apply_feat_sentinel', 'apply_feat_tough', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_3', 'action': 'CHOICE:apply_asi_str', 'choice_ids': ['level_up_now', 'adjust_level_up_choices', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_4', 'action': 'CHOICE:adjust_level_up_choices', 'choice_ids': ['level_up_now', 'apply_asi_str_20', 'apply_asi_dex_14', 'choose_feat_gwm', 'choose_feat_sentinel', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_5', 'action': 'CHOICE:apply_asi_str_20', 'choice_ids': ['level_up_now', 'adjust_level_up_choices', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_6', 'action': 'CHOICE:adjust_level_up_choices', 'choice_ids': ['level_up_now', 'apply_asi_str', 'apply_asi_con', 'choose_feat_gwm', 'choose_feat_sentinel', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}]"
+      ],
+      "campaign_id": "AIZ3QHXnz3T1FlgyagjR",
+      "progression": [
+        {
+          "target_level": 2,
+          "start_level": 1,
+          "seeded_xp": 275,
+          "end_level": 2,
+          "triggered": true,
+          "completed": true,
+          "immediate_choice_ids": [
+            "level_up_now",
+            "continue_adventuring",
+            "search_remains"
+          ],
+          "polled_choice_ids": [
+            "level_up_now",
+            "continue_adventuring",
+            "search_remains"
+          ],
+          "completion_transcript": [
+            {
+              "step": "enter_level_up",
+              "action": "CHOICE:level_up_now",
+              "choice_ids": [
+                "level_up_now",
+                "continue_training_round_2",
+                "short_rest_meditation",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_1",
+              "action": "CHOICE:continue_training_round_2",
+              "choice_ids": [
+                "attack_construct",
+                "action_surge_attack",
+                "defensive_duel"
+              ],
+              "has_planning_block": true
+            }
+          ]
+        },
+        {
+          "target_level": 3,
+          "start_level": 2,
+          "seeded_xp": 875,
+          "end_level": 3,
+          "triggered": true,
+          "completed": false,
+          "immediate_choice_ids": [
+            "level_up_now",
+            "choose_champion",
+            "choose_battle_master",
+            "choose_eldritch_knight",
+            "finish_level_up_return_to_game",
+            "continue_adventuring"
+          ],
+          "polled_choice_ids": [
+            "level_up_now",
+            "choose_champion",
+            "choose_battle_master",
+            "choose_eldritch_knight",
+            "finish_level_up_return_to_game",
+            "continue_adventuring"
+          ],
+          "completion_transcript": [
+            {
+              "step": "enter_level_up",
+              "action": "CHOICE:level_up_now",
+              "choice_ids": [
+                "level_up_now",
+                "choose_champion",
+                "choose_battle_master",
+                "choose_eldritch_knight",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_1",
+              "action": "CHOICE:choose_champion",
+              "choice_ids": [
+                "level_up_now",
+                "adjust_archetype",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_2",
+              "action": "CHOICE:adjust_archetype",
+              "choice_ids": [
+                "level_up_now",
+                "choose_champion",
+                "choose_battle_master",
+                "choose_eldritch_knight",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_3",
+              "action": "CHOICE:choose_champion",
+              "choice_ids": [
+                "level_up_now",
+                "adjust_archetype",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_4",
+              "action": "CHOICE:adjust_archetype",
+              "choice_ids": [
+                "level_up_now",
+                "choose_champion",
+                "choose_battle_master",
+                "choose_eldritch_knight",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_5",
+              "action": "CHOICE:choose_champion",
+              "choice_ids": [
+                "level_up_now",
+                "adjust_level_up_choices",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_6",
+              "action": "CHOICE:adjust_level_up_choices",
+              "choice_ids": [
+                "level_up_now",
+                "choose_champion",
+                "choose_battle_master",
+                "choose_eldritch_knight",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            }
+          ]
+        },
+        {
+          "target_level": 4,
+          "start_level": 3,
+          "seeded_xp": 2675,
+          "end_level": 4,
+          "triggered": true,
+          "completed": false,
+          "immediate_choice_ids": [
+            "level_up_now",
+            "level_up_to_4",
+            "continue_training",
+            "continue_adventuring",
+            "finish_level_up_return_to_game"
+          ],
+          "polled_choice_ids": [
+            "level_up_now",
+            "level_up_to_4",
+            "continue_training",
+            "continue_adventuring",
+            "finish_level_up_return_to_game"
+          ],
+          "completion_transcript": [
+            {
+              "step": "enter_level_up",
+              "action": "CHOICE:level_up_now",
+              "choice_ids": [
+                "level_up_now",
+                "apply_asi_str",
+                "apply_asi_con",
+                "apply_feat_gwm",
+                "apply_feat_sentinel",
+                "adjust_level_up_choices",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_1",
+              "action": "CHOICE:apply_asi_str",
+              "choice_ids": [
+                "level_up_now",
+                "adjust_level_up_choices",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_2",
+              "action": "CHOICE:adjust_level_up_choices",
+              "choice_ids": [
+                "level_up_now",
+                "apply_asi_str",
+                "apply_asi_con",
+                "apply_feat_sentinel",
+                "apply_feat_tough",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_3",
+              "action": "CHOICE:apply_asi_str",
+              "choice_ids": [
+                "level_up_now",
+                "adjust_level_up_choices",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_4",
+              "action": "CHOICE:adjust_level_up_choices",
+              "choice_ids": [
+                "level_up_now",
+                "apply_asi_str_20",
+                "apply_asi_dex_14",
+                "choose_feat_gwm",
+                "choose_feat_sentinel",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_5",
+              "action": "CHOICE:apply_asi_str_20",
+              "choice_ids": [
+                "level_up_now",
+                "adjust_level_up_choices",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            },
+            {
+              "step": "level_up_step_6",
+              "action": "CHOICE:adjust_level_up_choices",
+              "choice_ids": [
+                "level_up_now",
+                "apply_asi_str",
+                "apply_asi_con",
+                "choose_feat_gwm",
+                "choose_feat_sentinel",
+                "continue_adventuring",
+                "finish_level_up_return_to_game"
+              ],
+              "has_planning_block": true
+            }
+          ]
+        }
+      ],
+      "final_level": 4,
+      "user_id": "test-rewards_box_planning_block_e2e-1775769409",
+      "user_email": "<redacted-email>"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "passed": 1,
+    "failed": 2,
+    "pass_rate": "1/3 (33%)",
+    "raw_total": 3,
+    "raw_passed": 3,
+    "raw_pass_rate": "100.0%",
+    "raw_data_complete": true
+  },
+  "doctor_report": {
+    "generated_at_utc": "2026-04-09T21:30:08.809010+00:00",
+    "test_name": "rewards_box_planning_block_e2e",
+    "work_name": "rewards_box_planning_block_e2e",
+    "server_base_url": "http://127.0.0.1:8051",
+    "using_external_server": false,
+    "user_id": "test-rewards_box_planning_block_e2e-1775769409",
+    "failure_messages": [
+      "Projected pending state did not return rewards_box.level_up_available=true",
+      "Projected pending state did not return canonical level-up planning choices",
+      "Projected pending state missing level_up_now button text",
+      "level_up_to_2: level_up_modal_enter_target_2: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_2: level_up_modal_enter_target_2: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_enter_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_enter_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_1_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_1_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_2_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_2_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_3_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_3_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_4_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_4_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_5_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_5_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_6_target_3: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: level_up_modal_step_6_target_3: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_3: Did not reach finish_level_up_return_to_game for level 3 within modal step budget; transcript=[{'step': 'enter_level_up', 'action': 'CHOICE:level_up_now', 'choice_ids': ['level_up_now', 'choose_champion', 'choose_battle_master', 'choose_eldritch_knight', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_1', 'action': 'CHOICE:choose_champion', 'choice_ids': ['level_up_now', 'adjust_archetype', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_2', 'action': 'CHOICE:adjust_archetype', 'choice_ids': ['level_up_now', 'choose_champion', 'choose_battle_master', 'choose_eldritch_knight', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_3', 'action': 'CHOICE:choose_champion', 'choice_ids': ['level_up_now', 'adjust_archetype', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_4', 'action': 'CHOICE:adjust_archetype', 'choice_ids': ['level_up_now', 'choose_champion', 'choose_battle_master', 'choose_eldritch_knight', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_5', 'action': 'CHOICE:choose_champion', 'choice_ids': ['level_up_now', 'adjust_level_up_choices', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}, {'step': 'level_up_step_6', 'action': 'CHOICE:adjust_level_up_choices', 'choice_ids': ['level_up_now', 'choose_champion', 'choose_battle_master', 'choose_eldritch_knight', 'continue_adventuring', 'finish_level_up_return_to_game'], 'has_planning_block': True}]",
+      "level_up_to_4: level_up_modal_enter_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_4: level_up_modal_enter_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_4: level_up_modal_step_1_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_4: level_up_modal_step_1_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_4: level_up_modal_step_2_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_4: level_up_modal_step_2_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_4: level_up_modal_step_3_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_4: level_up_modal_step_3_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_4: level_up_modal_step_4_target_4: immediate response has level-up planning choices without a paired rewards_box.level_up_available=true",
+      "level_up_to_4: level_up_modal_step_4_target_4: polled campaign state has level-up planning choices without a paired rewards_box.level_up_available=true"
+    ],
+    "http_probes": {
+      "/health": {
+        "ok": true,
+        "status": 200,
+        "body_excerpt": "{\"mcp_client\":{\"initialized\":false},\"service\":\"worldarchitect-ai\",\"status\":\"healthy\",\"timestamp\":\"2026-04-09T21:30:08.809694+00:00\"}\n"
+      },
+      "/mcp": {
+        "ok": true,
+        "status": 200,
+        "body_excerpt": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"/frontend_v1/dragon-favicon.svg\" />\n  <title>WorldAI</title>\n  <!-- DNS prefetch for external domains to reduce"
+      },
+      "/settings": {
+        "ok": true,
+        "status": 200,
+        "body_excerpt": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <script src=\"/frontend_v1/js/theme-bootstrap.js\"></script>\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/frontend_v1/dragon-favicon.svg\">\n    <title>Se"
+      }
+    },
+    "mcp_probes": {
+      "get_user_settings": {
+        "ok": true,
+        "payload": {
+          "cerebras_model": "qwen-3-235b-a22b-instruct-2507",
+          "gemini_model": "gemini-3-flash-preview",
+          "has_custom_cerebras_key": false,
+          "has_custom_gemini_key": false,
+          "has_custom_openclaw_gateway_token": false,
+          "has_custom_openclaw_key": false,
+          "has_custom_openrouter_key": false,
+          "llm_provider": "gemini",
+          "openclaw_gateway_port": 18789,
+          "openclaw_gateway_url": "",
+          "openrouter_model": "meta-llama/llama-3.1-70b-instruct",
+          "success": true
+        }
+      }
+    },
+    "openclaw_endpoint_probes": [
+      {
+        "target": "http://127.0.0.1:18789/v1/models",
+        "probe": {
+          "ok": true,
+          "status": 200,
+          "body_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>OpenClaw Control</title>\n    <meta name=\"color-scheme\" content=\"dark light\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"./favicon.svg\""
+        }
+      }
+    ],
+    "openclaw_settings": {
+      "llm_provider": "gemini",
+      "openclaw_gateway_port": 18789,
+      "openclaw_gateway_url": ""
+    },
+    "doctor_report_path": "<redacted-tmp-path>"
+  },
+  "campaign_capture_status": {
+    "AIZ3QHXnz3T1FlgyagjR": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    },
+    "SQYV3wvYNXcPdaiWxsK0": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    },
+    "dL5LR8w2kqsqb4Xqc2SK": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    }
+  }
+}

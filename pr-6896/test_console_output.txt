@@ -1,0 +1,83 @@
+======================================================================
+SCHEMA MIGRATION FLOW REAL API
+======================================================================
+Work name: schema_migration_flow_real_api
+Model: gemini-3-flash-preview
+======================================================================
+📁 Evidence directory: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api
+   Evidence will be saved to: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_XXX/
+📁 Base evidence directory (forced branch-scoped /tmp): /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api
+Created iteration directory for evidence: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003
+
+🚀 Starting fresh local MCP server on port 8098...
+✅ Server ready at http://127.0.0.1:8098
+Tmux video recording started for evidence bundle.
+  ✅ Captured campaign snapshot for W3ldqenq
+Tmux video artifact finalized (.cast).
+
+================================================================================
+📦 EVIDENCE BUNDLE CREATED
+================================================================================
+📁 Evidence Directory:
+   /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003
+
+📋 Bundle Metadata:
+   Run ID:        schema_migration_flow_real_api-003-20260523T073045
+   Iteration:     3
+   Bundle Version: 1.2.0
+   📁 Evidence directory: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003
+   📁 Latest iteration: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003
+
+📥 Downloading 1 test campaigns (workers=1)...
+Downloading to: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/campaigns
+Format: txt
+============================================================
+Downloading: W3ldqenqKTQd1jnqgSjK...
+  Saved story: Schema Migration Flow_W3ldqenq.txt
+  Saved game state: Schema Migration Flow_W3ldqenq_game_state.json
+  Entries: 10, Story size: 6.7 KB, Game state size: 8.8 KB
+============================================================
+Downloaded 1/1 campaigns
+  stderr: 2026-05-23 00:30:45,875 - root - INFO - Unified logging configured: /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/worktree_sync_location/app.log
+  stderr: 2026-05-23 00:30:45,875 - root - INFO - Applied clock skew patch: adjusting time by -720 seconds
+  stderr: 2026-05-23 00:30:46,496 - root - INFO - Firebase not initialized - attempting to initialize now
+  stderr: 2026-05-23 00:30:46,496 - root - INFO - Loading service account from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-23 00:30:46,497 - root - INFO - ✅ Successfully loaded credentials from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-23 00:30:46,497 - root - INFO - Successfully loaded service account credentials
+  stderr: 2026-05-23 00:30:46,989 - root - INFO - 📖 FETCHED STORY ENTRIES: user=test-schema_migration_flow_real_api-1779521297, campaign=W3ldqenqKTQd1jnqgSjK, total_entries=10
+  stderr: 2026-05-23 00:30:46,990 - root - INFO - 📊 STORY BREAKDOWN: user_entries=5, ai_entries=5, other_entries=0
+  stderr: 2026-05-23 00:30:46,990 - root - INFO - 🔍 RECENT ENTRIES (last 5):
+  stderr: 2026-05-23 00:30:46,990 - root - INFO -   1. [gemini] character | Morning (08:00:45) in the Regression Testing Chamb... | 2026-05-23 07:29:26.332975+00:00
+  stderr: 2026-05-23 00:30:46,990 - root - INFO -   2. [user] character | I look around in the blinding darkness. | 2026-05-23 07:30:08.331540+00:00
+  stderr: 2026-05-23 00:30:46,990 - root - INFO -   3. [gemini] character | Morning (08:01:15) in the Regression Testing Chamb... | 2026-05-23 07:30:08.694699+00:00
+  stderr: 2026-05-23 00:30:46,990 - root - INFO -   4. [user] character | I proceed deeper. | 2026-05-23 07:30:43.401999+00:00
+  stderr: 2026-05-23 00:30:46,990 - root - INFO -   5. [gemini] character | Morning (08:01:45) in the Regression Testing Chamb... | 2026-05-23 07:30:43.781245+00:00
+  ✅ Downloaded campaign W3ldqenq... (10 entries)
+  ✅ Downloaded campaign W3ldqenq... (10 entries, user_id=test-schema_migration_flow_real_api-1779521297)
+📦 Downloaded 1/1 campaigns to:
+   /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/campaigns
+ℹ️  Reconciled campaign_capture_status with exported campaign artifacts.
+
+================================================================================
+✅ TEST EVIDENCE SUMMARY
+================================================================================
+📁 Evidence Location:  /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003
+📥 Campaigns Location: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/campaigns
+🔗 Latest Symlink:     /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/latest
+================================================================================
+
+📎 Iteration artifact captured: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/scenario_results_checkpoint.json
+📁 Final evidence iteration directory: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003
+📊 Enriching evidence bundle with raw validation artifacts...
+   ✅ Created component_validation_summary.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total scenarios: 2
+Passed: 2
+Failed: 0
+Pass rate: 2/2 (100%)
+
+📦 Evidence bundle created: /tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api
+   Files: 21 with checksums

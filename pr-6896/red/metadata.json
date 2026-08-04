@@ -1,0 +1,103 @@
+{
+  "test_name": "schema_migration_flow_real_api",
+  "run_id": "schema_migration_flow_real_api-010-20260522T094036",
+  "iteration": 10,
+  "bundle_version": "1.2.0",
+  "timestamp": "2026-05-22T09:40:36.495570+00:00",
+  "bundle_timestamp": "2026-05-22T09:40:36.495570+00:00",
+  "evidence_mode": "lightweight_prompt_tracking",
+  "evidence_mode_notes": "System instruction captured as filenames + char_count (not full text). Raw LLM request/response payloads captured in request_responses.jsonl. Server logs in artifacts/. Bundle file inventory in artifacts/collection_log.txt.",
+  "git_provenance": {
+    "git_head": "9ea6062636c6405a7e439fdb32748617db91bb4f",
+    "git_branch": "deep-review-pr-6896",
+    "merge_base": "6170d0f891b9e01ccae540f9a7ead4db6d8dadf1",
+    "commits_ahead_of_main": 30,
+    "diff_stat_vs_main": ".beads/issues.jsonl                                |   12 +-\n .claude/commands/end2end-testing.md                |   39 +\n docs/design/pr-designs/pr-6896.html                | 2846 ++++++\n docs/design/pr-designs/pr-6896.md                  |  612 ++\n evidence/pr-6896/README.md                         |  455 +\n evidence/pr-6896/README.md.sha256                  |    1 +\n evidence/pr-6896/artifacts/collection_log.txt      |   35 +\n .../pr-6896/artifacts/collection_log.txt.sha256    |    1 +\n evidence/pr-6896/artifacts/lsof_output.txt         |    3 +\n evidence/pr-6896/artifacts/lsof_output.txt.sha256  |    1 +\n evidence/pr-6896/artifacts/ps_output.txt           |    2 +\n evidence/pr-6896/artifacts/ps_output.txt.sha256    |    1 +\n evidence/pr-6896/artifacts/server.log              | 9868 ++++++++++++++++++++\n evidence/pr-6896/artifacts/server.log.sha256       |    1 +\n .../campaigns/Schema Migration Flow_x8qocKPw.txt   |  100 +\n .../Schema Migration Flow_x8qocKPw_game_state.json |  290 +\n .../pr-6896/campaigns/x8qocKPwJrs98qJSbFpW.json    |  361 +\n .../campaigns/x8qocKPwJrs98qJSbFpW.json.sha256     |    1 +\n evidence/pr-6896/component_validation_summary.json |   12 +\n evidence/pr-6896/evidence.md                       |   69 +\n evidence/pr-6896/evidence.md.sha256                |    1 +\n .../pr-6896/gemini_http_request_responses.jsonl    |   10 +\n .../gemini_http_request_responses.jsonl.sha256     |    1 +\n evidence/pr-6896/http_request_responses.jsonl      |  324 +\n .../pr-6896/http_request_responses.jsonl.sha256    |    1 +\n evidence/pr-6896/llm_request_responses.jsonl       |   10 +\n .../pr-6896/llm_request_responses.jsonl.sha256     |    1 +\n evidence/pr-6896/metadata.json                     |  185 +\n evidence/pr-6896/metadata.json.sha256              |    1 +\n evidence/pr-6896/methodology.md                    |   38 +\n evidence/pr-6896/methodology.md.sha256             |    1 +\n evidence/pr-6896/notes.md                          |   34 +\n evidence/pr-6896/notes.md.sha256                   |    1 +\n .../raw_unknown_model_evidence_signature_guard.txt |    1 +\n ...known_model_evidence_signature_guard.txt.sha256 |    1 +\n ...ration_and_strict_post_migration_validation.txt |    1 +\n ...and_strict_post_migration_validation.txt.sha256 |    1 +\n .../pr-6896/replay_fixture_source_manifest.json    |  106 +\n evidence/pr-6896/request_responses.jsonl           |   32 +\n evidence/pr-6896/request_responses.jsonl.sha256    |    1 +\n evidence/pr-6896/run.json                          |   66 +\n evidence/pr-6896/run.json.sha256                   |    1 +\n evidence/pr-6896/scenario_results_checkpoint.json  |    1 +\n .../scenario_results_checkpoint.json.sha256        |    1 +\n .../pr-6896/schema_migration_flow_real_api.cast    |    2 +\n evidence/pr-6896/streaming_evidence.json           |   27 +\n evidence/pr-6896/streaming_evidence.json.sha256    |    1 +\n evidence/pr-6896/test_console_output.txt           |   83 +\n evidence/pr-6896/test_console_output.txt.sha256    |    1 +\n mvp_site/constants.py                              |    1 +\n mvp_site/context_compaction.py                     |   57 +-\n mvp_site/llm_parser.py                             |  102 +-\n mvp_site/llm_service.py                            |   88 +-\n mvp_site/preventive_guards.py                      |  102 +-\n mvp_site/schemas/entities_pydantic.py              |   18 +-\n mvp_site/settings_validation.py                    |    2 +-\n .../test_schema_enforcement_end2end.py             |  146 +-\n mvp_site/tests/test_preventive_guards.py           |  391 +-\n mvp_site/world_logic.py                            |   91 +-\n .../schema/test_schema_migration_flow_real_api.py  |  110 +\n 60 files changed, 16607 insertions(+), 145 deletions(-)",
+    "working_tree_dirty": false,
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 0,
+    "working_tree_changed_files": [],
+    "working_tree_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "server": {
+    "base_url": "http://127.0.0.1:8015",
+    "hostname": "127.0.0.1",
+    "mode": "local",
+    "port": "8015",
+    "pid": 9931,
+    "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:8015 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 50 --access-logfile - --error-logfile - --log-level info",
+    "env_vars": {
+      "WORLDAI_DEV_MODE": "true",
+      "TESTING": null,
+      "MOCK_SERVICES_MODE": "false",
+      "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "FIRESTORE_EMULATOR_HOST": null,
+      "PORT": "8015",
+      "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+      "GEMINI_API_KEY": "[SET - 39 chars]",
+      "LLM_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/deep-review-pr-6896/schema_migration_flow_real_api/iteration_010/llm_request_responses_1779442702036.jsonl",
+      "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/deep-review-pr-6896/schema_migration_flow_real_api/iteration_010/http_request_responses_1779442702036.jsonl",
+      "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/deep-review-pr-6896/schema_migration_flow_real_api/iteration_010/gemini_http_request_responses_1779442702036.jsonl",
+      "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": "/tmp/worldarchitect.ai/deep-review-pr-6896/schema_migration_flow_real_api/iteration_010/provider_http_request_responses_1779442702036.jsonl"
+    },
+    "lsof_output": "COMMAND  PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nPython  9931 jleechan    5u  IPv4 0xebfc3ec419d1ab3f      0t0  TCP *:8015 (LISTEN)\nPython  9992 jleechan    5u  IPv4 0xebfc3ec419d1ab3f      0t0  TCP *:8015 (LISTEN)",
+    "ps_output": "PID USER     ELAPSED ARGS\n 9931 jleechan   01:54 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:8015 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 50 --access-logfile - --error-logfile - --log-level info"
+  },
+  "provenance": {
+    "git_fetch_origin_main": {
+      "returncode": 0,
+      "stdout": null,
+      "stderr": "From https://github.com/jleechanorg/worldarchitect.ai\n * branch                  main       -> FETCH_HEAD\nAuto packing the repository in background for optimum performance.\nSee \"git help gc\" for manual housekeeping.\nwarning: The last gc run reported the following. Please correct the root cause\nand remove /Users/jleechan/projects/worldarchitect.ai/.git/worktrees/deep-review-pr-6896/gc.log\nAutomatic cleanup will not be performed until the file is removed.\n\nwarning: There are too many unreachable loose objects; run 'git prune' to remove them."
+    },
+    "git_head": "9ea6062636c6405a7e439fdb32748617db91bb4f",
+    "git_branch": "deep-review-pr-6896",
+    "merge_base": "6170d0f891b9e01ccae540f9a7ead4db6d8dadf1",
+    "commits_ahead_of_main": 30,
+    "diff_stat_vs_main": ".beads/issues.jsonl                                |   12 +-\n .claude/commands/end2end-testing.md                |   39 +\n docs/design/pr-designs/pr-6896.html                | 2846 ++++++\n docs/design/pr-designs/pr-6896.md                  |  612 ++\n evidence/pr-6896/README.md                         |  455 +\n evidence/pr-6896/README.md.sha256                  |    1 +\n evidence/pr-6896/artifacts/collection_log.txt      |   35 +\n .../pr-6896/artifacts/collection_log.txt.sha256    |    1 +\n evidence/pr-6896/artifacts/lsof_output.txt         |    3 +\n evidence/pr-6896/artifacts/lsof_output.txt.sha256  |    1 +\n evidence/pr-6896/artifacts/ps_output.txt           |    2 +\n evidence/pr-6896/artifacts/ps_output.txt.sha256    |    1 +\n evidence/pr-6896/artifacts/server.log              | 9868 ++++++++++++++++++++\n evidence/pr-6896/artifacts/server.log.sha256       |    1 +\n .../campaigns/Schema Migration Flow_x8qocKPw.txt   |  100 +\n .../Schema Migration Flow_x8qocKPw_game_state.json |  290 +\n .../pr-6896/campaigns/x8qocKPwJrs98qJSbFpW.json    |  361 +\n .../campaigns/x8qocKPwJrs98qJSbFpW.json.sha256     |    1 +\n evidence/pr-6896/component_validation_summary.json |   12 +\n evidence/pr-6896/evidence.md                       |   69 +\n evidence/pr-6896/evidence.md.sha256                |    1 +\n .../pr-6896/gemini_http_request_responses.jsonl    |   10 +\n .../gemini_http_request_responses.jsonl.sha256     |    1 +\n evidence/pr-6896/http_request_responses.jsonl      |  324 +\n .../pr-6896/http_request_responses.jsonl.sha256    |    1 +\n evidence/pr-6896/llm_request_responses.jsonl       |   10 +\n .../pr-6896/llm_request_responses.jsonl.sha256     |    1 +\n evidence/pr-6896/metadata.json                     |  185 +\n evidence/pr-6896/metadata.json.sha256              |    1 +\n evidence/pr-6896/methodology.md                    |   38 +\n evidence/pr-6896/methodology.md.sha256             |    1 +\n evidence/pr-6896/notes.md                          |   34 +\n evidence/pr-6896/notes.md.sha256                   |    1 +\n .../raw_unknown_model_evidence_signature_guard.txt |    1 +\n ...known_model_evidence_signature_guard.txt.sha256 |    1 +\n ...ration_and_strict_post_migration_validation.txt |    1 +\n ...and_strict_post_migration_validation.txt.sha256 |    1 +\n .../pr-6896/replay_fixture_source_manifest.json    |  106 +\n evidence/pr-6896/request_responses.jsonl           |   32 +\n evidence/pr-6896/request_responses.jsonl.sha256    |    1 +\n evidence/pr-6896/run.json                          |   66 +\n evidence/pr-6896/run.json.sha256                   |    1 +\n evidence/pr-6896/scenario_results_checkpoint.json  |    1 +\n .../scenario_results_checkpoint.json.sha256        |    1 +\n .../pr-6896/schema_migration_flow_real_api.cast    |    2 +\n evidence/pr-6896/streaming_evidence.json           |   27 +\n evidence/pr-6896/streaming_evidence.json.sha256    |    1 +\n evidence/pr-6896/test_console_output.txt           |   83 +\n evidence/pr-6896/test_console_output.txt.sha256    |    1 +\n mvp_site/constants.py                              |    1 +\n mvp_site/context_compaction.py                     |   57 +-\n mvp_site/llm_parser.py                             |  102 +-\n mvp_site/llm_service.py                            |   88 +-\n mvp_site/preventive_guards.py                      |  102 +-\n mvp_site/schemas/entities_pydantic.py              |   18 +-\n mvp_site/settings_validation.py                    |    2 +-\n .../test_schema_enforcement_end2end.py             |  146 +-\n mvp_site/tests/test_preventive_guards.py           |  391 +-\n mvp_site/world_logic.py                            |   91 +-\n .../schema/test_schema_migration_flow_real_api.py  |  110 +\n 60 files changed, 16607 insertions(+), 145 deletions(-)",
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 0,
+    "working_tree_untracked_files": 0,
+    "working_tree_changed_files": [],
+    "working_tree_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "working_tree_dirty": false,
+    "server": {
+      "base_url": "http://127.0.0.1:8015",
+      "hostname": "127.0.0.1",
+      "mode": "local",
+      "port": "8015",
+      "pid": 9931,
+      "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:8015 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 50 --access-logfile - --error-logfile - --log-level info",
+      "env_vars": {
+        "WORLDAI_DEV_MODE": "true",
+        "TESTING": null,
+        "MOCK_SERVICES_MODE": "false",
+        "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "FIRESTORE_EMULATOR_HOST": null,
+        "PORT": "8015",
+        "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+        "GEMINI_API_KEY": "[SET - 39 chars]",
+        "LLM_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/deep-review-pr-6896/schema_migration_flow_real_api/iteration_010/llm_request_responses_1779442702036.jsonl",
+        "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/deep-review-pr-6896/schema_migration_flow_real_api/iteration_010/http_request_responses_1779442702036.jsonl",
+        "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/deep-review-pr-6896/schema_migration_flow_real_api/iteration_010/gemini_http_request_responses_1779442702036.jsonl",
+        "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": "/tmp/worldarchitect.ai/deep-review-pr-6896/schema_migration_flow_real_api/iteration_010/provider_http_request_responses_1779442702036.jsonl"
+      },
+      "lsof_output": "COMMAND  PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nPython  9931 jleechan    5u  IPv4 0xebfc3ec419d1ab3f      0t0  TCP *:8015 (LISTEN)\nPython  9992 jleechan    5u  IPv4 0xebfc3ec419d1ab3f      0t0  TCP *:8015 (LISTEN)",
+      "ps_output": "PID USER     ELAPSED ARGS\n 9931 jleechan   01:54 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:8015 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 50 --access-logfile - --error-logfile - --log-level info"
+    },
+    "timestamp": "2026-05-22T09:40:36.123301+00:00",
+    "test_file": "/Users/jleechan/.gemini/antigravity/worktrees/worldarchitect.ai/deep-review-pr-6896/testing_mcp/schema/test_schema_migration_flow_real_api.py"
+  },
+  "summary": {
+    "total_scenarios": 2,
+    "passed": 1,
+    "failed": 1,
+    "campaign_capture_total": 1,
+    "campaign_capture_passed": 1,
+    "campaign_capture_failed": 0,
+    "raw_passed": 1,
+    "raw_total": 1,
+    "raw_pass_rate": "100.0%"
+  }
+}

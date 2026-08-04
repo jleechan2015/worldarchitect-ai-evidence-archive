@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-23T07:30:45.740636+00:00",
+  "summary": {
+    "scenarios_with_streaming_evidence": 1,
+    "total_chunk_events_observed": 253,
+    "stream_http_calls_captured": 16,
+    "process_action_calls_captured": 16,
+    "mcp_process_action_calls_captured": 0,
+    "route_stream_process_action_calls_captured": 16,
+    "process_action_calls_with_raw_response_text": 8
+  },
+  "scenarios": [
+    {
+      "name": "one_time_schema_migration_and_strict_post_migration_validation",
+      "campaign_id": "W3ldqenqKTQd1jnqgSjK",
+      "passed": true,
+      "chunk_count_observed": 253,
+      "done_chunk_count": 253,
+      "chunk_count_matches_done": null,
+      "strictly_increasing_sequence": null,
+      "streaming_request_timestamp": "2026-05-23T07:28:53.821536+00:00",
+      "streaming_response_timestamp": "2026-05-23T07:30:44.228798+00:00",
+      "timeline_sample_size": 0
+    }
+  ]
+}

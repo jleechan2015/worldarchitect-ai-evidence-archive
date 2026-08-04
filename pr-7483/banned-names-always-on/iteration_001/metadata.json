@@ -1,0 +1,76 @@
+{
+  "test_name": "banned-names-always-on",
+  "run_id": "banned-names-always-on-001-20260613T044124",
+  "iteration": 1,
+  "bundle_version": "1.2.0",
+  "timestamp": "2026-06-13T04:41:24.641542+00:00",
+  "bundle_timestamp": "2026-06-13T04:41:24.641542+00:00",
+  "evidence_mode": "lightweight_prompt_tracking",
+  "evidence_mode_notes": "System instruction captured as filenames + char_count (not full text). Raw LLM request/response payloads captured in request_responses.jsonl. Server logs in artifacts/. Bundle file inventory in artifacts/collection_log.txt.",
+  "git_provenance": {},
+  "server": {
+    "base_url": "http://127.0.0.1:64121",
+    "hostname": "127.0.0.1",
+    "mode": "local",
+    "port": "64121",
+    "pid": 27236,
+    "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:64121 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 1000 --access-logfile - --error-logfile - --log-level info",
+    "env_vars": {
+      "WORLDAI_DEV_MODE": "true",
+      "TESTING": null,
+      "MOCK_SERVICES_MODE": null,
+      "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "FIRESTORE_EMULATOR_HOST": null,
+      "PORT": null,
+      "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+      "GEMINI_API_KEY": "[SET - 39 chars]",
+      "LLM_REQUEST_RESPONSE_CAPTURE_PATH": null,
+      "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+      "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+      "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": null
+    },
+    "lsof_output": "COMMAND   PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nPython  27236 jleechan    5u  IPv4 0x6aef3981c5e751b7      0t0  TCP *:64121 (LISTEN)\nPython  37071 jleechan    5u  IPv4 0x6aef3981c5e751b7      0t0  TCP *:64121 (LISTEN)",
+    "ps_output": "PID USER     ELAPSED ARGS\n27236 jleechan   03:03 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:64121 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 1000 --access-logfile - --error-logfile - --log-level info"
+  },
+  "provenance": {
+    "git_error": "Command '['git', 'fetch', 'origin', 'main']' timed out after 10 seconds",
+    "server": {
+      "base_url": "http://127.0.0.1:64121",
+      "hostname": "127.0.0.1",
+      "mode": "local",
+      "port": "64121",
+      "pid": 27236,
+      "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:64121 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 1000 --access-logfile - --error-logfile - --log-level info",
+      "env_vars": {
+        "WORLDAI_DEV_MODE": "true",
+        "TESTING": null,
+        "MOCK_SERVICES_MODE": null,
+        "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "FIRESTORE_EMULATOR_HOST": null,
+        "PORT": null,
+        "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+        "GEMINI_API_KEY": "[SET - 39 chars]",
+        "LLM_REQUEST_RESPONSE_CAPTURE_PATH": null,
+        "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+        "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+        "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": null
+      },
+      "lsof_output": "COMMAND   PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nPython  27236 jleechan    5u  IPv4 0x6aef3981c5e751b7      0t0  TCP *:64121 (LISTEN)\nPython  37071 jleechan    5u  IPv4 0x6aef3981c5e751b7      0t0  TCP *:64121 (LISTEN)",
+      "ps_output": "PID USER     ELAPSED ARGS\n27236 jleechan   03:03 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:64121 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 1000 --access-logfile - --error-logfile - --log-level info"
+    },
+    "timestamp": "2026-06-13T04:41:24.562340+00:00"
+  },
+  "summary": {
+    "total_scenarios": 1,
+    "passed": 1,
+    "failed": 0,
+    "campaign_capture_total": 0,
+    "campaign_capture_passed": 0,
+    "campaign_capture_failed": 0,
+    "raw_passed": 0,
+    "raw_total": 1,
+    "raw_pass_rate": "0.0%"
+  }
+}

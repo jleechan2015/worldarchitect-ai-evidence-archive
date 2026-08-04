@@ -1,0 +1,33 @@
+{
+  "git_provenance": {
+    "capture_timestamp": "2026-05-05T19:35:00Z",
+    "head_commit": "d9d00c4de799264b7f0a83b5b432dd3f04c838df",
+    "branch": "fix/remove-level-20-cap"
+  },
+  "evidence_mode": "unit-tests",
+  "test_suites": [
+    {
+      "file": "mvp_site/tests/test_agents.py",
+      "passed": true,
+      "notes": "Includes test_level_up_agent_routes_above_max_level_for_infinite_leveling (L31 via XP=910000)"
+    },
+    {
+      "file": "mvp_site/tests/test_resolver_sole_source.py",
+      "passed": true,
+      "notes": "level=20,xp=500000 -> target=21 (one-at-a-time); level=30,xp=905000 -> target=31"
+    },
+    {
+      "file": "mvp_site/tests/test_canonicalize_invariants.py",
+      "passed": true,
+      "notes": "test_infinite_level_with_no_signal_triggers_level_up: L30+999999XP -> new_level=31 (one-at-a-time)"
+    },
+    {
+      "file": "mvp_site/tests/test_game_state.py",
+      "passed": true,
+      "notes": "Full game_state suite: XP threshold + level_from_xp + infinite leveling formula"
+    }
+  ],
+  "summary": "532 passed, 3 skipped, 132 subtests across agents+resolver+canonicalize+game_state",
+  "all_passed": true,
+  "collection_ended": "2026-05-05T19:35:02Z"
+}

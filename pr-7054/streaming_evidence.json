@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-24T09:53:19.536841+00:00",
+  "summary": {
+    "scenarios_with_streaming_evidence": 0,
+    "total_chunk_events_observed": 0,
+    "stream_http_calls_captured": 0,
+    "process_action_calls_captured": 0,
+    "mcp_process_action_calls_captured": 0,
+    "route_stream_process_action_calls_captured": 0,
+    "process_action_calls_with_raw_response_text": 0
+  },
+  "scenarios": []
+}

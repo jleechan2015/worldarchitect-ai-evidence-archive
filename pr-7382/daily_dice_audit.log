@@ -1,0 +1,239 @@
+Firebase initialized with: /Users/jleechan/serviceAccountKey.json
+
+Searching for campaign: EBtkR3tfdLdF9WurDvaw
+
+============================================================
+CAMPAIGN DICE ROLL AUDIT
+============================================================
+Campaign ID: EBtkR3tfdLdF9WurDvaw
+Campaign Title: Bg3 shadow farmer (repro composite-notation 20260608)
+User ID: 0wf6sCREyLcgynidU5LjyZEfm7D2
+Created: 2026-06-07 21:33:19.634065+00:00
+============================================================
+
+Total story entries: 549
+Entries with dice rolls: 215
+Total dice rolls found: 466
+
+============================================================
+DICE ROLL ANALYSIS
+============================================================
+
+--- d10 Analysis ---
+Total rolls: 24
+Range: 1 - 10
+Mean: 5.75 (expected: 5.50)
+Deviation: +0.25
+Std Dev: 3.11
+Distribution: {1: 3, 2: 1, 3: 3, 4: 2, 5: 4, 7: 1, 8: 5, 9: 1, 10: 4}
+Clean raw face rolls for chi-square: 24/24
+Clean mean: 5.75 (expected: 5.50)
+Chi-square: 10.17
+Chi-square counts: {1: 3, 2: 1, 3: 3, 4: 2, 5: 4, 6: 0, 7: 1, 8: 5, 9: 1, 10: 4}
+
+WARNINGS:
+  - High proportion of high rolls: 10/24
+
+--- d100 Analysis ---
+Total rolls: 2
+Range: 28 - 62
+Mean: 45.00 (expected: 50.50)
+Deviation: -5.50
+Std Dev: 24.04
+Distribution: {28: 1, 62: 1}
+Clean raw face rolls for chi-square: 2/2
+Clean mean: 45.00 (expected: 50.50)
+Chi-square: 98.00
+Chi-square counts: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0, 23: 0, 24: 0, 25: 0, 26: 0, 27: 0, 28: 1, 29: 0, 30: 0, 31: 0, 32: 0, 33: 0, 34: 0, 35: 0, 36: 0, 37: 0, 38: 0, 39: 0, 40: 0, 41: 0, 42: 0, 43: 0, 44: 0, 45: 0, 46: 0, 47: 0, 48: 0, 49: 0, 50: 0, 51: 0, 52: 0, 53: 0, 54: 0, 55: 0, 56: 0, 57: 0, 58: 0, 59: 0, 60: 0, 61: 0, 62: 1, 63: 0, 64: 0, 65: 0, 66: 0, 67: 0, 68: 0, 69: 0, 70: 0, 71: 0, 72: 0, 73: 0, 74: 0, 75: 0, 76: 0, 77: 0, 78: 0, 79: 0, 80: 0, 81: 0, 82: 0, 83: 0, 84: 0, 85: 0, 86: 0, 87: 0, 88: 0, 89: 0, 90: 0, 91: 0, 92: 0, 93: 0, 94: 0, 95: 0, 96: 0, 97: 0, 98: 0, 99: 0, 100: 0}
+
+--- d12 Analysis ---
+Total rolls: 2
+Range: 5 - 8
+Mean: 6.50 (expected: 6.50)
+Deviation: +0.00
+Std Dev: 2.12
+Distribution: {5: 1, 8: 1}
+Clean raw face rolls for chi-square: 2/2
+Clean mean: 6.50 (expected: 6.50)
+Chi-square: 10.00
+Chi-square counts: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 1, 9: 0, 10: 0, 11: 0, 12: 0}
+
+--- d20 Analysis ---
+Total rolls: 448
+Range: 1 - 20
+Mean: 10.33 (expected: 10.50)
+Deviation: -0.17
+Std Dev: 5.61
+Distribution: {1: 17, 2: 20, 3: 32, 4: 20, 5: 21, 6: 18, 7: 28, 8: 26, 9: 33, 10: 20, 11: 18, 12: 23, 13: 24, 14: 30, 15: 18, 16: 17, 17: 19, 18: 21, 19: 26, 20: 17}
+Clean raw face rolls for chi-square: 448/448
+Clean mean: 10.33 (expected: 10.50)
+Chi-square: 22.36
+Chi-square counts: {1: 17, 2: 20, 3: 32, 4: 20, 5: 21, 6: 18, 7: 28, 8: 26, 9: 33, 10: 20, 11: 18, 12: 23, 13: 24, 14: 30, 15: 18, 16: 17, 17: 19, 18: 21, 19: 26, 20: 17}
+
+--- d4 Analysis ---
+Total rolls: 5
+Range: 1 - 4
+Mean: 2.80 (expected: 2.50)
+Deviation: +0.30
+Std Dev: 1.10
+Distribution: {1: 1, 3: 3, 4: 1}
+Clean raw face rolls for chi-square: 5/7
+Clean mean: 2.80 (expected: 2.50)
+Invalid face values excluded from chi-square: 2 sample=[5, 6]
+Chi-square: 3.80
+Chi-square counts: {1: 1, 2: 0, 3: 3, 4: 1}
+
+--- d6 Analysis ---
+Total rolls: 64
+Range: 1 - 6
+Mean: 3.12 (expected: 3.50)
+Deviation: -0.38
+Std Dev: 1.67
+Distribution: {1: 14, 2: 14, 3: 8, 4: 12, 5: 10, 6: 6}
+Clean raw face rolls for chi-square: 64/64
+Clean mean: 3.12 (expected: 3.50)
+Chi-square: 5.00
+Chi-square counts: {1: 14, 2: 14, 3: 8, 4: 12, 5: 10, 6: 6}
+
+--- d8 Analysis ---
+Total rolls: 78
+Range: 1 - 8
+Mean: 4.55 (expected: 4.50)
+Deviation: +0.05
+Std Dev: 2.34
+Distribution: {1: 13, 2: 8, 3: 8, 4: 2, 5: 12, 6: 20, 7: 6, 8: 9}
+Clean raw face rolls for chi-square: 78/78
+Clean mean: 4.55 (expected: 4.50)
+Chi-square: 20.67
+Chi-square counts: {1: 13, 2: 8, 3: 8, 4: 2, 5: 12, 6: 20, 7: 6, 8: 9}
+
+--- Unknown notation rolls: 22 ---
+
+============================================================
+RECENT DICE ROLLS (last 80)
+============================================================
+     18d10 =   ? | N/A | text_pattern
+     18d10 =   ? | N/A | text_pattern
+     18d10 =   ? | N/A | text_pattern
+   1d20+12 =   3 | Persuasion (Marquis Status) | dice_audit_events
+      1d12 =   5 | Bardic Inspiration (Sariel) | dice_audit_events
+   1d20+12 =   4 | Persuasion (Marquis's Diplomacy) | dice_audit_events
+      1d12 =   8 | Bardic Inspiration (Sariel's Support) | dice_audit_events
+      1d20 =  15 | Elowen's career path determination | dice_audit_events
+      1d20 =  11 | Bran's growth as a Lieutenant | dice_audit_events
+   1d20+10 =  15 | Sariel's Social Charm (Persuasion) | action_resolution_rolls
+   1d20+14 =  19 | Kaelen's Wealth Masking (Deception) | action_resolution_rolls
+    1d20+6 =   9 | Bran's Leadership Stability (Persuasion) | action_resolution_rolls
+    1d20+6 =   6 | Investigation (Identify Inquisition Key) | dice_audit_events
+    1d20+9 =   6 | Insight Check (Messenger subtext) | dice_audit_events
+   1d20+12 =  12 | Persuasion - Mentoring Bran | dice_audit_events
+    1d20+5 =   9 | Insight check to read Bran's mental stat | dice_audit_events
+   1d20+13 =  11 | Sariel Intimidation (Lead Hunter) | action_resolution_rolls
+   1d20+15 =   7 | Sariel Stealth (Thay Camp Infiltration) | action_resolution_rolls
+    1d20+7 =  11 | Hypnotic Pattern (Thay Leader Save vs DC | action_resolution_rolls
+    1d20+8 =  19 | Phantom Team's Legend Report (Persuasion | action_resolution_rolls
+     3d8+5 =   ? | Mass Cure Wounds - Healing for 4th Plato | dice_audit_events
+   unknown =   1 | N/A | text_result
+   unknown =   1 | N/A | text_result
+   1d20+12 =  17 | Sariel Attack on Lead Hunter | action_resolution_rolls
+     1d8+9 =   1 | Sariel Damage to Lead Hunter | action_resolution_rolls
+   1d20+12 =  17 | Attack on Lead Hunter | dice_audit_events
+     1d8+9 =   1 | Damage to Lead Hunter | dice_audit_events
+    1d20+2 =   3 | Bran Initiative (Surprised) | action_resolution_rolls
+    1d20+5 =  10 | Sariel Initiative | action_resolution_rolls
+    1d20+4 =  20 | Hunter 1 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+4 =   6 | Hunter 2 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+4 =   2 | Hunter 3 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+4 =   3 | Hunter 4 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+4 =   6 | Hunter 5 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+4 =  14 | Hunter 6 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+4 =  14 | Hunter 7 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+4 =  15 | Hunter 8 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+4 =   4 | Hunter 9 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+4 =   8 | Hunter 10 Wisdom Save (DC 20) | action_resolution_rolls
+    1d20+2 =   3 | N/A | dice_audit_events
+    1d20+5 =  10 | N/A | dice_audit_events
+    1d20+5 =   8 | Bran Command Check | dice_audit_events
+    1d20+4 =  18 | Hunters WIS Save vs Hypnotic Pattern | dice_audit_events
+    1d20+9 =  20 | Mentoring Bran (Persuasion) | action_resolution_rolls
+   1d20+11 =  20 | Sariel's Surgical Hunt (Stealth) | action_resolution_rolls
+      1d20 =   9 | Parallel Coordination | dice_audit_events
+    1d20+9 =  20 | Mentoring Bran | dice_audit_events
+   1d20+11 =  20 | Sariel's Surgical Hunt | dice_audit_events
+    1d20+0 =  11 | Initiative | dice_audit_events
+    1d20+6 =  13 | Longsword Attack | dice_audit_events
+    1d20+5 =   5 | Commanding Troops | dice_audit_events
+     2d8+3 =   6 | Longsword Damage + Smite | code_execution_stdout
+    1d20+9 =   1 | Persuasion (Bran) | dice_audit_events
+    1d20+9 =  20 | Persuasion (Elowen) | dice_audit_events
+   1d20+12 =   3 | Persuade Bran regarding individual stren | dice_audit_events
+   1d20+12 =   3 | Reassure Elowen regarding family legacy | dice_audit_events
+    1d20+9 =  19 | Insight Check (Understand Bran and Elowe | dice_audit_events
+    1d20+6 =   4 | Mentoring (Wisdom) | dice_audit_events
+   1d20+11 =   3 | Persuasion (Honest Explanation) | dice_audit_events
+   1d20+12 =   9 | persuasion_explanation | dice_audit_events
+   1d20+11 =  11 | Sariel Sparring Maneuver | dice_audit_events
+   1d20+10 =  14 | Kaelen Holding Back (DEX) | dice_audit_events
+   1d20+12 =   7 | Kaelen Persuasion (Bridging Gap) | dice_audit_events
+   1d20+11 =  12 | Sariel Social Grace (Persuasion) | dice_audit_events
+   1d20+11 =   4 | Sariel Social Grace (Performance) | dice_audit_events
+   1d20+11 =   3 | Sariel Social Grace (Deception/Masking) | dice_audit_events
+   1d20+15 =   8 | Perception (Monitor Harper) | dice_audit_events
+  1d20 + 12 =   3 | Persuasion (Bridge the Gap) | action_resolution_rolls
+  1d20 + 11 =  10 | Deception (Masking Level) | action_resolution_rolls
+   1d20+12 =  19 | Persuade Sariel regarding the nature of  | dice_audit_events
+   1d20+12 =   5 | Persuasion | action_resolution_rolls
+   1d20+12 =   5 | Persuade Sariel to share her observation | dice_audit_events
+   1d20+12 =  13 | Persuasion | action_resolution_rolls
+   1d20+12 =  13 | Opening Sariel's emotional defenses rega | dice_audit_events
+   1d20+10 =   3 | Atmospheric Presence - Countess Sariel's | dice_audit_events
+   unknown = 100 | N/A | text_result
+    1d20+8 =  17 | 5-year consolidation success | action_resolution_rolls
+   unknown =   5 | N/A | text_result
+   1d20+11 =  16 | Elevation to Marquis | dice_audit_events
+   1d20+10 =  19 | Harper Diplomacy | dice_audit_events
+
+============================================================
+AUDIT SUMMARY
+============================================================
+Total rolls with results: 357/466
+By source: {'action_resolution_rolls': 110, 'dice_audit_events': 300, 'text_pattern': 10, 'text_result': 20, 'code_execution_stdout': 26}
+
+WARNINGS:
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 32: 1d20 + 4 CHA...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 86: 1d8+1d8+4...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 250: 1d8+12 + 8d8 (Smite)...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 318: 2d20kh1+11+1d8...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 330: 1d20 + 11 (CHA) + 1d8 (Inspira...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 332: 1d20 + 5 CHA + 5 PROF + 1 CROW...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 342: 1d20+10+1d10...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 350: 1d20 + 11 (CHA/Prof/Crown) + 1...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 350: 1d20 + 11 (CHA/Prof/Crown) + 1...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 352: Spell Save DC 18 vs WIS...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 352: 9d6 (L4 Fireball)...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 352: Hypnotic Pattern DC 14...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 354: 1d8+12 + 8d8...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 354: 1d4+5 + 6d6...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 368: 1d20 + 1d8 + 11...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 378: 1d20 + 1d10 + 11...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 380: 1d20+11+1d10...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 384: 1d20 + 11 CHA/PROF/ITEM + 1d10...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 386: 1d20+11 + 1d10 (Inspiration)...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 388: 1d20 + 11 (CHA/PROF/ITEM) + 1d...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 388: 1d20 + 11 (CHA/PROF/ITEM) + 1d...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 390: 1d20 + 11 + 1d10...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 398: 1d20 + 11 (PROF/CHA/Crown) + 1...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 402: 1d20 + 11 Persuasion + 1d10 Ba...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 404: 1d20 + 11 (Persuasion) + 1d10 ...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 406: 1d20 + 1d10 + 11...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 408: 1d20 + 11 CHA + 1d10 Inspirati...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 414: 1d20 + 11 PERS + 1d10 BARD...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 424: 1d20 + 11 PERS + 1d10 BARDIC...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 436: 1d20 + 11 PERS + 1d10 BARD...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 446: 1d20 + 11 + 1d10...
+  - Campaign EBtkR3tfdLdF9WurDvaw has unparseable dice notation at sequence 460: 1d20+9+1d10...
+  - 22 rolls have unknown notation; these cannot be used for die-specific chi-square fairness analysis.
+  - 6 unknown-notation values are impossible for d20s; sample=[23, 23, 128, 38, 143, 100].
+  - Some structured dice records could not provide raw face values; excluded from chi-square counts: {'result_outside_die_range': 2, 'result_total_mismatch': 1, 'result_without_total': 2}.
+  - d4 has 2 impossible values; sample=[5, 6].
+  - d4 chi-square excluded 2 invalid/ambiguous face values.

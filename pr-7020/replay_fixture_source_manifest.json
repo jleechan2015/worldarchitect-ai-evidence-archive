@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-05-29T06:56:36.607839+00:00",
+  "source_kind": "testing_mcp",
+  "test_name": "test_campaign_upgrade_modal_lock_red_green",
+  "evidence_dir": "/tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007",
+  "git_provenance": {
+    "git_head": "7187d915335039dda194c266a6c2e6ad3c222115",
+    "git_branch": "fix-campaign-upgrade-hang",
+    "merge_base": "02bc02e9736306521eb2ea2dfc295701e65958cd",
+    "commits_ahead_of_main": 28,
+    "diff_stat_vs_main": ".github/workflows/test.yml                         |   2 +-\n evidence/pr-7020/README.md                         | 112 +++\n evidence/pr-7020/README.md.sha256                  |   1 +\n .../pr-7020/campaigns/B5bEx6v09MtBnKQtVGYZ.json    | 286 ++++++++\n .../campaigns/B5bEx6v09MtBnKQtVGYZ.json.sha256     |   1 +\n ...grade Lifecycle Streaming Evidence_B5bEx6v0.txt |  92 +++\n ...cle Streaming Evidence_B5bEx6v0_game_state.json | 221 ++++++\n evidence/pr-7020/evidence.md                       |  68 ++\n evidence/pr-7020/evidence.md.sha256                |   1 +\n .../pr-7020/gemini_http_request_responses.jsonl    |   8 +\n .../gemini_http_request_responses.jsonl.sha256     |   1 +\n ...mini_http_request_responses_1780028778629.jsonl |   8 +\n evidence/pr-7020/http_request_responses.jsonl      | 168 +++++\n .../pr-7020/http_request_responses.jsonl.sha256    |   1 +\n .../http_request_responses_1780028778629.jsonl     | 168 +++++\n evidence/pr-7020/llm_request_responses.jsonl       |   8 +\n .../pr-7020/llm_request_responses.jsonl.sha256     |   1 +\n .../llm_request_responses_1780028778629.jsonl      |   8 +\n evidence/pr-7020/metadata.json                     | 109 +++\n evidence/pr-7020/metadata.json.sha256              |   1 +\n evidence/pr-7020/methodology.md                    |  12 +\n evidence/pr-7020/methodology.md.sha256             |   1 +\n evidence/pr-7020/notes.md                          |  33 +\n evidence/pr-7020/notes.md.sha256                   |   1 +\n ..._model_campaign_upgrade_lifecycle_streaming.txt |   1 +\n ...campaign_upgrade_lifecycle_streaming.txt.sha256 |   1 +\n .../raw_unknown_model_evidence_signature_guard.txt |   1 +\n ...known_model_evidence_signature_guard.txt.sha256 |   1 +\n .../pr-7020/replay_fixture_source_manifest.json    |  69 ++\n evidence/pr-7020/request_responses.jsonl           |  14 +\n evidence/pr-7020/request_responses.jsonl.sha256    |   1 +\n evidence/pr-7020/run.json                          | 757 +++++++++++++++++++++\n evidence/pr-7020/run.json.sha256                   |   1 +\n evidence/pr-7020/scenario_results_checkpoint.json  |   1 +\n .../scenario_results_checkpoint.json.sha256        |   1 +\n evidence/pr-7020/streaming_evidence.json           |  27 +\n evidence/pr-7020/streaming_evidence.json.sha256    |   1 +\n ...test_campaign_upgrade_modal_lock_red_green.cast |   2 +\n evidence/pr-7020/test_console_output.txt           |  94 +++\n evidence/pr-7020/test_console_output.txt.sha256    |   1 +\n mvp_site/agents.py                                 |  81 ++-\n mvp_site/campaign_upgrade.py                       | 168 ++++-\n mvp_site/llm_parser.py                             |   5 +\n mvp_site/tests/test_agents.py                      |  45 ++\n ..._level_up_server_generated_invariant_end2end.py |   4 +-\n mvp_site/tests/test_world_logic.py                 | 221 +++++-\n mvp_site/world_logic.py                            |  57 ++\n .../test_campaign_upgrade_modal_lock_red_green.py  | 358 ++++++++++\n 48 files changed, 3183 insertions(+), 41 deletions(-)",
+    "working_tree_dirty": true,
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 3,
+    "working_tree_changed_files": [
+      "mvp_site/campaign_upgrade.py",
+      "mvp_site/tests/test_world_logic.py",
+      "mvp_site/world_logic.py"
+    ],
+    "working_tree_diff_sha256": "909f34e91666facc52ef941d83ec753181912a8315de40a79a38e90be16ef629"
+  },
+  "contract_versions": {
+    "master_directive_prompt": "1.0.2",
+    "game_state_instruction_prompt": "1.1.16",
+    "planning_protocol_prompt": "1.1.8",
+    "narrative_response_schema": "1.2.18",
+    "mcp_api_tool_contract": "1.0.5",
+    "character_template_prompt": "1.0.0",
+    "leveling_pace_contract_prompt": "1.0.7"
+  },
+  "capture_files": {
+    "llm_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007/llm_request_responses.jsonl",
+      "relative_path": "llm_request_responses.jsonl",
+      "exists": true,
+      "entries": 8,
+      "sha256": "1b3b176ba05e189825e1bbbdb62ed6b63216de862cffcc0253a136d7c7b56716"
+    },
+    "http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007/http_request_responses.jsonl",
+      "relative_path": "http_request_responses.jsonl",
+      "exists": true,
+      "entries": 187,
+      "sha256": "a7b4e028c2e770dadf132f14789e0570fef9aa3b9dd1fcc53af20bab01b8f782"
+    },
+    "gemini_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007/gemini_http_request_responses.jsonl",
+      "relative_path": "gemini_http_request_responses.jsonl",
+      "exists": true,
+      "entries": 8,
+      "sha256": "f858933ea7748cf095fd742ef4495dde5603496ce77cb5e4426a173832e5b46d"
+    },
+    "provider_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007/provider_http_request_responses.jsonl",
+      "relative_path": "provider_http_request_responses.jsonl",
+      "exists": false,
+      "entries": 0,
+      "sha256": null
+    },
+    "mcp_request_responses": {
+      "path": "/tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007/request_responses.jsonl",
+      "relative_path": "request_responses.jsonl",
+      "exists": true,
+      "entries": 14,
+      "sha256": "acf5fd02b92bf1845d19ad66e97ad244d7be64f2be24d8e433a49468c9509d4c"
+    }
+  },
+  "extractor_hint": "Use a scenario-specific extractor to select replay stages from these raw traces."
+}

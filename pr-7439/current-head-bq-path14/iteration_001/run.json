@@ -1,0 +1,49 @@
+{
+  "scenarios": [
+    {
+      "name": "path14_gameplay_streaming_proxy",
+      "passed": true,
+      "campaign_id": "6WfwGRCs7GuO2vYK7KXo",
+      "user_id": "test-bq_path14_gameplay_streaming_proxy_e2e-1781200848",
+      "marker": "REAL_LLM_BQ_PATH14_1781200900",
+      "chunk_count": 0,
+      "bq_row_count": 1,
+      "errors": [],
+      "user_email": "jleechantest@gmail.com",
+      "raw_response_text": "{\n  \"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1492 DR, Hammer 1, 06:01:00\\nLocation: Misty Mountain Pass\\nStatus: Lvl 1 Fighter | HP: 12/12 | XP: 0/300 | Gold: 10gp\\nConditions: Normal | Exhaustion: 0 | Inspiration: No\",\n  \"resources\": \"HD: 1/1, Spells: None\",\n  \"narrative\": \"Dawn (06:01:00) in the Misty Mountain Pass\u2014the chill air bites at your skin as you stand near the jagged edge of the trail, the world around you a shifting sea of gray and white. You peer through the veil, narrowing your eyes as the first pale light of the new year filters through the high peaks of the Spine of the World. \\n\\nAs you hold your breath, your ears pick up a rhythmic scratching sound\u2014not the whistling wind, but the distinct rasp of stone on stone\u2014coming from a narrow ledge just below the path. Through a sudden rift in the mist, you catch the flickering silhouette of something small and hunched moving near a cluster of jagged rocks. It hasn't seen you yet, but the sound suggests it is digging for something\u2014or perhaps sharpening a blade. The scent of damp earth and old pine is heavy in the air.\",\n  \"planning_block\": {\n    \"thinking\": \"The creature is currently distracted by its task, providing a tactical advantage. A stealthy approach could reveal its identity without risk of immediate combat, while a direct confrontation might be dangerous given the low visibility. The scratching sound is rhythmic, suggesting intent rather than random movement.\",\n    \"context\": \"Perceiving a mysterious silhouette in the mist\",\n    \"choices\": [\n      {\n        \"id\": \"sneak_closer\",\n        \"text\": \"Sneak Closer\",\n        \"description\": \"Attempt to move silently toward the edge to identify the creature without being spotted.\",\n        \"risk_level\": \"medium\",\n        \"pros\": [\"Gain intelligence\", \"Maintain surprise\"],\n        \"cons\": [\"Risk of falling or being heard\", \"Exposed position\"],\n        \"confidence\": \"medium\"\n      },\n      {\n        \"id\": \"draw_weapon_wait\",\n        \"text\": \"Draw Weapon and Wait\",\n        \"description\": \"Remain in place with your weapon ready, letting the creature reveal itself as it moves.\",\n        \"risk_level\": \"low\",\n        \"pros\": [\"Defensive readiness\", \"Stable footing\"],\n        \"cons\": [\"Lose the initiative\", \"Creature might move away\"],\n        \"confidence\": \"high\"\n      },\n      {\n        \"id\": \"call_out\",\n        \"text\": \"Call Out\",\n        \"description\": \"Command the creature to show itself and state its business.\",\n        \"risk_level\": \"high\",\n        \"pros\": [\"Direct resolution\", \"Establishes dominance\"],\n        \"cons\": [\"Alerts all nearby threats\", \"Likely triggers combat\"],\n        \"confidence\": \"low\"\n      }\n    ]\n  },\n  \"action_resolution\": {\n    \"player_input\": \"I peer through the mist and listen.\",\n    \"interpreted_as\": \"Perception check\",\n    \"reinterpreted\": false,\n    \"mechanics\": {\n      \"type\": \"skill_check\",\n      \"rolls\": [\n        {\n          \"notation\": \"1d20+0\",\n          \"rolls\": [19],\n          \"modifier\": 0,\n          \"result\": 19,\n          \"total\": 19,\n          \"dc\": 12,\n          \"success\": true,\n          \"purpose\": \"Perception check\"\n        }\n      ]\n    },\n    \"audit_flags\": [],\n    \"narrative_outcome\": \"Kira successfully hears scratching and spots a hunched silhouette through a gap in the mist.\"\n  },\n  \"state_updates\": {\n    \"player_character_data\": {\n      \"display_name\": \"Kira\",\n      \"entity_id\": \"pc_kira_001\",\n      \"string_id\": \"pc_kira_001\"\n    },\n    \"world_data\": {\n      \"location\": \"Misty Mountain Pass\",\n      \"world_time\": {\n        \"year\": 1492,\n        \"month\": \"Hammer\",\n        \"day\": 1,\n        \"hour\": 6,\n        \"minute\": 1,\n        \"second\": 0,\n        \"microsecond\": 0,\n        \"time_of_day\": \"Dawn\"\n      }\n    },\n    \"custom_campaign_state\": {\n      \"core_memories\": {\n        \"append\": \"Upon reaching the mountain pass at dawn, Kira successfully scouted a hunched silhouette and heard stone scratching stone on a ledge below the main trail.\"\n      }\n    }\n  },\n  \"entities_mentioned\": [\n    \"Kira\",\n    \"Hunched Silhouette\"\n  ],\n  \"location_confirmed\": \"Misty Mountain Pass\",\n  \"god_mode_response\": \"\"\n}\n\n}",
+      "model": "gemini-3-flash-preview",
+      "details": {
+        "chunk_count": 44,
+        "done_chunk_count": 1,
+        "request_ts": "2026-06-11T18:01:40.734921+00:00",
+        "response_ts": "2026-06-11T18:01:58.656442+00:00",
+        "execution_path": "streaming"
+      }
+    },
+    {
+      "name": "EVIDENCE_SIGNATURE_GUARD",
+      "passed": true,
+      "signed_count": 1,
+      "user_id": "test-bq_path14_gameplay_streaming_proxy_e2e-1781200848"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "pass_rate": "2/2 (100%)",
+    "raw_total": 1,
+    "raw_passed": 1,
+    "raw_pass_rate": "100.0%",
+    "raw_data_complete": true
+  },
+  "campaign_capture_status": {
+    "6WfwGRCs7GuO2vYK7KXo": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    }
+  }
+}

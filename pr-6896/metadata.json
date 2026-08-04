@@ -1,0 +1,87 @@
+{
+  "test_name": "schema_migration_flow_real_api",
+  "run_id": "schema_migration_flow_real_api-003-20260523T073045",
+  "iteration": 3,
+  "bundle_version": "1.2.0",
+  "timestamp": "2026-05-23T07:30:45.566026+00:00",
+  "bundle_timestamp": "2026-05-23T07:30:45.566026+00:00",
+  "evidence_mode": "lightweight_prompt_tracking",
+  "evidence_mode_notes": "System instruction captured as filenames + char_count (not full text). Raw LLM request/response payloads captured in request_responses.jsonl. Server logs in artifacts/. Bundle file inventory in artifacts/collection_log.txt.",
+  "git_provenance": {
+    "git_head": "fd68b6b6d5113b57c5085f37238a9e8905d09a1a",
+    "git_branch": "worktree_sync_location"
+  },
+  "server": {
+    "base_url": "http://127.0.0.1:8098",
+    "hostname": "127.0.0.1",
+    "mode": "local",
+    "port": "8098",
+    "pid": 96975,
+    "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:8098 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 50 --access-logfile - --error-logfile - --log-level info",
+    "env_vars": {
+      "WORLDAI_DEV_MODE": "true",
+      "TESTING": null,
+      "MOCK_SERVICES_MODE": "false",
+      "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+      "FIRESTORE_EMULATOR_HOST": null,
+      "PORT": "8098",
+      "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+      "GEMINI_API_KEY": "[SET - 39 chars]",
+      "LLM_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/llm_request_responses_1779521297519.jsonl",
+      "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/http_request_responses_1779521297519.jsonl",
+      "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/gemini_http_request_responses_1779521297519.jsonl",
+      "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/provider_http_request_responses_1779521297519.jsonl"
+    },
+    "lsof_output": "COMMAND   PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nPython  96975 jleechan    5u  IPv4 0x6b6a6efcee3df5e0      0t0  TCP *:8098 (LISTEN)\nPython  96979 jleechan    5u  IPv4 0x6b6a6efcee3df5e0      0t0  TCP *:8098 (LISTEN)",
+    "ps_output": "PID USER     ELAPSED ARGS\n96975 jleechan   02:15 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:8098 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 50 --access-logfile - --error-logfile - --log-level info"
+  },
+  "provenance": {
+    "git_fetch_origin_main": {
+      "returncode": 0,
+      "stdout": null,
+      "stderr": "From https://github.com/jleechanorg/worldarchitect.ai\n * branch                  main       -> FETCH_HEAD\nAuto packing the repository in background for optimum performance.\nSee \"git help gc\" for manual housekeeping.\nwarning: The last gc run reported the following. Please correct the root cause\nand remove /Users/jleechan/projects/worldarchitect.ai/.git/worktrees/worktree_sync_location/gc.log\nAutomatic cleanup will not be performed until the file is removed.\n\nwarning: There are too many unreachable loose objects; run 'git prune' to remove them."
+    },
+    "git_head": "fd68b6b6d5113b57c5085f37238a9e8905d09a1a",
+    "git_branch": "worktree_sync_location",
+    "git_error": "Command '['git', 'merge-base', 'HEAD', 'origin/main']' returned non-zero exit status 1.",
+    "server": {
+      "base_url": "http://127.0.0.1:8098",
+      "hostname": "127.0.0.1",
+      "mode": "local",
+      "port": "8098",
+      "pid": 96975,
+      "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:8098 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 50 --access-logfile - --error-logfile - --log-level info",
+      "env_vars": {
+        "WORLDAI_DEV_MODE": "true",
+        "TESTING": null,
+        "MOCK_SERVICES_MODE": "false",
+        "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "FIRESTORE_EMULATOR_HOST": null,
+        "PORT": "8098",
+        "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+        "GEMINI_API_KEY": "[SET - 39 chars]",
+        "LLM_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/llm_request_responses_1779521297519.jsonl",
+        "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/http_request_responses_1779521297519.jsonl",
+        "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/gemini_http_request_responses_1779521297519.jsonl",
+        "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/provider_http_request_responses_1779521297519.jsonl"
+      },
+      "lsof_output": "COMMAND   PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nPython  96975 jleechan    5u  IPv4 0x6b6a6efcee3df5e0      0t0  TCP *:8098 (LISTEN)\nPython  96979 jleechan    5u  IPv4 0x6b6a6efcee3df5e0      0t0  TCP *:8098 (LISTEN)",
+      "ps_output": "PID USER     ELAPSED ARGS\n96975 jleechan   02:15 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:8098 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 50 --access-logfile - --error-logfile - --log-level info"
+    },
+    "timestamp": "2026-05-23T07:30:45.352984+00:00",
+    "test_file": "/Users/jleechan/projects/worktree_sync_location/testing_mcp/schema/test_schema_migration_flow_real_api.py"
+  },
+  "summary": {
+    "total_scenarios": 2,
+    "passed": 2,
+    "failed": 0,
+    "campaign_capture_total": 1,
+    "campaign_capture_passed": 1,
+    "campaign_capture_failed": 0,
+    "raw_passed": 1,
+    "raw_total": 1,
+    "raw_pass_rate": "100.0%"
+  }
+}

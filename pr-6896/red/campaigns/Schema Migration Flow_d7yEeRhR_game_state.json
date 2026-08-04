@@ -1,0 +1,280 @@
+{
+  "game_state_version": 1,
+  "player_character_data": {
+    "attributes": {
+      "strength": 16
+    },
+    "class_name": "Fighter",
+    "display_name": "Aric",
+    "level": 1,
+    "equipment": {
+      "backpack": [
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Backpack"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Bedroll"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Mess kit"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Tinderbox"
+        },
+        {
+          "stats": "10",
+          "equipped": false,
+          "name": "Torch"
+        },
+        {
+          "stats": "10 days",
+          "equipped": false,
+          "name": "Rations"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Waterskin"
+        },
+        {
+          "stats": "50 feet",
+          "equipped": false,
+          "name": "Rope"
+        },
+        {
+          "stats": "10gp",
+          "equipped": false,
+          "name": "Coin pouch"
+        }
+      ]
+    },
+    "experience": {
+      "to_next_level": 200,
+      "current": 100,
+      "needed_for_next_level": 200
+    },
+    "base_attributes": {
+      "constitution": 10,
+      "strength": 16,
+      "wisdom": 10,
+      "charisma": 10,
+      "intelligence": 10,
+      "dexterity": 10
+    },
+    "name": "Aric the Fighter (STR 16)"
+  },
+  "world_data": {
+    "current_location": "loc_corridor_shadows_001",
+    "current_location_name": "Corridor of Shadows",
+    "locations": {
+      "loc_corridor_shadows_001": {
+        "entity_type": "loc",
+        "description": "A narrow, lightless passage with obsidian-like walls and rough stone textures.",
+        "display_name": "Corridor of Shadows",
+        "entities_present": [
+          "pc_aric_001"
+        ],
+        "connected_locations": [
+          "loc_regression_chamber_001"
+        ],
+        "entity_id": "loc_corridor_shadows_001"
+      }
+    },
+    "world_time": {
+      "year": 1000,
+      "time_of_day": "morning",
+      "microsecond": 0,
+      "hour": 8,
+      "day": 1,
+      "minute": 25,
+      "month": "Hammer",
+      "second": 0
+    }
+  },
+  "npc_data": {
+    "System Overseer": {
+      "tier": "god",
+      "age": 0,
+      "entity_id": "npc_system_overseer_001",
+      "role": "Facilitator",
+      "display_name": "System Overseer",
+      "level": 20,
+      "visibility": "invisible",
+      "status": "normal",
+      "gender": "neutral"
+    },
+    "npc_goblin_001": {
+      "armor_class": 13,
+      "present": true,
+      "hp_max": 7,
+      "string_id": "npc_goblin_001",
+      "status": "healthy",
+      "hp_current": 7,
+      "name": "Goblin"
+    }
+  },
+  "item_registry": {},
+  "custom_campaign_state": {
+    "divine_potential": 0,
+    "_agent_selection_tracker": {
+      "rewards_skip_count": 0,
+      "count": 4,
+      "agent": "StoryModeAgent"
+    },
+    "core_memories": [
+      "Aric the Fighter begins his existence in a regression testing chamber to validate the system's schema migration flow.",
+      "Aric began exploring the sterile white environment of the regression testing chamber, finding its features mathematically perfect but narratively empty.",
+      "Aric's thorough search of the sterile testing chamber yielded no clues, leaving him disoriented by the room's mathematical perfection.",
+      "The testing chamber's blinding light calibrated to a neutral gray after Aric's disorientation was detected, revealing a pedestal with a data-shard and an exit door.",
+      "Aric ventured into the dark corridor beyond the testing chamber, failing to notice a tripwire that activated a clicking mechanism in the obsidian walls."
+    ],
+    "attribute_system": "D&D",
+    "arc_milestones": {},
+    "character_creation_completed": true,
+    "character_creation_stage": "complete",
+    "universe_control": 0,
+    "multiverse_upgrade_available": false,
+    "campaign_tier": "mortal",
+    "divine_upgrade_available": false,
+    "active_constraints": [],
+    "success_streak": 1,
+    "companion_arcs": {},
+    "god_mode": {
+      "description": "Validate one-time legacy-to-schema migration flow",
+      "character": {
+        "attributes": {
+          "strength": 16
+        },
+        "base_attributes": {
+          "strength": 16,
+          "constitution": 10,
+          "charisma": 10,
+          "wisdom": 10,
+          "intelligence": 10,
+          "dexterity": 10
+        },
+        "name": "Aric the Fighter (STR 16)"
+      },
+      "setting": "A regression testing chamber"
+    },
+    "last_location": "Corridor of Shadows",
+    "character_creation_in_progress": false,
+    "next_companion_arc_turn": 3
+  },
+  "social_hp_challenge": null,
+  "combat_state": {
+    "in_combat": false
+  },
+  "last_state_update_timestamp": "2026-05-22T09:40:33.725000+00:00",
+  "turn_number": 4,
+  "player_turn": 4,
+  "last_living_world_turn": 3,
+  "last_living_world_time": {
+    "year": 1000,
+    "time_of_day": "morning",
+    "microsecond": 0,
+    "second": 0,
+    "hour": 8,
+    "minute": 20,
+    "month": "Hammer",
+    "day": 1
+  },
+  "time_sensitive_events": {},
+  "npc_agendas": {},
+  "world_resources": {},
+  "time_pressure_warnings": {},
+  "debug_mode": true,
+  "pending_instruction_hints": [],
+  "entity_tracking": {
+    "active_entities": [
+      "Aric the Fighter (STR 16)"
+    ],
+    "present_entities": []
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "text": "Dash Forward",
+        "description": "Sprint deeper into the corridor to clear whatever trap might be triggering behind you.",
+        "cons": [
+          "Could run into more traps",
+          "Higher DC to avoid hazards while running"
+        ],
+        "id": "dash_forward",
+        "pros": [
+          "May outrun the trap's area of effect",
+          "Moves closer to the next chamber"
+        ],
+        "risk_level": "high",
+        "confidence": "low"
+      },
+      {
+        "text": "Brace and Defend",
+        "description": "Drop into a defensive stance and use your armor to minimize potential damage from whatever is coming.",
+        "cons": [
+          "Static target",
+          "Doesn't stop the countdown"
+        ],
+        "id": "brace_and_defend",
+        "pros": [
+          "Better chance to survive a mechanical strike",
+          "Maintains current position"
+        ],
+        "risk_level": "medium",
+        "confidence": "medium"
+      },
+      {
+        "text": "Retreat to Chamber",
+        "description": "Dive back into the testing chamber before the door potentially closes or the trap fires.",
+        "cons": [
+          "The door might be a one-way trigger",
+          "Abandons the mission's forward progress"
+        ],
+        "id": "retreat_to_chamber",
+        "pros": [
+          "Returns to a known environment",
+          "May bypass the corridor hazard entirely"
+        ],
+        "risk_level": "medium",
+        "confidence": "high"
+      }
+    ],
+    "context": "Aric has entered the dark corridor and tripped a wire.",
+    "thinking": "Aric has entered the corridor and immediately tripped a sensor or wire due to poor visibility and lingering disorientation. The clicking sound suggests a mechanical trap or a timed sequence has been activated. I need to decide whether to push through, take cover, or retreat."
+  },
+  "session_id": "legacy-migrated-7ae1b42eee0eac4b",
+  "schema_migrated_at": "2026-05-22T09:39:05.667672+00:00",
+  "schema_migration_version": 1,
+  "world_events": {
+    "background_events": [
+      {
+        "delta_action": "add",
+        "event_type": "immediate",
+        "outcome": "Environment transitioned from blinding white to manageable gray.",
+        "player_impact": "Revealed mission objectives",
+        "discovery_condition": "System voice announcement",
+        "status": "discovered",
+        "player_aware": true,
+        "location": "Regression Testing Chamber",
+        "actor": "System Overseer",
+        "action": "Calibrated chamber lighting and spawned Quest Item: Data-Shard"
+      }
+    ]
+  },
+  "user_id": "test-schema_migration_flow_real_api-1779442701",
+  "rumors": [
+    {
+      "content": "The 'Regression Testing' sequence is designed to break under legacy logic.",
+      "source_type": "system_voice",
+      "accuracy": "partial"
+    }
+  ]
+}

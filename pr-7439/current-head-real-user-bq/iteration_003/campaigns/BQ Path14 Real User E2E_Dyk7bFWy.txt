@@ -1,0 +1,43 @@
+God Mode:
+Character: A wandering scout named Kira | Setting: A misty mountain pass at dawn | Description: Real-LLM real-user BQ E2E for PR #7439 path 14 (gameplay_streaming_proxy) with a fixed 28-char Firebase-UID-shaped user_id that bypasses is_test_user. Drives a real call through the Flask /api/campaigns/<id>/interaction/stream endpoint and verifies the BQ row has is_test=false plus populated request_json + response_text. No mocks. Real Gemini. Real BQ.
+
+============================================================
+SCENE 1
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 06:00:00
+Location: Misty Mountain Pass
+Status: Lvl 1 Ranger | HP: 12/12 | Gold: 140gp | XP: 0/300]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+), Exhaustion: 0
+
+Game Master:
+[CHARACTER CREATION - Review]
+
+Welcome to your journey, Kira. Based on your background as a wandering scout, I have prepared your starting profile for the path ahead. You stand at the threshold of a misty mountain pass, the first light of dawn barely piercing the thick, grey veil that clings to the jagged peaks.
+
+### Kira, the Wandering Scout
+- **Race**: Human
+- **Class**: Ranger (Level 1)
+- **Background**: Outlander
+- **Attributes**: STR 13 (+1), DEX 16 (+3), CON 14 (+2), INT 11 (+0), WIS 15 (+2), CHA 9 (-1)
+- **Combat**: AC 14 (Leather Armor), HP 12, Initiative +3
+- **Skills**: Athletics, Stealth, Survival, Perception, Nature
+- **Equipment**: Two shortswords for close-quarters scouting, a longbow for the hunt, and 140 gold pieces for supplies.
+
+Does this character meet your approval, or would you like to make changes before we begin the adventure?
+
+Player (freeform):
+I peer through the mist and listen. (REAL_LLM_BQ_PATH14_REALUSER_1781216345)
+
+============================================================
+SCENE 2
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 06:00:30
+Location: Misty Mountain Pass
+Status: Kira (Lvl 1) | HP: 12/12 | Gold: 140gp | XP: 0/300
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: L1 0/0 (Lvl 2+), Potions: 0/0
+
+Game Master:
+Dawn (06:00:30) in the Misty Mountain Pass—you stand perfectly still, the damp grey veil of the peaks clinging to your leather armor like a cold shroud. The wind whistles through the jagged crags, a lonely, mournful sound that almost masks the world around you. 
+
+You close your eyes, filtering out the visual distraction of the shifting fog to focus on the sounds of the mountain. Beneath the wind's low howl, your ears catch a sharp, metallic scrape—iron dragging against stone—followed by a wet, guttural mutter coming from just behind a jagged outcrop thirty feet ahead. Something, or someone, is lurking in the grey, unaware that a scout's senses have already pierced their cover.

@@ -1,0 +1,86 @@
+God Mode:
+Character: Aric the Fighter (STR 16) | Setting: A regression testing chamber | Description: Validate one-time legacy-to-schema migration flow
+
+============================================================
+SCENE 1
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 08:00:00
+Location: Character Creation Portal
+Status: Lvl 1 Fighter | HP: 0/10 | XP: 0/300 | Gold: 0gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 0/1, Spells: No Spells Yet (Level 2+)
+
+Game Master:
+[CHARACTER CREATION - initial_choice]
+
+CAMPAIGN SUMMARY
+Title: Schema Migration Regression Test
+Character: Aric the Fighter
+Setting: A regression testing chamber
+Description: Validate one-time legacy-to-schema migration flow
+AI Personalities: Creative System Narrator
+Options: D&D 5E Rules
+
+Welcome to the character creation portal. I have initialized the parameters for your campaign. Your character, Aric, is currently set as a Level 1 Fighter within the testing chamber setting. Before we proceed to the story, we must finalize your mechanical foundation. 
+
+Please select one of the following methods to complete Aric's character sheet:
+
+Player (freeform):
+I look around carefully.
+
+============================================================
+SCENE 2
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 08:05:00
+Location: A regression testing chamber
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Second Wind: 1/1
+
+Game Master:
+Morning (08:05:00) in the regression testing chamber—the air is sterile, smelling faintly of ozone and recycled parchment. Aric (Lvl 1) stands at the center of the perfectly cubic room, his boots echoing sharply against the seamless white floor. The walls pulse with a soft, rhythmic glow, as if the chamber itself is breathing data. As you turn your gaze toward the corners of the room, you notice the subtle shimmer of the 'migration' veil—the boundary where legacy code meets the new schema. Every detail is crisp, calibrated, and ready for validation. To the north, a single obsidian pedestal rises from the floor, bearing a small, unlabelled lever.
+
+Player (freeform):
+I search the crypt.
+
+============================================================
+SCENE 3
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 08:15:00
+Location: Legacy Crypt of Shadows
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+)
+
+Game Master:
+Morning (08:15:00) in the Legacy Crypt of Shadows—the sterile white walls of the testing chamber reflect the rhythmic glow of the ceiling panels. Aric (Lvl 1) moves along the perimeter, his fingers trailing across the cool, seamless surface. He searches for any sign of a hidden panel, a loose tile, or a developer's backdoor, but the architecture of the chamber is maddeningly perfect. Every square inch of the wall is identical to the next, offering no grip or secret latch. His thorough inspection yields only a slight headache from the humming ozone. The obsidian pedestal remains at the center of the room, its unlabelled lever the only break in the chamber's symmetry.
+
+Player (freeform):
+I look around in the blinding darkness.
+
+============================================================
+SCENE 4
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 08:16:00
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 10gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+), Second Wind: 1/1
+
+Game Master:
+Morning (08:16:00) in the Regression Testing Chamber—the sterile white glow of the walls suddenly flickers and dies, replaced by a crushing, absolute void. Aric (Lvl 1) stands paralyzed as the world vanishes into a 'blinding' darkness, his eyes struggling to compensate for the sudden loss of light. He reaches out into the cold air, his fingers brushing against nothing but the faint scent of ionized air and the distant, mechanical hum of the chamber's life-support systems. Every direction looks the same: a pitch-black abyss that swallows the floor, the walls, and the central pedestal alike. He strains his ears, hoping for a sound to ground him, but the silence of the void is as heavy as the dark.
+
+Player (freeform):
+I proceed deeper.
+
+============================================================
+SCENE 5
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 08:20:00
+Location: Regression Testing Chamber
+Status: Lvl 1 Fighter | HP: 10/10 | XP: 0/300 | Gold: 0gp
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Spells: No Spells Yet (Level 2+)
+
+Game Master:
+Morning (08:20:00) in the Regression Testing Chamber—the void remains absolute, a thick velvet that weighs upon your senses. Aric (Lvl 1) steps tentatively forward, arms outstretched to find the 'deeper' reaches of the sterile room. Without the rhythmic glow of the walls to guide him, his sense of distance evaporates instantly. His boot catches on a slight protrusion in the floor—perhaps the base of the pedestal—and he lurches forward. He manages to catch himself before hitting the seamless floor, but his heart hammers against his ribs as he realizes he no longer knows which way he is facing. The sterile hum of the chamber is the only constant in this lightless prison.

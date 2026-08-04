@@ -1,0 +1,15 @@
+{
+  "git_provenance": {
+    "head_commit": "35823eb34c7e88b8c0b3db2e03dc4beb55017dd8",
+    "branch": "fix/remove-level-20-cap"
+  },
+  "server": {
+    "process_cmdline": "python3 -m pytest mvp_site/tests/test_agents.py mvp_site/tests/test_resolver_sole_source.py mvp_site/tests/test_canonicalize_invariants.py mvp_site/tests/test_game_state.py",
+    "pid": null
+  },
+  "bundle_version": "1.1",
+  "evidence_mode": "unit-tests",
+  "bundle_timestamp": "2026-05-05T19:30:00Z",
+  "merge_base": "f22bc0ad0c474fb79c699b843aec12fcdbcb6d1b",
+  "commits_ahead_of_main": 44
+}

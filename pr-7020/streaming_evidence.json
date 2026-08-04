@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-29T06:56:32.994194+00:00",
+  "summary": {
+    "scenarios_with_streaming_evidence": 1,
+    "total_chunk_events_observed": 147,
+    "stream_http_calls_captured": 10,
+    "process_action_calls_captured": 10,
+    "mcp_process_action_calls_captured": 0,
+    "route_stream_process_action_calls_captured": 10,
+    "process_action_calls_with_raw_response_text": 5
+  },
+  "scenarios": [
+    {
+      "name": "campaign_upgrade_lifecycle_streaming",
+      "campaign_id": "uNl2yzuusIvMF2dt4QD1",
+      "passed": true,
+      "chunk_count_observed": 147,
+      "done_chunk_count": 1,
+      "chunk_count_matches_done": null,
+      "strictly_increasing_sequence": null,
+      "streaming_request_timestamp": "2026-05-29T06:55:20.722542+00:00",
+      "streaming_response_timestamp": "2026-05-29T06:56:30.117642+00:00",
+      "timeline_sample_size": 24
+    }
+  ]
+}

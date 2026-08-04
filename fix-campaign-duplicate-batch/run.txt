@@ -1,0 +1,109 @@
+PR #8056 real Firestore evidence
+================================
+
+Behavior commit:
+94b447287301414b9e29a718d2ce5a51b3c5bfe3
+
+Project: worldarchitecture-ai
+Fixture scope: disposable users/_codex_es_pr8056-* documents
+Payload: 20 story documents, 921600 random bytes per document
+
+RED — direct Firestore WriteBatch before correction
+---------------------------------------------------
+source_count=20
+destination_count_after_commit=0
+exception_type=google.api_core.exceptions.InvalidArgument
+exception_text=400 Request payload size exceeds the limit: 11534336 bytes.
+cleanup_remaining=0
+
+The rejection was atomic. This demonstrated that json.dumps(data)+500 was not
+an authoritative representation of the Firestore commit payload.
+
+GREEN command
+-------------
+HEAD_SHA=$(git rev-parse HEAD)
+LIVE_SHA=$(unset GITHUB_TOKEN; gh api repos/jleechanorg/worldarchitect.ai/pulls/8056 --jq .head.sha)
+test "$HEAD_SHA" = "$LIVE_SHA"
+EVIDENCE_GIT_SHA="$HEAD_SHA" ~/projects/worldarchitect.ai/venv/bin/python scripts/es_campaign_duplicate_batch.py
+
+GREEN result
+------------
+{
+  "cleanup_remaining_campaigns": 0,
+  "cleanup_user_exists": false,
+  "git_head": "94b447287301414b9e29a718d2ce5a51b3c5bfe3",
+  "partial_failure": {
+    "commit_attempts": 3,
+    "destination_exists": false,
+    "destination_story_count": 0,
+    "exception": "injected later write failure",
+    "visible_campaign_count": 1
+  },
+  "payload_bytes": 921600,
+  "project": "worldarchitecture-ai",
+  "run_id": "pr8056-a6173917d37f",
+  "source_count": 20,
+  "success": {
+    "commit_attempts": 3,
+    "copied_count": 20,
+    "destination_count": 20
+  },
+  "verdict": "PASS"
+}
+
+Both production copy attempts received the real server rejection and split the
+20-document commit into 10+10. The failure case injected a RuntimeError only on
+the third SDK commit attempt: the first 10-document half had committed to real
+Firestore, then production rollback removed the destination root and all story
+documents. Final fixture cleanup left no campaign or user document.
+
+Real local server route proof
+-----------------------------
+Server:
+PYTHONPATH=. ENVIRONMENT=development TESTING_AUTH_BYPASS=true \
+  ALLOW_TEST_AUTH_BYPASS=true PORT=8139 WORLDAI_FLASK_DEBUG=false \
+  WORLDAI_USE_RELOADER=false \
+  ~/projects/worldarchitect.ai/venv/bin/python mvp_site/main.py serve
+
+Request:
+POST http://127.0.0.1:8139/api/campaigns/source/duplicate
+Authenticated test user: _codex_es_pr8056-server-858d5aed
+Real Firestore source: 2 story documents
+
+HTTP 201
+{
+  "copied_counts": {
+    "campaign": 1,
+    "characters": 0,
+    "game_states": 0,
+    "notes": 0,
+    "story": 2
+  },
+  "new_campaign_id": "IbKx4j1dcFp2arGeN1k8",
+  "new_title": "HTTP real Firestore copy",
+  "success": true
+}
+
+Post-route fixture cleanup:
+{"remaining_campaigns": 0, "user_exists": false}
+
+Deterministic verification
+--------------------------
+TESTING_AUTH_BYPASS=true ~/projects/worldarchitect.ai/venv/bin/python -m unittest \
+  mvp_site.tests.test_duplicate_campaign_http \
+  mvp_site.tests.test_main_gateway_boundary
+
+Ran 23 tests in 37.454s
+OK
+
+Included edge assertions:
+- exact server-size InvalidArgument recursively splits
+- single-document server-size rejection is terminal
+- later generic failure rolls back a partially committed duplicate
+
+Focused logic/boundary rerun: Ran 16 tests in 0.102s — OK
+Ruff (service, tests, evidence harness): PASS
+compileall (service, gateway, tests): PASS
+
+No LLM is used by this deterministic Firestore persistence path. No UI or
+user-interaction surface changed, so video evidence is not applicable.

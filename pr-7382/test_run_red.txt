@@ -1,0 +1,51 @@
+# TDD Red baseline log — TestDiceCompositeNotation (pre-fix state)
+#
+# PR: https://github.com/jleechanorg/worldarchitect.ai/pull/7382
+# PR head SHA at capture: 292a0e4d28dd5f5db66c01abb81bb7fc8fd9feb9 (HEAD at Red capture time; substantive code in 7bb3559f22; live HEAD is now 751fe872c5dfffe56f5934e96ed3d78d0fc9d6f3 — provenance-refresh commits only, no logic change)
+# Pre-fix ref: c96eeb784658acd0a84210f43645bd64a779da45 (parent of de69aca1ff)
+# Captured: 2026-06-11T19:57Z by PR babysitter
+# Method: source files from c96eeb7846 (pre-fix) + new tests from PR #7382 HEAD.
+#   The 4 TestDiceCompositeNotation tests were added in commit de69aca1ff of
+#   the PR.  Running them against the pre-fix source state (no schema regex
+#   on ActionResolutionRoll.notation, no `campaign_id` kwarg in
+#   `_build_audit_warnings`, no composite-notation language in
+#   game_state_instruction.md) reproduces the bug class.  3 of 4 fail; the
+#   1 passing test (`test_dice_schema_notation_pattern_accepts_canonical`)
+#   is a positive control that confirms the harness is exercising the
+#   same schema in both Red and Green states.
+#
+# Compare against evidence/pr-7382/test_run.log (Green state, 124 passed,
+# captured after applying the 4 fix commits).
+============================= test session starts ==============================
+platform darwin -- Python 3.13.7, pytest-9.0.3, pluggy-1.6.0 -- /Users/jleechan/.local/orch-venv/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default'
+rootdir: /private/tmp/worktree-dice-composite/mvp_site
+configfile: pytest.ini
+plugins: cov-7.1.0, timeout-2.4.0, hypothesis-6.152.5, testmon-2.2.0, anyio-4.13.0
+collected 4 items
+
+mvp_site/tests/test_narrative_response_schema.py::TestDiceCompositeNotation::test_audit_dice_rolls_composite_notation_warning FAILED [ 25%]
+mvp_site/tests/test_narrative_response_schema.py::TestDiceCompositeNotation::test_composite_notation_persuasion_with_bardic_emits_two_rolls FAILED [ 50%]
+mvp_site/tests/test_narrative_response_schema.py::TestDiceCompositeNotation::test_dice_schema_notation_pattern_accepts_canonical PASSED [ 75%]
+mvp_site/tests/test_narrative_response_schema.py::TestDiceCompositeNotation::test_dice_schema_notation_pattern_rejects_composite FAILED [100%]
+
+=================================== FAILURES ===================================
+__ TestDiceCompositeNotation.test_audit_dice_rolls_composite_notation_warning __
+mvp_site/tests/test_narrative_response_schema.py:3573: in test_audit_dice_rolls_composite_notation_warning
+    warnings = _build_audit_warnings(
+E   TypeError: _build_audit_warnings() got an unexpected keyword argument 'campaign_id'
+_ TestDiceCompositeNotation.test_composite_notation_persuasion_with_bardic_emits_two_rolls _
+mvp_site/tests/test_narrative_response_schema.py:3486: in test_composite_notation_persuasion_with_bardic_emits_two_rolls
+    self.assertTrue(
+E   AssertionError: False is not true : Composite notation should be rejected by the schema validator
+_ TestDiceCompositeNotation.test_dice_schema_notation_pattern_rejects_composite _
+mvp_site/tests/test_narrative_response_schema.py:3668: in test_dice_schema_notation_pattern_rejects_composite
+    with pytest.raises(jsonschema.ValidationError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE <class 'jsonschema.exceptions.ValidationError'>
+=========================== short test summary info ============================
+FAILED mvp_site/tests/test_narrative_response_schema.py::TestDiceCompositeNotation::test_audit_dice_rolls_composite_notation_warning
+FAILED mvp_site/tests/test_narrative_response_schema.py::TestDiceCompositeNotation::test_composite_notation_persuasion_with_bardic_emits_two_rolls
+FAILED mvp_site/tests/test_narrative_response_schema.py::TestDiceCompositeNotation::test_dice_schema_notation_pattern_rejects_composite
+==================== 3 failed, 1 passed, 1 warning in 1.80s =====================

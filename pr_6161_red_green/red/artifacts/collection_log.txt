@@ -1,0 +1,34 @@
+# Evidence Collection Log — RED bundle
+# PR #6161: fix/rewards-box-planning-block-atomic
+# Test: testing_mcp/test_rewards_box_planning_block_e2e.py
+# Collected: 2026-04-09T21:30:08Z
+
+## Files collected
+- run.json: scenario results (1/3 passed — expected failures demonstrating pre-fix regression)
+- metadata.json: git provenance, server info, environment
+- evidence.md: human-readable summary
+- methodology.md: collection methodology and server setup
+- notes.md: run notes and caveats
+- doctor_report.json: pre-flight diagnostics
+- http_request_responses.jsonl: HTTP traces
+- gemini_http_request_responses.jsonl: Gemini API call traces
+- llm_request_responses.jsonl: LLM request/response payloads (sha256 only — full file excluded for size)
+
+## Server info
+- Port: 8051
+- Command: gunicorn mvp_site.main:app
+- Branch: detached HEAD (pre-fix base commit 3c7a91bdcd2bdabe641259f4c9d0501024426654)
+- Git HEAD: 3c7a91bdcd2bdabe641259f4c9d0501024426654
+
+## Environment
+- MOCK_SERVICES_MODE: not set (real APIs)
+- TESTING_AUTH_BYPASS: true (auth bypass only)
+- SMOKE_TOKEN: not set
+
+## Scenarios
+1. atomicity_e2e: PASS (coincidental — this scenario was already partially working)
+2. projected_level_up_button_text: FAIL — level_up_now/continue_adventuring choices missing
+3. multi_level_organic_progression: FAIL — multi-level modal progression broken
+
+## Caveats
+- working_tree_dirty=true: 3 unstaged testing_mcp/lib/ files present (test infra)

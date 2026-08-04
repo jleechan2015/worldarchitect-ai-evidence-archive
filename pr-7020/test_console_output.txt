@@ -1,0 +1,94 @@
+======================================================================
+TEST CAMPAIGN UPGRADE MODAL LOCK RED GREEN
+======================================================================
+Work name: test_campaign_upgrade_modal_lock_red_green
+Model: gemini-3-flash-preview
+======================================================================
+📁 Evidence directory: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green
+   Evidence will be saved to: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_XXX/
+📁 Base evidence directory (forced branch-scoped /tmp): /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green
+Created iteration directory for evidence: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007
+
+🚀 Starting fresh local MCP server on port 8083...
+✅ Server ready at http://127.0.0.1:8083
+Tmux video recording started for evidence bundle.
+
+Starting campaign_upgrade_lifecycle_streaming scenario...
+  Created campaign: uNl2yzuusIvMF2dt4QD1
+  Injected threshold state (universe_control=75, no completed_tier)
+  [STREAM:ENTER] -> 'I decline the cosmic ascension and choose to remain mortal.'
+  [STREAM:ENTER] chunks_observed=43
+  Turn1 agent=CampaignUpgradeAgent in_progress=True
+  [STREAM:EXIT] -> 'I walk down the road to find cosmic secrets.'
+  [STREAM:EXIT] chunks_observed=47
+  Turn2 agent=CampaignUpgradeAgent in_progress=False completed_tier=mortal
+  [STREAM:FOLLOWUP] -> 'I continue down the road.'
+  [STREAM:FOLLOWUP] chunks_observed=57
+  Turn3 agent=RewardsAgent
+  ✅ Captured campaign snapshot for uNl2yzuu
+Tmux video artifact finalized (.cast).
+
+================================================================================
+📦 EVIDENCE BUNDLE CREATED
+================================================================================
+📁 Evidence Directory:
+   /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007
+
+📋 Bundle Metadata:
+   Run ID:        test_campaign_upgrade_modal_lock_red_green-007-20260529T065632
+   Iteration:     7
+   Bundle Version: 1.2.0
+   📁 Evidence directory: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007
+   📁 Latest iteration: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007
+
+📥 Downloading 1 test campaigns (workers=1)...
+Downloading to: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007/campaigns
+Format: txt
+============================================================
+Downloading: uNl2yzuusIvMF2dt4QD1...
+  Saved story: Campaign Upgrade Lifecycle Streaming Evidence_uNl2yzuu.txt
+  Saved game state: Campaign Upgrade Lifecycle Streaming Evidence_uNl2yzuu_game_state.json
+  Entries: 8, Story size: 5.3 KB, Game state size: 7.2 KB
+============================================================
+Downloaded 1/1 campaigns
+  stderr: 2026-05-28 23:56:33,104 - root - INFO - Unified logging configured: /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix-campaign-upgrade-hang/app.log
+  stderr: 2026-05-28 23:56:33,104 - root - INFO - Applied clock skew patch: adjusting time by -720 seconds
+  stderr: 2026-05-28 23:56:33,821 - root - INFO - Firebase not initialized - attempting to initialize now
+  stderr: 2026-05-28 23:56:33,822 - root - INFO - Loading service account from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-28 23:56:33,822 - root - INFO - ✅ Successfully loaded credentials from file: /Users/jleechan/serviceAccountKey.json
+  stderr: 2026-05-28 23:56:33,822 - root - INFO - Successfully loaded service account credentials
+  stderr: 2026-05-28 23:56:34,320 - root - INFO - 📖 FETCHED STORY ENTRIES: user=test-test_campaign_upgrade_modal_lock_red_green-1780037674, campaign=uNl2yzuusIvMF2dt4QD1, total_entries=8
+  stderr: 2026-05-28 23:56:34,320 - root - INFO - 📊 STORY BREAKDOWN: user_entries=4, ai_entries=4, other_entries=0
+  stderr: 2026-05-28 23:56:34,320 - root - INFO - 🔍 RECENT ENTRIES (last 5):
+  stderr: 2026-05-28 23:56:34,320 - root - INFO -   1. [gemini] character | As the celestial choir reaches a deafening crescen... | 2026-05-29 06:55:43.114503+00:00
+  stderr: 2026-05-28 23:56:34,320 - root - INFO -   2. [user] character | I walk down the road to find cosmic secrets. | 2026-05-29 06:56:04.659940+00:00
+  stderr: 2026-05-28 23:56:34,320 - root - INFO -   3. [gemini] character | The path down from the Precipice is steep and chok... | 2026-05-29 06:56:05.043792+00:00
+  stderr: 2026-05-28 23:56:34,320 - root - INFO -   4. [user] character | I continue down the road. | 2026-05-29 06:56:28.820914+00:00
+  stderr: 2026-05-28 23:56:34,320 - root - INFO -   5. [gemini] character | The descent is quiet, the silence of the mountain ... | 2026-05-29 06:56:29.469094+00:00
+  ✅ Downloaded campaign uNl2yzuu... (8 entries)
+  ✅ Downloaded campaign uNl2yzuu... (8 entries, user_id=test-test_campaign_upgrade_modal_lock_red_green-1780037674)
+📦 Downloaded 1/1 campaigns to:
+   /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007/campaigns
+ℹ️  Reconciled campaign_capture_status with exported campaign artifacts.
+
+================================================================================
+✅ TEST EVIDENCE SUMMARY
+================================================================================
+📁 Evidence Location:  /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007
+📥 Campaigns Location: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007/campaigns
+🔗 Latest Symlink:     /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/latest
+================================================================================
+
+📎 Iteration artifact captured: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007/scenario_results_checkpoint.json
+📁 Final evidence iteration directory: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green/iteration_007
+
+======================================================================
+SUMMARY
+======================================================================
+Total scenarios: 2
+Passed: 2
+Failed: 0
+Pass rate: 2/2 (100%)
+
+📦 Evidence bundle created: /tmp/worldarchitect.ai/fix-campaign-upgrade-hang/test_campaign_upgrade_modal_lock_red_green
+   Files: 21 with checksums

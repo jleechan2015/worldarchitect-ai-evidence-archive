@@ -1,0 +1,4 @@
+Activating virtual environment: /Users/jleechan/projects/worktree_bq_loggin/venv
+Running python -m pytest mvp_site/tests/test_openai_compatible_providers_bq_logging.py -q
+...........                                                              [100%]
+11 passed in 0.25s

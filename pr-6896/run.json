@@ -1,0 +1,66 @@
+{
+  "scenarios": [
+    {
+      "name": "one_time_schema_migration_and_strict_post_migration_validation",
+      "passed": true,
+      "errors": [],
+      "campaign_id": "W3ldqenqKTQd1jnqgSjK",
+      "debug": {
+        "legacy_response_error": null,
+        "action_response_error": null,
+        "post_migration_error": null,
+        "migration_version": 1,
+        "migrated_at": "2026-05-23T07:28:54.167714+00:00",
+        "legacy_player_character_data_type": "dict",
+        "migrated_player_character_data_type": "dict",
+        "location_migration": {
+          "current_location_name": "Regression Testing Chamber",
+          "legacy_location": null,
+          "last_location": "Regression Testing Chamber"
+        },
+        "sentinel_protection": {
+          "current_location_name": "Regression Testing Chamber",
+          "last_location": "Regression Testing Chamber"
+        },
+        "world_events_present": true
+      },
+      "user_id": "test-schema_migration_flow_real_api-1779521297",
+      "user_email": "jleechantest@gmail.com",
+      "details": {
+        "chunk_count_observed": 253,
+        "chunk_count": 253,
+        "done_chunk_count": 253,
+        "request_ts": "2026-05-23T07:28:53.821536+00:00",
+        "response_ts": "2026-05-23T07:30:44.228798+00:00",
+        "stream_actions": 8,
+        "execution_path": "streaming_debug_command"
+      },
+      "raw_response_text": "{\"narrative\": \"\", \"god_mode_response\": \"[System Message: The following state changes were applied via GOD MODE]\\nGame state updated (2 entries):\\n  - schema_migration_version: \\\"__DELETE__\\\"\\n  - schema_migrated_at: \\\"__DELETE__\\\"\\n\\n[Auto-Corrections Applied]\\n  - Applied one-time schema migration for legacy compatibility\", \"state_updates\": {}, \"system_warnings\": [\"Applied one-time schema migration for legacy compatibility\"]}"
+    },
+    {
+      "name": "EVIDENCE_SIGNATURE_GUARD",
+      "passed": true,
+      "signed_count": 5,
+      "user_id": "test-schema_migration_flow_real_api-1779521297"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "pass_rate": "2/2 (100%)",
+    "raw_total": 1,
+    "raw_passed": 1,
+    "raw_pass_rate": "100.0%",
+    "raw_data_complete": true
+  },
+  "campaign_capture_status": {
+    "W3ldqenqKTQd1jnqgSjK": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    }
+  }
+}

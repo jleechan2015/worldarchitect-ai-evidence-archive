@@ -1,0 +1,17 @@
+Activating virtual environment: /Users/jleechan/projects/worktree_bq_loggin/venv
+Running python scripts/evidence_openrouter_nonstreaming_bq_path10.py
+2026-06-11 12:14:45,817 - root - INFO - Unified logging configured: /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/worktree_bq_loggin/app.log
+2026-06-11 12:14:46,015 - mvp_site.adjusters.base - INFO - Registered adjuster: ADJ-WA-JSON-STRIP-PREFIX | Scope: format_normalization | Priority: 10
+=== BQ codepath coverage — Path 10 (openrouter non-streaming) ===
+Model: meta-llama/llama-3.1-8b-instruct
+Expected extra.path: openrouter_provider.generate_content
+BQ rows before: 2
+Calling OpenRouter generate_content (non-streaming)...
+2026-06-11 12:14:48,487 - root - INFO - Calling OpenRouter model: meta-llama/llama-3.1-8b-instruct
+2026-06-11 12:14:48,880 - root - INFO - OPENROUTER finish_reason=stop, prompt_tokens=60, completion_tokens=2
+2026-06-11 12:14:50,063 - root - INFO - 📦 BQ llm_payload stored: campaign=None user=None is_test=True turn=None event=llm_payload agent=None finish=stop table=llm_forensics.llm_payloads insert_id=44a722fa36e341429ba51c11a5bdc9b1
+Response received in 1.58s: 'pong'
+Waiting 5s for BQ row ingestion...
+BQ rows after: 3
+Intermediate result written to: /Users/jleechan/projects/worktree_bq_loggin/evidence/pr-7439/supplemental_iteration_002/openrouter_path10_real_bq_adc_attempt/result_intermediate.json
+VERDICT: GREEN — BQ row landed with expected path

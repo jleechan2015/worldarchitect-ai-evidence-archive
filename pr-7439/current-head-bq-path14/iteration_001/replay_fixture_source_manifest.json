@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-06-11T18:02:19.014920+00:00",
+  "source_kind": "testing_mcp",
+  "test_name": "pr7439-current-head-bq-path14",
+  "evidence_dir": "/tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001",
+  "git_provenance": {
+    "git_head": "64321cced78af9fc253fd8b06f2a533a2598ed70",
+    "git_branch": "worktree_bq_loggin",
+    "merge_base": "a556c41022782bfba88464eaef6339f517cba6d4",
+    "commits_ahead_of_main": 31,
+    "diff_stat_vs_main": "mvp_site/bq_logging.py                             |  88 +-\n mvp_site/llm_parser.py                             | 117 ++-\n mvp_site/llm_providers/cerebras_provider.py        |  29 +\n mvp_site/llm_providers/gemini_provider.py          | 488 ++++++++---\n .../openai_compatible_provider_core.py             |  69 +-\n mvp_site/llm_providers/openclaw_provider.py        | 104 ++-\n mvp_site/llm_providers/openrouter_provider.py      |  89 ++\n mvp_site/llm_service.py                            | 347 ++++++--\n mvp_site/main.py                                   | 158 +++-\n mvp_site/tests/fake_services.py                    |  24 +-\n mvp_site/tests/test_always_json_mode.py            |  76 +-\n mvp_site/tests/test_bq_logging.py                  |  45 +\n .../test_cerebras_provider_bq_codepath_coverage.py |  97 +++\n mvp_site/tests/test_client_diagnostic_log.py       |  13 +-\n mvp_site/tests/test_debug_info_trimming.py         |  43 +\n mvp_site/tests/test_fake_services_cleanup.py       |  45 +\n mvp_site/tests/test_game_state.py                  |  47 +-\n mvp_site/tests/test_gemini_provider_bq_logging.py  | 369 ++++++++\n .../tests/test_initial_story_cache_hit_bq_guard.py | 247 ++++++\n .../tests/test_level_up_session_architecture.py    |   2 -\n mvp_site/tests/test_llm_service_error_handling.py  |  34 +-\n .../test_openai_compatible_providers_bq_logging.py | 320 +++++++\n mvp_site/tests/test_openai_inference_proxy.py      | 124 +++\n .../tests/test_openai_proxy_nonstream_bq_path8.py  | 103 +++\n .../tests/test_openclaw_provider_streaming_bq.py   | 280 ++++++\n mvp_site/tests/test_streaming_orchestrator.py      | 286 ++++++\n mvp_site/tests/test_world_logic.py                 | 151 +++-\n mvp_site/world_logic.py                            | 154 +++-\n run_local_server.sh                                |  20 +-\n scripts/CLAUDE.md                                  |  16 +\n scripts/archive/verify_bq_logging.sh               | 279 ++++++\n scripts/test_determine_smoke_mode.sh               |   0\n .../test_bq_logging_real_llm_real_user_e2e.py      | 969 +++++++++++++++++++++\n .../test_bq_path14_gameplay_streaming_proxy_e2e.py | 421 +++++++++\n .../test_openrouter_nonstreaming_bq_path10.py      | 187 ++++\n 35 files changed, 5510 insertions(+), 331 deletions(-)",
+    "working_tree_dirty": false,
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 0,
+    "working_tree_changed_files": [],
+    "working_tree_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "contract_versions": {
+    "master_directive_prompt": "1.0.4",
+    "game_state_instruction_prompt": "1.1.32",
+    "planning_protocol_prompt": "1.1.8",
+    "narrative_response_schema": "1.2.36",
+    "mcp_api_tool_contract": "1.0.6",
+    "character_template_prompt": "1.0.0",
+    "leveling_pace_contract_prompt": "1.0.7"
+  },
+  "capture_files": {
+    "llm_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001/llm_request_responses.jsonl",
+      "relative_path": "llm_request_responses.jsonl",
+      "exists": true,
+      "entries": 2,
+      "sha256": "b7db7b83548c796e1ea83c9a982762f6965fcdc53e55f0f30af950962b93140c"
+    },
+    "http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001/http_request_responses.jsonl",
+      "relative_path": "http_request_responses.jsonl",
+      "exists": true,
+      "entries": 66,
+      "sha256": "5a5828d087c8b4243b5f7395af0152e411ac4adc57f1b13af40d6bf72d663f7f"
+    },
+    "gemini_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001/gemini_http_request_responses.jsonl",
+      "relative_path": "gemini_http_request_responses.jsonl",
+      "exists": true,
+      "entries": 4,
+      "sha256": "134fd554aad8fa7a587215b5fe9cbdfe481c850cc2f3704cfcd95631a3e148d2"
+    },
+    "provider_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001/provider_http_request_responses.jsonl",
+      "relative_path": "provider_http_request_responses.jsonl",
+      "exists": false,
+      "entries": 0,
+      "sha256": null
+    },
+    "mcp_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_bq_loggin/pr7439-current-head-bq-path14/iteration_001/request_responses.jsonl",
+      "relative_path": "request_responses.jsonl",
+      "exists": true,
+      "entries": 2,
+      "sha256": "4b6a597d1350ce5b9fb7e08f080e8346a8a94a41269c131e2ae9041a834ac71a"
+    }
+  },
+  "extractor_hint": "Use a scenario-specific extractor to select replay stages from these raw traces."
+}

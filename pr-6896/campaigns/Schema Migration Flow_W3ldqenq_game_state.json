@@ -1,0 +1,312 @@
+{
+  "game_state_version": 1,
+  "player_character_data": {
+    "attributes": {
+      "constitution": 10,
+      "strength": 16,
+      "wisdom": 10,
+      "charisma": 10,
+      "intelligence": 10,
+      "dexterity": 10
+    },
+    "hp_max": 10,
+    "class_name": "Fighter",
+    "display_name": "Aric",
+    "level": 1,
+    "equipment": {
+      "backpack": [
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Backpack"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Bedroll"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Mess kit"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Tinderbox"
+        },
+        {
+          "stats": "10",
+          "equipped": false,
+          "name": "Torch"
+        },
+        {
+          "equipped": false,
+          "stats": "10 days",
+          "name": "Rations"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Waterskin"
+        },
+        {
+          "equipped": false,
+          "stats": "50 feet",
+          "name": "Rope"
+        },
+        {
+          "equipped": false,
+          "stats": "10gp",
+          "name": "Coin pouch"
+        }
+      ]
+    },
+    "health": {
+      "hp": 8,
+      "hp_max": 10
+    },
+    "hp_current": 8,
+    "base_attributes": {
+      "strength": 16,
+      "constitution": 10,
+      "charisma": 10,
+      "wisdom": 10,
+      "intelligence": 10,
+      "dexterity": 10
+    },
+    "name": "Aric the Fighter (STR 16)"
+  },
+  "world_data": {
+    "current_location_name": "Regression Testing Chamber",
+    "world_time": {
+      "time_of_day": "morning",
+      "year": 1000,
+      "microsecond": 0,
+      "day": 1,
+      "hour": 8,
+      "minute": 1,
+      "month": 1,
+      "second": 45
+    }
+  },
+  "npc_data": {
+    "npc_goblin_001": {
+      "armor_class": 13,
+      "present": true,
+      "hp_max": 7,
+      "string_id": "npc_goblin_001",
+      "status": "healthy",
+      "hp_current": 7,
+      "name": "Goblin"
+    },
+    "Kaelen": {
+      "age": 24,
+      "entity_id": "npc_kaelen_001",
+      "alignment": "Lawful Neutral",
+      "relationships": {
+        "player": {
+          "disposition": "neutral",
+          "trust_level": 0,
+          "history": [
+            "Introduced himself in the darkness of the testing chamber."
+          ]
+        }
+      },
+      "mbti": "INTJ",
+      "status": "conscious",
+      "health": {
+        "hp_max": 8,
+        "hp": 8
+      },
+      "tier": "merchant",
+      "entity_type": "npc",
+      "attributes": {
+        "constitution": 12,
+        "strength": 8,
+        "wisdom": 10,
+        "charisma": 12,
+        "intelligence": 14,
+        "dexterity": 16
+      },
+      "class_name": "Rogue",
+      "role": "Fellow Test Subject",
+      "display_name": "Kaelen",
+      "visibility": "hidden",
+      "level": 1,
+      "gender": "Male"
+    }
+  },
+  "item_registry": {},
+  "custom_campaign_state": {
+    "divine_potential": 0,
+    "character_creation_completed": true,
+    "core_memories": [
+      "Aric is a Fighter with 16 Strength, located in a regression testing chamber to validate schema migration.",
+      "Aric (Lvl 1) began his assessment of the Regression Testing Chamber at 08:00:30, noting the grid-lined walls and a southern hatch seam.",
+      "Aric (Lvl 1) conducted a thorough search of the testing chamber but failed to uncover any hidden mechanisms or inhabitants beyond the sterile interface.",
+      "Correction: The Regression Testing Chamber is not empty; a second subject named Kaelen (Lvl 1) was introduced during a deliberate power failure.",
+      "Aric (Lvl 1) triggered a gravity surge by ignoring Kaelen's warning and moving in the dark, suffering minor injuries."
+    ],
+    "attribute_system": "D&D",
+    "arc_milestones": {},
+    "universe_control": 0,
+    "character_creation_stage": "complete",
+    "_agent_selection_tracker": {
+      "rewards_skip_count": 0,
+      "count": 1,
+      "agent": "HeavyDialogAgent"
+    },
+    "multiverse_upgrade_available": false,
+    "campaign_tier": "mortal",
+    "last_living_world_turn": 3,
+    "divine_upgrade_available": false,
+    "success_streak": 0,
+    "major_event_pressure_budget": {
+      "new_major_event": false,
+      "major_events_this_window": 0,
+      "window": "24h",
+      "rationale": "Initializing the first companion arc and introducing the living world system.",
+      "special_circumstances": false
+    },
+    "active_constraints": [],
+    "last_location": "Regression Testing Chamber",
+    "god_mode": {
+      "description": "Validate one-time legacy-to-schema migration flow",
+      "character": {
+        "attributes": {
+          "strength": 16,
+          "constitution": 10,
+          "charisma": 10,
+          "wisdom": 10,
+          "intelligence": 10,
+          "dexterity": 10
+        },
+        "base_attributes": {
+          "constitution": 10,
+          "strength": 16,
+          "wisdom": 10,
+          "charisma": 10,
+          "intelligence": 10,
+          "dexterity": 10
+        },
+        "name": "Aric the Fighter (STR 16)"
+      },
+      "setting": "A regression testing chamber"
+    },
+    "companion_arcs": {
+      "Kaelen": {
+        "progress": 0,
+        "phase": "discovery",
+        "arc_type": "rival_nemesis",
+        "history": [
+          {
+            "event": "Introduced as a fellow subject during a sensory stress test.",
+            "turn": 3
+          }
+        ]
+      }
+    },
+    "character_creation_in_progress": false,
+    "next_companion_arc_turn": 4
+  },
+  "social_hp_challenge": {
+    "npc_name": "Kaelen",
+    "successes": 0,
+    "cooldown_remaining": 0,
+    "status": "ANTAGONISTIC",
+    "social_hp_damage": 0,
+    "successes_needed": 5,
+    "roll_result": 3,
+    "social_hp": 3,
+    "request_severity": "favor",
+    "resistance_shown": "Verbally rebukes Aric for endangering them both.",
+    "npc_tier": "merchant",
+    "roll_dc": 15,
+    "objective": "Establish trust in the darkness",
+    "skill_used": "Persuasion",
+    "social_hp_max": 3
+  },
+  "combat_state": {
+    "in_combat": false
+  },
+  "last_state_update_timestamp": "2026-05-23T07:30:43.329000+00:00",
+  "turn_number": 4,
+  "player_turn": 4,
+  "last_living_world_turn": 3,
+  "last_living_world_time": {
+    "time_of_day": "morning",
+    "year": 1000,
+    "microsecond": 0,
+    "hour": 8,
+    "day": 1,
+    "minute": 1,
+    "month": 1,
+    "second": 15
+  },
+  "time_sensitive_events": {},
+  "npc_agendas": {},
+  "world_resources": {},
+  "time_pressure_warnings": {},
+  "debug_mode": true,
+  "pending_instruction_hints": [],
+  "entity_tracking": {
+    "active_entities": [
+      "Aric the Fighter (STR 16)"
+    ],
+    "present_entities": []
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "text": "Apologize to Kaelen",
+        "description": "Admit your mistake and try to de-escalate the tension to secure his guidance.",
+        "risk_level": "low",
+        "id": "apologize_to_kaelen"
+      },
+      {
+        "text": "Ignite a Torch",
+        "description": "The darkness is too dangerous. Use your tinderbox to light a torch despite the risk of making yourself a target.",
+        "id": "ignite_torch",
+        "risk_level": "medium"
+      },
+      {
+        "text": "Stay Perfectly Still",
+        "description": "Wait for the floor sensors to recalibrate or for Kaelen to make the next move.",
+        "id": "stay_still",
+        "risk_level": "safe"
+      }
+    ],
+    "context": "Failed movement in the dark leading to gravity surge.",
+    "thinking": "Ignoring the warning was a tactical error that resulted in physical injury and a loss of rapport with the only other inhabitant. The 'gravity plates' are clearly a real threat. I need to regain my bearings and find a way to see, or appease Kaelen to get his cooperation."
+  },
+  "schema_migrated_at": "2026-05-23T07:28:54.167714+00:00",
+  "time_events": {},
+  "world_events": {
+    "turn_generated": 3,
+    "background_events": [
+      {
+        "event_type": "immediate",
+        "outcome": "Subject Aric's lighting was cut; Subject Kaelen was injected into the test zone.",
+        "player_impact": "Forces subjects to cooperate or compete in low-visibility conditions.",
+        "discovery_condition": "Analysis of facility power logs or verbal confirmation from staff.",
+        "status": "pending",
+        "player_aware": false,
+        "location": "Observation Deck (Off-screen)",
+        "actor": "Dr. Aris (Observer)",
+        "action": "Initiated sensory deprivation protocol 01-A"
+      }
+    ]
+  },
+  "rumors": [
+    {
+      "source_type": "overheard_voice",
+      "content": "The simulation's power grid is intentionally unstable to test subject adaptability.",
+      "accuracy": "true",
+      "related_event": "sensory_deprivation_protocol"
+    }
+  ],
+  "session_id": "legacy-migrated-a790c46e38a7fbf6",
+  "schema_migration_version": 1,
+  "user_id": "test-schema_migration_flow_real_api-1779521297"
+}

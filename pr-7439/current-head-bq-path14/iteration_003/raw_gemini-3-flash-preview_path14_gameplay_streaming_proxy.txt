@@ -1,0 +1,84 @@
+{
+  "session_header": "[SESSION_HEADER]\nTimestamp: 1492 DR, Mirtul 15, 06:05:00\nLocation: Misty Mountain Pass\nStatus: Lvl 1 Fighter | HP: 12/12 | XP: 0/300 | Gold: 10gp\nConditions: Normal | Exhaustion: 0 | Inspiration: No",
+  "resources": "HD: 1/1, Second Wind: 1/1",
+  "narrative": "Dawn (06:05:00) at the Misty Mountain Pass—the world is a suffocating shroud of grey and white. You stand perfectly still, your breath hitching in the cold air as you strain your senses against the oppressive fog. The mist clings to your wool cloak, damp and heavy, while the silence of the high peaks presses against your ears. \n\nEvery time you think you catch a glimpse of a silhouette or the rasp of a boot on stone, it vanishes, revealed as nothing more than a trick of the shifting vapor or the moan of the wind through a narrow crevice. The mountain is a wall of secrets this morning, refusing to yield even a hint of what might be lying in wait just a few yards ahead.",
+  "action_resolution": {
+    "player_input": "I peer through the mist and listen.",
+    "interpreted_as": "perception_check",
+    "reinterpreted": false,
+    "mechanics": {
+      "type": "skill_check",
+      "rolls": [
+        {
+          "notation": "1d20+2",
+          "rolls": [1],
+          "modifier": 2,
+          "result": 1,
+          "total": 3,
+          "label": "Perception Check",
+          "dc": 15,
+          "dc_reasoning": "Thick mountain mist and dawn lighting obscuring vision and muffling sound",
+          "success": false,
+          "outcome": "Critical Failure: Kira is momentarily disoriented by the shifting fog and phantom echoes."
+        }
+      ]
+    },
+    "audit_flags": [],
+    "narrative_outcome": "Kira fails to detect anything through the mist due to a natural 1."
+  },
+  "planning_block": {
+    "thinking": "Kira's senses have failed her in this dense fog. Moving forward blindly is dangerous, but staying still in an exposed pass isn't much better. A scout's first priority is orientation and safety.",
+    "choices": [
+      {
+        "id": "move_forward_cautiously",
+        "text": "Move Forward Cautiously",
+        "description": "Keep one hand on the rock face and slowly advance, feeling the ground with your boots.",
+        "risk_level": "medium"
+      },
+      {
+        "id": "wait_for_clearance",
+        "text": "Find Cover and Wait",
+        "description": "Hunker down against a sheltered rock formation and wait for the sun to burn off the thickest part of the mist.",
+        "risk_level": "low"
+      },
+      {
+        "id": "check_ground_tracks",
+        "text": "Search the Ground for Tracks",
+        "description": "Instead of looking through the air, look down at the muddy path for physical signs of passage.",
+        "risk_level": "low"
+      },
+      {
+        "id": "climb_for_vantage",
+        "text": "Seek Higher Ground",
+        "description": "Attempt to climb a nearby crag to see if you can get above the mist layer.",
+        "risk_level": "high"
+      }
+    ]
+  },
+  "god_mode_response": "",
+  "entities_mentioned": [
+    "Kira"
+  ],
+  "location_confirmed": "Misty Mountain Pass",
+  "state_updates": {
+    "world_data": {
+      "world_time": {
+        "year": 1492,
+        "month": "Mirtul",
+        "day": 15,
+        "hour": 6,
+        "minute": 5,
+        "second": 0,
+        "microsecond": 0,
+        "time_of_day": "Dawn"
+      }
+    },
+    "custom_campaign_state": {
+      "core_memories": {
+        "append": "Kira's initial attempt to scout the pass was thwarted by a natural 1, leaving her disoriented in the thick dawn mist."
+      }
+    }
+  }
+}
+
+}

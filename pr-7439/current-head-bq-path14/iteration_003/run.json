@@ -1,0 +1,49 @@
+{
+  "scenarios": [
+    {
+      "name": "path14_gameplay_streaming_proxy",
+      "passed": true,
+      "campaign_id": "zXDOGgALmEJOUaGl96m8",
+      "user_id": "test-bq_path14_gameplay_streaming_proxy_e2e-1781209203",
+      "marker": "REAL_LLM_BQ_PATH14_1781209260",
+      "chunk_count": 0,
+      "bq_row_count": 1,
+      "errors": [],
+      "user_email": "jleechantest@gmail.com",
+      "raw_response_text": "{\n  \"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1492 DR, Mirtul 15, 06:05:00\\nLocation: Misty Mountain Pass\\nStatus: Lvl 1 Fighter | HP: 12/12 | XP: 0/300 | Gold: 10gp\\nConditions: Normal | Exhaustion: 0 | Inspiration: No\",\n  \"resources\": \"HD: 1/1, Second Wind: 1/1\",\n  \"narrative\": \"Dawn (06:05:00) at the Misty Mountain Pass\u2014the world is a suffocating shroud of grey and white. You stand perfectly still, your breath hitching in the cold air as you strain your senses against the oppressive fog. The mist clings to your wool cloak, damp and heavy, while the silence of the high peaks presses against your ears. \\n\\nEvery time you think you catch a glimpse of a silhouette or the rasp of a boot on stone, it vanishes, revealed as nothing more than a trick of the shifting vapor or the moan of the wind through a narrow crevice. The mountain is a wall of secrets this morning, refusing to yield even a hint of what might be lying in wait just a few yards ahead.\",\n  \"action_resolution\": {\n    \"player_input\": \"I peer through the mist and listen.\",\n    \"interpreted_as\": \"perception_check\",\n    \"reinterpreted\": false,\n    \"mechanics\": {\n      \"type\": \"skill_check\",\n      \"rolls\": [\n        {\n          \"notation\": \"1d20+2\",\n          \"rolls\": [1],\n          \"modifier\": 2,\n          \"result\": 1,\n          \"total\": 3,\n          \"label\": \"Perception Check\",\n          \"dc\": 15,\n          \"dc_reasoning\": \"Thick mountain mist and dawn lighting obscuring vision and muffling sound\",\n          \"success\": false,\n          \"outcome\": \"Critical Failure: Kira is momentarily disoriented by the shifting fog and phantom echoes.\"\n        }\n      ]\n    },\n    \"audit_flags\": [],\n    \"narrative_outcome\": \"Kira fails to detect anything through the mist due to a natural 1.\"\n  },\n  \"planning_block\": {\n    \"thinking\": \"Kira's senses have failed her in this dense fog. Moving forward blindly is dangerous, but staying still in an exposed pass isn't much better. A scout's first priority is orientation and safety.\",\n    \"choices\": [\n      {\n        \"id\": \"move_forward_cautiously\",\n        \"text\": \"Move Forward Cautiously\",\n        \"description\": \"Keep one hand on the rock face and slowly advance, feeling the ground with your boots.\",\n        \"risk_level\": \"medium\"\n      },\n      {\n        \"id\": \"wait_for_clearance\",\n        \"text\": \"Find Cover and Wait\",\n        \"description\": \"Hunker down against a sheltered rock formation and wait for the sun to burn off the thickest part of the mist.\",\n        \"risk_level\": \"low\"\n      },\n      {\n        \"id\": \"check_ground_tracks\",\n        \"text\": \"Search the Ground for Tracks\",\n        \"description\": \"Instead of looking through the air, look down at the muddy path for physical signs of passage.\",\n        \"risk_level\": \"low\"\n      },\n      {\n        \"id\": \"climb_for_vantage\",\n        \"text\": \"Seek Higher Ground\",\n        \"description\": \"Attempt to climb a nearby crag to see if you can get above the mist layer.\",\n        \"risk_level\": \"high\"\n      }\n    ]\n  },\n  \"god_mode_response\": \"\",\n  \"entities_mentioned\": [\n    \"Kira\"\n  ],\n  \"location_confirmed\": \"Misty Mountain Pass\",\n  \"state_updates\": {\n    \"world_data\": {\n      \"world_time\": {\n        \"year\": 1492,\n        \"month\": \"Mirtul\",\n        \"day\": 15,\n        \"hour\": 6,\n        \"minute\": 5,\n        \"second\": 0,\n        \"microsecond\": 0,\n        \"time_of_day\": \"Dawn\"\n      }\n    },\n    \"custom_campaign_state\": {\n      \"core_memories\": {\n        \"append\": \"Kira's initial attempt to scout the pass was thwarted by a natural 1, leaving her disoriented in the thick dawn mist.\"\n      }\n    }\n  }\n}\n\n}",
+      "model": "gemini-3-flash-preview",
+      "details": {
+        "chunk_count": 40,
+        "done_chunk_count": 1,
+        "request_ts": "2026-06-11T20:21:00.345387+00:00",
+        "response_ts": "2026-06-11T20:21:19.696610+00:00",
+        "execution_path": "streaming"
+      }
+    },
+    {
+      "name": "EVIDENCE_SIGNATURE_GUARD",
+      "passed": true,
+      "signed_count": 1,
+      "user_id": "test-bq_path14_gameplay_streaming_proxy_e2e-1781209203"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "pass_rate": "2/2 (100%)",
+    "raw_total": 1,
+    "raw_passed": 1,
+    "raw_pass_rate": "100.0%",
+    "raw_data_complete": true
+  },
+  "campaign_capture_status": {
+    "zXDOGgALmEJOUaGl96m8": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    }
+  }
+}

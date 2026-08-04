@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-06-11T20:21:37.230469+00:00",
+  "summary": {
+    "scenarios_with_streaming_evidence": 1,
+    "total_chunk_events_observed": 40,
+    "stream_http_calls_captured": 2,
+    "process_action_calls_captured": 2,
+    "mcp_process_action_calls_captured": 0,
+    "route_stream_process_action_calls_captured": 2,
+    "process_action_calls_with_raw_response_text": 1
+  },
+  "scenarios": [
+    {
+      "name": "path14_gameplay_streaming_proxy",
+      "campaign_id": "zXDOGgALmEJOUaGl96m8",
+      "passed": true,
+      "chunk_count_observed": 40,
+      "done_chunk_count": 1,
+      "chunk_count_matches_done": null,
+      "strictly_increasing_sequence": null,
+      "streaming_request_timestamp": "2026-06-11T20:21:00.345387+00:00",
+      "streaming_response_timestamp": "2026-06-11T20:21:19.696610+00:00",
+      "timeline_sample_size": 0
+    }
+  ]
+}

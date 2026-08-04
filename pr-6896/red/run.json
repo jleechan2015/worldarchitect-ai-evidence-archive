@@ -1,0 +1,136 @@
+{
+  "scenarios": [
+    {
+      "name": "one_time_schema_migration_and_strict_post_migration_validation",
+      "passed": false,
+      "errors": [
+        "Expected current_location_name to be one of {'Legacy Crypt of Shadows', 'Regression Testing Chamber'}, got 'Regression Testing Chamber (Legacy Crypt of Shadows)'"
+      ],
+      "campaign_id": "d7yEeRhRsTouGUX8Avo6",
+      "debug": {
+        "legacy_response_error": null,
+        "action_response_error": null,
+        "post_migration_error": null,
+        "migration_version": 1,
+        "migrated_at": "2026-05-22T09:39:05.667672+00:00",
+        "legacy_player_character_data_type": "dict",
+        "migrated_player_character_data_type": "dict",
+        "location_migration": {
+          "current_location_name": "Regression Testing Chamber (Legacy Crypt of Shadows)",
+          "legacy_location": null,
+          "last_location": "Regression Testing Chamber (Legacy Crypt of Shadows)"
+        },
+        "sentinel_protection": {
+          "current_location_name": "Regression Testing Chamber",
+          "last_location": "Regression Testing Chamber"
+        },
+        "world_events_present": true
+      },
+      "user_id": "test-schema_migration_flow_real_api-1779442701",
+      "user_email": "jleechantest@gmail.com",
+      "details": {
+        "chunk_count_observed": 207,
+        "chunk_count": 207,
+        "done_chunk_count": 207,
+        "request_ts": "2026-05-22T09:39:05.034548+00:00",
+        "response_ts": "2026-05-22T09:40:34.520482+00:00",
+        "stream_actions": 8,
+        "execution_path": "streaming_debug_command"
+      },
+      "raw_response_text": "{\"narrative\": \"\", \"god_mode_response\": \"[System Message: The following state changes were applied via GOD MODE]\\nGame state updated (2 entries):\\n  - schema_migration_version: \\\"__DELETE__\\\"\\n  - schema_migrated_at: \\\"__DELETE__\\\"\\n\\n[Auto-Corrections Applied]\\n  - Applied one-time schema migration for legacy compatibility\", \"state_updates\": {}, \"system_warnings\": [\"Applied one-time schema migration for legacy compatibility\"]}"
+    },
+    {
+      "name": "EVIDENCE_SIGNATURE_GUARD",
+      "passed": true,
+      "signed_count": 5,
+      "user_id": "test-schema_migration_flow_real_api-1779442701"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "passed": 1,
+    "failed": 1,
+    "pass_rate": "1/2 (50%)",
+    "raw_total": 1,
+    "raw_passed": 1,
+    "raw_pass_rate": "100.0%",
+    "raw_data_complete": true
+  },
+  "doctor_report": {
+    "generated_at_utc": "2026-05-22T09:40:36.377714+00:00",
+    "test_name": "schema_migration_flow_real_api",
+    "work_name": "schema_migration_flow_real_api",
+    "server_base_url": "http://127.0.0.1:8015",
+    "using_external_server": false,
+    "user_id": "test-schema_migration_flow_real_api-1779442701",
+    "failure_messages": [
+      "Expected current_location_name to be one of {'Legacy Crypt of Shadows', 'Regression Testing Chamber'}, got 'Regression Testing Chamber (Legacy Crypt of Shadows)'"
+    ],
+    "http_probes": {
+      "/health": {
+        "ok": true,
+        "status": 200,
+        "body_excerpt": "{\"mcp_client\":{\"initialized\":false},\"service\":\"worldarchitect-ai\",\"status\":\"healthy\",\"timestamp\":\"2026-05-22T09:40:36.378964+00:00\"}\n",
+        "is_json_api": true,
+        "content_type": "application/json"
+      },
+      "/mcp": {
+        "ok": true,
+        "status": 200,
+        "body_excerpt": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"/frontend_v1/dragon-favicon.svg\" />\n  <title>WorldAI</title>\n  <!-- DNS prefetch for external domains to reduce",
+        "is_json_api": false,
+        "content_type": "text/html; charset=utf-8"
+      },
+      "/settings": {
+        "ok": true,
+        "status": 200,
+        "body_excerpt": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <script src=\"/frontend_v1/js/theme-bootstrap.js\"></script>\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/frontend_v1/dragon-favicon.svg\">\n    <title>Se",
+        "is_json_api": false,
+        "content_type": "text/html; charset=utf-8"
+      }
+    },
+    "mcp_probes": {
+      "get_user_settings": {
+        "ok": true,
+        "payload": {
+          "cerebras_model": "qwen-3-235b-a22b-instruct-2507",
+          "gemini_model": "gemini-3-flash-preview",
+          "has_custom_cerebras_key": false,
+          "has_custom_gemini_key": false,
+          "has_custom_openclaw_gateway_token": false,
+          "has_custom_openclaw_key": false,
+          "has_custom_openrouter_key": false,
+          "llm_provider": "gemini",
+          "openclaw_gateway_port": 18789,
+          "openclaw_gateway_url": "",
+          "openrouter_model": "meta-llama/llama-3.1-70b-instruct",
+          "success": true
+        }
+      }
+    },
+    "openclaw_endpoint_probes": [
+      {
+        "target": "http://127.0.0.1:18789/v1/models",
+        "probe": {
+          "ok": false,
+          "error": "<urlopen error [Errno 61] Connection refused>"
+        }
+      }
+    ],
+    "openclaw_settings": {
+      "llm_provider": "gemini",
+      "openclaw_gateway_port": 18789,
+      "openclaw_gateway_url": ""
+    },
+    "doctor_report_path": "/tmp/worldarchitect.ai/deep-review-pr-6896/schema_migration_flow_real_api/doctor_report.json"
+  },
+  "campaign_capture_status": {
+    "d7yEeRhRsTouGUX8Avo6": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    }
+  }
+}

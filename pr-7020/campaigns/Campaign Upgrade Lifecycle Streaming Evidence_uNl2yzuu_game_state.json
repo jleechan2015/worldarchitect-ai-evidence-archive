@@ -1,0 +1,253 @@
+{
+  "game_state_version": 1,
+  "player_character_data": {
+    "attributes": {
+      "constitution": 14,
+      "strength": 16,
+      "charisma": 12,
+      "wisdom": 10,
+      "intelligence": 10,
+      "dexterity": 12
+    },
+    "hp_max": 12,
+    "proficiency_bonus": 2,
+    "class_name": "Fighter",
+    "string_id": "pc_aric_001",
+    "equipment": {
+      "backpack": [
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Backpack"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Bedroll"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Mess kit"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Tinderbox"
+        },
+        {
+          "equipped": false,
+          "stats": "10",
+          "name": "Torch"
+        },
+        {
+          "equipped": false,
+          "stats": "10 days",
+          "name": "Rations"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Waterskin"
+        },
+        {
+          "equipped": false,
+          "stats": "50 feet",
+          "name": "Rope"
+        },
+        {
+          "equipped": false,
+          "stats": "10gp",
+          "name": "Coin pouch"
+        }
+      ]
+    },
+    "level": 1,
+    "experience": {
+      "to_next_level": 250,
+      "current": 50,
+      "needed_for_next_level": 250
+    },
+    "hp_current": 12,
+    "name": "Aric"
+  },
+  "world_data": {
+    "current_location_name": "Mountain Pass",
+    "world_time": {
+      "year": 1,
+      "time_of_day": "morning",
+      "microsecond": 0,
+      "day": 1,
+      "second": 0,
+      "minute": 5,
+      "month": "Cosmos",
+      "hour": 7
+    }
+  },
+  "npc_data": {
+    "The Echo-Seeker": {
+      "tier": "merchant",
+      "entity_type": "npc",
+      "entity_id": "npc_echo_seeker_001",
+      "attitude_to_party": "neutral",
+      "relationships": {
+        "player": {
+          "disposition": "neutral",
+          "trust_level": 0,
+          "history": [
+            "Encountered on the mountain pass after the refused ascension."
+          ]
+        }
+      },
+      "display_name": "The Echo-Seeker",
+      "visibility": "visible",
+      "role": "Celestial Remnant",
+      "status": "conscious"
+    },
+    "npc_goblin_001": {
+      "armor_class": 13,
+      "present": true,
+      "hp_max": 7,
+      "string_id": "npc_goblin_001",
+      "status": "healthy",
+      "hp_current": 7,
+      "name": "Goblin"
+    }
+  },
+  "item_registry": {},
+  "custom_campaign_state": {
+    "divine_potential": 0,
+    "character_creation_completed": true,
+    "campaign_upgrade_completed_tier": "mortal",
+    "universe_control": 0,
+    "level_up_in_progress": false,
+    "arc_milestones": {},
+    "character_creation_stage": "complete",
+    "core_memories": [
+      "The campaign begins at the precipice of a cosmic ascension ceremony for a Level 25 hero with infinite potential.",
+      "Aric stood at the precipice of the Cosmic Ascension and explicitly declined the transition, choosing to remain a mortal Fighter.",
+      "Aric began his mortal journey by searching for cosmic remnants along the mountain road, finding only a flickering shard that quickly turned mundane.",
+      "Aric encountered 'The Echo-Seeker' on the mountain pass, a celestial entity drawn to the remnants of the failed ascension ceremony."
+    ],
+    "_agent_selection_tracker": {
+      "rewards_skip_count": 0,
+      "count": 1,
+      "agent": "RewardsAgent"
+    },
+    "multiverse_upgrade_available": false,
+    "campaign_tier": "mortal",
+    "divine_upgrade_available": false,
+    "campaign_upgrade_starting_tier": null,
+    "campaign_upgrade_in_progress": false,
+    "active_constraints": [],
+    "attribute_system": "D&D",
+    "last_location": "Mountain Pass",
+    "god_mode": {
+      "description": "Lifecycle streaming E2E evidence for PR 7020.",
+      "character": {
+        "level": 25,
+        "class_name": "Hero With Infinite Potential",
+        "name": "A level 25 hero with infinite potential"
+      },
+      "setting": "At the precipice of the cosmic ascension ceremony"
+    },
+    "level_up_complete": false,
+    "level_up_pending": false,
+    "companion_arcs": {},
+    "character_creation_in_progress": false,
+    "next_companion_arc_turn": 3
+  },
+  "social_hp_challenge": null,
+  "combat_state": {
+    "in_combat": false
+  },
+  "last_state_update_timestamp": "2026-05-29T06:56:28.769000+00:00",
+  "turn_number": 3,
+  "player_turn": 3,
+  "last_living_world_turn": 0,
+  "last_living_world_time": null,
+  "time_sensitive_events": {},
+  "npc_agendas": {},
+  "world_resources": {},
+  "time_pressure_warnings": {},
+  "debug_mode": true,
+  "pending_instruction_hints": [],
+  "entity_tracking": {
+    "active_entities": [
+      "A level 25 hero with infinite potential"
+    ],
+    "present_entities": []
+  },
+  "session_id": "legacy-migrated-357c6049abe8207b",
+  "planning_block": {
+    "choices": [
+      {
+        "text": "Approach and Greet",
+        "description": "Walk forward openly and try to communicate with the entity.",
+        "cons": [
+          "The entity's nature is unknown and potentially hazardous"
+        ],
+        "id": "approach_and_greet",
+        "pros": [
+          "May gain information about the 'cosmic secrets'",
+          "Establishes a peaceful baseline"
+        ],
+        "risk_level": "medium",
+        "confidence": "medium"
+      },
+      {
+        "text": "Observe from Distance",
+        "description": "Stay back and watch the entity's movements and the lantern it carries.",
+        "cons": [
+          "May miss the opportunity to speak if it vanishes",
+          "Distance limits clarity"
+        ],
+        "id": "observe_from_distance",
+        "pros": [
+          "Safer approach",
+          "May learn something without direct risk"
+        ],
+        "risk_level": "low",
+        "confidence": "high"
+      },
+      {
+        "text": "Demand Answers",
+        "description": "Draw your weapon (though not necessarily to strike) and demand to know what the creature is doing here.",
+        "cons": [
+          "Highly likely to provoke a hostile or defensive reaction",
+          "May lose a potential ally"
+        ],
+        "id": "demand_answers",
+        "pros": [
+          "Projects strength",
+          "May intimidate the creature into revealing its purpose"
+        ],
+        "risk_level": "high",
+        "confidence": "medium"
+      }
+    ],
+    "context": "Meeting a celestial entity on the mountain path.",
+    "thinking": "Aric has successfully spotted a remnant of the cosmic energy\u2014a 'Wanderer' or 'Echo-Seeker' drawn to the aborted ascension. This is a significant discovery. The creature appears non-hostile but deeply connected to the power Aric refused."
+  },
+  "schema_migrated_at": "2026-05-29T06:55:14.500146+00:00",
+  "schema_migration_version": 1,
+  "rewards_box": {
+    "current_level": 1,
+    "gold": 0.0,
+    "xp_gained": 50,
+    "loot": [
+      "None"
+    ],
+    "next_level_xp": 300,
+    "current_xp": 50,
+    "source": "discovery",
+    "progress_percent": 17,
+    "xp_to_next_level": 250,
+    "level_up_available": false,
+    "xp_total": 50
+  },
+  "rewards_pending": {
+    "level_up_available": false
+  },
+  "user_id": "test-test_campaign_upgrade_modal_lock_red_green-1780037674"
+}

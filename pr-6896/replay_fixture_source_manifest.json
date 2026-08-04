@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-05-23T07:30:49.261016+00:00",
+  "source_kind": "testing_mcp",
+  "test_name": "schema_migration_flow_real_api",
+  "evidence_dir": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003",
+  "git_provenance": {
+    "git_head": "fd68b6b6d5113b57c5085f37238a9e8905d09a1a",
+    "git_branch": "worktree_sync_location"
+  },
+  "contract_versions": {
+    "master_directive_prompt": "1.0.2",
+    "game_state_instruction_prompt": "1.1.11",
+    "planning_protocol_prompt": "1.1.3",
+    "narrative_response_schema": "1.2.8",
+    "mcp_api_tool_contract": "1.0.5",
+    "character_template_prompt": "1.0.0"
+  },
+  "capture_files": {
+    "llm_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/llm_request_responses.jsonl",
+      "relative_path": "llm_request_responses.jsonl",
+      "exists": true,
+      "entries": 10,
+      "sha256": "3f8aa2605b5c030a9c47665a4749a55653c53297a42869a3f0e0081d3f15062d"
+    },
+    "http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/http_request_responses.jsonl",
+      "relative_path": "http_request_responses.jsonl",
+      "exists": true,
+      "entries": 325,
+      "sha256": "a1d7c703af76a75fe358efaf5d4bded0712d7c946bd99d8a2ce3fab12d1e30d9"
+    },
+    "gemini_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/gemini_http_request_responses.jsonl",
+      "relative_path": "gemini_http_request_responses.jsonl",
+      "exists": true,
+      "entries": 10,
+      "sha256": "36f212d3ccb4d5de467cd02bf1afd6eeadb1842651558eeef823839215756a1d"
+    },
+    "provider_http_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/provider_http_request_responses.jsonl",
+      "relative_path": "provider_http_request_responses.jsonl",
+      "exists": false,
+      "entries": 0,
+      "sha256": null
+    },
+    "mcp_request_responses": {
+      "path": "/tmp/worldarchitect.ai/worktree_sync_location/schema_migration_flow_real_api/iteration_003/request_responses.jsonl",
+      "relative_path": "request_responses.jsonl",
+      "exists": true,
+      "entries": 32,
+      "sha256": "a375b1af404e2ab541686e72fbfc30013f0d6d9b9bde2bd5bce305b68b58d519"
+    }
+  },
+  "extractor_hint": "Use a scenario-specific extractor to select replay stages from these raw traces."
+}

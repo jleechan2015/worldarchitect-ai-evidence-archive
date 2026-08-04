@@ -1,0 +1,290 @@
+{
+  "game_state_version": 1,
+  "player_character_data": {
+    "attributes": {
+      "constitution": 10,
+      "strength": 16,
+      "charisma": 10,
+      "wisdom": 10,
+      "intelligence": 10,
+      "dexterity": 10
+    },
+    "hp_max": 10,
+    "equipment": {
+      "backpack": [
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Backpack"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Bedroll"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Mess kit"
+        },
+        {
+          "stats": null,
+          "equipped": false,
+          "name": "Tinderbox"
+        },
+        {
+          "equipped": false,
+          "stats": "10",
+          "name": "Torch"
+        },
+        {
+          "stats": "10 days",
+          "equipped": false,
+          "name": "Rations"
+        },
+        {
+          "equipped": false,
+          "stats": null,
+          "name": "Waterskin"
+        },
+        {
+          "stats": "50 feet",
+          "equipped": false,
+          "name": "Rope"
+        },
+        {
+          "stats": "10gp",
+          "equipped": false,
+          "name": "Coin pouch"
+        },
+        {
+          "type": "item",
+          "stats": "Pulsing blue light, opens diagnostic overrides",
+          "equipped": false,
+          "name": "Master Override Keycard"
+        },
+        {
+          "type": "item",
+          "equipped": false,
+          "stats": "Legacy remnant, iron",
+          "name": "Rusted Shackles"
+        }
+      ]
+    },
+    "level": 1,
+    "health": {
+      "hp": 10,
+      "hp_max": 10
+    },
+    "hp_current": 10,
+    "base_attributes": {
+      "constitution": 10,
+      "strength": 16,
+      "wisdom": 10,
+      "charisma": 10,
+      "intelligence": 10,
+      "dexterity": 10
+    },
+    "name": "Aric the Fighter (STR 16)"
+  },
+  "world_data": {
+    "current_location_name": "Regression Testing Chamber",
+    "world_time": {
+      "year": 1492,
+      "time_of_day": "morning",
+      "microsecond": 0,
+      "day": 1,
+      "second": 0,
+      "minute": 15,
+      "month": "Hammer",
+      "hour": 8
+    }
+  },
+  "npc_data": {
+    "npc_goblin_001": {
+      "armor_class": 13,
+      "present": true,
+      "hp_max": 7,
+      "string_id": "npc_goblin_001",
+      "status": "healthy",
+      "hp_current": 7,
+      "name": "Goblin"
+    }
+  },
+  "item_registry": {},
+  "custom_campaign_state": {
+    "divine_potential": 0,
+    "_agent_selection_tracker": {
+      "rewards_skip_count": 0,
+      "count": 1,
+      "agent": "HeavyDialogAgent"
+    },
+    "core_memories": [
+      "The campaign is a regression test environment designed to validate character migration for Aric the Fighter (STR 16).",
+      "Aric the Fighter (Lvl 1) initiated a diagnostic observation in the Regression Testing Chamber, identifying a blue runic console and a sealed northern blast door.",
+      "Aric successfully searched the Regression Testing Chamber (formerly the Legacy Crypt of Shadows) and discovered a hidden Master Override Keycard and a set of rusted shackles.",
+      "A sudden artificial blackout in the testing chamber coincided with the appearance of Diagnostic Unit 734, who seeks Aric's assistance in recovering corrupted legacy data shards.",
+      "Aric the Fighter (Lvl 1) attempted to force the northern blast door after Diagnostic Unit 734 offered a retrieval protocol to open it, but the door's hydraulic seals held firm."
+    ],
+    "attribute_system": "D&D",
+    "arc_milestones": {},
+    "universe_control": 0,
+    "character_creation_stage": "complete",
+    "character_creation_completed": true,
+    "multiverse_upgrade_available": false,
+    "campaign_tier": "mortal",
+    "divine_upgrade_available": false,
+    "success_streak": 0,
+    "major_event_pressure_budget": {
+      "new_major_event": true,
+      "major_events_this_window": 1,
+      "window": "24h",
+      "rationale": "Turn 3 Living World advancement triggered the manifestation of Unit 734 and the local simulation instability.",
+      "special_circumstances": true
+    },
+    "active_constraints": [],
+    "last_location": "Regression Testing Chamber",
+    "god_mode": {
+      "description": "Validate one-time legacy-to-schema migration flow",
+      "character": {
+        "attributes": {
+          "strength": 16
+        },
+        "base_attributes": {
+          "strength": 16
+        },
+        "name": "Aric the Fighter (STR 16)"
+      },
+      "setting": "A regression testing chamber"
+    },
+    "companion_arcs": {
+      "Unit 734": {
+        "progress": 5,
+        "phase": "discovery",
+        "history": [
+          {
+            "event": "Unit 734 manifested during a simulation glitch, identifying Aric as a carrier of 'Legacy' remnants.",
+            "turn": 3
+          }
+        ],
+        "arc_type": "mentor_legacy"
+      }
+    },
+    "character_creation_in_progress": false,
+    "next_companion_arc_turn": 5
+  },
+  "social_hp_challenge": null,
+  "combat_state": {
+    "in_combat": false
+  },
+  "last_state_update_timestamp": "2026-05-22T09:20:11.812000+00:00",
+  "turn_number": 5,
+  "player_turn": 5,
+  "last_living_world_turn": 4,
+  "last_living_world_time": {
+    "year": 1492,
+    "time_of_day": "morning",
+    "microsecond": 0,
+    "day": 1,
+    "second": 0,
+    "minute": 10,
+    "month": "Hammer",
+    "hour": 8
+  },
+  "time_sensitive_events": {},
+  "npc_agendas": {},
+  "world_resources": {},
+  "time_pressure_warnings": {},
+  "debug_mode": true,
+  "pending_instruction_hints": [],
+  "entity_tracking": {
+    "active_entities": [
+      "Aric the Fighter (STR 16)"
+    ],
+    "present_entities": []
+  },
+  "planning_block": {
+    "choices": [
+      {
+        "text": "Descend into Sub-Layers",
+        "description": "Open the maintenance hatch and follow Unit 734 into the facility's lower levels to find the corrupted data shards.",
+        "cons": [
+          "Unknown threats in the unoptimized sub-layers"
+        ],
+        "id": "descend_to_sublayers",
+        "pros": [
+          "Direct progress on the drone's quest",
+          "Likely to find more legacy items and data shards"
+        ],
+        "risk_level": "medium",
+        "confidence": "high"
+      },
+      {
+        "text": "Use Keycard on Blast Door",
+        "description": "Try to use the Master Override Keycard on the door's diagnostic interface to force an override.",
+        "cons": [
+          "Could trigger a security lockout or alarm if the keycard is invalid for this door"
+        ],
+        "id": "use_keycard_on_blast_door",
+        "pros": [
+          "Might bypass the need for the drone's retrieval quest"
+        ],
+        "risk_level": "low",
+        "confidence": "medium"
+      },
+      {
+        "text": "Search for Leverage",
+        "description": "Look for a heavy pipe or tool to use as a pry bar to force the door manually.",
+        "cons": [
+          "Time-consuming and may still fail against the hydraulic locks"
+        ],
+        "id": "search_for_leverage",
+        "pros": [
+          "Second attempt at a physical solution"
+        ],
+        "risk_level": "medium",
+        "confidence": "low"
+      }
+    ],
+    "context": "Failed attempt to force the blast door; drone suggests sub-layer exploration.",
+    "thinking": "The blast door is beyond simple physical force, likely due to the simulation's updated security protocols. The drone's offer to retrieve data shards from the 'Legacy' layers seems to be the intended path forward. Alternatively, the Master Override Keycard found earlier might be used on the door's terminal, though its specific function remains untested against the current lockout."
+  },
+  "schema_migrated_at": "2026-05-22T09:18:11.960359+00:00",
+  "world_events": {
+    "background_events": [
+      {
+        "delta_action": "add",
+        "event_type": "immediate",
+        "id": "lw_instability_001",
+        "outcome": "Aric met Unit 734; sub-layer stability is decreasing",
+        "player_impact": "Forces interaction with the new companion entity",
+        "discovery_condition": "Automatic upon darkness trigger",
+        "player_aware": true,
+        "status": "discovered",
+        "location": "Sector 4 / Regression Testing Chamber",
+        "actor": "The System",
+        "action": "Triggered a localized darkness protocol and diagnostic spawn"
+      }
+    ]
+  },
+  "faction_updates": {
+    "The Architects": {
+      "progress": "Insignificant",
+      "next_action": "Evaluate Aric's response to the Unit 734 quest offer",
+      "player_standing_change": "Neutral",
+      "resource_change": "Increased diagnostic power allocation",
+      "current_objective": "Monitor user adaptation to legacy/modern hybrid environments"
+    }
+  },
+  "rumors": [
+    {
+      "source_type": "Unit 734",
+      "content": "The 'Legacy Crypt' wasn't deleted; it was simply compressed and buried under the new tiled layers.",
+      "accuracy": "partial",
+      "related_event": "lw_instability_001"
+    }
+  ],
+  "session_id": "legacy-migrated-b1e0c06392b770ad",
+  "schema_migration_version": 1,
+  "user_id": "test-schema_migration_flow_real_api-1779441451"
+}

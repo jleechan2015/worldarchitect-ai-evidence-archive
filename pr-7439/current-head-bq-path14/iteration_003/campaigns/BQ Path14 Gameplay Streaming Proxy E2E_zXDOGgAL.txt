@@ -1,0 +1,45 @@
+God Mode:
+Character: A wandering scout named Kira | Setting: A misty mountain pass at dawn | Description: Real-LLM real-user E2E for PR #7439 path 14 (gameplay_streaming_proxy). Drives a real call through the Flask /api/campaigns/<id>/interaction/stream endpoint and verifies the BQ row has populated request_json + response_text. No mocks. Real Gemini. Real BQ.
+
+============================================================
+SCENE 1
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 06:00:00
+Location: Misty Mountain Pass
+Status: Lvl 1 Scout | HP: --/-- | Gold: -- | XP: 0/300
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 0/0, Spells: No Spells Yet
+
+Game Master:
+[CHARACTER CREATION - Initial Choice]
+
+Welcome to your adventure! I have received your character concept: **Kira**, a wandering scout navigating a misty mountain pass at the first light of dawn. The air is biting and thick with fog, obscuring the path ahead and muffling the sounds of the wilderness. 
+
+This campaign is initialized for a real-user E2E test. Before we step into the mist and begin the story, we must build the mechanical foundation for Kira.
+
+**CAMPAIGN SUMMARY**
+**Title:** The Wandering Scout
+**Character:** Kira
+**Setting:** A misty mountain pass at dawn
+**Description:** Real-LLM real-user E2E for PR #7439 path 14 (gameplay_streaming_proxy). No mocks. Real Gemini. Real BQ.
+**AI Personalities:** Default
+**Options:** Standard D&D 5e Rules
+
+How would you like to build your character? Please select one of the following methods:
+
+Player (freeform):
+I peer through the mist and listen. (REAL_LLM_BQ_PATH14_1781209260)
+
+============================================================
+SCENE 2
+============================================================
+[Timestamp: 1492 DR, Mirtul 15, 06:05:00
+Location: Misty Mountain Pass
+Status: Lvl 1 Fighter | HP: 12/12 | Gold: 10gp | XP: 0/300
+Conditions: Normal | Exhaustion: 0 | Inspiration: No]
+Resources: HD: 1/1, Second Wind: 1/1
+
+Game Master:
+Dawn (06:05:00) at the Misty Mountain Pass—the world is a suffocating shroud of grey and white. You stand perfectly still, your breath hitching in the cold air as you strain your senses against the oppressive fog. The mist clings to your wool cloak, damp and heavy, while the silence of the high peaks presses against your ears. 
+
+Every time you think you catch a glimpse of a silhouette or the rasp of a boot on stone, it vanishes, revealed as nothing more than a trick of the shifting vapor or the moan of the wind through a narrow crevice. The mountain is a wall of secrets this morning, refusing to yield even a hint of what might be lying in wait just a few yards ahead.

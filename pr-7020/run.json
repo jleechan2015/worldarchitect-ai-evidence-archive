@@ -1,0 +1,795 @@
+{
+  "scenarios": [
+    {
+      "name": "campaign_upgrade_lifecycle_streaming",
+      "passed": true,
+      "errors": [],
+      "campaign_id": "uNl2yzuusIvMF2dt4QD1",
+      "details": {
+        "event_count": 156,
+        "event_types": [
+          "metadata",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "state",
+          "done",
+          "metadata",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "state",
+          "done",
+          "metadata",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "chunk",
+          "state",
+          "done"
+        ],
+        "chunk_count_observed": 147,
+        "chunk_timeline_sample": [
+          {
+            "sequence": 0,
+            "arrival_ts_utc": "2026-05-29T06:55:31.285871+00:00",
+            "t_ms_since_start": 10563.174,
+            "text_preview": "{\n  \"session_header\": \"[SESSION_"
+          },
+          {
+            "sequence": 1,
+            "arrival_ts_utc": "2026-05-29T06:55:31.286250+00:00",
+            "t_ms_since_start": 10563.554,
+            "text_preview": "HEADER]\\nTimestamp: 1 DR, Cosmos 1, 06:05:00\\n"
+          },
+          {
+            "sequence": 2,
+            "arrival_ts_utc": "2026-05-29T06:55:31.336120+00:00",
+            "t_ms_since_start": 10613.422,
+            "text_preview": "Location: The Precipice of Cosmic Ascension\\nStatus: Lvl 1 Fighter | HP: 12/"
+          },
+          {
+            "sequence": 3,
+            "arrival_ts_utc": "2026-05-29T06:55:31.522261+00:00",
+            "t_ms_since_start": 10799.561,
+            "text_preview": "12 | XP: 0/300 | Gold: 10gp\\nConditions: Normal | Exhaustion: 0"
+          },
+          {
+            "sequence": 4,
+            "arrival_ts_utc": "2026-05-29T06:55:31.589886+00:00",
+            "t_ms_since_start": 10867.185,
+            "text_preview": " | Inspiration: No\",\n  \"resources\": \"HD: 1/1 | Spells: No Spells Yet (Level"
+          },
+          {
+            "sequence": 5,
+            "arrival_ts_utc": "2026-05-29T06:55:31.749745+00:00",
+            "t_ms_since_start": 11027.042,
+            "text_preview": " 2+) | Exhaustion: 0\",\n  \"narrative\": \"As the celestial choir reaches a deaf"
+          },
+          {
+            "sequence": 6,
+            "arrival_ts_utc": "2026-05-29T06:55:31.976340+00:00",
+            "t_ms_since_start": 11253.632,
+            "text_preview": "ening crescendo and the fabric of the multiverse begins to weave itself into a crown for your brow, you take a step back"
+          },
+          {
+            "sequence": 7,
+            "arrival_ts_utc": "2026-05-29T06:55:32.131838+00:00",
+            "t_ms_since_start": 11409.128,
+            "text_preview": " infinite potential\u2014the power to reshape galaxies and command the Pan-Substrate\u2014shimmers like a mirage, then"
+          },
+          {
+            "sequence": 8,
+            "arrival_ts_utc": "2026-05-29T06:55:32.365455+00:00",
+            "t_ms_since_start": 11642.74,
+            "text_preview": " begins to dissolve at the force of your will. 'I decline,' you speak, your mortal voice cutting through the divine"
+          },
+          {
+            "sequence": 9,
+            "arrival_ts_utc": "2026-05-29T06:55:32.567164+00:00",
+            "t_ms_since_start": 11844.448,
+            "text_preview": " harmony like cold iron. \\n\\nThe blinding light of the ceremony retracts, the cosmic gears grinding to a halt before"
+          },
+          {
+            "sequence": 10,
+            "arrival_ts_utc": "2026-05-29T06:55:32.848393+00:00",
+            "t_ms_since_start": 12125.673,
+            "text_preview": " they can lock you into a higher logic. The swirling nebulae fade, replaced by the gray, misty light of a mundane"
+          },
+          {
+            "sequence": 11,
+            "arrival_ts_utc": "2026-05-29T06:55:33.060221+00:00",
+            "t_ms_since_start": 12337.498,
+            "text_preview": " dawn. You feel the weight of your armor, the grit of the mountain path beneath your boots, and the simple,"
+          },
+          {
+            "sequence": 0,
+            "arrival_ts_utc": "2026-05-29T06:55:57.195496+00:00",
+            "t_ms_since_start": 10414.343,
+            "text_preview": "{\n  "
+          },
+          {
+            "sequence": 1,
+            "arrival_ts_utc": "2026-05-29T06:55:57.311496+00:00",
+            "t_ms_since_start": 10530.356,
+            "text_preview": "\"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1 DR, Cosmos 1, 06:"
+          },
+          {
+            "sequence": 2,
+            "arrival_ts_utc": "2026-05-29T06:55:57.417702+00:00",
+            "t_ms_since_start": 10636.56,
+            "text_preview": "35:00\\nLocation: Mountain Road descending from the Precipice\\nStatus: Lvl 1"
+          },
+          {
+            "sequence": 3,
+            "arrival_ts_utc": "2026-05-29T06:55:57.503292+00:00",
+            "t_ms_since_start": 10722.149,
+            "text_preview": " Fighter | HP: 12/12 | XP: 0/300 | Gold: 1"
+          },
+          {
+            "sequence": 4,
+            "arrival_ts_utc": "2026-05-29T06:55:57.593325+00:00",
+            "t_ms_since_start": 10812.179,
+            "text_preview": "0gp\\nConditions: Normal | Exhaustion: 0 | Inspiration: No\",\n  \"resources\": \""
+          },
+          {
+            "sequence": 5,
+            "arrival_ts_utc": "2026-05-29T06:55:57.707949+00:00",
+            "t_ms_since_start": 10926.803,
+            "text_preview": "HD: 1/1, Spells: No Spells Yet (Level 2+)\",\n  \"narrative\": \"The path"
+          },
+          {
+            "sequence": 6,
+            "arrival_ts_utc": "2026-05-29T06:55:58.068966+00:00",
+            "t_ms_since_start": 11287.815,
+            "text_preview": " down from the Precipice is steep and choked with the clinging mountain mist of dawn. Your boots crunch on loose shale a"
+          },
+          {
+            "sequence": 7,
+            "arrival_ts_utc": "2026-05-29T06:55:58.283036+00:00",
+            "t_ms_since_start": 11501.882,
+            "text_preview": " you leave the site of your refused divinity behind. You keep your eyes peeled for any sign of the 'cosmic secrets' that"
+          },
+          {
+            "sequence": 8,
+            "arrival_ts_utc": "2026-05-29T06:55:58.559260+00:00",
+            "t_ms_since_start": 11778.102,
+            "text_preview": " might have spilled into the mundane world during the ceremony's collapse.\\n\\nThe air still tastes of ozone, and occasio"
+          },
+          {
+            "sequence": 9,
+            "arrival_ts_utc": "2026-05-29T06:55:58.737414+00:00",
+            "t_ms_since_start": 11956.252,
+            "text_preview": ", a spark of ultraviolet light flickers between the rocks, but it vanishes before you can grasp it. You reach down to"
+          },
+          {
+            "sequence": 10,
+            "arrival_ts_utc": "2026-05-29T06:55:58.950338+00:00",
+            "t_ms_since_start": 12169.174,
+            "text_preview": " pick up a smooth, translucent pebble that pulses with a rhythmic, azure light. For a moment, you feel a faint hum"
+          },
+          {
+            "sequence": 11,
+            "arrival_ts_utc": "2026-05-29T06:55:59.273390+00:00",
+            "t_ms_since_start": 12492.222,
+            "text_preview": " in your fingertips\u2014a lingering echo of the PR 7020 lifecycle streaming\u2014but as you watch, the glow"
+          }
+        ],
+        "streaming_request_timestamp": "2026-05-29T06:55:20.722542+00:00",
+        "streaming_response_timestamp": "2026-05-29T06:56:30.117642+00:00",
+        "request_timestamp": "2026-05-29T06:55:20.722542+00:00",
+        "response_timestamp": "2026-05-29T06:56:30.117642+00:00",
+        "turns": [
+          {
+            "label": "ENTER",
+            "details": {
+              "event_count": 46,
+              "event_types": [
+                "metadata",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "state",
+                "done"
+              ],
+              "event_types_count": 46,
+              "chunk_count_observed": 43,
+              "done_chunk_count": 43,
+              "chunk_count_matches_done": true,
+              "strictly_increasing_sequence": true,
+              "chunk_timeline_sample": [
+                {
+                  "sequence": 0,
+                  "arrival_ts_utc": "2026-05-29T06:55:31.285871+00:00",
+                  "t_ms_since_start": 10563.174,
+                  "text_preview": "{\n  \"session_header\": \"[SESSION_"
+                },
+                {
+                  "sequence": 1,
+                  "arrival_ts_utc": "2026-05-29T06:55:31.286250+00:00",
+                  "t_ms_since_start": 10563.554,
+                  "text_preview": "HEADER]\\nTimestamp: 1 DR, Cosmos 1, 06:05:00\\n"
+                },
+                {
+                  "sequence": 2,
+                  "arrival_ts_utc": "2026-05-29T06:55:31.336120+00:00",
+                  "t_ms_since_start": 10613.422,
+                  "text_preview": "Location: The Precipice of Cosmic Ascension\\nStatus: Lvl 1 Fighter | HP: 12/"
+                },
+                {
+                  "sequence": 3,
+                  "arrival_ts_utc": "2026-05-29T06:55:31.522261+00:00",
+                  "t_ms_since_start": 10799.561,
+                  "text_preview": "12 | XP: 0/300 | Gold: 10gp\\nConditions: Normal | Exhaustion: 0"
+                },
+                {
+                  "sequence": 4,
+                  "arrival_ts_utc": "2026-05-29T06:55:31.589886+00:00",
+                  "t_ms_since_start": 10867.185,
+                  "text_preview": " | Inspiration: No\",\n  \"resources\": \"HD: 1/1 | Spells: No Spells Yet (Level"
+                },
+                {
+                  "sequence": 5,
+                  "arrival_ts_utc": "2026-05-29T06:55:31.749745+00:00",
+                  "t_ms_since_start": 11027.042,
+                  "text_preview": " 2+) | Exhaustion: 0\",\n  \"narrative\": \"As the celestial choir reaches a deaf"
+                },
+                {
+                  "sequence": 6,
+                  "arrival_ts_utc": "2026-05-29T06:55:31.976340+00:00",
+                  "t_ms_since_start": 11253.632,
+                  "text_preview": "ening crescendo and the fabric of the multiverse begins to weave itself into a crown for your brow, you take a step back"
+                },
+                {
+                  "sequence": 7,
+                  "arrival_ts_utc": "2026-05-29T06:55:32.131838+00:00",
+                  "t_ms_since_start": 11409.128,
+                  "text_preview": " infinite potential\u2014the power to reshape galaxies and command the Pan-Substrate\u2014shimmers like a mirage, then"
+                },
+                {
+                  "sequence": 8,
+                  "arrival_ts_utc": "2026-05-29T06:55:32.365455+00:00",
+                  "t_ms_since_start": 11642.74,
+                  "text_preview": " begins to dissolve at the force of your will. 'I decline,' you speak, your mortal voice cutting through the divine"
+                },
+                {
+                  "sequence": 9,
+                  "arrival_ts_utc": "2026-05-29T06:55:32.567164+00:00",
+                  "t_ms_since_start": 11844.448,
+                  "text_preview": " harmony like cold iron. \\n\\nThe blinding light of the ceremony retracts, the cosmic gears grinding to a halt before"
+                },
+                {
+                  "sequence": 10,
+                  "arrival_ts_utc": "2026-05-29T06:55:32.848393+00:00",
+                  "t_ms_since_start": 12125.673,
+                  "text_preview": " they can lock you into a higher logic. The swirling nebulae fade, replaced by the gray, misty light of a mundane"
+                },
+                {
+                  "sequence": 11,
+                  "arrival_ts_utc": "2026-05-29T06:55:33.060221+00:00",
+                  "t_ms_since_start": 12337.498,
+                  "text_preview": " dawn. You feel the weight of your armor, the grit of the mountain path beneath your boots, and the simple,"
+                }
+              ],
+              "streaming_request_timestamp": "2026-05-29T06:55:20.722542+00:00",
+              "streaming_response_timestamp": "2026-05-29T06:55:43.568762+00:00",
+              "request_timestamp": "2026-05-29T06:55:20.722542+00:00",
+              "response_timestamp": "2026-05-29T06:55:43.568762+00:00"
+            }
+          },
+          {
+            "label": "EXIT",
+            "details": {
+              "event_count": 50,
+              "event_types": [
+                "metadata",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "state",
+                "done"
+              ],
+              "event_types_count": 50,
+              "chunk_count_observed": 47,
+              "done_chunk_count": 47,
+              "chunk_count_matches_done": true,
+              "strictly_increasing_sequence": true,
+              "chunk_timeline_sample": [
+                {
+                  "sequence": 0,
+                  "arrival_ts_utc": "2026-05-29T06:55:57.195496+00:00",
+                  "t_ms_since_start": 10414.343,
+                  "text_preview": "{\n  "
+                },
+                {
+                  "sequence": 1,
+                  "arrival_ts_utc": "2026-05-29T06:55:57.311496+00:00",
+                  "t_ms_since_start": 10530.356,
+                  "text_preview": "\"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1 DR, Cosmos 1, 06:"
+                },
+                {
+                  "sequence": 2,
+                  "arrival_ts_utc": "2026-05-29T06:55:57.417702+00:00",
+                  "t_ms_since_start": 10636.56,
+                  "text_preview": "35:00\\nLocation: Mountain Road descending from the Precipice\\nStatus: Lvl 1"
+                },
+                {
+                  "sequence": 3,
+                  "arrival_ts_utc": "2026-05-29T06:55:57.503292+00:00",
+                  "t_ms_since_start": 10722.149,
+                  "text_preview": " Fighter | HP: 12/12 | XP: 0/300 | Gold: 1"
+                },
+                {
+                  "sequence": 4,
+                  "arrival_ts_utc": "2026-05-29T06:55:57.593325+00:00",
+                  "t_ms_since_start": 10812.179,
+                  "text_preview": "0gp\\nConditions: Normal | Exhaustion: 0 | Inspiration: No\",\n  \"resources\": \""
+                },
+                {
+                  "sequence": 5,
+                  "arrival_ts_utc": "2026-05-29T06:55:57.707949+00:00",
+                  "t_ms_since_start": 10926.803,
+                  "text_preview": "HD: 1/1, Spells: No Spells Yet (Level 2+)\",\n  \"narrative\": \"The path"
+                },
+                {
+                  "sequence": 6,
+                  "arrival_ts_utc": "2026-05-29T06:55:58.068966+00:00",
+                  "t_ms_since_start": 11287.815,
+                  "text_preview": " down from the Precipice is steep and choked with the clinging mountain mist of dawn. Your boots crunch on loose shale a"
+                },
+                {
+                  "sequence": 7,
+                  "arrival_ts_utc": "2026-05-29T06:55:58.283036+00:00",
+                  "t_ms_since_start": 11501.882,
+                  "text_preview": " you leave the site of your refused divinity behind. You keep your eyes peeled for any sign of the 'cosmic secrets' that"
+                },
+                {
+                  "sequence": 8,
+                  "arrival_ts_utc": "2026-05-29T06:55:58.559260+00:00",
+                  "t_ms_since_start": 11778.102,
+                  "text_preview": " might have spilled into the mundane world during the ceremony's collapse.\\n\\nThe air still tastes of ozone, and occasio"
+                },
+                {
+                  "sequence": 9,
+                  "arrival_ts_utc": "2026-05-29T06:55:58.737414+00:00",
+                  "t_ms_since_start": 11956.252,
+                  "text_preview": ", a spark of ultraviolet light flickers between the rocks, but it vanishes before you can grasp it. You reach down to"
+                },
+                {
+                  "sequence": 10,
+                  "arrival_ts_utc": "2026-05-29T06:55:58.950338+00:00",
+                  "t_ms_since_start": 12169.174,
+                  "text_preview": " pick up a smooth, translucent pebble that pulses with a rhythmic, azure light. For a moment, you feel a faint hum"
+                },
+                {
+                  "sequence": 11,
+                  "arrival_ts_utc": "2026-05-29T06:55:59.273390+00:00",
+                  "t_ms_since_start": 12492.222,
+                  "text_preview": " in your fingertips\u2014a lingering echo of the PR 7020 lifecycle streaming\u2014but as you watch, the glow"
+                }
+              ],
+              "streaming_request_timestamp": "2026-05-29T06:55:46.780989+00:00",
+              "streaming_response_timestamp": "2026-05-29T06:56:05.498927+00:00",
+              "request_timestamp": "2026-05-29T06:55:46.780989+00:00",
+              "response_timestamp": "2026-05-29T06:56:05.498927+00:00"
+            }
+          },
+          {
+            "label": "FOLLOWUP",
+            "details": {
+              "event_count": 60,
+              "event_types": [
+                "metadata",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "chunk",
+                "state",
+                "done"
+              ],
+              "event_types_count": 60,
+              "chunk_count_observed": 57,
+              "done_chunk_count": 57,
+              "chunk_count_matches_done": true,
+              "strictly_increasing_sequence": true,
+              "chunk_timeline_sample": [
+                {
+                  "sequence": 0,
+                  "arrival_ts_utc": "2026-05-29T06:56:20.159834+00:00",
+                  "t_ms_since_start": 11322.473,
+                  "text_preview": "{\n  \"session_header\": \"[SESSION_HEADER]\\nTimestamp: 1 DR, Cosmos"
+                },
+                {
+                  "sequence": 1,
+                  "arrival_ts_utc": "2026-05-29T06:56:20.245618+00:00",
+                  "t_ms_since_start": 11408.285,
+                  "text_preview": " 1, 07:05:00\\nLocation: Mountain Pass\\nStatus: Lvl"
+                },
+                {
+                  "sequence": 2,
+                  "arrival_ts_utc": "2026-05-29T06:56:20.354827+00:00",
+                  "t_ms_since_start": 11517.493,
+                  "text_preview": " 1 Fighter | HP: 12/12 | XP: 50/300 | Gold"
+                },
+                {
+                  "sequence": 3,
+                  "arrival_ts_utc": "2026-05-29T06:56:20.467082+00:00",
+                  "t_ms_since_start": 11629.747,
+                  "text_preview": ": 10gp\\nConditions: Normal | Exhaustion: 0 | Inspiration: No\",\n  \"resources\":"
+                },
+                {
+                  "sequence": 4,
+                  "arrival_ts_utc": "2026-05-29T06:56:20.606302+00:00",
+                  "t_ms_since_start": 11768.965,
+                  "text_preview": " \"HD: 1/1, Spells: No Spells Yet (Level 2+), Potions: 0"
+                },
+                {
+                  "sequence": 5,
+                  "arrival_ts_utc": "2026-05-29T06:56:20.802808+00:00",
+                  "t_ms_since_start": 11965.468,
+                  "text_preview": "/0\",\n  \"narrative\": \"The descent is quiet, the silence of the mountain broken only by the"
+                },
+                {
+                  "sequence": 6,
+                  "arrival_ts_utc": "2026-05-29T06:56:21.007940+00:00",
+                  "t_ms_since_start": 12170.597,
+                  "text_preview": " rhythmic strike of your boots against the shale. As the morning sun\u2014a pale, mundane orb\u2014climbs higher, the thick"
+                },
+                {
+                  "sequence": 7,
+                  "arrival_ts_utc": "2026-05-29T06:56:21.221798+00:00",
+                  "t_ms_since_start": 12384.451,
+                  "text_preview": " mountain mists begin to pull back, revealing the jagged skeleton of the pass. \\n\\nYour eyes, sharpened"
+                },
+                {
+                  "sequence": 8,
+                  "arrival_ts_utc": "2026-05-29T06:56:21.540044+00:00",
+                  "t_ms_since_start": 12702.693,
+                  "text_preview": " by years of martial training, catch a flicker of motion near a natural stone archway ahead. Sitting upon a flat boulder"
+                },
+                {
+                  "sequence": 9,
+                  "arrival_ts_utc": "2026-05-29T06:56:21.774918+00:00",
+                  "t_ms_since_start": 12937.563,
+                  "text_preview": " a figure wrapped in robes that seem woven from the very twilight you just rejected. They are translucent, a shimmering "
+                },
+                {
+                  "sequence": 10,
+                  "arrival_ts_utc": "2026-05-29T06:56:21.963464+00:00",
+                  "t_ms_since_start": 13126.107,
+                  "text_preview": " doesn't quite sit 'in' the world, but rather 'on' it. \\n\\nAs you approach, the figure"
+                },
+                {
+                  "sequence": 11,
+                  "arrival_ts_utc": "2026-05-29T06:56:22.197320+00:00",
+                  "t_ms_since_start": 13359.96,
+                  "text_preview": " turns. It has no face, only a swirling nebula of indigo and gold where features should be. It holds a small, crystal"
+                }
+              ],
+              "streaming_request_timestamp": "2026-05-29T06:56:08.837168+00:00",
+              "streaming_response_timestamp": "2026-05-29T06:56:30.117642+00:00",
+              "request_timestamp": "2026-05-29T06:56:08.837168+00:00",
+              "response_timestamp": "2026-05-29T06:56:30.117642+00:00"
+            }
+          }
+        ],
+        "chunk_count": 0,
+        "done_chunk_count": 1,
+        "request_ts": "2026-05-29T06:55:18.302022+00:00",
+        "response_ts": "2026-05-29T06:55:19.150567+00:00",
+        "execution_path": "streaming_debug_command"
+      },
+      "checks": {
+        "turn1_agent": "CampaignUpgradeAgent",
+        "turn1_in_progress": true,
+        "turn2_agent": "CampaignUpgradeAgent",
+        "turn2_in_progress": false,
+        "turn2_completed_tier": "mortal",
+        "turn3_agent": "RewardsAgent",
+        "total_stream_chunks": 147
+      },
+      "user_id": "test-test_campaign_upgrade_modal_lock_red_green-1780037674",
+      "user_email": "jleechantest@gmail.com",
+      "raw_response_text": "{\"narrative\": \"\", \"god_mode_response\": \"[System Message: The following state changes were applied via GOD MODE]\\nGame state updated (10 entries):\\n  - player_character_data.level: 25\\n  - player_character_data.experience.current: 0\\n  - player_character_data.experience.to_next_level: 1000\\n  - rewards_pending.level_up_available: false\\n  - custom_campaign_state.level_up_pending: false\\n  - custom_campaign_state.level_up_in_progress: false\\n  - custom_campaign_state.level_up_complete: false\\n  - custom_campaign_state.character_creation_in_progress: false\\n  - custom_campaign_state.character_creation_completed: true\\n  - custom_campaign_state.character_creation_stage: \\\"complete\\\"\\n\\n[Auto-Corrections Applied]\\n  - Level auto-corrected from 25 to 1 based on XP\", \"state_updates\": {}, \"system_warnings\": [\"Level auto-corrected from 25 to 1 based on XP\"]}"
+    },
+    {
+      "name": "EVIDENCE_SIGNATURE_GUARD",
+      "passed": true,
+      "signed_count": 4,
+      "user_id": "test-test_campaign_upgrade_modal_lock_red_green-1780037674"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "pass_rate": "2/2 (100%)",
+    "raw_total": 1,
+    "raw_passed": 1,
+    "raw_pass_rate": "100.0%",
+    "raw_data_complete": true
+  },
+  "campaign_capture_status": {
+    "uNl2yzuusIvMF2dt4QD1": {
+      "status": "success",
+      "attempts": 1,
+      "export": {
+        "status": "success"
+      }
+    }
+  }
+}
