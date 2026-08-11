@@ -1,0 +1,124 @@
+{
+  "passed": false,
+  "signed_out": {
+    "steps": [
+      {
+        "name": "signed_out_landing",
+        "screenshot": "/Users/jleechan/projects/worktree_url_link/evidence/8794/sharing/login_redirect/01_signed_out_landing.png"
+      }
+    ],
+    "errors": [
+      "redirect_after_login was NOT retained while signed out (got None); the share URL params cannot survive sign-in",
+      "after sign-in the user did NOT land on the prefilled wizard; url='/?test_mode=true&test_user_id=test-ui-sharelogin-1786339129&test_user_email=test-ui-sharelogin-1786339129@example.test'",
+      "title: expected 'The Lost Spire', got 'My Epic Adventure'",
+      "setting: expected 'Astral Sea - a haunted floating citadel', got ''",
+      "description: expected 'An excerpt describing the spire and its drowned bells.', got ''",
+      "source attribution lost: expected 'Wq4xS6nFilNygMwHPKoG', got ''"
+    ],
+    "BASE_URL": "http://localhost:8181",
+    "USER_ID": "test-ui-sharelogin-1786339129",
+    "setup": {
+      "campaign_id": "Wq4xS6nFilNygMwHPKoG",
+      "share_token_prefix": "C5g-6DPA13np..."
+    },
+    "play_href": "/new-campaign?title=The+Lost+Spire&setting=Astral+Sea+-+a+haunted+floating+citadel&description=An+excerpt+describing+the+spire+and+its+drowned+bells.&source=Wq4xS6nFilNygMwHPKoG&author=user-test-ui-&type=custom",
+    "signed_out_state": {
+      "url": "/new-campaign?title=The+Lost+Spire&setting=Astral+Sea+-+a+haunted+floating+citadel&description=An+excerpt+describing+the+spire+and+its+drowned+bells.&source=Wq4xS6nFilNygMwHPKoG&author=user-test-ui-&type=custom",
+      "pendingRedirect": null,
+      "title": {
+        "id": "wizard-campaign-title",
+        "value": "The Lost Spire",
+        "visible": false
+      },
+      "character": {
+        "id": "wizard-character-input",
+        "value": "",
+        "visible": false
+      },
+      "setting": {
+        "id": "wizard-setting-input",
+        "value": "Astral Sea - a haunted floating citadel",
+        "visible": false
+      },
+      "description": {
+        "id": "wizard-description-input",
+        "value": "An excerpt describing the spire and its drowned bells.",
+        "visible": false
+      },
+      "sourceCampaignId": "Wq4xS6nFilNygMwHPKoG",
+      "authorHandle": "user-test-ui-",
+      "visibleText": "WorldAI Knowledge base / wiki Reddit Discord \ud83d\udc09 WorldAI YOUR AI-POWERED DUNGEON MASTER Epic AI-driven campaigns. Rich narrative. Infinite worlds. Sign in to begin your adventure. Continue with Google By continuing you agree to our Terms of Service and Privacy Policy."
+    },
+    "after_login_state": {
+      "url": "/?test_mode=true&test_user_id=test-ui-sharelogin-1786339129&test_user_email=test-ui-sharelogin-1786339129@example.test",
+      "pendingRedirect": null,
+      "title": {
+        "id": "wizard-campaign-title",
+        "value": "My Epic Adventure",
+        "visible": false
+      },
+      "character": {
+        "id": "wizard-character-input",
+        "value": "",
+        "visible": false
+      },
+      "setting": {
+        "id": "wizard-setting-input",
+        "value": "",
+        "visible": false
+      },
+      "description": {
+        "id": "wizard-description-input",
+        "value": "",
+        "visible": false
+      },
+      "sourceCampaignId": "",
+      "authorHandle": "",
+      "visibleText": "WorldAI Knowledge base / wiki Reddit Discord \u2694\ufe0f My Campaigns Start New Campaign Sort by: Last Played Date Created Title (A-Z) Order: Newest First Oldest First Theme: All Themes Fantasy Sci-Fi Mystery Horror Status: All Status Active Completed Paused Clear Showing 1 of 1 campaigns The Lost Spire Edit Duplicate Last played: 8/9/2026, 10:18:50 PM Character: Lyra | Setting: Astral Sea..."
+    },
+    "passed": false,
+    "scenario": "signed_out"
+  },
+  "signed_in": {
+    "steps": [
+      {
+        "name": "signed_in_prefill_visible",
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "scenario": "signed_in",
+    "setup": {
+      "campaign_id": "v51lzm15ZzrFwF367yWq",
+      "share_token_prefix": "zKWsFwekc4nR..."
+    },
+    "state": {
+      "url": "/new-campaign?title=The+Lost+Spire&setting=Astral+Sea+-+a+haunted+floating+citadel&description=An+excerpt+describing+the+spire+and+its+drowned+bells.&source=v51lzm15ZzrFwF367yWq&author=user-test-ui-&type=custom",
+      "pendingRedirect": null,
+      "title": {
+        "id": "wizard-campaign-title",
+        "value": "The Lost Spire",
+        "visible": true
+      },
+      "character": {
+        "id": "wizard-character-input",
+        "value": "",
+        "visible": true
+      },
+      "setting": {
+        "id": "wizard-setting-input",
+        "value": "Astral Sea - a haunted floating citadel",
+        "visible": true
+      },
+      "description": {
+        "id": "wizard-description-input",
+        "value": "An excerpt describing the spire and its drowned bells.",
+        "visible": true
+      },
+      "sourceCampaignId": "v51lzm15ZzrFwF367yWq",
+      "authorHandle": "user-test-ui-",
+      "visibleText": "WorldAI Knowledge base / wiki Reddit Discord \u2694\ufe0f 1 Choose Type 2 Launch \ud83c\udfae Choose Your Campaign Select a campaign type and customize your adventure. Campaign Type \u2728 Custom Campaign Create your own unique world and story from scratch. \ud83d\udc32 Dragon Knight Campaign Play as Ser Arion in a morally complex world. Perfect for new players! Campaign Title (Pick anything!) This helps you identify your campaign "
+    },
+    "passed": true
+  }
+}

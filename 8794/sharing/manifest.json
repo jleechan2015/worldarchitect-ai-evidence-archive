@@ -1,0 +1,43 @@
+{
+  "mission": "feat/campaign-share-url-phase1-takeover",
+  "head_sha": "PENDING",
+  "evidence_files": {
+    "raw_screenshots": [
+      "after_url_param_prefill.png",
+      "after_shared_landing.png",
+      "after_play_roundtrip.png"
+    ],
+    "captioned_frames": [
+      "captioned/01_wizard_prefill.png",
+      "captioned/02_shared_landing.png",
+      "captioned/03_play_roundtrip.png"
+    ],
+    "video": "share_flow_captions.mp4",
+    "gif": "share_flow_captions.gif"
+  },
+  "jsonl_summary": "share_flow_real_e2e_latest.json",
+  "test_artifacts": {
+    "testing_mcp": "testing_mcp/test_share_token_real_e2e.py",
+    "testing_ui": "testing_ui/test_url_param_prefill_e2e.py",
+    "unit_tests": [
+      "mvp_site/tests/test_share_token.py",
+      "mvp_site/tests/test_modal_placement.py"
+    ]
+  },
+  "verification": {
+    "testing_mcp_steps_passed": 7,
+    "testing_mcp_steps_total": 7,
+    "testing_ui_steps_passed": 3,
+    "testing_ui_steps_total": 3,
+    "unit_tests_passed": 13,
+    "unit_tests_total": 13
+  },
+  "scenario_provenance": {
+    "firestore_writes": "Direct Admin SDK writes to users/<uid>/campaigns/<id> (skips LLM-backed create_campaign due to leaked Gemini API key per #8790 Slack thread)",
+    "auth": "TESTING_AUTH_BYPASS=true on local server :8181",
+    "share_token_lifecycle": "mint → re-mint (stable) → cross-owner rejected → public payload whitelisted → HTML landing → play round-trip"
+  },
+  "open_issues": [
+    "Bug discovered: handleCampaignTypeChange fires after applyUrlParams and resets title/character/setting/description to defaults. Direct call to window.campaignWizard.applyUrlParams() AFTER the wizard is enabled restores correct values. Tracked in follow-up bead."
+  ]
+}

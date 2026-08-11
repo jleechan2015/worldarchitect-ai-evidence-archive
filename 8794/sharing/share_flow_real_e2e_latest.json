@@ -1,0 +1,30 @@
+{
+  "steps": [
+    {
+      "name": "url_param_prefill",
+      "screenshot": "/home/jleechan/projects/wt-share-takeover/evidence/8794/sharing/after_url_param_prefill.png",
+      "passed": true
+    },
+    {
+      "name": "shared_landing_play_link",
+      "play_href_prefix": "/new-campaign?title=UI+Share+Test+test-ui-&setting=Astral+Sea+%E2%80%94+a+haunte...",
+      "screenshot": "/home/jleechan/projects/wt-share-takeover/evidence/8794/sharing/after_shared_landing.png",
+      "passed": true
+    },
+    {
+      "name": "play_roundtrip_prefill",
+      "title": "UI Share Test test-ui-",
+      "source": "FZcD7mSIrLmdzZlnQZWL",
+      "screenshot": "/home/jleechan/projects/wt-share-takeover/evidence/8794/sharing/after_play_roundtrip.png",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "BASE_URL": "http://localhost:8181",
+  "USER_ID": "test-ui-share-1785997562",
+  "setup": {
+    "campaign_id": "FZcD7mSIrLmdzZlnQZWL",
+    "share_token_prefix": "NYIPc_WU6fKf..."
+  },
+  "passed": true
+}
