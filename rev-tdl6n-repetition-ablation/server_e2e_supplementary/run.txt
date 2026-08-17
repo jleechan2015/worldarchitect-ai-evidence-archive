@@ -1,0 +1,66 @@
+2026-08-17 00:59:16,657 - root - INFO - Unified logging configured: /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix_gemini-code-exec-safety-rev-ac8vk-tdl6n/app.log
+2026-08-17 00:59:16,658 - root - INFO - Applied clock skew patch: adjusting time by -720 seconds
+2026-08-17 00:59:16,953 - mvp_site.adjusters.base - INFO - Registered adjuster: ADJ-WA-JSON-STRIP-PREFIX | Scope: format_normalization | Priority: 10
+📁 Evidence directory: /tmp/worldarchitect.ai/fix_gemini-code-exec-safety-rev-ac8vk-tdl6n/combat_agent_e2e
+   Evidence will be saved to: /tmp/worldarchitect.ai/fix_gemini-code-exec-safety-rev-ac8vk-tdl6n/combat_agent_e2e/iteration_XXX/
+[2026-08-17T07:59:17.027546+00:00] Ensuring development server is running with fresh code...
+✅ Server running on port 8018
+[2026-08-17T07:59:18.945215+00:00] Provenance: 15192a1eda65...
+[2026-08-17T07:59:18.945251+00:00] Base URL: http://localhost:8018
+[2026-08-17T07:59:18.945259+00:00] Step 1: Health check
+[2026-08-17T07:59:18.948056+00:00]   Health: healthy
+[2026-08-17T07:59:18.948074+00:00] Step 2: Create campaign with combat scenario
+[2026-08-17T07:59:32.003999+00:00]   Campaign ID: 7q5ZVyty5DICe3kjA1zz
+[2026-08-17T07:59:32.004242+00:00]   Initial combat_state: {'in_combat': False}
+[2026-08-17T07:59:32.004254+00:00] Step 3: Trigger combat encounter
+[2026-08-17T07:59:56.984910+00:00]   in_combat: False
+[2026-08-17T07:59:56.985212+00:00]   combat_state: {
+  "in_combat": false
+}
+[2026-08-17T07:59:56.985227+00:00] Step 4: Execute combat action and verify CombatAgent
+[2026-08-17T08:00:19.801749+00:00]   Narrative: [CHARACTER CREATION - Review]
+
+Your blade is sharp and your spirit is willing, but we must finalize your hero's sheet before the dice can fly. The for...
+[2026-08-17T08:00:19.802519+00:00]   Combat state check: {'has_combat_state': True, 'combat_markers': {'combat_session_id': False, 'combat_phase': False, 'initiative_order': False, 'combatants': False, 'in_combat': True, 'current_round': False}, 'combat_marker_count': 1, 'is_combat_mode': False}
+[2026-08-17T08:00:19.802529+00:00] Step 5: Validate combat state schema (name-keyed)
+[2026-08-17T08:00:19.802540+00:00]   Schema valid: True
+[2026-08-17T08:00:19.802545+00:00] Step 6: Execute second combat action
+[2026-08-17T08:00:50.579378+00:00]   Narrative: [CHARACTER CREATION - Review]
+
+Beric, your shield is raised and your sword-hand is steady, but the f...
+[2026-08-17T08:00:50.579843+00:00] Step 7: End combat encounter
+[2026-08-17T08:01:10.327140+00:00]   in_combat after end: False
+[2026-08-17T08:01:10.327383+00:00]   combat_summary: None
+[2026-08-17T08:01:10.327402+00:00]   XP awarded: None
+[2026-08-17T08:01:10.327409+00:00]   XP validation: False
+[2026-08-17T08:01:10.327420+00:00]     Issue: combat_summary is missing or empty
+[2026-08-17T08:01:10.327426+00:00] Step 8: Get final campaign state
+[2026-08-17T08:01:10.635497+00:00]   Final combat_state (persisted): {'in_combat': False}
+[2026-08-17T08:01:10.635664+00:00] Step 9: Quick Combat Test - Execute a prisoner (single-turn)
+[2026-08-17T08:02:18.718382+00:00]   Quick combat XP awarded: None
+[2026-08-17T08:02:18.718486+00:00]   Quick combat passed: False
+[2026-08-17T08:02:18.718525+00:00] 
+[2026-08-17T08:02:18.718549+00:00] ============================================================
+[2026-08-17T08:02:18.718556+00:00] SUMMARY
+[2026-08-17T08:02:18.718582+00:00] ============================================================
+[2026-08-17T08:02:18.718590+00:00] Campaign created: True
+[2026-08-17T08:02:18.718618+00:00] Combat triggered (in_combat=true): False
+[2026-08-17T08:02:18.718639+00:00] Combat ended (in_combat=false): True
+[2026-08-17T08:02:18.718644+00:00] Combat mode verified (state markers): False
+[2026-08-17T08:02:18.718648+00:00] Schema valid (name-keyed): True
+[2026-08-17T08:02:18.718654+00:00] XP awarded on combat end: False (None XP)
+[2026-08-17T08:02:18.718676+00:00] Quick combat XP awarded: False (None XP)
+[2026-08-17T08:02:18.718683+00:00] Steps: 6/9 passed
+[2026-08-17T08:02:18.724389+00:00] Raw MCP responses saved: 7 calls captured
+[2026-08-17T08:02:18.724422+00:00] System instructions captured: 0/7
+[2026-08-17T08:02:18.725304+00:00] 
+Results saved to: /tmp/worldarchitect.ai/fix_gemini-code-exec-safety-rev-ac8vk-tdl6n/combat_agent_e2e/combat_agent_e2e_test.json
+[2026-08-17T08:02:18.725317+00:00] Checksums (2 files):
+[2026-08-17T08:02:18.725327+00:00]   combat_agent_e2e_test.json: a92680f8b7e08641...
+[2026-08-17T08:02:18.725339+00:00]   raw_mcp_responses.jsonl: 834f3d9180e52d55...
+[2026-08-17T08:02:18.725345+00:00] 
+[FAIL] Combat agent E2E test failed (strict mode)
+[2026-08-17T08:02:18.725350+00:00]   - Combat was NOT triggered
+[2026-08-17T08:02:18.725354+00:00]   - Combat mode NOT verified (missing state markers)
+[2026-08-17T08:02:18.725357+00:00]   - XP was NOT awarded when combat ended
+[2026-08-17T08:02:18.725360+00:00]   - Quick combat XP NOT awarded (may be expected)

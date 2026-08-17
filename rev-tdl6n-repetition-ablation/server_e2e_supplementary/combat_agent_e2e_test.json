@@ -1,0 +1,203 @@
+{
+  "test_name": "combat_agent_real_e2e",
+  "test_type": "combat_mode_validation",
+  "timestamp": "2026-08-17T07:59:17.034194+00:00",
+  "base_url": "http://localhost:8018",
+  "user_id": "e2e-combat-agent-20260817005917",
+  "strict_mode": true,
+  "provenance": {
+    "git_fetch_origin_main": {
+      "returncode": 0,
+      "stdout": null,
+      "stderr": "From https://github.com/jleechanorg/worldarchitect.ai\n * branch                  main       -> FETCH_HEAD"
+    },
+    "git_head": "15192a1eda65d241d10057f81ab71a88d261e60b",
+    "git_branch": "fix/gemini-code-exec-safety-rev-ac8vk-tdl6n",
+    "merge_base": "5be89ac32530be0f73c73e239ee05fc95ea0c78b",
+    "commits_ahead_of_main": 10,
+    "diff_stat_vs_main": "evidence/rev-tdl6n-repetition-ablation/README.md   |  90 +++++++++\n .../ablate_repetition_loop.py                      | 212 +++++++++++++++++++++\n .../rev-tdl6n-repetition-ablation/results.jsonl    |  11 ++\n mvp_site/code_execution_circuit_breaker.py         |  80 ++++++++\n mvp_site/constants.py                              |  77 +++++++-\n mvp_site/llm_providers/gemini_provider.py          |  39 ++++\n mvp_site/prompts/combat_system_instruction.md      |  69 ++++---\n .../shared/mechanics_leveling_rewards_body.md      |  28 +--\n mvp_site/repetition_guard.py                       |  80 ++++++++\n .../tests/test_code_execution_circuit_breaker.py   | 122 ++++++++++++\n .../tests/test_code_execution_circuit_breakers.py  | 166 ++++++++++++++++\n .../test_gemini_provider_circuit_breaker_wiring.py | 126 ++++++++++++\n .../tests/test_llm_provider_latency_logging.py     |   8 +-\n mvp_site/tests/test_prompts.py                     |  82 ++++++++\n mvp_site/tests/test_repetition_guard.py            |  93 +++++++++\n 15 files changed, 1239 insertions(+), 44 deletions(-)",
+    "working_tree_staged_changes": 0,
+    "working_tree_unstaged_changes": 0,
+    "working_tree_untracked_files": 1,
+    "working_tree_changed_files": [
+      "MagicMock/"
+    ],
+    "working_tree_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "working_tree_dirty": false,
+    "server": {
+      "base_url": "http://localhost:8018",
+      "hostname": "localhost",
+      "mode": "local",
+      "port": "8018",
+      "pid": "39345",
+      "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python mvp_site/main.py serve",
+      "env_vars": {
+        "WORLDAI_DEV_MODE": "true",
+        "TESTING": null,
+        "MOCK_SERVICES_MODE": null,
+        "GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "WORLDAI_GOOGLE_APPLICATION_CREDENTIALS": "[SET - file:serviceAccountKey.json]",
+        "FIRESTORE_EMULATOR_HOST": null,
+        "PORT": null,
+        "FIREBASE_PROJECT_ID": "worldarchitecture-ai",
+        "GEMINI_API_KEY": null,
+        "LLM_REQUEST_RESPONSE_CAPTURE_PATH": null,
+        "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+        "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": null,
+        "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": null
+      },
+      "lsof_output": "COMMAND   PID     USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nPython  39345 jleechan    7u  IPv4 0xca633d7338025c5f      0t0  TCP *:8018 (LISTEN)\nPython  39744 jleechan    7u  IPv4 0xca633d7338025c5f      0t0  TCP *:8018 (LISTEN)\nPython  39744 jleechan   21u  IPv4 0xde000ca557831303      0t0  TCP 127.0.0.1:8018->127.0.0.1:65303 (CLOSE_WAIT)\nPython  39744 jleechan   25u  IPv4 0xca633d7338025c5f      0t0  TCP *:8018 (LISTEN)",
+      "ps_output": "PID USER     ELAPSED ARGS\n39345 jleechan   01:31 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python mvp_site/main.py serve"
+    },
+    "timestamp": "2026-08-17T07:59:18.945175+00:00"
+  },
+  "steps": [
+    {
+      "name": "health_check",
+      "passed": true,
+      "details": {
+        "mcp_client": {
+          "initialized": false
+        },
+        "service": "worldarchitect-ai",
+        "status": "healthy",
+        "timestamp": "2026-08-17T07:59:18.947426+00:00"
+      }
+    },
+    {
+      "name": "create_campaign",
+      "passed": true,
+      "campaign_id": "7q5ZVyty5DICe3kjA1zz",
+      "initial_combat_state": {
+        "in_combat": false
+      }
+    },
+    {
+      "name": "trigger_combat",
+      "passed": false,
+      "narrative_preview": "[CHARACTER CREATION - Review]\n\nI see you're eager to get into the action! However, before the goblins leap from the undergrowth, we need to finalize your hero's capabilities. A Level 3 Fighter requires specific ability scores, hit points, and martial features to survive an ambush. \n\nI have generated",
+      "combat_state": {
+        "in_combat": false
+      },
+      "in_combat": false
+    },
+    {
+      "name": "combat_action",
+      "passed": true,
+      "narrative_preview": "[CHARACTER CREATION - Review]\n\nYour blade is sharp and your spirit is willing, but we must finalize your hero's sheet before the dice can fly. The forest path and its hidden dangers are paused in this moment; once you approve this character, we will resolve that goblin ambush immediately!\n\nI have re",
+      "combat_state": {
+        "in_combat": false
+      },
+      "combat_state_check": {
+        "has_combat_state": true,
+        "combat_markers": {
+          "combat_session_id": false,
+          "combat_phase": false,
+          "initiative_order": false,
+          "combatants": false,
+          "in_combat": true,
+          "current_round": false
+        },
+        "combat_marker_count": 1,
+        "is_combat_mode": false
+      }
+    },
+    {
+      "name": "schema_validation",
+      "passed": true,
+      "validation": {
+        "has_in_combat": true,
+        "in_combat_value": false,
+        "has_initiative_order": false,
+        "has_combatants": false,
+        "schema_valid": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "combat_action_2",
+      "passed": true,
+      "narrative_preview": "[CHARACTER CREATION - Review]\n\nBeric, your shield is raised and your sword-hand is steady, but the forest remains a silent tapestry of frozen green. The goblins are caught mid-leap, their snarls fixed"
+    },
+    {
+      "name": "end_combat",
+      "passed": false,
+      "narrative_preview": "[CHARACTER CREATION - Review]\n\nBeric, your sword-arm is strong and your aim is true, but the forest path remains a silent, frozen tableau of autumn leaves and sunlight. The goblins you see are but shadows of a future yet to be written\u2014static figures caught in the moment before the first blow falls. ",
+      "combat_state": {
+        "in_combat": false
+      },
+      "in_combat": false,
+      "combat_summary_validation": {
+        "has_combat_summary": false,
+        "combat_summary": null,
+        "xp_awarded": null,
+        "enemies_defeated": null,
+        "loot_distributed": null,
+        "player_xp_current": 0,
+        "xp_award_valid": false,
+        "issues": [
+          "combat_summary is missing or empty"
+        ]
+      }
+    },
+    {
+      "name": "get_final_state",
+      "passed": true,
+      "final_combat_state": {
+        "in_combat": false
+      }
+    },
+    {
+      "name": "quick_combat_execution",
+      "passed": false,
+      "narrative_preview": "The story continues...",
+      "combat_summary": {},
+      "xp_awarded": null,
+      "player_experience": {
+        "current": 0,
+        "needed_for_next_level": 300,
+        "status": null,
+        "to_next_level": 2700
+      }
+    }
+  ],
+  "summary": {
+    "campaign_created": true,
+    "combat_triggered": false,
+    "combat_ended": true,
+    "combat_mode_verified": false,
+    "schema_valid": true,
+    "xp_awarded_on_combat_end": false,
+    "xp_awarded_value": null,
+    "quick_combat_xp_awarded": false,
+    "quick_combat_xp_value": null,
+    "steps_passed": 6,
+    "steps_total": 9,
+    "combat_state_check": {
+      "has_combat_state": true,
+      "combat_markers": {
+        "combat_session_id": false,
+        "combat_phase": false,
+        "initiative_order": false,
+        "combatants": false,
+        "in_combat": true,
+        "current_round": false
+      },
+      "combat_marker_count": 1,
+      "is_combat_mode": false
+    },
+    "combat_summary_validation": {
+      "has_combat_summary": false,
+      "combat_summary": null,
+      "xp_awarded": null,
+      "enemies_defeated": null,
+      "loot_distributed": null,
+      "player_xp_current": 0,
+      "xp_award_valid": false,
+      "issues": [
+        "combat_summary is missing or empty"
+      ]
+    }
+  },
+  "campaign_id": "7q5ZVyty5DICe3kjA1zz"
+}
