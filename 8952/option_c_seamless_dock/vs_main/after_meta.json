@@ -1,0 +1,26 @@
+{
+  "has_composer_stack": true,
+  "composer_stack_classes": "composer-stack composer-stack--has-choices",
+  "composer_choice_count": 4,
+  "composer_choice_ids": [
+    "confirm_template",
+    "customize_character",
+    "custom_class_design",
+    "finish_character_creation_start_game"
+  ],
+  "story_choice_count": 5,
+  "user_input_placeholder": "Or describe your own action\u2026",
+  "campaign_id": "quick-start-dragon-knight-3a04e118cb0f",
+  "git_sha": "946c3017d430ed3738ee05fc06dab765db37161a",
+  "git_ref": "fix/planning-choices-into-composer",
+  "note": "Closes the last two mock deltas: numbered 1/2/3 badge gutter with the pencil marker in the SAME column (C1 mechanism), and Send moved outside the bordered surface at 100% dock height. Geometry measured from the live DOM, not eyeballed.",
+  "geometry_probe": {
+    "send_pct_of_dock": 100,
+    "send_is_outside_dock": true,
+    "numbered_badge_left_px": 25,
+    "pencil_badge_left_px": 25,
+    "gutter_aligned": true,
+    "choice_text_left_px": 53,
+    "textarea_text_left_px": 53
+  }
+}

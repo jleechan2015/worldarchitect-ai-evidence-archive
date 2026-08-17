@@ -1,0 +1,12 @@
+{
+  "label": "before",
+  "base_url": "http://localhost:9242",
+  "campaign_id": "quick-start-dragon-knight-3cef96d48015",
+  "composer_choice_count": 5,
+  "has_composer_stack": false,
+  "composer_stack_classes": null,
+  "user_input_placeholder": "What do you do?",
+  "custom_action_button_in_composer": false,
+  "console_errors": [],
+  "png": "/tmp/pr8952_evidence/before.png"
+}

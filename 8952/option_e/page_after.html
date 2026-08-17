@@ -1,0 +1,364 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html, body { background: #1f1d2e; color: #e2d9f3; margin: 0; padding: 0;
+               font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  #wrap { max-width: 720px; margin: 60px auto; padding: 0 16px; }
+  .label { font-size: 12px; color: rgba(226,217,243,0.6); margin: 0 0 6px 4px; }
+  .composer-choices { margin-bottom: 0.35rem; }
+  .input-group { display: flex; align-items: stretch; position: relative; }
+  .input-group textarea {
+    flex: 1 1 auto; background: #181623; color: #e2d9f3;
+    border: 1px solid rgba(155, 89, 255, 0.55); border-radius: 6px;
+    padding: 10px 14px; font: inherit; min-height: 44px; resize: none;
+  }
+  .input-group .btn-send {
+    background: #9b59ff; color: white; border: 0; border-radius: 6px;
+    padding: 0 22px; font-weight: 600; margin-left: 8px; cursor: pointer;
+  }
+  .composer-promoted-note { font-size:11px; opacity:0.6; margin-top:4px; }
+</style>
+<link rel="stylesheet" href="/Users/jleechan/projects/worktree_ui_planningb/mvp_site/frontend_v1/styles/planning-blocks.css"><link rel="stylesheet" href="/Users/jleechan/projects/worktree_ui_planningb/mvp_site/frontend_v1/style.css">
+</head><body>
+<div id="wrap">
+  <div class="label">composer-choices (current turn mirrored here)</div>
+  <div id="composer-choices" class="composer-choices"></div>
+  <div class="input-group">
+    <textarea placeholder="What do you do?" rows="1"></textarea>
+    <button type="submit" class="btn-send">Send</button>
+  </div>
+  <div class="composer-promoted-note" id="diag"></div>
+</div>
+<script>
+  const PLANNING_BLOCK = {"thinking": "The campaign template provides a complete character build for Ser Arion.", "choices": {"finish_cc": {"text": "Finish Character Creation and Start Game", "description": "accept the provided build.", "risk_level": "low"}, "edit_cc": {"text": "Edit Character", "description": "modify stats, skills, or equipment.", "risk_level": "low"}, "custom_class": {"text": "Custom Class", "description": "design a unique class for Arion.", "risk_level": "low"}}};
+  const helpers = `const decodeHtmlEntities = (text) => {
+    if (!text) return "";
+    return text
+      .toString()
+      .replace(/&#x27;/g, "'")
+      .replace(/&quot;/g, '"')
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&amp;/g, "&");
+  };
+const sanitizeHtml = (text) => {
+    if (!text) return "";
+    // First decode any existing entities, then encode for safety
+    const decoded = decodeHtmlEntities(text);
+    return decoded
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#x27;");
+  };
+const escapeHtmlAttribute = (text) => {
+    if (!text) return "";
+    return text
+      .toString()
+      .replace(/&/g, "&amp;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#x27;");
+  };
+const sanitizeIdentifier = (text) => {
+    if (!text) return "unknown";
+    // Keep only alphanumeric, underscore, and hyphen characters
+    return text.toString().replace(/[^a-zA-Z0-9_-]/g, "");
+  };
+const parsePlanningBlocksJson = (planningBlock, options = {}) => {
+    console.log("parsePlanningBlocks: Processing JSON format planning block");
+    const interactiveOnly = options.interactiveOnly === true;
+
+    // Validate structure
+    if (
+      !planningBlock.choices ||
+      (typeof planningBlock.choices !== "object" &&
+        !Array.isArray(planningBlock.choices))
+    ) {
+      console.warn(
+        "parsePlanningBlocks: Invalid JSON structure - missing or invalid choices",
+      );
+      return interactiveOnly ? "" : planningBlock.thinking || "";
+    }
+
+    let choicesList = [];
+    if (Array.isArray(planningBlock.choices)) {
+      choicesList = planningBlock.choices
+        .filter((choice) => choice && typeof choice === "object")
+        .map((choice, idx) => ({
+          ...choice,
+          id: choice.id || \`choice_\${idx}\`,
+        }));
+    } else {
+      choicesList = Object.entries(planningBlock.choices).map(
+        ([choiceKey, choice]) => ({
+          ...(choice || {}),
+          id: (choice && choice.id) || choiceKey,
+        }),
+      );
+    }
+
+    // If no choices, just return thinking text
+    if (choicesList.length === 0) {
+      console.log("parsePlanningBlocks: No choices in planning block");
+      return interactiveOnly ? "" : planningBlock.thinking || "";
+    }
+
+    // Build HTML output
+    let html = "";
+
+    // Thinking/context prose belongs to the story entry, never to the composer.
+    if (!interactiveOnly) {
+      // Add thinking text if present
+      if (planningBlock.thinking) {
+        const sanitizedThinking = sanitizeHtml(planningBlock.thinking);
+        html += \`<div class="planning-block-thinking">\${sanitizedThinking}</div>\`;
+      }
+
+      // Add context if present
+      if (planningBlock.context) {
+        const sanitizedContext = sanitizeHtml(planningBlock.context);
+        html += \`<div class="planning-block-context">\${sanitizedContext}</div>\`;
+      }
+    }
+
+    // Create choice buttons. History and composer render the SAME markup;
+    // they differ only in whether the thinking/context prose is included.
+    //
+    // Numbered compact rows (Option E): when interactiveOnly, each choice gets a
+    // .composer-choice-row sibling wrapper with a .choice-index badge ("1", "2",
+    // ...). The badge is OUTSIDE the button itself — so the button's inner text
+    // stays byte-identical to the baseline (history) render, and the C6
+    // "interactiveOnly labels == baseline labels" assertion still holds.
+    html += '<div class="planning-block-choices">';
+    if (interactiveOnly) {
+      html += '<div class="composer-choice-rows">';
+    }
+
+    let renderedCustomAction = false;
+    // Counts composer rows opened/closed in the loop above. Not used for any
+    // behavioural decision — kept as a sanity counter so a future regression
+    // that drops a row close (mismatched open/close) is visible in a debug
+    // log, not just in malformed DOM.
+    let renderedComposerRows = 0;
+    choicesList.forEach((choice, choiceIndex) => {
+      const choiceId = choice.id;
+      // Position-based shortcut index (1..N). NOT choice.id — IDs are LLM-chosen
+      // and can collide; the spec for the compact composer is "numbers double as
+      // keyboard shortcuts," so position is the only honest source of truth.
+      const composerShortcut = choiceIndex + 1;
+
+      // Validate choice structure FIRST so we never open a .composer-choice-row
+      // we can't close. The early \`return\` below skips invalid choices without
+      // touching the composer markup at all.
+      if (!choice || typeof choice !== "object") {
+        console.warn(
+          "parsePlanningBlocks: Invalid choice object in choices list",
+        );
+        return;
+      }
+
+      if (!choice.text || !choice.description) {
+        console.warn(
+          \`parsePlanningBlocks: Choice missing required fields: \${choiceId || "unknown"}\`,
+        );
+        return;
+      }
+
+      // Open the composer row + badge AFTER validation passes.
+      if (interactiveOnly) {
+        html +=
+          \`<div class="composer-choice-row" data-shortcut="\${composerShortcut}">\` +
+          \`<span class="choice-index" aria-hidden="true">\${composerShortcut}</span>\` +
+          \`<span class="choice-content">\`;
+      }
+
+      // Sanitize choice data
+      const safeKey = sanitizeIdentifier(choiceId || "");
+
+      const safeText = sanitizeHtml(choice.text);
+      const safeDescription = sanitizeHtml(choice.description);
+
+      // Track if we are rendering a canonical custom action button (by reserved ID).
+      // This ensures we don't append a redundant fallback button if a valid
+      // custom action control was already emitted by the backend.
+      if (safeKey === "custom_action" || safeKey === "__custom_action__") {
+        renderedCustomAction = true;
+      }
+      const riskLevel = choice.risk_level || "low";
+      const switchToStory = choice.switch_to_story_mode === true;
+      // Whitelist action_behavior to safe values only — never trust raw LLM output
+      // for HTML attribute injection.
+      const ALLOWED_BEHAVIORS = ["focus", "submit"];
+      const rawBehavior =
+        choice.action_behavior ||
+        (safeKey === "custom_action" || safeKey === "__custom_action__"
+          ? "focus"
+          : "submit");
+      const actionBehavior = ALLOWED_BEHAVIORS.includes(rawBehavior)
+        ? rawBehavior
+        : "submit";
+
+      // Expanded rendering when pros/cons are present.
+      //
+      // Canonical schema (narrative_response_schema.py / CHOICE_SCHEMA):
+      // - pros/cons live at the choice level (choice.pros, choice.cons) for display
+      // - choice.confidence is mechanics-only (DC modifier) and never rendered in the UI
+      // - choice.analysis is reserved for non-display metadata (e.g., parallel execution coordination details)
+      const hasExpandedDetails =
+        (Array.isArray(choice.pros) && choice.pros.length > 0) ||
+        (Array.isArray(choice.cons) && choice.cons.length > 0);
+
+      if (hasExpandedDetails) {
+        const safePros = Array.isArray(choice.pros)
+          ? choice.pros.map((p) => sanitizeHtml(p))
+          : [];
+        const safeCons = Array.isArray(choice.cons)
+          ? choice.cons.map((c) => sanitizeHtml(c))
+          : [];
+
+        // Build multi-line button text
+        let buttonText = \`\${safeText}: \${safeDescription}\`;
+        if (safePros.length > 0) {
+          buttonText += \`\\nPros: \${safePros.join(", ")}\`;
+        }
+        if (safeCons.length > 0) {
+          buttonText += \`\\nCons: \${safeCons.join(", ")}\`;
+        }
+
+        const choiceData = \`\${safeText} - \${safeDescription}\`;
+        const escapedChoiceData = escapeHtmlAttribute(choiceData);
+        const escapedTitle = escapeHtmlAttribute(safeDescription);
+        const riskClass = \`risk-\${riskLevel}\`;
+
+        html +=
+          \`<button class="choice-button \${riskClass}" \` +
+          \`data-choice-id="\${safeKey}" \` +
+          \`data-choice-text="\${escapedChoiceData}" \` +
+          \`data-action-behavior="\${actionBehavior}" \` +
+          \`data-switch-to-story="\${switchToStory}" \` +
+          \`title="\${escapedTitle}" \` +
+          \`style="white-space: pre-wrap; text-align: left;">\${buttonText}</button>\`;
+      } else {
+        // Standard mode - render simple button format
+        const buttonText = \`\${safeText}: \${safeDescription}\`;
+        const choiceData = \`\${safeText} - \${safeDescription}\`;
+        const escapedChoiceData = escapeHtmlAttribute(choiceData);
+        const escapedTitle = escapeHtmlAttribute(safeDescription);
+        const riskClass = \`risk-\${riskLevel}\`;
+
+        html +=
+          \`<button class="choice-button \${riskClass}" \` +
+          \`data-choice-id="\${safeKey}" \` +
+          \`data-choice-text="\${escapedChoiceData}" \` +
+          \`data-action-behavior="\${actionBehavior}" \` +
+          \`data-switch-to-story="\${switchToStory}" \` +
+          \`title="\${escapedTitle}">\${buttonText}</button>\`;
+      }
+
+      // Close the composer row + content wrapper that was opened above.
+      if (interactiveOnly) {
+        html += \`</span></div>\`;
+        renderedComposerRows += 1;
+      }
+    });
+
+    // Always append a custom action choice at the bottom if not already present.
+    // Uses reserved ID __custom_action__ (double-underscore prefix) to avoid
+    // colliding with model-provided choice IDs from CHOICE_SCHEMA.
+    // When the backend also injects custom_action (modal modes), we skip
+    // appending the redundant frontend button.
+    //
+    // In the composer this gets its own row + a dimmed "✦" badge, mirroring
+    // the visual treatment of the other rows but signalling "freeform"
+    // (italic + dashed-style guidance) so the player can tell it apart from a
+    // numbered, pre-baked choice.
+    if (!renderedCustomAction) {
+      if (interactiveOnly) {
+        // The custom-action row has its OWN shortcut position — one past the
+        // last numbered choice. Showing a number here would mislead the player
+        // into expecting a pre-baked choice; a star/diamond glyph better
+        // signals "freeform."
+        html +=
+          \`<div class="composer-choice-row composer-choice-row--custom">\` +
+          \`<span class="choice-index choice-index--custom" aria-hidden="true">✦</span>\` +
+          \`<span class="choice-content">\`;
+      }
+      html +=
+        '<button class="choice-button risk-low custom-action-button" ' +
+        'data-choice-id="__custom_action__" ' +
+        'data-choice-text="" ' +
+        'data-action-behavior="focus" ' +
+        'data-switch-to-story="false" ' +
+        'title="Type your own custom decision">Custom Action: decide whatever you want to do</button>';
+      if (interactiveOnly) {
+        html += \`</span></div>\`;
+        renderedComposerRows += 1;
+      }
+    }
+
+    html += "</div>";
+
+    // Close the composer-only row wrapper if we opened one. \`renderedComposerRows\`
+    // tracks how many valid rows were opened/closed inside the loop, so even if
+    // every choice was invalid and the custom action had been pre-rendered by
+    // the backend, the open \`<div class="composer-choice-rows">\` still gets
+    // closed here.
+    if (interactiveOnly) {
+      html += "</div>";
+    }
+
+    return html;
+  };
+const parsePlanningBlocks = (input, options = {}) => {
+    // Robust error handling for edge cases
+    if (!input) {
+      console.log("parsePlanningBlocks: Empty or null planning block");
+      return "";
+    }
+
+    // JSON format - ONLY supported format
+    if (typeof input === "object" && input !== null) {
+      return parsePlanningBlocksJson(input, options);
+    }
+
+    // String format - NO LONGER SUPPORTED, but try to parse as malformed text
+    if (typeof input === "string") {
+      console.error(
+        "❌ STRING PLANNING BLOCKS NO LONGER SUPPORTED: String planning blocks are deprecated. Only JSON format is allowed. Received:",
+        input.substring(0, 100) + "...",
+      );
+
+      // Try to extract readable content from malformed string for user experience
+      const decodedText = decodeHtmlEntities(input);
+      const cleanText = decodedText.replace(/[\\r\\n\\t]+/g, " ").trim();
+
+      if (cleanText.length > 0) {
+        return \`<div class="planning-block-error">
+                    <p><strong>⚠️ Malformed Planning Block Detected</strong></p>
+                    <p>The AI generated an invalid planning block format. Here's the readable content:</p>
+                    <div class="malformed-content">\${sanitizeHtml(cleanText)}</div>
+                    <p><em>Please try again - this will be fixed in future responses.</em></p>
+                </div>\`;
+      }
+
+      return \`<div class="planning-block-error">❌ Error: Planning block must be JSON object, not string. System needs to be updated to use JSON format.</div>\`;
+    }
+
+    // Invalid type - reject
+    console.error(
+      "❌ INVALID PLANNING BLOCK TYPE: Expected JSON object, got:",
+      typeof input,
+    );
+    return \`<div class="planning-block-error">❌ Error: Invalid planning block type. Expected JSON object with 'thinking' and 'choices' fields.</div>\`;
+  };`;
+  const fn = new Function(helpers + "\nreturn parsePlanningBlocks;");
+  const parsePlanningBlocks = fn();
+  const html = parsePlanningBlocks(PLANNING_BLOCK, { interactiveOnly: true });
+  document.getElementById("composer-choices").innerHTML = html;
+  const buttons = document.querySelectorAll("#composer-choices .choice-button").length;
+  const badges  = document.querySelectorAll("#composer-choices .choice-index").length;
+  document.getElementById("diag").textContent =
+    buttons + " choice-button / " + badges + " choice-index / " + html.length + "B html";
+</script>
+</body></html>

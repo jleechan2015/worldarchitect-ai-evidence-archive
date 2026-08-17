@@ -1,0 +1,11 @@
+{
+  "has_composer_stack": false,
+  "composer_stack_classes": null,
+  "composer_choice_count": 0,
+  "composer_choice_ids": [],
+  "story_choice_count": 5,
+  "user_input_placeholder": "What do you do?",
+  "campaign_id": "quick-start-dragon-knight-3d8f8ecf6bd3",
+  "git_sha": "c4ba6ab063c0a825cbd73eb549d5a40de52a0a8f",
+  "git_ref": "origin/main"
+}

@@ -1,0 +1,14 @@
+{
+  "label": "after",
+  "git_head": "d7d4b8df83b85836540b2e458cf7b4516daf63fb",
+  "base_url": "http://localhost:9244",
+  "campaign_id": "quick-start-dragon-knight-c4708b2984c3",
+  "composer_choice_count": 4,
+  "has_composer_stack": true,
+  "composer_stack_classes": "composer-stack composer-stack--has-choices",
+  "user_input_placeholder": "Or describe your own action\u2026",
+  "custom_action_button_in_composer": false,
+  "console_errors": [],
+  "note": "Re-captured after the agy-coder-pr8952-capture backend-custom_action follow-up fix (d7d4b8df83). composer_choice_count dropped from 5 to 4 vs the first after.png captured at 90c1f92ebb, which still showed the un-suppressed backend custom_action row.",
+  "png": "evidence/8952/option_c_seamless_dock/after.png"
+}
