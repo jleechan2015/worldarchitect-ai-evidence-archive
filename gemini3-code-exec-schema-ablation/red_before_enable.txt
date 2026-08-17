@@ -1,0 +1,64 @@
+...............                                                    [100%]
+=================================== FAILURES ===================================
+_ TestCodeExecutionModelEnablement.test_capable_models_always_get_a_schema_in_json_mode (model='gemini-3.6-flash') _
+
+self = <mvp_site.tests.test_code_execution_response_schema.TestCodeExecutionModelEnablement testMethod=test_capable_models_always_get_a_schema_in_json_mode>
+
+    def test_capable_models_always_get_a_schema_in_json_mode(self):
+        """No code-execution-capable model may reach the API on a bare JSON MIME."""
+        for model in ("gemini-3-flash-preview", "gemini-3.6-flash", "gemini-3.7-flash"):
+            with self.subTest(model=model):
+                allow = constants.is_model_code_execution_capable(model)
+>               self.assertIsNotNone(
+                    resolve_code_execution_response_schema(
+                        json_mode=True, allow_code_execution=allow
+                    )
+                )
+E               AssertionError: unexpectedly None
+
+mvp_site/tests/test_code_execution_response_schema.py:169: AssertionError
+_ TestCodeExecutionModelEnablement.test_capable_models_always_get_a_schema_in_json_mode (model='gemini-3.7-flash') _
+
+self = <mvp_site.tests.test_code_execution_response_schema.TestCodeExecutionModelEnablement testMethod=test_capable_models_always_get_a_schema_in_json_mode>
+
+    def test_capable_models_always_get_a_schema_in_json_mode(self):
+        """No code-execution-capable model may reach the API on a bare JSON MIME."""
+        for model in ("gemini-3-flash-preview", "gemini-3.6-flash", "gemini-3.7-flash"):
+            with self.subTest(model=model):
+                allow = constants.is_model_code_execution_capable(model)
+>               self.assertIsNotNone(
+                    resolve_code_execution_response_schema(
+                        json_mode=True, allow_code_execution=allow
+                    )
+                )
+E               AssertionError: unexpectedly None
+
+mvp_site/tests/test_code_execution_response_schema.py:169: AssertionError
+_ TestCodeExecutionModelEnablement.test_verified_gemini_3_flash_models_are_code_execution_capable (model='gemini-3.6-flash') _
+
+self = <mvp_site.tests.test_code_execution_response_schema.TestCodeExecutionModelEnablement testMethod=test_verified_gemini_3_flash_models_are_code_execution_capable>
+
+    def test_verified_gemini_3_flash_models_are_code_execution_capable(self):
+        for model in ("gemini-3-flash-preview", "gemini-3.6-flash", "gemini-3.7-flash"):
+            with self.subTest(model=model):
+>               self.assertTrue(constants.is_model_code_execution_capable(model))
+E               AssertionError: False is not true
+
+mvp_site/tests/test_code_execution_response_schema.py:162: AssertionError
+_ TestCodeExecutionModelEnablement.test_verified_gemini_3_flash_models_are_code_execution_capable (model='gemini-3.7-flash') _
+
+self = <mvp_site.tests.test_code_execution_response_schema.TestCodeExecutionModelEnablement testMethod=test_verified_gemini_3_flash_models_are_code_execution_capable>
+
+    def test_verified_gemini_3_flash_models_are_code_execution_capable(self):
+        for model in ("gemini-3-flash-preview", "gemini-3.6-flash", "gemini-3.7-flash"):
+            with self.subTest(model=model):
+>               self.assertTrue(constants.is_model_code_execution_capable(model))
+E               AssertionError: False is not true
+
+mvp_site/tests/test_code_execution_response_schema.py:162: AssertionError
+=========================== short test summary info ============================
+SUBFAILED(model='gemini-3.6-flash') mvp_site/tests/test_code_execution_response_schema.py::TestCodeExecutionModelEnablement::test_capable_models_always_get_a_schema_in_json_mode
+SUBFAILED(model='gemini-3.7-flash') mvp_site/tests/test_code_execution_response_schema.py::TestCodeExecutionModelEnablement::test_capable_models_always_get_a_schema_in_json_mode
+SUBFAILED(model='gemini-3.6-flash') mvp_site/tests/test_code_execution_response_schema.py::TestCodeExecutionModelEnablement::test_verified_gemini_3_flash_models_are_code_execution_capable
+SUBFAILED(model='gemini-3.7-flash') mvp_site/tests/test_code_execution_response_schema.py::TestCodeExecutionModelEnablement::test_verified_gemini_3_flash_models_are_code_execution_capable
+4 failed, 15 passed, 2 subtests passed in 1.73s
