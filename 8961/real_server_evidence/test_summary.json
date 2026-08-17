@@ -1,0 +1,26 @@
+{
+  "run_id": "9038498b",
+  "timestamp_utc": "2026-08-17T07:03:10.005682+00:00",
+  "passed": true,
+  "http_calls_count": 6,
+  "created_campaigns": [
+    [
+      "test-creator-9038498b",
+      "DKlTGMUmm3icHnBIjuNt"
+    ],
+    [
+      "test-player-9038498b",
+      "393iTkUV97i5tNeA8b4i"
+    ]
+  ],
+  "created_tokens": [
+    "G-nND3K82BAHNiLG3YQ4O9UV-b7OxSEs-BJ4D7AkEqI"
+  ],
+  "beads_verified": [
+    "rev-ecsha",
+    "rev-y1t37",
+    "rev-rov5j",
+    "rev-vzjno",
+    "rev-d7piq"
+  ]
+}

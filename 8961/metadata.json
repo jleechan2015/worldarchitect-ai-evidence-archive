@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "git_provenance": {
+    "git_head": "45e352263bdbe3fb5700927ac5db9b4cf1513fd4",
+    "git_branch": "fix/share-token-lifecycle-and-provenance-guard",
+    "git_dirty": false
+  },
+  "captured_at": "2026-08-17T07:03:00Z",
+  "evidence_tier": "real-server",
+  "beads_verified": [
+    "rev-ecsha",
+    "rev-y1t37",
+    "rev-rov5j",
+    "rev-0pd0k",
+    "rev-usmzq",
+    "rev-vzjno",
+    "rev-d7piq",
+    "rev-eblin"
+  ]
+}
