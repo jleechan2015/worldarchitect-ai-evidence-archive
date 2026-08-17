@@ -1,0 +1,32 @@
+================================================================================
+GEMINI RESPONSE_JSON_SCHEMA MAXLENGTH ENFORCEMENT PROBE SUMMARY
+================================================================================
+
+Prompt: "Write a 500-word story about a goblin."
+Schema: {"type": "object", "properties": {"narrative": {"type": "string", "maxLength": 20}}, "required": ["narrative"]}
+Tested Models: gemini-3.6-flash, gemini-3.7-flash
+Total Calls: 8
+
+--- PER-CELL BREAKDOWN ---
+
+Cell: gemini-3.6-flash | WITHOUT code_execution
+  - [nonstream] VALID JSON | RESPECTED (len=18 <= 20) | finish=FinishReason.STOP | tokens=552 | 4.947s
+  - [stream   ] VALID JSON | RESPECTED (len=20 <= 20) | finish=FinishReason.STOP | tokens=645 | 4.345s
+
+Cell: gemini-3.6-flash | WITH code_execution
+  - [nonstream] VALID JSON | RESPECTED (len=18 <= 20) | finish=FinishReason.STOP | tokens=1641 | 5.428s
+  - [stream   ] VALID JSON | RESPECTED (len=20 <= 20) | finish=FinishReason.STOP | tokens=1515 | 4.814s
+
+Cell: gemini-3.7-flash | WITHOUT code_execution
+  - [nonstream] VALID JSON | RESPECTED (len=18 <= 20) | finish=FinishReason.STOP | tokens=421 | 2.257s
+  - [stream   ] VALID JSON | RESPECTED (len=18 <= 20) | finish=FinishReason.STOP | tokens=491 | 2.425s
+
+Cell: gemini-3.7-flash | WITH code_execution
+  - [nonstream] VALID JSON | RESPECTED (len=19 <= 20) | finish=FinishReason.STOP | tokens=1391 | 7.758s
+  - [stream   ] VALID JSON | RESPECTED (len=19 <= 20) | finish=FinishReason.STOP | tokens=1517 | 2.985s
+
+--- OVERALL VERDICT ---
+
+Verdict: ALWAYS ENFORCED: In 100% of tested calls, the narrative length strictly satisfied maxLength <= 20.
+
+Total calls: 8 | Valid JSON: 8/8 | Schema respected (len <= 20): 8/8 | Schema violated (len > 20): 0/8
