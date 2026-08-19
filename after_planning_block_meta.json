@@ -1,0 +1,36 @@
+{
+  "label": "after",
+  "harness": "/tmp/wt-risk-d4/evidence/_harness_after.html",
+  "png": "/tmp/wt-risk-d4/evidence/after_planning_block.png",
+  "css_source": "/tmp/wt-risk-d4/mvp_site/frontend_v1/styles/planning-blocks.css",
+  "css_size_bytes": 21740,
+  "computed_style_probe": {
+    "tokens": {
+      "safe": "#2ea043",
+      "risky": "#d4a017",
+      "dangerous": "#c93c3c"
+    },
+    "rows": {
+      "safe": {
+        "borderLeftWidth": "2px",
+        "borderLeftColor": "rgb(46, 160, 67)",
+        "backgroundColor": "color(srgb 0.180392 0.627451 0.262745 / 0.07)"
+      },
+      "low": {
+        "borderLeftWidth": "2px",
+        "borderLeftColor": "rgb(212, 160, 23)",
+        "backgroundColor": "color(srgb 0.831373 0.627451 0.0901961 / 0.07)"
+      },
+      "medium": {
+        "borderLeftWidth": "2px",
+        "borderLeftColor": "rgb(212, 160, 23)",
+        "backgroundColor": "color(srgb 0.831373 0.627451 0.0901961 / 0.07)"
+      },
+      "high": {
+        "borderLeftWidth": "2px",
+        "borderLeftColor": "rgb(201, 60, 60)",
+        "backgroundColor": "color(srgb 0.788235 0.235294 0.235294 / 0.07)"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "label": "after",
+  "base_url": "http://localhost:8081",
+  "test_user_id": "risk-tint-direction-4-1787112772",
+  "png": "/tmp/wt-risk-d4/evidence/after.png",
+  "computed_style_probe": {
+    "tokens": {
+      "safe": "#2ea043",
+      "risky": "#d4a017",
+      "dangerous": "#c93c3c"
+    },
+    "rows": {
+      "safe": {
+        "borderLeftWidth": "2px",
+        "borderLeftColor": "rgb(46, 160, 67)",
+        "backgroundColor": "color(srgb 0.180392 0.627451 0.262745 / 0.07)"
+      },
+      "low": {
+        "borderLeftWidth": "2px",
+        "borderLeftColor": "rgb(212, 160, 23)",
+        "backgroundColor": "color(srgb 0.831373 0.627451 0.0901961 / 0.07)"
+      },
+      "medium": {
+        "borderLeftWidth": "2px",
+        "borderLeftColor": "rgb(212, 160, 23)",
+        "backgroundColor": "color(srgb 0.831373 0.627451 0.0901961 / 0.07)"
+      },
+      "high": {
+        "borderLeftWidth": "2px",
+        "borderLeftColor": "rgb(201, 60, 60)",
+        "backgroundColor": "color(srgb 0.788235 0.235294 0.235294 / 0.07)"
+      }
+    }
+  },
+  "console_errors": [
+    "Access to font at 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6' from origin 'http://localhost:8081' has been blocked by CORS policy: Request header field x-test-bypass-auth is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to font at 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6' from origin 'http://localhost:8081' has been blocked by CORS policy: Request header field x-test-bypass-auth is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to font at 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6' from origin 'http://localhost:8081' has been blocked by CORS policy: Request header field x-test-bypass-auth is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to font at 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6' from origin 'http://localhost:8081' has been blocked by CORS policy: Request header field x-test-bypass-auth is not allowed by Access-Control-Allow-Headers in preflight response.",
+    "Failed to load resource: net::ERR_FAILED"
+  ]
+}
