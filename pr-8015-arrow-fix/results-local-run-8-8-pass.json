@@ -1,0 +1,136 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "cases": [
+    {
+      "label": "Previous button is NOT visible on step 1",
+      "ok": true,
+      "got": false,
+      "expected": false
+    },
+    {
+      "label": ".wizard-navigation computed position is not sticky/fixed on mobile",
+      "ok": true,
+      "got": "static",
+      "expected": "exactly one static/relative navigation"
+    },
+    {
+      "label": "Dragon Knight card description is fully visible without scrolling",
+      "ok": true,
+      "got": {
+        "description": {
+          "x": 75,
+          "y": 643.46875,
+          "width": 240,
+          "height": 57.09375
+        },
+        "content": {
+          "x": 57,
+          "y": 186,
+          "width": 276,
+          "height": 1030.5625
+        }
+      },
+      "expected": "exactly one description and .wizard-content; description rect fully inside"
+    },
+    {
+      "label": "wheel on the outside page scrolls the outer document",
+      "ok": true,
+      "got": {
+        "before": {
+          "y": 0,
+          "height": 1436,
+          "viewport": 667,
+          "bodyOverflow": "visible",
+          "htmlOverflow": "visible"
+        },
+        "afterY": 500
+      },
+      "expected": "overflow unlocked, document taller than viewport, scrollY > 0"
+    },
+    {
+      "label": "#wizard-campaign-title is reachable via outer-page scroll only",
+      "ok": true,
+      "got": {
+        "rect": {
+          "x": 57,
+          "y": 333.5625,
+          "width": 276,
+          "height": 48
+        },
+        "wizardContentScrollTop": 0,
+        "scroll": {
+          "scrollHeight": 1436,
+          "clientHeight": 667,
+          "innerHeight": 667,
+          "maxScroll": 769,
+          "scrollY": 429
+        }
+      },
+      "expected": "fully inside viewport while .wizard-content.scrollTop stays unchanged"
+    },
+    {
+      "label": "#wizard-character-input is reachable via outer-page scroll only",
+      "ok": true,
+      "got": {
+        "rect": {
+          "x": 57,
+          "y": 333.5625,
+          "width": 276,
+          "height": 38
+        },
+        "wizardContentScrollTop": 0,
+        "scroll": {
+          "scrollHeight": 1436,
+          "clientHeight": 667,
+          "innerHeight": 667,
+          "maxScroll": 769,
+          "scrollY": 563
+        }
+      },
+      "expected": "fully inside viewport while .wizard-content.scrollTop stays unchanged"
+    },
+    {
+      "label": "#wizard-setting-input is reachable via outer-page scroll only",
+      "ok": true,
+      "got": {
+        "rect": {
+          "x": 57,
+          "y": 333.5625,
+          "width": 276,
+          "height": 62
+        },
+        "wizardContentScrollTop": 0,
+        "scroll": {
+          "scrollHeight": 1436,
+          "clientHeight": 667,
+          "innerHeight": 667,
+          "maxScroll": 769,
+          "scrollY": 687
+        }
+      },
+      "expected": "fully inside viewport while .wizard-content.scrollTop stays unchanged"
+    },
+    {
+      "label": "#wizard-next is reachable via outer-page scroll only",
+      "ok": true,
+      "got": {
+        "rect": {
+          "x": 57,
+          "y": 564.171875,
+          "width": 276,
+          "height": 42
+        },
+        "wizardContentScrollTop": 0,
+        "scroll": {
+          "scrollHeight": 1436,
+          "clientHeight": 667,
+          "innerHeight": 667,
+          "maxScroll": 769,
+          "scrollY": 769
+        }
+      },
+      "expected": "fully inside viewport while .wizard-content.scrollTop stays unchanged"
+    }
+  ]
+}
