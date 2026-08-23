@@ -1,17 +1,51 @@
 {
   "test_name": "capture_a_plus_d_real_evidence",
-  "run_id": "a_plus_d_scroll-rev-9me4j",
-  "bundle_version": "1.2.0",
-  "timestamp": "2026-08-21T18:24:55+00:00",
-  "bundle_timestamp": "2026-08-21T18:24:55+00:00",
+  "run_id": "a_plus_d_scroll-rev-9me4j-verification-run",
+  "bundle_version": "1.4.0",
+  "timestamp": "2026-08-23T14:52:00Z",
+  "bundle_timestamp": "2026-08-23T14:52:00Z",
+  "purpose": "Independent re-verification run requested by operator (\"confirm it really works... I don't think it works\") against current HEAD, AFTER PR #9126 was closed unmerged and PR #9240 (a different agent's implementation of the same feature) merged instead.",
   "git_provenance": {
-    "git_head": "d4afae551ff1e5053428ad82024b0499fc474002",
-    "git_branch": "feat/composer-scroll-driven-expand",
-    "working_tree_dirty": false
+    "git_head": "fa09c2639047853bf1ad03d29ad25447f2fbee6a",
+    "git_branch": "port-composer-scroll-fixes",
+    "branched_from": "origin/main",
+    "working_tree_dirty": false,
+    "note": "This branch was created fresh from origin/main via /newbranch, then merged with origin/main again at fa09c2639047853bf1ad03d29ad25447f2fbee6a to pick up an upstream revert; it contains PR #9240's merged implementation, not PR #9126's (closed, unmerged). This capture ran against a clean checkout at this exact commit (no uncommitted changes) -- see correction_2026-08-23T14:52:00Z below for why this matters."
   },
+  "server_runtime": {
+    "launcher": "./vpython mvp_site/main.py serve",
+    "port": 54217,
+    "env": {
+      "WORLDAI_DEV_MODE": "true",
+      "TESTING_AUTH_BYPASS": "true",
+      "AGY_PROVIDER_ENABLED": "1",
+      "AGY_BINARY": "/Users/jleechan/.local/bin/agy",
+      "WORLDAI_FIRESTORE_TRANSPORT": "rest"
+    }
+  },
+  "evidence_class": "real-callstack + real-LLM (Layer 2 real-LLM)",
+  "layer_label": "[Layer 2 real-LLM]",
+  "browser_automation": "Playwright (headless), real DOM wait_for_selector assertions on #composer-choices.is-collapsed / :not(.is-collapsed) at state=\"attached\" with 5-15s timeouts per phase -- a non-matching state would raise TimeoutError and crash the script (exit != 0), not silently narrate success.",
   "summary": {
     "scenarios_passed": 6,
     "scenarios_total": 6,
-    "pass_rate": "100.0%"
-  }
+    "pass_rate": "100.0%",
+    "desktop_viewport": "1440x900",
+    "mobile_viewport": "375x812",
+    "real_llm_calls_observed": true,
+    "observed_streaming_latency_example": "Non-deterministic real-LLM latency (Time to first token / server gen / total) visible burned into the desktop and mobile videos -- not a canned/mocked value."
+  },
+  "artifacts": {
+    "a_plus_d_scroll_real_campaign.mp4": "a35753a683d4197584600ceafca2396d87e3fdb5dc74ff984965a4354d42f4fc",
+    "a_plus_d_scroll_real_campaign.gif": "0d5e2c5b5fc5191acc59d38ff451f81dba7f5c2420a58deec2248a8fe2ecf2db",
+    "a_plus_d_scroll_real_campaign_mobile.mp4": "88ed75be6f50103773895ed787b3e6437bef9669ceba6b2c86c040aed2dd54f9",
+    "01_initial_expanded_bottom.png": "e01dedd2b4d11c4d565fc5149b02dd617c9e44d1b0ab08124f05d509dd097b0e",
+    "02_scrolled_up_collapsed.png": "6692fb270c90fb68375dbad77c3a489e0732fd3d6d35a457b5ee702e3ebebec5",
+    "03_scrolled_down_expanded.png": "d33697c835d8c04c1029dfb72922c607754df2b31d848e27b2b8ef1519828650",
+    "04_turn_completed_expanded.png": "e8ddce60050bf6405bc391592072e7e393a5a19db0f13a5879f4f9513bcc06db",
+    "05_scrolled_up_collapsed.png": "67f29b3b43df79c6fd920422f360fdb40292ccf6b8636c22b37f48353048cb72",
+    "06_tap_to_expand.png": "06a2404608b507194871da04c19dc955672f507210b09518543dfeff0e0af340"
+  },
+  "correction_2026-08-23T13:05:00Z": "First correction: the artifact hashes were regenerated after a self-audit found checksums.sha256 no longer matched 8 of 9 committed files (a stale manifest predating a background re-capture). This fixed checksum integrity but did NOT re-verify content -- see the next correction entry.",
+  "correction_2026-08-23T14:52:00Z": "Second correction, filed after an independent /er evidence review (teammate agent er-9283) caught what the first correction missed: the first correction's claim that \"content itself was independently verified unaffected\" was based on inspecting exactly ONE desktop screenshot and did not generalize to the whole bundle. The mobile video (a_plus_d_scroll_real_campaign_mobile.mp4) was in fact NOT re-captured by the background pass referenced in the first correction -- it was the one file whose old checksum DID match, precisely because it was never touched -- and every frame of it showed the OLD peek-strip wording (\"N Strategic Choices Available\"), predating this PR's copy change. Fixed by re-running the full capture script (testing_ui/capture_a_plus_d_real_evidence.py, both desktop and mobile walkthroughs together in one run) against a clean checkout at git_head above. All 9 artifacts were regenerated together this time specifically to avoid the partial-overwrite failure mode that caused the original defect. Independently re-verified: extracted mobile frames at git_head fa09c2639047853bf1ad03d29ad25447f2fbee6a show \"3 options -- expand to see what you can do\" (the new wording) with the correct fa09c2639047 branch banner. checksums.sha256 (now also covering README.md and metadata.json, restoring rows dropped by the first correction) passes shasum -a 256 -c for all 11 files."
 }
