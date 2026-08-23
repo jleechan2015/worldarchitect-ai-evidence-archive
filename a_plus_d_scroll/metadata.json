@@ -1,0 +1,17 @@
+{
+  "test_name": "capture_a_plus_d_real_evidence",
+  "run_id": "a_plus_d_scroll-rev-9me4j",
+  "bundle_version": "1.2.0",
+  "timestamp": "2026-08-21T18:24:55+00:00",
+  "bundle_timestamp": "2026-08-21T18:24:55+00:00",
+  "git_provenance": {
+    "git_head": "d4afae551ff1e5053428ad82024b0499fc474002",
+    "git_branch": "feat/composer-scroll-driven-expand",
+    "working_tree_dirty": false
+  },
+  "summary": {
+    "scenarios_passed": 6,
+    "scenarios_total": 6,
+    "pass_rate": "100.0%"
+  }
+}
