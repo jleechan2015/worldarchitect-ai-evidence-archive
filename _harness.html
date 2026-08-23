@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Avatar button visual harness — BEFORE vs AFTER</title>
+<!-- Real CSS from the worktree. This is the SAME file the production app serves. -->
+<link rel="stylesheet" href="../mvp_site/frontend_v1/css/avatar.css" />
+<style>
+  /* Minimal scaffold so the avatar lives inside a header row that mirrors
+   * the in-app header (the user-supplied screenshot showed
+   * "WorldAI | Knowledge base | Reddit | Discord | email | user-menu" above
+   * with the broken Add Avatar button in the top-left). */
+  html, body { margin: 0; padding: 0; background: #0e0a1f; color: #f3eaff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  body { padding: 24px; }
+  h2 { font-size: 14px; color: #b9a5e8; margin: 0 0 8px; letter-spacing: 0.04em; text-transform: uppercase; }
+  .harness-row { display: flex; gap: 32px; align-items: flex-start; flex-wrap: wrap; }
+  .panel { background: #150f2a; border: 1px solid #2b2148; border-radius: 12px;
+    padding: 18px; min-width: 560px; }
+  .toolbar { display: flex; align-items: center; gap: 12px; padding: 10px 16px;
+    background: #1a1136; border-bottom: 1px solid #2b2148; border-radius: 8px; }
+  .toolbar .brand { font-weight: 700; color: #f3eaff; }
+  .toolbar .pill { padding: 4px 10px; border-radius: 999px;
+    border: 1px solid rgba(168,85,247,0.4); color: #d4c4f0; font-size: 12px; }
+  .toolbar .email { margin-left: auto; color: #c9b8ee; font-size: 13px; }
+  .header-row { display: flex; align-items: center; gap: 18px;
+    padding: 14px 18px; margin-top: 14px;
+    background: linear-gradient(180deg, #1a1136 0%, #150f2a 100%);
+    border-radius: 10px; min-height: 110px; position: relative; }
+  /* The header-avatar-slot is the actual mount point setupGameAvatar uses. */
+  .header-avatar-slot { display: inline-flex; align-items: center; flex: 0 0 auto;
+    position: relative; z-index: 1060; margin-top: -46px; margin-bottom: 0; }
+  .game-title { color: #f3eaff; font-size: 22px; font-weight: 700; margin: 0; }
+  .campaign-meta { color: #b9a5e8; font-size: 13px; }
+  .spacer { flex: 1; }
+  /* OLD BUTTON inline-equivalent (this is the exact cssText setupGameAvatar
+   * applied before this PR): just class "avatar-card-btn" + a small margin. */
+  .header-row.legacy .add-pill { align-self: center; margin-right: 8px;
+    white-space: nowrap; padding: 0.4rem 0.75rem; border-radius: 8px;
+    font-size: 0.8rem; cursor: pointer; border: 1px solid rgba(168,85,247,0.3);
+    background: rgba(168,85,247,0.1); color: #d4c4f0;
+    display: inline-flex; align-items: center; gap: 6px; }
+  /* The new "Add Avatar" button uses the NEW .game-avatar-add-btn class from
+   * the real avatar.css. No local override — we let the worktree CSS define it.
+   * Only thing we set here is position for the absolutely-positioned label. */
+  .meta-row { display: flex; gap: 10px; margin-top: 6px; font-size: 13px; color: #c9b8ee; }
+  .badge { padding: 2px 8px; border-radius: 999px;
+    background: rgba(168,85,247,0.18); border: 1px solid rgba(168,85,247,0.45); }
+  /* Toggle buttons for a clean cropped screenshot */
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0;
+    margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+</style>
+</head>
+<body>
+
+<h2>BEFORE — current production (origin/main) — ugly rectangular button</h2>
+<div class="panel">
+  <div class="toolbar">
+    <span class="brand">WorldAI</span>
+    <span class="pill">Knowledge base / wiki ↗</span>
+    <span class="pill">Reddit</span>
+    <span class="pill">Discord</span>
+    <span class="email">jleechan_at_gmail.com</span>
+  </div>
+  <div class="header-row legacy">
+    <div class="header-avatar-slot">
+      <!-- This is the rendered output of setupGameAvatar with no avatarUrl
+           BEFORE this PR: class "avatar-card-btn", text "🖼️ Add Avatar",
+           inline cssText "align-self:center;margin-right:8px;white-space:nowrap;". -->
+      <button class="avatar-card-btn add-pill" id="game-avatar-add-btn"
+              type="button" aria-label="Add avatar" title="Add avatar">
+        <span aria-hidden="true">🖼️</span>
+        <span>Add Avatar</span>
+      </button>
+    </div>
+    <h3 class="game-title">Rhaenyra v2</h3>
+    <div class="spacer"></div>
+    <div class="meta-row">
+      <span class="badge">Spicy</span>
+      <span class="badge">Hidden</span>
+    </div>
+  </div>
+</div>
+
+<h2 style="margin-top:32px;">AFTER — this PR — circular placeholder matching the populated aesthetic</h2>
+<div class="panel">
+  <div class="toolbar">
+    <span class="brand">WorldAI</span>
+    <span class="pill">Knowledge base / wiki ↗</span>
+    <span class="pill">Reddit</span>
+    <span class="pill">Discord</span>
+    <span class="email">jleechan_at_gmail.com</span>
+  </div>
+  <div class="header-row">
+    <div class="header-avatar-slot">
+      <!-- Rendered output of setupGameAvatar AFTER this PR. Identical
+           structure to what app.js now produces. Real CSS class — no local
+           override — so getComputedStyle reflects production exactly. -->
+      <button class="game-avatar-add-btn" id="game-avatar-add-btn"
+              type="button" aria-label="Add avatar" title="Add avatar">
+        <span class="add-btn-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none"
+               stroke="currentColor" stroke-width="1.8"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M5 12h14"/>
+            <circle cx="12" cy="12" r="9" stroke-dasharray="3 3" opacity="0.45"/>
+          </svg>
+        </span>
+        <span class="add-btn-label">Add Avatar</span>
+        <span class="sr-only">Add avatar</span>
+      </button>
+    </div>
+    <h3 class="game-title">Rhaenyra v2</h3>
+    <div class="spacer"></div>
+    <div class="meta-row">
+      <span class="badge">Spicy</span>
+      <span class="badge">Hidden</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
