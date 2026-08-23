@@ -1,0 +1,27 @@
+================================================================================
+DIRECT GEMINI API PER-MODEL THINKING LEVEL REAL EVIDENCE PROBE
+================================================================================
+
+Total Cells Probed: 12
+Success Count: 12/12
+Failed Count: 0
+
+| Cell # | Model | Code Exec | Path | Expected Thinking | Observed Wire Level | Success | Elapsed | Error |
+|---|---|---|---|---|---|---|---|---|
+| 1 | gemini-3.6-flash | False | nonstream | low (ThinkingConfig) | LOW | PASS | 3.119s | None |
+| 2 | gemini-3.6-flash | False | stream | low (ThinkingConfig) | LOW | PASS | 2.721s | None |
+| 3 | gemini-3.6-flash | True | nonstream | None (Suppressed/Unmapped) | None | PASS | 4.161s | None |
+| 4 | gemini-3.6-flash | True | stream | None (Suppressed/Unmapped) | None | PASS | 3.849s | None |
+| 5 | gemini-3.7-flash | False | nonstream | low (ThinkingConfig) | LOW | PASS | 1.386s | None |
+| 6 | gemini-3.7-flash | False | stream | low (ThinkingConfig) | LOW | PASS | 5.006s | None |
+| 7 | gemini-3.7-flash | True | nonstream | None (Suppressed/Unmapped) | None | PASS | 2.374s | None |
+| 8 | gemini-3.7-flash | True | stream | None (Suppressed/Unmapped) | None | PASS | 28.135s | None |
+| 9 | gemini-3-flash-preview | False | nonstream | None (Suppressed/Unmapped) | None | PASS | 3.022s | None |
+| 10 | gemini-3-flash-preview | False | stream | None (Suppressed/Unmapped) | None | PASS | 2.719s | None |
+| 11 | gemini-3-flash-preview | True | nonstream | None (Suppressed/Unmapped) | None | PASS | 2.975s | None |
+| 12 | gemini-3-flash-preview | True | stream | None (Suppressed/Unmapped) | None | PASS | 3.516s | None |
+
+Key Findings:
+- Direct API path for mapped models is counted as proven only when the outgoing HTTP body observes thinkingLevel=low with code execution OFF.
+- When code execution is ON, the outgoing HTTP body must observe no thinkingConfig, preventing FAILED_PRECONDITION conflict.
+- Missing or mismatched outgoing wire observations fail the corresponding cell closed.

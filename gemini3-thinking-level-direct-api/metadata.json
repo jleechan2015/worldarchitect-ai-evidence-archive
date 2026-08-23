@@ -1,0 +1,16 @@
+{
+  "git_head": "c6d0730fa10b2ad764f36d82945cb4c3f7606c1c",
+  "created_at": "2026-08-21T17:50:25.512683+00:00",
+  "total_probes": 12,
+  "success_count": 12,
+  "failed_count": 0,
+  "models_tested": [
+    "gemini-3.6-flash",
+    "gemini-3.7-flash",
+    "gemini-3-flash-preview"
+  ],
+  "provider_type": "gemini_sdk",
+  "wire_capture_file": "/Users/jleechan/.gemini/antigravity-cli/brain/4fa2d2ec-c6bf-48a6-b115-5723029b42e9/.system_generated/worktrees/subagent-PR-9167-Driver-self-75065b15/evidence/gemini3-thinking-level-direct-api/gemini_wire_capture.jsonl",
+  "wire_observation_count": 12,
+  "wire_observation_valid_count": 12
+}
