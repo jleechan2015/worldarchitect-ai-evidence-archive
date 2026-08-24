@@ -1,0 +1,38 @@
+{
+  "beads_id": "rev-ag0et",
+  "git_sha": "04de4ddfbf34c95a907107a5d51b3da75c81b0d5",
+  "timestamp": "2026-08-23T18:00:55Z",
+  "artifacts": {
+    "comparisons": [
+      "evidence/rev-ag0et/quick_hide_play_campaign/comparison_dashboard_mobile.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/comparison_wizard_desktop.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/comparison_wizard_mobile.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/comparison_dashboard_desktop.png"
+    ],
+    "captioned": [
+      "evidence/rev-ag0et/quick_hide_play_campaign/captioned/before_dashboard_mobile_captioned.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/captioned/before_dashboard_desktop_captioned.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/captioned/after_dashboard_desktop_captioned.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/captioned/before_wizard_desktop_captioned.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/captioned/after_wizard_mobile_captioned.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/captioned/after_dashboard_mobile_captioned.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/captioned/before_wizard_mobile_captioned.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/captioned/after_wizard_desktop_captioned.png"
+    ],
+    "raw": [
+      "evidence/rev-ag0et/quick_hide_play_campaign/raw/after_dashboard_desktop.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/raw/after_dashboard_mobile.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/raw/before_wizard_desktop.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/raw/before_dashboard_desktop.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/raw/before_dashboard_mobile.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/raw/after_wizard_desktop.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/raw/before_wizard_mobile.png",
+      "evidence/rev-ag0et/quick_hide_play_campaign/raw/after_wizard_mobile.png"
+    ],
+    "videos": [
+      "evidence/rev-ag0et/quick_hide_play_campaign/video/page@a0ad9b1eeaf73d24ba30ed7d0f9dfb81.webm",
+      "evidence/rev-ag0et/quick_hide_play_campaign/video/quick_hide_play_campaign_flow.mp4",
+      "evidence/rev-ag0et/quick_hide_play_campaign/video/page@7beea8fb8c4adb4c8865671cd8f3378a.webm"
+    ]
+  }
+}
