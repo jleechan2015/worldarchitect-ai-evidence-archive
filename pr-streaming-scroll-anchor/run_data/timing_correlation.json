@@ -1,0 +1,54 @@
+{
+  "capture_dir": "/private/tmp/pr9358_run4",
+  "campaign_id": "bD4qaarukZ06zY6zyABq",
+  "git_sha": "12a85e3ff915837a6464af7d59d033072fde9bb9",
+  "thresholds": {
+    "p95_ms": 2000.0,
+    "max_ms": 5000.0
+  },
+  "flask_sse": {
+    "rows": 6,
+    "path": "/private/tmp/pr9358_run4/flask_sse_chunk_log.csv"
+  },
+  "browser_sse": {
+    "rows": 6,
+    "path": "/private/tmp/pr9358_run4/browser_sse_chunk_log.csv"
+  },
+  "llm_chunk_logs": [
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_quick-start-dragon-knight-0a593600d7c8_7760d059395a437b8dc158bd72d394a6.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_dFrCFpBLB3SdLTx53HB7_2a4781f6c42e4543b5325f45fbfd135b.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_dFrCFpBLB3SdLTx53HB7_0bd05a8618d949ecad805cf8e75a52dd.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_Gettc97QWRbVTkcDar99_19086f0044984d57a3b1fe1921ddd04a.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_Gettc97QWRbVTkcDar99_f3091c7c257c4dbc8603030964d98c5c.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_Gettc97QWRbVTkcDar99_72802fb47c39467394cfd0de51bf28a5.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_rBlELwCYlZHe4F6M1kUB_f38538ac39ee4967a97f51cf664f656a.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_rBlELwCYlZHe4F6M1kUB_a7fbd64059204227bb600fefbb332331.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_bD4qaarukZ06zY6zyABq_3dd6de56ed18412baafea9639441682a.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_bD4qaarukZ06zY6zyABq_d81c2e2915e64fa78dfbbab3fc675d38.csv",
+    "/var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worldarchitect.ai/fix/streaming-scroll-anchor-keep-position/streaming_validation/llm_chunk_log_bD4qaarukZ06zY6zyABq_2007b473024046bba4146516a74b50d6.csv"
+  ],
+  "joined_3hop_table": "/private/tmp/pr9358_run4/joined_3hop_chunk_timing.csv",
+  "joined_rows": 3,
+  "llm_to_flask_ms": {
+    "count": 3,
+    "first_ms": 0.71,
+    "p50_ms": 3.15,
+    "p95_ms": 3.15,
+    "max_ms": 5.62
+  },
+  "flask_to_browser_ms": {
+    "count": 3,
+    "first_ms": 1.26,
+    "p50_ms": 2.79,
+    "p95_ms": 2.79,
+    "max_ms": 10.99
+  },
+  "llm_to_browser_ms": {
+    "count": 3,
+    "first_ms": 1.97,
+    "p50_ms": 5.94,
+    "p95_ms": 5.94,
+    "max_ms": 16.61
+  },
+  "verdict": "PASS"
+}

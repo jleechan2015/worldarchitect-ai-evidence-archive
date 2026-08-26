@@ -1,0 +1,7 @@
+sequence,http_ts_utc,event_type,campaign_id,request_id,text_length
+0,2026-08-26T06:56:04.846209+00:00,chunk,bD4qaarukZ06zY6zyABq,bD4qaarukZ06zY6zyABq_3dd6de56ed18412baafea9639441682a,1282
+0,2026-08-26T06:57:01.220012+00:00,chunk,bD4qaarukZ06zY6zyABq,bD4qaarukZ06zY6zyABq_d81c2e2915e64fa78dfbbab3fc675d38,1892
+0,2026-08-26T06:58:03.955745+00:00,chunk,bD4qaarukZ06zY6zyABq,bD4qaarukZ06zY6zyABq_2007b473024046bba4146516a74b50d6,2638
+1,2026-08-26T06:56:23.163353+00:00,chunk,bD4qaarukZ06zY6zyABq,,2753
+1,2026-08-26T06:57:27.486508+00:00,chunk,bD4qaarukZ06zY6zyABq,,3910
+1,2026-08-26T06:58:26.557209+00:00,chunk,bD4qaarukZ06zY6zyABq,,4656

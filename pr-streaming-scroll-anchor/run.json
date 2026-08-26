@@ -1,15 +1,17 @@
 {
-  "status": "INVALID_WITHDRAWN_NO_COMPLETED_REAL_STREAM",
-  "withdrawal_reason": "Exact-head real browser run was blocked by AGY quota exhaustion before any streamed chunk or terminal completion.",
-  "run_id": "pr9358-real-server-1787716215",
-  "scenarios": [
-    {
-      "name": "test_streaming_scroll_anchor_and_completion_guard",
-      "status": "PASS",
-      "route": "http://127.0.0.1:57744/game/cBCSrw17eBrpCos2n9SR",
-      "before_scroll": 150,
-      "after_scroll": 150,
-      "drift_px": 0
-    }
-  ]
+  "pr": 9358,
+  "branch": "fix/streaming-scroll-anchor-keep-position",
+  "commit": "12a85e3ff915837a6464af7d59d033072fde9bb9",
+  "campaign_id": "bD4qaarukZ06zY6zyABq",
+  "verdict": "PASS",
+  "primary_metric": "scrolltop_range_px",
+  "scrolltop_range_px": 0.0,
+  "scrollheight_growth_px": 678,
+  "sample_count": 457,
+  "after_completion_drift_px": 0.0,
+  "distance_above_bottom_px": 1502.0,
+  "red_probe_range_px": 1003.0,
+  "real_server": true,
+  "real_llm": true,
+  "mock": false
 }
