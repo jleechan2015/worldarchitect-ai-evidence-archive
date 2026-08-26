@@ -61,6 +61,16 @@ for the entire remainder of the stream and through completion.
 Every video frame carries a burned-in HUD showing the full URL, the git SHA,
 the PR number, a UTC stamp, the phase, and the live `scrollTop`/drift.
 
+> This repository is **private**, so the release download links above return 404
+> to an unauthenticated browser. That is expected — it is not a broken link.
+> Fetch them with repo credentials, e.g.:
+>
+> ```bash
+> gh release download evidence-pr-9358 -p 'real_20260826_*' -D ./pr9358_evidence
+> ```
+>
+> SHA-256 of every published media file is in `media_sha256.txt`.
+
 > **Asset provenance on the release**: all `real_20260826_*` assets, plus
 > `llm_request_responses.jsonl`, `http_request_responses.jsonl`, `server.log`,
 > `console.log` and `sse_event_log_full.json` (re-uploaded/clobbered by this run)
