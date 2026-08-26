@@ -13,5 +13,13 @@
   "red_probe_range_px": 1003.0,
   "real_server": true,
   "real_llm": true,
-  "mock": false
+  "mock": false,
+  "time_to_first_narrative_chunk_s": 28.877,
+  "e2e_chunk_hop_ms": {
+    "min": 1.97,
+    "median": 5.94,
+    "max": 16.61,
+    "n": 3
+  },
+  "scope": "PASS on scroll claims; overflow-anchor mechanism NOT proven (growth below fold); gemini_provider.py out of envelope"
 }

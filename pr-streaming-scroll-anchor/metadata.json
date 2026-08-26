@@ -49,42 +49,91 @@
     "distance_above_bottom_px": 1502.0,
     "reading_position_preserved": true,
     "red_probe_scrolltop_range_px": 1003.0,
-    "red_probe_detects_movement": true
+    "red_probe_detects_movement": true,
+    "sampling_cadence_ms": {
+      "n": 456,
+      "min": 60,
+      "p50": 93,
+      "p95": 277,
+      "max": 743,
+      "gaps_over_200ms": 52,
+      "gaps_over_500ms": 6,
+      "note": "measured cadence; methodology requested 50 ms"
+    },
+    "scrollheight_growth_events": {
+      "distinct_values": [
+        1717,
+        1866,
+        2014,
+        2062,
+        2395
+      ],
+      "growth_events": 4,
+      "samples_at_initial_height": 239,
+      "note": "333 of the 678 px landed on the final render, observed in one sample"
+    }
   },
   "streaming_timing": {
     "joined_rows": 3,
     "llm_to_flask_ms": {
       "count": 3,
-      "first_ms": 0.71,
+      "first_chunk_ms": 3.15,
+      "min_ms": 0.71,
       "p50_ms": 3.15,
-      "p95_ms": 3.15,
-      "max_ms": 5.62
+      "p95_ms": 5.62,
+      "max_ms": 5.62,
+      "percentile_method": "nearest-rank",
+      "small_sample_warning": "n=3: p95 is not statistically meaningful and equals a high-order order statistic; treat min/median/max as the real summary."
     },
     "flask_to_browser_ms": {
       "count": 3,
-      "first_ms": 1.26,
+      "first_chunk_ms": 2.79,
+      "min_ms": 1.26,
       "p50_ms": 2.79,
-      "p95_ms": 2.79,
-      "max_ms": 10.99
+      "p95_ms": 10.99,
+      "max_ms": 10.99,
+      "percentile_method": "nearest-rank",
+      "small_sample_warning": "n=3: p95 is not statistically meaningful and equals a high-order order statistic; treat min/median/max as the real summary."
     },
     "llm_to_browser_ms": {
       "count": 3,
-      "first_ms": 1.97,
+      "first_chunk_ms": 5.94,
+      "min_ms": 1.97,
       "p50_ms": 5.94,
-      "p95_ms": 5.94,
-      "max_ms": 16.61
+      "p95_ms": 16.61,
+      "max_ms": 16.61,
+      "percentile_method": "nearest-rank",
+      "small_sample_warning": "n=3: p95 is not statistically meaningful and equals a high-order order statistic; treat min/median/max as the real summary."
     },
+    "time_to_first_chunk_s": {
+      "measured_turn": {
+        "time_to_first_sse_event_s": 1.513,
+        "first_sse_event_type": "metadata",
+        "time_to_first_narrative_chunk_s": 28.877
+      }
+    },
+    "time_to_first_chunk_note": "submit -> first browser-visible SSE event/narrative chunk. The narrative figure is the latency the reader actually experiences; the per-hop delta_ms figures are intra-process handoff only and are NOT user latency.",
     "thresholds": {
       "p95_ms": 2000.0,
       "max_ms": 5000.0
     },
     "verdict": "PASS",
-    "limitation": "only sequence=0 joins all 3 hops; phase-2 sequence=1 lacks request_id (llm_service.py:11466)"
+    "limitations": [
+      "only sequence=0 joins all 3 hops; phase-2 sequence=1 lacks request_id (llm_service.py:11466) AND has no LLM-hop row at all (synthesized in llm_service, not emitted by the provider)",
+      "n=3: p95 is not statistically meaningful; an earlier revision published p50 as p95 (analyzer defect, now fixed)",
+      "hop deltas are intra-process handoff, NOT user-perceived latency (28.877 s to first narrative chunk)"
+    ]
   },
   "video": {
     "raw_first_frame": "1 unique color, 100% white (INVALID)",
     "published_first_frame": "13747 unique colors, HUD text present (VALID)",
     "trim": "published mp4 starts at first HUD frame; removed lead-in is pre-navigation blank",
     "captions": "burned-in HUD: URL, git SHA, PR, UTC, phase, live scrollTop"
-  }
+  },
+  "scope_limits": [
+    "overflow-anchor: none NOT proven - all DOM growth was ~800 px below the fold where scroll anchoring does not apply; this run demonstrates onChunk performs no auto-scroll",
+    "no runtime fix-off control; the only fix-off control is Layer 1 test_phase_a_before_fixture_would_yank",
+    "mvp_site/llm_providers/gemini_provider.py is in the PR diff but outside this bundle (run used AGY, not the Gemini SDK)",
+    "RED probe proves detector liveness, not that the pre-fix build yanked at runtime"
+  ]
 }

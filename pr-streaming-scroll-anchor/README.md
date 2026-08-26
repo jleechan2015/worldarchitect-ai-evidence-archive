@@ -33,6 +33,10 @@ SHA-256 of the exact files exercised:
 6d5f6e0ae6fb5ec5127bd125a96a0854943892b68d26ff0981bc028841f71f23  mvp_site/frontend_v1/style.css
 ```
 
+This PR's diff also touches **`mvp_site/llm_providers/gemini_provider.py`**, which
+is **outside this bundle's envelope**: the run used the AGY provider, so nothing
+here exercises the Gemini-SDK path. That change needs its own evidence.
+
 ## Results
 
 | Claim | Metric | Result |
@@ -43,9 +47,20 @@ SHA-256 of the exact files exercised:
 | Position preserved at stream completion | `scrollTop` after `done` | **431 px (drift 0.0 px)** |
 | Reader NOT yanked to bottom | distance above bottom at completion | **1502 px** |
 | Detector is not blind (RED probe) | `scrollTop` range with induced drift | **1003 px** |
+| Time to first narrative chunk (real user wait) | submit -> first chunk | **28.877 s** |
 
 The reader deliberately scrolled **up** to 431 px *mid-stream* and stayed there
 for the entire remainder of the stream and through completion.
+
+Two things this table must not be read to mean:
+
+- **`overflow-anchor: none` is not proven here.** All DOM growth landed ~800 px
+  below the fold, where scroll anchoring does not apply. The 0.0 px null is real;
+  what it demonstrates is that `onChunk` performs no auto-scroll. See the
+  mechanism caveat in `evidence.md`.
+- **Chunk-hop latency is not user latency.** The joined table's millisecond
+  deltas are intra-process handoff of an already-buffered AGY response. The
+  reader waited **28.877 s** for the first narrative chunk.
 
 ## Media (GitHub-hosted)
 

@@ -18,7 +18,7 @@ AGY quota exhaustion before any streamed chunk.
 | 4 | Position does not move during chunk growth | `scrolltop_range_px == 0` while `scrollheight_growth_px > 0` | **MET** (0.0 px / +678 px) |
 | 5 | Position preserved at completion | `after_completion.final_drift_px == 0` and not at bottom | **MET** (0.0 px, 1502 px above bottom) |
 | 6 | Detector proven able to see movement | RED probe range > 0 | **MET** (1003 px) |
-| 7 | Chunk timing correlation table | joined table with p50/p95/max vs thresholds | **MET** (p95 5.94 ms, max 16.61 ms) |
+| 7 | Chunk timing correlation table | joined table with min/median/max vs thresholds | **MET** (min 1.97 / median 5.94 / max 16.61 ms, n=3) |
 | 8 | Video with URL + git SHA + captions, first frame not blank | programmatic first-frame check | **MET** |
 | 9 | Artifacts published to GitHub with real URLs | `gh release view` returns asset URLs | **MET** |
 | 10 | Token-by-token streaming depth | many chunks per turn | **PARTIAL** — AGY yields one completed response per turn; out of reach for this provider |
@@ -34,6 +34,27 @@ The scroll claims do not depend on chunk count. What triggers browser scroll
 anchoring is DOM growth above the viewport, and the DOM grew 678 px in real
 increments while the position held at 0.0 px. Satisfying criterion 10 would
 require switching providers, which would change the path under test.
+
+## Findings from adversarial evidence review (/er), corrected
+
+An independent `/er` audit re-derived every headline number from the raw data
+(all reconciled) and all 24 checksums verified, but found real defects that are
+now fixed rather than argued with:
+
+- the published `p95` was actually the **median** (`int(n*0.95)-1` returns index 1
+  at n=3) — analyzer fixed to nearest-rank, and n=3 now carries a caveat;
+- `first_ms` was the alphabetically-first `request_id`, i.e. the chronologically
+  **last** turn — now sorted by `llm_ts_utc`;
+- the millisecond hop deltas were presented as the streaming headline while the
+  reader's real wait was **28.877 s** — time-to-first-chunk is now reported;
+- Claim 1 credited `overflow-anchor: none`, but all growth was ~800 px **below
+  the fold** where anchoring cannot apply — attribution withdrawn;
+- Claim 1 cited a `2_BEFORE` still at 519 px as during-stream evidence — corrected;
+- `red_probe.samples` had been stripped with no placeholder, making Claim 3
+  unverifiable from the bundle — now published as
+  `run_data/red_probe_scroll_samples.json`;
+- `gemini_provider.py` is in the PR diff but outside this bundle — now disclosed;
+- measured sampling cadence is median 93 ms / max 743 ms, not the requested 50 ms.
 
 ## Honest record of what went wrong first
 

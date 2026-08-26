@@ -31,24 +31,41 @@
   "joined_rows": 3,
   "llm_to_flask_ms": {
     "count": 3,
-    "first_ms": 0.71,
+    "first_chunk_ms": 3.15,
+    "min_ms": 0.71,
     "p50_ms": 3.15,
-    "p95_ms": 3.15,
-    "max_ms": 5.62
+    "p95_ms": 5.62,
+    "max_ms": 5.62,
+    "percentile_method": "nearest-rank",
+    "small_sample_warning": "n=3: p95 is not statistically meaningful and equals a high-order order statistic; treat min/median/max as the real summary."
   },
   "flask_to_browser_ms": {
     "count": 3,
-    "first_ms": 1.26,
+    "first_chunk_ms": 2.79,
+    "min_ms": 1.26,
     "p50_ms": 2.79,
-    "p95_ms": 2.79,
-    "max_ms": 10.99
+    "p95_ms": 10.99,
+    "max_ms": 10.99,
+    "percentile_method": "nearest-rank",
+    "small_sample_warning": "n=3: p95 is not statistically meaningful and equals a high-order order statistic; treat min/median/max as the real summary."
   },
   "llm_to_browser_ms": {
     "count": 3,
-    "first_ms": 1.97,
+    "first_chunk_ms": 5.94,
+    "min_ms": 1.97,
     "p50_ms": 5.94,
-    "p95_ms": 5.94,
-    "max_ms": 16.61
+    "p95_ms": 16.61,
+    "max_ms": 16.61,
+    "percentile_method": "nearest-rank",
+    "small_sample_warning": "n=3: p95 is not statistically meaningful and equals a high-order order statistic; treat min/median/max as the real summary."
   },
+  "time_to_first_chunk_s": {
+    "measured_turn": {
+      "time_to_first_sse_event_s": 1.513,
+      "first_sse_event_type": "metadata",
+      "time_to_first_narrative_chunk_s": 28.877
+    }
+  },
+  "time_to_first_chunk_note": "submit -> first browser-visible SSE event/narrative chunk. The narrative figure is the latency the reader actually experiences; the per-hop delta_ms figures are intra-process handoff only and are NOT user latency.",
   "verdict": "PASS"
 }

@@ -29,7 +29,8 @@ Result: **10 passed** in 88.10s (exit 0).
 | Position stable during chunk growth | PASS — `scrollTop` range **0.0 px** over 457 samples, `scrollHeight` +678 px |
 | Position preserved at completion | PASS — drift **0.0 px**, **1502 px** above bottom |
 | RED control (detector not blind) | PASS — induced drift produced a **1003 px** range |
-| Chunk timing correlation | PASS — end-to-end p95 **5.94 ms**, max **16.61 ms** (thresholds 2000/5000 ms) |
+| Chunk timing correlation | PASS — end-to-end min 1.97 / median 5.94 / max **16.61 ms** (n=3; thresholds 2000/5000 ms) |
+| Time to first narrative chunk (user-perceived) | **28.877 s** — hop deltas above are intra-process, not user latency |
 | Video first frame not blank | PASS — 13,747 unique colors, HUD present (raw webm's blank lead-in trimmed) |
 | Git SHA visible in video | PASS — burned into every frame |
 
@@ -52,6 +53,12 @@ head; the commits in between touch beads, evidence and capture scripts only.
   emitted without a `request_id` (`mvp_site/llm_service.py:11466`) — a
   pre-existing instrumentation gap.
 - Headless Chromium only; no other engines, no multi-user or lossy-network runs.
+- `overflow-anchor: none` is NOT proven by this run: all DOM growth was ~800 px
+  below the fold, where scroll anchoring does not apply.
+- `mvp_site/llm_providers/gemini_provider.py` is in the PR diff but outside this
+  bundle's envelope (the run used AGY, not the Gemini SDK).
+- n=3 makes p95 statistically meaningless; an earlier revision published the
+  median as p95 (analyzer defect, now fixed).
 
 ## 5. Not claimed
 

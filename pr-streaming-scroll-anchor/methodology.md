@@ -32,7 +32,9 @@
 7. **1.2 s after submit**, scroll UP to ~35% of `maxScroll` and re-baseline to the
    position the reader actually chose (431 px). This is the real user story:
    reading history while the turn streams.
-8. Sample every 50 ms until the SSE `done` event: record `scrollTop`,
+8. Sample as fast as the loop allows (target 50 ms; **measured** cadence was
+   median 93 ms, p95 277 ms, max 743 ms over 456 intervals — report the measured
+   figure, not the target) until the SSE `done` event: record `scrollTop`,
    `scrollHeight`, `clientHeight`, `.streaming-text` length, SSE event count and
    whether a `.streaming-entry` is active.
 9. After completion, record the final position and the container bottom.

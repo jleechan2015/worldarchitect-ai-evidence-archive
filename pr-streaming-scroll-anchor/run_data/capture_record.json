@@ -1105,7 +1105,8 @@
     "scrollheight_max_px": 3410,
     "scrollheight_growth_px": 853,
     "max_streaming_text_len": 954,
-    "sse_event_count": 10
+    "sse_event_count": 10,
+    "samples": "<stripped for size - see run_data/red_probe_scroll_samples.json>"
   },
   "capture_paths": {
     "LLM_REQUEST_RESPONSE_CAPTURE_PATH": "/private/tmp/pr9358_run4/llm_request_responses_1787727207374.jsonl",
@@ -1116,5 +1117,6 @@
   "server_port": 50015,
   "run_status_preliminary": "PASS",
   "error": null,
-  "server_log_artifact": "server.log"
+  "server_log_artifact": "<stripped for size - published as release asset server.log>",
+  "sse_event_log_full": "<stripped for size - published as release asset sse_event_log_full.json>"
 }
