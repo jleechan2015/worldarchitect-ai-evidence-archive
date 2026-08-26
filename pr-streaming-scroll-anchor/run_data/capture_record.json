@@ -1,0 +1,1122 @@
+{
+  "git_sha": "12a85e3ff915837a6464af7d59d033072fde9bb9",
+  "pr": 9358,
+  "phases": [
+    {
+      "phase": "1_URL_AND_LOAD",
+      "caption": "Real local server loaded. campaign_id=bD4qaarukZ06zY6zyABq",
+      "metrics": {
+        "scrollTop": 297,
+        "scrollHeight": 630,
+        "clientHeight": 333,
+        "timestamp": 1787727317743
+      },
+      "utc": "2026-08-26T06:55:19Z"
+    },
+    {
+      "phase": "2_BEFORE",
+      "caption": "Reader scrolled UP to mid-story. baseline scrollTop=519px (bottom would be 1039px)",
+      "metrics": {
+        "scrollTop": 519,
+        "scrollHeight": 1501,
+        "clientHeight": 462,
+        "timestamp": 1787727389258
+      },
+      "utc": "2026-08-26T06:56:31Z"
+    },
+    {
+      "phase": "4_AFTER",
+      "caption": "Stream COMPLETE (done). scrollTop=431px, drift=0.0px - reader NOT yanked to bottom",
+      "metrics": {
+        "scrollTop": 431,
+        "scrollHeight": 2395,
+        "clientHeight": 462,
+        "timestamp": 1787727450799
+      },
+      "utc": "2026-08-26T06:57:33Z"
+    },
+    {
+      "phase": "5_RED_PROBE_RESULT",
+      "caption": "RED probe detected 228 drift samples (max 2111px) - detector is NOT blind",
+      "metrics": {
+        "scrollTop": 3077,
+        "scrollHeight": 3410,
+        "clientHeight": 312,
+        "timestamp": 1787727513735
+      },
+      "utc": "2026-08-26T06:58:36Z"
+    }
+  ],
+  "campaign_id": "bD4qaarukZ06zY6zyABq",
+  "base_url": "http://127.0.0.1:50015",
+  "game_url": "http://127.0.0.1:50015/game/bD4qaarukZ06zY6zyABq?test_mode=true&test_user_id=byok-streaming-browser-1787727207&test_user_email=jleechantest@gmail.com",
+  "warmup": {
+    "turns_run": 1,
+    "final_max_scroll_px": 1039.0,
+    "required_max_scroll_px": 400.0,
+    "turns": [
+      {
+        "action_text": "Explore further and describe what you find in vivid detail.",
+        "action_started_ms": 1787727320373.0,
+        "pre_action_metrics": {
+          "scrollTop": 297,
+          "scrollHeight": 630,
+          "clientHeight": 333,
+          "timestamp": 1787727320370
+        },
+        "scrolled_up_mid_stream": null,
+        "pre_action_scrollTop_px": 297.0,
+        "completion_reason": "done",
+        "timed_out": false,
+        "sample_count": 0,
+        "drift_events": 597,
+        "max_abs_drift_px": 0.0,
+        "scrolltop_min_px": 0.0,
+        "scrolltop_max_px": 0.0,
+        "scrolltop_range_px": 0.0,
+        "scrollheight_min_px": 0.0,
+        "scrollheight_max_px": 0.0,
+        "scrollheight_growth_px": 0.0,
+        "max_streaming_text_len": 643,
+        "sse_event_count": 8
+      }
+    ]
+  },
+  "baseline": {
+    "pre_scroll_settled": true,
+    "middle_target": {
+      "targetScroll": 519,
+      "actualScrollTop": 309,
+      "scrollHeight": 1501,
+      "clientHeight": 462,
+      "maxScroll": 1039
+    },
+    "post_scroll_settled": true,
+    "settle_history": [
+      {
+        "scrollTop": 309,
+        "scrollHeight": 1501,
+        "clientHeight": 462,
+        "timestamp": 1787727388423
+      },
+      {
+        "scrollTop": 519,
+        "scrollHeight": 1501,
+        "clientHeight": 462,
+        "timestamp": 1787727388848
+      },
+      {
+        "scrollTop": 519,
+        "scrollHeight": 1501,
+        "clientHeight": 462,
+        "timestamp": 1787727389254
+      }
+    ],
+    "baseline_scrollTop_px": 519.0,
+    "baseline_metrics": {
+      "scrollTop": 519,
+      "scrollHeight": 1501,
+      "clientHeight": 462,
+      "timestamp": 1787727389254
+    }
+  },
+  "measured_turn": {
+    "action_text": "Continue the story with meaningful progression and rich detail.",
+    "action_started_ms": 1787727392355.0,
+    "pre_action_metrics": {
+      "scrollTop": 519,
+      "scrollHeight": 1501,
+      "clientHeight": 462,
+      "timestamp": 1787727392348
+    },
+    "scrolled_up_mid_stream": {
+      "target": {
+        "target": 431,
+        "actual": 1180,
+        "maxScroll": 1234
+      },
+      "metrics_after": {
+        "scrollTop": 431,
+        "scrollHeight": 1717,
+        "clientHeight": 483,
+        "timestamp": 1787727394479
+      },
+      "new_baseline_px": 431.0
+    },
+    "pre_action_scrollTop_px": 431.0,
+    "completion_reason": "done",
+    "timed_out": false,
+    "samples": "<see measured_turn_scroll_samples.json>",
+    "sample_count": 457,
+    "drift_events": 0,
+    "max_abs_drift_px": 0.0,
+    "scrolltop_min_px": 431.0,
+    "scrolltop_max_px": 431.0,
+    "scrolltop_range_px": 0.0,
+    "scrollheight_min_px": 1717,
+    "scrollheight_max_px": 2395,
+    "scrollheight_growth_px": 678,
+    "max_streaming_text_len": 732,
+    "sse_events": [
+      {
+        "session_header": "Timestamp: Unknown\nLocation: Unknown\nStatus: Lvl 1 Ranger | HP: 12/12\nResources: None",
+        "resources": "None",
+        "mechanics_hidden": false,
+        "event_type": "metadata",
+        "event_header": null,
+        "sequence": null,
+        "request_id": null,
+        "timestamp": "2026-08-26T06:56:33.867Z",
+        "timestamp_ms": 1787727393867.8
+      },
+      {
+        "text": "{\"action_resolution\":{\"audit_flags\":[],\"interpreted_as\":\"initiate_combat\",\"mechanics\":{\"rolls\":[]},\"outcome\":\"Kaelen (Level 1) prepares to engage, and the Goblin (Level 1) notices him. Combat is initiated.\",\"player_input\":\"Continue the story with meaningful progression and rich detail.\",\"reinterpreted\":false},\"dice_rolls\":[],\"directives\":{\"add\":[],\"drop\":[]},\"narrative\":\"You step forward, attempting to get a clean shot or move closer, but the howling wind shifts, blowing rain across your path and causing you, Kaelen (Level 1), to slip slightly. The Goblin (Level 1)'s head whips around at the sound of shifting stone, its yellow eyes locking onto yours. With a snarl, it pulls a rusted blade. Initiative is rolled to determine who acts first.\",\"planning_block\":{\"choices\":[{\"analysis\":{\"style\":\"Combat\"},\"confidence\":\"high\",\"cons\":[\"Hostilities begin immediately\"],\"description\":\"Enter combat and determine the turn order.\",\"id\":\"roll_initiative\",\"pros\":[\"Determines who acts first\"],\"risk_level\":\"medium\",\"text\":\"Roll Initiative\"}],\"thinking\":\"The player wants to continue the story. With a goblin spotted and hostilities imminent, we must transition to combat. I will request initiative rolls for Kaelen and the Goblin.\"},\"rewards_box\":{},\"session_header\":\"[SESSION_HEADER]\\nKaelen | Ranger Level 1 | Ruined Observatory | XP: 0/300\",\"state_updates\":{\"custom_campaign_state\":{\"core_memories\":[\"Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.\",\"Kaelen (Level 1) initiated combat with a Goblin (Level 1) at the ruined observatory.\"]},\"entity_tracking\":{\"present_entities\":[{\"level\":1,\"name\":\"Goblin\",\"role\":\"NPC\",\"status\":\"healthy\"}]}},\"tool_requests\":[{\"args\":{\"notation\":\"1d20+3\",\"purpose\":\"Initiative check for Kaelen (Ranger)\"},\"tool\":\"roll_dice\"},{\"args\":{\"notation\":\"1d20+2\",\"purpose\":\"Initiative check for Goblin\"},\"tool\":\"roll_dice\"}]}",
+        "sequence": 0,
+        "request_id": "bD4qaarukZ06zY6zyABq_d81c2e2915e64fa78dfbbab3fc675d38",
+        "event_type": "chunk",
+        "event_header": null,
+        "timestamp": "2026-08-26T06:57:01.231Z",
+        "timestamp_ms": 1787727421231.9
+      },
+      {
+        "tool_name": "roll_dice",
+        "args": {
+          "notation": "1d20+3",
+          "purpose": "Initiative check for Kaelen (Ranger)"
+        },
+        "event_type": "tool_start",
+        "event_header": null,
+        "sequence": null,
+        "request_id": null,
+        "timestamp": "2026-08-26T06:57:02.436Z",
+        "timestamp_ms": 1787727422436.7
+      },
+      {
+        "tool_name": "roll_dice",
+        "result": {
+          "notation": "1d20+3",
+          "rolls": [
+            3
+          ],
+          "modifier": 3,
+          "total": 6,
+          "natural_20": false,
+          "natural_1": false,
+          "purpose": "Initiative check for Kaelen (Ranger)",
+          "formatted": "1d20+3 +3 = 3+3 = 6"
+        },
+        "event_type": "tool_result",
+        "event_header": null,
+        "sequence": null,
+        "request_id": null,
+        "timestamp": "2026-08-26T06:57:02.442Z",
+        "timestamp_ms": 1787727422442.1
+      },
+      {
+        "tool_name": "roll_dice",
+        "args": {
+          "notation": "1d20+2",
+          "purpose": "Initiative check for Goblin"
+        },
+        "event_type": "tool_start",
+        "event_header": null,
+        "sequence": null,
+        "request_id": null,
+        "timestamp": "2026-08-26T06:57:02.443Z",
+        "timestamp_ms": 1787727422443.7
+      },
+      {
+        "tool_name": "roll_dice",
+        "result": {
+          "notation": "1d20+2",
+          "rolls": [
+            17
+          ],
+          "modifier": 2,
+          "total": 19,
+          "natural_20": false,
+          "natural_1": false,
+          "purpose": "Initiative check for Goblin",
+          "formatted": "1d20+2 +2 = 17+2 = 19"
+        },
+        "event_type": "tool_result",
+        "event_header": null,
+        "sequence": null,
+        "request_id": null,
+        "timestamp": "2026-08-26T06:57:02.446Z",
+        "timestamp_ms": 1787727422446.9
+      },
+      {
+        "phase": "post_tools",
+        "reset_text": true,
+        "event_type": "phase_transition",
+        "event_header": null,
+        "sequence": null,
+        "request_id": null,
+        "timestamp": "2026-08-26T06:57:27.487Z",
+        "timestamp_ms": 1787727447487.7
+      },
+      {
+        "text": "{\"action_resolution\":{\"audit_flags\":[],\"interpreted_as\":\"roll_initiative\",\"mechanics\":{\"rolls\":[{\"modifier\":3,\"notation\":\"1d20+3\",\"purpose\":\"Initiative check for Kaelen (Ranger)\",\"result\":3,\"rolls\":[3],\"success\":true,\"total\":6},{\"modifier\":2,\"notation\":\"1d20+2\",\"purpose\":\"Initiative check for Goblin\",\"result\":17,\"rolls\":[17],\"success\":true,\"total\":19}]},\"outcome\":\"Initiative resolved. The Goblin (Level 1) went first with a total of 19, while Kaelen (Level 1) rolled a total of 6.\",\"player_input\":\"Continue the story with meaningful progression and rich detail.\",\"reinterpreted\":false},\"dice_rolls\":[],\"directives\":{\"add\":[],\"drop\":[]},\"narrative\":\"The howling wind drafts through the shattered arches of the observatory, spraying freezing rain across the slick, mossy stone. Lightning arches across the dark sky, casting long, frantic shadows. The Goblin (Level 1) reacts with lightning speed (Initiative: 19), leaping forward from the rubble. With a wicked, raspy snarl, it slashes its rusted blade at you. You, Kaelen (Level 1), react a fraction of a second too slowly (Initiative: 6), but manage to raise your bow in time. The Goblin (Level 1)'s blade clashes against the wooden riser of your longbow, sending sparks flying into the wet air. The creature recoils, hissing, and circles you on the slippery stone platform, looking for another opening. It is now your turn to act!\",\"planning_block\":{\"choices\":[{\"analysis\":{\"confidence\":\"high\",\"style\":\"Melee\"},\"cons\":[\"Engages in close combat, exposing you to melee counterattacks from the Goblin (Level 1)\"],\"description\":\"Engage the Goblin (Level 1) in melee, wielding both shortswords.\",\"id\":\"melee_strike\",\"pros\":[\"Avoids ranged attack penalties in the storm\",\"Allows for dual-wielding attacks\"],\"risk_level\":\"low\",\"text\":\"Draw shortswords and attack\"},{\"analysis\":{\"confidence\":\"high\",\"style\":\"Ranged\"},\"cons\":[\"Ranged attacks suffer disadvantage due to the stormy winds\"],\"description\":\"Attempt to back away and loose an arrow.\",\"id\":\"ranged_disengage\",\"pros\":[\"Keeps a distance from the Goblin (Level 1)\"],\"risk_level\":\"medium\",\"text\":\"Step back and shoot with your longbow\"},{\"analysis\":{\"confidence\":\"medium\",\"style\":\"Tactical\"},\"cons\":[\"Requires a successful Strength (Athletics) check against the Goblin (Level 1), which could fail\"],\"description\":\"Use your strength to push the Goblin (Level 1) off the high stone ledge.\",\"id\":\"shove_ledge\",\"pros\":[\"Could defeat the Goblin (Level 1) instantly by sending it plunging into the dark\"],\"risk_level\":\"high\",\"text\":\"Shove the Goblin (Level 1) off the ruins\"}],\"thinking\":\"Initiative rolls dictate that the Goblin (Level 1) acts first. It lunges but fails to connect, leaving it open to a counter-action from Kaelen (Level 1). I present standard combat options for Kaelen (Level 1) to execute on his turn.\"},\"rewards_box\":{},\"session_header\":\"Kaelen (Level 1) | Ranger | Ruined Observatory | XP: 0/300 | Combat Round 1\",\"state_updates\":{\"combat_state\":{\"combat_phase\":\"active\",\"combat_session_id\":\"combat_session_obs_001\",\"combat_trigger\":\"spotted_goblin\",\"combatants\":[{\"hp_current\":12,\"hp_max\":12,\"initiative\":6,\"name\":\"Kaelen\",\"type\":\"PC\"},{\"hp_current\":7,\"hp_max\":7,\"initiative\":19,\"name\":\"Goblin\",\"status\":\"healthy\",\"type\":\"NPC\"}],\"current_round\":1,\"in_combat\":true,\"initiative_order\":[\"Goblin\",\"Kaelen\"]},\"custom_campaign_state\":{\"core_memories\":[\"Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.\",\"Kaelen (Level 1) initiated combat with a Goblin (Level 1) at the ruined observatory.\",\"The Goblin (Level 1) won initiative (19 vs 6) and attacked Kaelen (Level 1) first, missing its strike.\"]},\"entity_tracking\":{\"active_entities\":[{\"hp_current\":12,\"hp_max\":12,\"level\":1,\"name\":\"Kaelen\",\"role\":\"PC\"},{\"hp_current\":7,\"hp_max\":7,\"level\":1,\"name\":\"Goblin\",\"role\":\"NPC\",\"status\":\"healthy\"}],\"dormant_entities\":[],\"present_entities\":[]}},\"tool_requests\":[]}",
+        "sequence": 1,
+        "event_type": "chunk",
+        "event_header": null,
+        "request_id": null,
+        "timestamp": "2026-08-26T06:57:27.488Z",
+        "timestamp_ms": 1787727447488.0
+      },
+      {
+        "combat_state": {
+          "combat_phase": "active",
+          "combat_session_id": "combat_session_obs_001",
+          "combat_trigger": "spotted_goblin",
+          "combatants": [
+            {
+              "hp_current": 12,
+              "hp_max": 12,
+              "initiative": 6,
+              "name": "Kaelen",
+              "type": "PC"
+            },
+            {
+              "hp_current": 7,
+              "hp_max": 7,
+              "initiative": 19,
+              "name": "Goblin",
+              "status": "healthy",
+              "type": "NPC"
+            }
+          ],
+          "current_round": 1,
+          "in_combat": true,
+          "initiative_order": [
+            "Goblin",
+            "Kaelen"
+          ]
+        },
+        "custom_campaign_state": {
+          "core_memories": [
+            "Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.",
+            "Kaelen (Level 1) initiated combat with a Goblin (Level 1) at the ruined observatory.",
+            "The Goblin (Level 1) won initiative (19 vs 6) and attacked Kaelen (Level 1) first, missing its strike."
+          ]
+        },
+        "entity_tracking": {
+          "active_entities": [
+            {
+              "hp_current": 12,
+              "hp_max": 12,
+              "level": 1,
+              "name": "Kaelen",
+              "role": "PC"
+            },
+            {
+              "hp_current": 7,
+              "hp_max": 7,
+              "level": 1,
+              "name": "Goblin",
+              "role": "NPC",
+              "status": "healthy"
+            }
+          ],
+          "dormant_entities": [],
+          "present_entities": []
+        },
+        "event_type": "state",
+        "event_header": null,
+        "sequence": null,
+        "request_id": null,
+        "timestamp": "2026-08-26T06:57:28.176Z",
+        "timestamp_ms": 1787727448176.1
+      },
+      {
+        "execution_path": "streaming",
+        "full_narrative": "The howling wind drafts through the shattered arches of the observatory, spraying freezing rain across the slick, mossy stone. Lightning arches across the dark sky, casting long, frantic shadows. The Goblin (Level 1) reacts with lightning speed (Initiative: 19), leaping forward from the rubble. With a wicked, raspy snarl, it slashes its rusted blade at you. You, Kaelen (Level 1), react a fraction of a second too slowly (Initiative: 6), but manage to raise your bow in time. The Goblin (Level 1)'s blade clashes against the wooden riser of your longbow, sending sparks flying into the wet air. The creature recoils, hissing, and circles you on the slippery stone platform, looking for another opening. It is now your turn to act!",
+        "display_text": "The howling wind drafts through the shattered arches of the observatory, spraying freezing rain across the slick, mossy stone. Lightning arches across the dark sky, casting long, frantic shadows. The Goblin (Level 1) reacts with lightning speed (Initiative: 19), leaping forward from the rubble. With a wicked, raspy snarl, it slashes its rusted blade at you. You, Kaelen (Level 1), react a fraction of a second too slowly (Initiative: 6), but manage to raise your bow in time. The Goblin (Level 1)'s blade clashes against the wooden riser of your longbow, sending sparks flying into the wet air. The creature recoils, hissing, and circles you on the slippery stone platform, looking for another opening. It is now your turn to act!",
+        "raw_response_text": "{\"action_resolution\":{\"audit_flags\":[],\"interpreted_as\":\"roll_initiative\",\"mechanics\":{\"rolls\":[{\"modifier\":3,\"notation\":\"1d20+3\",\"purpose\":\"Initiative check for Kaelen (Ranger)\",\"result\":3,\"rolls\":[3],\"success\":true,\"total\":6},{\"modifier\":2,\"notation\":\"1d20+2\",\"purpose\":\"Initiative check for Goblin\",\"result\":17,\"rolls\":[17],\"success\":true,\"total\":19}]},\"outcome\":\"Initiative resolved. The Goblin (Level 1) went first with a total of 19, while Kaelen (Level 1) rolled a total of 6.\",\"player_input\":\"Continue the story with meaningful progression and rich detail.\",\"reinterpreted\":false},\"dice_rolls\":[],\"directives\":{\"add\":[],\"drop\":[]},\"narrative\":\"The howling wind drafts through the shattered arches of the observatory, spraying freezing rain across the slick, mossy stone. Lightning arches across the dark sky, casting long, frantic shadows. The Goblin (Level 1) reacts with lightning speed (Initiative: 19), leaping forward from the rubble. With a wicked, raspy snarl, it slashes its rusted blade at you. You, Kaelen (Level 1), react a fraction of a second too slowly (Initiative: 6), but manage to raise your bow in time. The Goblin (Level 1)'s blade clashes against the wooden riser of your longbow, sending sparks flying into the wet air. The creature recoils, hissing, and circles you on the slippery stone platform, looking for another opening. It is now your turn to act!\",\"planning_block\":{\"choices\":[{\"analysis\":{\"confidence\":\"high\",\"style\":\"Melee\"},\"cons\":[\"Engages in close combat, exposing you to melee counterattacks from the Goblin (Level 1)\"],\"description\":\"Engage the Goblin (Level 1) in melee, wielding both shortswords.\",\"id\":\"melee_strike\",\"pros\":[\"Avoids ranged attack penalties in the storm\",\"Allows for dual-wielding attacks\"],\"risk_level\":\"low\",\"text\":\"Draw shortswords and attack\"},{\"analysis\":{\"confidence\":\"high\",\"style\":\"Ranged\"},\"cons\":[\"Ranged attacks suffer disadvantage due to the stormy winds\"],\"description\":\"Attempt to back away and loose an arrow.\",\"id\":\"ranged_disengage\",\"pros\":[\"Keeps a distance from the Goblin (Level 1)\"],\"risk_level\":\"medium\",\"text\":\"Step back and shoot with your longbow\"},{\"analysis\":{\"confidence\":\"medium\",\"style\":\"Tactical\"},\"cons\":[\"Requires a successful Strength (Athletics) check against the Goblin (Level 1), which could fail\"],\"description\":\"Use your strength to push the Goblin (Level 1) off the high stone ledge.\",\"id\":\"shove_ledge\",\"pros\":[\"Could defeat the Goblin (Level 1) instantly by sending it plunging into the dark\"],\"risk_level\":\"high\",\"text\":\"Shove the Goblin (Level 1) off the ruins\"}],\"thinking\":\"Initiative rolls dictate that the Goblin (Level 1) acts first. It lunges but fails to connect, leaving it open to a counter-action from Kaelen (Level 1). I present standard combat options for Kaelen (Level 1) to execute on his turn.\"},\"rewards_box\":{},\"session_header\":\"Kaelen (Level 1) | Ranger | Ruined Observatory | XP: 0/300 | Combat Round 1\",\"state_updates\":{\"combat_state\":{\"combat_phase\":\"active\",\"combat_session_id\":\"combat_session_obs_001\",\"combat_trigger\":\"spotted_goblin\",\"combatants\":[{\"hp_current\":12,\"hp_max\":12,\"initiative\":6,\"name\":\"Kaelen\",\"type\":\"PC\"},{\"hp_current\":7,\"hp_max\":7,\"initiative\":19,\"name\":\"Goblin\",\"status\":\"healthy\",\"type\":\"NPC\"}],\"current_round\":1,\"in_combat\":true,\"initiative_order\":[\"Goblin\",\"Kaelen\"]},\"custom_campaign_state\":{\"core_memories\":[\"Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.\",\"Kaelen (Level 1) initiated combat with a Goblin (Level 1) at the ruined observatory.\",\"The Goblin (Level 1) won initiative (19 vs 6) and attacked Kaelen (Level 1) first, missing its strike.\"]},\"entity_tracking\":{\"active_entities\":[{\"hp_current\":12,\"hp_max\":12,\"level\":1,\"name\":\"Kaelen\",\"role\":\"PC\"},{\"hp_current\":7,\"hp_max\":7,\"level\":1,\"name\":\"Goblin\",\"role\":\"NPC\",\"status\":\"healthy\"}],\"dormant_entities\":[],\"present_entities\":[]}},\"tool_requests\":[]}",
+        "chunk_count": 2,
+        "agent_used": "CombatAgent",
+        "agent_mode": "combat",
+        "model_used": "gemini-3-flash-preview",
+        "provider_used": "gemini",
+        "has_structured_response": true,
+        "state_updates": {
+          "combat_state": {
+            "combat_phase": "active",
+            "combat_session_id": "combat_session_obs_001",
+            "combat_trigger": "spotted_goblin",
+            "combatants": [
+              {
+                "hp_current": 12,
+                "hp_max": 12,
+                "initiative": 6,
+                "name": "Kaelen",
+                "type": "PC"
+              },
+              {
+                "hp_current": 7,
+                "hp_max": 7,
+                "initiative": 19,
+                "name": "Goblin",
+                "status": "healthy",
+                "type": "NPC"
+              }
+            ],
+            "current_round": 1,
+            "in_combat": true,
+            "initiative_order": [
+              "Goblin",
+              "Kaelen"
+            ]
+          },
+          "custom_campaign_state": {
+            "core_memories": [
+              "Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.",
+              "Kaelen (Level 1) initiated combat with a Goblin (Level 1) at the ruined observatory.",
+              "The Goblin (Level 1) won initiative (19 vs 6) and attacked Kaelen (Level 1) first, missing its strike."
+            ]
+          },
+          "entity_tracking": {
+            "active_entities": [
+              {
+                "hp_current": 12,
+                "hp_max": 12,
+                "level": 1,
+                "name": "Kaelen",
+                "role": "PC"
+              },
+              {
+                "hp_current": 7,
+                "hp_max": 7,
+                "level": 1,
+                "name": "Goblin",
+                "role": "NPC",
+                "status": "healthy"
+              }
+            ],
+            "dormant_entities": [],
+            "present_entities": []
+          },
+          "world_data": {},
+          "action_resolution": {
+            "audit_flags": [],
+            "interpreted_as": "roll_initiative",
+            "mechanics": {
+              "rolls": [
+                {
+                  "purpose": "Initiative check for Kaelen (Ranger)",
+                  "notation": "1d20+3",
+                  "rolls": [
+                    3
+                  ],
+                  "result": 3,
+                  "modifier": 3,
+                  "total": 6
+                },
+                {
+                  "purpose": "Initiative check for Goblin",
+                  "notation": "1d20+2",
+                  "rolls": [
+                    17
+                  ],
+                  "result": 17,
+                  "modifier": 2,
+                  "total": 19
+                }
+              ]
+            },
+            "outcome": "Initiative resolved. The Goblin (Level 1) went first with a total of 19, while Kaelen (Level 1) rolled a total of 6.",
+            "player_input": "Continue the story with meaningful progression and rich detail.",
+            "reinterpreted": false
+          }
+        },
+        "structured_response": {
+          "narrative": "The howling wind drafts through the shattered arches of the observatory, spraying freezing rain across the slick, mossy stone. Lightning arches across the dark sky, casting long, frantic shadows. The Goblin (Level 1) reacts with lightning speed (Initiative: 19), leaping forward from the rubble. With a wicked, raspy snarl, it slashes its rusted blade at you. You, Kaelen (Level 1), react a fraction of a second too slowly (Initiative: 6), but manage to raise your bow in time. The Goblin (Level 1)'s blade clashes against the wooden riser of your longbow, sending sparks flying into the wet air. The creature recoils, hissing, and circles you on the slippery stone platform, looking for another opening. It is now your turn to act!",
+          "entities_mentioned": [],
+          "location_confirmed": "Unknown",
+          "turn_summary": null,
+          "state_updates": {
+            "combat_state": {
+              "combat_phase": "active",
+              "combat_session_id": "combat_session_obs_001",
+              "combat_trigger": "spotted_goblin",
+              "combatants": [
+                {
+                  "hp_current": 12,
+                  "hp_max": 12,
+                  "initiative": 6,
+                  "name": "Kaelen",
+                  "type": "PC"
+                },
+                {
+                  "hp_current": 7,
+                  "hp_max": 7,
+                  "initiative": 19,
+                  "name": "Goblin",
+                  "status": "healthy",
+                  "type": "NPC"
+                }
+              ],
+              "current_round": 1,
+              "in_combat": true,
+              "initiative_order": [
+                "Goblin",
+                "Kaelen"
+              ]
+            },
+            "custom_campaign_state": {
+              "core_memories": [
+                "Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.",
+                "Kaelen (Level 1) initiated combat with a Goblin (Level 1) at the ruined observatory.",
+                "The Goblin (Level 1) won initiative (19 vs 6) and attacked Kaelen (Level 1) first, missing its strike."
+              ]
+            },
+            "entity_tracking": {
+              "active_entities": [
+                {
+                  "hp_current": 12,
+                  "hp_max": 12,
+                  "level": 1,
+                  "name": "Kaelen",
+                  "role": "PC"
+                },
+                {
+                  "hp_current": 7,
+                  "hp_max": 7,
+                  "level": 1,
+                  "name": "Goblin",
+                  "role": "NPC",
+                  "status": "healthy"
+                }
+              ],
+              "dormant_entities": [],
+              "present_entities": []
+            }
+          },
+          "debug_info": {
+            "parse_telemetry": {
+              "parse_outcome": "success",
+              "error_class": null,
+              "parse_offset": 3910,
+              "recovered_chars": 732,
+              "checksum": "f8835756cf87f490908e82a3ac99948d4e844c1972d09f5fc57faa1da7979d3b"
+            },
+            "_state_update_schema_gate_errors": [],
+            "_state_update_schema_gate_benign": [
+              "Kept state_updates.entity_tracking: unknown top-level key in strict overlay policy (no close match)",
+              "Kept state_updates.combat_state.combat_trigger: unknown key in strict overlay policy (no close match)"
+            ],
+            "_state_update_schema_gate_kinds": [
+              "BENIGN_NORMALIZE",
+              "BENIGN_NORMALIZE"
+            ],
+            "_server_system_warnings": [],
+            "tool_results": [
+              {
+                "tool": "roll_dice",
+                "args": {
+                  "notation": "1d20+3",
+                  "purpose": "Initiative check for Kaelen (Ranger)"
+                },
+                "result": {
+                  "notation": "1d20+3",
+                  "rolls": [
+                    3
+                  ],
+                  "modifier": 3,
+                  "total": 6,
+                  "natural_20": false,
+                  "natural_1": false,
+                  "purpose": "Initiative check for Kaelen (Ranger)",
+                  "formatted": "1d20+3 +3 = 3+3 = 6"
+                }
+              },
+              {
+                "tool": "roll_dice",
+                "args": {
+                  "notation": "1d20+2",
+                  "purpose": "Initiative check for Goblin"
+                },
+                "result": {
+                  "notation": "1d20+2",
+                  "rolls": [
+                    17
+                  ],
+                  "modifier": 2,
+                  "total": 19,
+                  "natural_20": false,
+                  "natural_1": false,
+                  "purpose": "Initiative check for Goblin",
+                  "formatted": "1d20+2 +2 = 17+2 = 19"
+                }
+              }
+            ],
+            "tool_requests_executed": true,
+            "action_resolution_rolls_model": [
+              {
+                "modifier": 3,
+                "notation": "1d20+3",
+                "purpose": "Initiative check for Kaelen (Ranger)",
+                "result": 3,
+                "rolls": [
+                  3
+                ],
+                "success": true,
+                "total": 6
+              },
+              {
+                "modifier": 2,
+                "notation": "1d20+2",
+                "purpose": "Initiative check for Goblin",
+                "result": 17,
+                "rolls": [
+                  17
+                ],
+                "success": true,
+                "total": 19
+              }
+            ],
+            "action_resolution_rolls_overridden": true,
+            "llm_provider": "gemini",
+            "llm_model": "gemini-3-flash-preview",
+            "execution_path": "streaming",
+            "agent_name": "CombatAgent",
+            "prompt_tokens": 5799,
+            "cached_tokens": 0,
+            "tool_use_tokens": null,
+            "cache_hit_rate_pct": null,
+            "intent_classifier": {
+              "intent": "combat",
+              "classifier_source": "semantic_intent",
+              "confidence": 0.6637060642242432,
+              "routing_priority": "7_semantic_combat"
+            },
+            "system_instruction_files": [
+              "prompts/master_directive.md",
+              "prompts/game_state_instruction.md",
+              "prompts/planning_protocol.md",
+              "prompts/dice_system_instruction.md",
+              "prompts/shared/combat_state_contract.md",
+              "prompts/combat_system_instruction.md",
+              "prompts/narrative_system_instruction.md",
+              "prompts/dnd_srd_instruction.md",
+              "prompts/mechanics_system_instruction.md",
+              "prompts/game_state_mechanics_appendix.md",
+              "prompts/living_world_instruction.md",
+              "prompts/shared/rest_anchored_dialog.md",
+              "prompts/shared/npc_personality_trifecta.md",
+              "prompts/shared/hidden_identity_knowledge_boundaries.md",
+              "prompts/shared/witness_based_reveal_continuity.md",
+              "prompts/shared/fair_high_power_challenge.md",
+              "prompts/shared/no_forced_ruler_progression.md",
+              "prompts/shared/ai_generated_mystery_and_internal_drive_plot_arc.md",
+              "prompts/level_up_instruction.md",
+              "mvp_site/prompts/shared/banned_names_instruction.md",
+              "prompts/shared/combat_state_reminder.md"
+            ],
+            "system_instruction_char_count": 531924,
+            "dice_strategy": "native_two_phase",
+            "tool_audit": {
+              "requests": [
+                {
+                  "args": {
+                    "notation": "1d20+3",
+                    "purpose": "Initiative check for Kaelen (Ranger)"
+                  },
+                  "tool": "roll_dice"
+                },
+                {
+                  "args": {
+                    "notation": "1d20+2",
+                    "purpose": "Initiative check for Goblin"
+                  },
+                  "tool": "roll_dice"
+                }
+              ],
+              "results": [
+                {
+                  "tool": "roll_dice",
+                  "args": {
+                    "notation": "1d20+3",
+                    "purpose": "Initiative check for Kaelen (Ranger)"
+                  },
+                  "result": {
+                    "notation": "1d20+3",
+                    "rolls": [
+                      3
+                    ],
+                    "modifier": 3,
+                    "total": 6,
+                    "natural_20": false,
+                    "natural_1": false,
+                    "purpose": "Initiative check for Kaelen (Ranger)",
+                    "formatted": "1d20+3 +3 = 3+3 = 6"
+                  }
+                },
+                {
+                  "tool": "roll_dice",
+                  "args": {
+                    "notation": "1d20+2",
+                    "purpose": "Initiative check for Goblin"
+                  },
+                  "result": {
+                    "notation": "1d20+2",
+                    "rolls": [
+                      17
+                    ],
+                    "modifier": 2,
+                    "total": 19,
+                    "natural_20": false,
+                    "natural_1": false,
+                    "purpose": "Initiative check for Goblin",
+                    "formatted": "1d20+2 +2 = 17+2 = 19"
+                  }
+                }
+              ],
+              "executed": true
+            }
+          },
+          "directives": {
+            "add": [],
+            "drop": []
+          },
+          "session_header": "Kaelen (Level 1) | Ranger | Ruined Observatory | Combat Round 1 | XP: 0/300",
+          "faction_header": "",
+          "planning_block": {
+            "thinking": "Initiative rolls dictate that the Goblin (Level 1) acts first. It lunges but fails to connect, leaving it open to a counter-action from Kaelen (Level 1). I present standard combat options for Kaelen (Level 1) to execute on his turn.",
+            "context": "",
+            "choices": [
+              {
+                "id": "melee_strike",
+                "text": "Draw shortswords and attack",
+                "description": "Engage the Goblin (Level 1) in melee, wielding both shortswords.",
+                "risk_level": "low",
+                "analysis": {
+                  "confidence": "high",
+                  "style": "Melee"
+                },
+                "pros": [
+                  "Avoids ranged attack penalties in the storm",
+                  "Allows for dual-wielding attacks"
+                ],
+                "cons": [
+                  "Engages in close combat, exposing you to melee counterattacks from the Goblin (Level 1)"
+                ]
+              },
+              {
+                "id": "ranged_disengage",
+                "text": "Step back and shoot with your longbow",
+                "description": "Attempt to back away and loose an arrow.",
+                "risk_level": "medium",
+                "analysis": {
+                  "confidence": "high",
+                  "style": "Ranged"
+                },
+                "pros": [
+                  "Keeps a distance from the Goblin (Level 1)"
+                ],
+                "cons": [
+                  "Ranged attacks suffer disadvantage due to the stormy winds"
+                ]
+              },
+              {
+                "id": "shove_ledge",
+                "text": "Shove the Goblin (Level 1) off the ruins",
+                "description": "Use your strength to push the Goblin (Level 1) off the high stone ledge.",
+                "risk_level": "high",
+                "analysis": {
+                  "confidence": "medium",
+                  "style": "Tactical"
+                },
+                "pros": [
+                  "Could defeat the Goblin (Level 1) instantly by sending it plunging into the dark"
+                ],
+                "cons": [
+                  "Requires a successful Strength (Athletics) check against the Goblin (Level 1), which could fail"
+                ]
+              }
+            ]
+          },
+          "dice_rolls": [
+            {
+              "roll": "1d20+3",
+              "result": 6,
+              "faces": "3",
+              "modifier": 3,
+              "type": "Initiative check for Kaelen (Ranger)",
+              "label": "Initiative check for Kaelen (Ranger)"
+            },
+            {
+              "roll": "1d20+2",
+              "result": 19,
+              "faces": "17",
+              "modifier": 2,
+              "type": "Initiative check for Goblin",
+              "label": "Initiative check for Goblin"
+            }
+          ],
+          "dice_audit_events": [
+            {
+              "source": "server_tool",
+              "label": "Initiative check for Kaelen (Ranger)",
+              "notation": "1d20+3",
+              "rolls": [
+                3
+              ],
+              "modifier": 3,
+              "total": 6
+            },
+            {
+              "source": "server_tool",
+              "label": "Initiative check for Goblin",
+              "notation": "1d20+2",
+              "rolls": [
+                17
+              ],
+              "modifier": 2,
+              "total": 19
+            }
+          ],
+          "resources": "",
+          "social_hp_challenge": {},
+          "action_resolution": {
+            "audit_flags": [],
+            "interpreted_as": "roll_initiative",
+            "mechanics": {
+              "rolls": [
+                {
+                  "purpose": "Initiative check for Kaelen (Ranger)",
+                  "notation": "1d20+3",
+                  "rolls": [
+                    3
+                  ],
+                  "result": 3,
+                  "modifier": 3,
+                  "total": 6
+                },
+                {
+                  "purpose": "Initiative check for Goblin",
+                  "notation": "1d20+2",
+                  "rolls": [
+                    17
+                  ],
+                  "result": 17,
+                  "modifier": 2,
+                  "total": 19
+                }
+              ]
+            },
+            "outcome": "Initiative resolved. The Goblin (Level 1) went first with a total of 19, while Kaelen (Level 1) rolled a total of 6.",
+            "player_input": "Continue the story with meaningful progression and rich detail.",
+            "reinterpreted": false
+          },
+          "outcome_resolution": {
+            "audit_flags": [],
+            "interpreted_as": "roll_initiative",
+            "mechanics": {
+              "rolls": [
+                {
+                  "purpose": "Initiative check for Kaelen (Ranger)",
+                  "notation": "1d20+3",
+                  "rolls": [
+                    3
+                  ],
+                  "result": 3,
+                  "modifier": 3,
+                  "total": 6
+                },
+                {
+                  "purpose": "Initiative check for Goblin",
+                  "notation": "1d20+2",
+                  "rolls": [
+                    17
+                  ],
+                  "result": 17,
+                  "modifier": 2,
+                  "total": 19
+                }
+              ]
+            },
+            "outcome": "Initiative resolved. The Goblin (Level 1) went first with a total of 19, while Kaelen (Level 1) rolled a total of 6.",
+            "player_input": "Continue the story with meaningful progression and rich detail.",
+            "reinterpreted": false
+          },
+          "parse_telemetry": {
+            "parse_outcome": "success",
+            "error_class": null,
+            "parse_offset": 3910,
+            "recovered_chars": 732,
+            "checksum": "f8835756cf87f490908e82a3ac99948d4e844c1972d09f5fc57faa1da7979d3b"
+          },
+          "sequence_id": 6,
+          "user_scene_number": 3,
+          "rewards_box": {
+            "source": "",
+            "xp_gained": 0,
+            "current_xp": 0,
+            "next_level_xp": 0,
+            "gold": 0,
+            "loot": []
+          }
+        },
+        "user_scene_number": 3,
+        "request_id": "bD4qaarukZ06zY6zyABq_d81c2e2915e64fa78dfbbab3fc675d38",
+        "provider_usage": {
+          "prompt_tokens": 5799,
+          "output_tokens": 977,
+          "total_tokens": 6776,
+          "cached_tokens": 0,
+          "thoughts_tokens": null,
+          "tool_use_tokens": null,
+          "terminal_outcome": "completed",
+          "finish_reason": "success",
+          "trip_reason": null
+        },
+        "mock_services_mode": false,
+        "test_mode": null,
+        "streaming_execution_trace": {
+          "execution_path": "streaming",
+          "provider": "gemini",
+          "model": "gemini-3-flash-preview",
+          "tool_requests": {
+            "executed": true,
+            "count": 2
+          },
+          "cache": {
+            "explicit_cache_enabled": false,
+            "requested": false,
+            "cache_name": null,
+            "source": "not_used"
+          },
+          "phase1": {
+            "source": "provider",
+            "provider": "gemini",
+            "chunks": 1
+          },
+          "phase2": {
+            "executed": true,
+            "source": "provider",
+            "provider": "gemini",
+            "chunks": 1
+          }
+        },
+        "streaming_cache": {
+          "explicit_cache_enabled": false,
+          "requested": false,
+          "cache_name": null,
+          "source": "not_used"
+        },
+        "streaming_response_signature": {
+          "schema_version": "streaming-response-v1",
+          "algorithm": "sha256",
+          "digest": "ecbe217fe4164fb7d76cb5f6fe75408f7912a343e91fd8ef04f18abc0f93dec0",
+          "signed": false,
+          "response_length": 3910,
+          "request_id": "bD4qaarukZ06zY6zyABq_d81c2e2915e64fa78dfbbab3fc675d38"
+        },
+        "stream_start_time": "2026-08-26T06:56:35.329895+00:00",
+        "time_to_first_chunk_seconds": 28.77477404201636,
+        "llm_stream_generation_seconds": 28.359002915996825,
+        "stream_timing_breakdown": {
+          "handler_entry_to_prep_done_seconds": 2.7559707080072258,
+          "handler_entry_to_json_done_seconds": 2.756601375003811,
+          "handler_entry_to_token_done_seconds": 2.892172749998281,
+          "handler_entry_to_provider_call_seconds": 2.893638292007381,
+          "handler_entry_to_first_chunk_seconds": 28.77477404201636
+        },
+        "ttft_server_seconds": 27.337137209018692,
+        "processing_metadata": {
+          "request_id": "bD4qaarukZ06zY6zyABq_d81c2e2915e64fa78dfbbab3fc675d38",
+          "llm_provider": "gemini",
+          "llm_model": "gemini-3-flash-preview",
+          "model": "gemini-3-flash-preview",
+          "agent_name": "CombatAgent",
+          "rag_mode": "original",
+          "served_prompt_mode": "regular",
+          "serves_dynamic_rag_prompt": false,
+          "tier2_tokens_est": 91,
+          "provider_type": "agy",
+          "prompt_tokens": 10164,
+          "tool_requests_executed": true,
+          "tool_results": [
+            {
+              "tool": "roll_dice",
+              "args": {
+                "notation": "1d20+3",
+                "purpose": "Initiative check for Kaelen (Ranger)"
+              },
+              "result": {
+                "notation": "1d20+3",
+                "rolls": [
+                  3
+                ],
+                "modifier": 3,
+                "total": 6,
+                "natural_20": false,
+                "natural_1": false,
+                "purpose": "Initiative check for Kaelen (Ranger)",
+                "formatted": "1d20+3 +3 = 3+3 = 6"
+              }
+            },
+            {
+              "tool": "roll_dice",
+              "args": {
+                "notation": "1d20+2",
+                "purpose": "Initiative check for Goblin"
+              },
+              "result": {
+                "notation": "1d20+2",
+                "rolls": [
+                  17
+                ],
+                "modifier": 2,
+                "total": 19,
+                "natural_20": false,
+                "natural_1": false,
+                "purpose": "Initiative check for Goblin",
+                "formatted": "1d20+2 +2 = 17+2 = 19"
+              }
+            }
+          ],
+          "tool_audit": {
+            "requests": [
+              {
+                "args": {
+                  "notation": "1d20+3",
+                  "purpose": "Initiative check for Kaelen (Ranger)"
+                },
+                "tool": "roll_dice"
+              },
+              {
+                "args": {
+                  "notation": "1d20+2",
+                  "purpose": "Initiative check for Goblin"
+                },
+                "tool": "roll_dice"
+              }
+            ],
+            "results": [
+              {
+                "tool": "roll_dice",
+                "args": {
+                  "notation": "1d20+3",
+                  "purpose": "Initiative check for Kaelen (Ranger)"
+                },
+                "result": {
+                  "notation": "1d20+3",
+                  "rolls": [
+                    3
+                  ],
+                  "modifier": 3,
+                  "total": 6,
+                  "natural_20": false,
+                  "natural_1": false,
+                  "purpose": "Initiative check for Kaelen (Ranger)",
+                  "formatted": "1d20+3 +3 = 3+3 = 6"
+                }
+              },
+              {
+                "tool": "roll_dice",
+                "args": {
+                  "notation": "1d20+2",
+                  "purpose": "Initiative check for Goblin"
+                },
+                "result": {
+                  "notation": "1d20+2",
+                  "rolls": [
+                    17
+                  ],
+                  "modifier": 2,
+                  "total": 19,
+                  "natural_20": false,
+                  "natural_1": false,
+                  "purpose": "Initiative check for Goblin",
+                  "formatted": "1d20+2 +2 = 17+2 = 19"
+                }
+              }
+            ],
+            "executed": true
+          },
+          "streaming_response_signature": {
+            "schema_version": "streaming-response-v1",
+            "algorithm": "sha256",
+            "digest": "ecbe217fe4164fb7d76cb5f6fe75408f7912a343e91fd8ef04f18abc0f93dec0",
+            "signed": false,
+            "response_length": 3910,
+            "request_id": "bD4qaarukZ06zY6zyABq_d81c2e2915e64fa78dfbbab3fc675d38"
+          },
+          "execution_path": "streaming",
+          "raw_response_text": "{\"action_resolution\":{\"audit_flags\":[],\"interpreted_as\":\"roll_initiative\",\"mechanics\":{\"rolls\":[{\"modifier\":3,\"notation\":\"1d20+3\",\"purpose\":\"Initiative check for Kaelen (Ranger)\",\"result\":3,\"rolls\":[3],\"success\":true,\"total\":6},{\"modifier\":2,\"notation\":\"1d20+2\",\"purpose\":\"Initiative check for Goblin\",\"result\":17,\"rolls\":[17],\"success\":true,\"total\":19}]},\"outcome\":\"Initiative resolved. The Goblin (Level 1) went first with a total of 19, while Kaelen (Level 1) rolled a total of 6.\",\"player_input\":\"Continue the story with meaningful progression and rich detail.\",\"reinterpreted\":false},\"dice_rolls\":[],\"directives\":{\"add\":[],\"drop\":[]},\"narrative\":\"The howling wind drafts through the shattered arches of the observatory, spraying freezing rain across the slick, mossy stone. Lightning arches across the dark sky, casting long, frantic shadows. The Goblin (Level 1) reacts with lightning speed (Initiative: 19), leaping forward from the rubble. With a wicked, raspy snarl, it slashes its rusted blade at you. You, Kaelen (Level 1), react a fraction of a second too slowly (Initiative: 6), but manage to raise your bow in time. The Goblin (Level 1)'s blade clashes against the wooden riser of your longbow, sending sparks flying into the wet air. The creature recoils, hissing, and circles you on the slippery stone platform, looking for another opening. It is now your turn to act!\",\"planning_block\":{\"choices\":[{\"analysis\":{\"confidence\":\"high\",\"style\":\"Melee\"},\"cons\":[\"Engages in close combat, exposing you to melee counterattacks from the Goblin (Level 1)\"],\"description\":\"Engage the Goblin (Level 1) in melee, wielding both shortswords.\",\"id\":\"melee_strike\",\"pros\":[\"Avoids ranged attack penalties in the storm\",\"Allows for dual-wielding attacks\"],\"risk_level\":\"low\",\"text\":\"Draw shortswords and attack\"},{\"analysis\":{\"confidence\":\"high\",\"style\":\"Ranged\"},\"cons\":[\"Ranged attacks suffer disadvantage due to the stormy winds\"],\"description\":\"Attempt to back away and loose an arrow.\",\"id\":\"ranged_disengage\",\"pros\":[\"Keeps a distance from the Goblin (Level 1)\"],\"risk_level\":\"medium\",\"text\":\"Step back and shoot with your longbow\"},{\"analysis\":{\"confidence\":\"medium\",\"style\":\"Tactical\"},\"cons\":[\"Requires a successful Strength (Athletics) check against the Goblin (Level 1), which could fail\"],\"description\":\"Use your strength to push the Goblin (Level 1) off the high stone ledge.\",\"id\":\"shove_ledge\",\"pros\":[\"Could defeat the Goblin (Level 1) instantly by sending it plunging into the dark\"],\"risk_level\":\"high\",\"text\":\"Shove the Goblin (Level 1) off the ruins\"}],\"thinking\":\"Initiative rolls dictate that the Goblin (Level 1) acts first. It lunges but fails to connect, leaving it open to a counter-action from Kaelen (Level 1). I present standard combat options for Kaelen (Level 1) to execute on his turn.\"},\"rewards_box\":{},\"session_header\":\"Kaelen (Level 1) | Ranger | Ruined Observatory | XP: 0/300 | Combat Round 1\",\"state_updates\":{\"combat_state\":{\"combat_phase\":\"active\",\"combat_session_id\":\"combat_session_obs_001\",\"combat_trigger\":\"spotted_goblin\",\"combatants\":[{\"hp_current\":12,\"hp_max\":12,\"initiative\":6,\"name\":\"Kaelen\",\"type\":\"PC\"},{\"hp_current\":7,\"hp_max\":7,\"initiative\":19,\"name\":\"Goblin\",\"status\":\"healthy\",\"type\":\"NPC\"}],\"current_round\":1,\"in_combat\":true,\"initiative_order\":[\"Goblin\",\"Kaelen\"]},\"custom_campaign_state\":{\"core_memories\":[\"Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.\",\"Kaelen (Level 1) initiated combat with a Goblin (Level 1) at the ruined observatory.\",\"The Goblin (Level 1) won initiative (19 vs 6) and attacked Kaelen (Level 1) first, missing its strike.\"]},\"entity_tracking\":{\"active_entities\":[{\"hp_current\":12,\"hp_max\":12,\"level\":1,\"name\":\"Kaelen\",\"role\":\"PC\"},{\"hp_current\":7,\"hp_max\":7,\"level\":1,\"name\":\"Goblin\",\"role\":\"NPC\",\"status\":\"healthy\"}],\"dormant_entities\":[],\"present_entities\":[]}},\"tool_requests\":[]}",
+          "raw_request_payload": "{\n  \"game_mode\": \"combat\",\n  \"user_id\": \"byok-streaming-browser-1787727207\",\n  \"selected_prompts\": [],\n  \"use_default_world\": false,\n  \"story_history\": [\n    {\n      \"part\": 1,\n      \"text\": \"Character: A practical ranger keeping watch at the frontier. | Setting: A ruined observatory on a stormy night | Description: BYOK and campaign smoke coverage via MCP tooling\",\n      \"mode\": \"god\",\n      \"actor\": \"user\",\n      \"timestamp\": \"2026-08-26T06:55:08.567373+00:00\",\n      \"sequence_id\": 1,\n      \"user_scene_number\": null\n    },\n    {\n      \"full_state_updates\": {\n        \"player_character_data\": {\n          \"class\": \"Ranger\",\n          \"attributes\": {\n            \"strength\": 12,\n            \"constitution\": 14,\n            \"wisdom\": 14,\n            \"charisma\": 8,\n            \"intelligence\": 10,\n            \"dexterity\": 16\n          },\n          \"hp_max\": 12,\n          \"equipment\": [\n            \"Longbow\",\n            \"Leather Armor\",\n            \"Shortswords (x2)\",\n            \"Explorer's Pack\"\n          ],\n          \"level\": 1,\n          \"skills\": [\n            \"Perception\",\n            \"Survival\",\n            \"Stealth\"\n          ],\n          \"hp_current\": 12,\n          \"name\": \"Kaelen\"\n        },\n        \"custom_campaign_state\": {\n          \"core_memories\": [\n            \"Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.\"\n          ],\n          \"last_location\": \"Ruined Observatory\",\n          \"weather\": \"Stormy Night\",\n          \"frontier_threat_level\": \"High\"\n        }\n      },\n      \"god_mode_response\": \"\",\n      \"state_updates_audit\": {\n        \"player_character_data\": {\n          \"class\": \"Ranger\",\n          \"level\": 1,\n          \"equipment\": [\n            \"Longbow\",\n            \"Leather Armor\",\n            \"Shortswords (x2)\",\n            \"Explorer's Pack\"\n          ],\n          \"name\": \"Kaelen\"\n        },\n        \"custom_campaign_state\": {\n          \"core_memories\": [\n            \"Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.\"\n          ],\n          \"last_location\": \"Ruined Observatory\",\n          \"weather\": \"Stormy Night\",\n          \"frontier_threat_level\": \"High\"\n        }\n      },\n      \"directives\": {\n        \"drop\": [],\n        \"add\": []\n      },\n      \"action_resolution\": {\n        \"interpreted_as\": \"character_creation_initialization\",\n        \"audit_flags\": [],\n        \"reinterpreted\": false,\n        \"outcome\": \"Character creation initialized.\",\n        \"mechanics\": {\n          \"rolls\": []\n        },\n        \"player_input\": \"\"\n      },\n      \"resources\": \"\",\n      \"dice_rolls\": [],\n      \"text\": \"Welcome to the frontier. The wind howls through the shattered dome of the ruined observatory, carrying the scent of ozone and rain. Lightning flashes, briefly illuminating the wilderness stretching out below your high vantage point. You are a ranger, a warden of this wild borderland.\\n\\nBefore we begin your watch in the storm, let us shape the details of your training and background. How do you approach your duties at the edge of the civilized world?\",\n      \"core_memories_snapshot\": [\n        \"Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.\"\n      ],\n      \"rewards_box\": {\n        \"loot\": [],\n        \"xp_gained\": 0.0,\n        \"gold\": 0.0,\n        \"source\": \"\",\n        \"next_level_xp\": 0.0,\n        \"current_xp\": 0.0\n      },\n      \"part\": 1,\n      \"actor\": \"gemini\",\n      \"timestamp\": \"2026-08-26T06:55:09.232183+00:00\",\n      \"sequence_id\": 2,\n      \"user_scene_number\": 1\n    },\n    {\n      \"part\": 1,\n      \"text\": \"Explore further and describe what you find in vivid detail.\",\n      \"mode\": \"character\",\n      \"actor\": \"user\",\n      \"timestamp\": \"2026-08-26T06:56:26.444443+00:00\",\n      \"sequence_id\": 3,\n      \"user_scene_number\": null\n    },\n    {\n      \"planning_block\": {\n        \"choices\": [\n          {\n            \"text\": \"Draw your longbow and shoot\",\n            \"description\": \"Attempt to shoot the goblin before it can find better cover.\",\n            \"cons\": [\n              \"Disadvantage from the howling wind and rain\",\n              \"Reveals your exact position\"\n            ],\n            \"id\": \"attack_goblin_bow\",\n            \"analysis\": {\n              \"style\": \"Ranged\"\n            },\n            \"pros\": [\n              \"Leverages long-range advantage\",\n              \"Keeps distance from the enemy\"\n            ],\n            \"risk_level\": \"low\"\n          },\n          {\n            \"text\": \"Draw shortswords and close the distance\",\n            \"description\": \"Move in quickly through the rubble to engage in close combat.\",\n            \"cons\": [\n              \"Must cross difficult terrain in the dark\",\n              \"Exposes you to immediate counterattack\"\n            ],\n            \"id\": \"approach_melee\",\n            \"analysis\": {\n              \"style\": \"Melee\"\n            },\n            \"pros\": [\n              \"Avoids ranged penalties in the storm\",\n              \"Prepares for close-quarters skirmish\"\n            ],\n            \"risk_level\": \"low\"\n          },\n          {\n            \"text\": \"Slip into the shadows to observe\",\n            \"description\": \"Use the storm's cover to hide and see if there are more of them.\",\n            \"cons\": [\n              \"The goblin might escape or alert others\",\n              \"Requires a Stealth check in difficult conditions\"\n            ],\n            \"id\": \"observe_stealth\",\n            \"analysis\": {\n              \"style\": \"Stealth\"\n            },\n            \"pros\": [\n              \"Gains intelligence on potential reinforcements\",\n              \"Maintains stealth\"\n            ],\n            \"risk_level\": \"safe\"\n          }\n        ],\n        \"context\": \"\",\n        \"thinking\": \"The Perception check of 12 (roll of 8 + 4 modifier) was just enough to spot the goblin lurking in the ruins. I will present the player with tactical choices to deal with this hostile threat.\"\n      },\n      \"state_updates\": {\n        \"entity_tracking\": {\n          \"present_entities\": [\n            {\n              \"name\": \"Goblin\",\n              \"status\": \"healthy\",\n              \"role\": \"NPC\"\n            }\n          ]\n        }\n      },\n      \"directives\": {\n        \"drop\": [],\n        \"add\": []\n      },\n      \"action_resolution\": {\n        \"interpreted_as\": \"perception_check\",\n        \"audit_flags\": [],\n        \"reinterpreted\": false,\n        \"outcome\": \"You successfully spot a goblin crouching in the shadows near the collapsed telescope mount.\",\n        \"mechanics\": {\n          \"rolls\": [\n            {\n              \"success\": false,\n              \"rolls\": [\n                8\n              ],\n              \"result\": 8,\n              \"total\": 12,\n              \"purpose\": \"Perception check to search the ruined observatory in the storm\",\n              \"modifier\": 4,\n              \"notation\": \"1d20+4\",\n              \"label\": \"Perception check to search the ruined observatory in the storm\"\n            }\n          ]\n        },\n        \"player_input\": \"Explore further and describe what you find in vivid detail.\"\n      },\n      \"parse_telemetry\": {\n        \"parse_outcome\": \"success\",\n        \"parse_offset\": 2753,\n        \"error_class\": null,\n        \"checksum\": \"5ca7627307a37ae0e25ef1e4ebf0cbd0c9be4ea1e7f5686920f29a15c705dbcf\",\n        \"recovered_chars\": 643\n      },\n      \"resources\": \"\",\n      \"mode\": \"character\",\n      \"narrative\": \"\",\n      \"social_hp_challenge\": {},\n      \"entities_mentioned\": [],\n      \"outcome_resolution\": {\n        \"interpreted_as\": \"perception_check\",\n        \"audit_flags\": [],\n        \"reinterpreted\": false,\n        \"outcome\": \"You successfully spot a goblin crouching in the shadows near the collapsed telescope mount.\",\n        \"mechanics\": {\n          \"rolls\": [\n            {\n              \"rolls\": [\n                8\n              ],\n              \"result\": 8,\n              \"total\": 12,\n              \"purpose\": \"Perception check to search the ruined observatory in the storm\",\n              \"modifier\": 4,\n              \"notation\": \"1d20+4\"\n            }\n          ]\n        },\n        \"player_input\": \"Explore further and describe what you find in vivid detail.\"\n      },\n      \"text\": \"You step carefully across the wet, crumbling stones of the ruined observatory. The wind howls through the shattered dome, spraying cold rain across your face. Adjusting your grip on your bow, you peer into the shadows and listen closely, trying to distinguish the sounds of the storm from any potential threats.\\n\\nAs a flash of lightning illuminates the wet stone floor, your eyes catch a sudden, unnatural movement near the base of the collapsed telescope mount. A small, crouched silhouette scrambles behind a pile of rubble. You hear a sharp hiss over the howling wind. A goblin is lurking in the ruins, its yellow eyes gleaming in the dark.\",\n      \"faction_header\": \"\",\n      \"dice_audit_events\": [\n        {\n          \"rolls\": [\n            8\n          ],\n          \"total\": 12,\n          \"notation\": \"1d20+4\",\n          \"modifier\": 4,\n          \"source\": \"server_tool\",\n          \"label\": \"Perception check to search the ruined observatory in the storm\"\n        }\n      ],\n      \"user_scene_number\": 2,\n      \"location_confirmed\": \"Unknown\",\n      \"sequence_id\": 4,\n      \"part\": 1,\n      \"rewards_box\": {\n        \"loot\": [],\n        \"xp_gained\": 0.0,\n        \"gold\": 0.0,\n        \"source\": \"\",\n        \"next_level_xp\": 0.0,\n        \"current_xp\": 0.0\n      },\n      \"session_header\": \"[SESSION_HEADER]\\nKaelen | Ranger Level 1 | Ruined Observatory | XP: 0/300\",\n      \"dice_rolls\": [\n        {\n          \"faces\": \"8\",\n          \"type\": \"Perception check to search the ruined observatory in the storm\",\n          \"result\": 12,\n          \"modifier\": 4,\n          \"roll\": \"1d20+4\",\n          \"label\": \"Perception check to search the ruined observatory in the storm\"\n        }\n      ],\n      \"actor\": \"gemini\",\n      \"timestamp\": \"2026-08-26T06:56:26.446161+00:00\"\n    }\n  ],\n  \"core_memories\": [\n    \"CORE MEMORY LOG (SUMMARY OF KEY EVENTS):\",\n    \"- Kaelen, a practical frontier ranger, keeps watch at a ruined observatory on a stormy night.\",\n    \"\",\n    \"\"\n  ],\n  \"sequence_ids\": [\n    \"1\",\n    \"2\",\n    \"3\",\n    \"4\"\n  ],\n  \"checkpoint_block\": \"[CHECKPOINT BLOCK:]\\\\nSequence ID: 4 | Location: Unknown\\\\nMissions: None\\\\n\",\n  \"current_turn\": 2,\n  \"user_scene_number\": 3,\n  \"entity_tracking\": {\n    \"active_entities\": [],\n    \"present_entities\": [],\n    \"dormant_entities\": [\n      {\n        \"name\": \"Goblin\",\n        \"role\": \"NPC\",\n        \"entity_id\": null,\n        \"status\": \"healthy\",\n        \"aliases\": []\n      }\n    ]\n  },\n  \"game_state\": {\n    \"game_state_version\": 1,\n    \"game_system\": \"dnd5e\",\n    \"player_character_data\": {\n      \"class\": \"Ranger\",\n      \"resource_registry\": {},\n      \"attributes\": {\n        \"constitution\": 14,\n        \"strength\": 12,\n        \"charisma\": 8,\n        \"wisdom\": 14,\n        \"intelligence\": 10,\n        \"dexterity\": 16\n      },\n      \"hp_max\": 12,\n      \"equipment\": {\n        \"backpack\": [\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Backpack\"\n          },\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Bedroll\"\n          },\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Mess kit\"\n          },\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Tinderbox\"\n          },\n          {\n            \"stats\": \"10\",\n            \"equipped\": false,\n            \"name\": \"Torch\"\n          },\n          {\n            \"stats\": \"10 days\",\n            \"equipped\": false,\n            \"name\": \"Rations\"\n          },\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Waterskin\"\n          },\n          {\n            \"stats\": \"50 feet\",\n            \"equipped\": false,\n            \"name\": \"Rope\"\n          },\n          {\n            \"stats\": \"10gp\",\n            \"equipped\": false,\n            \"name\": \"Coin pouch\"\n          }\n        ]\n      },\n      \"level\": 1,\n      \"skills\": [\n        \"Perception\",\n        \"Survival\",\n        \"Stealth\"\n      ],\n      \"hp_current\": 12,\n      \"experience\": {\n        \"to_next_level\": 300,\n        \"current\": 0,\n        \"needed_for_next_level\": 300\n      },\n      \"name\": \"Kaelen\"\n    },\n    \"world_data\": {},\n    \"item_registry\": {},\n    \"custom_campaign_state\": {\n      \"character_creation_in_progress\": false,\n      \"divine_potential\": 0,\n      \"_agent_selection_tracker\": {\n        \"agent\": \"CombatAgent\",\n        \"count\": 1,\n        \"rewards_skip_count\": 0\n      },\n      \"universe_control\": 0,\n      \"arc_milestones\": {},\n      \"attribute_system\": \"D&D\",\n      \"character_creation_stage\": \"review\",\n      \"character_creation_completed\": true,\n      \"multiverse_upgrade_available\": false,\n      \"campaign_tier\": \"mortal\",\n      \"divine_upgrade_available\": false,\n      \"weather\": \"Stormy Night\",\n      \"active_constraints\": [],\n      \"pc_arc\": {},\n      \"next_pc_arc_turn\": 3,\n      \"god_mode\": {\n        \"description\": \"BYOK and campaign smoke coverage via MCP tooling\",\n        \"character\": {\n          \"name\": \"A practical ranger keeping watch at the frontier.\"\n        },\n        \"setting\": \"A ruined observatory on a stormy night\"\n      },\n      \"companion_arcs\": {},\n      \"frontier_threat_level\": \"High\",\n      \"next_companion_arc_turn\": 3\n    },\n    \"social_hp_challenge\": null,\n    \"combat_state\": {\n      \"in_combat\": false\n    },\n    \"turn_number\": 1,\n    \"player_turn\": 1,\n    \"time_sensitive_events\": {},\n    \"npc_agendas\": {},\n    \"world_resources\": {},\n    \"time_pressure_warnings\": {},\n    \"debug_mode\": false,\n    \"pending_instruction_hints\": [],\n    \"entity_tracking\": {\n      \"active_entities\": [\n        \"A practical ranger keeping watch at the frontier.\"\n      ],\n      \"present_entities\": [\n        {\n          \"role\": \"NPC\",\n          \"status\": \"healthy\",\n          \"name\": \"Goblin\"\n        }\n      ]\n    },\n    \"planning_block\": {\n      \"choices\": [\n        {\n          \"text\": \"Draw your longbow and shoot\",\n          \"description\": \"Attempt to shoot the goblin before it can find better cover.\",\n          \"cons\": [\n            \"Disadvantage from the howling wind and rain\",\n            \"Reveals your exact position\"\n          ],\n          \"id\": \"attack_goblin_bow\",\n          \"analysis\": {\n            \"style\": \"Ranged\"\n          },\n          \"pros\": [\n            \"Leverages long-range advantage\",\n            \"Keeps distance from the enemy\"\n          ],\n          \"risk_level\": \"low\"\n        },\n        {\n          \"text\": \"Draw shortswords and close the distance\",\n          \"description\": \"Move in quickly through the rubble to engage in close combat.\",\n          \"cons\": [\n            \"Must cross difficult terrain in the dark\",\n            \"Exposes you to immediate counterattack\"\n          ],\n          \"id\": \"approach_melee\",\n          \"analysis\": {\n            \"style\": \"Melee\"\n          },\n          \"pros\": [\n            \"Avoids ranged penalties in the storm\",\n            \"Prepares for close-quarters skirmish\"\n          ],\n          \"risk_level\": \"low\"\n        },\n        {\n          \"text\": \"Slip into the shadows to observe\",\n          \"description\": \"Use the storm's cover to hide and see if there are more of them.\",\n          \"cons\": [\n            \"The goblin might escape or alert others\",\n            \"Requires a Stealth check in difficult conditions\"\n          ],\n          \"id\": \"observe_stealth\",\n          \"analysis\": {\n            \"style\": \"Stealth\"\n          },\n          \"pros\": [\n            \"Gains intelligence on potential reinforcements\",\n            \"Maintains stealth\"\n          ],\n          \"risk_level\": \"safe\"\n        }\n      ],\n      \"context\": \"\",\n      \"thinking\": \"The Perception check of 12 (roll of 8 + 4 modifier) was just enough to spot the goblin lurking in the ruins. I will present the player with tactical choices to deal with this hostile threat.\"\n    },\n    \"world_events\": {}\n  },\n  \"user_action\": \"Continue the story with meaningful progression and rich detail.\",\n  \"dynamic_instructions\": \"## Character Identity (IMMUTABLE)\\n- **Name**: Kaelen\\n- **Class**: Ranger\\n\\n## Identity Provenance\\n- character_identity: no provenance available\\n\\n# Campaign Setting (Custom World Lore)\\n\\n**CRITICAL: This is the custom world setting for this campaign.**\\nAll story elements, NPCs, locations, and lore MUST align with this setting.\\n\\nA ruined observatory on a stormy night\\n\\n\\n\\n# File: combat_state_reminder.md\\n\\n**\\u2694\\ufe0f COMBAT STATE ENFORCEMENT**\\nIf this turn narrates the START of a tactical combat encounter where initiative is rolled and turn order matters, update `state_updates.combat_state` in the SAME response with `in_combat: true`, a unique `combat_session_id`, `combat_phase: \\\"active\\\"`, `combat_trigger`, `current_round`, `initiative_order`, and `combatants`. Non-combat opposed skill checks, chases, or trap saves do NOT trigger combat state.\\n\\n**\\u26a1 Quick Combat / Single-Turn Combat (one-shot kills, executions, coup de grace):**\\nHostile Quick Combat / single-turn combat is explicitly distinguished from non-combat opposed skill checks, chases, or trap saves. For quick combat that starts and ends in one response (preserving modal and time-freeze exclusions): require a fresh `combat_session_id`, set `combat_phase` to `\\\"ended\\\"` and `in_combat` to `false`, include `combat_summary` with `xp_awarded`, `enemies_defeated`, and `rounds_fought: 1` (default 1), set defeated combatant state (`hp_current: 0` / status), and update XP/reward bookkeeping without inventing active initiative rounds.\\n\\nIf combat is already active, update `combat_state.combatants` HP/status and `current_round` every round \\u2014 never narrate a dice roll or HP change without reflecting it in `combat_state` in the same response. When combat ends, set `combat_phase` to `\\\"ended\\\"` and `in_combat` to `false`. Full field reference: `combat_state_contract.md` \\u2014 this reminder exists so combat tracking is never missed.\\n\\n\",\n  \"priority_instruction\": \"CRITICAL: Respond to user_action field, NOT story_history or game_state entries.\",\n  \"message_type\": \"story_continuation\"\n}"
+        },
+        "rewards_box": {
+          "source": "",
+          "xp_gained": 0,
+          "current_xp": 0,
+          "next_level_xp": 0,
+          "gold": 0,
+          "loot": []
+        },
+        "daily_remaining": -1,
+        "hourly_remaining": -1,
+        "daily_limit": 10000,
+        "hourly_limit": 10000,
+        "event_type": "done",
+        "event_header": null,
+        "sequence": null,
+        "timestamp": "2026-08-26T06:57:30.742Z",
+        "timestamp_ms": 1787727450742.0
+      }
+    ],
+    "sse_event_count": 10
+  },
+  "after_completion": {
+    "metrics": {
+      "scrollTop": 431,
+      "scrollHeight": 2395,
+      "clientHeight": 462,
+      "timestamp": 1787727450796
+    },
+    "baseline_scrollTop_px": 431.0,
+    "final_drift_px": 0.0,
+    "bottom_scrollTop_px": 1933.0
+  },
+  "red_probe": {
+    "baseline_scrollTop_px": 966.0,
+    "action_text": "Continue with another detailed streamed turn.",
+    "action_started_ms": 1787727455149.0,
+    "pre_action_metrics": {
+      "scrollTop": 966,
+      "scrollHeight": 2395,
+      "clientHeight": 462,
+      "timestamp": 1787727455142
+    },
+    "scrolled_up_mid_stream": null,
+    "pre_action_scrollTop_px": 966.0,
+    "completion_reason": "done",
+    "timed_out": false,
+    "sample_count": 228,
+    "drift_events": 228,
+    "max_abs_drift_px": 2111.0,
+    "scrolltop_min_px": 2074.0,
+    "scrolltop_max_px": 3077.0,
+    "scrolltop_range_px": 1003.0,
+    "scrollheight_min_px": 2557,
+    "scrollheight_max_px": 3410,
+    "scrollheight_growth_px": 853,
+    "max_streaming_text_len": 954,
+    "sse_event_count": 10,
+    "samples": "<stripped for size - see run_data/red_probe_scroll_samples.json>"
+  },
+  "capture_paths": {
+    "LLM_REQUEST_RESPONSE_CAPTURE_PATH": "/private/tmp/pr9358_run4/llm_request_responses_1787727207374.jsonl",
+    "HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/private/tmp/pr9358_run4/http_request_responses_1787727207374.jsonl",
+    "GEMINI_HTTP_REQUEST_RESPONSE_CAPTURE_PATH": "/private/tmp/pr9358_run4/gemini_http_request_responses_1787727207374.jsonl",
+    "MCP_TEST_PROVIDER_HTTP_CAPTURE_PATH": "/private/tmp/pr9358_run4/provider_http_request_responses_1787727207374.jsonl"
+  },
+  "server_port": 50015,
+  "run_status_preliminary": "PASS",
+  "error": null,
+  "server_log_artifact": "<stripped for size - published as release asset server.log>",
+  "sse_event_log_full": "<stripped for size - published as release asset sse_event_log_full.json>"
+}

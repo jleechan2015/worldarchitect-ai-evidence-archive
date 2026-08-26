@@ -1,0 +1,25 @@
+{
+  "pr": 9358,
+  "branch": "fix/streaming-scroll-anchor-keep-position",
+  "commit": "12a85e3ff915837a6464af7d59d033072fde9bb9",
+  "campaign_id": "bD4qaarukZ06zY6zyABq",
+  "verdict": "PASS",
+  "primary_metric": "scrolltop_range_px",
+  "scrolltop_range_px": 0.0,
+  "scrollheight_growth_px": 678,
+  "sample_count": 457,
+  "after_completion_drift_px": 0.0,
+  "distance_above_bottom_px": 1502.0,
+  "red_probe_range_px": 1003.0,
+  "real_server": true,
+  "real_llm": true,
+  "mock": false,
+  "time_to_first_narrative_chunk_s": 28.877,
+  "e2e_chunk_hop_ms": {
+    "min": 1.97,
+    "median": 5.94,
+    "max": 16.61,
+    "n": 3
+  },
+  "scope": "PASS on scroll claims; overflow-anchor mechanism NOT proven (growth below fold); gemini_provider.py out of envelope"
+}

@@ -1,0 +1,139 @@
+{
+  "status": "VALID_REAL_RUN",
+  "verdict": "PASS",
+  "verdict_scope": {
+    "scroll_claims": "PASS",
+    "token_level_streaming_depth": "PARTIAL - AGY yields one completed response per turn (agy_provider.py:1361-1369); not evidence for token-by-token streaming"
+  },
+  "supersedes": "Withdrawn bundle whose run hit 'agy_provider: agy quota exhausted' before any provider chunk",
+  "bundle_version": "2.0",
+  "bundle_timestamp": "2026-08-26T07:11:31Z",
+  "git_provenance": {
+    "git_head": "12a85e3ff915837a6464af7d59d033072fde9bb9",
+    "branch": "fix/streaming-scroll-anchor-keep-position",
+    "pr_number": 9358,
+    "production_files_sha256": {
+      "mvp_site/frontend_v1/app.js": "62881794ae6329ef13f146d4587138e211e8a85210e9e3930d67ad07617d2399",
+      "mvp_site/frontend_v1/style.css": "6d5f6e0ae6fb5ec5127bd125a96a0854943892b68d26ff0981bc028841f71f23"
+    },
+    "note": "app.js/style.css byte-identical from f083a8c9d3 through branch head"
+  },
+  "runtime_environment": {
+    "server_port": 50015,
+    "real_server": true,
+    "mock_mode": false,
+    "testing_auth_bypass": true,
+    "worldai_dev_mode": true,
+    "llm_provider": "agy CLI (real)",
+    "agy_model": "Gemini 3.5 Flash (High)",
+    "agy_runtime_home": "~/.cache/worldai/agy-clean-home-v1",
+    "browser": "Chromium headless (Playwright)",
+    "viewport": "1280x720",
+    "campaign_id": "bD4qaarukZ06zY6zyABq",
+    "game_url": "http://127.0.0.1:50015/game/bD4qaarukZ06zY6zyABq?test_mode=true&test_user_id=byok-streaming-browser-1787727207&test_user_email=jleechantest@gmail.com"
+  },
+  "verification_results": {
+    "scenario": "reader scrolled UP mid-stream and stayed",
+    "baseline_before_submit_px": 519.0,
+    "mid_stream_reading_position_px": 431.0,
+    "sample_count": 457,
+    "scrolltop_min_px": 431.0,
+    "scrolltop_max_px": 431.0,
+    "scrolltop_range_px": 0.0,
+    "scrollheight_growth_px": 678,
+    "streaming_text_max_chars": 732,
+    "completion_reason": "done",
+    "after_completion_scrolltop_px": 431,
+    "after_completion_drift_px": 0.0,
+    "bottom_scrolltop_px": 1933.0,
+    "distance_above_bottom_px": 1502.0,
+    "reading_position_preserved": true,
+    "red_probe_scrolltop_range_px": 1003.0,
+    "red_probe_detects_movement": true,
+    "sampling_cadence_ms": {
+      "n": 456,
+      "min": 60,
+      "p50": 93,
+      "p95": 277,
+      "max": 743,
+      "gaps_over_200ms": 52,
+      "gaps_over_500ms": 6,
+      "note": "measured cadence; methodology requested 50 ms"
+    },
+    "scrollheight_growth_events": {
+      "distinct_values": [
+        1717,
+        1866,
+        2014,
+        2062,
+        2395
+      ],
+      "growth_events": 4,
+      "samples_at_initial_height": 239,
+      "note": "333 of the 678 px landed on the final render, observed in one sample"
+    }
+  },
+  "streaming_timing": {
+    "joined_rows": 3,
+    "llm_to_flask_ms": {
+      "count": 3,
+      "first_chunk_ms": 3.15,
+      "min_ms": 0.71,
+      "p50_ms": 3.15,
+      "p95_ms": 5.62,
+      "max_ms": 5.62,
+      "percentile_method": "nearest-rank",
+      "small_sample_warning": "n=3: p95 is not statistically meaningful and equals a high-order order statistic; treat min/median/max as the real summary."
+    },
+    "flask_to_browser_ms": {
+      "count": 3,
+      "first_chunk_ms": 2.79,
+      "min_ms": 1.26,
+      "p50_ms": 2.79,
+      "p95_ms": 10.99,
+      "max_ms": 10.99,
+      "percentile_method": "nearest-rank",
+      "small_sample_warning": "n=3: p95 is not statistically meaningful and equals a high-order order statistic; treat min/median/max as the real summary."
+    },
+    "llm_to_browser_ms": {
+      "count": 3,
+      "first_chunk_ms": 5.94,
+      "min_ms": 1.97,
+      "p50_ms": 5.94,
+      "p95_ms": 16.61,
+      "max_ms": 16.61,
+      "percentile_method": "nearest-rank",
+      "small_sample_warning": "n=3: p95 is not statistically meaningful and equals a high-order order statistic; treat min/median/max as the real summary."
+    },
+    "time_to_first_chunk_s": {
+      "measured_turn": {
+        "time_to_first_sse_event_s": 1.513,
+        "first_sse_event_type": "metadata",
+        "time_to_first_narrative_chunk_s": 28.877
+      }
+    },
+    "time_to_first_chunk_note": "submit -> first browser-visible SSE event/narrative chunk. The narrative figure is the latency the reader actually experiences; the per-hop delta_ms figures are intra-process handoff only and are NOT user latency.",
+    "thresholds": {
+      "p95_ms": 2000.0,
+      "max_ms": 5000.0
+    },
+    "verdict": "PASS",
+    "limitations": [
+      "only sequence=0 joins all 3 hops; phase-2 sequence=1 lacks request_id (llm_service.py:11466) AND has no LLM-hop row at all (synthesized in llm_service, not emitted by the provider)",
+      "n=3: p95 is not statistically meaningful; an earlier revision published p50 as p95 (analyzer defect, now fixed)",
+      "hop deltas are intra-process handoff, NOT user-perceived latency (28.877 s to first narrative chunk)"
+    ]
+  },
+  "video": {
+    "raw_first_frame": "1 unique color, 100% white (INVALID)",
+    "published_first_frame": "13747 unique colors, HUD text present (VALID)",
+    "trim": "published mp4 starts at first HUD frame; removed lead-in is pre-navigation blank",
+    "captions": "burned-in HUD: URL, git SHA, PR, UTC, phase, live scrollTop"
+  },
+  "scope_limits": [
+    "overflow-anchor: none NOT proven - all DOM growth was ~800 px below the fold where scroll anchoring does not apply; this run demonstrates onChunk performs no auto-scroll",
+    "no runtime fix-off control; the only fix-off control is Layer 1 test_phase_a_before_fixture_would_yank",
+    "mvp_site/llm_providers/gemini_provider.py is in the PR diff but outside this bundle (run used AGY, not the Gemini SDK)",
+    "RED probe proves detector liveness, not that the pre-fix build yanked at runtime"
+  ]
+}

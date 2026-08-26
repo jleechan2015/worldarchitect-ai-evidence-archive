@@ -1,0 +1,4 @@
+request_id,sequence,campaign_id,llm_ts_utc,flask_yield_ts_utc,browser_recv_ts_utc,llm_to_flask_ms,flask_to_browser_ms,llm_to_browser_delta_ms,text_length
+bD4qaarukZ06zY6zyABq_2007b473024046bba4146516a74b50d6,0,bD4qaarukZ06zY6zyABq,2026-08-26T06:58:03.955032+00:00,2026-08-26T06:58:03.955745+00:00,2026-08-26T06:58:03.957Z,0.71,1.26,1.97,2638
+bD4qaarukZ06zY6zyABq_3dd6de56ed18412baafea9639441682a,0,bD4qaarukZ06zY6zyABq,2026-08-26T06:56:04.843055+00:00,2026-08-26T06:56:04.846209+00:00,2026-08-26T06:56:04.849Z,3.15,2.79,5.94,1282
+bD4qaarukZ06zY6zyABq_d81c2e2915e64fa78dfbbab3fc675d38,0,bD4qaarukZ06zY6zyABq,2026-08-26T06:57:01.214388+00:00,2026-08-26T06:57:01.220012+00:00,2026-08-26T06:57:01.231Z,5.62,10.99,16.61,1892
