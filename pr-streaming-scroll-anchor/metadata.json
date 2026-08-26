@@ -1,0 +1,82 @@
+{
+  "bundle_version": "1.0",
+  "bundle_timestamp": "2026-08-26T03:50:15Z",
+  "git_provenance": {
+    "git_head": "284539f64882ab7922efb80ca041cfbf925a4c75",
+    "merge_base": "497eb920a44fbf45b8cafd42ab60c970bcc3956a",
+    "branch": "fix/streaming-scroll-anchor-keep-position",
+    "pr_number": 9358
+  },
+  "runtime_environment": {
+    "server_pid": 32337,
+    "server_port": 57744,
+    "server_cmdline": "/Users/jleechan/projects/worldarchitect.ai/venv/bin/python -m mvp_site.main serve",
+    "python_version": "3.12.11 (main, Jun  3 2025, 15:41:47) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "browser": "Chromium (Headless Playwright)",
+    "viewport": "1280x800"
+  },
+  "verification_results": {
+    "before_scrollTop_px": 150,
+    "after_scrollTop_px": 150,
+    "scroll_drift_px": 0,
+    "total_stream_chunks": 9,
+    "reading_position_preserved": true,
+    "samples": [
+      {
+        "chunk_index": 1,
+        "phrase": "As you approach the western arch,",
+        "scrollTop": 150,
+        "drift": 0
+      },
+      {
+        "chunk_index": 2,
+        "phrase": "the celestial runes flare with sapphire radiance.",
+        "scrollTop": 150,
+        "drift": 0
+      },
+      {
+        "chunk_index": 3,
+        "phrase": "A low hum resonates through your armor plate.",
+        "scrollTop": 150,
+        "drift": 0
+      },
+      {
+        "chunk_index": 4,
+        "phrase": "You decipher the ancient script: 'Only the pure of heart may pass.'",
+        "scrollTop": 150,
+        "drift": 0
+      },
+      {
+        "chunk_index": 5,
+        "phrase": "The shadow below retreats into the darkness,",
+        "scrollTop": 150,
+        "drift": 0
+      },
+      {
+        "chunk_index": 6,
+        "phrase": "leaving behind a silver talisman glistening in the frost.",
+        "scrollTop": 150,
+        "drift": 0
+      },
+      {
+        "chunk_index": 7,
+        "phrase": "You reach down to claim the warding talisman,",
+        "scrollTop": 150,
+        "drift": 0
+      },
+      {
+        "chunk_index": 8,
+        "phrase": "feeling its latent divine power surge into your veins.",
+        "scrollTop": 150,
+        "drift": 0
+      },
+      {
+        "chunk_index": 9,
+        "phrase": "The pathway forward is now clear.",
+        "scrollTop": 150,
+        "drift": 0
+      }
+    ]
+  },
+  "evidence_class": "Layer 2 real-callstack + real-browser integration"
+}

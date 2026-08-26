@@ -1,0 +1,13 @@
+{
+  "run_id": "pr9358-real-server-1787716215",
+  "scenarios": [
+    {
+      "name": "test_streaming_scroll_anchor_and_completion_guard",
+      "status": "PASS",
+      "route": "http://127.0.0.1:57744/game/cBCSrw17eBrpCos2n9SR",
+      "before_scroll": 150,
+      "after_scroll": 150,
+      "drift_px": 0
+    }
+  ]
+}
