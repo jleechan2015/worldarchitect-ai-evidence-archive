@@ -1,4 +1,6 @@
 {
+  "status": "INVALID_WITHDRAWN_NO_COMPLETED_REAL_STREAM",
+  "withdrawal_reason": "Exact-head real browser run was blocked by AGY quota exhaustion before any streamed chunk or terminal completion.",
   "run_id": "pr9358-real-server-1787716215",
   "scenarios": [
     {

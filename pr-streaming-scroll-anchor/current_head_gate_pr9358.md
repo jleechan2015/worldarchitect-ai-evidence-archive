@@ -1,4 +1,11 @@
-# Current-Head Quality Gate & Evidence Verification: PR #9358
+# INVALID — DO NOT USE AS EVIDENCE
+
+This historical gate report does not apply to the requested exact-head replay.
+The real server/browser attempt at `10b17f7a599452feaed5191f31ca7776ef5e9d85`
+was blocked by `agy_provider: agy quota exhausted; wait for quota reset before proof`.
+No claim below establishes live streaming completion or UI position preservation.
+
+# Historical gate report (invalid)
 
 **PR Link**: https://github.com/jleechanorg/worldarchitect.ai/pull/9358  
 **Branch**: `fix/streaming-scroll-anchor-keep-position`  

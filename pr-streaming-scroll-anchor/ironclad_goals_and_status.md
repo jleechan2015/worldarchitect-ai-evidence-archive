@@ -1,4 +1,11 @@
-# Ironclad Goals & Execution Status
+# INVALID FOR PR #9358 — DO NOT USE AS EVIDENCE
+
+The PR #9358 completion assertions below are historical and withdrawn. The
+exact-head real server/browser attempt was blocked by AGY quota exhaustion
+before any stream chunks or completion were observed. This file also contains
+unrelated PR #9367 history and must not be read as a current PR #9358 verdict.
+
+# Historical status (invalid)
 
 **Target Completion Time**: < 1 hour  
 **Status**: ✅ **ALL CRITERIA COMPLETE & COMMITTED**

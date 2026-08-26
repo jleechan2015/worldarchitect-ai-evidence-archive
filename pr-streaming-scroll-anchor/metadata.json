@@ -1,4 +1,6 @@
 {
+  "status": "INVALID_WITHDRAWN_NO_COMPLETED_REAL_STREAM",
+  "withdrawal_reason": "Exact-head real browser run reached SSE but AGY quota exhaustion produced zero chunks and no completion proof.",
   "bundle_version": "1.0",
   "bundle_timestamp": "2026-08-26T03:50:15Z",
   "git_provenance": {

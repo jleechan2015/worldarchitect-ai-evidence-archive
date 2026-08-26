@@ -1,4 +1,12 @@
-# Evidence: PR #9358 Streaming Scroll Anchor & Completion Guard
+# INVALID — DO NOT USE AS EVIDENCE
+
+The requested real server/browser replay at
+`10b17f7a599452feaed5191f31ca7776ef5e9d85` failed closed before a provider
+chunk or SSE completion: `agy_provider: agy quota exhausted; wait for quota reset before proof`.
+The checksum sidecar is intentionally invalidated by this withdrawal. The
+historical claims below are not publishable evidence.
+
+# Historical evidence (invalid)
 
 ## Claim → Artifact Map
 - **Claim 1**: Viewport position does NOT shift during streaming chunk growth (`overflow-anchor: none;`).

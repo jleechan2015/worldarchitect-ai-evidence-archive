@@ -1,4 +1,11 @@
-# Methodology: PR #9358 Real-Server Streaming Scroll Verification
+# INVALID — DO NOT USE AS EVIDENCE
+
+The described run is historical and does not substantiate the exact-head
+request. The current real run was blocked by AGY quota exhaustion before a
+streamed chunk and terminal completion. Its checksum sidecar is intentionally
+invalidated by this withdrawal.
+
+# Historical methodology (invalid)
 
 ## Environment
 - **Server**: Real Flask backend (`python -m mvp_site.main serve`) on port `57744`
