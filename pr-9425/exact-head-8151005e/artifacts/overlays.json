@@ -1,0 +1,5 @@
+[
+  {"frame_index": 0, "action_label": "Exact PR #9425 HEAD | real localserver + AGY | baseline capture", "timestamp_range": [0, 70]},
+  {"frame_index": 1, "action_label": "Reading: unique sentence centered in tall active streaming entry", "timestamp_range": [70, 145]},
+  {"frame_index": 2, "action_label": "Completion: structured debug information + exactly four choices", "timestamp_range": [145, 152.2]}
+]

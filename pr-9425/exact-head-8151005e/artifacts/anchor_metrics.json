@@ -1,0 +1,15 @@
+{
+  "head": "8151005e282e3aa4337df9aafe50338f1ca0e7f0",
+  "baselineY": 342.609375,
+  "sampleCount": 470,
+  "resolvedCount": 470,
+  "maxDriftPx": 0.0625,
+  "finalDriftPx": 0.0625,
+  "maxMatchCount": 1,
+  "choices": 4,
+  "debugVisible": true,
+  "finalScrollTop": 2796,
+  "eventErrors": [],
+  "providerUsed": "gemini",
+  "modelUsed": "gemini-3-flash-preview"
+}

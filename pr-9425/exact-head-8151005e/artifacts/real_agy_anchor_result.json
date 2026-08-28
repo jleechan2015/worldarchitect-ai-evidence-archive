@@ -1,0 +1,3809 @@
+{
+  "baselineY": 342.609375,
+  "sampleCount": 470,
+  "resolvedCount": 470,
+  "maxDriftPx": 0.0625,
+  "finalDriftPx": 0.0625,
+  "maxMatchCount": 1,
+  "choices": 4,
+  "debugVisible": true,
+  "finalScrollTop": 2796,
+  "samples": [
+    {
+      "timestamp": 76696.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76704.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76713.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76721.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76729.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76737.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76746.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76754.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76763.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76771.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76780.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76788.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76796.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76805.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76813.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76821.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76829.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76837.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76845.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76855.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76863.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76871.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76879.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76887.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76895.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76904.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76913.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76921.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76929.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76937.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76945.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76954.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76962.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76970.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76979.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76987.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 76996.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77004.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77012.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77021.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77029.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77038.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77046.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77055,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77062.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77071.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77080.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77088.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77095.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77105.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77112.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77121.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77130,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77138.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77146.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77155.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77162.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77171.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77180.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77188.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77196.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77205.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77213.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77221.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77229.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77238.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77245.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77255.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77262.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77271,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77279.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77288.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77296.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77304.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77313.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77321.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77329.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77338.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77346.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77355,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77363.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77371.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77379.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77388.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77396.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77404.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77412.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77421.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77430,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77437.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77446.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77454.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77463.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77471.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77480,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77488.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77496.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77504.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77513.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77521.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77529.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77538.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77546.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77555,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77562.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77571.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77579.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77588.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77596.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77605,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77613.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77621.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77629.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77637.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77646.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77655,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77662.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77671.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77680,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77688.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77696.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77705,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77713.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77721,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77729.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77737.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77746.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77755,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77762.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77770.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77780.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77788.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77796.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77804.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77813,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77821.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77830,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77838.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77846.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77854.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77862.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77870.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77880.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77888.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77896,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77904.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77912.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77921.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77929.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77937.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77946.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77954.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77962.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77971.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77979.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77987.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 77996.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78004.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78012.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78021.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78029.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78037.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78046.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78055.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78063.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78071.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78080,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78087.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78095.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78104.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78112.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78121.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78130,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78137.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78146.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78155,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78162.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78171.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78179.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78188.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78196.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78205.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78212.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78220.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78229.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78238.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78245.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78254.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78262.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78271.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78279.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78287.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78296.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78304.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78313.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78321.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78330,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78337.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78346.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78354.5,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78363.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78371.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78379.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78387.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78395.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78404.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78412.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78421.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78429.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78438.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78446.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78455.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78462.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78471.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78479.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78487.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78496.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78505,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78512.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78521.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78529.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78537.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78546.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78554.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78563.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78571.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78579.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78587.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78595.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78605,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78613.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78620.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78629.9,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78638.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78646.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78654.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78663.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78671.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78679.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78688.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78696.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78704.2,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78713.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78721.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78730,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78738.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78746.6,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78755,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78763.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78771.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78780,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78788.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78795.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78805.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78813.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78820.8,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78830.1,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78838.4,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78846.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78855,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78863.3,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78871.7,
+      "sentenceTop": 342.609375,
+      "matchCount": 1,
+      "scrollTop": 2397,
+      "scrollHeight": 5041,
+      "streaming": true
+    },
+    {
+      "timestamp": 78879.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78887.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78895.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78904.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78912.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78921.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78930,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78938.2,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78946.2,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78955,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78963.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78971.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78980,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78988.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 78996.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79004.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79012.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79020.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79029.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79038.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79046.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79055,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79063.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79071.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79079.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79088.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79096,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79104.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79113.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79121.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79130,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79138.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79145.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79155.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79163.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79171.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79179.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79187.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79195.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79204.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79213.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79221.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79229.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79238.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79246.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79254.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79263.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79271.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79279.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79287.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79296.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79305.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79313.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79321.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79330,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79338.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79346.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79354.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79363.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79370.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79379.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79387.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79396.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79404.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79412.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79421,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79430.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79438.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79446.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79455,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79462.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79470.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79479.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79487.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79496.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79504.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79512.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79521.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79529.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79537.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79546.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79555,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79562.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79571.2,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79579.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79588.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79595.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79604.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79612.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79621.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79629.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79638,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79645.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79655.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79662.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79671.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79679.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79687.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79696.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79705,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79712.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79721.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79729.2,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79737.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79745.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79755.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79762.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79770.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79779.2,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79787.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79796.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79804.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79812.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79821.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79829.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79837.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79845.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79854.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79862.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79871.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79879.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79887.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79896.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79904.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79913.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79920.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79929.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79938.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79946.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79954,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79962.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79970.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79980.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79987.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 79995.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80004.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80013.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80021.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80029.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80038.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80046.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80054.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80062.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80071.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80080,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80088.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80096.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80104.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80113.2,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80120.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80129.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80137.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80146.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80155,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80162.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80171.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80179.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80187.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80196.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80204.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80213.2,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80221.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80229.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80238.2,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80246.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80254.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80262.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80271,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80279.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80287.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80295.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80304.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80313.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80321.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80329.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80338.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80346.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80354.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80362.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80371.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80379.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80388.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80396.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80404.2,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80412.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80421,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80429.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80437.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80446.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80455,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80463.4,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80470.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80479.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80487.9,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80496,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80504.3,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80512.6,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80521.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80529.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80537.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80546,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80555,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80562.8,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80571,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80580.1,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80587.5,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80596.7,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    },
+    {
+      "timestamp": 80605,
+      "sentenceTop": 342.546875,
+      "matchCount": 1,
+      "scrollTop": 2796,
+      "scrollHeight": 5501,
+      "streaming": false
+    }
+  ],
+  "head": "8151005e282e3aa4337df9aafe50338f1ca0e7f0",
+  "appAssetUrl": "http://127.0.0.1:57544/frontend_v1/app.js",
+  "appAssetSha256": "c3dddce95d1869c6741b4a7417e3f0aab6e5ca501ddcd5909ae98788fd20d701",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "campaignId": "GotdHqRrmciWhRpNM2ii",
+  "eventErrors": [],
+  "providerUsed": "gemini",
+  "modelUsed": "gemini-3-flash-preview",
+  "processingMetadata": {
+    "request_id": "GotdHqRrmciWhRpNM2ii_2b17153fc79547fe9349352b499e7ddf",
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3-flash-preview",
+    "model": "gemini-3-flash-preview",
+    "agent_name": "StoryModeAgent",
+    "rag_mode": "original",
+    "served_prompt_mode": "regular",
+    "serves_dynamic_rag_prompt": false,
+    "tier2_tokens_est": 249,
+    "provider_type": "agy",
+    "prompt_tokens": 4008,
+    "streaming_response_signature": {
+      "schema_version": "streaming-response-v1",
+      "algorithm": "sha256",
+      "digest": "40fbbf07d2cdb098fa8eba7f19fee3254b4370b637ff7beb169df8f42c708f3a",
+      "signed": false,
+      "response_length": 24156,
+      "request_id": "GotdHqRrmciWhRpNM2ii_2b17153fc79547fe9349352b499e7ddf"
+    },
+    "execution_path": "streaming",
+    "raw_response_text": "{\"action_resolution\":{\"audit_flags\":[],\"interpreted_as\":\"continue_story_and_begin_gameplay\",\"mechanics\":{\"rolls\":[]},\"outcome\":\"Story continued in the Grand Archives library. Aric, a Fighter scholar, is confronted by an ancient paper guardian.\",\"player_input\":\"Continue the story with a long, coherent narrative of at least 1800 words and at least 30 full paragraphs. Include one unique sentence in the middle: The obsidian astrolabe held the moonlight in seven patient rings. Return structured debug information and exactly four actionable choices.\",\"reinterpreted\":false},\"debug_info\":{\"character_sheet_verified\":true,\"paragraph_count_goal\":30,\"unique_sentence_included\":true,\"word_count_goal\":1800},\"dice_rolls\":[],\"directives\":{\"add\":[],\"drop\":[]},\"narrative\":\"The silence of the Grand Archives was not a mere absence of sound; it was a heavy, physical presence that draped itself over the towering mahogany bookshelves like a velvet shroud. Here, deep within the subterranean vaults of the library, the air was cool and thick with the scent of decaying leather, dried ink, and the sweet, musty perfume of ancient parchment. Candlelight flickered in copper sconces, casting long, dancing shadows that stretched across the stone floor like skeletal fingers reaching for the secrets locked away within the countless volumes. The library was a labyrinth of knowledge, a monument to a thousand forgotten civilizations whose thoughts had been reduced to fading lines of script. To Aric, this place felt more like a tomb than a repository of learning, a silent graveyard where the minds of long-dead thinkers lay entombed in leather and gold leaf, waiting for a hand brave enough to resurrect their voices.\\n\\nAric, a warrior whose calloused hands were far more accustomed to the grip of a heavy broadsword than the delicate turning of ancient paper, leaned over a massive, brass-bound tome. His armor, a well-worn set of chainmail covered by a dark scholar's tunic, creaked softly with his every breath. It was an unusual sight\\u2014a man built for the brutal realities of the battlefield hunched over texts that had not seen the light of day for centuries\\u2014but Aric was no ordinary soldier. He was a seeker, driven by an insatiable curiosity that could not be satisfied by steel alone. He had spent the better part of a decade fighting in the mud and blood of the borderlands, but a persistent feeling of emptiness had chased him from the shield walls and led him to the quiet halls of study.\\n\\nHe ran a finger down the yellowed page, tracing the faded runes of a language that had died before the founding of the current empire. The letters seemed to squirm under his gaze, defying easy translation, as if the ink itself was reluctant to yield its secrets to an outsider. Yet, there was a pattern to them, a geometric rhythm that spoke of a deep and structured knowledge. He breathed in slowly, letting the quiet of the library settle into his bones, forcing his mind to slow down and match the ancient cadence of the room. Every character was a puzzle piece, a tiny fragment of a grand design that the scholars of Elyria had constructed to explain the nature of existence, and Aric was determined to fit them together, no matter how long it took.\\n\\nOutside, the world was loud, chaotic, and dangerous. Warlords fought over borders, and empires rose and fell like waves on a storm-tossed sea. But inside these stone walls, time was suspended. The books remained constant, patient sentinels guarding the wisdom of those who had gone before. Aric found a strange sort of peace here, a sanctuary where the only battle was the struggle to understand. It was a stark contrast to his past, where survival was measured in seconds and decided by the speed of a blade. Here, the struggle was measured in hours, days, and weeks of painstaking translation, a slow war of attrition against his own ignorance.\\n\\nHe shifted his weight, his greaves scraping softly against the stone floor. The sound, though muffled, seemed to echo in the vast emptiness of the archive. He paused, listening intently, his eyes darting to the darker corners of the room. There was no response, only the steady, rhythmic ticking of a grandfather clock located somewhere in the upper levels of the library, its faint chime a reminder that the world outside was still moving, however slowly. The clock was a relic of a younger age, its brass gears turning with a precise, mechanical certainty that felt reassuringly solid in a room filled with the ghostly echoes of the past.\\n\\nAric\\u2019s gaze drifted to the iron-banded chest sitting on the floor beside his chair. Within it lay his weapons and travel gear, a stark reminder of his past and the path that had led him here. He had spent years as a mercenary, selling his sword to the highest bidder, fighting in wars that were not his own. It was a brutal, exhausting existence, one that had left him with physical scars and a weary soul. The chest contained a lifetime of violence\\u2014a notched sword, a dented shield, and a collection of trophies from battles he would rather forget. Yet, he could not bring himself to part with them, for they were as much a part of him as his thirst for knowledge.\\n\\nIt was during a campaign in the eastern wastes that he had first encountered the remnants of the lost civilization of Elyria. Amidst the ruins of a collapsed temple, he had found a fragment of a stone tablet, inscribed with symbols that whispered of a power far older than the gods themselves. That fragment had changed everything. It had awakened a hunger in him, a desire to know more, to understand the forces that shaped the world. The tablet had spoken of a grand design, a celestial mechanism that governed the fates of men and nations, and Aric had known in that moment that he could never return to the simple life of a soldier.\\n\\nHe had abandoned the mercenary company shortly thereafter, exchanging the promise of gold and glory for the pursuit of forgotten knowledge. His former companions had called him a fool, warning him that the search for old secrets was a path that led only to madness or death. They believed that some things were meant to remain hidden, that the past should be left to bury its own dead. But Aric had not been deterred. He had followed the faint trail of rumors and half-truths, eventually arriving at this quiet library. He was convinced that the key to his own future, and perhaps the future of the world, lay hidden in the dusty archives of the past.\\n\\nThe Grand Archives were said to contain the largest collection of Elyrian texts in the known world, though most of them were kept under lock and key, reserved for the high priests and elder scholars. Aric had spent weeks negotiating for access, using what little gold he had left and his martial reputation to convince the head archivist that he was a serious researcher, not a grave robber looking for maps to lost treasure. The archivist, a frail man who looked as though he might crumble into dust himself at any moment, had finally relented, granting Aric access to the lower vaults under the condition that he did not disturb the peace of the library.\\n\\nNow, he finally had his chance. The book before him, titled *The Geometries of the Unseen*, was one of the few surviving works of the Elyrian philosopher-scientists. It was a complex, difficult text, filled with astronomical diagrams, mathematical proofs, and philosophical treatises on the nature of reality. Aric had been studying it for hours, his brow furrowed in concentration. The text was written in a dialect of Old Elyrian that was particularly difficult to decipher, but he had managed to translate several key passages, each one revealing a fragment of a larger, grander theory.\\n\\nHe took a sip of cold water from his waterskin, his eyes never leaving the page. He was close to a breakthrough, he could feel it. The text described a device, a key of sorts, that could align the mortal mind with the cosmic currents, allowing a scholar to perceive the hidden structures of the universe. The description was highly metaphorical, but the diagrams were precise, detailing a complex arrangement of concentric rings. The author of the text had called it the *Astrolabe of the Void*, a tool that could bridge the gap between the material world and the unseen forces that governed it.\\n\\nAric reached into his pack and withdrew a small, heavy object wrapped in velvet. He set it carefully on the desk, unfolding the dark fabric to reveal a polished device. The design was beautiful, featuring ancient symbols etched into the dark metal with incredible precision. He traced the curves and angles with his fingers, noting how the device felt cool to the touch. It was a piece of history, a physical link to a civilization that had mastered both science and magic.\\n\\nThe astrolabe had been his most prized possession, salvaged from the same Elyrian ruins where he had found the stone fragment. For years, he had kept it hidden, unsure of its purpose or how to activate it. He had shown it to several scholars, but none of them had been able to make sense of the intricate carvings or the complex mechanism of the rings. But now, looking at the diagrams in the book, he saw the connection. The rings of the astrolabe matched the drawings exactly. The book was the instruction manual he had been seeking for so long, the missing piece of the puzzle that would allow him to unlock the power of the device.\\n\\nWith trembling fingers, he began to manipulate the device. The outer ring turned with a soft, grinding click, the sound surprisingly loud in the silence of the library. He aligned the symbols on the ring with the coordinates described in the text. A faint vibration hummed through the obsidian, warming the metal beneath his fingertips. It was a tactile sensation that sent a thrill down his spine. The device was responding, its ancient gears awakening from their long slumber.\\n\\nHe adjusted the second ring, then the third. With each alignment, the vibration grew stronger, and the silver light reflected on the device seemed to concentrate, forming tiny, glowing pinpricks of light that danced across the surface. Aric felt a thrill of excitement, his heart hammering against his ribs. He was doing it. He was unlocking the device. He felt a sudden sense of connection to the ancient creators of the astrolabe, a bridge spanning thousands of years of history.\\n\\nThe obsidian astrolabe held the moonlight in seven patient rings. It sat in the absolute center of the heavy oak desk, its dark polished surface absorbing the pale beam that filtered down from the high skylight. Each ring was carved with meticulous precision, displaying celestial bodies and coordinate markers that corresponded to no modern star map. As Aric turned the fourth ring, the faint clicking ceased, and the device seemed to hold its breath, waiting for the final, decisive movement that would align the remaining layers of the mechanism.\\n\\nAs he turned the fourth ring, a sudden, cold draft swept through the archives, causing the candles to flicker and die. The room was plunged into darkness, save for the pale beam of moonlight shining down from the high window and the faint, glowing symbols on the astrolabe. Aric froze, his hand still resting on the device. The air grew rapidly colder, and he could see his breath frosting in the dim light. The sudden drop in temperature was not natural; it carried the distinct tang of active magic.\\n\\nThe silence returned, deeper and more oppressive than before. The steady ticking of the clock had stopped. In the stillness, Aric heard a new sound\\u2014a soft, sliding whisper, like fabric brushing against stone. It was coming from the shadows near the far wall, where the oldest and most restricted books were kept. It was a sound that made the hairs on the back of his neck stand up, a warning that he was no longer alone in the dark. He strained his ears, trying to locate the source of the noise.\\n\\nAric\\u2019s instincts, honed by years of combat, kicked in instantly. His muscles tensed, and his right hand dropped to the pommel of his longsword, which leaned against the side of the table. He did not draw the weapon yet, not wanting to give away his position or escalate the situation unnecessarily, but he was ready to move at a moment's notice. He stood perfectly still, his senses strained to the limit, scanning the darkness for any sign of movement. His grip on the sword was firm, a grounding weight in the dark.\\n\\n\\\\\\\"Who goes there?\\\\\\\" he called out, his voice a low, commanding rumble that seemed to be swallowed by the darkness. There was no answer. The whisper of fabric stopped. Aric strained eyes, peering into the gloom, but the shadows were thick and impenetrable. He could feel the weight of the darkness pressing against him, a heavy, silent presence that seemed to have a mind of its own, watching him with cold curiosity.\\n\\nHe waited, his breath shallow and controlled. He knew the layout of the library well enough, having spent the last three weeks mapping it in his mind, but in the pitch black, the familiar rows of bookshelves looked like a maze of towering, silent giants. If there was someone else in the room, they had the advantage of surprise. He had to assume they were hostile, and he had to prepare for the worst. His eyes adjusted slowly to the dark, but the blackness here was deeper than any ordinary night.\\n\\nSlowly, he withdrew his hand from the sword pommel and reached for his tinderbox. He needed light, but striking a spark would reveal his position. He hesitated, weighing the risks. The astrolabe continued to hum softly on the table, its glowing rings casting a faint, blue light on the open page of the tome. The light was beautiful, but it was also a target, drawing attention to his location in the center of the room.\\n\\nThe light from the device seemed to be changing, the symbols shifting and rearranging themselves. Aric glanced down and saw that the runes on the page were also reacting, glowing with a matching blue hue. The book and the astrolabe were in symbiosis, exchanging information in a language of light. It was a fascinating process, but Aric could not afford to be distracted by it. The sound of movement was growing closer, and he had to react.\\n\\nBefore he could fully process this, the sound returned. It was closer now, a soft, rhythmic patter that sounded like bare feet on stone. It was moving quickly, darting between the bookshelves. Aric stood up, his chair scraping loudly against the stone floor. He drew his sword, the ring of steel sharp and clear in the dark. The weapon felt comforting in his hand, a familiar weight in an unfamiliar situation.\\n\\n\\\\\\\"Show yourself,\\\\\\\" Aric warned, stepping away from the table to give himself room to maneuver. He held the sword in a two-handed grip, his stance low and stable. He was a scholar now, yes, but he was still a fighter, and he would not be caught off guard in the dark. He prepared to face whatever was coming out of the shadows, his eyes locked on the space between two tall shelves.\\n\\nA figure emerged from the shadows, stepping into the pale beam of moonlight. It was not a thief or a rival scholar, but a creature that looked like it had been constructed from the very books that lined the shelves. Its body was a shifting mass of paper and leather, bound together by glowing threads of blue energy. Its eyes were two hollow points of light, staring blankly at Aric. It was a construct, a manifestation of the library\\u2019s defensive magic.\\n\\nThe creature\\u2014a paper golem, or some sort of arcane guardian\\u2014raised an arm made of tightly rolled parchment. The pages rustled loudly, a sound like a storm in a forest. As it moved, a wave of force rippled through the air, carrying the scent of old dust and ozone. The energy rolling off the construct was palpable, a physical pressure that pushed against Aric\\u2019s chest and made his chainmail hum.\\n\\nAric braced himself, his boots digging into the stone floor. He had heard of such guardians, ancient spells left behind by the founders of the library to protect the most dangerous texts. He did not want to destroy the creature\\u2014it was a relic of the knowledge he sought, and he was loath to ruin such a piece of magic\\u2014but he would defend himself if necessary. His warrior\\u2019s training told him that a head-on clash with a construct of this size was dangerous, especially without magical support.\\n\\nThe guardian took a step forward, its paper feet making a soft, dry rustle. It did not seem to be attacking yet, but rather observing him, its hollow eyes scanning Aric and the glowing astrolabe on the table behind him. It seemed to be waiting for something, perhaps a sign or a password. Aric realized that the guardian was reacting to the activation of the astrolabe. The device had triggered the security system, and the guardian was here to evaluate the intruder.\\n\\nAric realized that his sword was useless against a creature made of magic and paper. He needed to find another way to resolve this. The answer, he suspected, lay in the book or the astrolabe. He had to keep the guardian at bay while he figured out how to deactivate it or prove his right to be here. He glanced back at the glowing device, his mind racing to find a solution to this ancient riddle.\\n\\nHe took a slow step back, keeping his sword raised but ready to pivot. The guardian followed his movement, its hollow eyes locked onto him. The blue light from the astrolabe was pulsing now, a steady heartbeat of arcane energy that filled the room with a soft, ethereal glow. The choice was before him, and the path he took would determine whether he left this library with the knowledge he sought, or became just another forgotten story in the dust. The silence of the archives seemed to hold its breath, waiting for his move.\\n\\nAs the tension in the room mounted, the guardian began to emit a low, resonant hum that vibrated in Aric's chest. It sounded like the collective murmuring of thousands of voices, all whispering secrets at the edge of hearing. The sheer volume of information being projected was staggering, threatening to overwhelm Aric's senses if he focused too closely on the noise. He shook his head, focusing his mind on his training, grounding himself in the physical reality of the cold stone floor beneath his boots and the heavy weight of his sword. The voices were a distraction, a test of his concentration and resolve.\\n\\nHe remembered the writings of an ancient cartographer who had once attempted to map the archives. The scholar had written of \\\\\\\"the silent sentinels that read the heart, not the mind.\\\\\\\" If the guardian was evaluating his intent, drawing a weapon might be interpreted as a hostile action, triggering a defensive routine that could bring the entire section of the library collapsing down upon them. Yet, to disarm himself in the presence of an unknown construct went against every instinct he had developed during his years on the battlefield. He was caught between two worlds\\u2014the world of the soldier, which demanded action and defense, and the world of the scholar, which demanded patience and understanding.\\n\\nThe air grew colder, and a thin layer of frost began to form on the edges of the book's pages. The astrolabe\\u2019s hum pitched higher, its rings spinning with increasing speed. Aric knew he had seconds to act before the construct either attacked or the delicate device broke under the stress of the misaligned magic. He could feel the residual energies of Elyria pulling at his mind, offering a glimpse of the vast, cold cosmos, but also demanding a tribute of concentration that he was not sure he could sustain. The device was pulling more and more energy from the surrounding environment, creating a localized magic storm.\\n\\nHe took a breath, the cold air stinging his lungs. The shadows in the corners of the library seemed to deepen, drawing closer as if the room itself was shrinking around him. He had to make a decision. The ancient wisdom was within his grasp, but the cost of failure would be high. He looked from the creature to the glowing astrolabe, and then to the dark pathways of the library that led back to safety. The path of least resistance was to run, to abandon his research and live to fight another day. But Aric was not a man who ran from a challenge, and the secrets of Elyria were too precious to lose.\\n\\nWith his sword still held before him, Aric prepared his next move. The fate of his quest, and perhaps his life, rested on his ability to read the situation correctly. He could attempt to speak to the construct, using the Elyrian terms he had memorized, or he could try to force the astrolabe into a stable alignment before the guardian closed the distance. Alternatively, he could trust his martial reflexes to destroy the construct's core, or simply retreat back into the upper levels of the library, leaving the secrets behind for another day. The choice was his, and the consequences would be real.\",\"planning_block\":{\"choices\":[{\"analysis\":{\"primary_attribute\":\"INT\"},\"confidence\":\"high\",\"cons\":[\"If pronunciation is wrong, the guardian might interpret it as a threat\"],\"description\":\"Recite the greeting runes written in the tome, attempting to calm the guardian with words rather than steel.\",\"id\":\"speak_elyrian\",\"pros\":[\"Avoids combat with an ancient relic\",\"Demonstrates scholar background and respect for the archives\"],\"risk_level\":\"safe\",\"text\":\"Speak in Old Elyrian\"},{\"analysis\":{\"primary_attribute\":\"DEX\"},\"confidence\":\"high\",\"cons\":[\"Leaves you vulnerable to attack during the attempt\",\"High risk if alignment fails\"],\"description\":\"Ignore the guardian for a moment and quickly turn the final ring of the obsidian astrolabe to complete the sequence.\",\"id\":\"align_astrolabe\",\"pros\":[\"Completes the activation, which may command or banish the guardian\"],\"risk_level\":\"risky\",\"text\":\"Align the Final Ring\"},{\"analysis\":{\"primary_attribute\":\"STR\"},\"confidence\":\"high\",\"cons\":[\"May destroy valuable historical materials\",\"Physical weapons might have reduced effect against magic\"],\"description\":\"Engage the paper golem with your longsword, targeting the glowing blue threads that bind its body together.\",\"id\":\"attack_guardian\",\"pros\":[\"Uses your fighter expertise and high strength\",\"Protects the astrolabe from direct interference\"],\"risk_level\":\"dangerous\",\"text\":\"Attack the Guardian\"},{\"analysis\":{\"primary_attribute\":\"DEX\"},\"confidence\":\"high\",\"cons\":[\"Abandons the research and risks losing the astrolabe\",\"The guardian might pursue you out of the vaults\"],\"description\":\"Grab your gear and make a run for the spiral staircase, leaving the guardian and the active astrolabe behind.\",\"id\":\"retreat_upper_levels\",\"pros\":[\"Ensures immediate physical safety\"],\"risk_level\":\"safe\",\"text\":\"Retreat to the Upper Levels\"}],\"thinking\":\"The player wants to continue the story with a long, coherent narrative of at least 1800 words and at least 30 paragraphs, containing a specific unique sentence in the middle. I have written 36 paragraphs representing the scene. I provide four appropriate choices that link Aric's background and attributes to this challenge.\"},\"rewards_box\":{},\"session_header\":\"[SESSION_HEADER]\\\\nThe Archives of the Forgotten | Character: Aric (Fighter Lvl 1) | XP: 0/300\",\"state_updates\":{\"custom_campaign_state\":{\"campaign_tier\":\"mortal\",\"character_creation_completed\":true,\"character_creation_in_progress\":false,\"character_creation_stage\":\"complete\",\"core_memories\":[\"Aric activated the obsidian astrolabe in the Grand Archives, summoning a paper guardian construct.\"]},\"entity_tracking\":{\"active_entities\":[{\"attitude\":\"focused\",\"entity_id\":\"pc_aric_001\",\"hp\":\"12/12\",\"level\":1,\"location\":\"Grand Archives Vaults\",\"name\":\"Aric\",\"role\":\"PC\",\"status\":\"healthy\"}],\"present_entities\":[{\"aliases\":[\"silent sentinel\",\"paper golem\"],\"attitude\":\"observant\",\"entity_id\":\"npc_paper_guardian_001\",\"location\":\"Grand Archives Vaults\",\"name\":\"Paper Guardian\",\"role\":\"Arcane Construct\",\"status\":\"active\"}]}},\"tool_requests\":[]}",
+    "raw_request_payload": "{\n  \"game_mode\": \"character\",\n  \"user_id\": \"test-ui-agy-default-1787877943\",\n  \"selected_prompts\": [],\n  \"use_default_world\": false,\n  \"story_history\": [\n    {\n      \"part\": 1,\n      \"text\": \"Character: A curious scholar seeking forgotten knowledge. | Setting: A quiet library filled with ancient tomes | Description: Browser test campaign\",\n      \"mode\": \"god\",\n      \"actor\": \"user\",\n      \"timestamp\": \"2026-08-28T00:47:14.589461+00:00\",\n      \"sequence_id\": 1,\n      \"user_scene_number\": null\n    },\n    {\n      \"planning_block\": {\n        \"choices\": [\n          {\n            \"text\": \"The Wizard (Arcane Scholar)\",\n            \"description\": \"Embrace the path of the Wizard. Master of arcane formulas, spellbooks, and deep study.\",\n            \"cons\": [\n              \"Fragile with low hit points\",\n              \"Requires preparing spells daily\"\n            ],\n            \"id\": \"select_wizard\",\n            \"analysis\": {\n              \"recommended_subclass\": \"School of Lore\",\n              \"primary_attribute\": \"INT\"\n            },\n            \"pros\": [\n              \"Access to a wide variety of utility and offensive spells\",\n              \"Deeper starting Arcana lore\"\n            ],\n            \"risk_level\": \"safe\",\n            \"confidence\": \"high\"\n          },\n          {\n            \"text\": \"The Knowledge Cleric (Divine Archivist)\",\n            \"description\": \"Become a priest of a deity of knowledge, gaining divine insight and linguistic mastery.\",\n            \"cons\": [\n              \"More focused on divine magic than raw arcane secrets\"\n            ],\n            \"id\": \"select_cleric\",\n            \"analysis\": {\n              \"recommended_subclass\": \"Knowledge Domain\",\n              \"primary_attribute\": \"WIS\"\n            },\n            \"pros\": [\n              \"Healing capabilities\",\n              \"Medium armor proficiency\",\n              \"Channel Divinity: Knowledge of the Ages\"\n            ],\n            \"risk_level\": \"safe\",\n            \"confidence\": \"high\"\n          },\n          {\n            \"text\": \"The Lore Bard (Seeking Archivist)\",\n            \"description\": \"Travel the world gathering secrets, songs, and historical records.\",\n            \"cons\": [\n              \"Fewer raw damaging spells early on\"\n            ],\n            \"id\": \"select_bard\",\n            \"analysis\": {\n              \"recommended_subclass\": \"College of Lore\",\n              \"primary_attribute\": \"CHA\"\n            },\n            \"pros\": [\n              \"Highly versatile skills\",\n              \"Inspirational support\",\n              \"Arcane secrets from any class\"\n            ],\n            \"risk_level\": \"safe\",\n            \"confidence\": \"high\"\n          },\n          {\n            \"text\": \"Custom Creation\",\n            \"description\": \"Build your scholar from scratch, choosing your own race, class, and attributes.\",\n            \"cons\": [\n              \"Requires manual allocation of stats and features\"\n            ],\n            \"id\": \"custom_character\",\n            \"analysis\": {\n              \"primary_attribute\": \"Any\"\n            },\n            \"pros\": [\n              \"Complete control over mechanics and flavor\"\n            ],\n            \"risk_level\": \"safe\",\n            \"confidence\": \"high\"\n          }\n        ],\n        \"context\": \"\",\n        \"thinking\": \"The player is initiating character creation. I will present three thematic choices tailored to a scholar background (Wizard, Knowledge Cleric, Lore Bard) along with a custom creation option.\"\n      },\n      \"full_state_updates\": {\n        \"custom_campaign_state\": {\n          \"campaign_tier\": \"character_creation\",\n          \"character_concept\": \"A curious scholar seeking forgotten knowledge\"\n        }\n      },\n      \"god_mode_response\": \"\",\n      \"state_updates_audit\": {\n        \"custom_campaign_state\": {\n          \"campaign_tier\": \"character_creation\",\n          \"character_concept\": \"A curious scholar seeking forgotten knowledge\"\n        }\n      },\n      \"directives\": {\n        \"drop\": [],\n        \"add\": []\n      },\n      \"action_resolution\": {\n        \"interpreted_as\": \"initialize_character_creation\",\n        \"audit_flags\": [],\n        \"reinterpreted\": false,\n        \"outcome\": \"Character creation initiated.\",\n        \"mechanics\": {\n          \"rolls\": []\n        },\n        \"player_input\": \"Character: A curious scholar seeking forgotten knowledge. | Setting: A quiet library filled with ancient tomes | Description: Browser test campaign\"\n      },\n      \"resources\": \"\",\n      \"dice_rolls\": [],\n      \"text\": \"Welcome, seeker of truth. You stand at the threshold of the Grand Archives, a place where time itself seems to slow under the weight of a million forgotten pages. Before you lies a choice: what kind of scholar are you? Choose a starting path or craft a custom one to begin your journey.\",\n      \"rewards_box\": {\n        \"loot\": [],\n        \"xp_gained\": 0.0,\n        \"gold\": 0.0,\n        \"source\": \"\",\n        \"next_level_xp\": 0.0,\n        \"current_xp\": 0.0\n      },\n      \"part\": 1,\n      \"session_header\": \"[SESSION_HEADER]\\nCharacter Creation: The Archives of the Forgotten | XP: 0/300\",\n      \"actor\": \"gemini\",\n      \"timestamp\": \"2026-08-28T00:47:17.214075+00:00\",\n      \"sequence_id\": 2,\n      \"user_scene_number\": 1\n    }\n  ],\n  \"core_memories\": [],\n  \"sequence_ids\": [\n    \"1\",\n    \"2\"\n  ],\n  \"checkpoint_block\": \"[CHECKPOINT BLOCK:]\\\\nSequence ID: 2 | Location: Unknown\\\\nMissions: None\\\\n\",\n  \"current_turn\": 1,\n  \"user_scene_number\": 2,\n  \"entity_tracking\": {\n    \"active_entities\": [],\n    \"present_entities\": [],\n    \"dormant_entities\": [\n      {\n        \"name\": \"Goblin\",\n        \"role\": \"NPC\",\n        \"entity_id\": null,\n        \"status\": \"healthy\",\n        \"aliases\": []\n      }\n    ]\n  },\n  \"game_state\": {\n    \"game_state_version\": 1,\n    \"game_system\": \"dnd5e\",\n    \"player_character_data\": {\n      \"resource_registry\": {},\n      \"attributes\": {\n        \"constitution\": 14,\n        \"strength\": 16,\n        \"charisma\": 12,\n        \"wisdom\": 10,\n        \"intelligence\": 10,\n        \"dexterity\": 12\n      },\n      \"proficiency_bonus\": 2,\n      \"hp_max\": 12,\n      \"string_id\": \"pc_aric_001\",\n      \"class_name\": \"Fighter\",\n      \"equipment\": {\n        \"backpack\": [\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Backpack\"\n          },\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Bedroll\"\n          },\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Mess kit\"\n          },\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Tinderbox\"\n          },\n          {\n            \"stats\": \"10\",\n            \"equipped\": false,\n            \"name\": \"Torch\"\n          },\n          {\n            \"stats\": \"10 days\",\n            \"equipped\": false,\n            \"name\": \"Rations\"\n          },\n          {\n            \"stats\": null,\n            \"equipped\": false,\n            \"name\": \"Waterskin\"\n          },\n          {\n            \"stats\": \"50 feet\",\n            \"equipped\": false,\n            \"name\": \"Rope\"\n          },\n          {\n            \"stats\": \"10gp\",\n            \"equipped\": false,\n            \"name\": \"Coin pouch\"\n          }\n        ]\n      },\n      \"level\": 1,\n      \"experience\": {\n        \"to_next_level\": 300,\n        \"current\": 0,\n        \"needed_for_next_level\": 300\n      },\n      \"hp_current\": 12,\n      \"name\": \"Aric\"\n    },\n    \"world_data\": {},\n    \"item_registry\": {},\n    \"custom_campaign_state\": {\n      \"character_concept\": \"A curious scholar seeking forgotten knowledge\",\n      \"divine_potential\": 0,\n      \"character_creation_completed\": true,\n      \"universe_control\": 0,\n      \"arc_milestones\": {},\n      \"attribute_system\": \"D&D\",\n      \"character_creation_stage\": \"complete\",\n      \"multiverse_upgrade_available\": false,\n      \"campaign_tier\": \"mortal\",\n      \"divine_upgrade_available\": false,\n      \"active_constraints\": [],\n      \"pc_arc\": {},\n      \"next_pc_arc_turn\": 3,\n      \"companion_arcs\": {},\n      \"god_mode\": {\n        \"description\": \"Browser test campaign\",\n        \"character\": {\n          \"name\": \"A curious scholar seeking forgotten knowledge.\"\n        },\n        \"setting\": \"A quiet library filled with ancient tomes\"\n      },\n      \"character_creation_in_progress\": false,\n      \"next_companion_arc_turn\": 3,\n      \"_agent_selection_tracker\": {\n        \"agent\": \"StoryModeAgent\",\n        \"count\": 1,\n        \"rewards_skip_count\": 0\n      }\n    },\n    \"social_hp_challenge\": null,\n    \"combat_state\": {\n      \"in_combat\": false\n    },\n    \"turn_number\": 0,\n    \"player_turn\": 0,\n    \"time_sensitive_events\": {},\n    \"npc_agendas\": {},\n    \"world_resources\": {},\n    \"time_pressure_warnings\": {},\n    \"debug_mode\": true,\n    \"pending_instruction_hints\": [],\n    \"entity_tracking\": {\n      \"active_entities\": [\n        \"A curious scholar seeking forgotten knowledge.\"\n      ],\n      \"present_entities\": []\n    }\n  },\n  \"user_action\": \"Continue the story with a long, coherent narrative of at least 1800 words and at least 30 full paragraphs. Include one unique sentence in the middle: The obsidian astrolabe held the moonlight in seven patient rings. Return structured debug information and exactly four actionable choices.\",\n  \"dynamic_instructions\": \"## Character Identity (IMMUTABLE)\\n- **Name**: Aric\\n- **Class**: Fighter\\n\\n## Identity Provenance\\n- character_identity: no provenance available\\n\\n# Campaign Setting (Custom World Lore)\\n\\n**CRITICAL: This is the custom world setting for this campaign.**\\nAll story elements, NPCs, locations, and lore MUST align with this setting.\\n\\nA quiet library filled with ancient tomes\\n\\n\\n\\n## Character Creation Finish Handoff (StoryModeAgent)\\nIf `custom_campaign_state.character_creation_completed` is true and `character_creation_in_progress` is false, character creation is already closed. For a user_action that is the finish/start-game modal action, continue as normal story mode immediately: do not write a `[CHARACTER CREATION ...]` header, do not present character-creation review or approval prose, do not emit character-creation edit/finish choices, and do not set `custom_campaign_state.character_creation_stage` to any non-complete value. Present the first playable story scene and ordinary story choices.\\n\\n\\n# File: combat_state_reminder.md\\n\\n**\\u2694\\ufe0f COMBAT STATE ENFORCEMENT**\\nIf this turn narrates the START of a tactical combat encounter where initiative is rolled and turn order matters, update `state_updates.combat_state` in the SAME response with `in_combat: true`, a unique `combat_session_id`, `combat_phase: \\\"active\\\"`, `combat_trigger`, `current_round`, `initiative_order`, and `combatants`. Non-combat opposed skill checks, chases, or trap saves do NOT trigger combat state.\\n\\n**\\u26a1 Quick Combat / Single-Turn Combat (one-shot kills, executions, coup de grace):**\\nHostile Quick Combat / single-turn combat is explicitly distinguished from non-combat opposed skill checks, chases, or trap saves. For quick combat that starts and ends in one response (preserving modal and time-freeze exclusions): require a fresh `combat_session_id`, set `combat_phase` to `\\\"ended\\\"` and `in_combat` to `false`, include `combat_summary` with `xp_awarded`, `enemies_defeated`, and `rounds_fought: 1` (default 1), set defeated combatant state (`hp_current: 0` / status), and update XP/reward bookkeeping without inventing active initiative rounds.\\n\\nIf combat is already active, update `combat_state.combatants` HP/status and `current_round` every round \\u2014 never narrate a dice roll or HP change without reflecting it in `combat_state` in the same response. When combat ends, set `combat_phase` to `\\\"ended\\\"` and `in_combat` to `false`. Full field reference: `combat_state_contract.md` \\u2014 this reminder exists so combat tracking is never missed.\\n\\n\",\n  \"priority_instruction\": \"CRITICAL: Respond to user_action field, NOT story_history or game_state entries.\",\n  \"message_type\": \"story_continuation\"\n}"
+  }
+}

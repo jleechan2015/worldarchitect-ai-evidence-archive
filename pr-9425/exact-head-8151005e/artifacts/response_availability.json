@@ -1,0 +1,5 @@
+{
+  "availability": "captured",
+  "source": "real_agy_anchor_result.json processingMetadata.raw_response_text",
+  "note": "Raw structured response text was captured by the browser harness; full parsed DOM/result evidence is in real_agy_anchor_result.json."
+}

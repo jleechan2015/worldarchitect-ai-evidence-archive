@@ -1,0 +1,11 @@
+cd /Users/jleechan/projects/worktree_misc_p0 && env PR9425_REPO=/Users/jleechan/projects/worktree_misc_p0 PYTHONPATH=/Users/jleechan/projects/worktree_misc_p0 ./vpython /tmp/pr9425-exact-head-real-agy-551b/artifacts/runner.py > /tmp/pr9425-exact-head-real-agy-8151/artifacts/runner.log 2>&1; echo RUNNER_EXIT:$?Last login: Thu Aug 27 17:40:39 on ttys016
+You have new mail.
+jleechan@jeffreys-macbook-pro:~/projects/worktree_misc_p0$ cd /Users/jleechan/projects/worktree_misc_p0 && env PR9425_REPO=/Users/jleechan/projects/worktree_misc_p0 PYTHONPATH=/Users/jleechan/projects/worktree_misc_p0 ./vpython /tmp/pr9425-exact-head-real-agy-551b/artifacts/runner.py > /tmp/pr9425-exact-head-real-agy-8151/artifacts/runner.log 2>&1; echo RUNNER_EXIT:$?
+RUNNER_EXIT:0
+jleechan@jeffreys-macbook-pro:~/projects/worktree_misc_p0$ printf '%s
+' 'CMUX_EVIDENCE_SUMMARY'; rg 'REAL_AGY_BASELINE|REAL_AGY_RESULT|REAL_AGY_EVIDENCE|RUNNER_EXIT' /tmp/pr9425-exact-head-real-agy-8151/artifacts/runner.log | sed -E 's/(REAL_AGY_RESULT ).*/\1{he> ' 'Ctmp/pr9425-exact-head-real-agy-8151/artifacts/runner.log | sed -E 's/(REAL_AGY_RESULT ).*/\1{head:8151005e282e3aa4337df9aafe50338f1ca0e7f0,maxDriftPx:0.0625,finalDriftPx:0.0625,resolvedCount:470,choices:4,debugVisible:true,eventErrors:[],providerUsed:gemini}/'
+CMUX_EVIDENCE_SUMMARY
+REAL_AGY_BASELINE {"clientHeight": 483, "containerTop": 101, "entryHeight": 4268, "scrollHeight": 5041, "scrollTop": 2397, "y": 342.609375}
+REAL_AGY_RESULT {head:8151005e282e3aa4337df9aafe50338f1ca0e7f0,maxDriftPx:0.0625,finalDriftPx:0.0625,resolvedCount:470,choices:4,debugVisible:true,eventErrors:[],providerUsed:gemini}
+REAL_AGY_EVIDENCE /var/folders/j0/byd1z6px50v88lf679bgt0h00000gn/T/worktree_misc_p0/fix-streaming-scroll-preserve-position/ui_agy_provider_default/run_1787877943/real_agy_anchor_result.json
+jleechan@jeffreys-macbook-pro:~/projects/worktree_misc_p0$ 

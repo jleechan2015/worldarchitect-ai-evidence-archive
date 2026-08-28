@@ -1,0 +1,21 @@
+{
+  "head": "8151005e282e3aa4337df9aafe50338f1ca0e7f0",
+  "appAssetUrl": "http://127.0.0.1:57544/frontend_v1/app.js",
+  "appAssetSha256": "c3dddce95d1869c6741b4a7417e3f0aab6e5ca501ddcd5909ae98788fd20d701",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "campaignId": "GotdHqRrmciWhRpNM2ii",
+  "providerUsed": "gemini",
+  "modelUsed": "gemini-3-flash-preview",
+  "processingMetadata": {
+    "execution_path": null,
+    "provider_type": null,
+    "model": null,
+    "request_id": null,
+    "streaming_response_signature": null,
+    "tier2_tokens_est": null
+  }
+}

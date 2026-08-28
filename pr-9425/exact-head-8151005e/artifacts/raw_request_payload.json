@@ -1,0 +1,293 @@
+{
+  "game_mode": "character",
+  "user_id": "test-ui-agy-default-1787877943",
+  "selected_prompts": [],
+  "use_default_world": false,
+  "story_history": [
+    {
+      "part": 1,
+      "text": "Character: A curious scholar seeking forgotten knowledge. | Setting: A quiet library filled with ancient tomes | Description: Browser test campaign",
+      "mode": "god",
+      "actor": "user",
+      "timestamp": "2026-08-28T00:47:14.589461+00:00",
+      "sequence_id": 1,
+      "user_scene_number": null
+    },
+    {
+      "planning_block": {
+        "choices": [
+          {
+            "text": "The Wizard (Arcane Scholar)",
+            "description": "Embrace the path of the Wizard. Master of arcane formulas, spellbooks, and deep study.",
+            "cons": [
+              "Fragile with low hit points",
+              "Requires preparing spells daily"
+            ],
+            "id": "select_wizard",
+            "analysis": {
+              "recommended_subclass": "School of Lore",
+              "primary_attribute": "INT"
+            },
+            "pros": [
+              "Access to a wide variety of utility and offensive spells",
+              "Deeper starting Arcana lore"
+            ],
+            "risk_level": "safe",
+            "confidence": "high"
+          },
+          {
+            "text": "The Knowledge Cleric (Divine Archivist)",
+            "description": "Become a priest of a deity of knowledge, gaining divine insight and linguistic mastery.",
+            "cons": [
+              "More focused on divine magic than raw arcane secrets"
+            ],
+            "id": "select_cleric",
+            "analysis": {
+              "recommended_subclass": "Knowledge Domain",
+              "primary_attribute": "WIS"
+            },
+            "pros": [
+              "Healing capabilities",
+              "Medium armor proficiency",
+              "Channel Divinity: Knowledge of the Ages"
+            ],
+            "risk_level": "safe",
+            "confidence": "high"
+          },
+          {
+            "text": "The Lore Bard (Seeking Archivist)",
+            "description": "Travel the world gathering secrets, songs, and historical records.",
+            "cons": [
+              "Fewer raw damaging spells early on"
+            ],
+            "id": "select_bard",
+            "analysis": {
+              "recommended_subclass": "College of Lore",
+              "primary_attribute": "CHA"
+            },
+            "pros": [
+              "Highly versatile skills",
+              "Inspirational support",
+              "Arcane secrets from any class"
+            ],
+            "risk_level": "safe",
+            "confidence": "high"
+          },
+          {
+            "text": "Custom Creation",
+            "description": "Build your scholar from scratch, choosing your own race, class, and attributes.",
+            "cons": [
+              "Requires manual allocation of stats and features"
+            ],
+            "id": "custom_character",
+            "analysis": {
+              "primary_attribute": "Any"
+            },
+            "pros": [
+              "Complete control over mechanics and flavor"
+            ],
+            "risk_level": "safe",
+            "confidence": "high"
+          }
+        ],
+        "context": "",
+        "thinking": "The player is initiating character creation. I will present three thematic choices tailored to a scholar background (Wizard, Knowledge Cleric, Lore Bard) along with a custom creation option."
+      },
+      "full_state_updates": {
+        "custom_campaign_state": {
+          "campaign_tier": "character_creation",
+          "character_concept": "A curious scholar seeking forgotten knowledge"
+        }
+      },
+      "god_mode_response": "",
+      "state_updates_audit": {
+        "custom_campaign_state": {
+          "campaign_tier": "character_creation",
+          "character_concept": "A curious scholar seeking forgotten knowledge"
+        }
+      },
+      "directives": {
+        "drop": [],
+        "add": []
+      },
+      "action_resolution": {
+        "interpreted_as": "initialize_character_creation",
+        "audit_flags": [],
+        "reinterpreted": false,
+        "outcome": "Character creation initiated.",
+        "mechanics": {
+          "rolls": []
+        },
+        "player_input": "Character: A curious scholar seeking forgotten knowledge. | Setting: A quiet library filled with ancient tomes | Description: Browser test campaign"
+      },
+      "resources": "",
+      "dice_rolls": [],
+      "text": "Welcome, seeker of truth. You stand at the threshold of the Grand Archives, a place where time itself seems to slow under the weight of a million forgotten pages. Before you lies a choice: what kind of scholar are you? Choose a starting path or craft a custom one to begin your journey.",
+      "rewards_box": {
+        "loot": [],
+        "xp_gained": 0.0,
+        "gold": 0.0,
+        "source": "",
+        "next_level_xp": 0.0,
+        "current_xp": 0.0
+      },
+      "part": 1,
+      "session_header": "[SESSION_HEADER]\nCharacter Creation: The Archives of the Forgotten | XP: 0/300",
+      "actor": "gemini",
+      "timestamp": "2026-08-28T00:47:17.214075+00:00",
+      "sequence_id": 2,
+      "user_scene_number": 1
+    }
+  ],
+  "core_memories": [],
+  "sequence_ids": [
+    "1",
+    "2"
+  ],
+  "checkpoint_block": "[CHECKPOINT BLOCK:]\\nSequence ID: 2 | Location: Unknown\\nMissions: None\\n",
+  "current_turn": 1,
+  "user_scene_number": 2,
+  "entity_tracking": {
+    "active_entities": [],
+    "present_entities": [],
+    "dormant_entities": [
+      {
+        "name": "Goblin",
+        "role": "NPC",
+        "entity_id": null,
+        "status": "healthy",
+        "aliases": []
+      }
+    ]
+  },
+  "game_state": {
+    "game_state_version": 1,
+    "game_system": "dnd5e",
+    "player_character_data": {
+      "resource_registry": {},
+      "attributes": {
+        "constitution": 14,
+        "strength": 16,
+        "charisma": 12,
+        "wisdom": 10,
+        "intelligence": 10,
+        "dexterity": 12
+      },
+      "proficiency_bonus": 2,
+      "hp_max": 12,
+      "string_id": "pc_aric_001",
+      "class_name": "Fighter",
+      "equipment": {
+        "backpack": [
+          {
+            "stats": null,
+            "equipped": false,
+            "name": "Backpack"
+          },
+          {
+            "stats": null,
+            "equipped": false,
+            "name": "Bedroll"
+          },
+          {
+            "stats": null,
+            "equipped": false,
+            "name": "Mess kit"
+          },
+          {
+            "stats": null,
+            "equipped": false,
+            "name": "Tinderbox"
+          },
+          {
+            "stats": "10",
+            "equipped": false,
+            "name": "Torch"
+          },
+          {
+            "stats": "10 days",
+            "equipped": false,
+            "name": "Rations"
+          },
+          {
+            "stats": null,
+            "equipped": false,
+            "name": "Waterskin"
+          },
+          {
+            "stats": "50 feet",
+            "equipped": false,
+            "name": "Rope"
+          },
+          {
+            "stats": "10gp",
+            "equipped": false,
+            "name": "Coin pouch"
+          }
+        ]
+      },
+      "level": 1,
+      "experience": {
+        "to_next_level": 300,
+        "current": 0,
+        "needed_for_next_level": 300
+      },
+      "hp_current": 12,
+      "name": "Aric"
+    },
+    "world_data": {},
+    "item_registry": {},
+    "custom_campaign_state": {
+      "character_concept": "A curious scholar seeking forgotten knowledge",
+      "divine_potential": 0,
+      "character_creation_completed": true,
+      "universe_control": 0,
+      "arc_milestones": {},
+      "attribute_system": "D&D",
+      "character_creation_stage": "complete",
+      "multiverse_upgrade_available": false,
+      "campaign_tier": "mortal",
+      "divine_upgrade_available": false,
+      "active_constraints": [],
+      "pc_arc": {},
+      "next_pc_arc_turn": 3,
+      "companion_arcs": {},
+      "god_mode": {
+        "description": "Browser test campaign",
+        "character": {
+          "name": "A curious scholar seeking forgotten knowledge."
+        },
+        "setting": "A quiet library filled with ancient tomes"
+      },
+      "character_creation_in_progress": false,
+      "next_companion_arc_turn": 3,
+      "_agent_selection_tracker": {
+        "agent": "StoryModeAgent",
+        "count": 1,
+        "rewards_skip_count": 0
+      }
+    },
+    "social_hp_challenge": null,
+    "combat_state": {
+      "in_combat": false
+    },
+    "turn_number": 0,
+    "player_turn": 0,
+    "time_sensitive_events": {},
+    "npc_agendas": {},
+    "world_resources": {},
+    "time_pressure_warnings": {},
+    "debug_mode": true,
+    "pending_instruction_hints": [],
+    "entity_tracking": {
+      "active_entities": [
+        "A curious scholar seeking forgotten knowledge."
+      ],
+      "present_entities": []
+    }
+  },
+  "user_action": "Continue the story with a long, coherent narrative of at least 1800 words and at least 30 full paragraphs. Include one unique sentence in the middle: The obsidian astrolabe held the moonlight in seven patient rings. Return structured debug information and exactly four actionable choices.",
+  "dynamic_instructions": "## Character Identity (IMMUTABLE)\n- **Name**: Aric\n- **Class**: Fighter\n\n## Identity Provenance\n- character_identity: no provenance available\n\n# Campaign Setting (Custom World Lore)\n\n**CRITICAL: This is the custom world setting for this campaign.**\nAll story elements, NPCs, locations, and lore MUST align with this setting.\n\nA quiet library filled with ancient tomes\n\n\n\n## Character Creation Finish Handoff (StoryModeAgent)\nIf `custom_campaign_state.character_creation_completed` is true and `character_creation_in_progress` is false, character creation is already closed. For a user_action that is the finish/start-game modal action, continue as normal story mode immediately: do not write a `[CHARACTER CREATION ...]` header, do not present character-creation review or approval prose, do not emit character-creation edit/finish choices, and do not set `custom_campaign_state.character_creation_stage` to any non-complete value. Present the first playable story scene and ordinary story choices.\n\n\n# File: combat_state_reminder.md\n\n**\u2694\ufe0f COMBAT STATE ENFORCEMENT**\nIf this turn narrates the START of a tactical combat encounter where initiative is rolled and turn order matters, update `state_updates.combat_state` in the SAME response with `in_combat: true`, a unique `combat_session_id`, `combat_phase: \"active\"`, `combat_trigger`, `current_round`, `initiative_order`, and `combatants`. Non-combat opposed skill checks, chases, or trap saves do NOT trigger combat state.\n\n**\u26a1 Quick Combat / Single-Turn Combat (one-shot kills, executions, coup de grace):**\nHostile Quick Combat / single-turn combat is explicitly distinguished from non-combat opposed skill checks, chases, or trap saves. For quick combat that starts and ends in one response (preserving modal and time-freeze exclusions): require a fresh `combat_session_id`, set `combat_phase` to `\"ended\"` and `in_combat` to `false`, include `combat_summary` with `xp_awarded`, `enemies_defeated`, and `rounds_fought: 1` (default 1), set defeated combatant state (`hp_current: 0` / status), and update XP/reward bookkeeping without inventing active initiative rounds.\n\nIf combat is already active, update `combat_state.combatants` HP/status and `current_round` every round \u2014 never narrate a dice roll or HP change without reflecting it in `combat_state` in the same response. When combat ends, set `combat_phase` to `\"ended\"` and `in_combat` to `false`. Full field reference: `combat_state_contract.md` \u2014 this reminder exists so combat tracking is never missed.\n\n",
+  "priority_instruction": "CRITICAL: Respond to user_action field, NOT story_history or game_state entries.",
+  "message_type": "story_continuation"
+}

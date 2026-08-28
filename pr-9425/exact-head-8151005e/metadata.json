@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "repository": "jleechanorg/worldarchitect.ai",
+  "pull_request": 9425,
+  "git_head": "8151005e282e3aa4337df9aafe50338f1ca0e7f0",
+  "captured_at_utc": "2026-08-28T00:49:00Z",
+  "worktree": "/Users/jleechan/projects/worktree_misc_p0",
+  "source_command_surface": "cmux surface:79",
+  "server": {
+    "url": "http://127.0.0.1:57544",
+    "launcher": "testing_ui BrowserTestBase via testing_mcp local server",
+    "command": "gunicorn mvp_site.main:app --bind 0.0.0.0:57544 --workers 1 --worker-class gthread --threads 4 --timeout 600"
+  },
+  "provenance": {
+    "browser": "real headless Playwright Chromium",
+    "application": "real exact-worktree frontend and local server",
+    "authentication": "repository testing auth bypass with a minted test identity",
+    "persistence": "real Firestore REST transport",
+    "generation": "real AGY CLI provider",
+    "network_mocking": false
+  },
+  "checksum_mode": "single root checksums.sha256 manifest; no sidecar checksum files"
+}

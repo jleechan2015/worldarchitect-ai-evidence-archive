@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "claim": "PR 9425 preserves a uniquely identified sentence while a tall active streaming entry completes into structured debug information and four choices.",
+  "result": "PASS",
+  "git_head": "8151005e282e3aa4337df9aafe50338f1ca0e7f0",
+  "app_asset_url": "http://127.0.0.1:57544/frontend_v1/app.js",
+  "app_asset_sha256": "c3dddce95d1869c6741b4a7417e3f0aab6e5ca501ddcd5909ae98788fd20d701",
+  "campaign_id": "GotdHqRrmciWhRpNM2ii",
+  "test_user_id": "test-ui-agy-default-1787877943",
+  "browser": "HeadlessChrome/149.0.7827.55",
+  "viewport": {"width": 1280, "height": 720},
+  "provider_type": "agy",
+  "provider_model": "gemini-3-flash-preview",
+  "execution_path": "streaming",
+  "baseline_y_px": 342.609375,
+  "raf_samples": 470,
+  "resolved_samples": 470,
+  "max_sentence_drift_px": 0.0625,
+  "final_sentence_drift_px": 0.0625,
+  "unique_match_count": 1,
+  "choice_count": 4,
+  "debug_visible": true,
+  "event_errors": [],
+  "settle_window_ms": 1400,
+  "scenarios": [
+    {
+      "id": "active-entry-completion-four-choice",
+      "name": "active-entry-completion-four-choice",
+      "campaign_id": "GotdHqRrmciWhRpNM2ii",
+      "anchor": "The obsidian astrolabe held the moonlight in seven patient rings.",
+      "transition": "tall active streaming entry -> structured completion with debug info and four choices",
+      "browser": "headless Chromium",
+      "result": "PASS",
+      "passed": true,
+      "errors": [],
+      "checks": {
+        "max_sentence_drift_px": 0.0625,
+        "resolved_samples": 470,
+        "unique_match_count": 1,
+        "choice_count": 4,
+        "debug_visible": true,
+        "event_errors": []
+      }
+    }
+  ]
+}
