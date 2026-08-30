@@ -1,0 +1,164 @@
+{
+  "viewport": {
+    "width": 393,
+    "height": 852
+  },
+  "dpr": 3,
+  "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+  "audits": [
+    {
+      "label": "BEFORE",
+      "buttons": [
+        {
+          "i": 0,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 932.453125,
+          "ctitle_width": 900.0625,
+          "white_space": "nowrap",
+          "overflow": "hidden",
+          "text_overflow": "ellipsis",
+          "overflow_wrap": "normal",
+          "word_break": "normal"
+        },
+        {
+          "i": 1,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 841.765625,
+          "ctitle_width": 809.375,
+          "white_space": "nowrap",
+          "overflow": "hidden",
+          "text_overflow": "ellipsis",
+          "overflow_wrap": "normal",
+          "word_break": "normal"
+        },
+        {
+          "i": 2,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 932.5,
+          "ctitle_width": 900.109375,
+          "white_space": "nowrap",
+          "overflow": "hidden",
+          "text_overflow": "ellipsis",
+          "overflow_wrap": "normal",
+          "word_break": "normal"
+        },
+        {
+          "i": 3,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 876.375,
+          "ctitle_width": 843.984375,
+          "white_space": "nowrap",
+          "overflow": "hidden",
+          "text_overflow": "ellipsis",
+          "overflow_wrap": "normal",
+          "word_break": "normal"
+        },
+        {
+          "i": 4,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 862.234375,
+          "ctitle_width": 829.84375,
+          "white_space": "nowrap",
+          "overflow": "hidden",
+          "text_overflow": "ellipsis",
+          "overflow_wrap": "normal",
+          "word_break": "normal"
+        }
+      ],
+      "overflow_count": 5,
+      "button_count": 5
+    },
+    {
+      "label": "AFTER",
+      "buttons": [
+        {
+          "i": 0,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 348.125,
+          "ctitle_width": 315.734375,
+          "white_space": "normal",
+          "overflow": "visible",
+          "text_overflow": "clip",
+          "overflow_wrap": "anywhere",
+          "word_break": "break-word"
+        },
+        {
+          "i": 1,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 337.484375,
+          "ctitle_width": 305.09375,
+          "white_space": "normal",
+          "overflow": "visible",
+          "text_overflow": "clip",
+          "overflow_wrap": "anywhere",
+          "word_break": "break-word"
+        },
+        {
+          "i": 2,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 360.5625,
+          "ctitle_width": 328.171875,
+          "white_space": "normal",
+          "overflow": "visible",
+          "text_overflow": "clip",
+          "overflow_wrap": "anywhere",
+          "word_break": "break-word"
+        },
+        {
+          "i": 3,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 341.859375,
+          "ctitle_width": 309.46875,
+          "white_space": "normal",
+          "overflow": "visible",
+          "text_overflow": "clip",
+          "overflow_wrap": "anywhere",
+          "word_break": "break-word"
+        },
+        {
+          "i": 4,
+          "btn_left": 27.390625,
+          "btn_right": 365.609375,
+          "btn_width": 338.21875,
+          "ctitle_left": 32.390625,
+          "ctitle_right": 356.1875,
+          "ctitle_width": 323.796875,
+          "white_space": "normal",
+          "overflow": "visible",
+          "text_overflow": "clip",
+          "overflow_wrap": "anywhere",
+          "word_break": "break-word"
+        }
+      ],
+      "overflow_count": 0,
+      "button_count": 5
+    }
+  ]
+}

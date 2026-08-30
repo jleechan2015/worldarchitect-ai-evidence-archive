@@ -1,0 +1,21 @@
+{
+  "label": "after",
+  "git_head": "596fd7e88511a81cdadc53da7d484d171d81178d",
+  "pr_head_sha": "596fd7e88511a81cdadc53da7d484d171d81178d",
+  "pr_number": 9495,
+  "branch": "fix/mobile-planning-history-word-wrap",
+  "viewport": {"width": 393, "height": 852},
+  "device_scale_factor": 3,
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+  "overflow_count": 0,
+  "button_count": 5,
+  "buttons": [
+    {"i": 0, "btn_right": 366, "ctitle_right": 348, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"},
+    {"i": 1, "btn_right": 366, "ctitle_right": 337, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"},
+    {"i": 2, "btn_right": 366, "ctitle_right": 361, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"},
+    {"i": 3, "btn_right": 366, "ctitle_right": 342, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"},
+    {"i": 4, "btn_right": 366, "ctitle_right": 356, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"}
+  ],
+  "note": "All 5 buttons wrap mid-word inside their container. ctitle.right (337..361) ≤ button.right (366) on every row. The PR's mobile @media (max-width: 576px) override sets .planning-block-choices {min-width:0; max-width:100%}, .choice-button {max-width:100%; overflow-wrap:anywhere; word-break:break-word}, .ctitle {white-space:normal; overflow:visible; text-overflow:clip; overflow-wrap:anywhere; word-break:break-word}. Desktop default (white-space: nowrap; ellipsis on .ctitle) is preserved per the existing .choice-row.open .ctitle rules.",
+  "png": "after_planning.png"
+}
