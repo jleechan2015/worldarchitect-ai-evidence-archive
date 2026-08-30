@@ -1,0 +1,19 @@
+{
+  "label": "before",
+  "git_head": "origin/main planning-blocks.css (pre-PR-9495)",
+  "pr_head_sha": "596fd7e88511a81cdadc53da7d484d171d81178d",
+  "viewport": {"width": 393, "height": 852},
+  "device_scale_factor": 3,
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+  "overflow_count": 5,
+  "button_count": 5,
+  "buttons": [
+    {"i": 0, "btn_right": 366, "ctitle_right": 932, "overflow_px": 566, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"},
+    {"i": 1, "btn_right": 366, "ctitle_right": 842, "overflow_px": 476, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"},
+    {"i": 2, "btn_right": 366, "ctitle_right": 932, "overflow_px": 566, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"},
+    {"i": 3, "btn_right": 366, "ctitle_right": 876, "overflow_px": 510, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"},
+    {"i": 4, "btn_right": 366, "ctitle_right": 862, "overflow_px": 496, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"}
+  ],
+  "note": "All 5 buttons overflow past their parent's right edge by 476..566 px at iPhone 14 Pro 393x852. The default .ctitle rule (white-space: nowrap; overflow: hidden; text-overflow: ellipsis) does NOT clip here because the long unbreakable strings escape overflow:hidden on a 393px viewport — text bleeds visibly past the planning-block border.",
+  "png": "before_planning.png"
+}
