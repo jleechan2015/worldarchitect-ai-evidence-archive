@@ -1,19 +1,78 @@
 {
   "label": "before",
-  "git_head": "origin/main planning-blocks.css (pre-PR-9495)",
-  "pr_head_sha": "596fd7e88511a81cdadc53da7d484d171d81178d",
-  "viewport": {"width": 393, "height": 852},
+  "viewport": {
+    "width": 393,
+    "height": 852
+  },
   "device_scale_factor": 3,
   "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-  "overflow_count": 5,
-  "button_count": 5,
-  "buttons": [
-    {"i": 0, "btn_right": 366, "ctitle_right": 932, "overflow_px": 566, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"},
-    {"i": 1, "btn_right": 366, "ctitle_right": 842, "overflow_px": 476, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"},
-    {"i": 2, "btn_right": 366, "ctitle_right": 932, "overflow_px": 566, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"},
-    {"i": 3, "btn_right": 366, "ctitle_right": 876, "overflow_px": 510, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"},
-    {"i": 4, "btn_right": 366, "ctitle_right": 862, "overflow_px": 496, "white_space": "nowrap", "overflow_wrap": "normal", "word_break": "normal"}
-  ],
-  "note": "All 5 buttons overflow past their parent's right edge by 476..566 px at iPhone 14 Pro 393x852. The default .ctitle rule (white-space: nowrap; overflow: hidden; text-overflow: ellipsis) does NOT clip here because the long unbreakable strings escape overflow:hidden on a 393px viewport — text bleeds visibly past the planning-block border.",
-  "png": "before_planning.png"
+  "url": "http://127.0.0.1:8051/frontend_v1/_local_evidence_9495.html",
+  "geometry": {
+    "rows": [
+      {
+        "text": "Submit and Ask for Instruction: Acknowledge the signal by ta\u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 1186.95,
+        "overflow_px": 823.34,
+        "btn_height": 94.09,
+        "ctitle_white_space": "nowrap",
+        "ctitle_overflow_wrap": "normal",
+        "btn_overflow_wrap": "normal",
+        "planning_right": 370,
+        "planning_width": 347
+      },
+      {
+        "text": "Investigate the Hatch: Approach the half-buried metal hatch \u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 1382.2,
+        "overflow_px": 1018.59,
+        "btn_height": 94.09,
+        "ctitle_white_space": "nowrap",
+        "ctitle_overflow_wrap": "normal",
+        "btn_overflow_wrap": "normal",
+        "planning_right": 370,
+        "planning_width": 347
+      },
+      {
+        "text": "Log and Observe: Mark the pulse frequency in your field log \u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 1609.69,
+        "overflow_px": 1246.08,
+        "btn_height": 94.09,
+        "ctitle_white_space": "nowrap",
+        "ctitle_overflow_wrap": "normal",
+        "btn_overflow_wrap": "normal",
+        "planning_right": 370,
+        "planning_width": 347
+      },
+      {
+        "text": "Retreat and Regroup: Pull back down the ridge to camp, flag \u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 1253,
+        "overflow_px": 889.39,
+        "btn_height": 94.09,
+        "ctitle_white_space": "nowrap",
+        "ctitle_overflow_wrap": "normal",
+        "btn_overflow_wrap": "normal",
+        "planning_right": 370,
+        "planning_width": 347
+      },
+      {
+        "text": "Broadcast a Counter-Pulse: Key your transmitter to match the\u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 1663.86,
+        "overflow_px": 1300.25,
+        "btn_height": 94.09,
+        "ctitle_white_space": "nowrap",
+        "ctitle_overflow_wrap": "normal",
+        "btn_overflow_wrap": "normal",
+        "planning_right": 370,
+        "planning_width": 347
+      }
+    ],
+    "viewport_w": 393,
+    "planning_right": 370
+  },
+  "element_screenshot": "/tmp/wa-9495-evidence/before_planning_block.png",
+  "full_screenshot": "/tmp/wa-9495-evidence/before_full.png"
 }

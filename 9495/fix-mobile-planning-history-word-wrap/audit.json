@@ -1,164 +1,122 @@
 {
+  "pr": 9495,
+  "head_sha": "596fd7e8851",
+  "branch": "fix/mobile-planning-history-word-wrap",
+  "capture_method": "Playwright headless Chromium against REAL Flask local server (./run_local_server.sh + TESTING_AUTH_BYPASS) on a fresh worktree at the PR HEAD",
+  "fixture_html": "mvp_site/frontend_v1/_local_evidence_9495.html (served by Flask; mirrors parsePlanningBlocks DOM structure from app.js:3926-3937)",
   "viewport": {
     "width": 393,
-    "height": 852
+    "height": 852,
+    "device_scale_factor": 3,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
   },
-  "dpr": 3,
-  "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-  "audits": [
+  "url": "http://127.0.0.1:8051/frontend_v1/_local_evidence_9495.html",
+  "css_bytes_before": {
+    "source": "git show origin/main:mvp_site/frontend_v1/styles/planning-blocks.css",
+    "md5": "e2901596f29b9a7e8b56ec2981527034",
+    "lines": 934,
+    "mobile_576_block": "LACKS the @media (max-width: 576px) wrap rules (.ctitle, .choice-button, .planning-block-choices)"
+  },
+  "css_bytes_after": {
+    "source": "worktree HEAD (PR #9495)",
+    "md5": "345435b33e6f0ae460b80659ab1ad62d",
+    "lines": 964,
+    "mobile_576_block": "HAS the wrap fix at @media (max-width: 576px) \u2014 adds white-space:normal + overflow-wrap:anywhere + word-break:break-word on .ctitle, .choice-button, .planning-block-choices"
+  },
+  "verification": {
+    "served_css_md5_before": "e2901596f29b9a7e8b56ec2981527034 (verified via curl on the running Flask process)",
+    "served_css_md5_after": "345435b33e6f0ae460b80659ab1ad62d (verified via curl on the running Flask process)",
+    "server": "Werkzeug/3.1.8 Python/3.12.11 at 127.0.0.1:8051 (Flask development server, ./run_local_server.sh)",
+    "playwright_browser": "Chromium 1228 (Google Chrome for Testing) headless, --no-sandbox --disable-dev-shm-usage --disable-gpu"
+  },
+  "before_geometry": [
     {
-      "label": "BEFORE",
-      "buttons": [
-        {
-          "i": 0,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 932.453125,
-          "ctitle_width": 900.0625,
-          "white_space": "nowrap",
-          "overflow": "hidden",
-          "text_overflow": "ellipsis",
-          "overflow_wrap": "normal",
-          "word_break": "normal"
-        },
-        {
-          "i": 1,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 841.765625,
-          "ctitle_width": 809.375,
-          "white_space": "nowrap",
-          "overflow": "hidden",
-          "text_overflow": "ellipsis",
-          "overflow_wrap": "normal",
-          "word_break": "normal"
-        },
-        {
-          "i": 2,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 932.5,
-          "ctitle_width": 900.109375,
-          "white_space": "nowrap",
-          "overflow": "hidden",
-          "text_overflow": "ellipsis",
-          "overflow_wrap": "normal",
-          "word_break": "normal"
-        },
-        {
-          "i": 3,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 876.375,
-          "ctitle_width": 843.984375,
-          "white_space": "nowrap",
-          "overflow": "hidden",
-          "text_overflow": "ellipsis",
-          "overflow_wrap": "normal",
-          "word_break": "normal"
-        },
-        {
-          "i": 4,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 862.234375,
-          "ctitle_width": 829.84375,
-          "white_space": "nowrap",
-          "overflow": "hidden",
-          "text_overflow": "ellipsis",
-          "overflow_wrap": "normal",
-          "word_break": "normal"
-        }
-      ],
-      "overflow_count": 5,
-      "button_count": 5
+      "row": 0,
+      "text_preview": "Submit and Ask for Instruction: Acknowledge the signal by tapping your transponder key twice...",
+      "btn_height_px": 94.09,
+      "white_space": "nowrap",
+      "overflow_wrap_btn": "normal",
+      "ctitle_overflow_px": 823.34
     },
     {
-      "label": "AFTER",
-      "buttons": [
-        {
-          "i": 0,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 348.125,
-          "ctitle_width": 315.734375,
-          "white_space": "normal",
-          "overflow": "visible",
-          "text_overflow": "clip",
-          "overflow_wrap": "anywhere",
-          "word_break": "break-word"
-        },
-        {
-          "i": 1,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 337.484375,
-          "ctitle_width": 305.09375,
-          "white_space": "normal",
-          "overflow": "visible",
-          "text_overflow": "clip",
-          "overflow_wrap": "anywhere",
-          "word_break": "break-word"
-        },
-        {
-          "i": 2,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 360.5625,
-          "ctitle_width": 328.171875,
-          "white_space": "normal",
-          "overflow": "visible",
-          "text_overflow": "clip",
-          "overflow_wrap": "anywhere",
-          "word_break": "break-word"
-        },
-        {
-          "i": 3,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 341.859375,
-          "ctitle_width": 309.46875,
-          "white_space": "normal",
-          "overflow": "visible",
-          "text_overflow": "clip",
-          "overflow_wrap": "anywhere",
-          "word_break": "break-word"
-        },
-        {
-          "i": 4,
-          "btn_left": 27.390625,
-          "btn_right": 365.609375,
-          "btn_width": 338.21875,
-          "ctitle_left": 32.390625,
-          "ctitle_right": 356.1875,
-          "ctitle_width": 323.796875,
-          "white_space": "normal",
-          "overflow": "visible",
-          "text_overflow": "clip",
-          "overflow_wrap": "anywhere",
-          "word_break": "break-word"
-        }
-      ],
-      "overflow_count": 0,
-      "button_count": 5
+      "row": 1,
+      "text_preview": "Investigate the Hatch: Approach the half-buried metal hatch at the base...",
+      "btn_height_px": 94.09,
+      "white_space": "nowrap",
+      "overflow_wrap_btn": "normal",
+      "ctitle_overflow_px": 1018.59
+    },
+    {
+      "row": 2,
+      "text_preview": "Log and Observe: Mark the pulse frequency in your field log and spend a few minutes...",
+      "btn_height_px": 94.09,
+      "white_space": "nowrap",
+      "overflow_wrap_btn": "normal",
+      "ctitle_overflow_px": 1246.08
+    },
+    {
+      "row": 3,
+      "text_preview": "Retreat and Regroup: Pull back down the ridge to camp, flag the relay's GPS position...",
+      "btn_height_px": 94.09,
+      "white_space": "nowrap",
+      "overflow_wrap_btn": "normal",
+      "ctitle_overflow_px": 889.39
+    },
+    {
+      "row": 4,
+      "text_preview": "Broadcast a Counter-Pulse: Key your transmitter to match the relay's modulation...",
+      "btn_height_px": 94.09,
+      "white_space": "nowrap",
+      "overflow_wrap_btn": "normal",
+      "ctitle_overflow_px": 1300.25
     }
-  ]
+  ],
+  "after_geometry": [
+    {
+      "row": 0,
+      "text_preview": "Submit and Ask for Instruction: Acknowledge the signal by tapping your transponder key twice...",
+      "btn_height_px": 138.88,
+      "white_space": "normal",
+      "overflow_wrap_btn": "anywhere",
+      "ctitle_overflow_px": -16.84
+    },
+    {
+      "row": 1,
+      "text_preview": "Investigate the Hatch: Approach the half-buried metal hatch at the base...",
+      "btn_height_px": 161.27,
+      "white_space": "normal",
+      "overflow_wrap_btn": "anywhere",
+      "ctitle_overflow_px": -14.17
+    },
+    {
+      "row": 2,
+      "text_preview": "Log and Observe: Mark the pulse frequency in your field log and spend a few minutes...",
+      "btn_height_px": 183.66,
+      "white_space": "normal",
+      "overflow_wrap_btn": "anywhere",
+      "ctitle_overflow_px": -21.87
+    },
+    {
+      "row": 3,
+      "text_preview": "Retreat and Regroup: Pull back down the ridge to camp, flag the relay's GPS position...",
+      "btn_height_px": 161.27,
+      "white_space": "normal",
+      "overflow_wrap_btn": "anywhere",
+      "ctitle_overflow_px": -7.36
+    },
+    {
+      "row": 4,
+      "text_preview": "Broadcast a Counter-Pulse: Key your transmitter to match the relay's modulation...",
+      "btn_height_px": 183.66,
+      "white_space": "normal",
+      "overflow_wrap_btn": "anywhere",
+      "ctitle_overflow_px": -8.23
+    }
+  ],
+  "vision_verification": {
+    "before_planning_block_png": "vision_analyze confirms: all 5 buttons render as single-line 94px-tall cards with text bleeding past the right edge ('Acknowledge t...', 'half-burie...', 'frequency in...', 'the ridge...', 'transmitte...'). Buttons extend horizontally past the planning-block's right border.",
+    "before_full_png": "Page width balloons to 4992px (vs 1179px viewport) because unbreakable button text pushes the layout out horizontally. The planning-block panel sits in the left ~10% of the page, with all buttons visibly overflowing past its right border.",
+    "after_planning_block_png": "vision_analyze confirms: all 5 buttons are tall (138-183px) with text wrapping cleanly inside the button. No character truncation. The planning-block's right border is clean.",
+    "after_full_png": "Page width is correctly 1179px (393 \u00d7 3 DPR). All 5 buttons fit within the planning-block panel. Text wraps mid-word when needed (overflow-wrap: anywhere)."
+  }
 }

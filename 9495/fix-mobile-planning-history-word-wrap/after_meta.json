@@ -1,21 +1,78 @@
 {
   "label": "after",
-  "git_head": "596fd7e88511a81cdadc53da7d484d171d81178d",
-  "pr_head_sha": "596fd7e88511a81cdadc53da7d484d171d81178d",
-  "pr_number": 9495,
-  "branch": "fix/mobile-planning-history-word-wrap",
-  "viewport": {"width": 393, "height": 852},
+  "viewport": {
+    "width": 393,
+    "height": 852
+  },
   "device_scale_factor": 3,
   "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-  "overflow_count": 0,
-  "button_count": 5,
-  "buttons": [
-    {"i": 0, "btn_right": 366, "ctitle_right": 348, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"},
-    {"i": 1, "btn_right": 366, "ctitle_right": 337, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"},
-    {"i": 2, "btn_right": 366, "ctitle_right": 361, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"},
-    {"i": 3, "btn_right": 366, "ctitle_right": 342, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"},
-    {"i": 4, "btn_right": 366, "ctitle_right": 356, "overflow_px": 0, "white_space": "normal", "overflow_wrap": "anywhere", "word_break": "break-word"}
-  ],
-  "note": "All 5 buttons wrap mid-word inside their container. ctitle.right (337..361) ≤ button.right (366) on every row. The PR's mobile @media (max-width: 576px) override sets .planning-block-choices {min-width:0; max-width:100%}, .choice-button {max-width:100%; overflow-wrap:anywhere; word-break:break-word}, .ctitle {white-space:normal; overflow:visible; text-overflow:clip; overflow-wrap:anywhere; word-break:break-word}. Desktop default (white-space: nowrap; ellipsis on .ctitle) is preserved per the existing .choice-row.open .ctitle rules.",
-  "png": "after_planning.png"
+  "url": "http://127.0.0.1:8051/frontend_v1/_local_evidence_9495.html",
+  "geometry": {
+    "rows": [
+      {
+        "text": "Submit and Ask for Instruction: Acknowledge the signal by ta\u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 346.77,
+        "overflow_px": -16.84,
+        "btn_height": 138.88,
+        "ctitle_white_space": "normal",
+        "ctitle_overflow_wrap": "anywhere",
+        "btn_overflow_wrap": "anywhere",
+        "planning_right": 370,
+        "planning_width": 347
+      },
+      {
+        "text": "Investigate the Hatch: Approach the half-buried metal hatch \u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 349.44,
+        "overflow_px": -14.17,
+        "btn_height": 161.27,
+        "ctitle_white_space": "normal",
+        "ctitle_overflow_wrap": "anywhere",
+        "btn_overflow_wrap": "anywhere",
+        "planning_right": 370,
+        "planning_width": 347
+      },
+      {
+        "text": "Log and Observe: Mark the pulse frequency in your field log \u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 341.73,
+        "overflow_px": -21.87,
+        "btn_height": 183.66,
+        "ctitle_white_space": "normal",
+        "ctitle_overflow_wrap": "anywhere",
+        "btn_overflow_wrap": "anywhere",
+        "planning_right": 370,
+        "planning_width": 347
+      },
+      {
+        "text": "Retreat and Regroup: Pull back down the ridge to camp, flag \u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 356.25,
+        "overflow_px": -7.36,
+        "btn_height": 161.27,
+        "ctitle_white_space": "normal",
+        "ctitle_overflow_wrap": "anywhere",
+        "btn_overflow_wrap": "anywhere",
+        "planning_right": 370,
+        "planning_width": 347
+      },
+      {
+        "text": "Broadcast a Counter-Pulse: Key your transmitter to match the\u2026",
+        "btn_right": 363.61,
+        "ctitle_right": 355.38,
+        "overflow_px": -8.23,
+        "btn_height": 183.66,
+        "ctitle_white_space": "normal",
+        "ctitle_overflow_wrap": "anywhere",
+        "btn_overflow_wrap": "anywhere",
+        "planning_right": 370,
+        "planning_width": 347
+      }
+    ],
+    "viewport_w": 393,
+    "planning_right": 370
+  },
+  "element_screenshot": "/tmp/wa-9495-evidence/after_planning_block.png",
+  "full_screenshot": "/tmp/wa-9495-evidence/after_full.png"
 }
