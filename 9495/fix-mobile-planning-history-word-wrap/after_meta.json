@@ -4,75 +4,421 @@
     "width": 393,
     "height": 852
   },
-  "device_scale_factor": 3,
+  "dpr": 3,
   "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
-  "url": "http://127.0.0.1:8051/frontend_v1/_local_evidence_9495.html",
-  "geometry": {
-    "rows": [
-      {
-        "text": "Submit and Ask for Instruction: Acknowledge the signal by ta\u2026",
-        "btn_right": 363.61,
-        "ctitle_right": 346.77,
-        "overflow_px": -16.84,
-        "btn_height": 138.88,
-        "ctitle_white_space": "normal",
-        "ctitle_overflow_wrap": "anywhere",
-        "btn_overflow_wrap": "anywhere",
-        "planning_right": 370,
-        "planning_width": 347
-      },
-      {
-        "text": "Investigate the Hatch: Approach the half-buried metal hatch \u2026",
-        "btn_right": 363.61,
-        "ctitle_right": 349.44,
-        "overflow_px": -14.17,
-        "btn_height": 161.27,
-        "ctitle_white_space": "normal",
-        "ctitle_overflow_wrap": "anywhere",
-        "btn_overflow_wrap": "anywhere",
-        "planning_right": 370,
-        "planning_width": 347
-      },
-      {
-        "text": "Log and Observe: Mark the pulse frequency in your field log \u2026",
-        "btn_right": 363.61,
-        "ctitle_right": 341.73,
-        "overflow_px": -21.87,
-        "btn_height": 183.66,
-        "ctitle_white_space": "normal",
-        "ctitle_overflow_wrap": "anywhere",
-        "btn_overflow_wrap": "anywhere",
-        "planning_right": 370,
-        "planning_width": 347
-      },
-      {
-        "text": "Retreat and Regroup: Pull back down the ridge to camp, flag \u2026",
-        "btn_right": 363.61,
-        "ctitle_right": 356.25,
-        "overflow_px": -7.36,
-        "btn_height": 161.27,
-        "ctitle_white_space": "normal",
-        "ctitle_overflow_wrap": "anywhere",
-        "btn_overflow_wrap": "anywhere",
-        "planning_right": 370,
-        "planning_width": 347
-      },
-      {
-        "text": "Broadcast a Counter-Pulse: Key your transmitter to match the\u2026",
-        "btn_right": 363.61,
-        "ctitle_right": 355.38,
-        "overflow_px": -8.23,
-        "btn_height": 183.66,
-        "ctitle_white_space": "normal",
-        "ctitle_overflow_wrap": "anywhere",
-        "btn_overflow_wrap": "anywhere",
-        "planning_right": 370,
-        "planning_width": 347
-      }
-    ],
-    "viewport_w": 393,
-    "planning_right": 370
+  "campaign_id": "72qG2WMEuUzdwXeY5qAy",
+  "served_css_check": {
+    "url": "http://127.0.0.1:8051/frontend_v1/styles/planning-blocks.css",
+    "verified_via": "curl during capture run (script-side check before/after)"
   },
-  "element_screenshot": "/tmp/wa-9495-evidence/after_planning_block.png",
-  "full_screenshot": "/tmp/wa-9495-evidence/after_full.png"
+  "page_meta": {
+    "url": "http://127.0.0.1:8051/game/72qG2WMEuUzdwXeY5qAy?test_mode=true&test_user_id=0wf6sCREyLcgynidU5LjyZEfm7D2",
+    "title": "WorldAI",
+    "parsePlanningBlocks_present": false,
+    "planning_block_count": 7,
+    "choice_button_count": 35,
+    "ctitle_count": 28,
+    "viewport_w": 393,
+    "document_w": 393,
+    "document_h": 852
+  },
+  "panels": [
+    {
+      "panel_index": 0,
+      "screenshot": "/tmp/wa-9495-real-evidence/after_pb_00.png",
+      "geometry": {
+        "container_right": 349,
+        "container_width": 301,
+        "panel_class": "planning-block",
+        "row_count": 4,
+        "rows": [
+          {
+            "text": "AI Generated (Recommended): The AI will build a complete character sheet for Luk\u2026",
+            "btn_right": 308.61,
+            "btn_height": 138.88,
+            "ctitle_right": 281.95,
+            "overflow_px": -26.66,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Standard D&D Flow: Guided step-by-step creation: select race (Human), class (e.g\u2026",
+            "btn_right": 308.61,
+            "btn_height": 138.88,
+            "ctitle_right": 300.81,
+            "overflow_px": -7.8,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Custom Class / Homebrew: Define a custom 'Sith Apprentice' class from scratch wi\u2026",
+            "btn_right": 308.61,
+            "btn_height": 94.09,
+            "ctitle_right": 303,
+            "overflow_px": -5.61,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Custom Action: decide whatever you want to do\u2026",
+            "btn_right": 346.61,
+            "btn_height": 49.31,
+            "ctitle_right": null,
+            "overflow_px": null,
+            "ctitle_white_space": null,
+            "ctitle_overflow_wrap": null,
+            "btn_overflow_wrap": "anywhere"
+          }
+        ]
+      }
+    },
+    {
+      "panel_index": 1,
+      "screenshot": "/tmp/wa-9495-real-evidence/after_pb_01.png",
+      "geometry": {
+        "container_right": 349,
+        "container_width": 301,
+        "panel_class": "planning-block",
+        "row_count": 4,
+        "rows": [
+          {
+            "text": "Edit Character: Make changes to Luke's stats, Force powers, or equipment before \u2026",
+            "btn_right": 308.61,
+            "btn_height": 71.7,
+            "ctitle_right": 291.44,
+            "overflow_px": -17.17,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Start Over (Standard D&D): Discard this build and use the step-by-step Standard \u2026",
+            "btn_right": 308.61,
+            "btn_height": 94.09,
+            "ctitle_right": 269.7,
+            "overflow_px": -38.91,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Finish Character Creation and Start Game: Accept this Dark Side Luke and begin y\u2026",
+            "btn_right": 308.61,
+            "btn_height": 94.09,
+            "ctitle_right": 301.91,
+            "overflow_px": -6.7,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Custom Action: decide whatever you want to do\u2026",
+            "btn_right": 346.61,
+            "btn_height": 49.31,
+            "ctitle_right": null,
+            "overflow_px": null,
+            "ctitle_white_space": null,
+            "ctitle_overflow_wrap": null,
+            "btn_overflow_wrap": "anywhere"
+          }
+        ]
+      }
+    },
+    {
+      "panel_index": 2,
+      "screenshot": "/tmp/wa-9495-real-evidence/after_pb_02.png",
+      "geometry": {
+        "container_right": 349,
+        "container_width": 301,
+        "panel_class": "planning-block",
+        "row_count": 3,
+        "rows": [
+          {
+            "text": "Edit Character: Make one last adjustment to your Sith Lord loadout.\u2026",
+            "btn_right": 308.61,
+            "btn_height": 71.7,
+            "ctitle_right": 268.03,
+            "overflow_px": -40.58,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Finish Character Creation and Start Game: Accept your ultimate power and begin t\u2026",
+            "btn_right": 308.61,
+            "btn_height": 94.09,
+            "ctitle_right": 299.33,
+            "overflow_px": -9.28,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Custom Action: decide whatever you want to do\u2026",
+            "btn_right": 346.61,
+            "btn_height": 49.31,
+            "ctitle_right": null,
+            "overflow_px": null,
+            "ctitle_white_space": null,
+            "ctitle_overflow_wrap": null,
+            "btn_overflow_wrap": "anywhere"
+          }
+        ]
+      }
+    },
+    {
+      "panel_index": 3,
+      "screenshot": "/tmp/wa-9495-real-evidence/after_pb_03.png",
+      "geometry": {
+        "container_right": 349,
+        "container_width": 301,
+        "panel_class": "planning-block",
+        "row_count": 5,
+        "rows": [
+          {
+            "text": "Interrogate Rebel Officers: Extract the exact coordinates of the Rebel leadershi\u2026",
+            "btn_right": 308.61,
+            "btn_height": 94.09,
+            "ctitle_right": 303.47,
+            "overflow_px": -5.14,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Lead the Vanguard on Sullust: Take your personal TIE Advanced and a wing of Inte\u2026",
+            "btn_right": 308.61,
+            "btn_height": 116.48,
+            "ctitle_right": 295.16,
+            "overflow_px": -13.45,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Infiltrate the Rebel Command: Use the Dark Side to cloak your presence and board\u2026",
+            "btn_right": 308.61,
+            "btn_height": 116.48,
+            "ctitle_right": 303.61,
+            "overflow_px": -5,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Imperial Suppression (Synergistic): Order Piett to blockade the sector while you\u2026",
+            "btn_right": 308.61,
+            "btn_height": 138.88,
+            "ctitle_right": 271.2,
+            "overflow_px": -37.41,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Custom Action: decide whatever you want to do\u2026",
+            "btn_right": 346.61,
+            "btn_height": 49.31,
+            "ctitle_right": null,
+            "overflow_px": null,
+            "ctitle_white_space": null,
+            "ctitle_overflow_wrap": null,
+            "btn_overflow_wrap": "anywhere"
+          }
+        ]
+      }
+    },
+    {
+      "panel_index": 4,
+      "screenshot": "/tmp/wa-9495-real-evidence/after_pb_04.png",
+      "geometry": {
+        "container_right": 349,
+        "container_width": 301,
+        "panel_class": "planning-block",
+        "row_count": 5,
+        "rows": [
+          {
+            "text": "Shatter the Threshold: Ignite your lightsaber and use a burst of Force Speed to \u2026",
+            "btn_right": 308.61,
+            "btn_height": 138.88,
+            "ctitle_right": 298.16,
+            "overflow_px": -10.45,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Sow the Seeds of Panic: Use the Force to crush the primary power conduits in thi\u2026",
+            "btn_right": 308.61,
+            "btn_height": 138.88,
+            "ctitle_right": 295.78,
+            "overflow_px": -12.83,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Cloud the Collective Mind: Unleash a wave of Dark Side energy to cloud the minds\u2026",
+            "btn_right": 308.61,
+            "btn_height": 138.88,
+            "ctitle_right": 290.47,
+            "overflow_px": -18.14,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Dominion of the Void (Synergistic): Crush the throats of the immediate security \u2026",
+            "btn_right": 308.61,
+            "btn_height": 183.66,
+            "ctitle_right": 301.05,
+            "overflow_px": -7.56,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Custom Action: decide whatever you want to do\u2026",
+            "btn_right": 346.61,
+            "btn_height": 49.31,
+            "ctitle_right": null,
+            "overflow_px": null,
+            "ctitle_white_space": null,
+            "ctitle_overflow_wrap": null,
+            "btn_overflow_wrap": "anywhere"
+          }
+        ]
+      }
+    },
+    {
+      "panel_index": 5,
+      "screenshot": "/tmp/wa-9495-real-evidence/after_pb_05.png",
+      "geometry": {
+        "container_right": 349,
+        "container_width": 301,
+        "panel_class": "planning-block",
+        "row_count": 5,
+        "rows": [
+          {
+            "text": "Sunder the Blast Doors: Use the full weight of the Dark Side to rip the heavy bl\u2026",
+            "btn_right": 308.61,
+            "btn_height": 116.48,
+            "ctitle_right": 297.27,
+            "overflow_px": -11.34,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Intercept the Presence: Instead of the doors, turn to meet the presence in the F\u2026",
+            "btn_right": 308.61,
+            "btn_height": 161.27,
+            "ctitle_right": 300.63,
+            "overflow_px": -7.98,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Enslave a Survivor: One technician remains cowering in a side alcove. Use a Forc\u2026",
+            "btn_right": 308.61,
+            "btn_height": 161.27,
+            "ctitle_right": 295.69,
+            "overflow_px": -12.92,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Total Command Domination (Synergistic): Simultaneously Crush the life support to\u2026",
+            "btn_right": 308.61,
+            "btn_height": 161.27,
+            "ctitle_right": 293.94,
+            "overflow_px": -14.67,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Custom Action: decide whatever you want to do\u2026",
+            "btn_right": 346.61,
+            "btn_height": 49.31,
+            "ctitle_right": null,
+            "overflow_px": null,
+            "ctitle_white_space": null,
+            "ctitle_overflow_wrap": null,
+            "btn_overflow_wrap": "anywhere"
+          }
+        ]
+      }
+    },
+    {
+      "panel_index": 6,
+      "screenshot": "/tmp/wa-9495-real-evidence/after_pb_06.png",
+      "geometry": {
+        "container_right": 0,
+        "container_width": 0,
+        "panel_class": "planning-block",
+        "row_count": 5,
+        "rows": [
+          {
+            "text": "Sunder the Command Doors: The path is clear. Rip the blast doors open and execut\u2026",
+            "btn_right": 0,
+            "btn_height": 0,
+            "ctitle_right": 0,
+            "overflow_px": 0,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Search Leia for Intelligence: Take a moment to scour her body for encrypted data\u2026",
+            "btn_right": 0,
+            "btn_height": 0,
+            "ctitle_right": 0,
+            "overflow_px": 0,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Broadcast Victory: Access the corridor terminal to broadcast the image of the fa\u2026",
+            "btn_right": 0,
+            "btn_height": 0,
+            "ctitle_right": 0,
+            "overflow_px": 0,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Command Dominion (Synergistic): Simultaneously broadcast the Princess's demise t\u2026",
+            "btn_right": 0,
+            "btn_height": 0,
+            "ctitle_right": 0,
+            "overflow_px": 0,
+            "ctitle_white_space": "normal",
+            "ctitle_overflow_wrap": "anywhere",
+            "btn_overflow_wrap": "anywhere"
+          },
+          {
+            "text": "Custom Action: decide whatever you want to do\u2026",
+            "btn_right": 0,
+            "btn_height": 0,
+            "ctitle_right": null,
+            "overflow_px": null,
+            "ctitle_white_space": null,
+            "ctitle_overflow_wrap": null,
+            "btn_overflow_wrap": "anywhere"
+          }
+        ]
+      }
+    }
+  ],
+  "screenshots": {
+    "full": "/tmp/wa-9495-real-evidence/after_full.png"
+  }
 }
