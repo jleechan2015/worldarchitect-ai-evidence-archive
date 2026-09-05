@@ -1,0 +1,222 @@
+=== 1. GIT PROVENANCE ===
+HEAD=300878325227b2b940081305351e38326960ce29
+BRANCH=codex/pr9087-evidence-preflight
+UPSTREAM=origin/feat/html-nocache-query
+BASE=origin/fix/cache-hit-rate-denominator
+MERGE_BASE=5e02b024facbd79db892bce4fe2a855b76738394
+WORKTREE=CLEAN
+=== 2. COMMIT LOG ===
+30087832522 (HEAD -> codex/pr9087-evidence-preflight, origin/pr/9087/head, origin/feat/html-nocache-query) fix: harden PR9087 cache evidence receipts [codex][gpt-5.6-luna]
+47dec587ae6 Merge commit '5e02b024facbd79db892bce4fe2a855b76738394' into codex/pr9087-evidence-preflight
+a278faadb0a Merge final PR #9702 clean-tree gate into PR #9087 [codex][gpt-5.6-sol]
+767f747c998 Merge PR #9702 stack into PR #9087 [codex][gpt-5.6-sol]
+f29f3db94e1 test: authenticate cache-bust browser evidence [codex][gpt-5.6-sol]
+7022531983a merge: restack final cache evidence integrity [codex][gpt-5.6-sol]
+4648f53b59d (feat/html-nocache-query) gemini/gemini-2.5-pro: merge: sync PR 9702 into PR 9087
+f94d6044a60 gemini/gemini-2.5-pro: merge: sync PR 9702 into PR 9087
+3d4330f0838 fix(pr9087): await settings script before evidence validation [codex][gpt-5.6-luna]
+21d5be69944 gemini/gemini-2.5-pro: merge: integrate PR 9702, PR 9701, PR 8988, PR 9419 into PR 9087
+f581703a4b9 fix(pr9087): bind settings loading to executing asset [codex][gpt-5.6-luna]
+378f35d60bf fix(pr9087): pin browser evidence provenance [codex][gpt-5.6-luna]
+362a8eac1fa fix(pr9087): snapshot executing app asset version [codex][gpt-5.6-luna]
+421b23f5dd8 fix(pr9087): version dynamic settings asset and seal evidence [codex][gpt-5.6-luna]
+cecbc0cb32a chore: restack PR 9087 on PR 9702 [codex][gpt-5.6-sol]
+31c9f746b13 Merge commit '0e889d674fece10a5bcd04372f664e2e8c2381c6' into HEAD
+7c3dd81c0c0 Merge commit '5ef037b95f59f7ea79f238ef029de7a75f3e1519' into HEAD
+c240980c611 Merge commit '9057942459fd3cc63d6eec5697674de73d2be334' into HEAD
+544a5378eb3 Merge commit 'c47d00f6a94577131ed43b18316a2e04065339b3' into HEAD
+1555ac8214b Merge remote-tracking branch 'origin/fix/cache-hit-rate-denominator' into HEAD
+abac9aae318 merge: carry final cache and dice evidence stack into nocache [codex][gpt-5.6-sol]
+3e2c95fed90 merge: carry evidence semantics through nocache stack [codex][gpt-5.6-sol]
+2b2ba67bb42 merge: carry native dice evidence contract into cache busting [codex][gpt-5.6-sol]
+ad33474127f merge: carry clean parent artifacts into cache busting [codex][gpt-5.6-sol]
+d1fe8cb4828 merge: advance cache busting onto denominator fix [codex][gpt-5.6-sol]
+4c5e24693b5 fix(ci): keep cache-control imports module scoped [codex][gpt-5.6-sol]
+18f7d27add9 Merge commit '2c6f63685b283f1ee9c1acf8ea3a8cbe0c9a88cc' into HEAD
+aa960101a63 Merge commit '369386f8100bbcee1b59c21e3ad56dda9ffc55b7' into HEAD
+f9da6bef9eb Merge commit 'd5a7c2ca67ea2c52400b91556831e3598c253cf3' into HEAD
+080ab93f2e5 Merge commit '261fdeb7581cafe2d1988aea31fb0fb664dbf88a' into HEAD
+d106bf76b80 test(cache): preserve harness environment state [codex][gpt-5.6-sol]
+5f78d375857 test(evidence): enforce cache-control proof contracts [codex][gpt-5.6-sol]
+d51813751c7 merge: restack #9087 on #9702 remediation [codex][gpt-5.6-sol]
+10bd4c88529 fix(evidence): anchor PR9087 asset cache assertions [codex][gpt-5.6-luna]
+1e9b81fd166 Merge commit '5ce7a197713b2bda2062c3f53e8f537fdabc26e3' into HEAD
+74e978b41fd Merge commit 'a3e6997bc7c45f766e8b534ee038ebc1e1013eac' into HEAD
+ee44e608641 gemini/gemini-2.5-pro: test(evidence): add real-browser Playwright test harness with wire logging for nocache/cb parameters
+e5ee73c2816 gemini/gemini-2.5-pro: fix(cache-bust): treat empty nocache parameter as inactive (P1)
+e19626ca009 gemini/gemini-2.5-pro: fix(cache-bust): parse nocache strictly and provide container-safe deployment token fallback (P1)
+06bda2a5fc4 gemini/gemini-2.5-pro: feat(frontend): page-level ?cb= / ?nocache=1 cache bust and noqa N806
+d203470bfb4 cursor/grok-4.6: add ?cb= / ?nocache=1 page-level HTML cache bust
+=== 3. CODE DIFFS ===
+diff --git a/mvp_site/frontend_v1/app.js b/mvp_site/frontend_v1/app.js
+index 4242caf6fb8..eaf5f0e97cf 100644
+--- a/mvp_site/frontend_v1/app.js
++++ b/mvp_site/frontend_v1/app.js
+@@ -22,6 +22,44 @@ var safeDiag = (name, level, fields) => {
+   } catch (e) {}
+ };
+
++// Snapshot the settings asset while this app.js element is executing.
++// Settings is loaded later, so a subsequent DOM scan could select a stale or
++// duplicate app.js element instead of the script that booted this app.
++const getSettingsAssetUrl = (currentScript) => {
++  const fallback = "/frontend_v1/js/settings.js";
++  if (!currentScript) return fallback;
++  try {
++    const baseUrl = new URL(document.baseURI || window.location.href);
++    const appSource = currentScript.src || currentScript.getAttribute("src");
++    const appUrl = new URL(appSource, baseUrl);
++    if (appUrl.origin !== baseUrl.origin) return fallback;
++    if (!/^\/frontend_v1\/app(?:\.[a-f0-9]{8})?\.js$/.test(appUrl.pathname)) {
++      return fallback;
++    }
++    const source =
++      currentScript.dataset?.settingsSrc ||
++      currentScript.getAttribute("data-settings-src");
++    if (!source) return fallback;
++    const url = new URL(source, baseUrl);
++    if (url.origin !== baseUrl.origin) return fallback;
++    if (!/^\/frontend_v1\/js\/settings(?:\.[a-f0-9]{8})?\.js$/.test(url.pathname)) {
++      return fallback;
++    }
++    return url.href;
++  } catch {
++    return fallback;
++  }
++};
++
++const frontendSettingsUrl = getSettingsAssetUrl(document.currentScript);
++
++const settingsScriptUrl = () => {
++  return new URL(
++    frontendSettingsUrl,
++    document.baseURI || window.location.href,
++  ).href;
++};
++
+ // Top-of-file boot event. Fires before DOMContentLoaded, so we capture
+ // script-load order even when the listener below is the one that runs first.
+ safeDiag("app.boot_top", "info", {
+@@ -2047,7 +2085,7 @@ document.addEventListener("DOMContentLoaded", () => {
+     // Load settings.js if not already loaded
+     if (!window.settingsScriptLoaded) {
+       const script = document.createElement("script");
+-      script.src = "/frontend_v1/js/settings.js";
++      script.src = settingsScriptUrl();
+       script.onload = () => {
+         window.settingsScriptLoaded = true;
+         console.log("Settings JavaScript loaded");
+diff --git a/mvp_site/frontend_v1/index.html b/mvp_site/frontend_v1/index.html
+index 3c2b5054110..c740fd7e992 100644
+--- a/mvp_site/frontend_v1/index.html
++++ b/mvp_site/frontend_v1/index.html
+@@ -626,7 +626,7 @@
+   <script src="/frontend_v1/js/inline-editor.js" defer></script>
+   <script src="/frontend_v1/js/ember-bg.js" defer></script>
+   <script src="/frontend_v1/quick_start_shared.js" defer></script>
+-  <script src="/frontend_v1/app.js" defer></script>
++  <script src="/frontend_v1/app.js" data-settings-src="/frontend_v1/js/settings.js" defer></script>
+
+   <!-- Share Story modal — placed INSIDE <body>, immediately before </body>.
+        Regression guard for PR #5823: a share modal markup was previously
+diff --git a/mvp_site/main.py b/mvp_site/main.py
+index 8a01e11575a..553767de03e 100755
+--- a/mvp_site/main.py
++++ b/mvp_site/main.py
+@@ -6268,6 +6268,65 @@ def create_app() -> Flask:
+         return Response(_PRIVACY_HTML_BODY, mimetype="text/html")
+
+     # --- Frontend Serving ---
++    _CACHE_BUST_TOKEN_RE = re.compile(r"[^A-Za-z0-9._-]+")  # noqa: N806
++    _FRONTEND_ASSET_ATTR_RE = re.compile(  # noqa: N806
++        r'((?<![A-Za-z0-9_-])(?:href|src|data-settings-src)=")(/frontend_v1/[^"]+)(")',
++        re.IGNORECASE,
++    )
++
++    _PROCESS_DEPLOYMENT_TOKEN = secrets.token_hex(8)  # noqa: N806
++
++    def _deployment_fallback_token() -> str:
++        for env_var in ("K_REVISION", "COMMIT_SHA", "CONTAINER_TAG"):
++            val = os.environ.get(env_var)
++            if val and str(val).strip():
++                return str(val).strip()
++        app_version = getattr(constants, "APP_VERSION", None)
++        if (
++            app_version
++            and str(app_version).strip()
++            and str(app_version).strip().lower() != "dev"
++        ):
++            return str(app_version).strip()
++        return _PROCESS_DEPLOYMENT_TOKEN
++
++    def _html_cache_bust_token() -> str | None:
++        """Page-level cache bust: ``?cb=<token>`` or ``?nocache=1``.
++
++        Asset ``?v=`` on ``/frontend_v1/<file>`` already exists and means
++        *immutable* 1-year cache for that URL, so it is the wrong operator
++        control. These query params rewrite HTML asset URLs to a new ``?v=``
++        and set ``Cache-Control: no-store`` on the HTML itself.
++        """
++        cb = request.args.get("cb")
++        has_cb = cb is not None and bool(str(cb).strip())
++
++        val = request.args.get("nocache")
++        nocache_active = False
++        if val is not None:
++            clean_val = str(val).strip().lower()
++            if clean_val in ("1", "true", "yes", "on"):
++                nocache_active = True
++            elif clean_val in ("0", "false", "no", "off"):
++                nocache_active = False
++
++        if not has_cb and not nocache_active:
++            return None
++
++        raw = cb.strip() if has_cb else _deployment_fallback_token()
++        token = _CACHE_BUST_TOKEN_RE.sub("", str(raw))[:64]
++        return token or "bust"
++
++    def _append_asset_cache_bust(html: str, token: str) -> str:
++        def _repl(match: re.Match[str]) -> str:
++            url = match.group(2)
++            if re.search(r"[?&]v=", url):
++                return match.group(0)
++            sep = "&" if "?" in url else "?"
++            return f"{match.group(1)}{url}{sep}v={token}{match.group(3)}"
++
++        return _FRONTEND_ASSET_ATTR_RE.sub(_repl, html)
++    # --- Frontend Serving ---
+     @app.route("/", defaults={"path": ""})
+     @app.route("/<path:path>")
+     @limiter.exempt  # Exempt frontend routes from rate limiting
+@@ -6348,6 +6407,19 @@ def create_app() -> Flask:
+         # HTML must never be cached — cached HTML may reference old hashed
+         # assets that no longer exist, causing 404s after deployments.
+         # Content-hashed assets (JS/CSS) get long cache via /frontend_v1/ route.
++        bust_token = _html_cache_bust_token()
++        if bust_token:
++            html = _append_asset_cache_bust(response.get_data(as_text=True), bust_token)
++            busted = make_response(html)
++            busted.headers["Content-Type"] = response.headers.get(
++                "Content-Type", "text/html; charset=utf-8"
++            )
++            # Operator paste-in bust: do not reuse a cached HTML document
++            # that still points at yesterday's hashed CSS/JS.
++            busted.headers["Cache-Control"] = "no-store, must-revalidate"
++            busted.headers["Pragma"] = "no-cache"
++            return busted
++
+         response.headers["Cache-Control"] = "no-cache, must-revalidate"
+         return response
+
+=== 4. PR STATUS ===
+{"baseRefName":"fix/cache-hit-rate-denominator","headRefName":"feat/html-nocache-query","headRefOid":"300878325227b2b940081305351e38326960ce29","number":9087,"state":"OPEN","title":"feat(frontend): add page-level cache busting [codex][gpt-5.6-sol]","url":"https://github.com/jleechanorg/worldarchitect.ai/pull/9087"}
+=== 5. LIVE FOCUSED TEST EXECUTION ===
+COMMAND=./venv/bin/python -m pytest -q testing_ui/test_pr9087_harness_contracts.py
+......................                                                   [100%]
+22 passed in 1.52s
+=== 6. POST-RUN SHA ===
+PRE=300878325227b2b940081305351e38326960ce29
+POST=300878325227b2b940081305351e38326960ce29
+SHA_MATCH=PASS
+WORKTREE_CLEAN_AFTER=PASS

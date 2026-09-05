@@ -25,6 +25,20 @@
     "mobile_captioned_gif": true,
     "vtt_and_srt_sidecars": true,
     "first_frames_nonblank": true,
-    "raw_webm_retained": true
+    "raw_webm_retained": true,
+    "mobile_after_caption_full_sha_visible": true,
+    "terminal_captioned_mp4": true,
+    "terminal_captioned_gif": true,
+    "terminal_vtt_and_srt_sidecars": true,
+    "terminal_first_and_after_frames_nonblank": true
+  },
+  "terminal_validation": {
+    "git_sha": "300878325227b2b940081305351e38326960ce29",
+    "command": "./venv/bin/python -m pytest -q testing_ui/test_pr9087_harness_contracts.py",
+    "passed_tests": 22,
+    "total_tests": 22,
+    "pre_and_post_sha_match": true,
+    "worktree_clean_after": true,
+    "passed": true
   }
 }

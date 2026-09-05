@@ -21,6 +21,10 @@
   verified before this run returns.
 - Publishable JSON records `credentials_configured` only; credential paths are
   never emitted.
+- Deterministic supporting command: `./venv/bin/python -m pytest -q
+  testing_ui/test_pr9087_harness_contracts.py` completed 22/22 PASS at the exact
+  SHA. Its asciinema cast, raw transcript, captioned GIF/MP4/VTT/SRT, and
+  inspection frames are included under `artifacts/`.
 
 The run is valid only when every scenario predicate passes, every recorded WebM
 has a non-empty caption sidecar, and the aggregate checksum manifest verifies.
@@ -30,3 +34,7 @@ derivatives trim only the initial blank/loading frames (`0.8s` desktop, `0.4s`
 mobile), then burn the scenario route/header/token/SHA captions into the pixels.
 The source WebM files remain included and unchanged. Extracted first frames and
 contact sheets are included for visual inspection.
+
+See `reproduction.md` for the complete clean-computer setup and copy-paste
+commands. The browser command intentionally remains a one-shot command: a
+failed capture must be investigated, not silently rerun for a passing result.

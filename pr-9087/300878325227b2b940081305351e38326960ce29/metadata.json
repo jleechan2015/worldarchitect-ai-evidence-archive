@@ -49,6 +49,16 @@
     "srt": true,
     "first_frames_nonblank": true
   },
+  "terminal_evidence": {
+    "source": "asciinema exact-head focused test invocation",
+    "command": "./venv/bin/python -m pytest -q testing_ui/test_pr9087_harness_contracts.py",
+    "passed": "22/22",
+    "captioned_mp4": true,
+    "captioned_gif": true,
+    "vtt": true,
+    "srt": true,
+    "first_and_after_frames_nonblank": true
+  },
   "git_sha": "300878325227b2b940081305351e38326960ce29",
   "head_sha": "300878325227b2b940081305351e38326960ce29"
 }

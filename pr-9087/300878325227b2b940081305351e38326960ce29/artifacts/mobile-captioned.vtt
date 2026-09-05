@@ -7,4 +7,6 @@ BEFORE /?cb=1788320000 | HTTP 200 | Cache-Control: no-store, must-revalidate | a
 ACTION Settings | exact settings.js?v=1788320000 returned HTTP 200
 
 00:00:00.900 --> 00:00:01.950
-AFTER /settings active | SHA 300878325227b2b940081305351e38326960ce29
+AFTER /settings active
+SHA=300878325227b2b94008
+1305351e38326960ce29

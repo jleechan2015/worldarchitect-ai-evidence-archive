@@ -14,6 +14,14 @@ machine-readable claim-to-artifact ledger. Verify every substantive file with
 its sibling `.sha256`, then verify
 the complete package with `checksums.sha256`.
 
+`reproduction.md` contains a clean-computer clone, exact detached checkout,
+dependency setup, focused deterministic test, and one-shot browser command.
+The recorded terminal proof is preserved as `artifacts/terminal.cast` and
+`artifacts/terminal-transcript.txt`, with captioned GIF/MP4/VTT/SRT derivatives
+and first/end/contact-sheet inspection frames. It shows the exact PR head,
+live PR metadata, the production diff, 22/22 focused harness-contract tests,
+and the unchanged clean checkout after the command.
+
 This package is sanitized for public review: it contains no credential values,
 credential paths, primary-account identifiers, or non-local hostnames.
 

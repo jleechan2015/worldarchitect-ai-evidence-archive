@@ -25,6 +25,11 @@
       "claim": "desktop and mobile Settings transitions are visually reviewable with route, token, HTTP, and SHA captions",
       "layer": "Layer 2 real-browser",
       "artifacts": ["artifacts/desktop-captioned.gif", "artifacts/desktop-captioned.mp4", "artifacts/desktop-captioned.vtt", "artifacts/desktop-captioned.srt", "artifacts/mobile-captioned.gif", "artifacts/mobile-captioned.mp4", "artifacts/mobile-captioned.vtt", "artifacts/mobile-captioned.srt"]
+    },
+    {
+      "claim": "the exact-head deterministic harness contracts pass 22/22 and leave the checkout clean",
+      "layer": "Local deterministic test",
+      "artifacts": ["artifacts/terminal.cast", "artifacts/terminal-transcript.txt", "artifacts/terminal-captioned.gif", "artifacts/terminal-captioned.mp4", "artifacts/terminal-captioned.vtt", "artifacts/terminal-captioned.srt"]
     }
   ]
 }

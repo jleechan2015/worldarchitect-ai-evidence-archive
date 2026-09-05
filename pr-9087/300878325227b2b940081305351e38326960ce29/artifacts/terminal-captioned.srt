@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:01,200
+PR #9087 provenance, commit log, production diff, and live PR head at 300878325227b2b940081305351e38326960ce29
+
+2
+00:00:01,200 --> 00:00:04,500
+Deterministic focused command: 22 harness-contract tests pass at the exact head
+
+3
+00:00:04,500 --> 00:00:05,550
+Post-run SHA matches; worktree remains clean

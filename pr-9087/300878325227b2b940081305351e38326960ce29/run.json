@@ -252,6 +252,25 @@
       "first_frame": "artifacts/mobile-first-frame.png"
     }
   },
+  "terminal_evidence": {
+    "git_sha": "300878325227b2b940081305351e38326960ce29",
+    "command": "./venv/bin/python -m pytest -q testing_ui/test_pr9087_harness_contracts.py",
+    "total_tests": 22,
+    "passed_tests": 22,
+    "passed": true,
+    "pre_run_sha_match": true,
+    "post_run_sha_match": true,
+    "worktree_clean_after": true,
+    "cast": "artifacts/terminal.cast",
+    "transcript": "artifacts/terminal-transcript.txt",
+    "gif": "artifacts/terminal-captioned.gif",
+    "mp4": "artifacts/terminal-captioned.mp4",
+    "vtt": "artifacts/terminal-captioned.vtt",
+    "srt": "artifacts/terminal-captioned.srt",
+    "first_frame": "artifacts/terminal-first-frame.png",
+    "after_frame": "artifacts/terminal-after-frame.png",
+    "contact_sheet": "artifacts/terminal-contact-sheet.png"
+  },
   "git_sha": "300878325227b2b940081305351e38326960ce29",
   "head_sha": "300878325227b2b940081305351e38326960ce29"
 }

@@ -14,6 +14,7 @@
 | SPA settings action loads the executing app's same-origin settings asset | [Layer 2 real-browser] | `run.json` (`settings_script`) | **PASS** (HTTP 200, exact declared asset URL, no foreign/duplicate response) |
 | Desktop and mobile before/action/after transitions are publicly reviewable | [Layer 2 real-browser] | `artifacts/desktop-captioned.{mp4,gif,vtt,srt}` and `artifacts/mobile-captioned.{mp4,gif,vtt,srt}` | **PASS** (same-run WebM derivatives, route/header/token/SHA captions, non-blank first frames) |
 | The one-shot driver execution is preserved without credentials or host paths | [Local execution provenance] | `artifacts/collection_log.txt` | **PASS** (sanitized stdout/stderr; 4/4 final result) |
+| Exact-head deterministic focused validation is independently replayable | [Local deterministic test] | `artifacts/terminal.cast`, `artifacts/terminal-transcript.txt`, and `artifacts/terminal-captioned.{gif,mp4,vtt,srt}` | **PASS** (22/22 harness-contract tests; pre/post SHA exact; checkout clean) |
 
 ## What This Evidence Proves
 1. Real Playwright headless Chromium against the live running server receives `Cache-Control: no-store, must-revalidate` and `Pragma: no-cache` when `?nocache=1` or `?cb=<token>` is passed.
@@ -24,6 +25,8 @@
 6. Every desktop/mobile claim includes a before/action/after ledger with the
    exact checkout SHA, SPA `/settings` URL, and fresh screenshot/video
    artifacts with caption sidecars.
+7. A separate deterministic terminal invocation at the same exact SHA passed
+   all 22 focused harness-contract tests and left the checkout clean.
 
 The result above is a claim only for scenarios whose recorded predicate is
 `PASS`; stale media is removed before each run.
