@@ -29,3 +29,13 @@ The raw browser WebM files are retained under `artifacts/video_*`. Fixed-name
 `desktop-captioned` and `mobile-captioned` MP4/GIF/VTT/SRT artifacts are
 publication derivatives from those same-run sources; no browser scenario was
 rerun during media packaging.
+
+The sealed browser recordings show the page viewport but not browser chrome.
+They therefore remain partial for the strict actual-URL-bar visual invariant.
+An Aside-first visual-only remediation reached the exact-head local route, but
+every on-screen Aside window reported `sharing_state=0` and native window
+capture failed. Sanitized raw diagnostics are included as
+`artifacts/aside_*`; no browser chrome was synthesized.
+The evidence claims are deliberately limited to the raw root-response headers,
+the recorded Playwright receipts, and the visible Settings transition; see
+`evidence.md` for explicit non-claims.

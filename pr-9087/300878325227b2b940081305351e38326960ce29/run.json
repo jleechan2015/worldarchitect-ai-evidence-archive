@@ -51,6 +51,7 @@
   "scenarios": [
     {
       "name": "desktop_nocache_flag_headers_and_render",
+      "errors": [],
       "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&nocache=1",
       "status": 200,
       "cache_control": "no-store, must-revalidate",
@@ -117,6 +118,7 @@
     },
     {
       "name": "desktop_empty_nocache_inactive",
+      "errors": [],
       "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&nocache=",
       "status": 200,
       "cache_control": "no-cache, must-revalidate",
@@ -144,6 +146,7 @@
     },
     {
       "name": "mobile_cb_token_headers_and_dom_rewrite",
+      "errors": [],
       "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&cb=1788320000",
       "status": 200,
       "cache_control": "no-store, must-revalidate",
@@ -209,6 +212,7 @@
     },
     {
       "name": "desktop_baseline_no_cache_bust",
+      "errors": [],
       "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true",
       "status": 200,
       "cache_control": "no-cache, must-revalidate",

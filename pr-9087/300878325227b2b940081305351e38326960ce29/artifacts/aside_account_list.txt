@@ -1,0 +1,3 @@
+* u0  [REDACTED_ACCOUNT]  signed in  profiles: Profile 0
+  provider: google
+  u1  Local Account  signed out  profiles: Profile 1

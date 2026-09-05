@@ -4,39 +4,28 @@
 
 | Claim | Evidence Layer | Artifact | Verification Result |
 | :--- | :--- | :--- | :--- |
-| `?nocache=1` sets `no-store` on HTML and rewrites anchored app.js | [Layer 2 real-browser] | `run.json` (`desktop_nocache_flag_headers_and_render`) | **PASS** (status=200, token='pr9087-evidence-revision') |
-| `?nocache=1` renders desktop viewport | [Layer 2 real-browser] | `artifacts/ui_nocache_desktop_1440x900.png` | **PASS** (1440x900 screenshot captured) |
-| `?nocache=` (empty value) is inactive | [Layer 2 real-browser] | `run.json` (`desktop_empty_nocache_inactive`) | **PASS** (`no-store` absent, default caching preserved) |
-| `?cb=<token>` rewrites anchored app.js and sets `no-store` | [Layer 2 real-browser] | `run.json` (`mobile_cb_token_headers_and_dom_rewrite`) | **PASS** (`?v=1788320000` expected `1788320000`, `no-store` confirmed) |
-| `?cb=<token>` renders mobile viewport | [Layer 2 real-browser] | `artifacts/ui_cb_mobile_375x812.png` | **PASS** (375x812 screenshot captured) |
-| Baseline `/` does not set `no-store` | [Layer 2 real-browser] | `run.json` (`desktop_baseline_no_cache_bust`) | **PASS** (`no-store` absent, un-busted request) |
-| Harness server command, ps receipt, and listener ownership | [Local process provenance] | `artifacts/server_provenance.json` | **PASS** (Gunicorn app/bind command and port listener tied to PID after `/health`) |
-| SPA settings action loads the executing app's same-origin settings asset | [Layer 2 real-browser] | `run.json` (`settings_script`) | **PASS** (HTTP 200, exact declared asset URL, no foreign/duplicate response) |
-| Desktop and mobile before/action/after transitions are publicly reviewable | [Layer 2 real-browser] | `artifacts/desktop-captioned.{mp4,gif,vtt,srt}` and `artifacts/mobile-captioned.{mp4,gif,vtt,srt}` | **PASS** (same-run WebM derivatives, route/header/token/SHA captions, non-blank first frames) |
-| The one-shot driver execution is preserved without credentials or host paths | [Local execution provenance] | `artifacts/collection_log.txt` | **PASS** (sanitized stdout/stderr; 4/4 final result) |
-| Exact-head deterministic focused validation is independently replayable | [Local deterministic test] | `artifacts/terminal.cast`, `artifacts/terminal-transcript.txt`, and `artifacts/terminal-captioned.{gif,mp4,vtt,srt}` | **PASS** (22/22 harness-contract tests; pre/post SHA exact; checkout clean) |
+| `?nocache=1` returns HTTP 200 with `no-store, must-revalidate` and `Pragma: no-cache` | [Layer 2 real HTTP] | `artifacts/http_request_responses.jsonl` line 1 | **PASS** (raw root-response headers) |
+| `?cb=1788320000` returns HTTP 200 with `no-store, must-revalidate` and `Pragma: no-cache` | [Layer 2 real HTTP] | `artifacts/http_request_responses.jsonl` line 3 | **PASS** (raw root-response headers) |
+| Empty `?nocache=` and baseline return HTTP 200 without `no-store` | [Layer 2 real HTTP] | `artifacts/http_request_responses.jsonl` lines 2 and 4 | **PASS** (raw root-response headers) |
+| The browser observed the expected executing `app.js?v=` token and one matching Settings-script HTTP 200 response for each scenario | [Layer 2 real-browser receipt] | `run.json` (`asset_url`, `asset_token_match`, `settings_script`) | **PASS WITH LIMIT** (structured Playwright response/DOM receipt; not a standalone raw asset trace) |
+| Desktop and mobile Settings transitions are visually reviewable | [Layer 2 real-browser] | `artifacts/desktop-captioned.{mp4,gif,vtt,srt}` and `artifacts/mobile-captioned.{mp4,gif,vtt,srt}` | **PARTIAL** (before/action/after and full SHA are visible, but the headless recording has no browser URL bar) |
+| A bounded Aside-first recapture could automate the exact-head local route, but the OS capture layer could not capture genuine browser chrome | [Capture-environment diagnostic] | `artifacts/aside_account_list.txt`, `artifacts/aside_version.txt`, `artifacts/aside_tabs.txt`, `artifacts/aside_health.json`, `artifacts/aside_window_server.txt`, `artifacts/aside_screencapture_errors.txt` | **BLOCKED** (Aside is signed in and the exact route is attached; each on-screen Aside window reports `sharing_state=0`, and native window capture fails) |
+| The recorded server process used Gunicorn for `mvp_site.main:app` at the scenario port | [Recorded local process provenance] | `metadata.json`, `artifacts/server_provenance.json`, `artifacts/collection_log.txt` | **PASS WITH LIMIT** (PID/cmdline/ps receipt and listener attestation are present; raw lsof and raw `/health` response files were not retained) |
+| Exact-head deterministic focused validation is independently replayable | [Layer 1 deterministic] | `artifacts/terminal.cast`, `artifacts/terminal-transcript.txt`, and `artifacts/terminal-captioned.{gif,mp4,vtt,srt}` | **PASS** (22/22 harness-contract tests; pre/post SHA exact; checkout clean) |
+| Published files match the sealed source bytes | [Artifact transport/integrity] | `checksums.sha256` plus sibling `.sha256` files | **PASS** (47/47 substantive files) |
 
 ## What This Evidence Proves
-1. Real Playwright headless Chromium against the live running server receives `Cache-Control: no-store, must-revalidate` and `Pragma: no-cache` when `?nocache=1` or `?cb=<token>` is passed.
-2. The anchored `/frontend_v1/app.js` DOM asset has the expected `?v=` token for both cache-bust modes.
-3. An empty `?nocache=` query parameter is strictly treated as inactive and does not bust cache.
-4. Standard requests without `?cb=` or `?nocache=` remain untouched (no regression to default caching).
-5. Visual rendering across desktop (1440x900) and mobile (375x812) viewports is completely intact and functional.
-6. Every desktop/mobile claim includes a before/action/after ledger with the
-   exact checkout SHA, SPA `/settings` URL, and fresh screenshot/video
-   artifacts with caption sidecars.
-7. A separate deterministic terminal invocation at the same exact SHA passed
-   all 22 focused harness-contract tests and left the checkout clean.
 
-The result above is a claim only for scenarios whose recorded predicate is
-`PASS`; stale media is removed before each run.
+1. A real local Gunicorn response returned the recorded active/inactive cache-control headers for the four tested root URLs.
+2. Real headless Chromium rendered the campaign page and completed the visible Settings transition at desktop and mobile viewports.
+3. The Playwright scenario receipts recorded the expected app token and exact Settings-script URL/status for those four runs.
+4. The focused deterministic harness-contract command passed 22 tests at the exact SHA and left the checkout clean.
 
 ## What This Evidence Does NOT Prove
 
-1. It does not prove CDN, reverse-proxy, browser-cache persistence across
-   separate processes, or deployed Cloud Run edge-cache behavior.
-2. It does not prove behavior for query values beyond the four recorded
-   scenarios: `nocache=1`, empty `nocache=`, `cb=1788320000`, and baseline.
-3. It does not prove campaign, LLM, Firebase-write, or primary-account behavior;
-   this cache-control flow uses a dedicated localhost test identity and performs
-   no campaign mutation.
+1. The raw HTTP artifact does not retain HTML bodies, request methods, or separate app/settings asset exchanges. App and Settings token/status fields are Playwright-derived structured receipts in `run.json`, not independent raw wire rows.
+2. It does not prove token sanitization/length-capping, container fallback selection, content-hashed asset handling, or foreign/wrong-path rejection in a real-server scenario.
+3. It does not include raw output for the separate Settings-loader Node suite.
+4. The browser videos do not include an actual browser URL bar. Route captions are visible but do not satisfy that strict visual invariant. A bounded Aside-first attempt reached the exact-head route, but macOS reported every on-screen Aside window as non-shareable (`sharing_state=0`) and `screencapture` returned `could not create image from window`; no chrome was synthesized.
+5. It does not prove CDN, reverse-proxy, persistent cross-process browser cache, deployed Cloud Run edge-cache, campaign, LLM, Firebase-write, or primary-account behavior.
+6. The flow uses a dedicated localhost test ID under the repository's test-auth bypass; it does not prove a real Firebase-authenticated user session.

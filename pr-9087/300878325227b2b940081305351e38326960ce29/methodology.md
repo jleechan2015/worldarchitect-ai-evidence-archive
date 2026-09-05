@@ -29,6 +29,39 @@
 The run is valid only when every scenario predicate passes, every recorded WebM
 has a non-empty caption sidecar, and the aggregate checksum manifest verifies.
 
+## Request, cache, and connection controls
+
+- This is a behavior test, not a latency or performance measurement. There was
+  no timed warm-up population; the harness waited for `/health` before the
+  first scenario.
+- Every scenario used a newly created Playwright browser context. Persistent
+  browser-cache reuse across contexts or processes was intentionally out of
+  scope.
+- After the browser flow, the harness issued one independent
+  `urllib.request.Request`/`urlopen(..., timeout=600)` GET for each of the four
+  root URLs. The recorded responses all reported `Connection: close`; no
+  keepalive or connection reuse was claimed.
+- `artifacts/http_request_responses.jsonl` retains URL, status, and response
+  headers only. It does not retain HTML bodies, request-method fields, or
+  separate app/settings asset exchanges.
+- The Settings URL/status fields in `run.json` came from Playwright's
+  `page.expect_response` and the executing app script's `data-settings-src`.
+  They are structured browser receipts, not standalone raw HTTP traces.
+- The browser used `test_user_id=pr9087-cache-evidence` with the repository's
+  test-auth bypass. Mock-service environment flags were disabled, and the flow
+  performed no campaign write. This does not establish a real Firebase login.
+- Headless Playwright records the page viewport, not browser chrome. The
+  existing route captions are explicit, but the videos do not show an actual
+  browser URL bar and therefore remain partial under the strict UI-video rule.
+- A bounded visual-only remediation used Aside CLI `1.26.810.1915`: account
+  transport was signed in, Aside attached to the exact local route, and local
+  `/health` returned the full tested SHA. macOS CoreGraphics nevertheless
+  reported every on-screen Aside window with `sharing_state=0`, while native
+  `screencapture -l <window-id>` returned `could not create image from window`.
+  The attempt did not rerun the four-scenario harness, call an LLM/provider, or
+  synthesize browser chrome. The raw sanitized diagnostics are retained as
+  `artifacts/aside_*`.
+
 The raw Playwright recordings begin before navigation. Publication MP4/GIF
 derivatives trim only the initial blank/loading frames (`0.8s` desktop, `0.4s`
 mobile), then burn the scenario route/header/token/SHA captions into the pixels.

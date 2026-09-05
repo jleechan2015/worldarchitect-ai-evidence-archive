@@ -1,5 +1,8 @@
 {
   "bundle_version": "1.0",
+  "run_id": "pr9087-live-browser-fd4207a986744889ba9a537b5b0ec404",
+  "iteration": 1,
+  "bundle_timestamp": "2026-09-05T20:53:46.557062+00:00",
   "git_head": "300878325227b2b940081305351e38326960ce29",
   "git_branch": "codex/pr9087-evidence-preflight",
   "git_upstream": "origin/feat/html-nocache-query",
@@ -32,6 +35,18 @@
   "health_receipt": {
     "status": "healthy",
     "git_commit": "300878325227b2b940081305351e38326960ce29"
+  },
+  "provenance": {
+    "git_head": "300878325227b2b940081305351e38326960ce29",
+    "git_branch": "codex/pr9087-evidence-preflight",
+    "merge_base": "247ccd695c55207bf04e592259f68fb14cd3c346",
+    "commits_ahead_of_main": 345,
+    "diff_stat_vs_main": "163 files changed, 29373 insertions(+), 4843 deletions(-)",
+    "server": {
+      "pid": 26959,
+      "port": 56374,
+      "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:56374 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 0 --access-logfile - --error-logfile - --log-level info"
+    }
   },
   "credentials_configured": true,
   "timestamp": "2026-09-05T20:53:46.557062+00:00",

@@ -1,0 +1,11 @@
+{
+  "git_commit": "300878325227b2b940081305351e38326960ce29",
+  "mcp_client": {
+    "base_url": "http://localhost:8000",
+    "initialized": true,
+    "skip_http": true
+  },
+  "service": "worldarchitect-ai",
+  "status": "healthy",
+  "timestamp": "2026-09-05T22:05:07.588626+00:00"
+}

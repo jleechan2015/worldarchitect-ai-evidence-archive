@@ -1,0 +1,3 @@
+owner=Aside window=4634 onscreen=1 sharing_state=0 layer=0
+owner=Aside window=452 onscreen=1 sharing_state=0 layer=0
+owner=Aside window=4377 onscreen=1 sharing_state=0 layer=0

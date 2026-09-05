@@ -7,7 +7,8 @@ and `agg`. Supply a dedicated service-account JSON path in
 logs or evidence.
 
 ```bash
-git clone https://github.com/jleechanorg/worldarchitect.ai.git
+gh auth status
+gh repo clone jleechanorg/worldarchitect.ai
 cd worldarchitect.ai
 git fetch origin refs/pull/9087/head
 git checkout --detach 300878325227b2b940081305351e38326960ce29

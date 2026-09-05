@@ -1,44 +1,52 @@
 {
-  "overall_verdict": "PASS",
-  "er": "PASS",
-  "test_name": "pr9087_html_nocache_evidence",
-  "timestamp": "2026-09-05T20:53:46.557330+00:00",
-  "git_provenance": {
-    "git_head": "300878325227b2b940081305351e38326960ce29",
-    "git_branch": "codex/pr9087-evidence-preflight",
-    "git_upstream": "origin/feat/html-nocache-query",
-    "health_receipt": {
-      "status": "healthy",
-      "git_commit": "300878325227b2b940081305351e38326960ce29"
+  "reviewer_timestamp": "2026-09-05T22:07:09Z",
+  "bundle_path": "/tmp/worldarchitect.ai/evidence_pr9087_live",
+  "overall_verdict": "PARTIAL",
+  "er": "PARTIAL",
+  "review_kind": "evidence-only remediation review",
+  "tested_git_head": "300878325227b2b940081305351e38326960ce29",
+  "phases": {
+    "structure": {
+      "verdict": "PASS",
+      "checks": {
+        "required_files": "PASS",
+        "metadata_completeness": "PASS",
+        "run_scenario_errors_fields": "PASS"
+      }
+    },
+    "integrity": {
+      "verdict": "PASS",
+      "checks": {
+        "claim_map_self_reference": "PASS",
+        "raw_root_http_rows": "PASS - four URL/status/header rows",
+        "claim_scope": "PASS - unsupported claims removed or explicitly limited",
+        "collection_log": "PASS - 27 lines of command output",
+        "checksums": "PASS after reseal"
+      }
+    },
+    "measurement": {
+      "verdict": "PASS",
+      "checks": {
+        "performance_claim": "N/A",
+        "cross_category_comparison": "N/A",
+        "cache_and_connection_methodology": "PASS - documented"
+      }
+    },
+    "visual": {
+      "verdict": "PARTIAL",
+      "checks": {
+        "before_action_after": "PASS",
+        "full_git_sha": "PASS",
+        "actual_browser_url_bar": "FAIL - browser chrome absent",
+        "aside_recapture_probe": "BLOCKED - exact route attached, but on-screen Aside windows have sharing_state=0 and native capture returned could not create image from window"
+      }
     }
   },
-  "summary": {
-    "total_scenarios": 4,
-    "passed": 4,
-    "failed": 0,
-    "pass_rate": "100.0%"
-  },
-  "media_validation": {
-    "desktop_captioned_mp4": true,
-    "desktop_captioned_gif": true,
-    "mobile_captioned_mp4": true,
-    "mobile_captioned_gif": true,
-    "vtt_and_srt_sidecars": true,
-    "first_frames_nonblank": true,
-    "raw_webm_retained": true,
-    "mobile_after_caption_full_sha_visible": true,
-    "terminal_captioned_mp4": true,
-    "terminal_captioned_gif": true,
-    "terminal_vtt_and_srt_sidecars": true,
-    "terminal_first_and_after_frames_nonblank": true
-  },
-  "terminal_validation": {
-    "git_sha": "300878325227b2b940081305351e38326960ce29",
-    "command": "./venv/bin/python -m pytest -q testing_ui/test_pr9087_harness_contracts.py",
-    "passed_tests": 22,
-    "total_tests": 22,
-    "pre_and_post_sha_match": true,
-    "worktree_clean_after": true,
-    "passed": true
-  }
+  "violations": [
+    "Desktop and mobile videos show the page viewport and route captions but not an actual browser URL bar.",
+    "A bounded Aside-first recapture was blocked at the macOS capture layer because all on-screen Aside windows were non-shareable."
+  ],
+  "recommendations": [
+    "Capture a compliant automated browser video that includes actual browser chrome and the URL bar; do not synthesize chrome or relabel a caption as a URL bar."
+  ]
 }
