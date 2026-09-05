@@ -1,0 +1,30 @@
+{
+  "overall_verdict": "PASS",
+  "er": "PASS",
+  "test_name": "pr9087_html_nocache_evidence",
+  "timestamp": "2026-09-05T20:53:46.557330+00:00",
+  "git_provenance": {
+    "git_head": "300878325227b2b940081305351e38326960ce29",
+    "git_branch": "codex/pr9087-evidence-preflight",
+    "git_upstream": "origin/feat/html-nocache-query",
+    "health_receipt": {
+      "status": "healthy",
+      "git_commit": "300878325227b2b940081305351e38326960ce29"
+    }
+  },
+  "summary": {
+    "total_scenarios": 4,
+    "passed": 4,
+    "failed": 0,
+    "pass_rate": "100.0%"
+  },
+  "media_validation": {
+    "desktop_captioned_mp4": true,
+    "desktop_captioned_gif": true,
+    "mobile_captioned_mp4": true,
+    "mobile_captioned_gif": true,
+    "vtt_and_srt_sidecars": true,
+    "first_frames_nonblank": true,
+    "raw_webm_retained": true
+  }
+}

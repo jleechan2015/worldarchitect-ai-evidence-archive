@@ -1,0 +1,23 @@
+{
+  "pid": 26959,
+  "base_url": "http://127.0.0.1:56374",
+  "credentials_configured": true,
+  "server_pid": 26959,
+  "health_receipt": {
+    "status": "healthy"
+  },
+  "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:56374 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 0 --access-logfile - --error-logfile - --log-level info",
+  "ps_receipt": "26959 25720 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:56374 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 0 --access-logfile - --error-logfile - --log-level info",
+  "process_tree": {
+    "root_pid": 26959,
+    "pids": [
+      26959,
+      26965
+    ]
+  },
+  "listener": {
+    "pid": 26959,
+    "port": 56374,
+    "attested": true
+  }
+}

@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.550
+BEFORE /?cb=1788320000 | HTTP 200 | Cache-Control: no-store, must-revalidate | app.js?v=1788320000
+
+00:00:00.550 --> 00:00:00.900
+ACTION Settings | exact settings.js?v=1788320000 returned HTTP 200
+
+00:00:00.900 --> 00:00:01.950
+AFTER /settings active | SHA 300878325227b2b940081305351e38326960ce29

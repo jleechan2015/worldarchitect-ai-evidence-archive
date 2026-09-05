@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.700
+BEFORE /?nocache=1 | HTTP 200 | Cache-Control: no-store, must-revalidate | app.js?v=pr9087-evidence-revision
+
+00:00:00.700 --> 00:00:01.100
+ACTION Settings | exact settings.js?v=pr9087-evidence-revision returned HTTP 200
+
+00:00:01.100 --> 00:00:02.150
+AFTER /settings active | SHA 300878325227b2b940081305351e38326960ce29

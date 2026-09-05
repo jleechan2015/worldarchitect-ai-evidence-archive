@@ -1,0 +1,54 @@
+{
+  "bundle_version": "1.0",
+  "git_head": "300878325227b2b940081305351e38326960ce29",
+  "git_branch": "codex/pr9087-evidence-preflight",
+  "git_upstream": "origin/feat/html-nocache-query",
+  "test_layer": "Layer 2 real-browser Playwright",
+  "server_pid": 26959,
+  "server_provenance": {
+    "pid": 26959,
+    "base_url": "http://127.0.0.1:56374",
+    "credentials_configured": true,
+    "server_pid": 26959,
+    "health_receipt": {
+      "status": "healthy"
+    },
+    "process_cmdline": "/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:56374 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 0 --access-logfile - --error-logfile - --log-level info",
+    "ps_receipt": "26959 25720 /opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python -m gunicorn mvp_site.main:app --bind 0.0.0.0:56374 --workers 1 --worker-class gthread --threads 4 --timeout 600 --max-requests 0 --access-logfile - --error-logfile - --log-level info",
+    "process_tree": {
+      "root_pid": 26959,
+      "pids": [
+        26959,
+        26965
+      ]
+    },
+    "listener": {
+      "pid": 26959,
+      "port": 56374,
+      "attested": true
+    }
+  },
+  "server_provenance_artifact": "artifacts/server_provenance.json",
+  "health_receipt": {
+    "status": "healthy",
+    "git_commit": "300878325227b2b940081305351e38326960ce29"
+  },
+  "credentials_configured": true,
+  "timestamp": "2026-09-05T20:53:46.557062+00:00",
+  "viewports": [
+    "1440x900",
+    "375x812"
+  ],
+  "publication_media": {
+    "source": "same-run Playwright WebM",
+    "desktop_trim_seconds": 0.8,
+    "mobile_trim_seconds": 0.4,
+    "captioned_mp4": true,
+    "captioned_gif": true,
+    "vtt": true,
+    "srt": true,
+    "first_frames_nonblank": true
+  },
+  "git_sha": "300878325227b2b940081305351e38326960ce29",
+  "head_sha": "300878325227b2b940081305351e38326960ce29"
+}

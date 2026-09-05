@@ -1,0 +1,257 @@
+{
+  "run_id": "pr9087-live-browser-fd4207a986744889ba9a537b5b0ec404",
+  "timestamp": "2026-09-05T20:53:46.555060+00:00",
+  "target_server": "http://127.0.0.1:56374",
+  "git_head": "300878325227b2b940081305351e38326960ce29",
+  "git_branch": "codex/pr9087-evidence-preflight",
+  "health_receipt": {
+    "status": "healthy",
+    "git_commit": "300878325227b2b940081305351e38326960ce29"
+  },
+  "credentials_configured": true,
+  "all_passed": true,
+  "claim_receipts": {
+    "all_passed": true,
+    "http": [
+      {
+        "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&nocache=1",
+        "status": 200,
+        "cache_control": "no-store, must-revalidate",
+        "pragma": "no-cache",
+        "cache_bust": true,
+        "passed": true
+      },
+      {
+        "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&nocache=",
+        "status": 200,
+        "cache_control": "no-cache, must-revalidate",
+        "pragma": "",
+        "cache_bust": false,
+        "passed": true
+      },
+      {
+        "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&cb=1788320000",
+        "status": 200,
+        "cache_control": "no-store, must-revalidate",
+        "pragma": "no-cache",
+        "cache_bust": true,
+        "passed": true
+      },
+      {
+        "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true",
+        "status": 200,
+        "cache_control": "no-cache, must-revalidate",
+        "pragma": "",
+        "cache_bust": false,
+        "passed": true
+      }
+    ],
+    "server_provenance_artifact": "artifacts/server_provenance.json"
+  },
+  "scenarios": [
+    {
+      "name": "desktop_nocache_flag_headers_and_render",
+      "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&nocache=1",
+      "status": 200,
+      "cache_control": "no-store, must-revalidate",
+      "pragma": "no-cache",
+      "has_no_store": true,
+      "has_must_revalidate": true,
+      "has_rewritten_v": true,
+      "asset_url": "http://127.0.0.1:56374/frontend_v1/app.js?v=pr9087-evidence-revision",
+      "asset_token": "pr9087-evidence-revision",
+      "expected_asset_token": "pr9087-evidence-revision",
+      "asset_token_match": true,
+      "asset_assertion_error": "",
+      "screenshot": "artifacts/ui_nocache_desktop_1440x900.png",
+      "passed": true,
+      "settings_url": "http://127.0.0.1:56374/settings",
+      "settings_status": 200,
+      "settings_script": {
+        "url": "http://127.0.0.1:56374/frontend_v1/js/settings.js?v=pr9087-evidence-revision",
+        "status": 200,
+        "asset_path": "/frontend_v1/js/settings.js",
+        "asset_query": {
+          "v": [
+            "pr9087-evidence-revision"
+          ]
+        }
+      },
+      "step_ledger": [
+        {
+          "step": "before",
+          "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&nocache=1",
+          "git_sha": "300878325227b2b940081305351e38326960ce29",
+          "artifact": "artifacts/ui_nocache_desktop_1440x900.png"
+        },
+        {
+          "step": "action",
+          "url": "http://127.0.0.1:56374/settings",
+          "git_sha": "300878325227b2b940081305351e38326960ce29",
+          "artifact": "artifacts/ui_settings_action_desktop_1440x900.png"
+        },
+        {
+          "step": "after",
+          "url": "http://127.0.0.1:56374/settings",
+          "git_sha": "300878325227b2b940081305351e38326960ce29",
+          "artifact": "artifacts/ui_settings_after_desktop_1440x900.png"
+        }
+      ],
+      "caption_files": [
+        "artifacts/video_desktop/page@1d93665ddce23a444f24876a6ad6e78b.vtt"
+      ],
+      "media": {
+        "video": "artifacts/video_desktop/page@1d93665ddce23a444f24876a6ad6e78b.webm",
+        "captions": [
+          "artifacts/video_desktop/page@1d93665ddce23a444f24876a6ad6e78b.vtt"
+        ]
+      },
+      "http_receipt": {
+        "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&nocache=1",
+        "status": 200,
+        "cache_control": "no-store, must-revalidate",
+        "pragma": "no-cache",
+        "cache_bust": true,
+        "passed": true
+      }
+    },
+    {
+      "name": "desktop_empty_nocache_inactive",
+      "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&nocache=",
+      "status": 200,
+      "cache_control": "no-cache, must-revalidate",
+      "has_no_store": false,
+      "passed": true,
+      "settings_url": "http://127.0.0.1:56374/settings",
+      "settings_status": 200,
+      "settings_script": {
+        "url": "http://127.0.0.1:56374/frontend_v1/js/settings.js",
+        "status": 200,
+        "asset_path": "/frontend_v1/js/settings.js",
+        "asset_query": {}
+      },
+      "caption_files": [
+        "artifacts/video_desktop/page@1d93665ddce23a444f24876a6ad6e78b.vtt"
+      ],
+      "http_receipt": {
+        "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&nocache=",
+        "status": 200,
+        "cache_control": "no-cache, must-revalidate",
+        "pragma": "",
+        "cache_bust": false,
+        "passed": true
+      }
+    },
+    {
+      "name": "mobile_cb_token_headers_and_dom_rewrite",
+      "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&cb=1788320000",
+      "status": 200,
+      "cache_control": "no-store, must-revalidate",
+      "pragma": "no-cache",
+      "has_no_store": true,
+      "has_must_revalidate": true,
+      "token_in_dom": true,
+      "asset_url": "http://127.0.0.1:56374/frontend_v1/app.js?v=1788320000",
+      "expected_asset_token": "1788320000",
+      "asset_token": "1788320000",
+      "asset_token_match": true,
+      "screenshot": "artifacts/ui_cb_mobile_375x812.png",
+      "passed": true,
+      "settings_url": "http://127.0.0.1:56374/settings",
+      "settings_status": 200,
+      "settings_script": {
+        "url": "http://127.0.0.1:56374/frontend_v1/js/settings.js?v=1788320000",
+        "status": 200,
+        "asset_path": "/frontend_v1/js/settings.js",
+        "asset_query": {
+          "v": [
+            "1788320000"
+          ]
+        }
+      },
+      "step_ledger": [
+        {
+          "step": "before",
+          "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&cb=1788320000",
+          "git_sha": "300878325227b2b940081305351e38326960ce29",
+          "artifact": "artifacts/ui_cb_mobile_375x812.png"
+        },
+        {
+          "step": "action",
+          "url": "http://127.0.0.1:56374/settings",
+          "git_sha": "300878325227b2b940081305351e38326960ce29",
+          "artifact": "artifacts/ui_settings_action_mobile_375x812.png"
+        },
+        {
+          "step": "after",
+          "url": "http://127.0.0.1:56374/settings",
+          "git_sha": "300878325227b2b940081305351e38326960ce29",
+          "artifact": "artifacts/ui_settings_after_mobile_375x812.png"
+        }
+      ],
+      "caption_files": [
+        "artifacts/video_mobile/page@72953697b711c5d332e17a3d5232fe63.vtt"
+      ],
+      "media": {
+        "video": "artifacts/video_mobile/page@72953697b711c5d332e17a3d5232fe63.webm",
+        "captions": [
+          "artifacts/video_mobile/page@72953697b711c5d332e17a3d5232fe63.vtt"
+        ]
+      },
+      "http_receipt": {
+        "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true&cb=1788320000",
+        "status": 200,
+        "cache_control": "no-store, must-revalidate",
+        "pragma": "no-cache",
+        "cache_bust": true,
+        "passed": true
+      }
+    },
+    {
+      "name": "desktop_baseline_no_cache_bust",
+      "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true",
+      "status": 200,
+      "cache_control": "no-cache, must-revalidate",
+      "has_no_store": false,
+      "screenshot": "artifacts/ui_baseline_desktop_1440x900.png",
+      "passed": true,
+      "settings_url": "http://127.0.0.1:56374/settings",
+      "settings_status": 200,
+      "settings_script": {
+        "url": "http://127.0.0.1:56374/frontend_v1/js/settings.js",
+        "status": 200,
+        "asset_path": "/frontend_v1/js/settings.js",
+        "asset_query": {}
+      },
+      "caption_files": [
+        "artifacts/video_desktop/page@1d93665ddce23a444f24876a6ad6e78b.vtt"
+      ],
+      "http_receipt": {
+        "url": "http://127.0.0.1:56374/?test_mode=true&test_user_id=pr9087-cache-evidence&skip_redirect=true",
+        "status": 200,
+        "cache_control": "no-cache, must-revalidate",
+        "pragma": "",
+        "cache_bust": false,
+        "passed": true
+      }
+    }
+  ],
+  "publication_media": {
+    "desktop": {
+      "mp4": "artifacts/desktop-captioned.mp4",
+      "gif": "artifacts/desktop-captioned.gif",
+      "vtt": "artifacts/desktop-captioned.vtt",
+      "srt": "artifacts/desktop-captioned.srt",
+      "first_frame": "artifacts/desktop-first-frame.png"
+    },
+    "mobile": {
+      "mp4": "artifacts/mobile-captioned.mp4",
+      "gif": "artifacts/mobile-captioned.gif",
+      "vtt": "artifacts/mobile-captioned.vtt",
+      "srt": "artifacts/mobile-captioned.srt",
+      "first_frame": "artifacts/mobile-first-frame.png"
+    }
+  },
+  "git_sha": "300878325227b2b940081305351e38326960ce29",
+  "head_sha": "300878325227b2b940081305351e38326960ce29"
+}

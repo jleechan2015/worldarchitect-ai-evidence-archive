@@ -1,0 +1,9 @@
+{
+  "pr": 9087,
+  "head_sha": "300878325227b2b940081305351e38326960ce29",
+  "run_id": "pr9087-live-browser-fd4207a986744889ba9a537b5b0ec404",
+  "artifact_root": "pr-9087/300878325227b2b940081305351e38326960ce29",
+  "verdict": "PASS",
+  "scope": "real local Gunicorn plus real headless Chromium cache-control and Settings asset contract",
+  "does_not_prove": "CDN, reverse-proxy, or deployed Cloud Run edge-cache behavior"
+}

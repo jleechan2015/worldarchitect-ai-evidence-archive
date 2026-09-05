@@ -1,0 +1,30 @@
+{
+  "git_sha": "300878325227b2b940081305351e38326960ce29",
+  "claims": [
+    {
+      "claim": "nocache=1 returns strict no-store headers and versions app.js and settings.js with pr9087-evidence-revision",
+      "layer": "Layer 2 real-browser plus raw HTTP",
+      "artifacts": ["run.json", "artifacts/http_request_responses.jsonl", "artifacts/desktop-captioned.mp4"]
+    },
+    {
+      "claim": "cb=1788320000 returns strict no-store headers and versions app.js and settings.js with the exact caller token",
+      "layer": "Layer 2 real-browser plus raw HTTP",
+      "artifacts": ["run.json", "artifacts/http_request_responses.jsonl", "artifacts/mobile-captioned.mp4"]
+    },
+    {
+      "claim": "empty nocache and baseline omit no-store and do not add a v token",
+      "layer": "Layer 2 real-browser plus raw HTTP",
+      "artifacts": ["run.json", "artifacts/http_request_responses.jsonl"]
+    },
+    {
+      "claim": "the real local Gunicorn server served the exact tested SHA from its owned listener",
+      "layer": "Local process and exact-health provenance",
+      "artifacts": ["metadata.json", "artifacts/server_provenance.json", "artifacts/collection_log.txt"]
+    },
+    {
+      "claim": "desktop and mobile Settings transitions are visually reviewable with route, token, HTTP, and SHA captions",
+      "layer": "Layer 2 real-browser",
+      "artifacts": ["artifacts/desktop-captioned.gif", "artifacts/desktop-captioned.mp4", "artifacts/desktop-captioned.vtt", "artifacts/desktop-captioned.srt", "artifacts/mobile-captioned.gif", "artifacts/mobile-captioned.mp4", "artifacts/mobile-captioned.vtt", "artifacts/mobile-captioned.srt"]
+    }
+  ]
+}
