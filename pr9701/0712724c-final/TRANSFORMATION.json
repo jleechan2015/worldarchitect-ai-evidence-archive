@@ -1,0 +1,5 @@
+{
+  "source": "legacy-helper/{red,green}.cast",
+  "projection": "Disclosed host-path redaction in recorded strings; agg renders full sequence, ffmpeg adds separate caption strip. No terminal output invented or cropped. Initial blank before first actual output removed: RED0.805s, GREEN0.702s. Full source casts retained.",
+  "scope": "Deterministic helper unit contract; not real provider RED/GREEN"
+}
